@@ -72,7 +72,7 @@ const nuxtConfig: Configuration = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ ssr: false, src:'@/plugins/start'}],
+  plugins: [{ ssr: true, src:'@/plugins/start'}],
 
   /*
    ** Nuxt.js modules
