@@ -49,6 +49,7 @@ import { MetaInfo } from 'vue-meta';
     };
   },
 })
+
 export default class BlogPost extends Vue {
   post!: Post;
 }
