@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="my-4">
     <ul v-for="(page, index) in pages" :key="index">
-      <nuxt-link :to="`${page.slug}`">{{page.title}}</nuxt-link>
+      <nuxt-link :to="`/page/${page.slug}`">{{page.title}}</nuxt-link>
       <p>{{page.description}}</p>
     </ul>
   </div>

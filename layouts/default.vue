@@ -2,7 +2,7 @@
   <div>
     <site-header />
 
-    <b-container class="stretch">
+    <b-container style="align-items:start" class="stretch">
       <nuxt class="nuxt" />
     </b-container>
 

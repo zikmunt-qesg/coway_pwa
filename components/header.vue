@@ -12,7 +12,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item v-for="(page, index) in pages" :key="index" right>
-            <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
+            <nuxt-link :to="`/page/${page.slug}`">{{ page.title }}</nuxt-link>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>

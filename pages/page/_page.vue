@@ -1,7 +1,7 @@
 <template>
-  <article>
+  <article class="my-4">
     <h1>{{page.title}}</h1>
-    <div v-html="$md.render(page.content)" />
+    <div class="my-5" v-html="$md.render(page.content)" />
   </article>
 </template>
 <script>
