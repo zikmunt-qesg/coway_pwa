@@ -1,9 +1,25 @@
 <template>
-  <div class="container">
-    <nuxt />
+  <div>
+    <site-header />
+
+    <b-container class="stretch">
+      <nuxt class="nuxt" />
+    </b-container>
+
+    <site-footer />
   </div>
 </template>
+<script>
+import siteHeader from '@/components/header.vue'
+import siteFooter from '@/components/footer.vue'
 
+export default {
+  components: {
+    siteHeader,
+    siteFooter
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

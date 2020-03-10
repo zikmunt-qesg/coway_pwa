@@ -37,11 +37,11 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#0b3765' },
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/css/master.css', '@/assets/css/master_basic.css', '@/assets/css/custom.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -53,7 +53,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/markdownit'],
+  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/markdownit'],
+  bootstrapVue: {
+    bootstrapCSS: false, // Or `css: false`
+    bootstrapVueCSS: false // Or `bvCSS: false`
+  },
   markdownit: {
     injected: true
   },

@@ -1,16 +1,16 @@
 <template>
   <article>
-    <h1>{{blog_post.title}}</h1>
-    <div v-html="$md.render(blog_post.body)" />
+    <h1>{{page.title}}</h1>
+    <div v-html="$md.render(page.content)" />
   </article>
 </template>
 <script>
 export default {
   async asyncData({ params, payload }) {
-    if (payload) return { blog_post: payload }
+    if (payload) return { page: payload }
     else
       return {
-        blog_post: await require(`~/assets/content/blog/${params.blog}.json`)
+        page: await require(`~/assets/content/page/${params.page}.json`)
       }
   }
 }
