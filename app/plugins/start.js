@@ -21,8 +21,6 @@ library.add(faCheck, faHourglass, faSignInAlt, faSignOutAlt, faCaretLeft, faCare
 
 library.add(faConnectdevelop, faDigitalOcean, faHubspot)
 
-window.Vue = Vue
-
 cssVars({
   rootElement: document,
   shadowDOM: false,

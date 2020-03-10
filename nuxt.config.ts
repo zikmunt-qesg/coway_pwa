@@ -72,12 +72,12 @@ const nuxtConfig: Configuration = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ ssr: true, src:'@/plugins/start'}],
+  plugins: [{ ssr: false, src:'@/plugins/start'}],
 
   /*
    ** Nuxt.js modules
    */
-  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
+  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/pwa', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
 
   bootstrapVue:{
     bootstrapCSS: false,
@@ -148,7 +148,6 @@ const nuxtConfig: Configuration = {
       },
     ],
     '@nuxtjs/eslint-module',
-    //'@nuxtjs/tailwindcss',
     '@nuxtjs/dotenv'
   ],
 
