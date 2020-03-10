@@ -1,16 +1,16 @@
 <template>
   <div>
-    <ul v-for="(blogPost, index) in blogPosts" :key="index">
-      <nuxt-link :to="`blog/${blogPost.slug}`">{{blogPost.title}}</nuxt-link>
-      <p>{{blogPost.description}}</p>
+    <ul v-for="(blog_post, index) in blog_posts" :key="index">
+      <nuxt-link :to="`blog/${blog_post.slug}`">{{blog_post.title}}</nuxt-link>
+      <p>{{blog_post.description}}</p>
     </ul>
   </div>
 </template>
 <script>
 export default {
   computed: {
-    blogPosts() {
-      return this.$store.state.blogPosts
+    blog_posts() {
+      return this.$store.state.blog_posts
     }
   }
 }

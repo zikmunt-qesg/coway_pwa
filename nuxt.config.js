@@ -17,14 +17,21 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   generate: {
-    routes: function() {
+    routes: function () {
       const fs = require('fs')
-      return fs.readdirSync('./assets/content/blog').map(file => {
+      let blog_route = fs.readdirSync('./assets/content/blog').map(file => {
         return {
           route: `/blog/${file.slice(2, -5)}`,
           payload: require(`./assets/content/blog/${file}`)
         }
       })
+      let page_route = fs.readdirSync('./assets/content/page').map(file => {
+        return {
+          route: `/page/${file.slice(2, -5)}`,
+          payload: require(`./assets/content/page/${file}`)
+        }
+      })
+      return blog_route.concat(page_route)
     }
   },
   /*
@@ -57,6 +64,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 }
