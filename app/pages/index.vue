@@ -2,7 +2,7 @@
 
     <b-row class="my-5 items-center">
       <b-col class="justify-content-center col-12 col-lg-6">
-        <div v-html="$md.render(welcomeText)" />
+        <div v-html="$md.render(welcomeText)"></div>
 
         <div class="mb-12 xl:mb-0">
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
