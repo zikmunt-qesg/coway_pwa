@@ -49,7 +49,7 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Subtitle, name: subtitle, widget: text, required: false }
-      - { label: Content, name: content, widget: markdown }
+      - { label: Content, name: content, widget: text }
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
       - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
@@ -63,7 +63,7 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: 'Published At', name: publishedAt, widget: date, format: 'Do MMM YYYY' }
-      - { label: Content, name: content, widget: markdown }
+      - { label: Content, name: content, widget: text }
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
       - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }

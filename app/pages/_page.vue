@@ -1,10 +1,10 @@
 <template>
   <section :class="page.slug">
-    <h1 class="text-center py-8 py-md-16">
+    <h1 class="text-center py-4 py-md-5">
       {{ page.title }}
     </h1>
 
-    <div v-html="$md.render(page.content)" class="pt-4 pt-md-6 pb-md-24" />
+    <div v-html="$md.render(page.content)" class="pt-3 pt-md-5 pb-md-5" />
   </section>
 </template>
 
