@@ -8,6 +8,12 @@
 </template>
 <script>
 export default {
+  transition(to, from) {
+    if (!from) {
+      return 'slide-left'
+    }
+    return 'slide-right'
+  },
   computed: {
     pages() {
       return this.$store.state.pages

@@ -8,6 +8,12 @@
 </template>
 <script>
 export default {
+  transition(to, from) {
+    if (!from) {
+      return 'slide-left'
+    }
+    return 'slide-right'
+  },
   computed: {
     blog_posts() {
       return this.$store.state.blog_posts

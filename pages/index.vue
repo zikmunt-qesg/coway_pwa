@@ -20,6 +20,12 @@
 
 <script>
 export default {
+  transition(to, from) {
+    if (!from) {
+      return 'slide-left'
+    }
+    return 'slide-right'
+  },
   components: {},
   head() {
     return {

@@ -6,6 +6,12 @@
 </template>
 <script>
 export default {
+  transition(to, from) {
+    if (!from) {
+      return 'slide-left'
+    }
+    return 'slide-right'
+  },
   async asyncData({ params, payload }) {
     if (payload) return { blog_post: payload }
     else
