@@ -77,7 +77,7 @@ const nuxtConfig: Configuration = {
   /*
    ** Nuxt.js modules
    */
-  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/pwa', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
+  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
 
   bootstrapVue:{
     bootstrapCSS: false,
