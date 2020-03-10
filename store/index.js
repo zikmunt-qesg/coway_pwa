@@ -31,6 +31,7 @@ export const actions = {
       false,
       /\.json$/
     )
+
     let pages = files2.keys().map(key => {
       let res = files2(key)
       res.slug = key.slice(2, -5)
