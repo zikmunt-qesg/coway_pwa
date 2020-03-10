@@ -1,7 +1,7 @@
 <template>
   <footer class="footer mx-0">
-    <b-container class="pb-6 d-flex justify-content-center">
-      <span> (C)코웨이 </span>
+    <b-container class="pb-3">
+      <span>(C)코웨이</span>
     </b-container>
   </footer>
 </template>
