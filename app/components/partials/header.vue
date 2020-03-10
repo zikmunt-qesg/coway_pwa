@@ -1,6 +1,6 @@
 <template>
   <header>
-    <b-navbar toggleable="lg" type="dark" variant="second">
+    <b-navbar class="px-4" toggleable="lg" type="dark" variant="light">
       <b-navbar-brand>
       <nuxt-link to="/">
         <img :src="logo" alt="Logo" />
@@ -10,8 +10,8 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item v-for="(page, index) in pages" :key="index"><nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link></b-nav-item>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item v-for="(page, index) in pages" :key="index" right><nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link></b-nav-item>
       </b-navbar-nav>
     </b-collapse>
 

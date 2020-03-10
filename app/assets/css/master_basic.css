@@ -255,6 +255,10 @@ table {
 
 /* basic buttons */
 
+.btn{
+    border-radius: 0.25rem;
+}
+
 .btn-light{
     background-color: var(--gray-50);
     color: var(--gray-700);

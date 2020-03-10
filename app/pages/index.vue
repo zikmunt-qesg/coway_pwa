@@ -1,8 +1,8 @@
 <template>
-  <section class="home">
-    <b-row class="py-24 py-md-36 mx-auto d-flex items-center">
-      <b-col class="d-flex justify-content-center">
-        <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
+
+    <b-row class="my-5 items-center">
+      <b-col class="justify-content-center col-12 col-lg-6">
+        <div v-html="$md.render(welcomeText)" />
 
         <div class="mb-12 xl:mb-0">
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
@@ -25,19 +25,20 @@
             />
 
             <b-button
-              class="border-4 text-white py-1 px-2 rounded"
+              class="py-1 px-2"
               type="submit"
+              variant="dark"
             >
               Sign Up
             </b-button>
           </b-form>
         </div>
       </b-col>
-      <div class="flex flex-col w-full xl:w-2/5">
-        <img class="rounded shadow-xl" src="https://source.unsplash.com/random/720x400" />
-      </div>
+      <b-col>
+        <b-img fluid class="rounded shadow-xl" src="https://source.unsplash.com/random/720x400" />
+      </b-col>
     </b-row>
-  </section>
+
 </template>
 
 <script lang="ts">

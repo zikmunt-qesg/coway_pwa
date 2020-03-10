@@ -1,8 +1,8 @@
 <template>
-  <main :class="[$route.name]" class="main px-4 px-md-0">
+  <main :class="[$route.name]" class="main px-0">
     <site-header />
-    
-    <b-container>
+
+    <b-container class="stretch">
       <nuxt class="nuxt" />
     </b-container>
 
@@ -33,5 +33,9 @@ export default class DefaultLayout extends Vue {}
 
 .nuxt {
   transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.stretch{
+  min-height: 91.6vh
 }
 </style>
