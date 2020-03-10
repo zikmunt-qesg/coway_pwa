@@ -2,8 +2,8 @@
   <div>
     <b-row class="my-5">
       <b-col class="justify-content-center col-12 col-lg-6">
-        <div class="title">코웨이 2020 지속가능 웹보고서 Mockup</div>
-        <div class="subtitle">코웨이 2020 지속가능보고서 콘텐츠 및 구조 작성용 웹사이트입니다. 페이지 디자인 작업 이후 7월 퍼블리싱될 예정입니다.</div>
+        <div class="title">코웨이 2020 지속가능성 웹보고서 Mockup</div>
+        <div class="subtitle">코웨이 2020 지속가능성보고서 콘텐츠 및 구조 작성용 웹사이트입니다. 페이지 디자인 작업 이후 7월 퍼블리싱될 예정입니다.</div>
       </b-col>
       <b-col>
         <b-img fluid class="rounded shadow-xl" src="https://source.unsplash.com/random/720x400" />
