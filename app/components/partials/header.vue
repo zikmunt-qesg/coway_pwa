@@ -3,7 +3,7 @@
     <b-navbar class="px-4" toggleable="lg" type="dark" variant="light">
       <b-navbar-brand>
       <nuxt-link to="/">
-        <img :src="logo" alt="Logo" />
+        <b-img width="200" :src="logo" alt="Logo" />
       </nuxt-link>
       </b-navbar-brand>
     
