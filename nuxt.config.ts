@@ -52,7 +52,7 @@ const nuxtConfig: Configuration = {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/main.scss','@/assets/css/custom.scss', '@/assets/css/master.css'],
+  css: ['@/assets/css/main.scss','@/assets/css/custom.scss', '@/assets/css/master.css', '@/assets/css/master_basic.css'],
 
   styleResources: {
     //scss: ['~assets/css/_variables.scss', '~assets/css/_mixins.scss'],
