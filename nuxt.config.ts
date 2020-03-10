@@ -1,3 +1,6 @@
+
+require('dotenv').config()
+
 import { Configuration } from '@nuxt/types';
 import fg from 'fast-glob';
 import settings from './app/content/settings/general.json';
@@ -49,10 +52,10 @@ const nuxtConfig: Configuration = {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/main.scss'],
+  css: ['@/assets/css/main.scss','@/assets/css/custom.scss', '@/assets/css/master.css'],
 
   styleResources: {
-    scss: ['~assets/css/_variables.scss', '~assets/css/_mixins.scss'],
+    //scss: ['~assets/css/_variables.scss', '~assets/css/_mixins.scss'],
   },
 
   generate: {
@@ -69,12 +72,17 @@ const nuxtConfig: Configuration = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ ssr: false, src:'@/plugins/start'}],
 
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
+  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/pwa', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
+
+  bootstrapVue:{
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
+  },
 
   purgeCSS: {
     whitelist: [/.*-(enter|enter-active|enter-to|leave|leave-active|leave-to)/],
@@ -140,7 +148,8 @@ const nuxtConfig: Configuration = {
       },
     ],
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss',
+    //'@nuxtjs/tailwindcss',
+    '@nuxtjs/dotenv'
   ],
 
   build: {
