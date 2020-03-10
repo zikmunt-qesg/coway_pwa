@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4">
+  <div class="my-4 pt-2">
     <ul v-for="(page, index) in pages" :key="index">
       <nuxt-link :to="`/page/${page.slug}`">{{page.title}}</nuxt-link>
       <p>{{page.description}}</p>

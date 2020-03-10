@@ -2,11 +2,11 @@
 @import url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-otf@0.0.3/index.css');
 
 html {
-    font-size: 14px;
+    font-size: 1em;
 }
-@media (max-width: 500px) {
+@media (max-width: 640px) {
     html {
-        font-size: 12px;
+        font-size: 0.9em;
     }
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 body, button {
-    font-family: 'Noto Sans KR';
+    font-family:'Noto Sans KR';
     word-break: keep-all;
     line-height: 1.6;
 }
@@ -27,6 +27,11 @@ body, button {
 .header-logo{
     max-width: 150px;
     min-width: 120px;
+}
+
+a {
+    font-weight: bold;
+    color: #526488;
 }
 
 
@@ -588,18 +593,6 @@ button.close:hover {
     opacity: 1 !important;
     align-self: center !important;
 }
-/* div.modal-content > header#my-direct-message___BV_modal_header_ , div.modal-content > header#my-sent-direct-message___BV_modal_header_{
-    background-color: rgba(0,0,0,0);
-    height:25px;
-}
-div.modal-content > header#my-direct-message___BV_modal_header_ > button,
-div.modal-content > header#my-sent-direct-message___BV_modal_header_ > button {
-    margin-top: 0.3rem!important;
-}
-
-div.modal-body > div.message-modal-body  {
-    padding: 0 1.2rem;
-} */
   
 
 /*toast*/

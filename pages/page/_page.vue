@@ -1,5 +1,5 @@
 <template>
-  <article class="my-4">
+  <article class="my-5 pt-2">
     <h1>{{page.title}}</h1>
     <div class="my-5" v-html="$md.render(page.content)" />
   </article>
