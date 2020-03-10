@@ -22,7 +22,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
   - name: 'page'
     label: 'Page'
-    folder: 'app/content/page'
+    folder: 'assets/content/page'
     create: true
     format: 'json'
     slug: '{{slug}}'
