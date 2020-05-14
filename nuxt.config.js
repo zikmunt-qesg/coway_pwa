@@ -61,7 +61,8 @@ export default {
     bootstrapVueCSS: false // Or `bvCSS: false`
   },
   markdownit: {
-    injected: true
+    injected: true,
+    html: true
   },
   /*
    ** Build configuration
