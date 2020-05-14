@@ -2,8 +2,7 @@
   <article class="my-5 pt-2">
     <h1>{{page.title}}</h1>
     <client-only>
-      <div class="my-5" v-html="$md.render(page.content)"></div>
-      {{ $md.render(page.content) }}
+      <dynamic-renderer :body="$md.render(page.content)"></dynamic-renderer>
     </client-only>
     <!--<client-only>
       <component :is="dynamicComponent" />
