@@ -10,7 +10,6 @@ collections:
     label: 'Blog'
     folder: 'assets/content/blog'
     create: true
-    format: 'markdown'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
@@ -24,7 +23,6 @@ collections:
     label: 'Page'
     folder: 'assets/content/page'
     create: true
-    format: 'markdown'
     slug: '{{slug}}'
     editor:
       preview: false
