@@ -1,7 +1,10 @@
 <template>
   <article class="my-5 pt-2">
     <h1>{{page.title}}</h1>
-    <div class="my-5" v-html="$md.render(page.content)"></div>
+    <client-only>
+      <div class="my-5" v-html="$md.render(page.content)"></div>
+      {{ $md.render(page.content) }}
+    </client-only>
     <!--<client-only>
       <component :is="dynamicComponent" />
       <div class="my-5" v-html="page.body"></div>

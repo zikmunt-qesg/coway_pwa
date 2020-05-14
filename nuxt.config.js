@@ -75,13 +75,13 @@ export default {
      */
     extend(config, ctx) {
       // add frontmatter-markdown-loader
-      config.module.rules.push({
-        test: /\.md$/,
-        loader: "frontmatter-markdown-loader",
-        options: {
-          mode: [FMMode.VUE_COMPONENT, FMMode.META]
-        }
-      })
+      //config.module.rules.push({
+      //  test: /\.md$/,
+      //  loader: "frontmatter-markdown-loader",
+      //  options: {
+      //    mode: [FMMode.VUE_COMPONENT, FMMode.META]
+      //  }
+      //})
     }
   },
 }
