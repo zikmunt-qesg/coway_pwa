@@ -1,6 +1,6 @@
 export const state = () => ({
   blog_posts: [],
-  pages: []
+  pages: [],
 })
 
 export const mutations = {
