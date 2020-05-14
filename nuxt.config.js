@@ -64,7 +64,7 @@ export default {
   },
   markdownit: {
     injected: true,
-    html: false
+    html: true
   },
   /*
    ** Build configuration
