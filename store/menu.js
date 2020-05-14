@@ -79,7 +79,7 @@ export const state = () => ({
                 },
                 {
                     title: '이해관계자 참여 및 중요 주제',
-                    link: '/static_page/이해관계자 참여 및 중요 주제',
+                    link: '/static_page/이해관계자-참여-및-중요-주제',
                     child:
                         [
                             {
@@ -184,7 +184,7 @@ export const state = () => ({
                 },
                 {
                     title: '친환경 제품 개발과 제품 생애주기 관리',
-                    link: '/satic_page/친환경-제품-개발과-제품-생애주기-관리',
+                    link: '/static_page/친환경-제품-개발과-제품-생애주기-관리',
                     child:
                         [
                             {

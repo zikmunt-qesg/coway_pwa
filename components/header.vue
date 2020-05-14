@@ -23,6 +23,7 @@
       </b-navbar>
       <div
         v-if="show_sub_menu==true"
+        class="d-none d-lg-block"
         style="background-color: white; position:absolute; left: 40px; right: 40px; border:1px; border-style:solid; border-color:black; z-index: 9999"
         @mouseleave="show_sub_menu=false"
       >
