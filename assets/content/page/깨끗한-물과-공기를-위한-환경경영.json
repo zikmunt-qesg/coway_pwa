@@ -1,4 +1,4 @@
 {
   "title": "깨끗한 물과 공기를 위한 환경경영",
-  "content": "<a href=\"main\">테스트입니다.</a>\n\n이거 이렇게 넣으면 어떻게 되는지 보여주세요."
+  "content": "<a href=\"main\">테스트입니다.</a>\n\n<global-component></global-component>\n\n이거 이렇게 넣으면 어떻게 되는지 보여주세요."
 }
