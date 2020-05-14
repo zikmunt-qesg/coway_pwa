@@ -1,3 +1,5 @@
+import FMMode from 'frontmatter-markdown-loader/mode'
+
 export default {
   mode: 'universal',
   /*
@@ -62,7 +64,7 @@ export default {
   },
   markdownit: {
     injected: true,
-    html: true
+    html: false
   },
   /*
    ** Build configuration
@@ -71,6 +73,15 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { }
-  }
+    extend(config, ctx) {
+      // add frontmatter-markdown-loader
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: "frontmatter-markdown-loader",
+        options: {
+          mode: [FMMode.VUE_COMPONENT, FMMode.META]
+        }
+      })
+    }
+  },
 }
