@@ -7,7 +7,7 @@ export const state = () => ({
             child: [
                 {
                     title: '제품과 서비스의 혁신',
-                    link: '/page/제품과-서비스의-혁신',
+                    link: '/static_page/제품과-서비스의-혁신',
                     child:
                         [
                             {
@@ -24,7 +24,7 @@ export const state = () => ({
                 },
                 {
                     title: '제품 책임',
-                    link: '/page/제품-책임',
+                    link: '/static_page/제품-책임',
                     child:
                         [
                             {
@@ -40,7 +40,7 @@ export const state = () => ({
                 },
                 {
                     title: '데이터 및 개인정보보호',
-                    link: '/page/데이터-및-개인정보보호',
+                    link: '/static_page/데이터-및-개인정보보호',
                     child:
                         [
                             {
@@ -62,11 +62,11 @@ export const state = () => ({
             child: [
                 {
                     title: 'CEO 메시지',
-                    link: '/page/CEO-메시지'
+                    link: '/static_page/CEO-메시지'
                 },
                 {
                     title: '가치창출 프로세스',
-                    link: '/page/가치창출-프로세스',
+                    link: '/static_page/가치창출-프로세스',
                     child:
                         [
                             {
@@ -79,7 +79,7 @@ export const state = () => ({
                 },
                 {
                     title: '이해관계자 참여 및 중요 주제',
-                    link: '/page/이해관계자 참여 및 중요 주제',
+                    link: '/static_page/이해관계자 참여 및 중요 주제',
                     child:
                         [
                             {
@@ -95,7 +95,7 @@ export const state = () => ({
                 },
                 {
                     title: '지배구조',
-                    link: '/page/지배구조',
+                    link: '/static_page/지배구조',
                     child:
                         [
                             {
@@ -117,7 +117,7 @@ export const state = () => ({
                 },
                 {
                     title: '윤리경영',
-                    link: '/page/윤리경영',
+                    link: '/static_page/윤리경영',
                     child:
                         [
                             {
@@ -133,7 +133,7 @@ export const state = () => ({
                 },
                 {
                     title: '리스크관리',
-                    link: '/page/리스크관리',
+                    link: '/static_page/리스크관리',
                     child:
                         [
                             {
@@ -146,7 +146,7 @@ export const state = () => ({
                 },
                 {
                     title: '경제적가치 창출과 분배',
-                    link: '/page/경제적-가치-창출과-분배',
+                    link: '/static_page/경제적-가치-창출과-분배',
                     child:
                         [
                             {
@@ -168,7 +168,7 @@ export const state = () => ({
             child: [
                 {
                     title: '깨끗한 물과 공기를 위한 환경경영',
-                    link: '/page/깨끗한-물과-공기를-위한-환경경영',
+                    link: '/static_page/깨끗한-물과-공기를-위한-환경경영',
                     child:
                         [
                             {
@@ -184,7 +184,7 @@ export const state = () => ({
                 },
                 {
                     title: '친환경 제품 개발과 제품 생애주기 관리',
-                    link: '/page/친환경-제품-개발과-제품-생애주기-관리',
+                    link: '/satic_page/친환경-제품-개발과-제품-생애주기-관리',
                     child:
                         [
                             {
@@ -197,7 +197,7 @@ export const state = () => ({
                 },
                 {
                     title: '기후변화 대응',
-                    link: '/page/기후변화-대응',
+                    link: '/static_page/기후변화-대응',
                     child:
                         [
                             {
@@ -220,7 +220,7 @@ export const state = () => ({
                 [
                     {
                         title: '인재 육성 및 커뮤니케이션',
-                        link: '/page/인재-육성-및-커뮤니케이션',
+                        link: '/static_page/인재-육성-및-커뮤니케이션',
                         child:
                             [
                                 {
@@ -233,7 +233,7 @@ export const state = () => ({
                     },
                     {
                         title: '다양성 기반의 기업문화와 안전한 근무환경',
-                        link: '/page/다양성-기반의-기업문화와-안전한-근무환경',
+                        link: '/static_page/다양성-기반의-기업문화와-안전한-근무환경',
                         child:
                             [
                                 {
@@ -249,7 +249,7 @@ export const state = () => ({
                     },
                     {
                         title: '라이프케어 전문 파트너 양성',
-                        link: '/page/라이프케어-전문-파트너-양성',
+                        link: '/static_page/라이프케어-전문-파트너-양성',
                         child:
                             [
                                 {
@@ -262,7 +262,7 @@ export const state = () => ({
                     },
                     {
                         title: '동반성장',
-                        link: '/page/동반성장',
+                        link: '/static_page/동반성장',
                         child:
                             [
                                 {
@@ -275,7 +275,7 @@ export const state = () => ({
                     },
                     {
                         title: '지역사회 참여',
-                        link: '/page/지역사회-참여',
+                        link: '/static_page/지역사회-참여',
                         child:
                             [
                                 {
@@ -291,7 +291,7 @@ export const state = () => ({
                     },
                     {
                         title: '협력회사 CSR 리포트',
-                        link: '/page/협력회사-CSR-리포트',
+                        link: '/static_page/협력회사-CSR-리포트',
                         child:
                             [
                                 {
@@ -307,7 +307,7 @@ export const state = () => ({
                     },
                     {
                         title: '인권보호 리포트',
-                        link: '/page/인권보호-리포트',
+                        link: '/static_page/인권보호-리포트',
                         child:
                             [
                                 {
@@ -327,23 +327,23 @@ export const state = () => ({
                 [
                     {
                         title: '정책 및 이니셔티브',
-                        link: '/page/정책-및-이니셔티브'
+                        link: '/static_page/정책-및-이니셔티브'
                     },
                     {
                         title: '데이터 센터',
-                        link: '/page/데이터-센터'
+                        link: '/static_page/데이터-센터'
                     },
                     {
                         title: '보고 프레임워크 인덱스',
-                        link: '/page/보고-프레임워크-인덱스'
+                        link: '/static_page/보고-프레임워크-인덱스'
                     },
                     {
                         title: '보고 범위 및 검증',
-                        link: '/page/보고-범위-및-검증'
+                        link: '/static_page/보고-범위-및-검증'
                     },
                     {
                         title: 'Sustainability News',
-                        link: '/page/Sustainabiilty-News'
+                        link: '/static_page/Sustainabiilty-News'
                     }
                 ]
         }
