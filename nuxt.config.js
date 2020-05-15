@@ -1,5 +1,3 @@
-import FMMode from 'frontmatter-markdown-loader/mode'
-
 export default {
   mode: 'universal',
   /*
