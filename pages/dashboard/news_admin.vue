@@ -1,5 +1,5 @@
 <template>
-  <iframe class="fullbody" ref="iframe" src="http://cowaypwa.dataflare.net/admin"></iframe>
+  <iframe class="fullbody" ref="iframe" src="https://cowaypwa.dataflare.net/admin"></iframe>
 </template>
 <script>
 export default {
