@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/markdownit": "^1.2.6",
     "bootstrap-vue": "^2.6.1",
     "frontmatter-markdown-loader": "^3.4.3",

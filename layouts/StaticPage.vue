@@ -17,6 +17,14 @@ export default {
   components: {
     siteHeader,
     siteFooter
+  },
+  mounted() {
+    if (process.browser) {
+      this.$gtag('config', 'UA-XXXX-XXX', {
+        page_title: this.$metaInfo.title,
+        page_path: this.$route.fullPath
+      })
+    }
   }
 }
 </script>
