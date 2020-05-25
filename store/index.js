@@ -1,4 +1,5 @@
 export const state = () => ({
+
   blog_posts: [],
   pages: [],
 })
