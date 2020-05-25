@@ -2,9 +2,7 @@
   <div>
     <site-header />
 
-    <b-container class="stretch">
       <nuxt class="nuxt" />
-    </b-container>
 
     <site-footer />
   </div>

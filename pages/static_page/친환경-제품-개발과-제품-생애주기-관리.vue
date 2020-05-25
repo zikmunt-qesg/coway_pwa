@@ -1,6 +1,6 @@
 <template>
   <b-row>
-    <b-col class="d-none d-lg-block col-lg-3 sticky">
+    <b-col class="d-none d-lg-block col-lg-3">
       <li>친환경 제품과 서비스, 비즈니스 설계</li>
       <li>전과정 평가와 제품 책임</li>
       <li>친환경 제품 인증 획득</li>

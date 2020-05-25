@@ -2,7 +2,7 @@
 export const state = () => ({
     menu: [
         {
-            title: 'Material Topic',
+            title: '2019 MATERIAL TOPICS',
             link: '#',
             child: [
                 {
@@ -57,7 +57,7 @@ export const state = () => ({
             ]
         },
         {
-            title: 'Care for Sustainability',
+            title: 'CARE FOR SUSTAINABILITY',
             link: '#',
             child: [
                 {
@@ -163,7 +163,7 @@ export const state = () => ({
             ]
         },
         {
-            title: 'Care for Environment',
+            title: 'CARE FOR ENVIRONMENT',
             link: '#',
             child: [
                 {
@@ -214,7 +214,7 @@ export const state = () => ({
             ]
         },
         {
-            title: 'Care for Society',
+            title: 'CARE FOR SOCIETY',
             link: '#',
             child:
                 [
@@ -321,7 +321,7 @@ export const state = () => ({
                 ]
         },
         {
-            title: 'Data and Frameworks',
+            title: 'DATA AND FRAMEWORKS',
             link: '#',
             child:
                 [

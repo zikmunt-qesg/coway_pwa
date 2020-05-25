@@ -1,6 +1,19 @@
 
+.side-nav {
+    background-color: white;
+    padding: 2em 1.4em;
+}
 
-/*modify-modal*/
+.side-nav-link{
+    margin-bottom: 0.7em;
+}
+
+.dma{
+    background-color: var(--blue-gray1);
+    padding: 1.8em 3.8em;
+}
+
+
 @media (max-width: 768px) {
     #modify-modal-top > .modal-dialog{
       position: absolute !important;
@@ -18,7 +31,6 @@
         min-width: 500px;
         position: absolute !important;
         margin: 0.5rem !important;
-        /* top: 10px; */
         bottom: 10px !important;
         pointer-events: none;
         right: 10px !important;
@@ -51,7 +63,6 @@
         min-width: 600px;
         position: absolute !important;
         margin: 0.5rem !important;
-        /* top: 10px; */
         bottom: 10px !important;
         pointer-events: none;
         right: 10px !important;
@@ -83,7 +94,6 @@
         min-width: 800px;
         position: absolute !important;
         margin: 0.5rem !important;
-        /* top: 10px; */
         bottom: 10px !important;
         pointer-events: none;
         right: 10px !important;
@@ -168,7 +178,7 @@
   }
   
   /*matrix-list-items*/
-  .matrix-list-item{
+  /* .matrix-list-item{
     border-style: solid;
     border-color: var(--gray-300);
     border-width: thin;
@@ -181,87 +191,7 @@
   .matrix-list-item-header{
     background-color: var(--gray-300);
   }
-  
-  /*edit-button*/
-  
-  .edit-button{
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    border-color: transparent;
-    background-color: transparent;
-    color: var(--gray-500);
-    cursor: pointer;
-  }
-  
-  .edit-button:hover{
-    border-color: var(--gray-500);
-    background-color: var(--gray-500);
-    color: var(--gray-900);
-  }
-  
-  .edit-button:focus{
-    border-color: transparent;
-    background-color: transparent;
-    color: var(--gray-500);
-    box-shadow: none;
-  }
-  
-  .small-arrow-up{
-    font-size: 1.1em;
-    margin-bottom: -0.3rem;
-    cursor: pointer;
-    color: var(--gray-400);
-  }
-  
-  .small-arrow-up:hover{
-    color: var(--gray-800);
-  }
-  
-  .small-arrow-down{
-    font-size: 1.1em;
-    margin-top: -0.3rem;
-    cursor: pointer;
-    color: var(--gray-400)
-  }
-  
-  .small-arrow-down:hover{
-    color: var(--gray-800);
-  }
-  
-  .borderless-button{
-    font-size: 1.1em;
-    cursor: pointer;
-    color: var(--gray-400);
-    border: none;
-    background-color: transparent;
-  }
-  
-  .borderless-button:hover{
-    cursor: pointer;
-    color: var(--gray-800);
-  }
-  
-  .borderless-button:active{
-    box-shadow: none;
-  }
-  
-  .btn-custom4 {
-    border-color: var(--dpink);
-    color: var(--dpink);
-    border-width: thin;
-    border-radius: 0.2rem;
-    font-size: 0.9em;
-    font-weight: 400;
-  }
-  
-  .btn-custom4:hover {
-    color: white;
-    background-color: var(--dpink);
-    border-color: var(--gray-100);
-  }
-  
+
   .performance-table{
     border: none;
   }
@@ -298,7 +228,7 @@
     border-width: 0.1em;
     border-color: var(--gray-400);
     cursor: pointer;
-  }
+  } */
   
   /*transition*/
   
