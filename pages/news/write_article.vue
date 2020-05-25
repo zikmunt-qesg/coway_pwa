@@ -33,8 +33,7 @@ import axios from 'axios'
 export default {
   async asyncData({ query, store }) {
     if (query.id) {
-      const path =
-        store.state.articles.backend_host + '/api/get_file_from_server'
+      const path = store.state.articles.backend_host + '/get_file_from_server'
       let file = store.state.articles.articles.find(item => item.id == query.id)
       let filename = null
       if (file != undefined) {
