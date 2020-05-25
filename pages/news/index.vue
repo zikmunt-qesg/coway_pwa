@@ -2,11 +2,11 @@
   <div>
     <div v-for="item in articles" :Key="item.id">
       {{ item.title }}
-      <b-button @click="$router.push('write_article?id='+item.id)">수정</b-button>
+      <b-button @click="$router.push('news/write_article?id='+item.id)">수정</b-button>
       <b-button>삭제</b-button>
     </div>
     <div>
-      <b-button @click="$router.push('write_article')">새 글쓰기</b-button>
+      <b-button @click="$router.push('news/write_article')">새 글쓰기</b-button>
     </div>
   </div>
 </template>
