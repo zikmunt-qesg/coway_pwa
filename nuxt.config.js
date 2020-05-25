@@ -1,3 +1,6 @@
+const ansiRegex = require('ansi-regex')
+require('dotenv').config()
+
 export default {
   mode: 'universal',
   /*
@@ -17,6 +20,9 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans+KR' }
     ],
+  },
+  env: {
+    backend_host: process.env.BACKEND_HOST || 'http://backend.dataflare.net/api'
   },
   generate: {
     routes: function () {
@@ -94,4 +100,5 @@ export default {
       //})
     }
   },
+  transpileDependencies: [ansiRegex]
 }
