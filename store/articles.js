@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 export const state = () => ({
 
-    backend_host: 'http://localhost:5000/api',
+    backend_host: 'http://home.francis.kr:5000/api',
 
     articles: [],
     is_articles_loaded: false
