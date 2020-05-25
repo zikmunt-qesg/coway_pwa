@@ -1,24 +1,19 @@
 <template>
   <div>
-    <site-header />
-
-    <b-container class="stretch">
-      <nuxt class="nuxt" />
-    </b-container>
-
-    <site-footer />
+    <div v-for="item in articles" :Key="item.id">
+      {{ item.title }}
+      <b-button @click.stop.prevent="$router.push({ path: `write_article?id=${item.id}` })">수정</b-button>
+      <b-button>삭제</b-button>
+    </div>
+    <div>
+      <b-button @click.stop.prevent="$router.push({path: 'write_article'})">새 글쓰기</b-button>
+    </div>
   </div>
 </template>
 <script>
 import { mapState, mapActions } from 'vuex'
-import siteHeader from '@/components/header.vue'
-import siteFooter from '@/components/footer.vue'
 
 export default {
-  components: {
-    siteHeader,
-    siteFooter
-  },
   computed: {
     ...mapState('articles', {
       articles: state => state.articles,
@@ -38,8 +33,4 @@ export default {
   }
 }
 </script>
-<style>
-.stretch {
-  min-height: 92vh;
-}
-</style>
+-
