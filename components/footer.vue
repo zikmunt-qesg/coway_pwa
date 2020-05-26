@@ -30,6 +30,7 @@
             </p>
         </div>
     </b-container>
+    
 </div>
 </template>
 

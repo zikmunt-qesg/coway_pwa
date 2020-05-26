@@ -92,6 +92,10 @@ hr {
     height: 80%;
 }
 
+.cursor{
+    cursor: pointer;
+}
+
 /*font-size*/
 .f-230{
     font-size: 2.3rem;
@@ -185,7 +189,9 @@ hr {
 .gray6{
     color: var(--gray6);
 }
-
+.gray5{
+    color: var(--gray5);
+}
 .gray4{
     color: var(--gray4);
 }

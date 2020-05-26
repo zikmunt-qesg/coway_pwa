@@ -75,7 +75,7 @@
                         </p>
                     <hr class="space-p25">
                     <h6 class="fw-500 mb-45">코웨이 환경경영 방침</h6>
-                        <div class="row">
+                        <div class="row force-deflex">
                             <div class="col">
                                 <div class="temp-icon4 mb-3"></div>
                                 <p>친환경 비즈니스에 지속적인 투자와 혁신을 통해 코웨이 지속가능성 강화와 글로벌 친환경기업 리더십을 확보한다.
@@ -138,19 +138,19 @@
                     </div>
                     <div class="w-50 border-right-bold mb-4" style="height:45px;"></div>
                     <b-row class="border-top-bottom-bold bg-white py-4">
-                        <b-col class="col-3">
+                        <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
                             <div class="temp-icon6 mx-auto mb-3"></div>
                             <p class="mb-0">친환경 / 착한 브랜드 구축 및 극대화 </p>
                         </b-col>
-                        <b-col class="col-3">
+                        <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
                             <div class="temp-icon6 mx-auto mb-3"></div>
                             <p class="mb-0">Eco-Biz 구축 및 향상 착한 선순환 수익 구조 확립 </p>
                         </b-col>
-                        <b-col class="col-3">
+                        <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
                             <div class="temp-icon6 mx-auto mb-3"></div>
                             <p class="mb-0">Eco-Balue Chain 구축 / 운영 환경 안전 사전 예방</p>
                         </b-col>
-                        <b-col class="col-3">
+                        <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
                             <div class="temp-icon6 mx-auto mb-3"></div>
                             <p class="mb-0">친환경 소통과 참여 확대 Eco DNA 내재화 </p>
                         </b-col>
