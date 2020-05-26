@@ -1,5 +1,6 @@
 <template>
   <div>
+    <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
     <admin-header />
 
     <div class="d-flex">
