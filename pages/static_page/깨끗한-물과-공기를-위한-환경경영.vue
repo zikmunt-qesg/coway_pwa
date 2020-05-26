@@ -58,8 +58,8 @@
                                 <h5 class="dma-title mb-3 w-100">Performance</h5>
                                 <b-row no-gutters class="align-items-center"> 
                                     <b-col class="col-7">
-                                        <p class="fw-500"><b>2050년</b>까지 <span class="f-140">물 재활용률</span></p>
-                                        <p class="fw-500"><b>2030년</b>까지 <span class="f-140">폐기물 재활용률</span></p>
+                                        <p class="fw-500">2050년 까지 <span class="f-120">물 재활용률</span></p>
+                                        <p class="fw-500">2030년 까지 <span class="f-120">폐기물 재활용률</span></p>
                                     </b-col>
                                     <b-col class="col-5"><div class="temp-icon3 mx-auto mb-3"></div></b-col>
                                 </b-row>

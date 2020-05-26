@@ -14,7 +14,11 @@
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="ml-3">
                     <b-nav-item v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" right>
-                        <nuxt-link :to="`${item.link}`" class="global-nav-lv1">{{ item.title }}</nuxt-link>
+                        <nuxt-link :to="`${item.link}`" class="global-nav-lv1 f-85">{{ item.title }}</nuxt-link>
+                    </b-nav-item>
+                    <b-nav-item>
+                        <div class="f-80">KOR | ENG</div>
+                        <div class="f-80">KOR | ENG</div>
                     </b-nav-item>
                     <!--<b-nav-item v-for="(page, index) in pages" :key="index" right>
                             <nuxt-link :to="`/page/${page.slug}`">{{ page.title }}</nuxt-link>
@@ -99,7 +103,6 @@ export default {
 .global-nav-lv1 {
     color: var(--gray6);
     padding: 0 0.75em;
-    font-size: 0.9rem;
 }
 .global-nav-lv1:hover {
     font-weight: 600;
