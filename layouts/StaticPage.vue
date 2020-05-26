@@ -1,5 +1,6 @@
 <template>
   <div>
+    <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
     <site-header />
 
     <b-container class="mt-4 stretch">
