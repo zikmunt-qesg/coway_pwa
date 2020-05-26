@@ -22,6 +22,7 @@ body, button {
     font-family:'Noto Sans KR';
     word-break: keep-all;
     line-height: 1.6;
+    color: var(--gray7);
 }
 
 .header-logo{
@@ -39,17 +40,65 @@ a:hover {
 }
 
 p {
+    margin-bottom: 0.7rem;
+    word-break: normal;
+    font-size: 0.95rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1.175rem;
+}
+.h7 {
+    font-size: 1.075rem;
+}
+h1, h2, h3, h4, h5, h6, .h7 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+.space-p75 {
+    padding-bottom: 7.5rem;
+}
+.space-p25 {
+    padding-bottom: 2.5rem;
+}
+.space-equal {
+    border-bottom: 0.5px solid var(--gray5);
+    padding-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-h6 {
-    font-size: 1.15rem;;
+.h-80 {
+    height: 80%;
 }
 
 /*font-size*/
-
-.f-180{
-    font-size: 1.8rem;
+.f-230{
+    font-size: 2.3rem;
+}
+.f-190{
+    font-size: 1.9rem;
 }
 .f-160{
     font-size: 1.6rem;
@@ -320,6 +369,12 @@ table, .table {
 .border-bottom-bold {
     border-bottom: 1.3px solid var(--gray7);
 }
+.border-right-bold {
+    border-right: 1.3px solid var(--gray7);
+}
+.border-left-bold {
+    border-left: 1.3px solid var(--gray7);
+}
 .border-top-gray {
     border-top: 1px solid var(--gray5);
 }
@@ -339,65 +394,10 @@ table, .table {
 }
 
 
+
+
 /*card*/
 .card-body, .card-text, .card-title, .card-subtitle {
     padding: 0.6rem 1.25rem;
 }
 
-
-/* tooltip */
-.tooltip, .tooltip-inner, .b-tooltip {
-    font-size: 0.8rem;
-    z-index: 100;
-} 
-.b-tooltip-blue > .tooltip-inner {
-    background-color: var(--blue7);
-} 
-.b-tooltip-blue > .tooltip .bs-tooltip-auto[x-placement^=top] .arrow::before, .b-tooltip-blue.bs-tooltip-top .arrow::before {
-    border-top-color: var(--blue7)!important;
-}
-.b-tooltip-blue > .tooltip .bs-tooltip-auto[x-placement^=bottom] .arrow::before, .b-tooltip-blue.bs-tooltip-bottom .arrow::before {
-    border-bottom-color: var(--blue7)!important;
-}
-
-
-/*modal*/
-.modal-content {
-    border: 0;
-    z-index: 200;
-}
-.modal-body, .modal-footer {
-    font-family: 'Noto Sans KR';
-    padding: 1rem 2rem;
-    background-color: var(--gray2);
-}  
-.modal-header {
-    font-family: 'Noto Sans KR';
-    padding: 0.8rem 1.6rem;
-    background-color: var(--gray6);
-    color: var(--gray8);
-    border: 0;
-}  
-.modal-title {
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-.modal-table {
-    overflow: auto;
-}
-
-/* modal 변형, 활용요소 */
-button.close {
-    color: var(--gray8);
-}
-button.close:hover {
-    color: var(--gray6);
-}
-.close {
-    padding: 0.7rem 1rem!important;
-    font-size: 1.7rem!important;
-    font-weight: 500 !important;
-    text-shadow: 0 0 0 #fff !important;
-    opacity: 1 !important;
-    align-self: center !important;
-}
