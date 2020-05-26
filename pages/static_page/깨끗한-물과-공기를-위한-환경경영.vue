@@ -268,8 +268,7 @@
                             </b-tbody> 
                         </b-table-simple>    
                 </section>
-                <hr class="space-p75">
-                           
+                <hr class="space-p75">                           
             </b-container>
             </b-col>
         </b-row>
