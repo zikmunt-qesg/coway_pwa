@@ -18,7 +18,7 @@ export default {
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans+KR' }
+           /*{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+KR' }*/
     ],
   },
   env: {
@@ -26,7 +26,7 @@ export default {
   },
   generate: {
     routes: function () {
-      const fs = require('fs')
+      /*const fs = require('fs')
       let blog_route = fs.readdirSync('./assets/content/blog').map(file => {
         return {
           route: `/blog/${file.slice(0, -5)}`,
@@ -39,7 +39,7 @@ export default {
           payload: require(`./assets/content/page/${file}`)
         }
       })
-      return blog_route.concat(page_route)
+      return blog_route.concat(page_route)*/
     }
   },
   /*

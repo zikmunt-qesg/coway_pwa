@@ -83,7 +83,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .navbar-collapse {
     flex-grow: 0;
 }
@@ -92,16 +92,16 @@ export default {
     z-index: 100;
 }
 .global-nav {
-    background-color: var(--gray6);
+    background-color: $gray6;
     position: absolute;
     z-index: 99;
 }
 .global-nav-lv1 {
-    color: var(--gray6);
+    color: $gray6;
 }
 .global-nav-lv1:hover {
     font-weight: 600;
-    color: var(--gray8);
+    color: $gray8;
     text-decoration: none;
 }
 
@@ -110,24 +110,24 @@ export default {
     text-align: left;
     margin-right: 2.5em;
     margin-bottom: 1.5em;
-    border-top: 0.75px solid var(--gray3);
+    border-top: 0.75px solid $gray3;
 }
 .global-nav-level2:hover{
-    border-top: 0.75px solid var(--gray2);
+    border-top: 0.75px solid $gray2;
 }
 .global-nav-lv2 {
-    color: var(--gray3);
+    color: $gray3;
 }
 .global-nav-lv2:hover {
-    color: var(--gray2);
+    color: $gray2;
     text-decoration: none;
 }
 
 .global-nav-lv3 {
-    color: var(--gray4);
+    color: $gray4;
 }
 .global-nav-lv3:hover {
-    color: var(--gray3);
+    color: $gray3;
     text-decoration: none;
 }
 
