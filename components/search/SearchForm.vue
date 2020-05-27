@@ -78,7 +78,7 @@ export default {
     },
     handleOK() {
       if (this.selected_framework == 'GRI') {
-        this.$router.push({ path: '/framework/gri', hash: this.search_query })
+        this.$router.push({ path: '/framework/gri', hash: `gri_${this.search_query}`})
       }
     }
   },

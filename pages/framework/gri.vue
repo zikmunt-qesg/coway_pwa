@@ -1,6 +1,8 @@
 <template>
   <div>
+    <b-container>
     <search-form></search-form>
+
     <b-table-simple responsive>
       <b-thead>
         <b-tr>
@@ -18,7 +20,7 @@
           >
             <b-td :rowspan="getSameLength(gri_table_100, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="row_item.code">{{ row_item.code }}</b-td>
+          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
           <b-td>{{ row_item.indicators }}</b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
@@ -43,7 +45,7 @@
           >
             <b-td :rowspan="getSameLength(gri_table_200, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="row_item.code">{{ row_item.code }}</b-td>
+          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
           <b-td>{{ row_item.indicators }}</b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
@@ -68,7 +70,7 @@
           >
             <b-td :rowspan="getSameLength(gri_table_300, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="row_item.code">{{ row_item.code }}</b-td>
+          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
           <b-td>{{ row_item.indicators }}</b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
@@ -93,13 +95,14 @@
           >
             <b-td :rowspan="getSameLength(gri_table_400, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="row_item.code">{{ row_item.code }}</b-td>
+          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
           <b-td>{{ row_item.indicators }}</b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
         </b-tr>
       </b-tbody>
     </b-table-simple>
+    </b-container>
   </div>
 </template>
 <script>
@@ -986,14 +989,6 @@ export default {
       }
     }
   },
-  created() {
-    console.log(this.is_articles_loaded)
-    if (this.is_articles_loaded != true) {
-      this.readArticles().then(() => {
-        console.log(this.articles)
-      })
-    }
-  }
 }
 </script>
 -
