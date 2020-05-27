@@ -1,9 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-otf@0.0.3/index.css');
+$gray8: #211815;
+$gray7: #141b21;
+$gray6: #5e6466;
+$gray5: #838484;
+
+$gray4: #c6c6c6;
+$gray3: #dfdfdf;
+$gray2: #f5f5f5;
+$gray1: #f9f9f9;
+$blue-gray1: #f5f7f7;
+
+$blue7: #1e4987;
+$blue5: #419af9;
+$blue4: #6da9d8;
+$blue3: #80b1dd;
+$coway-blue: #2fa5dc;
+
 
 html {
     font-size: 15px;
 }
+
 @media (max-width: 640px) {
     html {
         font-size: 0.9em;
@@ -15,14 +31,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: var(--gray7);
+  color: $gray7;
 }
 
 body, button {
     font-family:'Noto Sans KR';
     word-break: keep-all;
     line-height: 1.6;
-    color: var(--gray7);
+    color: $gray7;
 }
 
 .header-logo{
@@ -32,10 +48,10 @@ body, button {
 }
 
 a {
-    color: var(--gray5);
+    color: $gray5;
 }
 a:hover {
-    color: var(--gray6);
+    color: $gray6;
     text-decoration: none;
 }
 
@@ -84,7 +100,7 @@ hr {
     padding-bottom: 2.5rem;
 }
 .space-lined {
-    border-bottom: 0.5px solid var(--gray5);
+    border-bottom: 0.5px solid $gray5;
     margin-bottom: 1.5rem;
 }
 
@@ -164,96 +180,96 @@ hr {
 /*text colors*/
 
 .blue7{
-    color: var(--blue7);
+    color: $blue7;
 }
 .blue5{
-    color: var(--blue5);
+    color: $blue5;
 }
 .blue4{
-    color: var(--blue4);
+    color: $blue4;
 }
 .blue3{
-    color: var(--blue3);
+    color: $blue3;
 }
 .coway-blue{
-    color: var(--coway-blue);
+    color: $coway-blue;
 }
 
 
 .gray8{
-    color: var(--gray8);
+    color: $gray8;
 }
 .gray7{
-    color: var(--gray7);
+    color: $gray7;
 }
 .gray6{
-    color: var(--gray6);
+    color: $gray6;
 }
 .gray5{
-    color: var(--gray5);
+    color: $gray5;
 }
 .gray4{
-    color: var(--gray4);
+    color: $gray4;
 }
 .gray3{
-    color: var(--gray3);
+    color: $gray3;
 }
 .gray2{
-    color: var(--gray2);
+    color: $gray2;
 }
 .gray1{
-    color: var(--gray1);
+    color: $gray1;
 }
 
 .blue-gray1{
-    color: var(--blue-gray1);
+    color: $blue-gray1;
 }
 
 
 /* background-color */
 
 .bg-blue7{
-    background-color: var(--blue7);
+    background-color: $blue7;
 }
 .bg-blue5{
-    background-color: var(--blue5);
+    background-color: $blue5;
 }
 .bg-blue4{
-    background-color: var(--blue4);
+    background-color: $blue4;
 }
 .bg-blue3{
-    background-color: var(--blue3);
+    background-color: $blue3;
 }
 .bg-coway-blue{
-    background-color: var(--coway-blue);
+    background-color: $coway-blue;
 }
 
 
 .bg-gray8{
-    background-color: var(--gray8);
+    background-color: $gray8;
 }
 .bg-gray7{
-    background-color: var(--gray7);
+    background-color: $gray7;
 }
 .bg-gray6{
-    background-color: var(--gray6);
+    background-color: $gray6;
 }
 
 .bg-gray4{
-    background-color: var(--gray4);
+    background-color: $gray4;
 }
 .bg-gray3{
-    background-color: var(--gray3);
+    background-color: $gray3;
 }
 .bg-gray2{
-    background-color: var(--gray2);
+    background-color: $gray2;
 }
 .bg-gray1{
-    background-color: var(--gray1);
+    background-color: $gray1;
 }
 
 .bg-blue-gray1{
-    background-color: var(--blue-gray1);
+    background-color: $blue-gray1;
 }
 
 .bg-transparent-dark {
@@ -266,7 +282,7 @@ hr {
 /* table */
 table, .table {
     word-break: keep-all;
-    color: var(--gray7);
+    color: $gray7;
 }
 
 .table td, td {
@@ -276,71 +292,71 @@ table, .table {
 /* basic buttons */
 
 .btn-dark {
-    background-color: var(--gray7);
-    color: var(--gray5);
+    background-color: $gray7;
+    color: $gray5;
 }
 .btn-dark:hover, .btn-dark:focus{
-    background-color: var(--gray5);
-    color: var(--gray7);
+    background-color: $gray5;
+    color: $gray7;
 }
 
 .btn-dark-border {
     background-color: rgba(0,0,0,0);
-    color: var(--gray7);
-    border: 1px solid var(--gray7);
+    color: $gray7;
+    border: 1px solid $gray7;
 }
 .btn-dark-border:hover {
-    background-color: var(--gray6);
-    color: var(--gray2);
-    border-color: var(--gray6);
+    background-color: $gray6;
+    color: $gray2;
+    border-color: $gray6;
 }
 
 .btn-blue {
-    background-color: var(--blue5);
-    color: var(--gray1);
+    background-color: $blue5;
+    color: $gray1;
 }
 .btn-blue:hover {
-    background-color:  var(--blue4);
+    background-color:  $blue4;
     color: white;
 }
 .btn-blue-border {
     background-color: rgba(0,0,0,0);
-    color: var(--blue7);
-    border: 1px solid var(--blue7);
+    color: $blue7;
+    border: 1px solid $blue7;
 }
 .btn-blue-border:hover, .btn-blue-border:focus {
-    background-color:  var(--blue3);
-    color: var(--blue7);
-    border: 1px solid var(--blue7);
+    background-color:  $blue3;
+    color: $blue7;
+    border: 1px solid $blue7;
 }
 
 .btn-icon {
     background-color: rgba(0,0,0,0);
-    color: var(--gray7);
+    color: $gray7;
 }
 .btn-icon:hover {
     background-color: rgba(0,0,0,0);
-    color: var(--gray6);
+    color: $gray6;
 }
 
 .btn-icon-gray {
     background-color: rgba(0,0,0,0);
-    color: var(--gray6);
+    color: $gray6;
 }
 .btn-icon-gray:hover, .btn-icon-gray:focus {
     background-color: rgba(0,0,0,0);
-    color: var(--gray5);
+    color: $gray5;
 }
 
 .btn-icon-append {
     padding: 0 0.3rem;
     background-color: white;
-    color: var(--gray6);
+    color: $gray6;
     border-left: 0;
     border-color: #ced4da;
 }
 .btn-icon-append:hover, .btn-icon-append:focus {
-    color: var(--blue5);
+    color: $blue5;
 }
 
 .badge-btn {
@@ -348,11 +364,11 @@ table, .table {
     font-size: 85%;
     font-weight: 400;
     color: white;
-    background-color: var(--gray6);
+    background-color: $gray6;
 }
 .badge-btn:hover {
     cursor: pointer;
-    background-color: var(--gray5);
+    background-color: $gray5;
 }
 
 /* button shape */
@@ -365,36 +381,36 @@ table, .table {
 /* border */
 
 .border-top-bottom-bold {
-    border-top: 1.3px solid var(--gray7);
-    border-bottom: 1.3px solid var(--gray7);
+    border-top: 1.3px solid $gray7;
+    border-bottom: 1.3px solid $gray7;
 }
 .border-top-bold {
-    border-top: 1.3px solid var(--gray7);
+    border-top: 1.3px solid $gray7;
 }
 .border-bottom-bold {
-    border-bottom: 1.3px solid var(--gray7);
+    border-bottom: 1.3px solid $gray7;
 }
 .border-right-bold {
-    border-right: 1.3px solid var(--gray7);
+    border-right: 1.3px solid $gray7;
 }
 .border-left-bold {
-    border-left: 1.3px solid var(--gray7);
+    border-left: 1.3px solid $gray7;
 }
 .border-top-gray {
-    border-top: 1px solid var(--gray5);
+    border-top: 1px solid $gray5;
 }
 .border-bottom-gray {
-    border-bottom: 1px solid var(--gray5);
+    border-bottom: 1px solid $gray5;
 }
 .border-left-gray {
-    border-left: 1px solid var(--gray5);
+    border-left: 1px solid $gray5;
 }
 .border-right-gray {
-    border-right: 1px solid var(--gray5);
+    border-right: 1px solid $gray5;
 }
 .border-dotted {
     border-style: dashed;
-    border-color: var(--gray6);
+    border-color: $gray6;
     border-width: 1px;
 }
 
