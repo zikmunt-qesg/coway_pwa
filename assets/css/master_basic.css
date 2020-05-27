@@ -394,7 +394,7 @@ table, .table {
 }
 .border-dotted {
     border-style: dashed;
-    border-color: var(--gray6);
+    border-color: var(--gray4);
     border-width: 1px;
 }
 

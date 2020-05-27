@@ -287,9 +287,4 @@
     width: 100vw;    
 } */
 
-.page-top-img{
-    position: absolute;
-    z-index: -1;
-    top: -25vw;
-}
 </style>
