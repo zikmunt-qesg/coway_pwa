@@ -2,7 +2,7 @@
 @import url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-otf@0.0.3/index.css');
 
 html {
-    font-size: 14px;
+    font-size: 15px;
 }
 @media (max-width: 640px) {
     html {
@@ -83,14 +83,17 @@ hr {
 .space-p25 {
     padding-bottom: 2.5rem;
 }
-.space-equal {
+.space-lined {
     border-bottom: 0.5px solid var(--gray5);
-    padding-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .h-80 {
     height: 80%;
+}
+
+.cursor{
+    cursor: pointer;
 }
 
 /*font-size*/
@@ -186,7 +189,9 @@ hr {
 .gray6{
     color: var(--gray6);
 }
-
+.gray5{
+    color: var(--gray5);
+}
 .gray4{
     color: var(--gray4);
 }

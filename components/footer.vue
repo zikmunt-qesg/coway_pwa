@@ -19,7 +19,7 @@
                 </div>
             </b-col>
         </b-row>
-        <hr class="space-equal">
+        <hr class="space-lined">
         <div class="text-center f-80">
             <p class="mb-4"> 고객센터 1588-5200 (상담시간) 평일 오전 09:00 ~ 오후 06:00, 토요일 오전 09:00 ~ 오후 02:00, 국공휴일 오전 09:00 ~ 오후 04:00
             <br> (본사) 서울특별시 중구 서소문로 88 중앙일보빌딩 11층~17층 (사업소재지) 충남 공주시 유구읍 유구마곡사로 136-23
@@ -30,6 +30,7 @@
             </p>
         </div>
     </b-container>
+    
 </div>
 </template>
 

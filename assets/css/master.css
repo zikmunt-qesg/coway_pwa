@@ -40,6 +40,11 @@
     height: 54px;
     width: 54px;
 }
+@media (max-width: 768px) {
+    .force-deflex{
+        display: inline-block;
+    }
+}
   
 /* padding and margin extra */
 
