@@ -49,7 +49,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@assets/css/custom.scss', '@/assets/css/master.css'],
+  css: ['@/assets/css/custom.scss', '@/assets/css/master.scss', '@/assets/css/master_basic.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -60,7 +60,7 @@ export default {
   buildModules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: [
-      './assets/css/master_basic.scss'
+      '@/assets/css/variable.scss'
     ]
   },
   /*
