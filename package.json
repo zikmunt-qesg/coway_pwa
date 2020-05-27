@@ -20,6 +20,7 @@
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/markdownit": "^1.2.6",
     "bootstrap-vue": "^2.14.0",
+    "css-vars-ponyfill": "^2.3.1",
     "dotenv": "^8.2.0",
     "frontmatter-markdown-loader": "^3.4.3",
     "node-sass": "^4.14.1",
