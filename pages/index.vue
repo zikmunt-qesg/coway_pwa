@@ -6,8 +6,12 @@
     <b-container>
         <hr class="mb-4">
         <h1 class="text-center mb-4 fw-400"> SUSTAINABILITY ISSUES 2019</h1>
-        <p class="text-center f-95 mb-4"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-        </p>
+        <b-row class="mb-3">
+            <b-col class="col-0 col-md-1"></b-col>
+            <b-col class="col-0 col-md-10 text-center f-95 mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+            </b-col>
+            <b-col class="col-0 col-md-1"></b-col>
+        </b-row>
         <b-row>
             <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                 <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0">
@@ -42,8 +46,12 @@
         </b-row>
         <hr class="mb-5">
         <h1 class="text-center mb-4 fw-400"> KEY FIGURES 2019</h1>
-        <p class="text-center f-95 mb-4"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-        </p>
+        <b-row class="mb-3">
+            <b-col class="col-0 col-md-1"></b-col>
+            <b-col class="col-0 col-md-10 text-center f-95 mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            </b-col>
+            <b-col class="col-0 col-md-1"></b-col>
+        </b-row>
         <div class="col-12 bg-gray3 fw-500 py-2 px-3"> Economic Performance </div>
         <b-row class="my-4">
             <b-col class="col-12 col-md-4 border-right-gray">
@@ -126,19 +134,42 @@
         </b-row>
         <hr class="mb-5">
         <h1 class="text-center mb-4 fw-400"> COWAY SUSTAINABILITY NEWS</h1>
-        <p class="text-center f-95 mb-4"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-        </p>
+        <b-row class="mb-3">
+            <b-col class="col-0 col-md-1"></b-col>
+            <b-col class="col-0 col-md-10 text-center f-95 mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis 
+            </b-col>
+            <b-col class="col-0 col-md-1"></b-col>
+        </b-row>
         <b-row>
             <b-col class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card class="shadow-sm">Hi</b-card>
+                <b-card no-body class="shadow border-0">
+                    <b-card-img src="@/assets/images/사각형69.png" alt="Image" class="main-news-card-img" img-top></b-card-img>
+                    <b-card-body class="p-4">
+                        <p class="px-2 mb-4 fw-400 f-105"> 뉴스 제목 </p>
+                        <p class="px-2 f-80 gray6">뉴스 Contents가 들어올 예정입니다</p>
+                    </b-card-body>
+                </b-card>
             </b-col>
             <b-col class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card class="shadow-sm">Hi</b-card>
+                <b-card no-body class="shadow border-0">
+                    <b-card-img src="@/assets/images/사각형69.png" alt="Image" class="main-news-card-img" img-top></b-card-img>
+                    <b-card-body class="p-4">
+                        <p class="px-2 mb-4 fw-400 f-105"> 뉴스 제목 </p>
+                        <p class="px-2 f-80 gray6">뉴스 Contents가 들어올 예정입니다</p>
+                    </b-card-body>
+                </b-card>
             </b-col>
             <b-col class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card class="shadow-sm">Hi</b-card>
+                <b-card no-body class="shadow border-0">
+                    <b-card-img src="@/assets/images/사각형69.png" alt="Image" class="main-news-card-img" img-top></b-card-img>
+                    <b-card-body class="p-4">
+                        <p class="px-2 mb-4 fw-400 f-105"> 뉴스 제목 </p>
+                        <p class="px-2 f-80 gray6">뉴스 Contents가 들어올 예정입니다</p>
+                    </b-card-body>
+                </b-card>
             </b-col>
-        </b-row>       
+        </b-row>
+        <hr class="mb-5">
         <hr class="space-p75">
     </b-container>
 </div>
@@ -190,25 +221,8 @@ export default {
     }
 }
 
-// .main1-card-script {
-//     margin-top: 75%;
-// }
-// .main1-card-script > p {
-//     position: absolute;
+// .main-news-card-img{
+//     height: 200px;
 // }
 
-// .title {
-//   display: block;
-//   font-weight: bold;
-//   font-size: 2.3em;
-//   /*color: #35495e;*/
-// }
-
-// .subtitle {
-//   font-weight: 300;
-//   font-size: 1.2em;
-//   /*color: #526488;*/
-//   padding-top: 10px;
-//   padding-bottom: 15px;
-// }
 </style>
