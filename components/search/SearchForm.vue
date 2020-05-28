@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex">
-    <div class="d-flex">
+    <div class="d-flex align-items-center">
       <div class="px-2">
         <b-form-checkbox
           @change="selectMode('integrated')"
@@ -14,37 +14,18 @@
           v-model="selected_mode"
           value="indicator"
         >지표검색</b-form-checkbox>
-        <b-form-group>
-          <b-form-radio
-            :disabled="selected_mode != 'indicator'"
-            v-model="selected_framework"
-            name="framework"
-            value="GRI"
-          >GRI</b-form-radio>
-          <b-form-radio
-            :disabled="selected_mode != 'indicator'"
-            v-model="selected_framework"
-            name="framework"
-            value="SASB"
-          >SASB</b-form-radio>
-          <b-form-radio
-            :disabled="selected_mode != 'indicator'"
-            v-model="selected_framework"
-            name="framework"
-            value="DJSI Public"
-          >DJSI Public</b-form-radio>
-          <b-form-radio
-            :disabled="selected_mode != 'indicator'"
-            v-model="selected_framework"
-            name="framework"
-            value="KCGS"
-          >기업지배구조원</b-form-radio>
-        </b-form-group>
+      </div>
+      <div class="px-2">
+        <b-dropdown split :disabled="selected_mode !='indicator'" :text="selected_framework">
+          <b-dropdown-item href="#" @click="selected_framework='GRI'">GRI</b-dropdown-item>
+          <b-dropdown-item href="#" @click="selected_framework='SASB'">SASB</b-dropdown-item>
+          <b-dropdown-item href="#" @click="selected_framework='DJSI'">DJSI Public</b-dropdown-item>
+        </b-dropdown>
       </div>
     </div>
     <div class="px-2">
       <div class="d-flex justify-content-start">
-        <b-form-input v-model="search_query" type="text" :placeholder="form_placeholder"></b-form-input>
+        <b-form-input v-model="search_query" type="text" :placeholder="form_placeholder" @keyup.enter="handleOK"></b-form-input>
         <b-button @click="handleOK">검색</b-button>
       </div>
     </div>
@@ -60,6 +41,10 @@ export default {
       search_query: ''
     }
   },
+  props:{
+    prop_framework: { type: String, default: 'GRI' },
+    prop_mode: { type: String, default: 'integrated'}
+  },
   methods: {
     selectMode(target) {
       this.$nextTick(() => {
@@ -67,20 +52,26 @@ export default {
           this.selected_mode.splice(0, this.selected_mode.length)
         }
         this.selected_mode.push(target)
-
-        if (target != 'indicator') {
-          //선택한 검색 모드가 indicator가 아니면 세부 지표 모드 선택을 해제
-          this.selected_framework = ''
-        } else {
-          this.selected_framework = 'GRI'
-        }
       })
     },
     handleOK() {
       if (this.selected_framework == 'GRI') {
-        this.$router.push({ path: '/framework/gri', hash: `gri_${this.search_query}`})
+        this.$router.push({ path: '/framework/gri', hash: this.safeHash(`gri_${this.search_query}`)})
       }
+      else if(this.selected_framework == 'SASB'){
+        this.$router.push({ path: '/framework/sasb', hash: this.safeHash(`sasb_${this.search_query}`)})
+      }
+      else if(this.selected_framework == 'DJSI'){
+        this.$router.push({ path: '/framework/djsi', hash: this.safeHash(`djsi_${this.search_query}`)})
+      }
+    },
+    safeHash(target){
+      return target.replace(/\./g,'-').replace(/\s/g,'')
     }
+  },
+  mounted(){
+    this.selected_framework = this.prop_framework
+    this.selectMode(this.prop_mode)
   },
   watch: {
     selected_framework(new_value) {
@@ -93,9 +84,6 @@ export default {
       } else if (new_value == 'DJSI Public') {
         this.form_placeholder =
           'DJSI 항목번호(ex. 1.2.1) 또는 질문명을 입력해 주세요'
-      } else if (new_value == 'KCGS') {
-        this.form_placeholder =
-          '지배구조원 항목번호(1.1) 또는 항목명을 입력해 주세요'
       } else {
         this.form_placeholder = '검색할 내용을 입력해 주세요'
       }

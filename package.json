@@ -8,8 +8,14 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "browserslist": "browserslist"
   },
+  "browserslist": [
+    "last 2 version",
+    "android >= 4.4",
+    "IE >= 10"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/xdesro/nuxt-netlify-cms-starter#readme"
@@ -19,7 +25,9 @@
     "@nuxtjs/axios": "^5.9.5",
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/markdownit": "^1.2.6",
+    "@nuxtjs/style-resources": "^1.0.0",
     "bootstrap-vue": "^2.14.0",
+    "css-vars-ponyfill": "^2.3.1",
     "dotenv": "^8.2.0",
     "frontmatter-markdown-loader": "^3.4.3",
     "node-sass": "^4.14.1",

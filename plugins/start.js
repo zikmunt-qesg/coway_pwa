@@ -6,4 +6,3 @@ import h7 from '@/components/GlobalComponents/h7'
 Vue.component('GlobalComponent', GlobalComponent)
 Vue.component('DynamicRenderer', DynamicRenderer)
 Vue.component('h7', h7)
-

@@ -1,0 +1,473 @@
+/* noto-sans-kr-300 - latin_korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+         url('/fonts/noto-sans-kr-v12-latin_korean-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/noto-sans-kr-v12-latin_korean-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/noto-sans-kr-v12-latin_korean-300.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+  
+/* noto-sans-kr-regular - latin_korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+         url('/fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/noto-sans-kr-v12-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/noto-sans-kr-v12-latin_korean-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+  /* noto-sans-kr-500 - latin_korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+         url('/fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/noto-sans-kr-v12-latin_korean-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/noto-sans-kr-v12-latin_korean-500.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+  /* noto-sans-kr-700 - latin_korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+         url('/fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/noto-sans-kr-v12-latin_korean-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/noto-sans-kr-v12-latin_korean-700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+  /* noto-sans-kr-900 - latin_korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Black'), local('NotoSansKR-Black'),
+         url('/fonts/noto-sans-kr-v12-latin_korean-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/noto-sans-kr-v12-latin_korean-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/noto-sans-kr-v12-latin_korean-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/noto-sans-kr-v12-latin_korean-900.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+
+html {
+    font-size: 15px;
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 0.9em;
+    }
+}
+
+#app {
+  font-family: 'Noto Sans KR', 'AppleGothic', 'NanumSquare', 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: $gray7;
+}
+
+body, button {
+    font-family:'Noto Sans KR';
+    word-break: keep-all;
+    line-height: 1.6;
+    color: $gray7;
+}
+
+.header-logo{
+    max-width: 130px;
+    min-width: 120px;
+    align-self: right;
+}
+
+a {
+    color: $gray5;
+}
+a:hover {
+    color: $gray6;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0.7rem;
+    word-break: normal;
+    font-size: 0.95rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1.175rem;
+}
+.h7 {
+    font-size: 1.075rem;
+}
+h1, h2, h3, h4, h5, h6, .h7 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+.space-p75 {
+    padding-bottom: 7.5rem;
+}
+.space-p25 {
+    padding-bottom: 2.5rem;
+}
+.space-lined {
+    border-bottom: 0.5px solid $gray5;
+    margin-bottom: 1.5rem;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/*font-size*/
+.f-230{
+    font-size: 2.3rem;
+}
+.f-190{
+    font-size: 1.9rem;
+}
+.f-160{
+    font-size: 1.6rem;
+}
+.f-140{
+    font-size: 1.4rem;
+}
+.f-120{
+    font-size: 1.2rem;
+}
+.f-110{
+    font-size: 1.1rem;
+}
+.f-105{
+    font-size: 1.05rem;
+}
+.f-110{
+    font-size: 1.1rem;
+}
+.f-100{
+    font-size: 1.0rem;
+}
+.f-95{
+    font-size: 0.95rem;
+}
+.f-90{
+    font-size: 0.9rem;
+}
+.f-85{
+    font-size: 0.85rem;
+}
+.f-80{
+    font-size: 0.8rem;
+}
+.f-75{
+    font-size: 0.75rem;
+}
+.f-70{
+    font-size: 0.7rem;
+}
+.f-60{
+    font-size: 0.6rem;
+}
+
+/*font-weight*/
+
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+
+/*text colors*/
+
+.blue7{
+    color: $blue7;
+}
+.blue5{
+    color: $blue5;
+}
+.blue4{
+    color: $blue4;
+}
+.blue3{
+    color: $blue3;
+}
+.coway-blue{
+    color: $coway-blue;
+}
+
+
+.gray8{
+    color: $gray8;
+}
+.gray7{
+    color: $gray7;
+}
+.gray6{
+    color: $gray6;
+}
+.gray5{
+    color: $gray5;
+}
+.gray4{
+    color: $gray4;
+}
+.gray3{
+    color: $gray3;
+}
+.gray2{
+    color: $gray2;
+}
+.gray1{
+    color: $gray1;
+}
+
+.blue-gray1{
+    color: $blue-gray1;
+}
+
+
+/* background-color */
+
+.bg-blue7{
+    background-color: $blue7;
+}
+.bg-blue5{
+    background-color: $blue5;
+}
+.bg-blue4{
+    background-color: $blue4;
+}
+.bg-blue3{
+    background-color: $blue3;
+}
+.bg-coway-blue{
+    background-color: $coway-blue;
+}
+
+
+.bg-gray8{
+    background-color: $gray8;
+}
+.bg-gray7{
+    background-color: $gray7;
+}
+.bg-gray6{
+    background-color: $gray6;
+}
+
+.bg-gray4{
+    background-color: $gray4;
+}
+.bg-gray3{
+    background-color: $gray3;
+}
+.bg-gray2{
+    background-color: $gray2;
+}
+.bg-gray1{
+    background-color: $gray1;
+}
+
+.bg-blue-gray1{
+    background-color: $blue-gray1;
+}
+
+.bg-transparent-dark {
+    background-color: rgba(0,0,0,0.3);
+}
+.bg-transparent-light {
+    background-color: rgba(255,255,255,0.3);
+}
+
+/* table */
+table, .table {
+    word-break: keep-all;
+    color: $gray7;
+}
+
+.table td, td {
+    padding: 0.2rem 0.7rem;
+}
+
+/* basic buttons */
+
+.btn-dark {
+    background-color: $gray7;
+    color: $gray5;
+}
+.btn-dark:hover, .btn-dark:focus{
+    background-color: $gray5;
+    color: $gray7;
+}
+
+.btn-dark-border {
+    background-color: rgba(0,0,0,0);
+    color: $gray7;
+    border: 1px solid $gray7;
+}
+.btn-dark-border:hover {
+    background-color: $gray6;
+    color: $gray2;
+    border-color: $gray6;
+}
+
+.btn-blue {
+    background-color: $blue5;
+    color: $gray1;
+}
+.btn-blue:hover {
+    background-color:  $blue4;
+    color: white;
+}
+.btn-blue-border {
+    background-color: rgba(0,0,0,0);
+    color: $blue7;
+    border: 1px solid $blue7;
+}
+.btn-blue-border:hover, .btn-blue-border:focus {
+    background-color:  $blue3;
+    color: $blue7;
+    border: 1px solid $blue7;
+}
+
+.btn-icon {
+    background-color: rgba(0,0,0,0);
+    color: $gray7;
+}
+.btn-icon:hover {
+    background-color: rgba(0,0,0,0);
+    color: $gray6;
+}
+
+.btn-icon-gray {
+    background-color: rgba(0,0,0,0);
+    color: $gray6;
+}
+.btn-icon-gray:hover, .btn-icon-gray:focus {
+    background-color: rgba(0,0,0,0);
+    color: $gray5;
+}
+
+.btn-icon-append {
+    padding: 0 0.3rem;
+    background-color: white;
+    color: $gray6;
+    border-left: 0;
+    border-color: #ced4da;
+}
+.btn-icon-append:hover, .btn-icon-append:focus {
+    color: $blue5;
+}
+
+.badge-btn {
+    padding: 0.25em 0.4em;
+    font-size: 85%;
+    font-weight: 400;
+    color: white;
+    background-color: $gray6;
+}
+.badge-btn:hover {
+    cursor: pointer;
+    background-color: $gray5;
+}
+
+/* button shape */
+
+.circle{
+    border-radius: 2em;
+}
+
+
+/* border */
+
+.border-top-bottom-bold {
+    border-top: 1.3px solid $gray7;
+    border-bottom: 1.3px solid $gray7;
+}
+.border-top-bold {
+    border-top: 1.3px solid $gray7;
+}
+.border-bottom-bold {
+    border-bottom: 1.3px solid $gray7;
+}
+.border-right-bold {
+    border-right: 1.3px solid $gray7;
+}
+.border-left-bold {
+    border-left: 1.3px solid $gray7;
+}
+.border-top-gray {
+    border-top: 1px solid $gray5;
+}
+.border-bottom-gray {
+    border-bottom: 1px solid $gray5;
+}
+.border-left-gray {
+    border-left: 1px solid $gray5;
+}
+.border-right-gray {
+    border-right: 1px solid $gray5;
+}
+.border-dotted {
+    border-style: dashed;
+    border-color: $gray6;
+    border-width: 1px;
+}
+
+
+
+
+/*card*/
+.card-body, .card-text, .card-title, .card-subtitle {
+    padding: 0.6rem 1.25rem;
+}
+

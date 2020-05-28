@@ -1,4 +1,3 @@
-
 .side-nav {
     background-color: white;
     padding: 2.3em 1.4em 1.9em;
@@ -15,12 +14,12 @@
 }
 
 .dma-title {
-    color: var(--blue7);
+    color: $blue7;
     font-weight: 500;
 }
 
 .temp-icon1, .temp-icon2, .temp-icon3, .temp-icon4, .temp-icon5, .temp-icon6 {
-    border: 1px solid var(--gray4);
+    border: 1px solid $gray4;
     text-align: center;
 }
 .temp-icon1{
@@ -109,12 +108,12 @@
 .num-table > table > thead > tr > td, 
 .txt-table > table > thead > tr > td {
     border-top: 0;
-    border-bottom: 0.5px solid var(--blue4);
+    border-bottom: 0.5px solid $blue4;
 }
 .num-table > table > tbody > tr > td, 
 .txt-table > table > tbody > tr > td {
     border-top: 0;
-    border-bottom: 0.5px solid var(--gray3);
+    border-bottom: 0.5px solid $gray3;
 }
 
 
@@ -135,13 +134,13 @@
     z-index: 100;
 } 
 .b-tooltip-blue > .tooltip-inner {
-    background-color: var(--blue7);
+    background-color: $blue7;
 } 
 .b-tooltip-blue > .tooltip .bs-tooltip-auto[x-placement^=top] .arrow::before, .b-tooltip-blue.bs-tooltip-top .arrow::before {
-    border-top-color: var(--blue7)!important;
+    border-top-color: $blue7!important;
 }
 .b-tooltip-blue > .tooltip .bs-tooltip-auto[x-placement^=bottom] .arrow::before, .b-tooltip-blue.bs-tooltip-bottom .arrow::before {
-    border-bottom-color: var(--blue7)!important;
+    border-bottom-color: $blue7!important;
 }
 
 
@@ -153,13 +152,13 @@
 .modal-body, .modal-footer {
     font-family: 'Noto Sans KR';
     padding: 1rem 2rem;
-    background-color: var(--gray2);
+    background-color: $gray2;
 }  
 .modal-header {
     font-family: 'Noto Sans KR';
     padding: 0.8rem 1.6rem;
-    background-color: var(--gray6);
-    color: var(--gray8);
+    background-color: $gray6;
+    color: $gray8;
     border: 0;
 }  
 .modal-title {
@@ -172,10 +171,10 @@
 
 /* modal 변형, 활용요소 */
 button.close {
-    color: var(--gray8);
+    color: $gray8;
 }
 button.close:hover {
-    color: var(--gray6);
+    color: $gray6;
 }
 .close {
     padding: 0.7rem 1rem!important;
@@ -319,10 +318,10 @@ button.close:hover {
   }
   
   .edit-mode-category-selected{
-    color: var(--dpink);
+    color: $dpink;
   
     border-bottom-style: solid;
-    border-bottom-color: var(--dpink);
+    border-bottom-color: $dpink;
     border-bottom-width: 3px;
   }
   

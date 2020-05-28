@@ -1,7 +1,7 @@
 <template>
 <div>
     <b-img src="@/assets/images/사각형17.png" fluid class="main-top-img"></b-img>
-    <b-container class="min-vh-100">
+    <b-container class="min-vh-100 container">
         <b-row>
             <b-col class="py-5 my-5 w-100 text-center">
                 <h1>Main Page</h1>
@@ -52,7 +52,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .main-top-img{
     position: absolute;
     z-index: -1;

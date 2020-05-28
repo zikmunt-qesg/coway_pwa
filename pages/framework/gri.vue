@@ -1,9 +1,20 @@
 <template>
   <div>
     <b-container>
-    <search-form></search-form>
+    <search-form class="my-3" prop_mode='indicator' prop_framework='GRI'></search-form>
 
-    <b-table-simple responsive>
+    <b-card class="my-3 bg-gray2">
+      <b-card-body>
+        <p>
+          GRI(Global Reporting Initiatives)는 기업, 정부 및 기타 조직이 기후 변화, 인권 및 부패와 같은 지속가능성 문제에 대한 영향을 이해하고 정보를 공시하도록 돕는 국제 표준 조직입니다. 
+          코웨이는 GRI의 지속가능성 보고 표준(GRI Sustainability Disclosure Standard)의 핵심(Core) 부합 방법에 따라 보고서를 작성하여 공개하고 있습니다. 
+        </p> 
+      </b-card-body>
+    </b-card>
+
+    <hr class="space-p25">
+
+    <b-table-simple class="num-table" responsive>
       <b-thead>
         <b-tr>
           <b-td>구분</b-td>
@@ -20,15 +31,17 @@
           >
             <b-td :rowspan="getSameLength(gri_table_100, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
-          <b-td>{{ row_item.indicators }}</b-td>
+          <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+          <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
         </b-tr>
       </b-tbody>
     </b-table-simple>
 
-    <b-table-simple responsive>
+    <hr class="space-p25">
+
+    <b-table-simple class="num-table" responsive>
       <b-thead>
         <b-tr>
           <b-td>구분</b-td>
@@ -45,15 +58,17 @@
           >
             <b-td :rowspan="getSameLength(gri_table_200, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
-          <b-td>{{ row_item.indicators }}</b-td>
+          <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+          <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
         </b-tr>
       </b-tbody>
     </b-table-simple>
 
-    <b-table-simple responsive>
+    <hr class="space-p25">
+
+    <b-table-simple class="num-table" responsive>
       <b-thead>
         <b-tr>
           <b-td>구분</b-td>
@@ -70,15 +85,17 @@
           >
             <b-td :rowspan="getSameLength(gri_table_300, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
-          <b-td>{{ row_item.indicators }}</b-td>
+          <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+          <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
         </b-tr>
       </b-tbody>
     </b-table-simple>
 
-    <b-table-simple responsive>
+    <hr class="space-p25">
+
+    <b-table-simple class="num-table" responsive>
       <b-thead>
         <b-tr>
           <b-td>구분</b-td>
@@ -95,8 +112,8 @@
           >
             <b-td :rowspan="getSameLength(gri_table_400, index)">{{ row_item.classification }}</b-td>
           </template>
-          <b-td :id="`gri_${row_item.code}`">{{ row_item.code }}</b-td>
-          <b-td>{{ row_item.indicators }}</b-td>
+          <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+          <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
           <b-td>{{ row_item.link }}</b-td>
           <b-td>{{ row_item.Note }}</b-td>
         </b-tr>
@@ -987,6 +1004,9 @@ export default {
           return rowspan
         }
       }
+    },
+    safeHash(target){
+      return target.replace(/\./g,'-').replace(/\s/g,'')
     }
   },
 }

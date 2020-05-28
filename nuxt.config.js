@@ -18,7 +18,7 @@ export default {
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans+KR' }
+           /*{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+KR' }*/
     ],
   },
   env: {
@@ -49,7 +49,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/custom.scss', '@/assets/css/master.css', '@/assets/css/master_basic.css'],
+  css: ['@/assets/css/custom.scss', '@/assets/css/master.scss', '@/assets/css/master_basic.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -57,7 +57,12 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: ['@nuxtjs/style-resources'],
+  styleResources: {
+    scss: [
+      '@/assets/css/variable.scss'
+    ]
+  },
   /*
    ** Nuxt.js modules
    */
@@ -90,14 +95,16 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-      // add frontmatter-markdown-loader
-      //config.module.rules.push({
-      //  test: /\.md$/,
-      //  loader: "frontmatter-markdown-loader",
-      //  options: {
-      //    mode: [FMMode.VUE_COMPONENT, FMMode.META]
-      //  }
-      //})
+
+    },
+    postcss: {
+      plugins: {
+        'postcss-preset-env': {
+          autoprefixer: {
+            grid: true
+          }
+        }
+      }
     }
   },
   router: {

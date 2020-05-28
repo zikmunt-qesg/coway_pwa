@@ -330,12 +330,8 @@ export const state = () => ({
                         link: '/static_page/정책-및-이니셔티브'
                     },
                     {
-                        title: '데이터 센터',
-                        link: '/static_page/데이터-센터'
-                    },
-                    {
                         title: '보고 프레임워크 인덱스',
-                        link: '/static_page/보고-프레임워크-인덱스'
+                        link: '/framework/gri'
                     },
                     {
                         title: '보고 범위 및 검증',
@@ -343,7 +339,7 @@ export const state = () => ({
                     },
                     {
                         title: 'Sustainability News',
-                        link: '/static_page/Sustainabiilty-News'
+                        link: '/news'
                     }
                 ]
         }
