@@ -1,31 +1,37 @@
 <template>
-  <b-container>
-    <div class="mt-2">
-      Title
-      <b-form-input v-model="title"></b-form-input>
-    </div>
-    <div class="mt-2">
-      Date
-      <b-form-datepicker v-model="date"></b-form-datepicker>
-    </div>
-    <div class="mt-2">
-      Description
-      <b-form-textarea v-model="description" rows="3"></b-form-textarea>
-    </div>
-    <div class="mt-2">
-      Picture
-      <b-form-file v-model="picture_file" :placeholder="picture_file.name"></b-form-file>
-    </div>
-    <div class="mt-2">
-      Contents
-      <b-form-textarea v-model="contents" rows="8"></b-form-textarea>
-    </div>
-    <div class="mt-2">
-      <b-button @click="save">저장</b-button>
-      <b-button>취소</b-button>
-    </div>
-  </b-container>
+<div class="position-relative min-vh-100">
+    <b-row no-gutters class="bg-blue3 mb-5">
+        <b-col class="py-3 text-center text-white"><h2>Coway Sustainability News</h2></b-col>
+    </b-row>
+    <b-container>
+        <div class="mb-3">
+            <h7>Title</h7>
+            <b-form-input v-model="title" placeholder="제목을 작성하여 주십시오"></b-form-input>
+        </div>
+        <div class="mb-3">
+            <h7>Date</h7>
+            <b-form-datepicker v-model="date" placeholder="작성 날짜를 입력하여 주십시오"></b-form-datepicker>
+        </div>
+        <div class="mb-3">
+            <h7>Description</h7>
+            <b-form-textarea v-model="description" rows="3" placeholder="핵심 요약 정보를 작성하여 주십시오"></b-form-textarea>
+        </div>
+        <div class="mb-3">
+            <h7>사진 및 이미지</h7>
+            <b-form-file v-model="picture_file" :placeholder="picture_file.name"></b-form-file>
+        </div>
+        <div class="mb-3">
+            <h7>내용</h7>
+            <b-form-textarea v-model="contents" rows="8" placeholder="본문 내용을 작성하여 주십시오"></b-form-textarea>
+        </div>
+        <div class="mb-3 text-right">
+            <b-button @click="save" variant="blue" class="mr-2">저장</b-button>
+            <b-button @click.stop.prevent="$router.push('/news')">취소</b-button>
+        </div>
+    </b-container>
+</div>
 </template>
+
 <script>
 import { mapState, mapActions } from 'vuex'
 import axios from 'axios'

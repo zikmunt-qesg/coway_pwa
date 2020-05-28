@@ -6,6 +6,13 @@
     margin-bottom: 0.7em;
 }
 
+
+.page-top-img{
+    position: absolute;
+    z-index: -1;
+    top: -25vw;
+}
+
 .dma-title {
     color: $blue7;
     font-weight: 500;
@@ -82,7 +89,7 @@
 
 
 /* table custom */
-.num-table > table {
+.num-table > table, .txt-table > table  {
     border-collapse: separate;
     border-spacing: 5px 0;
     margin-left: -4px;
@@ -92,12 +99,19 @@
     padding: 0.2rem 0;
     text-align: right;
 }
+.txt-table > table > thead > tr > td,
+.txt-table > table > tbody > tr > td {
+    padding: 0.2rem 0;
+    text-align: left;
+}
 
-.num-table > table > thead > tr > td{
+.num-table > table > thead > tr > td, 
+.txt-table > table > thead > tr > td {
     border-top: 0;
     border-bottom: 0.5px solid $blue4;
 }
-.num-table > table > tbody > tr > td{
+.num-table > table > tbody > tr > td, 
+.txt-table > table > tbody > tr > td {
     border-top: 0;
     border-bottom: 0.5px solid $gray3;
 }

@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-otf@0.0.3/index.css');
+
+html {
+    font-size: 15px;
+}
+@media (max-width: 640px) {
+    html {
+        font-size: 0.9em;
+    }
+}
+
+#app {
+  font-family: 'Noto Sans KR', 'AppleGothic', 'NanumSquare', 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: var(--gray7);
+}
+
+body, button {
+    font-family:'Noto Sans KR';
+    word-break: keep-all;
+    line-height: 1.6;
+    color: var(--gray7);
+}
+
+.header-logo{
+    max-width: 130px;
+    min-width: 120px;
+    align-self: right;
+}
+
+a {
+    color: var(--gray5);
+}
+a:hover {
+    color: var(--gray6);
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0.7rem;
+    word-break: normal;
+    font-size: 0.95rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1.175rem;
+}
+.h7 {
+    font-size: 1.075rem;
+}
+h1, h2, h3, h4, h5, h6, .h7 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+.space-p75 {
+    padding-bottom: 7.5rem;
+}
+.space-p25 {
+    padding-bottom: 2.5rem;
+}
+.space-lined {
+    border-bottom: 0.5px solid var(--gray5);
+    margin-bottom: 1.5rem;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/*font-size*/
+.f-230{
+    font-size: 2.3rem;
+}
+.f-190{
+    font-size: 1.9rem;
+}
+.f-160{
+    font-size: 1.6rem;
+}
+.f-140{
+    font-size: 1.4rem;
+}
+.f-120{
+    font-size: 1.2rem;
+}
+.f-110{
+    font-size: 1.1rem;
+}
+.f-105{
+    font-size: 1.05rem;
+}
+.f-110{
+    font-size: 1.1rem;
+}
+.f-100{
+    font-size: 1.0rem;
+}
+.f-95{
+    font-size: 0.95rem;
+}
+.f-90{
+    font-size: 0.9rem;
+}
+.f-85{
+    font-size: 0.85rem;
+}
+.f-80{
+    font-size: 0.8rem;
+}
+.f-75{
+    font-size: 0.75rem;
+}
+.f-70{
+    font-size: 0.7rem;
+}
+.f-60{
+    font-size: 0.6rem;
+}
+
+/*font-weight*/
+
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+
+/*text colors*/
+
+.blue7{
+    color: var(--blue7);
+}
+.blue5{
+    color: var(--blue5);
+}
+.blue4{
+    color: var(--blue4);
+}
+.blue3{
+    color: var(--blue3);
+}
+.coway-blue{
+    color: var(--coway-blue);
+}
+
+
+.gray8{
+    color: var(--gray8);
+}
+.gray7{
+    color: var(--gray7);
+}
+.gray6{
+    color: var(--gray6);
+}
+.gray5{
+    color: var(--gray5);
+}
+.gray4{
+    color: var(--gray4);
+}
+.gray3{
+    color: var(--gray3);
+}
+.gray2{
+    color: var(--gray2);
+}
+.gray1{
+    color: var(--gray1);
+}
+
+.blue-gray1{
+    color: var(--blue-gray1);
+}
+
+
+/* background-color */
+
+.bg-blue7{
+    background-color: var(--blue7);
+}
+.bg-blue5{
+    background-color: var(--blue5);
+}
+.bg-blue4{
+    background-color: var(--blue4);
+}
+.bg-blue3{
+    background-color: var(--blue3);
+}
+.bg-coway-blue{
+    background-color: var(--coway-blue);
+}
+
+
+.bg-gray8{
+    background-color: var(--gray8);
+}
+.bg-gray7{
+    background-color: var(--gray7);
+}
+.bg-gray6{
+    background-color: var(--gray6);
+}
+
+.bg-gray4{
+    background-color: var(--gray4);
+}
+.bg-gray3{
+    background-color: var(--gray3);
+}
+.bg-gray2{
+    background-color: var(--gray2);
+}
+.bg-gray1{
+    background-color: var(--gray1);
+}
+
+.bg-blue-gray1{
+    background-color: var(--blue-gray1);
+}
+
+.bg-transparent-dark {
+    background-color: rgba(0,0,0,0.3);
+}
+.bg-transparent-light {
+    background-color: rgba(255,255,255,0.3);
+}
+
+/* table */
+table, .table {
+    word-break: keep-all;
+    color: var(--gray7);
+}
+
+.table td, td {
+    padding: 0.2rem 0.7rem;
+}
+
+/* basic buttons */
+
+.btn-dark {
+    background-color: var(--gray7);
+    color: var(--gray5);
+}
+.btn-dark:hover, .btn-dark:focus{
+    background-color: var(--gray5);
+    color: var(--gray7);
+}
+
+.btn-dark-border {
+    background-color: rgba(0,0,0,0);
+    color: var(--gray7);
+    border: 1px solid var(--gray7);
+}
+.btn-dark-border:hover {
+    background-color: var(--gray6);
+    color: var(--gray2);
+    border-color: var(--gray6);
+}
+
+.btn-blue {
+    background-color: var(--blue5);
+    color: var(--gray1);
+}
+.btn-blue:hover {
+    background-color:  var(--blue4);
+    color: white;
+}
+.btn-blue-border {
+    background-color: rgba(0,0,0,0);
+    color: var(--blue7);
+    border: 1px solid var(--blue7);
+}
+.btn-blue-border:hover, .btn-blue-border:focus {
+    background-color:  var(--blue3);
+    color: var(--blue7);
+    border: 1px solid var(--blue7);
+}
+
+.btn-icon {
+    background-color: rgba(0,0,0,0);
+    color: var(--gray7);
+}
+.btn-icon:hover {
+    background-color: rgba(0,0,0,0);
+    color: var(--gray6);
+}
+
+.btn-icon-gray {
+    background-color: rgba(0,0,0,0);
+    color: var(--gray6);
+}
+.btn-icon-gray:hover, .btn-icon-gray:focus {
+    background-color: rgba(0,0,0,0);
+    color: var(--gray5);
+}
+
+.btn-icon-append {
+    padding: 0 0.3rem;
+    background-color: white;
+    color: var(--gray6);
+    border-left: 0;
+    border-color: #ced4da;
+}
+.btn-icon-append:hover, .btn-icon-append:focus {
+    color: var(--blue5);
+}
+
+.badge-btn {
+    padding: 0.25em 0.4em;
+    font-size: 85%;
+    font-weight: 400;
+    color: white;
+    background-color: var(--gray6);
+}
+.badge-btn:hover {
+    cursor: pointer;
+    background-color: var(--gray5);
+}
+
+/* button shape */
+
+.circle{
+    border-radius: 2em;
+}
+
+
+/* border */
+
+.border-top-bottom-bold {
+    border-top: 1.3px solid var(--gray7);
+    border-bottom: 1.3px solid var(--gray7);
+}
+.border-top-bold {
+    border-top: 1.3px solid var(--gray7);
+}
+.border-bottom-bold {
+    border-bottom: 1.3px solid var(--gray7);
+}
+.border-right-bold {
+    border-right: 1.3px solid var(--gray7);
+}
+.border-left-bold {
+    border-left: 1.3px solid var(--gray7);
+}
+.border-top-gray {
+    border-top: 1px solid var(--gray5);
+}
+.border-bottom-gray {
+    border-bottom: 1px solid var(--gray5);
+}
+.border-left-gray {
+    border-left: 1px solid var(--gray5);
+}
+.border-right-gray {
+    border-right: 1px solid var(--gray5);
+}
+.border-dotted {
+    border-style: dashed;
+    border-color: var(--gray4);
+    border-width: 1px;
+}
+
+
+
+
+/*card*/
+.card-body, .card-text, .card-title, .card-subtitle {
+    padding: 0.6rem 1.25rem;
+}
+
