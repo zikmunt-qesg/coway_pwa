@@ -29,9 +29,12 @@
         <b-button @click="handleOK">검색</b-button>
       </div>
     </div>
+
   </div>
 </template>
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   data() {
     return {
@@ -46,6 +49,7 @@ export default {
     prop_mode: { type: String, default: 'integrated'}
   },
   methods: {
+    ...mapActions('search', ['searchPages']),
     selectMode(target) {
       this.$nextTick(() => {
         if (this.selected_mode.length > 0) {
@@ -55,14 +59,22 @@ export default {
       })
     },
     handleOK() {
-      if (this.selected_framework == 'GRI') {
-        this.$router.push({ path: '/framework/gri', hash: this.safeHash(`gri_${this.search_query}`)})
+      if (this.selected_mode == 'integrated'){
+        this.searchPages({ q: this.search_query })
+        .then( () => {
+          this.$router.push({ path: '/framework/search_result' })
+        })
       }
-      else if(this.selected_framework == 'SASB'){
-        this.$router.push({ path: '/framework/sasb', hash: this.safeHash(`sasb_${this.search_query}`)})
-      }
-      else if(this.selected_framework == 'DJSI'){
-        this.$router.push({ path: '/framework/djsi', hash: this.safeHash(`djsi_${this.search_query}`)})
+      else{
+        if (this.selected_framework == 'GRI') {
+          this.$router.push({ path: '/framework/gri', hash: this.safeHash(`gri_${this.search_query}`)})
+        }
+        else if(this.selected_framework == 'SASB'){
+          this.$router.push({ path: '/framework/sasb', hash: this.safeHash(`sasb_${this.search_query}`)})
+        }
+        else if(this.selected_framework == 'DJSI'){
+          this.$router.push({ path: '/framework/djsi', hash: this.safeHash(`djsi_${this.search_query}`)})
+        }
       }
     },
     safeHash(target){
@@ -75,13 +87,13 @@ export default {
   },
   watch: {
     selected_framework(new_value) {
-      if (new_value == 'GRI') {
+      if (this.selected_mode =='indicator' && new_value == 'GRI') {
         this.form_placeholder =
           'GRI 지표코드(ex.203-1) 또는 지표명을 입력해 주세요'
-      } else if (new_value == 'SASB') {
+      } else if (this.selected_mode =='indicator' && new_value == 'SASB') {
         this.form_placeholder =
           'SASB 지표코드(ex. SA-101) 또는 지표명을 입력해 주세요'
-      } else if (new_value == 'DJSI Public') {
+      } else if (this.selected_mode =='indicator' && new_value == 'DJSI') {
         this.form_placeholder =
           'DJSI 항목번호(ex. 1.2.1) 또는 질문명을 입력해 주세요'
       } else {
