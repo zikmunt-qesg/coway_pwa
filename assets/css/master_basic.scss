@@ -213,6 +213,9 @@ hr {
 
 /*font-weight*/
 
+.fw-300{
+    font-weight: 300;
+}
 .fw-400{
     font-weight: 400;
 }
@@ -227,7 +230,9 @@ hr {
 }
 
 /*text colors*/
-
+.blue8 {
+    color: $blue8;
+}
 .blue7{
     color: $blue7;
 }
@@ -239,6 +244,12 @@ hr {
 }
 .blue3{
     color: $blue3;
+}
+.blue2{
+    color: $blue2;
+}
+.blue1{
+    color: $blue1;
 }
 .coway-blue{
     color: $coway-blue;
@@ -276,7 +287,9 @@ hr {
 
 
 /* background-color */
-
+.bg-blue8{
+    background-color: $blue8;
+}
 .bg-blue7{
     background-color: $blue7;
 }
@@ -288,6 +301,12 @@ hr {
 }
 .bg-blue3{
     background-color: $blue3;
+}
+.bg-blue2{
+    background-color: $blue2;
+}
+.bg-blue1{
+    background-color: $blue1;
 }
 .bg-coway-blue{
     background-color: $coway-blue;
