@@ -88,6 +88,9 @@ export default {
         picture_file: this.picture_file
       }
       this.saveArticle(new_article)
+      .then( () => {
+        this.readArticles()
+      })
     }
   },
   created() {},

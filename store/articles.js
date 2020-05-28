@@ -38,7 +38,9 @@ export const actions = {
         formData.append('title', title)
         formData.append('date', date)
         formData.append('description', description)
-        formData.append('picture', picture_file, picture_file.name)
+        if(picture_file.name != undefined){
+            formData.append('picture', picture_file, picture_file.name)
+        }
         formData.append('contents', contents)
 
         return this.$axios.post(path, formData)
