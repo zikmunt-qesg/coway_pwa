@@ -80,6 +80,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  font-weight: 300;
   color: $gray7;
 }
 
@@ -88,6 +89,7 @@ body, button {
     word-break: keep-all;
     line-height: 1.6;
     color: $gray7;
+    font-weight: 300;
 }
 
 .header-logo{
@@ -111,7 +113,7 @@ p {
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 h2{
     font-size: 2rem;
@@ -129,7 +131,7 @@ h6 {
     font-size: 1.175rem;
 }
 .h7 {
-    font-size: 1.075rem;
+    font-size: 1.1rem;
 }
 h1, h2, h3, h4, h5, h6, .h7 {
     margin-bottom: 0.5rem;
@@ -182,9 +184,6 @@ hr {
 }
 .f-105{
     font-size: 1.05rem;
-}
-.f-110{
-    font-size: 1.1rem;
 }
 .f-100{
     font-size: 1.0rem;
@@ -464,21 +463,23 @@ table, .table {
 .border-left-bold {
     border-left: 1.3px solid $gray7;
 }
+
 .border-top-gray {
-    border-top: 1px solid $gray5;
+    border-top: 1px solid $gray4;
 }
 .border-bottom-gray {
-    border-bottom: 1px solid $gray5;
+    border-bottom: 1px solid $gray4;
 }
 .border-left-gray {
-    border-left: 1px solid $gray5;
+    border-left: 1px solid $gray4;
 }
 .border-right-gray {
-    border-right: 1px solid $gray5;
+    border-right: 1px solid $gray4;
 }
+
 .border-dotted {
     border-style: dashed;
-    border-color: $gray6;
+    border-color: $gray4;
     border-width: 1px;
 }
 

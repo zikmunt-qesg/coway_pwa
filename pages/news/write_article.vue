@@ -90,6 +90,7 @@ export default {
       this.saveArticle(new_article)
       .then( () => {
         this.readArticles()
+        this.$router.push('/news')
       })
     }
   },

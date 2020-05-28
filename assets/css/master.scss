@@ -18,7 +18,7 @@
     font-weight: 500;
 }
 
-.temp-icon1, .temp-icon2, .temp-icon3, .temp-icon4, .temp-icon5, .temp-icon6 {
+.temp-icon1, .temp-icon2, .temp-icon3, .temp-icon4, .temp-icon5, .temp-icon6, .temp-icon7 {
     border: 1px solid $gray4;
     text-align: center;
 }
@@ -46,6 +46,11 @@
     height: 54px;
     width: 54px;
 }
+.temp-icon7 {
+    height: 80px;
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     .force-deflex{
         display: inline-block;
