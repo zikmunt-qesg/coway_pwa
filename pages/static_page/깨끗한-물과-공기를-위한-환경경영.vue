@@ -10,9 +10,9 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 side-nav">
                 <h6 class="mb-5">깨끗한 물과 공기를 위한 환경경영</h6>
-                <div class="side-nav-link f-95">환경경영을 통한 깨끗함의 가치 실현</div>
-                <div class="side-nav-link f-95">전과정 수자원 사용량 절감</div>
-                <div class="side-nav-link f-95">가치사슬 전체의 환경역량 강화</div>
+                    <div><nuxt-link to="#nav_1" class="side-nav-link f-95" :class="{ active: isActive('nav_1') }">환경경영을 통한 깨끗함의 가치 실현</nuxt-link></div>
+                    <div><nuxt-link to="#nav_2" class="side-nav-link f-95" :class="{ active: isActive('nav_2') }">전과정 수자원 사용량 절감</nuxt-link></div>
+                    <div><nuxt-link to="#nav_3" class="side-nav-link f-95" :class="{ active: isActive('nav_3') }">가치사슬 전체의 환경역량 강화</nuxt-link></div>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
@@ -68,7 +68,7 @@
                     </div>
                 </section>
                 <section class="mb-5">
-                    <h6 class="dma-title mb-3">환경경영을 통한 깨끗함의 가치 실현</h6>
+                    <h6 id="nav_1" v-view="viewHandler" class="dma-title mb-3">환경경영을 통한 깨끗함의 가치 실현</h6>
                         <p> 코웨이의 환경경영은 ‘착한 믿음’의 경영정신에서 시작됩니다. 또한 코웨이는 UNGC 10대 원칙을 지지하고 실천하는 데 동참하고 있습니다. 코웨이가 만드는 제품과 서비스를 통해 환경을 건강하게 사람을 행복하게 하는 것을 기업의 핵심 가치로 인식하고 이를 적극 실천하고 있습니다.
                         </p>
                         <p> 코웨이는 비즈니스 운영과정에서의 환경영향을 최소화하고자 2006년부터 환경경영을 선포하면서 미션과 비전, 환경방침, 환경목표를 설정하고 환경경영위원회와 전담부서를 설치하여 전사적인 친환경 경영을 실천해 왔습니다. 2019년부터는 Ecoway 협의체를 기존 5대 분야에서 7대 분야(친환경 인프라, 친환경 설계 · 제품 · 서비스, 친환경 공급망, 친환경 생산, 자원순환, 기후변화, 친환경 커뮤니케이션)으로 확대하였습니다. 특히 기존 환경경영 전략에 의한 기후변화, 자원순환, 제품 친환경 설계를 계획대로 실천하며 소비자의 니즈와 사회적 요구사항을 반영하며 제품 안전성 강화에 집중하고 있습니다. 
@@ -165,7 +165,7 @@
                         <p> 2019년 Ecoway 협의체에서는 전사적인 환경경영과 관련한 주요 지표 4개 항목(기후변화, 자원순환, 친환경설계, 화학물질 안전성 평가)에 대한 운영활동 및 성과보고가 있었습니다. 첫째로 온실가스 대응 부문에서는 중장기 목표 수립 및 공개, 감축 투자안의 설정이 논의되었습니다(링크: 기후변화 대응). 자원순환 대응 부문에서는 전 사업 과정의 폐기물 발생 실적과 비용, 폐기물 개선 활동이 논의되었으며, 친환경 설계 부문에서는 냉매 전환, 에너지 소비효율 현황 및 분석이 주요 아젠다로 보고되었습니다. 마지막으로 제품환경 및 화학물질관리 안전성 평가 부문에서 제품화학물질관리시스템(CSMS)의 운영 개선 방안과 규제 네트워크 구축 활동 및 향후 계획이 보고되었습니다. 
                         </p>
                     <hr class="space-p25">    
-                    <h6 class="dma-title mb-3">전과정 수자원 사용량 절감</h6>
+                    <h6 id="nav_2" v-view="viewHandler" class="dma-title mb-3">전과정 수자원 사용량 절감</h6>
                         <p> 물은 중요한 자원입니다. 물 사용 제조 공정 개선 및 워터리스 테스트 시스템 도입 등을 통해 물 사용량을 지속적으로 관리하고 있습니다.
                         </p>
                     <b-row class="py-3 mb-3">
@@ -244,7 +244,7 @@
                     </b-row>
                 </section>
                 <section class="mb-5">
-                    <h6 class="dma-title mb-3">가치사슬 전체의 환경역량 강화</h6>
+                    <h6 id="nav_3" v-view="viewHandler" class="dma-title mb-3">가치사슬 전체의 환경역량 강화</h6>
                         <p> 코웨이는 지속 강화되어 가는 제품환경규제 및 안전성 대응을 위해 코웨이 전직원 및 협력사 대상으로 매년 오프라인 교육 프로그램을 제공 및 수시 온라인 지도, 지원을 실시하고 있습니다. “Global 환경규제 동향”, “기업의 환경규제 대응”, “환경규제 대응 방법론” 등 실질적이고 지속적인 도움을 제공함으로서 규제 대응력 강화 및 risk 제로 실행에 목표를 두고 있습니다. 
                         </p>
                         <p> 2019년 사내 담당자 390명 및 협력사 77개사 담당자 대상으로 교육 실시를 완료 하였습니다. 추가로 교육 내용 및 업무 활용에서 90%이상의 협력사로부터 우수하고 업무 적용 가능한 것으로 평가받았습니다.
@@ -275,6 +275,41 @@
     </b-container>
 </div>
 </template>
+<script>
+import * as ih from '@/components/util'
+
+export default {
+    data(){
+        return {
+            activated: []
+        }
+    },
+    methods:{
+        viewHandler(event){
+            if(event.type == 'enter' ){
+                this.activated.push(event.target.element.id)
+            }
+            else if(event.type == 'exit'){
+                let idx = this.activated.findIndex(item => item == event.target.element.id)
+                if (idx > -1) {
+                    this.activated.splice(idx, 1)
+                }
+            }
+            console.log(this.activated)
+        },
+        isActive(target){
+            let idx = this.activated.findIndex(item => item == target)
+            if(idx > -1) {
+                return true
+            }
+            else {
+                return false
+            }
+        }
+    }
+    
+}
+</script>
 
 <style>
 /* .page-top-bg {
@@ -286,5 +321,9 @@
     background-repeat: no-repeat;
     width: 100vw;    
 } */
+
+.active {
+    color: blue;
+}
 
 </style>

@@ -135,11 +135,11 @@ export default {
         let clientRect = el.getBoundingClientRect();
         if ('scrollBehavior' in document.documentElement.style) {
           return window.scrollTo({
-            top: clientRect.top + document.body.scrollTop - 150,
+            top: clientRect.top + window.pageYOffset - 150,
             behavior: 'smooth'
           })
         } else {
-          return window.scrollTo(0, clientRect.top + document.body.scrollTop - 150)
+          return window.scrollTo(0, clientRect.top + window.pageYOffset - 150)
         }
       }
 
