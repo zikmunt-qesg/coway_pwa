@@ -4,13 +4,13 @@
         <b-row class="py-4">
             <b-col class="col-2 f-85 gray5"> Coway Sustainability 2020</b-col>
             <b-col class="col-2" v-for="item in menu" :key="item.id">
-                <div class="f-85 mb-3">
-                    <nuxt-link :to="`${item.link}`" @click.stop="toggleSiteMap">{{ item.title }}</nuxt-link>
+                <div class="f-85 mb-3" @click.stop="toggleSiteMap">
+                    <nuxt-link :to="`${item.link}`">{{ item.title }}</nuxt-link>
                 </div>
                 <div v-for="level2_item in item.child" :key="level2_item.id" class="mb-4 g-nav">
-                    <div class="mb-2"><nuxt-link :to="`${level2_item.link}`" @click.stop="toggleSiteMap" class="f-85 g-nav-lv2"> {{ level2_item.title }}</nuxt-link></div>
-                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-1">
-                        <nuxt-link :to="`${level3_item.link}`" @click.stop="toggleSiteMap" class="f-80 g-nav-lv3"> {{ level3_item.title }}</nuxt-link>
+                    <div class="mb-2" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2"> {{ level2_item.title }}</nuxt-link></div>
+                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-1" @click.stop="toggleSiteMap">
+                        <nuxt-link :to="`${level3_item.link}`" class="f-80 g-nav-lv3"> {{ level3_item.title }}</nuxt-link>
                     </div>
                 </div>
             </b-col>
