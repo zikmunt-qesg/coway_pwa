@@ -191,7 +191,12 @@ button.close:hover {
 }
 
 
-
+#sitemap-modal > .modal-dialog{
+    min-width: 80vw;
+}
+#sitemap-modal___BV_modal_body_.modal-body{
+    padding: 0;
+}
 
 
 @media (max-width: 768px) {
@@ -203,10 +208,9 @@ button.close:hover {
       right: 1rem !important;
       max-height: 90vh;
     }
-  }
+}
   
-  @media (min-width: 768px) {
-  
+@media (min-width: 768px) {
     #modify-modal > .modal-dialog{
         min-width: 500px;
         position: absolute !important;
@@ -215,7 +219,7 @@ button.close:hover {
         pointer-events: none;
         right: 10px !important;
     }
-  
+
     #modify-wide-modal > .modal-dialog{
         min-width: 650px;
         position: absolute !important;
@@ -224,21 +228,19 @@ button.close:hover {
         pointer-events: none;
         right: 10px !important
     }
-  
+
     #modify-modal-top > .modal-dialog{
-      min-width: 45vw;
-      position: absolute !important;
-      margin: 0.5rem !important;
-      top: 40px;
-      pointer-events: none;
-      right: 1rem !important;
-      max-height: 90vh;
+        min-width: 45vw;
+        position: absolute !important;
+        margin: 0.5rem !important;
+        top: 40px;
+        pointer-events: none;
+        right: 1rem !important;
+        max-height: 90vh;
     }
-  
-  }
-  
-  @media (min-width: 992px) {
-  
+}
+
+@media (min-width: 992px) {
     #modify-modal > .modal-dialog{
         min-width: 600px;
         position: absolute !important;
@@ -247,29 +249,27 @@ button.close:hover {
         pointer-events: none;
         right: 10px !important;
     }
-  
+
     #modify-wide-modal > .modal-dialog{
-      min-width: 800px;
-      position: absolute !important;
-      margin: 0.5rem !important;
-      bottom: 10px !important;
-      pointer-events: none;
-      right: 10px !important
+        min-width: 800px;
+        position: absolute !important;
+        margin: 0.5rem !important;
+        bottom: 10px !important;
+        pointer-events: none;
+        right: 10px !important
     }
-  
+
     #modify-modal-top > .modal-dialog{
-      min-width: 42vw;
-      position: absolute !important;
-      margin: 0.5rem !important;
-      top: 40px;
-      pointer-events: none;
-      right: 1rem !important;
+        min-width: 42vw;
+        position: absolute !important;
+        margin: 0.5rem !important;
+        top: 40px;
+        pointer-events: none;
+        right: 1rem !important;
     }
-    
-  }
-  
-  @media (min-width: 1200px) {
-  
+}
+
+@media (min-width: 1200px) {
     #modify-modal > .modal-dialog{
         min-width: 800px;
         position: absolute !important;
@@ -278,43 +278,42 @@ button.close:hover {
         pointer-events: none;
         right: 10px !important;
     }
-  
+
     #modify-wide-modal > .modal-dialog{
-      min-width: 950px;
-      position: absolute !important;
-      margin: 0.5rem !important;
-      bottom: 10px !important;
-      pointer-events: none;
-      right: 10px !important
+        min-width: 950px;
+        position: absolute !important;
+        margin: 0.5rem !important;
+        bottom: 10px !important;
+        pointer-events: none;
+        right: 10px !important
     }
-  
+
     #modify-modal-top > .modal-dialog{
-      max-width: 38vw;
-      position: absolute !important;
-      margin: 0.5rem !important;
-      top: 40px;
-      pointer-events: none;
-      right: 1rem !important;
+        max-width: 38vw;
+        position: absolute !important;
+        margin: 0.5rem !important;
+        top: 40px;
+        pointer-events: none;
+        right: 1rem !important;
     }
-  
-  }
-  
-  #modify-wide-modal___BV_modal_body_.modal-body{
-    padding: 0;
-  }
-  
-  #modify-wide-modal___BV_modal_content_.modal-content{
-    background-color: transparent;
-    border: none;
-  }
-  
-  #modify-modal___BV_modal_backdrop_.modal-backdrop {
-      opacity: 0.2!important;
-  }
-  
-  #modify-wide-modal___BV_modal_backdrop_.modal-backdrop {
+}
+
+#modify-wide-modal___BV_modal_body_.modal-body{
+padding: 0;
+}
+
+#modify-wide-modal___BV_modal_content_.modal-content{
+background-color: transparent;
+border: none;
+}
+
+#modify-modal___BV_modal_backdrop_.modal-backdrop {
     opacity: 0.2!important;
-  }
+}
+
+#modify-wide-modal___BV_modal_backdrop_.modal-backdrop {
+opacity: 0.2!important;
+}
 
   /*categories*/
   .edit-mode-category{

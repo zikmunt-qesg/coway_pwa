@@ -1,5 +1,5 @@
 <template>
-<div class="g-nav-vh overflow-auto shadow">
+<div class="">
     <b-container>
         <b-row class="py-4">
             <b-col class="col-2 f-85 gray5"> Coway Sustainability 2020</b-col>
@@ -45,9 +45,9 @@ export default {
 }
 </script>
 <style scoped>
-.g-nav-vh{
-    height: 80vh;
-}
+/* .g-nav-vh{
+    height: 85vh;
+} */
 .g-nav{
     line-height: 1.3;
 }

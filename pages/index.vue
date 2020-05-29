@@ -14,7 +14,7 @@
         </b-row>
         <b-row>
             <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
-                <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0">
+                <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0 hover-shadow">
                     <div class="f-80 fw-300 position-absolute pr-4"> 
                     최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 코웨이는 제품과 서비스 혁신을 통해 건강과 위생은 물론 고객 개인의 라이프스타일을 반영한 새로운 가치를 창출합니다.
                     </div>
@@ -24,7 +24,7 @@
                 </b-card>
             </b-col>
             <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
-                <b-card class="bg-blue7 p-lg-2 h-100 position-relative border-0">
+                <b-card class="bg-blue7 p-lg-2 h-100 position-relative border-0 hover-shadow">
                     <div class="f-80 fw-300 position-absolute pr-4"> 
                     최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 코웨이는 제품과 서비스 혁신을 통해 건강과 위생은
                     </div>
@@ -34,7 +34,7 @@
                 </b-card>
             </b-col>
             <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
-                <b-card class="bg-blue3 p-lg-2 h-100 position-relative border-0">
+                <b-card class="bg-blue3 p-lg-2 h-100 position-relative border-0 hover-shadow">
                     <div class="f-80 fw-300 position-absolute pr-4"> 
                     최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 코웨이는 제품과 서비스 혁신을 통해 건강과 위생은 물론 고객
                     </div>
@@ -238,8 +238,12 @@ export default {
     }
 }
 
-// .main-news-card-img{
-//     height: 200px;
-// }
+.hover-shadow{
+    transition: all 0.1s ease;
+}
+.hover-shadow:hover{
+    margin-top: -0.5em;
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.15);
+}
 
 </style>

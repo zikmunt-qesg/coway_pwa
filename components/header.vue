@@ -1,8 +1,8 @@
 <template>
   <header class="sticky-top">
     <div class="position-relative">
-        <b-navbar class="px-5 d-flex justify-content-center" toggleable="lg" type="light" variant="light">
-            <b-navbar-brand>
+        <b-navbar class="px-5 py-0 d-flex justify-content-center bg-white" toggleable="lg" variant="light" style="z-index:10">
+            <b-navbar-brand class="mr-auto my-3">
                 <nuxt-link to="/">
                     <b-img class="header-logo" src="@/assets/images/coway-ci.svg" alt="Logo" /> 
                     <span class="f-90 align-self-center"> Sustainability 2020</span>
@@ -12,34 +12,37 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav class="ml-3">
-                    <b-nav-item v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" class="px-1">
-                        <nuxt-link :to="`${item.link}`" class="global-nav-lv1 f-85">{{ item.title }}</nuxt-link>
-                    </b-nav-item>
-                    <b-nav-item class="ml-3 px-1 pt-1 f-80"> ENG </b-nav-item>
-                    <b-nav-item class="px-1"><i class="fas fa-search"></i></b-nav-item>
-                    <b-nav-item class="px-1" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
+                <b-navbar-nav class="ml-3 h-100">
+                    <b-nav-item v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" 
+                    :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-2 px-auto f-95 global-nav-lv1']">
+                        {{ item.title }}
+                        <!-- <nuxt-link :to="`${item.link}`" class="px-0 f-85"></nuxt-link> -->
+                    </b-nav-item>                    
                 </b-navbar-nav>
             </b-collapse>
+            <b-nav-item class="ml-auto px-1 pt-1 f-80" style="list-style: none"> ENG </b-nav-item>
+            <b-nav-item class="ml-3 px-1" style="list-style: none"><i class="fas fa-search"></i></b-nav-item>
+            <b-nav-item class="d-none d-lg-block ml-3 px-1" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
         </b-navbar>
 
-        <div v-if="show_sub_menu==true" @mouseleave="show_sub_menu=false" class="d-none d-lg-block w-100 global-nav">
+        <div @mouseleave="show_sub_menu=false" id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
             <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center">
                 <b-col class="col-0 col-lg-1"></b-col>
                 <b-col class="col-12 col-md-5 col-lg-4 px-3 px-md-5 px-lg-3 f-90 gray3 fw-300">{{ menu_text }}</b-col>
                 <b-col class="col-12 col-md-7 col-lg-6 pr-3 pr-md-5 pr-lg-3 d-flex justify-content-end flex-wrap">
-                    <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="global-nav-level2">
-                        <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false" class="global-nav-lv2">
-                            {{ level2_item.title }}
-                        </nuxt-link>
+                    <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
+                        <div class="global-nav-2">
+                            <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false" class="global-nav-lv2"> {{ level2_item.title }}
+                            </nuxt-link>
+                        </div>
                     </div>
                 </b-col>
                 <b-col class="col-0 col-lg-1"></b-col>
             </b-row>
         </div>
-        <div v-if="show_site_map==true" class="global-site-map w-100 bg-gray2 ">
+        <b-modal hide-header hide-footer v-model="show_site_map" id="sitemap-modal" class="position-absolute w-100 bg-gray">
             <site-map @show_site_map="toggleSiteMap"></site-map>
-        </div>
+        </b-modal>
 
     </div>
   </header>
@@ -71,6 +74,8 @@ export default {
             if (menu_item.child != undefined) {
                 this.show_sub_menu = true
                 this.sub_menu_item = menu_item.child
+                console.log(menu_item.child[0]);
+                console.log(this.sub_menu_item[0]);
             }
         },
         toggleSiteMap(){
@@ -84,42 +89,70 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .navbar-collapse {
     flex-grow: 0;
 }
-.global-site-map {
-    position: absolute;
+#global-site-map {
+    margin-top: -100%;
+}
+#global-site-map.sitemap-show {
     z-index: 100;
-}
-.global-nav {
-    background-color: $gray6;
-    position: absolute;
-    z-index: 99;
-}
-.global-nav-lv1 {
-    color: $gray6;
-}
-.global-nav-lv1:hover {
-    font-weight: 600;
-    color: $gray8;
-    text-decoration: none;
+    margin-top: 0;
+    transition: all 1s ease-in; 
 }
 
-.global-nav-level2{
-    width: 10em;
+#global-nav {
+    overflow: hidden;
+}
+#global-nav.lv2-show{
+    margin-top: 0;
+    z-index: 9;
+    transition: all 1s ease-out;
+}
+#global-nav.lv2-hide{
+    margin-top: -100%;
+    z-index: 9;
+    transition: all 1s ease-in;    
+}
+
+.global-nav-lv1 > a{
+    font-weight: 400;
+    color: $gray6;
+    letter-spacing: 0.196px;
+}
+.global-nav-lv1 > a:hover,
+.nav-active > .nav-link {
+    font-weight: 500;
+    color: $gray7;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+
+.global-nav-temp{
+    // background-color: $blue4;
+    width: 14.4em;
+    height: 4.5em;
+    margin-right: 0.1em;
+}
+
+.global-nav-2{
+    width: 12em;
     text-align: left;
     margin-right: 2.5em;
     margin-bottom: 1.5em;
     border-top: 0.75px solid $gray3;
+    transition: margin-top 0.3s ease;
 }
-.global-nav-level2:hover{
-    border-top: 0.75px solid $gray2;
+.global-nav-2:hover{
+    border-top: 0.75px solid white;
+    margin-top: -0.7em;
 }
 .global-nav-lv2 {
     color: $gray3;
 }
 .global-nav-lv2:hover {
-    color: $gray2;
+    color: white;
     text-decoration: none;
 }
 
