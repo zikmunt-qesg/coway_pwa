@@ -19,6 +19,8 @@
         <div class="mb-3">
             <h7>사진 및 이미지</h7>
             <b-form-file v-model="picture_file" :placeholder="picture_file.name"></b-form-file>
+            <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
+
         </div>
         <div class="mb-3">
             <h7>내용</h7>
@@ -33,31 +35,22 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions, mapGetters } from 'vuex'
 import axios from 'axios'
 
 export default {
   async asyncData({ query, store }) {
     if (query.id) {
-      const path = store.state.articles.backend_host + '/get_file_from_server'
-      let file = store.state.articles.articles.find(item => item.id == query.id)
-      let filename = null
-      if (file != undefined) {
-        filename = file.picture
+      let target_article = store.state.articles.articles.find(item => item.id==query.id)
+      if (target_article.picture_file_url == undefined) {
+        await store.dispatch('articles/loadPicture', { id: query.id })
       }
-      const { data } = await axios.get(path, {
-        params: { filename: filename },
-        responseType: 'blob'
-      })
-
       return {
-        picture_file_data: data,
         id: query.id
       }
     } else {
       return {
         id: null,
-        picture_file: []
       }
     }
   },
@@ -67,17 +60,18 @@ export default {
       description: '',
       date: '',
       contents: '',
-      picture_file: []
+      picture_file: [],
+      picture_file_url: ''
     }
   },
   computed: {
     ...mapState('articles', {
       articles: state => state.articles,
       is_articles_loaded: state => state.is_articles_loaded
-    })
+    }),
   },
   methods: {
-    ...mapActions('articles', ['readArticles', 'saveArticle']),
+    ...mapActions('articles', ['readArticles', 'saveArticle', 'loadPicture']),
     save() {
       let new_article = {
         id: this.id,
@@ -94,7 +88,9 @@ export default {
       })
     }
   },
-  created() {},
+  created() {
+
+  },
   mounted() {
     if (this.id != null) {
       let target_article = this.articles.find(item => item.id == this.id)
@@ -103,16 +99,9 @@ export default {
         this.description = target_article.description
         this.date = target_article.date
         this.contents = target_article.contents
-        this.picture_file = new File(
-          [this.picture_file_data],
-          target_article.picture
-        )
+        this.picture_file = target_article.picture_file
+        this.picture_file_url = URL.createObjectURL(target_article.picture_file)
       }
-    }
-  },
-  watch: {
-    picture_file(new_val) {
-      console.log(new_val)
     }
   }
 }

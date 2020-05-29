@@ -141,30 +141,12 @@
             <b-col class="col-0 col-md-1"></b-col>
         </b-row>
         <b-row>
-            <b-col class="col-12 col-md-4 mb-3 mb-md-0">
+            <b-col v-for="item in main_articles" :key="item.id" class="col-12 col-md-4 mb-3 mb-md-0">
                 <b-card no-body class="shadow border-0">
-                    <b-card-img src="@/assets/images/사각형69.png" alt="Image" class="main-news-card-img" img-top></b-card-img>
+                    <b-card-img v-if="item.picture_file_url" :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top></b-card-img>
                     <b-card-body class="p-4">
-                        <p class="px-2 mb-4 fw-400 f-105"> 뉴스 제목 </p>
-                        <p class="px-2 f-80 gray6">뉴스 Contents가 들어올 예정입니다</p>
-                    </b-card-body>
-                </b-card>
-            </b-col>
-            <b-col class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card no-body class="shadow border-0">
-                    <b-card-img src="@/assets/images/사각형69.png" alt="Image" class="main-news-card-img" img-top></b-card-img>
-                    <b-card-body class="p-4">
-                        <p class="px-2 mb-4 fw-400 f-105"> 뉴스 제목 </p>
-                        <p class="px-2 f-80 gray6">뉴스 Contents가 들어올 예정입니다</p>
-                    </b-card-body>
-                </b-card>
-            </b-col>
-            <b-col class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card no-body class="shadow border-0">
-                    <b-card-img src="@/assets/images/사각형69.png" alt="Image" class="main-news-card-img" img-top></b-card-img>
-                    <b-card-body class="p-4">
-                        <p class="px-2 mb-4 fw-400 f-105"> 뉴스 제목 </p>
-                        <p class="px-2 f-80 gray6">뉴스 Contents가 들어올 예정입니다</p>
+                        <p class="px-2 mb-4 fw-400 f-105"> {{ item.title }} </p>
+                        <p class="px-2 f-80 gray6">{{ item.description }} </p>
                     </b-card-body>
                 </b-card>
             </b-col>
@@ -176,6 +158,9 @@
 </template>
 
 <script>
+import { mapState, mapActions } from 'vuex'
+import * as ih from '@/components/util'
+
 export default {
   transition(to, from) {
     if (!from) {
@@ -184,6 +169,20 @@ export default {
     return "slide-right";
   },
   components: {},
+  async asyncData({ store }) {
+    if (store.state.articles.is_articles_loaded != true) {
+      let articles = await store.dispatch('articles/readArticles')
+     
+      return {
+          main_articles: ih.deepCopy(articles.slice(0,3))
+      }
+    }
+    else {
+        return {
+            main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))
+        }
+    }
+  },
   head() {
     return {
       script: [
@@ -192,9 +191,27 @@ export default {
     };
   },
   computed: {
+    ...mapState('articles', {
+        articles: state => state.articles,
+        is_articles_loaded: state => state.is_articles_loaded
+    }),
     blog_posts() {
       return this.$store.state.blog_posts;
-    }
+    },
+  },
+  methods: {
+    ...mapActions('articles', ['loadPicture'])
+  },
+  mounted() {
+    this.main_articles.forEach(item => {
+        if(!item.picture_file){
+            this.loadPicture({ id: item.id })
+            .then( picture => {
+                this.$set(item, 'picture_file', picture)
+                this.$set(item, 'picture_file_url', URL.createObjectURL(picture))
+            })
+        }
+    })
   }
 };
 </script>

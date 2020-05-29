@@ -282,6 +282,7 @@ import SideNavigation from '@/components/navigation/SideNavigation'
 import h6Ancor from '@/components/navigation/h6Ancor'
 
 export default {
+    layout: 'StaticPage',
     data(){
         return {
             activated: []
