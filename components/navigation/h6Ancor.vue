@@ -1,5 +1,5 @@
 <template>
-    <h6 :id="safeHash(title)" v-view="viewHandler" class="dma-title mb-3">{{ title }}</h6>
+    <h6 :id="safeHash(title)" v-view="viewHandler">{{ title }}</h6>
 </template>
 <script>
 import * as ih from '@/components/util'
@@ -23,7 +23,6 @@ export default {
                     this.activated.splice(idx, 1)
                 }
             }
-            console.log(this.activated)
         },
     }
 }
