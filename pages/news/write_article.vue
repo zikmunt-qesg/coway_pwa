@@ -103,6 +103,14 @@ export default {
         this.picture_file_url = URL.createObjectURL(target_article.picture_file)
       }
     }
+  },
+  watch:{
+    picture_file: {
+      deep: true,
+      handler(newVal){
+        console.log(newVal)
+      }
+    }
   }
 }
 </script>

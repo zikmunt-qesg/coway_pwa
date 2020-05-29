@@ -17,7 +17,7 @@ export const mutations = {
         let target_article = state.articles.find(item => item.id == target_article_id)
         Vue.set(target_article, 'picture_file', picture_file)
         Vue.set(target_article, 'picture_file_url', URL.createObjectURL(picture_file))
-        Vue.set(state, 'articles', state.articles)
+        //Vue.set(state, 'articles', state.articles)
     }
 }
 
@@ -70,12 +70,21 @@ export const actions = {
                 responseType: 'blob'
             })
             .then(response => {
-                let picture_file = new File(
-                    [response.data],
-                    filename
-                )
+                let picture_file = []
+                if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1)) {
+                    // ie일 경우
+                    picture_file = response.data
+                    picture_file.name = filename
+                }
+                else {
+                    picture_file = new File([response.data], filename)
+                }
+                //let picture_file = new File([response.data], filename)
                 commit('add_article_picture_file', { target_article_id: id, picture_file: picture_file })
                 return picture_file
+            })
+            .catch(error=>{
+                console.log(error)
             })
         }
     }

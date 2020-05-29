@@ -206,9 +206,13 @@ export default {
     this.main_articles.forEach(item => {
         if(!item.picture_file){
             this.loadPicture({ id: item.id })
+            //
             .then( picture => {
                 this.$set(item, 'picture_file', picture)
                 this.$set(item, 'picture_file_url', URL.createObjectURL(picture))
+            })
+            .catch( error=>{
+                console.log(error)
             })
         }
     })
