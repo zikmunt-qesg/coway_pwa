@@ -2,7 +2,7 @@
   <header class="sticky-top">
     <div class="position-relative">
         <b-navbar class="px-5 py-0 d-flex justify-content-center bg-white" toggleable="lg" variant="light" style="z-index:10">
-            <b-navbar-brand class="mr-auto my-3">
+            <b-navbar-brand class="my-3">
                 <nuxt-link to="/">
                     <b-img class="header-logo" src="@/assets/images/coway-ci.svg" alt="Logo" /> 
                     <span class="f-90 align-self-center"> Sustainability 2020</span>
@@ -12,7 +12,7 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav class="ml-3 h-100">
+                <b-navbar-nav class="ml-4 h-100">
                     <b-nav-item v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" 
                     :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-2 px-auto f-95 global-nav-lv1']">
                         {{ item.title }}
@@ -20,9 +20,9 @@
                     </b-nav-item>                    
                 </b-navbar-nav>
             </b-collapse>
-            <b-nav-item class="ml-auto px-1 pt-1 f-80" style="list-style: none"> ENG </b-nav-item>
-            <b-nav-item class="ml-3 px-1" style="list-style: none"><i class="fas fa-search"></i></b-nav-item>
-            <b-nav-item class="d-none d-lg-block ml-3 px-1" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
+            <b-nav-item class="ml-4 pt-1 f-90" style="list-style: none"> ENG </b-nav-item>
+            <b-nav-item class="ml-2" style="list-style: none"><i class="fas fa-search"></i></b-nav-item>
+            <b-nav-item class="d-none d-lg-block ml-2" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
         </b-navbar>
 
         <div @mouseleave="show_sub_menu=false" id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">

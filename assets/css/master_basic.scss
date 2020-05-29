@@ -389,13 +389,13 @@ table, .table {
 }
 .btn-blue-border {
     background-color: rgba(0,0,0,0);
-    color: $blue7;
-    border: 1px solid $blue7;
+    color: $blue5;
+    border: 1px solid $blue5;
 }
 .btn-blue-border:hover, .btn-blue-border:focus {
-    background-color:  $blue3;
-    color: $blue7;
-    border: 1px solid $blue7;
+    background-color:  $blue5;
+    color: white;
+    border: 1px solid $blue5;
 }
 
 .btn-icon {
@@ -483,8 +483,6 @@ table, .table {
     border-color: $gray4;
     border-width: 1px;
 }
-
-
 
 
 /*card*/

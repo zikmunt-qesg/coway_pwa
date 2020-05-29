@@ -4,27 +4,31 @@
         <b-col class="py-5 my-3 my-md-4 text-center text-white"><h1>Reporting Frameworks</h1></b-col>
     </b-row>
     <b-container>
-        <b-card class="border-0 bg-blue-gray1">
+        <b-card class="border-0 bg-blue-gray1 mb-5">
             <search-form class="my-3" prop_mode='indicator' prop_framework='GRI'></search-form>
         </b-card>
 
-        <b-card class="my-3 bg-gray2">
-            <b-card-body>
+            <b-nav tabs class="mb-5">
+                <b-nav-item active class="f-110 fw-400"> GRI </b-nav-item>
+                <b-nav-item class="f-110 fw-400"> SASB </b-nav-item>
+                <b-nav-item class="f-110 fw-400"> DJSI Public </b-nav-item>
+            </b-nav>
+
+            <b-card class="border-0 px-4 fw-400">
             GRI(Global Reporting Initiatives)는 기업, 정부 및 기타 조직이 기후 변화, 인권 및 부패와 같은 지속가능성 문제에 대한 영향을 이해하고 정보를 공시하도록 돕는 국제 표준 조직입니다. 
             코웨이는 GRI의 지속가능성 보고 표준(GRI Sustainability Disclosure Standard)의 핵심(Core) 부합 방법에 따라 보고서를 작성하여 공개하고 있습니다. 
-            </b-card-body>
-        </b-card>
+            </b-card>
 
         <hr class="space-p25">
-
-        <b-table-simple class="num-table" responsive>
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Universal Standards (GRI 100) </div>
+        <b-table-simple class="txt-table" responsive>
         <b-thead>
             <b-tr>
-            <b-td>구분</b-td>
-            <b-td>GRI 번호</b-td>
-            <b-td>지표명</b-td>
-            <b-td>Link</b-td>
-            <b-td>비고</b-td>
+            <b-td style="width:18%;">구분</b-td>
+            <b-td style="width:8%;">GRI 번호</b-td>
+            <b-td >지표명</b-td>
+            <b-td style="width:10%;">Link</b-td>
+            <b-td style="width:10%;">비고</b-td>
             </b-tr>
         </b-thead>
         <b-tbody>
@@ -43,15 +47,16 @@
         </b-table-simple>
 
         <hr class="space-p25">
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Econimic (GRI 200) </div>
 
-        <b-table-simple class="num-table" responsive>
+        <b-table-simple class="txt-table" responsive>
         <b-thead>
             <b-tr>
-            <b-td>구분</b-td>
-            <b-td>GRI 번호</b-td>
-            <b-td>지표명</b-td>
-            <b-td>Link</b-td>
-            <b-td>비고</b-td>
+            <b-td style="width:18%;">구분</b-td>
+            <b-td style="width:8%;">GRI 번호</b-td>
+            <b-td >지표명</b-td>
+            <b-td style="width:10%;">Link</b-td>
+            <b-td style="width:10%;">비고</b-td>
             </b-tr>
         </b-thead>
         <b-tbody>
@@ -71,14 +76,15 @@
 
         <hr class="space-p25">
 
-        <b-table-simple class="num-table" responsive>
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Environmental (GRI 300) </div>
+        <b-table-simple class="txt-table" responsive>
         <b-thead>
             <b-tr>
-            <b-td>구분</b-td>
-            <b-td>GRI 번호</b-td>
-            <b-td>지표명</b-td>
-            <b-td>Link</b-td>
-            <b-td>비고</b-td>
+            <b-td style="width:18%;">구분</b-td>
+            <b-td style="width:8%;">GRI 번호</b-td>
+            <b-td >지표명</b-td>
+            <b-td style="width:10%;">Link</b-td>
+            <b-td style="width:10%;">비고</b-td>
             </b-tr>
         </b-thead>
         <b-tbody>
@@ -97,15 +103,16 @@
         </b-table-simple>
 
         <hr class="space-p25">
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Social (GRI 400) </div>
 
-        <b-table-simple class="num-table" responsive>
+        <b-table-simple class="txt-table" responsive>
         <b-thead>
             <b-tr>
-            <b-td>구분</b-td>
-            <b-td>GRI 번호</b-td>
-            <b-td>지표명</b-td>
-            <b-td>Link</b-td>
-            <b-td>비고</b-td>
+            <b-td style="width:18%;">구분</b-td>
+            <b-td style="width:8%;">GRI 번호</b-td>
+            <b-td >지표명</b-td>
+            <b-td style="width:10%;">Link</b-td>
+            <b-td style="width:10%;">비고</b-td>
             </b-tr>
         </b-thead>
         <b-tbody>
@@ -122,6 +129,8 @@
             </b-tr>
         </b-tbody>
         </b-table-simple>
+
+        <hr class="space-p75">
     </b-container>
 </div>
 </template>
