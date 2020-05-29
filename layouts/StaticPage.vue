@@ -1,13 +1,11 @@
 <template>
   <div>
     <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
-    <site-header />
+        <site-header />
 
-    <b-container class="mt-4 stretch">
-      <nuxt class="nuxt" />
-    </b-container>
+        <nuxt class="nuxt" />
 
-    <site-footer />
+        <site-footer />
   </div>
 </template>
 <script>
