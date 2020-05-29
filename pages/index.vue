@@ -222,10 +222,7 @@ export default {
 }
 
 .hover-shadow{
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease;
-    transition-timing-function: ease;
+    transition: all 0.1s ease;
 }
 .hover-shadow:hover{
     margin-top: -0.5em;
