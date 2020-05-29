@@ -138,6 +138,7 @@ export default {
 
 .global-nav-2{
     width: 12em;
+    height: 100%;
     text-align: left;
     margin-right: 2.5em;
     margin-bottom: 1.5em;
@@ -150,6 +151,7 @@ export default {
 }
 .global-nav-lv2 {
     color: $gray3;
+    height: 100%;
 }
 .global-nav-lv2:hover {
     color: white;

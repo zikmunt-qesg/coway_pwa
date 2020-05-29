@@ -8,7 +8,7 @@
         <h1 class="text-center mb-4 fw-400"> SUSTAINABILITY ISSUES 2019</h1>
         <b-row class="mb-3">
             <b-col class="col-0 col-md-1"></b-col>
-            <b-col class="col-0 col-md-10 text-center f-95 mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+            <b-col class="col-12 col-md-10 text-center f-95 mb-4">코웨이는 글로벌 보고 기준에 부합하는 방법론으로 매년 중대성 평가를 실시하고 있습니다. 2020년 중대성 평가 결과 제품과 서비스의 혁신, 제품 책임, 정보보안 및 개인정보보호 3가지 주제가 지속가능한 기업이 되기 위해 관리해야 할 주요 내용으로 도출되었습니다. 이 3가지 주제와 관련된 코웨이의 목표와 성과, 노력을 본 섹션에서 보고하고 있습니다
             </b-col>
             <b-col class="col-0 col-md-1"></b-col>
         </b-row>
@@ -48,7 +48,7 @@
         <h1 class="text-center mb-4 fw-400"> KEY FIGURES 2019</h1>
         <b-row class="mb-3">
             <b-col class="col-0 col-md-1"></b-col>
-            <b-col class="col-0 col-md-10 text-center f-95 mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            <b-col class="col-12 col-md-10 text-center f-95 mb-4">물과 공기를 다루는 업이 생명과 직결되는 만큼, 우리가 하는 일에 책임을 다하는 것에서 코웨이의 지속가능경영은 시작합니다. 코웨이는 제품 및 서비스 개발, 생산, 마케팅, 판매에 이르기까지 비즈니스 전 과정에서 지속가능성을 추구하기 위해 노력하고 있습니다. 2019년 코웨이의 경제, 환경, 사회 관련 주요 성과 지표를 한 눈에 볼 수 있습니다. 
             </b-col>
             <b-col class="col-0 col-md-1"></b-col>
         </b-row>
@@ -133,10 +133,10 @@
             </b-col>                
         </b-row>
         <hr class="mb-5">
-        <h1 class="text-center mb-4 fw-400"> COWAY SUSTAINABILITY NEWS</h1>
+        <h1 class="text-center mb-4 fw-400"> SUSTAINABILITY NEWS</h1>
         <b-row class="mb-3">
             <b-col class="col-0 col-md-1"></b-col>
-            <b-col class="col-0 col-md-10 text-center f-95 mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis 
+            <b-col class="col-12 col-md-10 text-center f-95 mb-4">주요 이해관계자와 함께 새로운 가치를 더하기 위한 코웨이의 노력, 지속가능성 관련 소식을 여기서 만나볼 수 있습니다
             </b-col>
             <b-col class="col-0 col-md-1"></b-col>
         </b-row>
