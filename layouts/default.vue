@@ -29,11 +29,8 @@ export default {
     ...mapActions('articles', ['readArticles', 'saveArticle'])
   },
   created() {
-    console.log(this.is_articles_loaded)
     if (this.is_articles_loaded != true) {
-      this.readArticles().then(() => {
-        console.log(this.articles)
-      })
+      this.readArticles()
     }
   }
 }
