@@ -11,7 +11,7 @@
                     <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
                 </b-tr>
             </b-thead>
-            <b-tbody v-for="(item, index) in articles" :Key="item.id">
+            <b-tbody v-for="(item, index) in articles" :key="item.id">
                 <b-tr>
                     <b-td class="border-0">{{ index }}</b-td> 
                     <b-td class="border-0">
