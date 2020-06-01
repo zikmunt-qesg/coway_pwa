@@ -42,6 +42,7 @@
 <script>
 import LineChart from '@/components/chart/LineChart'
 import axios from 'axios'
+import { mapState } from 'vuex'
 
 export default {
     layout: 'AdminPage',
@@ -119,6 +120,9 @@ export default {
         }
     },
     computed:{
+        ...mapState({
+            is_authenticated: state => state.is_authenticated,
+        }),
         // 1. 날짜 기준으로 daily total page view 산출
 
 
@@ -132,9 +136,13 @@ export default {
 
     },
     created(){
-        this.updateChartData()
-        console.log(this.page_views);
-        
+        if (this.is_authenticated != true){
+            this.$router.push('/dashboard')
+        }
+        else {
+            this.updateChartData()
+            // console.log(this.page_views);
+        }
     },
     components:{
         LineChart

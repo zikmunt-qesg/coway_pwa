@@ -58,18 +58,26 @@ export default {
         ...mapState('articles', {
         articles: state => state.articles,
         is_articles_loaded: state => state.is_articles_loaded
-        })
+        }),
+        ...mapState({
+            is_authenticated: state => state.is_authenticated,
+        }),
     },
     methods: {
         ...mapActions('articles', ['readArticles', 'saveArticle'])
     },
     created(){
-        console.log(this.is_articles_loaded)
-        if (this.is_articles_loaded != true) {
-            this.readArticles().then(() => {
-                console.log(this.articles)
-            })
-        }
+        // if (this.is_authenticated != true){
+        //     this.$router.push('/dashboard')
+        // }
+        // else {
+            console.log(this.is_articles_loaded)
+            if (this.is_articles_loaded != true) {
+                this.readArticles().then(() => {
+                    console.log(this.articles)
+                })
+            }
+        // }
     }
 }
 </script>
