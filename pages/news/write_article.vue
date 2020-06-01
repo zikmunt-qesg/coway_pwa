@@ -97,7 +97,7 @@ export default {
         this.date = target_article.date
         this.contents = target_article.contents
         if(!this.picture_file_url){
-            this.loadPicture({ id: this.id })
+            this.loadPicture({ id: this.id, thumb: true })
             .then( picture => {
                 this.picture_file = picture 
                 this.picture_file_url = URL.createObjectURL(picture)
