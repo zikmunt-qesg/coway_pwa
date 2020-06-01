@@ -1,16 +1,16 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">
-    <logger :title="title"></logger>
+    <logger title="깨끗한 물과 공기를 위한 환경경영"></logger>
 
     <b-img src="@/assets/images/사각형17.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="my-5 pt-md-5">
-            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100">CARE FOR ENVIRONMENT</h1>
-            <h6 class="mb-lg-5 text-center w-100"> 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h6>
+            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">CARE FOR ENVIRONMENT</h1>
+            <h7 class="mb-lg-5 text-center w-100 fw-400"> 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
-            <b-col class="d-none d-lg-inline col-lg-3 side-nav">
+            <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
                 <side-navigation 
                 :main_title="'깨끗한 물과 공기를 위한 환경경영'"
                 :sub_titles="sub_titles"
@@ -271,10 +271,11 @@
                             </b-tbody> 
                         </b-table-simple>    
                 </section>
-                <hr class="space-p75">                           
+                                        
             </b-container>
             </b-col>
         </b-row>
+        <hr class="space-p75">   
     </b-container>
 </div>
 </template>

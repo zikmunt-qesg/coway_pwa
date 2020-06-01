@@ -3,15 +3,14 @@
     <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
     <admin-header />
 
-    <div class="d-flex">
-      <admin-side class="stretch admin-side" />
-
-      <b-container fluid class="stretch">
-        <b-row class="admin_main">
-          <nuxt class="nuxt" />
-        </b-row>
-      </b-container>
-    </div>
+    <b-row no-gutters class="d-flex align-items-stretch min-vh-100">
+        <b-col class="col-2 bg-gray6">
+            <admin-side class="admin-side" />
+        </b-col>
+        <b-col class="col-10 bg-gray2">
+            <nuxt class="nuxt" />
+        </b-col>
+    </b-row>
 
     <site-footer />
   </div>
@@ -23,35 +22,35 @@ import AdminSide from '@/components/admin/AdminSide.vue'
 import SiteFooter from '@/components/footer.vue'
 
 export default {
-  components: {
-    AdminHeader,
-    AdminSide,
-    SiteFooter
-  },
-  computed: {
-    ...mapState('articles', {
-      articles: state => state.articles,
-      is_articles_loaded: state => state.is_articles_loaded
-    })
-  },
-  methods: {
-    ...mapActions('articles', ['readArticles', 'saveArticle'])
-  },
-  created() {
-    console.log(this.is_articles_loaded)
-    if (this.is_articles_loaded != true) {
-      this.readArticles().then(() => {
-        console.log(this.articles)
-      })
-    }
-  }
+    components: {
+        AdminHeader,
+        AdminSide,
+        SiteFooter
+    },
+    computed: {
+        // ...mapState('articles', {
+        // articles: state => state.articles,
+        // is_articles_loaded: state => state.is_articles_loaded
+        // }),
+        // active_page(){
+        //     if(this.is_articles_loaded!=true){
+        //         return 'page_view'
+        //     }
+        //     else return 'news'
+        // }
+    },
+    methods: {
+        ...mapActions('articles', ['readArticles', 'saveArticle']),        
+    },
+    
 }
 </script>
-<style>
-.stretch {
-  min-height: 92vh;
-}
 
+<style>
+/* .stretch {
+  min-height: 92vh;
+} */
+/* 
 .admin-side {
   background-color: #333333;
   width: 250px;
@@ -59,5 +58,5 @@ export default {
 
 .admin_main {
   background-color: #efefef;
-}
+} */
 </style>

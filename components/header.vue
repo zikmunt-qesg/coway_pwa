@@ -14,7 +14,7 @@
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="ml-4 h-100">
                     <b-nav-item v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" 
-                    :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-2 px-auto f-95 global-nav-lv1']">
+                    :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-2 px-auto f-90 global-nav-lv1']">
                         {{ item.title }}
                         <!-- <nuxt-link :to="`${item.link}`" class="px-0 f-85"></nuxt-link> -->
                     </b-nav-item>                    

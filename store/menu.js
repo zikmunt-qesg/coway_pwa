@@ -74,17 +74,17 @@ export const state = () => ({
                     link: '/static_page/CEO-메시지'
                 },
                 {
-                    title: '가치창출 프로세스',
-                    link: '/static_page/가치창출-프로세스',
+                    title: '가치창출 스토리',
+                    link: '/static_page/가치창출-스토리',
                     child:
                         [
                             {
                                 title: '비즈니스 모델',
-                                link: '/static_page/가치창출-프로세스#비즈니스모델'
+                                link: '/static_page/가치창출-스토리#비즈니스모델'
                             },
                             {
                                 title: '비즈니스 밸류체인',
-                                link: '/static_page/가치창출-프로세스#비즈니스밸류체인'
+                                link: '/static_page/가치창출-스토리#비즈니스밸류체인'
                             }
                         ]
                 },
@@ -154,17 +154,17 @@ export const state = () => ({
                         ]
                 },
                 {
-                    title: '리스크관리',
-                    link: '/static_page/리스크관리',
+                    title: '리스크 관리',
+                    link: '/static_page/리스크-관리',
                     child:
                         [
                             {
                                 title: '전사적 리스크 관리 체계',
-                                link: '/static_page/리스크관리#전사적리스크관리체계'
+                                link: '/static_page/리스크-관리#전사적리스크관리체계'
                             },
                             {
                                 title: '잠재 리스크의 관리',
-                                link: '/static_page/리스크관리#잠재리스크의관리'
+                                link: '/static_page/리스크-관리#잠재리스크의관리'
                             }
                         ]
                 },
@@ -203,10 +203,6 @@ export const state = () => ({
                                 link: '/static_page/깨끗한-물과-공기를-위한-환경경영#환경경영을통한깨끗함의가치실현'
                             },
                             {
-                                title: '전과정 수자원 사용량 절감',
-                                link: '/static_page/깨끗한-물과-공기를-위한-환경경영#전과정수자원사용량절감'
-                            },
-                            {
                                 title: '가치사슬 전체의 환경역량 강화',
                                 link: '/static_page/깨끗한-물과-공기를-위한-환경경영#가치사슬전체의환경역량강화'
                             }
@@ -237,8 +233,8 @@ export const state = () => ({
                                 link: '/static_page/기후변화-대응#기후변화목표및시나리오관리'
                             },
                             {
-                                title: '과학적 감축 목표(Science Based Target) 계획 도입',
-                                link: '/static_page/기후변화-대응#과학적감축목표ScienceBasedTarget계획도입'
+                                title: '기후변화의 위험과 기회 분석',
+                                link: '/static_page/기후변화-대응#기후변화의위험과기회분석'
                             },
                             {
                                 title: '협력사 탄소 파트너십',
@@ -254,36 +250,21 @@ export const state = () => ({
             child:
                 [
                     {
-                        title: '인재 육성 및 커뮤니케이션',
-                        link: '/static_page/인재-육성-및-커뮤니케이션',
+                        title: '임직원 중심의 기업문화와 안전한 근무환경',
+                        link: '/static_page/임직원-중심의-기업문화와-안전한-근무환경',
                         child:
                             [
                                 {
-                                    title: '역량 강화',
-                                    link: '/static_page/인재-육성-및-커뮤니케이션#역량강화'
+                                    title: '착한성장을 위한 역량 강화',
+                                    link: '/static_page/임직원 중심의 기업문화와 안전한 근무환경#착한성장을위한역량강화'
                                 },
                                 {
-                                    title: '임직원 커뮤니케이션',
-                                    link: '/static_page/인재-육성-및-커뮤니케이션#임직원커뮤니케이션'
-                                }
-                            ]
-                    },
-                    {
-                        title: '다양성 기반의 기업문화와 안전한 근무환경',
-                        link: '/static_page/다양성-기반의-기업문화와-안전한-근무환경',
-                        child:
-                            [
-                                {
-                                    title: '다양성과 포용 기반의 기업문화',
-                                    link: '/static_page/다양성-기반의-기업문화와-안전한-근무환경#다양성과포용기반의기업문화'
-                                },
-                                {
-                                    title: '디지털 기반의 업무혁신',
-                                    link: '/static_page/다양성-기반의-기업문화와-안전한-근무환경#디지털기반의업무혁신'
+                                    title: '커뮤니케이션 기반의 기업문화',
+                                    link: '/static_page/임직원 중심의 기업문화와 안전한 근무환경#커뮤니케이션기반의기업문화'
                                 },
                                 {
                                     title: '안전하고 건강한 근무환경',
-                                    link: '/static_page/다양성-기반의-기업문화와-안전한-근무환경#안전하고건강한근무환경'
+                                    link: '/static_page/임직원 중심의 기업문화와 안전한 근무환경#안전하고건강한근무환경'
                                 }
                             ]
                     },
@@ -294,11 +275,11 @@ export const state = () => ({
                             [
                                 {
                                     title: '파트너 전문성 강화',
-                                    link: '/static_page/라이프-케어-전문-파트너-양성#파트너전문성강화'
+                                    link: '/static_page/라이프케어-전문-파트너-양성#파트너전문성강화'
                                 },
                                 {
-                                    title: '파트너와의 상생 및 커뮤니케이션',
-                                    link: '/static_page/라이프케어-전문-파트너-양성#파트어와의상생및커뮤니케이션'
+                                    title: '파트너 상생 및 커뮤니케이션',
+                                    link: '/static_page/라이프케어-전문-파트너-양성#파트너상생및커뮤니케이션'
                                 }
                             ]
                     },
@@ -356,8 +337,8 @@ export const state = () => ({
                             ]
                     },
                     {
-                        title: '인권보호 리포트',
-                        link: '/static_page/인권보호-리포트',
+                        title: '인권 리포트',
+                        link: '/static_page/인권-리포트',
                         child:
                             [
                                 {
