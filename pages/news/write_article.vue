@@ -42,9 +42,6 @@ export default {
   async asyncData({ query, store }) {
     if (query.id) {
       let target_article = store.state.articles.articles.find(item => item.id==query.id)
-      if (target_article.picture_file_url == undefined) {
-        await store.dispatch('articles/loadPicture', { id: query.id })
-      }
       return {
         id: query.id
       }
@@ -99,8 +96,16 @@ export default {
         this.description = target_article.description
         this.date = target_article.date
         this.contents = target_article.contents
-        this.picture_file = target_article.picture_file
-        this.picture_file_url = URL.createObjectURL(target_article.picture_file)
+        if(!this.picture_file_url){
+            this.loadPicture({ id: this.id })
+            .then( picture => {
+                this.picture_file = picture 
+                this.picture_file_url = URL.createObjectURL(picture)
+            })
+            .catch( error=>{
+                console.log(error)
+            })
+        }
       }
     }
   },
