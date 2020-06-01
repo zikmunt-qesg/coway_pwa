@@ -56,7 +56,7 @@ export const actions = {
                 console.log(error)
             })
     },
-    loadPicture({ state, commit, rootState }, { id } ){
+    loadPicture({ state, commit, rootState }, { id, thumb } ){
         const path = rootState.backend_host + '/get_file_from_server'
         let target_article = state.articles.find(item => item.id == id)
         let filename = null
@@ -64,7 +64,7 @@ export const actions = {
             filename = target_article.picture
         
         return this.$axios.get(path, {
-                params: { filename: filename },
+                params: { filename: filename, thumb: thumb },
                 responseType: 'blob'
             })
             .then(response => {

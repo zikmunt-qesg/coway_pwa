@@ -5,6 +5,8 @@ function safeHash(target){
 function deepCopy(obj) {
     if (obj === null || typeof(obj) !== 'object')
     return obj;
+
+    else if(obj.constructor.name === 'Blob' || obj.constructor.name === 'File') return obj;
   
     var copy = obj.constructor();
   
