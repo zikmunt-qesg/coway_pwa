@@ -1,5 +1,5 @@
 <template>
-<div class="position-relative min-vh-100 w-100">
+<div class="position-relative w-100">
     <hr class="mb-3">
     <b-container>
         <h3 class="mb-4 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h3>
@@ -32,7 +32,7 @@
                                 <b-card-body v-if="item.description!=''" class="border-0 bg-transparent f-95 fw-400">{{ item.description }}</b-card-body>
                                 <b-card-body class="border-0 bg-transparent f-95"> <p v-html="item.contents"></p></b-card-body>
                                 <div v-if="item.picture!=null" class="mt-3">
-                                    <!-- <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img> -->
+                                     <!-- <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img> -->
                                     <span class="pl-3 f-80 gray6">{{ item.picture }}</span>
                                 </div>
                             </b-card>

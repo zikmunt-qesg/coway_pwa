@@ -1,6 +1,6 @@
 <template>
 <div>
-    <b-list-group class="pt-4 mx-2">
+    <b-list-group class="pt-4 mx-3">
         <b-list-group-item button @click="$router.push('/dashboard/analytics')" class="mb-2"
         :variant="active_page=='/dashboard/analytics' ? 'blue':'dark'"
         > 페이지 뷰
@@ -26,7 +26,7 @@ export default {
     font-size: 1.1rem;
     background-color: $gray6;
     border: 0;
-    color: $gray2
+    color: $gray2;
 }
 .list-group-item-dark:hover{
     font-size: 1.1rem;
@@ -34,10 +34,19 @@ export default {
     color: $gray7;
     font-weight: 400;
 }
-.list-group-item-blue, .list-group-item:focus{
+.list-group-item-blue {
     font-size: 1.1rem;
     background-color: $coway-blue!important;
     border: 0;
-    color: $gray2
+    color: $gray2;
 }
+button.list-group-item:focus,
+.list-group-item-action:focus {
+   border:0 !important;
+}
+.button:active, button:active, .button:focus, button:focus, .button:hover,  button:hover{
+   outline: none !important;
+   box-shadow: none;
+}
+
 </style>
