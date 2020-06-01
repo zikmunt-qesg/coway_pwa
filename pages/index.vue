@@ -1,5 +1,6 @@
 <template>
 <div class="position-relative min-vh-100">
+    <logger title="메인"></logger>
     <b-row no-gutters class="py-5 bg-blue3 mb-5">
         <b-col class="py-5 my-5"><div style="height:20vw;"></div></b-col>
     </b-row>

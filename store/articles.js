@@ -2,9 +2,6 @@
 import Vue from 'vue'
 
 export const state = () => ({
-
-    backend_host: process.env.backend_host,
-
     articles: [],
     is_articles_loaded: false
 })
@@ -26,8 +23,8 @@ export const getters = {
 }
 
 export const actions = {
-    readArticles({ state, commit, dispatch }) {
-        const path = state.backend_host + '/read_articles'
+    readArticles({ state, commit, rootState }) {
+        const path = rootState.backend_host + '/read_articles'
 
         return this.$axios.get(path)
             .then(response => {
@@ -37,8 +34,8 @@ export const actions = {
                 return state.articles
             })
     },
-    saveArticle({ state, commit }, { id, title, date, description, picture_file, contents }) {
-        const path = state.backend_host + '/save_article'
+    saveArticle({ rootState }, { id, title, date, description, picture_file, contents }) {
+        const path = rootState.backend_host + '/save_article'
 
         let formData = new FormData()
         formData.append('id', id)
@@ -58,8 +55,8 @@ export const actions = {
                 console.log(error)
             })
     },
-    loadPicture({ state, commit }, { id } ){
-        const path = state.backend_host + '/get_file_from_server'
+    loadPicture({ state, commit, rootState }, { id } ){
+        const path = rootState.backend_host + '/get_file_from_server'
         let target_article = state.articles.find(item => item.id == id)
         let filename = null
         if (target_article != undefined) {
