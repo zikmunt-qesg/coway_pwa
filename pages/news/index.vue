@@ -15,7 +15,8 @@
                 <b-tr>
                     <b-td class="border-0">{{ index }}</b-td> 
                     <b-td class="border-0">
-                        <b-button v-b-toggle="'collapse'+`${index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>
+                        <!--<b-button v-b-toggle="'collapse'+`${index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>-->
+                        <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button>
                     </b-td>
                     <b-td class="border-0">{{ item.date }}</b-td>                    
                     <b-td class="border-0"> 
