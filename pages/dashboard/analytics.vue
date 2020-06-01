@@ -139,6 +139,11 @@ export default {
             },
         }
     },
+    computed:{
+        ...mapState({
+            is_authenticated: state => state.is_authenticated,
+        }),
+    },
     methods:{
         updateChartData(){
             this.is_chart_loaded = false
