@@ -164,7 +164,7 @@ export default {
         }
         else {
             this.updateChartData()
-            console.log(this.page_views_monthly);
+            // console.log(this.page_views_monthly);
         }
     },
     components:{

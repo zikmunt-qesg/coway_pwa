@@ -46,7 +46,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .min-vh-80 {
   min-height: 80vh;
 }

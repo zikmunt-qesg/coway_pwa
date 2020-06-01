@@ -24,7 +24,7 @@
                         <div class="px-2 mb-4 border border-white">제품과 서비스의 혁신</div>
                         <div class="d-flex justify-content-between align-items-center"> 
                             <b-img src="@/assets/images/사각형33.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img> 
-                            <div class="card-plus"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
+                            <div class="card-plus" @click="$router.push('/static_page/제품과-서비스의-혁신')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                         </div>
                     </b-card>
                 </b-col>
@@ -37,7 +37,7 @@
                         <div class="px-2 mb-4 border border-white">제품 책임</div>
                         <div class="d-flex justify-content-between align-items-center"> 
                             <b-img src="@/assets/images/사각형37.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
-                            <div class="card-plus"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
+                            <div class="card-plus" @click="$router.push('/static_page/제품-책임')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                         </div>
                     </b-card>
                 </b-col>
@@ -50,7 +50,7 @@
                         <div class="px-2 mb-4 border border-white">데이터 및 개인정보 보호</div>
                         <div class="d-flex justify-content-between align-items-center"> 
                             <b-img src="@/assets/images/사각형40.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
-                            <div class="card-plus"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
+                            <div class="card-plus"  @click="$router.push('/static_page/데이터-및-개인정보-보호')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                         </div>
                     </b-card>
                 </b-col>
@@ -156,7 +156,7 @@
         </b-row>
         <b-row>
             <b-col v-for="item in main_articles" :key="item.id" class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card no-body class="shadow border-0">
+                <b-card no-body class="shadow border-0 hover-shadow cursor" @click="$router.push('/news/view_article?id='+item.id)">
                     <b-card-img :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top></b-card-img>
                     <b-card-body class="p-4">
                         <p class="px-2 mb-4 fw-400 f-105"> {{ item.title }} </p>
@@ -260,6 +260,7 @@ export default {
 }
 .hover-shadow:hover{
     margin-top: -1em;
+    margin-bottom: 1em;
     box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.15);
 }
 
@@ -270,6 +271,7 @@ export default {
 }
 .card-plus:hover {
     width: 3.4em; height: 3.4em; position: relative; 
+    transform: rotate( 90deg );
 }
 .bar { margin: 0 auto; position: absolute; background-color: $gray2;
 }

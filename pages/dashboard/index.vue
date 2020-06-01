@@ -6,7 +6,7 @@
             <b-col class="col-12 col-sm-8 col-lg-6 px-4 px-md-0 text-center">
                 <div class="fw-400 mb-4"> 관리자 페이지 접속을 위해  패스워드를 입력해주세요</div>
                 <div class="d-flex justify-content-center"> 
-                    <b-form-input v-model="password" type="password" placeholder="password" class="password-form"></b-form-input>
+                    <b-form-input v-model="password" type="password" placeholder="password" class="password-form" @keyup.enter="login"></b-form-input>
                     <b-button @click="login">로그인</b-button>
                 </div>
                 {{ msg }}
