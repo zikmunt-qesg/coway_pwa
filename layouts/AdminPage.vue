@@ -5,8 +5,7 @@
 
     <b-row no-gutters class="d-flex align-items-stretch min-vh-100">
         <b-col class="col-2 bg-gray6">
-            {{active_page}}
-            <admin-side class="admin-side" :active_page="this.active_page" />
+            <admin-side class="admin-side" />
         </b-col>
         <b-col class="col-10 bg-gray2">
             <nuxt class="nuxt" />
@@ -48,9 +47,9 @@ export default {
 </script>
 
 <style>
-.stretch {
+/* .stretch {
   min-height: 92vh;
-}
+} */
 /* 
 .admin-side {
   background-color: #333333;
