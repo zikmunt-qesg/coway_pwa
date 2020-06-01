@@ -1,5 +1,7 @@
 <template>
-  <div class="fullbody">코웨이 Sustainability 웹사이트 관리자 페이지 입니다.</div>
+    <div class="fullbody min-vh-100">
+        코웨이 Sustainability 웹사이트 관리자 페이지 입니다.
+    </div>
 </template>
 <script>
 export default {

@@ -12,6 +12,7 @@ export const state = () => ({
 export const mutations = {
     update_articles(state, new_articles) {
         Vue.set(state, 'articles', [...new_articles])
+        state.is_articles_loaded = true
     },
     add_article_picture_file(state, { target_article_id, picture_file }) {
         let target_article = state.articles.find(item => item.id == target_article_id)

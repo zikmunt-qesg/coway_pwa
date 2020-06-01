@@ -10,8 +10,8 @@
 
             <b-nav tabs class="mb-5">
                 <b-nav-item active class="f-110 fw-400"> GRI </b-nav-item>
-                <b-nav-item class="f-110 fw-400"> SASB </b-nav-item>
-                <b-nav-item class="f-110 fw-400"> DJSI Public </b-nav-item>
+                <b-nav-item @click.stop.prevent="$router.push('/framework/sasb')" class="f-110 fw-400"> SASB </b-nav-item>
+                <b-nav-item @click.stop.prevent="$router.push('/framework/djsi')" class="f-110 fw-400"> DJSI Public </b-nav-item>
             </b-nav>
 
             <b-card class="border-0 px-4 fw-400">
@@ -27,8 +27,8 @@
             <b-td style="width:18%;">구분</b-td>
             <b-td style="width:8%;">GRI 번호</b-td>
             <b-td >지표명</b-td>
-            <b-td style="width:10%;">Link</b-td>
-            <b-td style="width:10%;">비고</b-td>
+            <b-td style="width:15%;">Link</b-td>
+            <b-td style="width:15%;">비고</b-td>
             </b-tr>
         </b-thead>
         <b-tbody>
