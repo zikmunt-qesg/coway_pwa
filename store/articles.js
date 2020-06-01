@@ -72,8 +72,9 @@ export const actions = {
             })
             .then(response => {
                 let picture_file = []
-                if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1)) {
-                    // ie일 경우
+                if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) ||
+                    navigator.appVersion.indexOf('Edge') > -1 ) {
+                    // ie 또는 edge일 경우 경우
                     picture_file = response.data
                     picture_file.name = filename
                 }
