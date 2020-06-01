@@ -1,10 +1,9 @@
 <template>
-<div class="position-relative min-vh-100 w-100">
-    <hr class="mb-3">
-
+<div class="position-relative min-vh-100">
+    <b-row no-gutters class="bg-blue3 mb-5">
+        <b-col class="py-3 text-center text-white"><h2>Coway Sustainability News</h2></b-col>
+    </b-row>
     <b-container>
-        <h3 class="mb-4 pb-2 border-bottom">게시물 작성 및 수정 </h3>
-
         <div class="mb-3">
             <h7>Title</h7>
             <b-form-input v-model="title" placeholder="제목을 작성하여 주십시오"></b-form-input>
@@ -15,7 +14,7 @@
         </div>
         <div class="mb-3">
             <h7>Description</h7>
-            <b-form-textarea v-model="description" rows="4" placeholder="핵심 요약 정보를 작성하여 주십시오"></b-form-textarea>
+            <b-form-textarea v-model="description" rows="3" placeholder="핵심 요약 정보를 작성하여 주십시오"></b-form-textarea>
         </div>
         <div class="mb-3">
             <h7>사진 및 이미지</h7>
@@ -25,14 +24,13 @@
         </div>
         <div class="mb-3">
             <h7>내용</h7>
-            <b-form-textarea v-model="contents" rows="14" placeholder="본문 내용을 작성하여 주십시오"></b-form-textarea>
+            <b-form-textarea v-model="contents" rows="8" placeholder="본문 내용을 작성하여 주십시오"></b-form-textarea>
         </div>
         <div class="mb-3 text-right">
             <b-button @click="save" variant="blue" class="mr-2">저장</b-button>
             <b-button @click.stop.prevent="$router.push('/news')">취소</b-button>
         </div>
     </b-container>
-    <hr class="space-p75 mb-5">
 </div>
 </template>
 
@@ -41,79 +39,83 @@ import { mapState, mapActions, mapGetters } from 'vuex'
 import axios from 'axios'
 
 export default {
-    layout: 'AdminPage',
-    async asyncData({ query, store }) {
-        if (query.id) {
-        let target_article = store.state.articles.articles.find(item => item.id==query.id)
-        if (target_article.picture_file_url == undefined) {
-            await store.dispatch('articles/loadPicture', { id: query.id })
-        }
-        return {
-            id: query.id
-        }
-        } else {
-        return {
-            id: null,
-        }
-        }
-    },
-    data() {
-        return {
-        title: '',
-        description: '',
-        date: '',
-        contents: '',
-        picture_file: [],
-        picture_file_url: ''
-        }
-    },
-    computed: {
-        ...mapState('articles', {
-        articles: state => state.articles,
-        is_articles_loaded: state => state.is_articles_loaded
-        }),
-    },
-    methods: {
-        ...mapActions('articles', ['readArticles', 'saveArticle', 'loadPicture']),
-        save() {
-        let new_article = {
-            id: this.id,
-            title: this.title,
-            description: this.description,
-            date: this.date,
-            contents: this.contents,
-            picture_file: this.picture_file
-        }
-        this.saveArticle(new_article)
-        .then( () => {
-            this.readArticles()
-            this.$router.push('/news')
-        })
-        }
-    },
-    created() {
-
-    },
-    mounted() {
-        if (this.id != null) {
-            let target_article = this.articles.find(item => item.id == this.id)
-            if (target_article) {
-                this.title = target_article.title
-                this.description = target_article.description
-                this.date = target_article.date
-                this.contents = target_article.contents
-                this.picture_file = target_article.picture_file
-                this.picture_file_url = URL.createObjectURL(target_article.picture_file)
-            }
-        }
-    },
-    watch:{
-        picture_file: {
-            deep: true,
-            handler(newVal){
-                console.log(newVal)
-            }
-        }
+  async asyncData({ query, store }) {
+    if (query.id) {
+      let target_article = store.state.articles.articles.find(item => item.id==query.id)
+      return {
+        id: query.id
+      }
+    } else {
+      return {
+        id: null,
+      }
     }
+  },
+  data() {
+    return {
+      title: '',
+      description: '',
+      date: '',
+      contents: '',
+      picture_file: [],
+      picture_file_url: ''
+    }
+  },
+  computed: {
+    ...mapState('articles', {
+      articles: state => state.articles,
+      is_articles_loaded: state => state.is_articles_loaded
+    }),
+  },
+  methods: {
+    ...mapActions('articles', ['readArticles', 'saveArticle', 'loadPicture']),
+    save() {
+      let new_article = {
+        id: this.id,
+        title: this.title,
+        description: this.description,
+        date: this.date,
+        contents: this.contents,
+        picture_file: this.picture_file
+      }
+      this.saveArticle(new_article)
+      .then( () => {
+        this.readArticles()
+        this.$router.push('/news')
+      })
+    }
+  },
+  created() {
+
+  },
+  mounted() {
+    if (this.id != null) {
+      let target_article = this.articles.find(item => item.id == this.id)
+      if (target_article) {
+        this.title = target_article.title
+        this.description = target_article.description
+        this.date = target_article.date
+        this.contents = target_article.contents
+        if(!this.picture_file_url){
+            this.loadPicture({ id: this.id, thumb: true })
+            .then( picture => {
+                this.picture_file = picture 
+                this.picture_file_url = URL.createObjectURL(picture)
+            })
+            .catch( error=>{
+                console.log(error)
+            })
+        }
+      }
+    }
+  },
+  watch:{
+    picture_file: {
+      deep: true,
+      handler(newVal){
+        console.log(newVal)
+      }
+    }
+  }
 }
 </script>

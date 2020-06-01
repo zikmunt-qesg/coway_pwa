@@ -15,8 +15,8 @@
         <b-row>
             <b-col>
                 <b-button-group class="mb-3">
-                    <b-button :pressed="true"> 누적 </b-button>
-                    <b-button> 월간 </b-button>
+                    <b-button :pressed="monthly != true" @click.stop="toggleMonthly(false)"> 누적 </b-button>
+                    <b-button :pressed="monthly == true" @click.stop="toggleMonthly(true)"> 월간 </b-button>
                 </b-button-group>
                 <b-table-simple class="txt-table fw-400" responsive>
                     <b-thead>
@@ -24,9 +24,14 @@
                             <b-td> 페이지 제목 </b-td> <b-td> 페이지 뷰 </b-td> <b-td> 방문자 수 </b-td> 
                         </b-tr>
                     </b-thead>
-                    <b-tbody>
+                    <b-tbody v-if="monthly != true">
                         <b-tr v-for="item in page_views" :key="item.id">
-                            <b-td> {{ item.title }} </b-td><b-td>{{ item.count }} </b-td> <b-td> 방문자 수 </b-td>
+                            <b-td> {{ item.title }} </b-td><b-td>{{ item.page_views_count }} </b-td> <b-td> {{ item.visits_count }} </b-td>
+                        </b-tr>
+                    </b-tbody>
+                    <b-tbody v-else>
+                        <b-tr v-for="item in page_views_monthly" :key="item.id">
+                            <b-td> {{ item.title }} </b-td><b-td>{{ item.page_views_count }} </b-td> <b-td> {{ item.visits_count }} </b-td>
                         </b-tr>
                     </b-tbody>
                 </b-table-simple>     
@@ -46,23 +51,38 @@ import axios from 'axios'
 export default {
     layout: 'AdminPage',
     async asyncData({ store }){
-        const path = store.state.backend_host + '/read_page_views'
-        const { data } = await axios.get(path)
+        let path = store.state.backend_host + '/read_page_views'
+        let page_views_result = await axios.get(path)
+
+        let date = new Date()
+        let start_date = new Date(date.setMonth(date.getMonth()-1)).toISOString().split('T')[0]
+        let end_date = new Date().toISOString().split('T')[0]
+        let page_views_monthly_result = await axios.get(path, { params: { 
+            start_date: start_date, 
+            end_date: end_date}})
+        
+        path = store.state.backend_host + '/read_page_views_history'
+        let page_views_history_result = await axios.get(path, { params: {
+            start_date: start_date,
+            end_date: end_date
+        } })
 
         return {
-        page_views : data
-        // url, title, count
+            page_views : page_views_result.data, //title, page_views_count, visits_count
+            page_views_monthly: page_views_monthly_result.data, //title, page_views_count, visit_count
+            page_views_history: page_views_history_result.data
         }
     },
     data() {
         return {
+            monthly: false, 
             is_chart_loaded: false,
             page_view_chart_data: {
-                labels: ['2020-06-01', '2020-06-03', '2020-06-03'],
+                labels: [],
                 datasets: [
                     {
                         label: 'Daily Page Views',
-                        data: [10, 26, 50 ],
+                        data: [],
                         backgroundColor: 'rgba(47, 165, 220, 0.3)',
                         borderColor: 'rgba(47, 165, 220, 1)',
                         borderWidth: 1,    
@@ -88,11 +108,11 @@ export default {
             },
             // 방문자수 차트
             visitors_chart_data: {
-                labels: ['2020-06-01', '2020-06-03', '2020-06-03'],
+                labels: [],
                 datasets: [
                     {
                         label: 'Daily Visitors',
-                        data: [5, 16, 11 ],
+                        data: [],
                         backgroundColor: 'rgba(47, 165, 220, 0.3)',
                         borderColor: 'rgba(47, 165, 220, 1)',
                         borderWidth: 1,    
@@ -118,22 +138,23 @@ export default {
             },
         }
     },
-    computed:{
-        // 1. 날짜 기준으로 daily total page view 산출
-
-
-        // 2. 날짜 기준으로 daily total visitors 산출
-    },
     methods:{
         updateChartData(){
             this.is_chart_loaded = false
-            // if ()
+            this.page_view_chart_data.labels = this.page_views_history.map(x => x.date)
+            this.page_view_chart_data.datasets[0].data = this.page_views_history.map(x => x.page_views_count)
+            this.visitors_chart_data.labels = this.page_views_history.map(x=> x.date)
+            this.visitors_chart_data.datasets[0].data = this.page_views_history.map(x => x.visits_count)
+            this.is_chart_loaded = true
+        },
+        toggleMonthly(target){
+            this.monthly = target
         }
 
     },
     created(){
         this.updateChartData()
-        console.log(this.page_views);
+        console.log(this.page_views_monthly);
         
     },
     components:{
