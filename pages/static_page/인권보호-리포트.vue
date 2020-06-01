@@ -1,3 +1,3 @@
 <template>
-  <div>인권보호 리포트</div>
+  <div><logger title="인권보호 리포트"></logger>인권보호 리포트</div>
 </template>

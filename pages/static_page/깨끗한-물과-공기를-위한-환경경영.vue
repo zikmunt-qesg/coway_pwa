@@ -1,5 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">
+    <logger :title="title"></logger>
+
     <b-img src="@/assets/images/사각형17.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
@@ -286,6 +288,7 @@ export default {
     layout: 'StaticPage',
     data(){
         return {
+            title: '깨끗한 물과 공기를 위한 환경경영',
             activated: [],
             sub_titles: [
                 { 

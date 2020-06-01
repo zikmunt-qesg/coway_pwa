@@ -1,8 +1,6 @@
 import Vue from 'vue'
 
 export const state = () => ({
-
-    backend_host: process.env.backend_host,
     search_results: [] // [{ //link, title, contents}, ... ]
 })
 
@@ -18,8 +16,8 @@ export const getters = {
 }
 
 export const actions = {
-    searchPages({ state, commit }, { q }) {
-        const path = state.backend_host + '/search_pages'
+    searchPages({ commit, rootState }, { q }) {
+        const path = rootState.backend_host + '/search_pages'
 
         return this.$axios.get(path, { params: {
             q: q

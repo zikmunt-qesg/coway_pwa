@@ -1,25 +1,38 @@
 <template>
-<b-container>
-    <hr class="mb-3">
-        <h3 class="mb-4 pb-2 border-bottom"> 페이지 뷰 분석 </h3>
-        <b-row class="p-2">
-            <iframe
-                class="bigcard"
-                ref="iframe"
-                src="https://datastudio.google.com/embed/reporting/1Odfo6_A59B-v03jnpi1V_ZgGzc7XV3Qz/page/duPQB"
-                frameborder="0"
-                style="border:0"
-                scrolling="no"
-            ></iframe>
-        </b-row>
-    <hr class="mb-5">
+  <b-container>
+    <b-row class="p-2">
+      <!--<iframe
+        class="bigcard"
+        ref="iframe"
+        src="https://datastudio.google.com/embed/reporting/1Odfo6_A59B-v03jnpi1V_ZgGzc7XV3Qz/page/duPQB"
+        frameborder="0"
+        style="border:0"
+        scrolling="no"
+      ></iframe>-->
+      <div v-for="item in page_views" :key="item.id">
+        {{ item.title }} {{ item.count }}
+      </div>
+      
 
-</b-container>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-  layout: 'AdminPage'
+  layout: 'AdminPage',
+  async asyncData({ store }){
+    const path = store.state.backend_host + '/read_page_views'
+    const { data } = await axios.get(path)
+
+    return {
+      page_views : data
+      // url, title, count
+    }
+  },
+
 }
 </script>
 <style scoped>

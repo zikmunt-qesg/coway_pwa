@@ -1,3 +1,3 @@
 <template>
-  <div>윤리경영</div>
+  <div><logger title="윤리경영"></logger>윤리경영</div>
 </template>

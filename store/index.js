@@ -1,4 +1,5 @@
 export const state = () => ({
+  backend_host: process.env.backend_host,
 
   blog_posts: [],
   pages: [],
