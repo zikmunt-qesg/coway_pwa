@@ -354,8 +354,8 @@ export default {
     width: 100vw;    
 } */
 
-.active {
+/* .active {
     color: blue;
-}
+} */
 
 </style>

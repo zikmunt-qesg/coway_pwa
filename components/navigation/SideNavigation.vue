@@ -3,8 +3,8 @@
     <h6 class="mb-5 gray6">{{ main_title }}</h6>
     <div v-for="item in sub_titles" :key="item.id" class="mb-4 f-95 fw-400">
         <nuxt-link :to="'#' + safeHash(item.title)" class="side-nav-link-2" :class="{ active: isActive(safeHash(item.title)) }">{{item.title}}</nuxt-link>
-        <div v-for="child_item in item.child" :key="child_item.id" class="mt-2 f-90 fw-400">
-            <nuxt-link :to="'#' + safeHash(child_item.title)" class="ml-3 side-nav-link-3" :class="{ active: isActive(safeHash(child_item.title)) }">{{child_item.title}}</nuxt-link>
+        <div v-for="child_item in item.child" :key="child_item.id" class="mt-2 ml-3 f-90 fw-400">
+            <nuxt-link :to="'#' + safeHash(child_item.title)" class="side-nav-link-3" :class="{ active: isActive(safeHash(child_item.title)) }">{{child_item.title}}</nuxt-link>
         </div>
     </div>
 </div>

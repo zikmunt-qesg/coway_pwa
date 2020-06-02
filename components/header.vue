@@ -61,6 +61,9 @@ export default {
             show_site_map: false
         }
     },
+    props:{
+        hide_sub_menu: {type:Boolean}
+    },
     computed: {
         ...mapState('menu', {
         menu: state => state.menu
@@ -84,6 +87,14 @@ export default {
     },
     components:{
         SiteMap
+    },
+    watch:{
+        hide_sub_menu(newVal){
+            if (newVal==true){
+                this.show_sub_menu = false
+            }
+            else this.show_sub_menu = true
+        }
     }
 }
 </script>

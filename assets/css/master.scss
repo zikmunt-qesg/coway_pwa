@@ -1,3 +1,7 @@
+.letter-narrow {
+    letter-spacing: -0.006rem;
+}
+
 .side-nav {
     background-color: white;
     padding: 2.3em 1.4em 1.9em;
@@ -14,7 +18,7 @@
     font-weight: 500;
 }
 
-.temp-icon1, .temp-icon2, .temp-icon3, .temp-icon4, .temp-icon5, .temp-icon6, .temp-icon7 {
+.temp-icon1, .temp-icon2, .temp-icon3, .temp-icon4{
     border: 1px solid $gray4;
     text-align: center;
 }
@@ -39,8 +43,8 @@
     width: 84px;
 }
 .temp-icon6 {
-    height: 54px;
-    width: 54px;
+    height: 60px;
+    width: 60px;
 }
 .temp-icon7 {
     height: 80px;

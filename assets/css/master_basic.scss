@@ -80,7 +80,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   color: $gray7;
 }
 
@@ -89,7 +89,7 @@ body, button {
     word-break: keep-all;
     line-height: 1.6;
     color: $gray7;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header-logo{
@@ -260,6 +260,9 @@ hr {
 }
 .gray7{
     color: $gray7;
+}
+.gray65{
+    color: $gray65
 }
 .gray6{
     color: $gray6;
