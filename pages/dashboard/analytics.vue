@@ -100,9 +100,9 @@ export default {
                         },
                     }],
                     yAxes: [{
-                        gridLines: {
+                        ticks: {
                             beginAtZero:true,
-                            zeroLineWidth: 0
+                            // zeroLineWidth: 0
                         }                                          
                     }]
                 }
@@ -130,9 +130,9 @@ export default {
                         },
                     }],
                     yAxes: [{
-                        gridLines: {
+                        ticks: {
                             beginAtZero:true,
-                            zeroLineWidth: 0
+                            // zeroLineWidth: 0
                         }                                          
                     }]
                 }

@@ -1,9 +1,8 @@
 <template>
 <div class="position-relative min-vh-100">
-    <b-row no-gutters class="bg-blue3 mb-5">
-        <b-col class="py-3 text-center text-white"><h2>Coway Sustainability News</h2></b-col>
-    </b-row>
+    <hr class="mb-3">
     <b-container>
+        <h3 class="mb-4 pb-2 border-bottom"> 뉴스 게시물 수정 및 작성 </h3>
         <div class="mb-3">
             <h7>Title</h7>
             <b-form-input v-model="title" placeholder="제목을 작성하여 주십시오"></b-form-input>
@@ -30,6 +29,8 @@
             <b-button @click="save" variant="blue" class="mr-2">저장</b-button>
             <b-button @click.stop.prevent="$router.push('/news')">취소</b-button>
         </div>
+        <hr class="mb-5">
+
     </b-container>
 </div>
 </template>
@@ -39,6 +40,7 @@ import { mapState, mapActions, mapGetters } from 'vuex'
 import axios from 'axios'
 
 export default {
+  layout: 'AdminPage',
   async asyncData({ query, store }) {
     if (query.id) {
       let target_article = store.state.articles.articles.find(item => item.id==query.id)

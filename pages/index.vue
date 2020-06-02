@@ -157,7 +157,7 @@
         <b-row>
             <b-col v-for="item in main_articles" :key="item.id" class="col-12 col-md-4 mb-3 mb-md-0">
                 <b-card no-body class="shadow border-0 hover-shadow cursor" @click="$router.push('/news/view_article?id='+item.id)">
-                    <b-card-img :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top></b-card-img>
+                    <b-card-img v-if="item.picture_file_url" :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top></b-card-img>
                     <b-card-body class="p-4">
                         <p class="px-2 mb-4 fw-400 f-105"> {{ item.title }} </p>
                         <p class="px-2 f-80 gray6">{{ item.description }} </p>
