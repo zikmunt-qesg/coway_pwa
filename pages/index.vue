@@ -138,15 +138,19 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-end">                
                         <div class="local-temp-circle rounded-circle bg-gray3 position-relative">
-                            <div class="position-absolute text-center">
-                                <p>2017</p><p>0.232</p><p>tCO2e/억원</p>
+                            <div class="position-absolute text-center w-100 mt-2">
+                                <div class="gray6 f-80">2017</div><div class="blue8 f-140">0.232</div><div class="gray6 f-80 fw-300">tCO<span class="f-60">2</span>e/억원</div>
                             </div>
                         </div>
                         <div class="local-temp-circle rounded-circle bg-gray3 position-relative">
-
+                            <div class="position-absolute text-center w-100 mt-2">
+                                <div class="gray6 f-80">2018</div><div class="blue8 f-140">0.252</div><div class="gray6 f-80 fw-300">tCO<span class="f-60">2</span>e/억원</div>
+                            </div>
                         </div>
-                        <div class="local-temp-circle rounded-circle bg-gray3 position-relative">
-
+                        <div class="local-temp-circle rounded-circle position-relative" style="background-color: #1494d4">
+                            <div class="position-absolute text-center w-100 mt-2">
+                                <div class="gray7 f-80">2019</div><div class="text-white f-140">0.232</div><div class="text-white f-80 fw-300">tCO<span class="f-60">2</span>e/억원</div>
+                            </div>
                         </div>
                     </div>
                 </b-col>    
