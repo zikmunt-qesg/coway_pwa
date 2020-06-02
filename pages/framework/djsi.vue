@@ -5,7 +5,7 @@
     </b-row>
     <b-container>
         <b-card class="border-0 bg-blue-gray1 mb-5">
-            <search-form class="my-3" prop_mode='indicator' prop_framework='GRI'></search-form>
+            <search-form class="my-3" prop_mode='indicator' prop_framework='DJSI'></search-form>
         </b-card>
 
             <b-nav tabs class="mb-5">
