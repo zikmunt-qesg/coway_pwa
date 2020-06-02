@@ -9,6 +9,11 @@
                     <b-form-input v-model="password" type="password" placeholder="password" class="password-form" @keyup.enter="login"></b-form-input>
                     <b-button @click="login">로그인</b-button>
                 </div>
+                <!-- <b-overlay :show="this.login_status=='login_try'" opacity="0.4">
+                    <template v-slot:overlay>
+
+                    </template>
+                </b-overlay> -->
                 {{ msg }}
                 <div class="mt-4 f-90">문의: info@qesg.co.kr / QESG(퀀티파이드이에스지)</div>
             </b-col>
@@ -37,20 +42,20 @@ export default {
             else {
                 this.login_status = 'login_fail'
                 console.log('로그인에 실패하였습니다')    
-                this.$router.push('/dashboard')            
+                // this.$router.push('/dashboard')            
             }
         },
     },
     watch:{
-        login_status:{
-            handle(newVal){
-                if (this.login_status=='login_try'){
-                    this.msg = '로그인 중입니다'
+        login_status(newVal) {
+                if(process.client){
+                    if(newVal=='login_try'){
+                        this.msg = '로그인 중입니다'
+                    }
+                    else if(newVal=='login_fail'){
+                        this.msg = '로그인에 실패하였습니다. 비밀번호를 다시 확인하여 주십시오.'
+                    }
                 }
-                else if (this.login_status=='login_fail'){
-                    this.msg = '로그인에 실패하였습니다. 비밀번호를 다시 확인하여 주십시오.'
-                }
-            }
         }
     }
     // created(){
