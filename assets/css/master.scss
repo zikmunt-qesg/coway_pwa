@@ -13,12 +13,12 @@
     top: -25vw;
 }
 
-.dma-title {
-    color: $blue7;
-    font-weight: 500;
-}
+// .dma-title {
+//     color: $blue7;
+//     font-weight: 500;
+// }
 
-.temp-icon1, .temp-icon2, .temp-icon3, .temp-icon4{
+.temp-icon4{
     border: 1px solid $gray4;
     text-align: center;
 }
@@ -27,8 +27,8 @@
     width: 180px;
 }
 .temp-icon2 {
-    height: 70px;
-    width: 50px;
+    height: 66px;
+    width: 45px;
 }
 .temp-icon3 {
     height: 140px;
@@ -56,6 +56,15 @@
         display: inline-block;
     }
 }
+
+.vertical-line-1 {
+    height: 100%;
+    width: 1px;
+    background-color: $gray7; 
+    top:0;
+    left: -5px;   
+}
+
   
 /* padding and margin extra */
 
@@ -94,7 +103,9 @@
 
 
 /* table custom */
-.num-table > table, .txt-table > table  {
+.num-table > table, 
+.txt-table > table,
+.txt-table-env > table  {
     border-collapse: separate;
     border-spacing: 5px 0;
     margin-left: -4px;
@@ -105,7 +116,9 @@
     text-align: right;
 }
 .txt-table > table > thead > tr > td,
-.txt-table > table > tbody > tr > td {
+.txt-table > table > tbody > tr > td,
+.txt-table-env > table > thead > tr > td,
+.txt-table-env > table > tbody > tr > td {
     padding: 0.2rem 0;
     text-align: left;
 }
@@ -115,8 +128,13 @@
     border-top: 0;
     border-bottom: 0.5px solid $blue4;
 }
+.txt-table-env > table > thead > tr > td {
+    border-top: 0;
+    border-bottom: 1px solid $green6;
+}
 .num-table > table > tbody > tr > td, 
-.txt-table > table > tbody > tr > td {
+.txt-table > table > tbody > tr > td,
+.txt-table-env > table > tbody > tr > td {
     border-top: 0;
     border-bottom: 0.5px solid $gray3;
 }

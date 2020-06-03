@@ -102,7 +102,7 @@
                         </p>
                 </section>
                 <section class="mb-5">
-                    <h6-ancor-data :title="'온실가스·에너지 및 기타 환경 데이터'" :activated="activated" class="dma-title mb-3">온실가스·에너지 및 기타 환경 데이터</h6-ancor-data>
+                    <h6-ancor :title="'온실가스·에너지 및 기타 환경 데이터'" :activated="activated" class="dma-title mb-3">온실가스·에너지 및 기타 환경 데이터</h6-ancor>
                     <b-row class="py-3">
                         <b-col class="col-12 col-md-6 mb-3 mb-md-0">
                             <h7 class="mb-2">수자원 사용량</h7>
@@ -175,7 +175,6 @@
 import * as ih from '@/components/util'
 import SideNavigation from '@/components/navigation/SideNavigation'
 import h6Ancor from '@/components/navigation/h6Ancor'
-import h6AncorData from '@/components/navigation/h6AncorData'
 
 export default {
     layout: 'StaticPage',
@@ -235,7 +234,6 @@ export default {
     components:{
         SideNavigation,
         h6Ancor,
-        h6AncorData
     }
     
 }

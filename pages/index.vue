@@ -6,7 +6,7 @@
     </b-row>
     <b-container>
         <hr class="mb-4">
-        <h2 class="text-center mb-4 fw-300"> SUSTAINABILITY ISSUES 2019</h2>
+        <h2 class="text-center mb-4 fw-300"> SUSTAINABILITY ISSUES <span style="font-family:'Noto Sans KR'"> 2019 </span></h2>
         <section>
             <b-row class="mb-4">
                 <b-col class="col-0 col-md-2"></b-col>
