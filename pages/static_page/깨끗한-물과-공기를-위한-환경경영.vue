@@ -92,28 +92,28 @@
                         <div class="row force-deflex">
                             <div class="col">
                                 <div class="temp-icon4 mb-3"></div>
-                                <p class="f-87">친환경 비즈니스에 지속적인 투자와 혁신을 통해 코웨이 지속가능성 강화와 글로벌 친환경기업 리더십을 확보한다.
-                                </p>
+                                <span class="f-87 border-bottom-dotted">친환경 비즈니스에 지속적인 투자와 혁신을 통해 코웨이 지속가능성 강화와 글로벌 친환경기업 리더십을 확보한다.
+                                </span>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"></div>
-                                <p class="f-87"> 환경법규를 준수하고 선진적인 환경경영시스템을 구축하여 지속적인 환경경영 가치 창출 및 미래성장 동력을 확보한다.
-                                </p>
+                                <span class="f-87 border-bottom-dotted"> 환경법규를 준수하고 선진적인 환경경영시스템을 구축하여 지속적인 환경경영 가치 창출 및 미래성장 동력을 확보한다.
+                                </span>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"></div>
-                                <p class="f-87"> 청정생산 체계를 구축하여 환경오염물질 및 온실가스 배출 감축활동 등 사전 예방활동을 통해 환경부하를 최소화하고 후손에게 쾌적한 환경을 제공한다. 
-                                </p>
+                                <span class="f-87 border-bottom-dotted"> 청정생산 체계를 구축하여 환경오염물질 및 온실가스 배출 감축활동 등 사전 예방활동을 통해 환경부하를 최소화하고 후손에게 쾌적한 환경을 제공한다. 
+                                </span>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"></div>
-                                <p class="f-87"> 제품 및 서비스의 전과정에 걸쳐 환경성을 고려하여 녹색 제품, 서비스 및 기술 개발을 선도한다.
-                                </p>
+                                <span class="f-87 border-bottom-dotted"> 제품 및 서비스의 전과정에 걸쳐 환경성을 고려하여 녹색 제품, 서비스 및 기술 개발을 선도한다.
+                                </span>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"></div>
-                                <p class="f-87"> 이해관계자에게 환경경영 정보를 투명하게 공개하고 지속적인 커뮤니케이션을 수행하여 지역사회의 환경보전활동에 적극 참여한다.
-                                </p>
+                                <span class="f-87 border-bottom-dotted"> 이해관계자에게 환경경영 정보를 투명하게 공개하고 지속적인 커뮤니케이션을 수행하여 지역사회의 환경보전활동에 적극 참여한다.
+                                </span>
                             </div>
                         </div>
                     <hr class="space-p25">

@@ -16,7 +16,7 @@
             </b-row>
             <b-row>
                 <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
-                    <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0 hover-shadow">
+                    <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0" >
                         <div class="f-85 fw-300 position-absolute pr-4"> 
                         최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 코웨이는 제품과 서비스 혁신을 통해 
                         </div>
@@ -29,7 +29,7 @@
                     </b-card>
                 </b-col>
                 <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
-                    <b-card class="p-lg-2 h-100 position-relative border-0 hover-shadow" style="background-color: #136096;">
+                    <b-card class="p-lg-2 h-100 position-relative border-0"  style="background-color: #136096;">
                         <div class="f-85 fw-300 position-absolute pr-4"> 
                         최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 코웨이는 제품과 서비스 혁신을 통해 건강과 위생은
                         </div>
@@ -42,7 +42,7 @@
                     </b-card>
                 </b-col>
                 <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
-                    <b-card class="bg-blue3 p-lg-2 h-100 position-relative border-0 hover-shadow">
+                    <b-card class="bg-blue3 p-lg-2 h-100 position-relative border-0" >
                         <div class="f-85 fw-300 position-absolute pr-4"> 
                         최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 코웨이는 제품과 서비스 혁신을 통해 건강과 위생은 물론 고객
                         </div>
@@ -175,7 +175,7 @@
         </b-row>
         <b-row>
             <b-col v-for="item in main_articles" :key="item.id" class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card no-body class="shadow border-0 hover-shadow cursor" @click="$router.push('/news/view_article?id='+item.id)">
+                <b-card no-body class="shadow border-0 cursor" @click="$router.push('/news/view_article?id='+item.id)">
                     <b-card-img v-if="item.picture_file_url" :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top></b-card-img>
                     <b-card-body class="p-4">
                         <p class="px-2 mb-4 fw-400 f-105"> {{ item.title }} </p>
