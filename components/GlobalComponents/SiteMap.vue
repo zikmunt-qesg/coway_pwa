@@ -8,8 +8,8 @@
                     <nuxt-link :to="`${item.link}`">{{ item.title }}</nuxt-link>
                 </div>
                 <div v-for="level2_item in item.child" :key="level2_item.id" class="mb-4 g-nav">
-                    <div class="mb-2" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2"> {{ level2_item.title }}</nuxt-link></div>
-                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-1" @click.stop="toggleSiteMap">
+                    <div class="pb-1 mb-2" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2"> {{ level2_item.title }}</nuxt-link></div>
+                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-2" @click.stop="toggleSiteMap">
                         <nuxt-link :to="`${level3_item.link}`" class="f-80 g-nav-lv3"> {{ level3_item.title }}</nuxt-link>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ export default {
     height: 85vh;
 } */
 .g-nav{
-    line-height: 1.3;
+    line-height: 1.1;
 }
 
 .g-nav-lv2{

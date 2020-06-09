@@ -267,7 +267,7 @@
                         </p>
                     <hr class="space-p25">
                     <h7 class="mb-3">내/외부 교육 지원 현황</h7>
-                        <b-table-simple responsive class="txt-table-env">
+                        <b-table-simple responsive class="txt-table env-table">
                             <b-thead><b-tr>
                                 <b-td class="text-left">교육 프로그램</b-td> <b-td class="text-left">교육대상</b-td> <b-td class="text-left w-25">교육내용</b-td><b-td>참가인원</b-td> <b-td>교육시간</b-td> <b-td>교육기간</b-td> 
                             </b-tr></b-thead>

@@ -104,8 +104,7 @@
 
 /* table custom */
 .num-table > table, 
-.txt-table > table,
-.txt-table-env > table  {
+.txt-table > table {
     border-collapse: separate;
     border-spacing: 5px 0;
     margin-left: -4px;
@@ -116,27 +115,27 @@
     text-align: right;
 }
 .txt-table > table > thead > tr > td,
-.txt-table > table > tbody > tr > td,
-.txt-table-env > table > thead > tr > td,
-.txt-table-env > table > tbody > tr > td {
+.txt-table > table > tbody > tr > td {
     padding: 0.2rem 0;
     text-align: left;
 }
 
+.num-table > table > tbody > tr > td, 
+.txt-table > table > tbody > tr > td {
+    border-top: 0;
+    border-bottom: 0.5px solid $gray3;
+}
 .num-table > table > thead > tr > td, 
 .txt-table > table > thead > tr > td {
     border-top: 0;
     border-bottom: 0.5px solid $blue4;
 }
-.txt-table-env > table > thead > tr > td {
-    border-top: 0;
-    border-bottom: 1px solid $green6;
+
+.env-table > table > thead > tr > td {
+    border-bottom: 1px solid $green6!important;
 }
-.num-table > table > tbody > tr > td, 
-.txt-table > table > tbody > tr > td,
-.txt-table-env > table > tbody > tr > td {
-    border-top: 0;
-    border-bottom: 0.5px solid $gray3;
+.social-table > table > thead > tr > td{
+    border-bottom: 1px solid $gold6;
 }
 
 

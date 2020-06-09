@@ -210,52 +210,62 @@
 </div> 
 </template>
 <script>
+import * as ih from '@/components/util'
+import SideNavigation from '@/components/navigation/SideNavigation'
+import h6Ancor from '@/components/navigation/h6Ancor'
+import h4Ancor from '@/components/navigation/h4Anchor'
+
 export default {
-  layout: 'StaticPage',
-  data() {
-    return {
-      table_1_header: ['certification', 'FY2016', 'FY2017', 'FY2018', 'FY2019'],
-      table_1: [
-        {
-          certification: '환경마크 인증',
-          FY2016: 17,
-          FY2017: 31,
-          FY2018: 25,
-          FY2019: 22
-        },
-        {
-          certification: '물발자국',
-          FY2016: '-',
-          FY2017: 1,
-          FY2018: 1,
-          FY2019: 1
-        },
-        {
-          certification: '탄소중립제품 인증',
-          FY2016: '-',
-          FY2017: 1,
-          FY2018: 1,
-          FY2019: 0
-        },
-        {
-          certification: 'Carbon Balloon',
-          FY2016: 2,
-          FY2017: 2,
-          FY2018: 2,
-          FY2019: 0
+    layout: 'StaticPage',
+    data(){
+        return {
+            title: '깨끗한 물과 공기를 위한 환경경영',
+            activated: [],
+            sub_titles: [
+                { 
+                    title: '환경경영을 통한 깨끗함의 가치 실현', 
+                    child: [
+                        { title: '코웨이 환경경영 방침' }, 
+                        { title: '환경경영 전략' }, 
+                        { title: '환경경영 추진 체계' }, 
+                    ]
+                },
+                { 
+                    title: '가치사슬 전체의 환경역량 강화' 
+                }
+            ],
         }
-      ],
-      table_2_header: ['구분', 'FY2016', 'FY2017', 'FY2018', 'FY2019'],
-      table_2: [
-        {
-          구분: '친환경 제품 매출',
-          FY2016: '7,025',
-          FY2017: '6,858',
-          FY2018: '5,869',
-          FY2019: '5,529'
+    },
+    methods:{
+        viewHandler(event){
+            if(event.type == 'enter' ){
+                this.activated.push(event.target.element.id)
+            }
+            else if(event.type == 'exit'){
+                let idx = this.activated.findIndex(item => item == event.target.element.id)
+                if (idx > -1) {
+                    this.activated.splice(idx, 1)
+                }
+            }
+            console.log(this.activated)
+        },
+        isActive(target){
+            let idx = this.activated.findIndex(item => item == target)
+            if(idx > -1) {
+                return true
+            }
+            else {
+                return false
+            }
+        },
+        safeHash(target){
+            return ih.safeHash(target)
         }
-      ]
+    },
+    components:{
+        SideNavigation,
+        h6Ancor,
+        h4Ancor
     }
-  }
 }
 </script>
