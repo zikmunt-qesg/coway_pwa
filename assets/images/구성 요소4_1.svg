@@ -1,33 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="517.666" height="181.412" viewBox="0 0 517.666 181.412">
+<svg xmlns="http://www.w3.org/2000/svg" width="513.029" height="289.216" viewBox="0 0 513.029 289.216">
     <defs>
         <style>
-            .prefix__cls-11,.prefix__cls-4,.prefix__cls-7,.prefix__cls-8,.prefix__cls-9{fill:none}.prefix__cls-11,.prefix__cls-4,.prefix__cls-8,.prefix__cls-9{stroke:#666}.prefix__cls-4,.prefix__cls-8{stroke-linecap:round;stroke-linejoin:round}.prefix__cls-5{fill:#b59c56}.prefix__cls-6{fill:#fff}.prefix__cls-7{stroke:#000}.prefix__cls-7,.prefix__cls-9{stroke-miterlimit:10}.prefix__cls-8{stroke-dasharray:0 2.971}
+            .prefix__cls-1,.prefix__cls-3{fill:#1e2323}.prefix__cls-1{font-size:17px;font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500}.prefix__cls-2{letter-spacing:-.02em}.prefix__cls-3{font-size:14px;font-family:NotoSansKR-Light,Noto Sans KR;font-weight:300}.prefix__cls-4{letter-spacing:-.014em}.prefix__cls-5{letter-spacing:-.015em}.prefix__cls-12,.prefix__cls-13,.prefix__cls-14,.prefix__cls-16,.prefix__cls-9{fill:none}.prefix__cls-13,.prefix__cls-14,.prefix__cls-16,.prefix__cls-9{stroke:#5e6366}.prefix__cls-13,.prefix__cls-9{stroke-linecap:round;stroke-linejoin:round}.prefix__cls-10{fill:#f0c560}.prefix__cls-11{fill:#fff}.prefix__cls-12{stroke:#000}.prefix__cls-12,.prefix__cls-14{stroke-miterlimit:10}.prefix__cls-13{stroke-dasharray:0 3.026}
         </style>
     </defs>
-    <g id="prefix__구성_요소_10_1" data-name="구성 요소 10 – 1" transform="translate(.361 .5)">
-        <g id="prefix__그룹_22" data-name="그룹 22" transform="translate(-826.058 -1814.562)">
-            <path id="prefix__패스_69" d="M1321.458 1844.84a79.465 79.465 0 0 1 21.391 52.875" data-name="패스 69" style="stroke-dasharray:0 2.992;stroke-linecap:round;stroke-linejoin:round;stroke:#666;fill:none"/>
-            <path id="prefix__패스_70" d="M1342.808 1902.194a79.767 79.767 0 0 1-78.225 76.764" data-name="패스 70" style="stroke-dasharray:0 2.984;stroke-linecap:round;stroke-linejoin:round;stroke:#666;fill:none"/>
-            <path id="prefix__패스_71" d="M1260.071 1978.916a79.8 79.8 0 0 1-75.356-64.773" data-name="패스 71" style="stroke-dasharray:0 3.022;stroke-linecap:round;stroke-linejoin:round;stroke:#666;fill:none"/>
-            <path id="prefix__패스_73" d="M1263.092 1966.288a65 65 0 1 0-65-65 65 65 0 0 0 65 65" class="prefix__cls-5" data-name="패스 73"/>
-            <path id="prefix__패스_74" d="M924.582 1966.288a65 65 0 1 0-65-65 65 65 0 0 0 65 65" class="prefix__cls-5" data-name="패스 74"/>
-            <path id="prefix__패스_75" d="M941.8 1909.36c0-7.949-15.831-25.756-15.831-25.756s-15.83 17.807-15.83 25.756 7.087 14.4 15.83 14.4 15.831-6.445 15.831-14.4m-10.015-7.563c2.081 3.319 3.438 6.112 3.438 7.563 0 4.64-4.151 8.415-9.254 8.415" data-name="패스 75"/>
-            <path id="prefix__패스_76" d="M925.406 1917.4c6.492 0 11.755-4.774 11.755-10.665s-5.263-10.664-11.755-10.664-11.755 4.775-11.755 10.664 5.263 10.665 11.755 10.665" class="prefix__cls-6" data-name="패스 76"/>
-            <path id="prefix__패스_77" d="M939.12 1907.794c0-7.894-15.722-25.576-15.722-25.576s-15.721 17.682-15.721 25.576 7.039 14.294 15.721 14.294 15.722-6.4 15.722-14.294m-9.945-7.51c2.065 3.3 3.413 6.07 3.413 7.51 0 4.608-4.123 8.356-9.19 8.356" class="prefix__cls-6" data-name="패스 77"/>
-            <path id="prefix__패스_78" d="M938.937 1907.768c0-7.8-15.538-25.26-15.538-25.26s-15.537 17.464-15.537 25.26 6.957 14.118 15.537 14.118 15.538-6.321 15.538-14.118zm-9.829-7.417c2.041 3.255 3.373 5.994 3.373 7.417 0 4.551-4.075 8.253-9.082 8.253" class="prefix__cls-7" data-name="패스 78"/>
-            <path id="prefix__패스_79" d="M1280.311 1909.36c0-7.949-15.831-25.756-15.831-25.756s-15.83 17.807-15.83 25.756 7.087 14.4 15.83 14.4 15.831-6.445 15.831-14.4m-10.011-7.56c2.081 3.319 3.438 6.112 3.438 7.563 0 4.64-4.151 8.415-9.254 8.415" data-name="패스 79"/>
-            <path id="prefix__패스_80" d="M1263.916 1917.4c6.491 0 11.754-4.774 11.754-10.665s-5.263-10.664-11.754-10.664-11.755 4.775-11.755 10.664 5.262 10.665 11.755 10.665" class="prefix__cls-6" data-name="패스 80"/>
-            <path id="prefix__패스_81" d="M1277.63 1907.794c0-7.894-15.722-25.576-15.722-25.576s-15.721 17.682-15.721 25.576 7.039 14.294 15.721 14.294 15.722-6.4 15.722-14.294m-9.945-7.51c2.065 3.3 3.413 6.07 3.413 7.51 0 4.608-4.123 8.356-9.19 8.356" class="prefix__cls-6" data-name="패스 81"/>
-            <path id="prefix__패스_82" d="M1277.446 1907.768c0-7.8-15.538-25.26-15.538-25.26s-15.537 17.464-15.537 25.26 6.957 14.118 15.537 14.118 15.538-6.321 15.538-14.118zm-9.829-7.417c2.041 3.255 3.373 5.994 3.373 7.417 0 4.551-4.075 8.253-9.082 8.253" class="prefix__cls-7" data-name="패스 82"/>
-            <path id="prefix__패스_83" d="M833.859 1902.361a90.773 90.773 0 0 1 89.237-87.787" class="prefix__cls-8" data-name="패스 83"/>
-            <path id="prefix__패스_84" d="M927.552 1814.609a90.774 90.774 0 0 1 87.788 89.238" class="prefix__cls-8" data-name="패스 84"/>
+    <g id="prefix__구성_요소_12_1" data-name="구성 요소 12 – 1" transform="translate(.361 .5)">
+        <text id="prefix___착한성장_을_목표로한_" class="prefix__cls-1" data-name="'착한성장'을 목표로한" transform="translate(10.931 201.001)">
+            <tspan x="0" y="0" class="prefix__cls-2">&apos;착한성장&apos;을 목표로</tspan><tspan y="0">한</tspan>
+        </text>
+        <text id="prefix___" class="prefix__cls-1" transform="translate(166.957 201.001)"/>
+        <text id="prefix__인재육성_프로그램_제공" class="prefix__cls-1" data-name="인재육성 프로그램 제공" transform="translate(5.815 224.002)">
+            <tspan x="0" y="0" class="prefix__cls-2">인재육성 프로그램 제</tspan><tspan y="0">공</tspan>
+        </text>
+        <text id="prefix__커뮤니케이션을_통한" class="prefix__cls-1" data-name="커뮤니케이션을 통한" transform="translate(354.179 201.001)">
+            <tspan x="0" y="0" class="prefix__cls-2">커뮤니케이션을 통</tspan><tspan y="0">한</tspan>
+        </text>
+        <text id="prefix__사람중심의_기업문화_조성" class="prefix__cls-1" data-name="사람중심의 기업문화 조성" transform="translate(336.668 224.002)">
+            <tspan x="0" y="0" class="prefix__cls-2">사람중심의 기업문화 조</tspan><tspan y="0">성</tspan>
+        </text>
+        <text id="prefix__임직원_전문성_강화를_위한_" class="prefix__cls-3" data-name="임직원 전문성 강화를 위한" transform="translate(11.549 262.721)">
+            <tspan x="0" y="0" class="prefix__cls-4">임직원 </tspan><tspan y="0" class="prefix__cls-5">전</tspan><tspan y="0" class="prefix__cls-4">문</tspan><tspan y="0" class="prefix__cls-5">성</tspan><tspan y="0" class="prefix__cls-4"> 강화를</tspan><tspan y="0" class="prefix__cls-5"> </tspan><tspan y="0" class="prefix__cls-4">위</tspan><tspan y="0">한</tspan>
+        </text>
+        <text id="prefix___2" class="prefix__cls-3" transform="translate(165.759 262.721)"/>
+        <text id="prefix__체계적_교육_프로그램_운영" class="prefix__cls-3" data-name="체계적 교육 프로그램 운영" transform="translate(11.549 284.716)">
+            <tspan x="0" y="0" class="prefix__cls-4">체계적 </tspan><tspan y="0" class="prefix__cls-5">교</tspan><tspan y="0" class="prefix__cls-4">육</tspan><tspan y="0" class="prefix__cls-5"> </tspan><tspan y="0" class="prefix__cls-4">프로그램</tspan><tspan y="0" class="prefix__cls-5"> </tspan><tspan y="0" class="prefix__cls-4">운</tspan><tspan y="0">영</tspan>
+        </text>
+        <text id="prefix__임직원_소통_프로그램_운영_" class="prefix__cls-3" data-name="임직원 소통 프로그램 운영" transform="translate(356.02 262.721)">
+            <tspan x="0" y="0" class="prefix__cls-4">임</tspan><tspan y="0" class="prefix__cls-5">직원</tspan><tspan y="0" class="prefix__cls-4"> </tspan><tspan y="0" class="prefix__cls-5">소</tspan><tspan y="0" class="prefix__cls-4">통</tspan><tspan y="0" class="prefix__cls-5"> 프</tspan><tspan y="0" class="prefix__cls-4">로그</tspan><tspan y="0" class="prefix__cls-5">램 </tspan><tspan y="0" class="prefix__cls-4">운</tspan><tspan y="0">영</tspan>
+        </text>
+        <text id="prefix___3" class="prefix__cls-3" transform="translate(510.23 262.721)"/>
+        <text id="prefix__및_사람_중심의_기업문화_조성" class="prefix__cls-3" data-name="및 사람 중심의 기업문화 조성" transform="translate(347.829 284.716)">
+            <tspan x="0" y="0" class="prefix__cls-5">및</tspan><tspan y="0" class="prefix__cls-4"> </tspan><tspan y="0" class="prefix__cls-5">사</tspan><tspan y="0" class="prefix__cls-4">람</tspan><tspan y="0" class="prefix__cls-5"> 중</tspan><tspan y="0" class="prefix__cls-4">심의</tspan><tspan y="0" class="prefix__cls-5"> 기</tspan><tspan y="0" class="prefix__cls-4">업</tspan><tspan y="0" class="prefix__cls-5">문</tspan><tspan y="0" class="prefix__cls-4">화</tspan><tspan y="0" class="prefix__cls-5"> 조</tspan><tspan y="0">성</tspan>
+        </text>
+        <g id="prefix__그룹_16" data-name="그룹 16" transform="translate(-837.678 -1633.638)">
+            <path id="prefix__패스_51" fill="none" stroke="#5e6366" stroke-dasharray="0 2.99" stroke-linecap="round" stroke-linejoin="round" d="M1321.308 1654.86a79.573 79.573 0 0 1 21.334 52.874" data-name="패스 51"/>
+            <path id="prefix__패스_52" fill="none" stroke="#5e6366" stroke-dasharray="0 2.98" stroke-linecap="round" stroke-linejoin="round" d="M1342.6 1712.209a79.661 79.661 0 0 1-78.019 76.769" data-name="패스 52"/>
+            <path id="prefix__패스_53" fill="none" stroke="#5e6366" stroke-dasharray="0 3.017" stroke-linecap="round" stroke-linejoin="round" d="M1260.076 1788.935a79.657 79.657 0 0 1-75.155-64.775" data-name="패스 53"/>
+            <path id="prefix__패스_55" d="M1263.092 1776.223a65 65 0 1 0-65-65 65 65 0 0 0 65 65" class="prefix__cls-10" data-name="패스 55"/>
+            <path id="prefix__패스_56" d="M924.582 1776.223a65 65 0 1 0-65-65 65 65 0 0 0 65 65" class="prefix__cls-10" data-name="패스 56"/>
+            <path id="prefix__패스_57" d="M941.8 1719.294c0-7.949-15.831-25.756-15.831-25.756s-15.83 17.807-15.83 25.756 7.087 14.4 15.83 14.4 15.831-6.445 15.831-14.4m-10.015-7.564c2.081 3.321 3.438 6.114 3.438 7.564 0 4.64-4.151 8.416-9.254 8.416" data-name="패스 57"/>
+            <path id="prefix__패스_58" d="M925.406 1727.332c6.492 0 11.755-4.774 11.755-10.665S931.9 1706 925.406 1706s-11.755 4.773-11.755 10.664 5.263 10.665 11.755 10.665" class="prefix__cls-11" data-name="패스 58"/>
+            <path id="prefix__패스_59" d="M939.12 1717.729c0-7.894-15.722-25.576-15.722-25.576s-15.721 17.682-15.721 25.576 7.039 14.293 15.721 14.293 15.722-6.4 15.722-14.293m-9.945-7.51c2.065 3.3 3.413 6.068 3.413 7.51 0 4.607-4.123 8.355-9.19 8.355" class="prefix__cls-11" data-name="패스 59"/>
+            <path id="prefix__패스_60" d="M938.937 1717.7c0-7.8-15.538-25.262-15.538-25.262s-15.537 17.465-15.537 25.262 6.957 14.116 15.537 14.116 15.538-6.316 15.538-14.116zm-9.829-7.418c2.041 3.256 3.373 5.993 3.373 7.418 0 4.551-4.075 8.253-9.082 8.253" class="prefix__cls-12" data-name="패스 60"/>
+            <path id="prefix__패스_61" d="M1280.311 1719.379c0-7.949-15.831-25.756-15.831-25.756s-15.83 17.807-15.83 25.756 7.087 14.4 15.83 14.4 15.831-6.445 15.831-14.4m-10.015-7.563c2.081 3.32 3.438 6.113 3.438 7.563 0 4.64-4.151 8.416-9.254 8.416" data-name="패스 61"/>
+            <path id="prefix__패스_62" d="M1263.916 1727.417c6.491 0 11.754-4.774 11.754-10.665s-5.263-10.664-11.754-10.664-11.755 4.773-11.755 10.664 5.262 10.665 11.755 10.665" class="prefix__cls-11" data-name="패스 62"/>
+            <path id="prefix__패스_63" d="M1277.63 1717.814c0-7.894-15.722-25.576-15.722-25.576s-15.721 17.682-15.721 25.576 7.039 14.293 15.721 14.293 15.722-6.4 15.722-14.293m-9.945-7.51c2.065 3.3 3.413 6.068 3.413 7.51 0 4.607-4.123 8.355-9.19 8.355" class="prefix__cls-11" data-name="패스 63"/>
+            <path id="prefix__패스_64" d="M1277.446 1717.788c0-7.8-15.538-25.262-15.538-25.262s-15.537 17.464-15.537 25.262 6.957 14.116 15.537 14.116 15.538-6.319 15.538-14.116zm-9.829-7.419c2.041 3.257 3.373 5.994 3.373 7.419 0 4.551-4.075 8.253-9.082 8.253" class="prefix__cls-12" data-name="패스 64"/>
+            <path id="prefix__패스_65" d="M845.639 1709.548a78.972 78.972 0 0 1 77.43-75.9" class="prefix__cls-13" data-name="패스 65"/>
+            <path id="prefix__패스_66" d="M927.607 1633.694a78.971 78.971 0 0 1 75.961 77.367" class="prefix__cls-13" data-name="패스 66"/>
         </g>
-        <path id="prefix__선_467" d="M0 0L0 12" class="prefix__cls-9" data-name="선 467" transform="translate(99.024 162.912)"/>
-        <path id="prefix__선_468" d="M0 0L0 12" class="prefix__cls-9" data-name="선 468" transform="translate(438.098 168.912)"/>
-        <path id="prefix__선_469" d="M0 0L159.603 0" data-name="선 469" transform="translate(193.277 93.146)" style="stroke-dasharray:0 2.983;stroke-linecap:round;stroke-linejoin:round;stroke:#666;fill:none"/>
-        <path id="prefix__패스_88" d="M841.711 1906.558l-7.826 8.17-7.827-8.17" class="prefix__cls-11" data-name="패스 88" transform="translate(-826.058 -1814.562)"/>
-        <path id="prefix__패스_89" d="M1093.408 1898.482l9.418 9.226-9.418 9.226" class="prefix__cls-6" data-name="패스 89" transform="translate(-826.058 -1814.562)"/>
-        <path id="prefix__패스_90" d="M1093.408 1898.482l9.418 9.226-9.418 9.226" data-name="패스 90" transform="translate(-826.058 -1814.562)" style="stroke-width:1.5px;stroke:#666;fill:none"/>
-        <path id="prefix__패스_91" d="M1317.463 1848.252l-.835-11.283 11.309-.349" class="prefix__cls-11" data-name="패스 91" transform="translate(-826.058 -1814.562)"/>
+        <path id="prefix__선_423" d="M0 0L0 12" class="prefix__cls-14" data-name="선 423" transform="translate(87.404 153.854)"/>
+        <path id="prefix__선_424" d="M0 0L0 12" class="prefix__cls-14" data-name="선 424" transform="translate(426.478 159.854)"/>
+        <path id="prefix__선_425" fill="none" stroke="#5e6366" stroke-dasharray="0 2.981" stroke-linecap="round" stroke-linejoin="round" d="M0 0L174.376 0" data-name="선 425" transform="translate(169.885 84.089)"/>
+        <path id="prefix__패스_69" d="M852.909 1711.688l-7.615 7.933-7.616-7.933" class="prefix__cls-16" data-name="패스 69" transform="translate(-837.678 -1633.638)"/>
+        <path id="prefix__패스_70" d="M1089.965 1710.112l7.932 7.614-7.932 7.616" class="prefix__cls-16" data-name="패스 70" transform="translate(-837.678 -1633.638)"/>
+        <path id="prefix__패스_71" d="M1313.935 1657.943l-.416-10.986 11 .031" class="prefix__cls-16" data-name="패스 71" transform="translate(-837.678 -1633.638)"/>
     </g>
 </svg>

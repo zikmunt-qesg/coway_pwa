@@ -19,16 +19,19 @@
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-blue-gray1 px-6 py-4 mb-5">
+                <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-bold">
-                        <b-row no-gutters class="py-4">
-                            <b-col class="col-12 col-sm-6 mb-5 mb-sm-0 pr-sm-4 fw-500 gold7">
+                        <b-row no-gutters class="px-3 pt-4">                            
+                            <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor :title="'임직원 중심의 기업문화와 안전한 근무환경'" :activated="activated" class="mb-4 mb-sm-5">임직원 중심의 기업문화와 안전한 근무환경</h4-ancor>
+                                <h4-ancor :title="'임직원 중심의 기업문화와 안전한 근무환경'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">임직원 중심의 기업문화와 안전한 근무환경</h4-ancor>
+                            </b-col>
+                        </b-row>
+                        <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
+                            <b-col class="col-12 col-sm-4">
                                 <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
-                            <b-col class="col-12 col-sm-6">
-                                <hr class="space-25 mb-5">
+                            <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold6 mb-3">Business relevance & Approach</h7>
                                 <p>임직원이 자유롭게 역량을 발휘할 수 있는 기업문화는 기업 경쟁력을 유지하기 위해 매우 중요한 요소입니다. 코웨이는 투명하고 공정한 채용 과정을 통해 우수 인재를 선발하고, 체계화된 교육 프로그램을 운영하여 임직원이 자발적으로 역량을 개발할 수 있도록 지원합니다. 또한 임직원과의 적극적인 커뮤니케이션을 기반으로 수평적으로 소통하는 기업문화를 조성하여 자율적인 업무역량 발휘는 물론 일과 삶의 균형을 추구하는 인재 경영을 실천하고 있습니다. 
                                 </p>
@@ -36,49 +39,53 @@
                                 </p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="py-3 border-top-bold">
+                        <b-row no-gutters class="px-3 py-3 border-top-bold">
                             <h7 class="gold6 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-4 text-center">
+                            <b-col class="col-6 col-md-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p>STEP 제도 기반의 <br>역량 강화</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center">
+                            <b-col class="col-6 col-md-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p>노사협의회 운영을<br>통한 정기적 소통</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center">
+                            <b-col class="col-6 col-md-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p>산업안전보건<br>위원회 운영</p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="py-3 border-top-bold">
-                            <b-col class="col-12 col-md-6 pr-md-4 mb-4 mb-md-0">
+                        <b-row no-gutters class="px-3 py-3 border-top-bold">
+                            <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold6 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-6 text-center px-lg-4"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="word-break">디지털 기반의 업무 혁신 지원</p>
                                     </b-col>
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break"><span style="word-break: normal;">코로나바이러스감염증-19</span> (COVID-19) 확산 방지 및 예방을 위한 노력</p>
+                                    <b-col class="col-7 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <p class="word-break"><span style="word-break: normal;">코로나바이러스감염증<span class="fw-600">-19</span></span> (COVID<span class="fw-600">-19</span>) 확산 방지 및 예방을 위한 노력</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
-                            <b-col class="col-12 col-md-6">
+                            <b-col class="col-12 col-md-7">
                                 <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
-                                <b-row no-gutters class="pl-md-4 align-items-center position-relative"> 
+                                <b-row no-gutters class="pl-md-4 position-relative"> 
                                     <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                    <b-col class="col-12 d-flex align-items-center justify-content-between">
-                                        <p class="f-90 line-height-low">2019년 임직원 만족도 <br><span class="f-230">00</span>점 </p>
-                                        <div class="temp-icon2 ml-auto mb-3"><b-img src="@/assets/images/구성 요소5_1.svg" fluid class="w-100"></b-img></div>
-                                    </b-col>
-                                    <b-col class="col-12 d-flex align-items-center justify-content-between">
-                                        <p class="f-90 line-height-low">2019년 임직원 고충 연내 처리율<br><span class="f-230">100</span>%</p>
-                                        <div class="temp-icon2 ml-auto mb-3"><b-img src="@/assets/images/구성 요소5_1.svg" fluid class="w-100"></b-img></div>
-                                    </b-col>
-                                    <b-col class="col-12 d-flex align-items-center justify-content-between">
-                                        <p class="f-90 w-75 line-height-low">2019년 협력사 합동 안전실태 점검을 통한 안전환경 개선율<br><span class="f-230">100</span>%</p>
-                                        <div class="temp-icon2 ml-auto mb-3"><b-img src="@/assets/images/구성 요소5_1.svg" fluid class="w-100"></b-img></div>
-                                    </b-col>
+                                    <b-row no-gutters class="w-100">
+                                        <b-col class="col-3 text-center px-2">
+                                            <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 임직원 만족도</p>
+                                        </b-col>
+                                        <b-col class="col-4 text-center px-2">
+                                            <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 임직원 고충 연내 처리율</p>
+                                        </b-col>
+                                        <b-col class="col-5 text-center">
+                                            <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 협력사 합동 안전실태 점검을 통한 안전환경 개선율</p>
+                                        </b-col>
+                                    </b-row>
+                                    <b-row no-gutters class="w-100">
+                                        <b-col class="col-3 text-center"><span class="f-330 fw-400">00</span>점 </b-col>
+                                        <b-col class="col-4 text-center"><span class="f-330 fw-400">100</span>% </b-col>
+                                        <b-col class="col-5 text-center"><span class="f-330 fw-400">100</span>% </b-col>
+                                    </b-row>
                                 </b-row>
                             </b-col>                            
                         </b-row>
@@ -87,24 +94,21 @@
                 <section class="mb-5">
                     <p class="mb-5"> 코웨이는 기업의 미래가치는 인재로부터 비롯된다는 원칙을 기반으로 공정성, 일과 삶의 균형, 착한 성장 중심 인재 경영을 실천하고 있습니다. 코웨이는 모든 임직원이 공정한 기회를 토대로 자신의 역량을 개발하고 그에 대한 성과를 보상받을 수 있도록 다방면의 지원 체계를 구축하고 있습니다. 투명하고 공정한 채용 프로세스를 기반으로 인재상에 부합하는 인재를 채용하며, 임직원들이 자신의 역량을 적극적으로 개발할 수 있도록 STEP(Self Teaching & Education Plan)제도 기반의 다양한 학습 기회를 제공합니다. 또한, 소통과 참여 기반의 기업문화를 조성하여 임직원이 일과 삶의 균형을 이룰 수 있는 환경을 제공하고 있습니다. 
                     </p>
-                    <div class="mx-auto" style="width:517px;"><b-img src="@/assets/images/구성 요소4_1.svg" fluid class="w-100"></b-img></div>
-                    <div class="mt-2 mx-auto d-flex justify-content-between" style="width:517px;">
-                        <div style="width:177px;" class="text-center fw-500 line-height-low">'착한성장'을 목표로한 인재육성 프로그램 제공<br> <div class="f-90 fw-400 mt-3">임직원 전문성 강화를 위한 체계적 교육 프로그램 운영</div></div>
-                        <div style="width:166px;" class="text-center fw-500 line-height-low">커뮤니케이션을 통한 사람중심의 기업문화 조성<br> <div class="f-90 fw-400 mt-3">임직원 소통 프로그램 운영 및 사람 중심의 기업문화 조성</div></div>
-                    </div>
-                    <hr class="mb-5">
+                    <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="@/assets/images/구성 요소4_1.svg" fluid class="h-100"></b-img></div>
+                    
+                    <hr class="mb-45">
                     <h6-ancor :title="`'착한성장'을 위한 역량 강화`" :activated="activated" class="fw-500 gold7 mb-3">'착한성장'을 위한 역량 강화</h6-ancor>
                         <p class="mb-5"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 강화하고, 비즈니스 변화에 부합하는 직무 역량을 향상할 수 있도록 교육을 강화할 예정입니다. 
                         </p>
                         <b-img src="@/assets/images/구성 요소11_1.svg" fluid class="w-100"></b-img>
-                    <hr class="space-p25">
+                    <hr class="mb-45">
                     <h6-ancor :title="'리더십 교육'" :activated="activated" class="gold6 fw-500 mb-3 f-110">리더십 교육</h6-ancor>
                         <p class="mb-45"> 미래를 선도하는 리더를 육성하고 직책에 맞는 역량을 개발하기 위해 리더십 교육을 진행하고 있습니다. 임원 및 팀장을 대상으로 맞춤 교육과 온라인 컨텐츠 교육을 정기적으로 제공하며, 신임직책자를 대상으로 신임리더 교육을 지원합니다. 또한 pre-leadership 교육으로 승진자 교육 및 직급별 3년차 교육을 실시하여 개인의 성장을 점검하고 필요한 역량을 개발하도록 지원하고 있습니다.
                         </p>
                     <h6-ancor :title="'직무 교육'" :activated="activated" class="gold6 fw-500 mb-3 f-110">직무 교육</h6-ancor>
                         <p class="mb-45"> 직무 교육은 직무 수행에 필요한 전문성을 강화하기 위한 공통역량 교육, 본부맞춤 교육, 외부위탁 교육, 글로벌 어학 지원, 명사 특강으로 프로그램이 구성되며, 임직원 개인이 자율적으로 이러닝을 들을 수 있도록 상시 학습환경을 구축했습니다. 특히 공통역량 교육은 기획, 재무회계, OA 등 다양한 분야의 전문가 강의와  코웨이의 제품과 기술력을 학습하고 서비스를 실습하는 사내 강의로 구성되어 있습니다. 김난도 서울대 교수, 유현준 건축가 등 저명한 강사를 초청하는 명사특강(착한교육)은 2013년부터 꾸준히 이어와 임직원들에게 다양한 주제로 인사이트를 제시하고 있습니다. 
                         </p>
-                        <h7 class="mb-2">교육훈련 투자</h7>
+                        <h7 class="mb-3">교육훈련 투자</h7>
                             <b-table-simple responsive class="num-table social-table f-95">
                                 <b-thead><b-tr>
                                     <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -129,35 +133,56 @@
                     <h6-ancor :title="'디지털 기반의 업무혁신'" :activated="activated" class="gold6 fw-500 mb-3 f-110">디지털 기반의 업무혁신</h6-ancor>
                         <p class="mb-45"> 코웨이는 불필요한 업무 과정 및 관행을 최소화하고 업무 생산성을 향상하기 위해 Work Smart 캠페인을 시행하고 있습니다. Work Smart 캠페인은 공간, 시간, 성과, 지식, 방식의 5대 영역을 개선하기 위한 활동으로, 합리적인 근무문화를 조성하고 업무 공간과 시간을 유연하게 활용하여 임직원 만족도를 높이고 있습니다. 특히 근무시간 내 업무 효율을 최대화함으로써 주 40시간 이상의 초과근무를 방지하고 일과 삶의 균형을 맞출 수 있도록 최선의 노력을 다하고 있습니다.
                         </p>
-                        <b-row no-gutters class="d-flex align-items-stretch">
-                            <b-col class="col-3 pr-2 f-95"><div class="h-100 border-bottom">공간(Space)</div></b-col><b-col class="col-9 border-bottom"> 몰입 준비와 배려를 위한 효율적 공간 활용</b-col>
-                        </b-row>
-                        <b-row no-gutters class="d-flex align-items-stretch">                        
-                            <b-col class="col-3 pr-2 f-95"><div class="h-100 border-bottom">시간(Time)</div></b-col><b-col class="col-9 border-bottom"> 책임있는 매너를 위한 효율적 시간 운영</b-col>
-                        </b-row>
-                        <b-row no-gutters class="d-flex align-items-stretch">
-                            <b-col class="col-3 pr-2 f-95"><div class="h-100 border-bottom">성과(Result)</div></b-col><b-col class="col-9 border-bottom"> 지속적인 문화 정착을 위한 기업문화 평가 모델 구축</b-col>
-                        </b-row> 
-                        <b-row no-gutters class="d-flex align-items-stretch">
-                            <b-col class="col-3 pr-2 f-95"><div class="h-100 border-bottom">지식(Acquaintance)</div></b-col><b-col class="col-9 border-bottom"> 지식 습득 및 공유를 위한 활동 지속</b-col>
-                        </b-row>
-                        <b-row no-gutters class="d-flex align-items-stretch mb-45">
-                            <b-col class="col-3 pr-2 f-95"><div class="h-100 border-bottom">방식(Methods)</div></b-col><b-col class="col-9 border-bottom"> 일하는 방식 효율을 위한 프로세스 검토</b-col>
+                        <hr class="mb-4">
+                        <b-row no-gutters class="bg-blue-gray1 mb-5 py-4 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">공간(SPACE)</p><p class="px-2 f-90 word-break line-height-low">몰입 준비와 배려를 위한 효율적 공간 활용</p>
+                            </b-col> 
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">시간(TIME)</p><p class="px-2 f-90 word-break line-height-low">책임있는 매너를 위한 효율적 시간 운영</p>
+                            </b-col> 
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">성과(RESULT)</p><p class="px-2 f-90 word-break line-height-low">지속적인 문화 정착을 위한 기업문화 평가 모델 구축</p>
+                            </b-col> 
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">지식(ACQUAINTANCE)</p><p class="px-2 f-90 word-break line-height-low">지식 습득 및 공유를 위한 활동 지속</p>
+                            </b-col> 
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">방식(METHODS)</p><p class="px-2 f-90 word-break line-height-low">일하는 방식 효율을 위한 프로세스 검토</p>
+                            </b-col> 
                         </b-row>
                         <p>디지털 업무 혁신을 통해 업무 효율성을 높이고자 회계, 분석 등 주요 업무에 로봇 프로세스 자동화(RPA, Robotic Process Automation) 시스템을 도입하였습니다. 로봇 프로세스 자동화는 반복적으로 실행하던 단순 업무를 로봇 소프트웨어가 자동으로 처리하는 시스템입니다. 이를 통해 임직원은 단순 업무에서 벗어나 부가가치가 높은 일에 집중하며 업무 효율을 증진시킬 수 있습니다. 현재 계정현황 모니터링, 판매실적 집계, 렌탈자산현황 정리, 요금 청구내역 조회 등 약 40여 개 업무에 RPA를 적용하였으며, 총 70개의 로봇을 운영하여 전체 업무처리 속도를 약 50% 이상 향상시켰습니다. 향후 업무영역 전반에 걸쳐 RPA 도입 가능성을 검토하고 순차적으로 확대 적용할 계획이며 이를 통해 임직원이 업무의 질적 수준을 높이고 일과 삶의 균형을 이룰 수 있도록 노력하겠습니다.
                         </p>
                     <hr class="space-p25 mb-4">
-                    <h6-ancor :title="'커뮤니케이션 기반의 기업문화'" :activated="activated" class="gold7 fw-500 mb-3">커뮤니케이션 기반의 기업문화</h6-ancor>
-                        <p class="mb-45"> 임직원 간의 소통을 강화하여 수평적인 기업문화를 만들기 위해 다양한 프로그램을 진행하고 있습니다. CEO의 적극적인 커뮤니케이션 참여를 기반으로 경영진과 임직원 간 상호 교류를 활성화하기 위한 다양한 소통 프로그램을 운영하고 있습니다. 또한, 적극적으로 임직원의 고충을 경청하고, 즉각적인 해결을 통해 업무 효율성 및 직업 만족도를 향상하기 위해 임직원 고충 상담 채널 및 사내 웹진(코러스)를 운영하고 있습니다. 2019년에는 총 28건의 임직원 고충을 접수하여 연내 100% 처리 및 개선 완료하였습니다.
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'커뮤니케이션 기반의 기업문화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">커뮤니케이션 기반의 기업문화 </h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                        <p class="pb-3 mb-5"> 임직원 간의 소통을 강화하여 수평적인 기업문화를 만들기 위해 다양한 프로그램을 진행하고 있습니다. CEO의 적극적인 커뮤니케이션 참여를 기반으로 경영진과 임직원 간 상호 교류를 활성화하기 위한 다양한 소통 프로그램을 운영하고 있습니다. 또한, 적극적으로 임직원의 고충을 경청하고, 즉각적인 해결을 통해 업무 효율성 및 직업 만족도를 향상하기 위해 임직원 고충 상담 채널 및 사내 웹진(코러스)를 운영하고 있습니다. 2019년에는 총 28건의 임직원 고충을 접수하여 연내 100% 처리 및 개선 완료하였습니다.
                         </p>
-                        <b-row no-gutters class="d-flex align-items-stretch">
-                            <b-col class="col-4 col-sm-3 pr-2 f-95"><div class="h-100 py-1 border-bottom">CEO 커뮤니케이션 활동</div></b-col><b-col class="col-8 col-sm-9 border-bottom py-1"> 신년식과 종무식, 수능을 앞둔 자녀가 있는 임직원을 위한 격려선물, 영업 현장 호프데이 등 다양한 활동을 진행하며 CEO와 임직원 간의 수평적 의사소통 강화</b-col>
-                        </b-row>
-                        <b-row no-gutters class="d-flex align-items-stretch">
-                            <b-col class="col-4 col-sm-3 pr-2 f-95"><div class="h-100 py-1 border-bottom">상상오션</div></b-col><b-col class="col-8 col-sm-9 border-bottom py-1"> 코웨이의 대표적인 아이디어 제안 제도로 임직원이 자유롭게 아이디어를 제공하고 이에 따른 보상 제공</b-col>
-                        </b-row>
-                        <b-row no-gutters class="d-flex align-items-stretch mb-45">
-                            <b-col class="col-4 col-sm-3 pr-2 f-95"><div class="h-100 py-1 border-bottom">고충처리 채널</div></b-col><b-col class="col-8 col-sm-9 border-bottom py-1"> 근로자 대표와 정기적인 노사협의회 및 노사협의회 워크숍 실시, 사내 온라인 상담 채널 '코러스' 운영</b-col>
+                        <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">CEO 커뮤니케이션 활동</p><p class="px-2 f-90 word-break line-height-low">신년식과 종무식, 수능을 앞둔 자녀가 있는 임직원을 위한 격려선물, 영업 현장 호프데이 등 다양한 활동을 진행하며 CEO와 임직원 간의 수평적 의사소통 강화</p>
+                            </b-col> 
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">상상오션</p><p class="px-2 f-90 word-break line-height-low">코웨이의 대표적인 아이디어 제안 제도로 임직원이 자유롭게 아이디어를 제공하고 이에 따른 보상 제공</p>
+                            </b-col> 
+                            <b-col class="position-relative pt-2">
+                                <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
+                                <p class="gold6 mb-2">고충처리 채널</p><p class="px-2 f-90 word-break line-height-low">근로자 대표와 정기적인 노사협의회 및 노사협의회 워크숍 실시, 사내 온라인 상담 채널 '코러스' 운영</p>
+                            </b-col>
                         </b-row>
                     <h7 class="mb-2">임직원 고충 접수 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
