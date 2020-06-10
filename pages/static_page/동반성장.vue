@@ -17,7 +17,7 @@
                 :active_color="'#8e6627'"
                 ></side-navigation>
             </b-col>
-             <b-col class="col-auto col-lg-9 pl-lg-4">
+            <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-bold">
