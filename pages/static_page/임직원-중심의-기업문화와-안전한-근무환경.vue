@@ -9,7 +9,7 @@
             <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
-            <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
+            <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
                 :main_title="'임직원 중심의 기업문화와 안전한 근무환경'"
                 :sub_titles="sub_titles"

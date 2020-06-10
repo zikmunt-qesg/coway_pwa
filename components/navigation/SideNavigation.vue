@@ -1,5 +1,5 @@
 <template>
-<div class="sticky-top" style="z-index:5; top:6rem;">
+<div class="sticky-top side-nav bg-white" style="z-index:5; top:6rem;">
     <h7 class="mb-5">
         <nuxt-link :to="'#' + safeHash(main_title)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-2']" :style="isActive(safeHash(main_title)) ? new_class : '' "> {{ main_title }}</nuxt-link>
     </h7>

@@ -2,7 +2,7 @@
 export const state = () => ({
     menu: [
         {
-            title: '2019 MATERIAL TOPICS',
+            title: 'MATERIAL TOPICS',
             link: '#',
             child: [
                 {
