@@ -115,16 +115,16 @@
                                 </b-tr></b-thead>
                                 <b-tbody>
                                     <b-tr>
-                                        <b-td class="text-left">총 교육비용<span class="f-90">*</span></b-td> <b-td class="text-left">백만원</b-td> <b-td>11,227</b-td> <b-td>11,740</b-td> <b-td>11,693</b-td><b-td>11,425</b-td>
+                                        <b-td class="text-left">총 교육비용<sup>*</sup></b-td> <b-td class="text-left">백만원</b-td> <b-td>11,227</b-td> <b-td>11,740</b-td> <b-td>11,693</b-td><b-td>11,425</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td class="text-left">인당 교육비용<span class="f-90">*</span></b-td> <b-td class="text-left">백만원/명</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td><b-td>2.3</b-td>
+                                        <b-td class="text-left">인당 교육비용<sup>*</sup></b-td> <b-td class="text-left">백만원/명</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td><b-td>2.3</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td class="text-left">총 교육시간<span class="f-90">**</span></b-td><b-td class="text-left">시간</b-td><b-td>106,436</b-td> <b-td>106,796</b-td> <b-td>107,564</b-td><b-td>109,735</b-td>
+                                        <b-td class="text-left">총 교육시간<sup>**</sup></b-td><b-td class="text-left">시간</b-td><b-td>106,436</b-td> <b-td>106,796</b-td> <b-td>107,564</b-td><b-td>109,735</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td class="text-left">인당 교육 시간<span class="f-90">**</span></b-td><b-td class="text-left">시간/명</b-td><b-td>88.7</b-td> <b-td>89.0</b-td> <b-td>89.6</b-td><b-td>61.4</b-td>
+                                        <b-td class="text-left">인당 교육 시간<sup>*</sup></b-td><b-td class="text-left">시간/명</b-td><b-td>88.7</b-td> <b-td>89.0</b-td> <b-td>89.6</b-td><b-td>61.4</b-td>
                                     </b-tr>                                
                                 </b-tbody>                                
                             </b-table-simple>
@@ -262,7 +262,7 @@
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody><b-tr>
-                                    <b-td class="text-left">참여도<span class="f-90">*</span></b-td> <b-td class="text-left">점수</b-td> <b-td></b-td> <b-td></b-td> <b-td></b-td> <b-td></b-td>
+                                    <b-td class="text-left">참여도<sup>*</sup></b-td> <b-td class="text-left">점수</b-td> <b-td></b-td> <b-td></b-td> <b-td></b-td> <b-td></b-td>
                             </b-tr></b-tbody>                                
                         </b-table-simple>
                         <div class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</div>
@@ -305,17 +305,17 @@
                                         <b-td class="text-left">여성</b-td> <b-td>3,208<br>(67.1%)</b-td> <b-td>3,183<br>(66.7%)</b-td> <b-td>3,194<br>(65.5%)</b-td> <b-td>3,154<br>(64.0%)</b-td> <b-td>3,179<br>(63.7%)</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">소수그룹<span class="f-90">*</span></b-td> <b-td class="text-left">외국인</b-td> <b-td>-</b-td> <b-td>6</b-td> <b-td>5</b-td> <b-td>5</b-td> <b-td>5</b-td>
+                                    <b-td class="text-left" rowspan="2">소수그룹<sup>*</sup></b-td> <b-td class="text-left">외국인</b-td> <b-td>-</b-td> <b-td>6</b-td> <b-td>5</b-td> <b-td>5</b-td> <b-td>5</b-td>
                                 </b-tr>
                                 <b-tr>
-                                        <b-td class="text-left">장애인<span class="f-90">*</span></b-td> <b-td>-</b-td> <b-td>44</b-td> <b-td>51</b-td> <b-td>49</b-td> <b-td>51</b-td>
+                                        <b-td class="text-left">장애인<sup>*</sup></b-td> <b-td>-</b-td> <b-td>44</b-td> <b-td>51</b-td> <b-td>49</b-td> <b-td>51</b-td>
                                 </b-tr>
                             </b-tbody>                                
                         </b-table-simple>
-                        <div class="f-80 ml-1">* 2016년부터 데이터를 체계적으로 관리 및 보고함</div>
+                        <div class="f-80 ml-1 mb-45">* 2016년부터 데이터를 체계적으로 관리 및 보고함</div>
                     
                         <h7 class="mb-2">연령별 현황</h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
+                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">성별</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
@@ -326,15 +326,257 @@
                                 <b-tr>
                                     <b-td class="text-left">여</b-td><b-td>1</b-td><b-td>0</b-td><b-td>0</b-td><b-td>1</b-td>
                                 </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">50세 이상 직원</b-td><b-td class="text-left">남</b-td><b-td>37</b-td><b-td>78</b-td><b-td>78</b-td><b-td>185</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">여</b-td><b-td>581</b-td><b-td>849</b-td><b-td>795</b-td><b-td>1,131</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">30~50세 임원</b-td><b-td class="text-left">남</b-td><b-td>14</b-td><b-td>11</b-td><b-td>13</b-td><b-td>13</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">여</b-td><b-td>1</b-td><b-td>1</b-td><b-td>2</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">30~50세 직원</b-td><b-td class="text-left">남</b-td><b-td>1,462</b-td><b-td>1,489</b-td><b-td>1,539</b-td><b-td>1,513</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">여</b-td><b-td>2,352</b-td><b-td>2,107</b-td><b-td>2,144</b-td><b-td>1,903</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">30세 미만 직원</b-td><b-td class="text-left">남</b-td><b-td>64</b-td><b-td>92</b-td><b-td>127</b-td><b-td>81</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">여</b-td><b-td>248</b-td><b-td>237</b-td><b-td>313</b-td><b-td>144</b-td>
+                                </b-tr>
                             </b-tbody>
                         </b-table-simple>
+
+                        <h7 class="mb-2">글로벌 임직원 현황</h7>
+                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
+                             <b-thead><b-tr>
+                                <b-td class="text-left" colspan="2">구분</b-td> <b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td colspan="2" class="text-left">총 인원</b-td><b-td>1,631</b-td><b-td>1,177</b-td><b-td>1,428</b-td><b-td>1,673</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">유형별</b-td><b-td class="text-left">해외파견</b-td><b-td>13</b-td><b-td>15</b-td><b-td>16</b-td><b-td>24</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">현지채용</b-td><b-td>1,618</b-td><b-td>1,162</b-td><b-td>1,412</b-td><b-td>1,649</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <h7 class="mb-2">여성관리자 비율</h7>
+                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
+                             <b-thead><b-tr>
+                                <b-td class="text-left" colspan="2">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">여성관리자</b-td><b-td class="text-left">실무 관리자</b-td><b-td>54.9%</b-td><b-td>51.2%</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">관리자</b-td><b-td>37.3%</b-td><b-td>38.5%</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <h7 class="mb-2">공정한 보수</h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">남성 대비 여성 급여 비율</b-td><b-td>72.1%</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">법정 최저임금 대비 신입사원 임금 비율</b-td><b-td>173%</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <div class="f-80 ml-1 mb-45">* 2019년부터 기본급 및 성과급을 포함한 보수 총액 기준으로 보고</div>
+                    
+                        <h7 class="mb-2">육아휴직 현황</h7>
+                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">남성 육아휴직 사용자 수(명)</b-td><b-td>2</b-td><b-td>7</b-td><b-td>16</b-td><b-td>15</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">여성 육아휴직 사용자 수(명)</b-td><b-td>127</b-td><b-td>108</b-td><b-td>136</b-td><b-td>146</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">총 육아휴직 사용자 수(명)</b-td><b-td>129</b-td><b-td>115</b-td><b-td>152</b-td><b-td>161</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">육아휴직 사용 후 업무 복귀율(%)</b-td><b-td>95</b-td><b-td>97</b-td><b-td>99</b-td><b-td>96</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">육아휴직 복귀 후 12개월 유지율(%)</b-td><b-td>85</b-td><b-td>78</b-td><b-td>78</b-td><b-td>87</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <h7 class="mb-2">육아휴직 현황</h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">신규 채용(명)</b-td><b-td>668</b-td><b-td>683</b-td><b-td>666</b-td><b-td>595</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">퇴직률(%)</b-td><b-td>14.1</b-td><b-td>11.8</b-td><b-td>12.6</b-td><b-td>10.7</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">- 자발적 이직<sup>*</sup></b-td><b-td>96.5</b-td><b-td>97.6</b-td><b-td>99.5</b-td><b-td>95.6</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">- 비자발적 이직<sup>**</sup></b-td><b-td>3.5</b-td><b-td>2.4</b-td><b-td>0.5</b-td><b-td>4.4</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">평균 근속년수(년)</b-td><b-td>6.8</b-td><b-td>7.2</b-td><b-td>7.5</b-td><b-td>8.1</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <div class="f-80 ml-1">* 의원면직</div>
+                        <div class="f-80 ml-1 mb-45">** 사망, 정년퇴직, 해고</div>
+                    <hr class="space-p25 mb-4">
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'안전하고 건강한 근무환경'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전하고 건강한 근무환경</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                        <p class="pb-3 mb-5"> 코웨이는 근로자의 안전을 최우선으로 고려하며 사업장의 안전사고를 예방하고 건강한 근무환경을 조성하기 위해 다양한 안전보건 프로그램을 운영하고 있습니다. 특히 공장 및 R&D센터와 같이 안전사고가 발생할 수 있는 사업장에 대해 산업안전보건위원회를 운영하여 잠재적인 안전 리스크에 대해 선제적으로 대응하고 있습니다.
+                        </p>
+                    <h6-ancor :title="'산업안전보건위원회 운영'" :activated="activated" class="gold6 fw-500 mb-3 f-110">산업안전보건위원회 운영</h6-ancor>
+                        <p class="mb-5"> 산업안전보건위원회는 안전보건위생에 대한 전반적인 협의 및 합의를 위해 2005년부터 운영되었으며, 사측대표 6인과 근로자 대표 6인의 노사 동수로 구성하여 합리적이고 민첩한 안전 이슈 대응을 추진하고 있습니다. 위원회는 분기별 산업재해 예방 계획을 수립하고 안전보건 관리 규정의 작성 및 변경, 근로자의 안전·보건교육 등을 논의, 의결하고 있습니다. 2019년 총 4회의 위원회 개최를 기반으로 근로자의 건강증진과 작업환경 측정을 통한 소음 개선, 근골격계질환 개선에 대한 사항을 중점적으로 논의하였으며, 그 결과 포장 공정의 자동화를 시행하여 재해요소를 제거하였습니다. 
+                        </p>
+                    <h6-ancor :title="'안전보건 경영 및 안전문화 구축'" :activated="activated" class="gold6 fw-500 mb-3 f-110">안전보건 경영 및 안전문화 구축</h6-ancor>
+                        <p class="mb-5"> 코웨이는 안전보건경영시스템(OHSAS18001 및 KOSHA 18001)인증을 보유하며, 이를 기반으로 국내 전 공장(유구, 인천, 포천)의 안전보건 시스템을 통합 운영하고 있습니다. 또한, 매년 협력사와 합동으로 안전실태를 점검하고 평가하여 공급망 전체에서의 안전 확보를 위해 노력하고 있습니다. 2019년 협력사 합동 안전실태 평가 결과 총 133건의 위험 요인을 발견하였으며, 산업안전보건위원회 논의를 통해 2019년 말까지 100%에 대해 개선하였습니다. 2020년에는 지난해 도출 및 개선 완료된 사항에 대한 후속 모니터링과 함께 실태 점검을 지속할 계획입니다. 
+                        </p>
+                        <h7 class="mb-2">안전보건경영 인증 비율</h7>
+                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">사업장</b-td><b-td class="text-left">인증 여부</b-td><b-td>유효기간</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">OHSAS18001</b-td><b-td class="text-left">서울사무소, R&amp;D센터, 유구, 인천, 포천 공장</b-td><b-td class="text-left">인증</b-td><b-td>2017.8.17 ~ 2020.07.13</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left" rowspan="2">KOSHA18001</b-td><b-td class="text-left">유구공장</b-td><b-td class="text-left">인증</b-td><b-td>2017.09.27 ~ 2020.09.26</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">인천공장</b-td><b-td class="text-left">인증</b-td><b-td>2019.05.25 ~ 2022.05.24</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <h7 class="mb-2">협력사 공동 안전 실태 점검 비율</h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">위험요인 도출 건수</b-td><b-td>156</b-td><b-td>133</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">당해년도 위험요인 개선 비율(%)</b-td><b-td>100</b-td><b-td>100</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <p class="mb-5"> 코웨이는 안전한 일터를 제공할 뿐만 아니라 임직원이 자발적으로 안전한 환경을 조성할 수 있도록 안전문화 구축 활동을 시행하고 있습니다. 안전문화 구축을 위한 대표적 활동인 ‘행복지킴이’는 현장 관리자와 담당자, 근로자 대표로 구성된 조직으로, 매 월 2회 자발적인 시설점검, 환경개선 캠페인 등 안전 보건 관련 예방 및 개선활동을 실시합니다. 2019년에는 점검을 통해 총 133건의 위험 상황을 도출하였으며, 모든 위험 상황에 대해 100% 즉각적인 개선을 시행하였습니다. 또한 안전보건 인식 확산을 위한 공장 안전보건 업무체계표준화 활동, 화재예방 및 건강증진 프로그램 등 홍보 활동과 근골격계 질환 예방을 위한 프로젝트를 진행하였습니다. 
+                        </p>
+
+                        <div style="border-width:0.1px; border-style:dotted; border-color:gray" class="my-3 p-3">
+                            <p>Case. 코로나19 바이러스 예방을 위한 코웨이의 노력</p>
+                            <p>코웨이는 코로나바이러스감염증-19(COVID-19) 확산의 방지 및 예방을 위해 다양한 활동을 추진하고 있습니다. 코로나바이러스-19에 대한 구체적인 정보가 부족한 만큼 잘못된 정보의 유통을 예방하고 정확한 정보가 전달될 수 있도록 중안재난안전대책본부에서 공식적으로 집계되는 일일 신규 확진자 수 및 발생현황 정보를 지속적으로 공지하고 예방 수칙을 안내하고 있습니다. 올바른 정보 및 행동 수칙의 인지를 기반으로 모든 임직원 및 이해관계자들이 스스로 안전한 환경을 조성할 수 있도록 전 사업장에 디스플레이 게시판 및 안전 수칙 홍보물을 제공하는 등 다양한 채널을 통해 커뮤니케이션 하였습니다.
+모든 사업장에 출입자 발열 체크, 손소독 및 마스크 착용을 의무화하며, 주 2회 자체 소독 작업을 진행하고 있습니다. 다중 이용시설로 위험성이 높은 구내식당의 경우 한 줄 줄서기 및 대화를 금지하는 등 밀접 접촉을 최소화하기 위한 규칙을 시행하고 있습니다. 임산부 및 초등학생 이하의 자녀가 있는 임직원의 경우 주 xx회 재택근무를 권유하여 바이러스 전파 위험 노출을 최소화하고 있습니다.
+코웨이는 모든 이해관계자의 건강한 생활을 위한 케어(Care) 기업으로서 코로나바이러스감염증-19의 빠른 종식 및 피해 최소화를 위해 노력해 나갈 예정입니다.
+                            </p>
+                        </div>
+
+                        <h7 class="mb-2">사망사고 발생 건 수</h7>
+                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">임직원</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+
+                        <h7 class="mb-2">산업재해 발생건수</h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">임직원</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>1</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">재해율<sup>1)</sup></b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.02</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <div class="f-80 ml-1 mb-45">1) 재해율 = 재해자 수 / 근로자 수 X 100 </div>
+
+                        <h7 class="mb-2">근로손실재해율(LITFR)<sup>1)</sup></h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <div class="f-80 ml-1 mb-45">1) 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </div>
+
+                        <h7 class="mb-2">업무상 질병 발생률(OIFR)</h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td></b-td><b-td></b-td><b-td></b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td></b-td><b-td></b-td><b-td></b-td><b-td></b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+
+
                 </section>
                 <hr class="space-p75">
             </b-container>
             </b-col>
         </b-row>
-
-
 
     </b-container>
 </div>
