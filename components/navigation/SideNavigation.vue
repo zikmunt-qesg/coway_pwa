@@ -1,9 +1,9 @@
 <template>
-<div class="sticky-top side-nav bg-white" style="z-index:5; top:6rem;">
+<div class="sticky-top side-nav bg-white line-height-low" style="z-index:5; top:6rem;">
     <h7 class="mb-5">
         <nuxt-link :to="'#' + safeHash(main_title)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-2']" :style="isActive(safeHash(main_title)) ? new_class : '' "> {{ main_title }}</nuxt-link>
     </h7>
-    <div v-for="item in sub_titles" :key="item.id" class="mb-3 f-95 fw-400">
+    <div v-for="item in sub_titles" :key="item.id" class="mb-3 f-95 fw-400 line-height-low">
         <nuxt-link :to="'#' + safeHash(item.title)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(item.title)) ? new_class : '' ">{{item.title}}</nuxt-link>
         <div v-for="child_item in item.child" :key="child_item.id" class="mt-2 ml-3 f-90 fw-400">
             <nuxt-link :to="'#' + safeHash(child_item.title)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(child_item.title)) ? new_class : '' " >{{child_item.title}}</nuxt-link>
