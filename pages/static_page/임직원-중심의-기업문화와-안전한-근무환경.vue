@@ -108,7 +108,7 @@
                     <h6-ancor :title="'직무 교육'" :activated="activated" class="gold6 fw-500 mb-3">직무 교육</h6-ancor>
                         <p class="mb-45"> 직무 교육은 직무 수행에 필요한 전문성을 강화하기 위한 공통역량 교육, 본부맞춤 교육, 외부위탁 교육, 글로벌 어학 지원, 명사 특강으로 프로그램이 구성되며, 임직원 개인이 자율적으로 이러닝을 들을 수 있도록 상시 학습환경을 구축했습니다. 특히 공통역량 교육은 기획, 재무회계, OA 등 다양한 분야의 전문가 강의와  코웨이의 제품과 기술력을 학습하고 서비스를 실습하는 사내 강의로 구성되어 있습니다. 김난도 서울대 교수, 유현준 건축가 등 저명한 강사를 초청하는 명사특강(착한교육)은 2013년부터 꾸준히 이어와 임직원들에게 다양한 주제로 인사이트를 제시하고 있습니다. 
                         </p>
-                        <h7 class="mb-2">교육훈련 투자</h7>
+                        <h7 class="mb-2 gray63">교육훈련 투자</h7>
                             <b-table-simple responsive class="num-table social-table f-95">
                                 <b-thead><b-tr>
                                     <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -184,7 +184,7 @@
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">고충처리 채널</p><p class="px-3 f-90 line-height-low">근로자 대표와 정기적인 노사협의회 및 노사협의회 워크숍 실시, 사내 온라인 상담 채널 '코러스' 운영</p>
                             </b-col>
                         </b-row>
-                    <h7 class="mb-2">임직원 고충 접수 현황</h7>
+                    <h7 class="mb-2 gray63">임직원 고충 접수 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -205,7 +205,7 @@
                     <h6-ancor :title="'노사협의회 기반의 커뮤니케이션'" :activated="activated" class="gold6 fw-500 mb-3">노사협의회 기반의 커뮤니케이션</h6-ancor>
                         <p class="mb-45"> 코웨이는 전 임직원을 대표하는 근로자 대표와의 정기적인 노사협의회를 통해 기업 경영과 관련된 중요한 의사결정 및 변동사항에 대하여 소통하고 있습니다. 회사에 중요한 사업변동이 발생한 경우 이를 사전에 투명하게 공유하고 있으며, 2019년에는 총 4회의 노사협의회를 통해 평가위원회 운영 및 승진, 연봉 책정, 연말 인센티브 지급, 기업문화 및 교육 제도 개선 등 7개 안건에 대해 협의하였습니다.
                         </p>
-                        <h7 class="mb-2">노사협의회 개최 및 협의 안건 수</h7>
+                        <h7 class="mb-2 gray63">노사협의회 개최 및 협의 안건 수</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -226,7 +226,7 @@
                     <h6-ancor :title="'일과 삶의 균형을 통한 임직원 만족도 제고'" :activated="activated" class="gold6 fw-500 mb-3">일과 삶의 균형을 통한 임직원 만족도 제고</h6-ancor>
                         <p class="mb-45"> 코웨이는 다양한 프로그램을 통해 가족 친화적 기업문화를 조성하며 일과 삶의 균형을 추구하고 있습니다. 일 가정 양립을 위해 정시 출퇴근을 장려하는 PC-Off 제도를 도입하였으며, 패밀리데이를 운영하여 임직원이 가족과 함께하는 시간을 확보할 수 있도록 노력하고 있습니다. 또한 가족 참여 활동 및 행사를 통해 코웨이의 가족으로서 임직원과 가족들이 함께 행복한 시간을 보낼 수 있는 프로그램을 운영하고 있습니다. 이에 따라 코웨이는 2012년 가족친화 우수기업 첫 인증을 받았으며, 2017년 재인증을 받았습니다.
                         </p>
-                        <h7 class="pb-2 mb-5">일 가정 양립을 위한 지원 제도</h7>
+                        <h7 class="pb-2 mb-5 gray63">일 가정 양립을 위한 지원 제도</h7>
                         <b-row no-gutters class="bg-blue-gray1 mb-45 py-3 text-center border-bottom-gray-bold">
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
@@ -250,7 +250,7 @@
                             </b-col>
                         </b-row>
                         
-                        <h7 class="pb-2 mb-5">임직원 가족 참여 활동</h7>
+                        <h7 class="pb-2 mb-5 gray63">임직원 가족 참여 활동</h7>
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center border-bottom-gray-bold">
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
@@ -276,7 +276,7 @@
 
                         <p class="mb-45"> 코웨이는 연 1회 전 임직원을 대상으로 임직원 참여도를 조사하고 있습니다. 2019년 전체 임직원 중 참여도 조사에 참여한 임직원은 남성직원 xx%, 여성직원 xx%가 참여하여 총 xx%가 참여하였습니다. 조사 결과, 2019년 임직원 참여도는 지난해 대비 xx% 상승/하락한 xx점을 기록하였습니다. 남성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였으며, 여성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였습니다. 
                         </p>
-                        <h7 class="mb-2">임직원 참여도(만족도) 현황</h7>
+                        <h7 class="mb-2 gray63">임직원 참여도(만족도) 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -288,7 +288,7 @@
                         <p class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</p>
                     <hr class="space-p25"> 
                     <h6-ancor :title="'임직원 현황 데이터'" :activated="activated" class="gold6 fw-500 mb-3">임직원 현황 데이터</h6-ancor>
-                        <h7 class="mb-2">국내 임직원 현황</h7>
+                        <h7 class="mb-2 gray63">국내 임직원 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td> <b-td>2015</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -334,7 +334,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">* 2016년부터 데이터를 체계적으로 관리 및 보고함</p>
                     
-                        <h7 class="mb-2">연령별 현황</h7>
+                        <h7 class="mb-2 gray63">연령별 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">성별</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -373,7 +373,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2">글로벌 임직원 현황</h7>
+                        <h7 class="mb-2 gray63">글로벌 임직원 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td> <b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -391,7 +391,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2">여성관리자 비율</h7>
+                        <h7 class="mb-2 gray63">여성관리자 비율</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -406,7 +406,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2">공정한 보수</h7>
+                        <h7 class="mb-2 gray63">공정한 보수</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2019</b-td>
@@ -422,7 +422,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">* 2019년부터 기본급 및 성과급을 포함한 보수 총액 기준으로 보고</p>
                     
-                        <h7 class="mb-2">육아휴직 현황</h7>
+                        <h7 class="mb-2 gray63">육아휴직 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -446,7 +446,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2">신규 채용, 퇴직 및 근속년수 현황</h7>
+                        <h7 class="mb-2 gray63">신규 채용, 퇴직 및 근속년수 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -481,7 +481,7 @@
                     <h6-ancor :title="'안전보건 경영 및 안전문화 구축'" :activated="activated" class="gold6 fw-500 mb-3">안전보건 경영 및 안전문화 구축</h6-ancor>
                         <p class="mb-45"> 코웨이는 안전보건경영시스템(OHSAS18001 및 KOSHA 18001)인증을 보유하며, 이를 기반으로 국내 전 공장(유구, 인천, 포천)의 안전보건 시스템을 통합 운영하고 있습니다. 또한, 매년 협력사와 합동으로 안전실태를 점검하고 평가하여 공급망 전체에서의 안전 확보를 위해 노력하고 있습니다. 2019년 협력사 합동 안전실태 평가 결과 총 133건의 위험 요인을 발견하였으며, 산업안전보건위원회 논의를 통해 2019년 말까지 100%에 대해 개선하였습니다. 2020년에는 지난해 도출 및 개선 완료된 사항에 대한 후속 모니터링과 함께 실태 점검을 지속할 계획입니다. 
                         </p>
-                        <h7 class="mb-2">안전보건경영 인증 비율</h7>
+                        <h7 class="mb-2 gray63">안전보건경영 인증 비율</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">사업장</b-td><b-td class="text-left">인증 여부</b-td><b-td>유효기간</b-td>
@@ -499,7 +499,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2">협력사 공동 안전 실태 점검 비율</h7>
+                        <h7 class="mb-2 gray63">협력사 공동 안전 실태 점검 비율</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -527,7 +527,7 @@
                     </p>
                     </section>
 
-                        <h7 class="mb-2">사망사고 발생 건 수</h7>
+                        <h7 class="mb-2 gray63">사망사고 발생 건 수</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -543,7 +543,7 @@
                         </b-table-simple>
 
 
-                        <h7 class="mb-2">산업재해 발생건수</h7>
+                        <h7 class="mb-2 gray63">산업재해 발생건수</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -562,7 +562,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1) 재해율 = 재해자 수 / 근로자 수 X 100 </p>
 
-                        <h7 class="mb-2">근로손실재해율(LITFR)<sup>1)</sup></h7>
+                        <h7 class="mb-2 gray63">근로손실재해율(LITFR)<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -578,7 +578,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1) 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </p>
 
-                        <h7 class="mb-2">업무상 질병 발생률(OIFR)</h7>
+                        <h7 class="mb-2 gray63">업무상 질병 발생률(OIFR)</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>

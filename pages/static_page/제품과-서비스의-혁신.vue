@@ -21,21 +21,21 @@
             <b-container class="px-0">
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
-                        <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue8">
+                        <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue7">
                             <h4-ancor :title="'제품과 서비스의 혁신'" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품과 서비스의 혁신</h4-ancor>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
-                        <b-col class="col-12 col-md-4 blue8 fw-500">
+                        <b-col class="col-12 col-md-4 fw-500">
                             <b-row no-gutters class="pr-md-4">
-                                <b-col class="col-12 pb-4 border-bottom-dark">
+                                <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 w-100">Activity</h7>
                                     <div>‧ 본질적 가치를 높이는 제품 혁신</div>
                                     <div>‧ 미래 기술 기반의 서비스 혁신</div>
                                     <div>‧ 혁신을 위한 연구개발 역량 강화</div>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
-                                    <h7 class="mb-4 w-100">Performance</h7>
+                                    <h7 class="mb-4 w-100 blue7">Performance</h7>
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
                                             <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
@@ -49,14 +49,6 @@
                                             <p class="f-140 fw-400">CES 혁신상 수상</p>
                                         </b-col>
                                     </b-row>
-                                    <!-- <div class="text-center mb-3">
-                                        
-                                    </div>
-                                    <div class="text-center mb-4 mb-md-0">
-                                        <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                        <p class="gray7 mb-0">5년 연속</p>
-                                        <p class="f-140">CES 혁신상 수상</p>
-                                    </div> -->
                                 </b-col>
                             </b-row>                            
                         </b-col>                        
@@ -198,11 +190,11 @@
                             </p>
                         </b-col>
                         <b-col class="col-12 col-md-6 d-flex flex-row flex-md-column align-items-center">
-                            <div class="text-center mb-md-4"><b-img src="@/assets/images/33@3x.png" fluid></b-img></div>
+                            <div class="text-center mb-md-4 px-md-5"><b-img src="@/assets/images/33@3x.png" fluid></b-img></div>
                             <div class="text-center"><b-img src="@/assets/images/9_1@3x.png" fluid class="w-100"></b-img> </div>
                         </b-col>
                     </b-row>
-                    <h7 class="mb-2"> 지식재산권 보유 현황 <span class="f-80 fw-300"> (단위: 건)</span></h7>
+                    <h7 class="mb-2 gray63"> 지식재산권 보유 현황 <span class="f-80 fw-300"> (단위: 건)</span></h7>
                     <b-table-simple responsive class="num-table f-95">
                         <b-thead><b-tr>
                             <b-td class="text-left">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
