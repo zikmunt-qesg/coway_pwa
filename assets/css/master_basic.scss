@@ -198,6 +198,7 @@ p {
     margin-bottom: 0.7rem;
     word-break: normal;
     font-size: 0.96rem;
+    font-weight: 300;
 }
 p.word-break {
     word-break: keep-all;
@@ -219,7 +220,7 @@ h5{
     font-size: 1.25rem;
 }
 h6 {
-    font-size: 1.175rem;
+    font-size: 1.15rem;
 }
 .h7 {
     font-size: 1.07rem;
@@ -248,6 +249,9 @@ hr {
 
 .line-height-low{
     line-height: 1.4;
+}
+.line-height-min{
+    line-height: 1.2;
 }
 
 .h-80 {
@@ -438,7 +442,7 @@ hr {
     background-color: $blue2;
 }
 .bg-blue1{
-    background-color: $blue1;
+    background-color: rgba(208, 234, 246, 0.9);
 }
 .bg-coway-blue{
     background-color: $coway-blue;
@@ -581,21 +585,21 @@ table, .table {
 
 /* border */
 
-.border-top-bottom-bold {
-    border-top: 1.3px solid $gray7;
-    border-bottom: 1.3px solid $gray7;
+.border-top-bottom-dark {
+    border-top: 1px solid $gray7;
+    border-bottom: 1px solid $gray7;
 }
-.border-top-bold {
-    border-top: 1.3px solid $gray7;
+.border-top-dark {
+    border-top: 1px solid $gray7;
 }
-.border-bottom-bold {
-    border-bottom: 1.3px solid $gray7;
+.border-bottom-dark {
+    border-bottom: 1px solid $gray7;
 }
-.border-right-bold {
-    border-right: 1.3px solid $gray7;
+.border-right-dark {
+    border-right: 1px solid $gray7;
 }
-.border-left-bold {
-    border-left: 1.3px solid $gray7;
+.border-left-dark {
+    border-left: 1px solid $gray7;
 }
 
 .border-top-gray {
@@ -616,12 +620,14 @@ table, .table {
 }
 
 .border-dotted {
-    border-style: dashed;
-    border-color: $gray4;
-    border-width: 1px;
+    border: 1px dashed $gray4;
 }
 .border-bottom-dotted {
     border-bottom: 1px dashed $gray4;
+}
+
+.border-blue {
+    border: 1px solid $blue5;
 }
 
 

@@ -1,9 +1,10 @@
 .letter-narrow {
     letter-spacing: -0.006rem;
 }
-
+.text-underline{
+    text-decoration: underline;
+}
 .side-nav {
-    background-color: white;
     padding: 2.3em 1.4em 1.9em;
 }
 
@@ -11,6 +12,11 @@
     position: absolute;
     z-index: -1;
     top: -25vw;
+}
+.material-page-top-img{
+    position: absolute;
+    z-index: -1;
+    top: -3vw;
 }
 
 // .dma-title {
@@ -46,6 +52,14 @@
     height: 80px;
     width: 100%;
 }
+.temp-icon8 {
+    height: 48px;
+    width: 100%;
+}
+.temp-img1{
+    height: 270px;
+    width: 100%;
+}
 
 @media (max-width: 768px) {
     .force-deflex{
@@ -58,7 +72,7 @@
     width: 1px;
     background-color: $gray7; 
     top:0;
-    left: -5px;   
+    left:0;
 }
 .horizontal-line-1 {
     height: 0.75px;
@@ -70,6 +84,9 @@
     width: 100%;
     background-color: $gray4; 
     top: 42%;
+}
+.blue-line {
+    background-color: $blue6!important; 
 }
   
 /* padding and margin extra */
@@ -145,6 +162,13 @@
 }
 .social-table > table > thead > tr > td{
     border-bottom: 1px solid $gold6;
+}
+.case-table > table > thead > tr > td{
+    border-bottom: 0;
+}
+.case-table > table > tbody > tr > td{
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
 }
 
 
