@@ -21,7 +21,7 @@
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
                 <section class="bg-blue-gray1 px-6 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
+                    <div class="border-top-bottom-dark">
                         <b-row no-gutters class="py-4">
                             <b-col class="col-12 col-sm-6 mb-5 mb-sm-0 pr-sm-4 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">01</h1>
@@ -36,7 +36,7 @@
                                    이에 따라 자원 절약, 오염 배출, 기후변화 등 직접적인 운영 환경 효율성과 관련한 영향이 존재하며, 이를 최소화 하기 위해 최선의 노력을 다하고 있습니다.</p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="py-3 border-top-bold">
+                        <b-row no-gutters class="py-3 border-top-dark">
                             <h7 class="green6 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
@@ -55,7 +55,7 @@
                                 <p>친환경 소통과<br>참여 확대</p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="py-3 border-top-bold">
+                        <b-row no-gutters class="py-3 border-top-dark">
                             <b-col class="col-12 col-md-6 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="green6 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
@@ -130,10 +130,10 @@
                     <b-row class="mb-4">
                         <b-col class="col-md-1 d-none d-md-block"></b-col>
                         <b-col class="col-6 col-md-5">
-                            <div class="bg-white border-top-bottom-bold py-3 px-3 h-100 green6"> Cordial Life Care Science & Solution Company </div>
+                            <div class="bg-white border-top-bottom-dark py-3 px-3 h-100 green6"> Cordial Life Care Science & Solution Company </div>
                         </b-col>
                         <b-col class="col-6 col-md-5">
-                            <div class="bg-white border-top-bottom-bold py-4 h-100 green6"> Green Global Leader</div>
+                            <div class="bg-white border-top-bottom-dark py-4 h-100 green6"> Green Global Leader</div>
                         </b-col>
                         <b-col class="col-md-1 d-none d-md-block"></b-col>
                     </b-row>
@@ -146,7 +146,7 @@
                         <div class="bg-gray7 position-absolute" style="height:20px; width:3px; margin-left:49.9%; bottom:0;"></div>
                         <div class="bg-gray7 position-absolute" style="height:45px; width:1px; margin-left:50%; bottom:0;"></div>
                     </div>
-                    <b-row class="border-top-bottom-bold bg-white py-4">
+                    <b-row class="border-top-bottom-dark bg-white py-4">
                         <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
                             <div class="temp-icon5 mx-auto position-relative"><b-img src="@/assets/images/구성 요소14_1.svg" fluid class="w-100"></b-img></div>
                         </b-col>
@@ -189,7 +189,7 @@
                     <!-- <b-row class="py-3 mb-3">
                         <b-col class="col-12 col-md-6 mb-3 mb-md-0">
                             <h7 class="mb-2">사업장</h7>
-                            <div class="border-top-bottom-bold py-3 d-flex h-80">
+                            <div class="border-top-bottom-dark py-3 d-flex h-80">
                                 <div class="temp-icon6 align-self-center"></div>
                                 <div class="px-3 w-50 align-self-center">워터리스 시스템을 통한 물 사용량 저감</div>
                                 <div class="align-self-end"> 절감량 <span class="f-230">XXX</span>ton </div>
@@ -197,7 +197,7 @@
                         </b-col>
                         <b-col class="col-12 col-md-6">
                             <h7 class="mb-2">제품</h7>
-                            <div class="border-top-bottom-bold py-3 d-flex h-80">
+                            <div class="border-top-bottom-dark py-3 d-flex h-80">
                                 <div class="temp-icon6 align-self-center"></div>
                                 <div class="px-3 w-25 align-self-center">정수 / 폐수비 향상</div>
                                 <div class="ml-auto w-50"> 직수(나노) 버리는 물 Zero화 정폐수 효율 향상 : 물 사용량 저감 생활용수 활용 향상 방안 검토</div>

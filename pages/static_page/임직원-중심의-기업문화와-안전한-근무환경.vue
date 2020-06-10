@@ -20,7 +20,7 @@
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
+                    <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">01</h1>
@@ -39,7 +39,7 @@
                                 </p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
+                        <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <h7 class="gold6 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
@@ -54,7 +54,7 @@
                                 <p>산업안전보건<br>위원회 운영</p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
+                        <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold6 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
