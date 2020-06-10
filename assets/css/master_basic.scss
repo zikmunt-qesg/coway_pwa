@@ -375,6 +375,9 @@ hr {
 .gray7{
     color: $gray7;
 }
+.gray67{
+    color: $gray67;
+}
 .gray65{
     color: $gray65
 }
@@ -622,6 +625,9 @@ table, .table {
 }
 .border-right-gray {
     border-right: 1px solid $gray4;
+}
+.border-right-gray-bold {
+    border-right: 1.8px solid $gray3;
 }
 
 .border-bottom-gray-bold {
