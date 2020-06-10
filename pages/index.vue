@@ -72,9 +72,9 @@
             <div class="col-12 bg-gray3 f-105 fw-500 py-2 px-3"> Economic Performance </div>
             <b-row class="my-4">
                 <b-col class="col-12 col-md-4 border-right-gray-bold">
-                    <div class="mb-45 blue7 fw-400 f-110"> 코웨이는 물과 공기를 깨끗하게 하는 ‘본질’에 집중하며, 고객 경험과 서비스의 가치를 향상시킬 수 있는 끊임없는 혁신으로 지속성장해가고 있습니다. 
+                    <div class="mb-4 blue7 fw-400 f-110"> 코웨이는 물과 공기를 깨끗하게 하는 ‘본질’에 집중하며, 고객 경험과 서비스의 가치를 향상시킬 수 있는 끊임없는 혁신으로 지속성장해가고 있습니다. 
                     </div>
-                    <p class="blue7 fw-500 f-105"> 매출액 </p>
+                    <p class="blue7 fw-500 f-105 mb-1"> 매출액 </p>
                     <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray3" style="height:16px; width:30%;"></div> 
                         <div class="position-absolute" style="top:4px; left:5px;">2017</div><div class="ml-2 d-flex align-items-center"> <span class="f-110"> 25,168 </span> 억원 </div>
                     </div>
@@ -96,16 +96,16 @@
                         <div class="blue7 main1-card-num fw-300">95.7%</div>
                         <div class="temp-icon7 text-right"><b-img src="@/assets/images/구성 요소1_1.png" fluid class="h-100"></b-img></div>
                     </div>
-                    <p class="my-3 f-105 gray67"> 2019년 말 기준 국내외 000 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
+                    <p class="my-3 f-105 gray67 fw-400"> 2019년 말 기준 국내외 000 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
                     </p>
                 </b-col>
             </b-row>
             <div class="col-12 bg-gray3 f-105 fw-500 py-2 px-3"> Social Performance </div>
             <b-row class="my-4">
                 <b-col class="col-12 col-md-4 border-right-gray-bold">
-                    <div class="blue7 main1-card-num fw-300">1,000,000<span class="f-105">천원</span></div>
-                    <div class="d-flex justify-content-between align-items-start">
-                        <p class="gray67 pr-4 f-105"> 코로나바이러스19로 많은 지원이 필요한 지역사회에 10억원을 기부했습니다. 이 성금은 방호 물품, 진단키트 등 의료 물품 부족에 직면한 전국 의료진에 대한 지원과 의료복지 시설 방역에 사용되었습니다. 
+                    <div class="blue7 main1-card-num mb-4 fw-300">1,000,000<span class="f-105">천원</span></div>
+                    <div class="d-flex justify-content-between align-items-end">
+                        <p class="gray67 pr-4 f-105 fw-400"> 코로나바이러스19로 많은 지원이 필요한 지역사회에 10억원을 기부했습니다. 이 성금은 방호 물품, 진단키트 등 의료 물품 부족에 직면한 전국 의료진에 대한 지원과 의료복지 시설 방역에 사용되었습니다. 
                         </p>
                         <div class="temp-icon5"> <b-img src="@/assets/images/구성 요소3_1.png" fluid class="w-100"></b-img></div>
                     </div>
@@ -164,13 +164,13 @@
                     </div>
                 </b-col>    
                 <b-col class="col-12 col-md-4">
-                    <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="blue7 main1-card-num mb-3 fw-300">99.1%</div>
                         <div class="temp-icon5 text-right mr-3" style="max-width: 100px"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
                         <!-- <div class="temp-icon6 mt-1"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
                     <div class="blue7 fw-500 f-105 mb-2"> 폐기물 재활용률 </div>
-                    <p class="blue7 f-110"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 
+                    <p class="blue7 f-110 fw-400"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 
                     </p>
                 </b-col>                
             </b-row>
