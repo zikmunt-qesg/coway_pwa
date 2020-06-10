@@ -88,6 +88,12 @@
 .blue-line {
     background-color: $blue6!important; 
 }
+.green-line {
+    background-color: $green5!important; 
+}
+.gold-line {
+    background-color: $gold7!important; 
+}
   
 /* padding and margin extra */
 
@@ -132,7 +138,7 @@
 .num-table > table, 
 .txt-table > table {
     border-collapse: separate;
-    border-spacing: 5px 0;
+    border-spacing: 7px 0;
     margin-left: -4px;
 }
 .num-table > table > thead > tr > td,
@@ -154,14 +160,14 @@
 .num-table > table > thead > tr > td, 
 .txt-table > table > thead > tr > td {
     border-top: 0;
-    border-bottom: 0.5px solid $blue4;
+    border-bottom: 1.2px solid $blue4;
 }
 
 .env-table > table > thead > tr > td {
-    border-bottom: 1px solid $green6!important;
+    border-bottom: 1.2px solid $green6!important;
 }
 .social-table > table > thead > tr > td{
-    border-bottom: 1px solid $gold6;
+    border-bottom: 1.2px solid $gold6;
 }
 .case-table > table > thead > tr > td{
     border-bottom: 0;

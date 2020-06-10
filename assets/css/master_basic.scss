@@ -375,6 +375,9 @@ hr {
 .gray65{
     color: $gray65
 }
+.gray63{
+    color: $gray63
+}
 .gray6{
     color: $gray6;
 }
@@ -407,6 +410,9 @@ hr {
 }
 .green6{
     color: $green6;
+}
+.green5{
+    color: $green5;
 }
 
 .gold8{
@@ -629,7 +635,9 @@ table, .table {
 .border-blue {
     border: 1px solid $blue5;
 }
-
+.border-gold {
+    border: 1px solid $gold6;
+}
 
 /*card*/
 .card-body, .card-text, .card-title, .card-subtitle {
