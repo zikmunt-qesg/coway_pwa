@@ -313,8 +313,21 @@
                             </b-tbody>                                
                         </b-table-simple>
                         <div class="f-80 ml-1">* 2016년부터 데이터를 체계적으로 관리 및 보고함</div>
-
-
+                    
+                        <h7 class="mb-2">연령별 현황</h7>
+                        <b-table-simple responsive class="num-table social-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td> <b-td class="text-left">성별</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-left">50세 이상 임원</b-td><b-td class="text-left">남</b-td><b-td>11</b-td><b-td>15</b-td><b-td>16</b-td><b-td>17</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">여</b-td><b-td>1</b-td><b-td>0</b-td><b-td>0</b-td><b-td>1</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
                 </section>
                 <hr class="space-p75">
             </b-container>
