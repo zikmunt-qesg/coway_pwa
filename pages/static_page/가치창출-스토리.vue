@@ -1,7 +1,6 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="가치창출 스토리"></logger>
-
     <b-img src="@/assets/images/사각형17.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
@@ -10,36 +9,34 @@
             <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
-            <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
+            <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
                 :main_title="'가치창출 스토리'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#8e6627'"
+                :active_color="'#313d72'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
                 <section class="bg-white px-4 py-4 mb-5">
-                    <h4-ancor :title="'가치창출 스토리'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">가치창출 스토리</h4-ancor>
+                    <div class="border-top-dark pb-2 mb-5"></div>
+                    <h4-ancor :title="'가치창출 스토리'" :activated="activated" class="blue9 mb-4 mb-sm-5 mt-m-2">가치창출 스토리</h4-ancor>
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'비즈니스 모델'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">비즈니스 모델</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'비즈니스 모델'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">비즈니스 모델</h6-ancor></div>
                     <p>1989년 설립된 코웨이는 생활환경 전반을 케어하는 라이프케어 기업으로, 제품 렌탈에 전문적 서비스를 결합한 차별화된 비즈니스 모델을 가지고 있습니다. 환경가전제품을 초기 구입 비용에 대한 부담 없이 렌탈하고, 정기적인 케어(Care) 서비스를 통해 제품의 가치를 지속적으로 유지할 수 있는 구조를 마련하였으며, 이를 기반으로 국내외 780만 계정의 고객을 확보하여 지속성장을 위한 동력으로 삼고, 안정적인 현금흐름을 창출하고 있습니다. 
                     </p>
-                    <p>코웨이만의 핵심 역량인 '케어(Care)'의 가치를 확장하여 워터케어, 에어케어, 바디케어, 슬립케어, 홈케어 제품을 제공하여, 고객이 물과 공기, 수면을 포함한 모든 생활환경을 안심하며 누릴 수 있도록 노력하고 있습니다. 또한 제품에 IoT 기술을 결합하여 새로운 맞춤형 솔루션인 'IoCare(Internet of Care)'를 개발하여 본연의 경쟁력을 강화하는 한편, 신규 제품 라인업 강화, 자가관리형 제품 출시 등으로 신규 고객층을 새롭게 창출하여 지속성장의 동력으로 발전시키고 있습니다 
-                    </p>
-                    <p>코웨이는 이러한 차별화된 혁신의 DNA를 바탕으로 이해관계자에 대한 지속적인 가치 창출과 배분을 위해 끊임없이 노력하고 있습니다.
+                    <p class="mb-5">코웨이만의 핵심 역량인 '케어(Care)'의 가치를 확장하여 워터케어, 에어케어, 바디케어, 슬립케어, 홈케어 제품을 제공하여, 고객이 물과 공기, 수면을 포함한 모든 생활환경을 안심하며 누릴 수 있도록 노력하고 있습니다. 또한 제품에 IoT 기술을 결합하여 새로운 맞춤형 솔루션인 'IoCare(Internet of Care)'를 개발하여 본연의 경쟁력을 강화하는 한편, 신규 제품 라인업 강화, 자가관리형 제품 출시 등으로 신규 고객층을 새롭게 창출하여 지속성장의 동력으로 발전시킵니다. 코웨이는 이러한 차별화된 혁신의 DNA를 바탕으로 이해관계자에 대한 지속적인 가치 창출과 배분을 위해 끊임없이 노력하고 있습니다.
                     </p>
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'비즈니스 밸류체인'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">비즈니스 밸류체인</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                    <p>코웨이의 제품 및 브랜드는 궁극적으로 ‘환경을 건강하게, 사람을 행복하게’ 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다. 특히, 자재 및 부품 공급부터 제품 판매에 이르기까지 전 공급망에서 지속가능경영 관점으로 경제/사회/환경적 가치를 투입(INPUT)해 행복한 고객, 건강한 환경을 구현하며 사회적 가치를 창출(OUTPUT)하고 있습니다. 
+                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'비즈니스 밸류체인'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">비즈니스 밸류체인</h6-ancor></div>
+                    <p class="mb-45">코웨이의 제품 및 브랜드는 궁극적으로 ‘환경을 건강하게, 사람을 행복하게’ 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다. 특히, 자재 및 부품 공급부터 제품 판매에 이르기까지 전 공급망에서 지속가능경영 관점으로 경제/사회/환경적 가치를 투입(INPUT)해 행복한 고객, 건강한 환경을 구현하며 사회적 가치를 창출(OUTPUT)하고 있습니다. 
                     </p>
+                    <b-img src="@/assets/images/1_1.svg" fluid class="w-100"></b-img>
 
-                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 비즈니스 밸류체인</div>
-
-
+                    <hr class="mb-3">
                         <h7 class="mb-2">통합 자본표</h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
+                        <b-table-simple responsive class="num-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="4">구분</b-td><b-td>단위</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
@@ -118,16 +115,16 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <div class="f-80 ml-1">
+                        <p class="f-80 ml-1">
                             1) 제품 생산량: 제품 생산량 + 필터 생산량<br>
                             2) 평균 가동률: 실제 생산량 / 최대 생산능력 X 100<br>
                             3) 임직원 총 교육시간: 교육훈련 비용은 전체 임직원 수로 집계되어 있습니다. (사업보고서 기준) 총 교육시간 및 1인당 교육시간은 영업직 제외 기준입니다.<br>
                             4) 인당 생산성: 매출액 / 19년 말 12개월 기준 임직원 수<br>
                             5) 친환경 투자비: 친환경 연구개발 비용은 제외<br>
-                        </div>
-                        
-
+                        </p>
                 </section>
+                <hr class="space-p75 mb-5">
+
             </b-container> 
             <!-- End of Contents Container -->
             </b-col>

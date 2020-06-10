@@ -7,10 +7,9 @@
             </b-col>
             <b-col class="col-9">
                 <div class="row">
-                    <div class="col"> Site Map</div>
-                    <div class="col"> Site Map</div>
-                    <div class="col"> Site Map</div>
-                    <div class="col"> Site Map</div>
+                    <div class="col"> About This Report</div>
+                    <div class="col"> Term & Conditions</div>
+                    <div class="col"> Further Website</div>
                     <div class="col"> Contacts<br>
                         <p class="mt-3 f-85">E-mail</p>
                         <p class="f-85">Social Media</p>
@@ -35,6 +34,58 @@
 </template>
 
 <script>
-export default {}
+import * as ih from '@/components/util'
+import SideNavigation from '@/components/navigation/SideNavigation'
+import h6Ancor from '@/components/navigation/h6Ancor'
+import h4Ancor from '@/components/navigation/h4Anchor'
+
+export default {
+    layout: 'StaticPage',
+    data(){
+        return {
+            title: '가치창출 스토리',
+            activated: [],
+            sub_titles: [
+                { 
+                    title: `비즈니스 모델`, 
+                },
+                { 
+                    title: '비즈니스 밸류체인' ,
+                }
+            ],
+        }
+    },
+    methods:{
+        viewHandler(event){
+            if(event.type == 'enter' ){
+                this.activated.push(event.target.element.id)
+            }
+            else if(event.type == 'exit'){
+                let idx = this.activated.findIndex(item => item == event.target.element.id)
+                if (idx > -1) {
+                    this.activated.splice(idx, 1)
+                }
+            }
+            console.log(this.activated)
+        },
+        isActive(target){
+            let idx = this.activated.findIndex(item => item == target)
+            if(idx > -1) {
+                return true
+            }
+            else {
+                return false
+            }
+        },
+        safeHash(target){
+            return ih.safeHash(target)
+        }
+    },
+    components:{
+        SideNavigation,
+        h6Ancor,
+        h4Ancor
+    }
+}
 </script>
 
