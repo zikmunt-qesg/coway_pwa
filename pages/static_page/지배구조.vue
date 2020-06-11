@@ -29,10 +29,292 @@
                     <p>코웨이 이사회는 법령과 정관에 따라 주주로부터 기업 경영에 관한 최고 의사결정권을 위임받아, 이해관계자와 다양한 이해관계를 조율하고 경영 의사결정을 승인하는 최고 기구로서의 책임과 역할을 지니고 있습니다. 코웨이의 이사회는 투자계획, 내부거래 등 이해관계 상충, 투명한 보상 등에 대한 심의, 승인과 함께 회사의 장기 리스크 관리 전반에 대한 검토 및 책임을 수행합니다. 
                     </p>
 
-                    <h7 class="mb-2">이사회 구성현황</h7>
+                    <h6-ancor :title="'이사회 구성 현황'" :activated="activated" class="blue6 fw-500 mb-2">이사회 구성 현황</h6-ancor>
                         <b-table-simple responsive class="text-table f-95">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td>성명</b-td><b-td>주요 역할</b-td><b-td>성별</b-td><b-td>주요 경력<sup>*</sup></b-td><b-td>최종 선임일</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td>방준혁</b-td>
+                                    <b-td>이사회 의장</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2020 ~ 현재 코웨이 이사회 의장</li><li>2014 ~ 현재 넷마블 이사회 의장</li><li>2011 ~ 2014 CJ E&amp;M 게임사업부문 총괄 상임고문</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>이해선</b-td>
+                                    <b-td>대표이사</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2020 ~ 현재 코웨이 대표이사</li><li>2019 ~ 2020 코웨이 사업기술총괄사장</li><li>2016 ~ 2019 웅진코웨이 대표이사</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>서장원</b-td>
+                                    <b-td>사내이사</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2020 ~ 현재 코웨이 경영관리본부장</li><li>2020 ~ 2020 넷마블 코웨이 TF장</li><li>2019 ~ 2019 넷마블 투자전략담당 및 커뮤니케이션 담당</li><li>2015 ~ 2018 넷마블 경영전략담당</li><li>2001 ~ 2015 법무법인 세종 선임미국변호사</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>김진배</b-td>
+                                    <b-td>대표이사</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2001 ~ 현재 고려대학교 경영대학 교수</li><li>1997 ~ 2001 보스톤대학교 조교수</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>김규호</b-td>
+                                    <b-td>사외이사(독립)</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2015 ~ 현재 고려대학교 경영대학 교수</li><li>2013 ~ 2014 삼성전자 미디어솔루션센터(전무)</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>윤부현</b-td>
+                                    <b-td>사외이사(독립)</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2020 ~ 현재 LG디스플레이 고문</li><li>2018 ~ 2020 LG유플러스 고문</li><li>2012 ~ 2018 LG전자 MC사업본부 경영기획담당(전무)</li><li>2009 ~ 2011 LG전자 금융담당(상무)</li><li>2007 ~ 2008 LG전자 경영기획담당(상무)</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>이다우</b-td>
+                                    <b-td>사외이사(독립)</b-td>
+                                    <b-td>남</b-td>
+                                    <b-td><li>2018 ~ 현재 법무법인 율촌 변호사</li><li>2016 ~ 2018 춘천지방법원 부장판사</li><li>2015 ~ 2016 서울중앙지방법원 판사</li></b-td>
+                                    <b-td>2020.02.07</b-td>
+                                </b-tr>
+                            </b-tbody>
                         </b-table-simple>
-                        
+                        <p class="f-80 ml-1">
+                            *표기기간: 2017년 1월 1일 ~ 2019년 12월 31일
+                        </p>
+                    
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'이사회의 독립성 및 전문성'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">이사회의 독립성 및 전문성</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p>코웨이의 사외이사 비중은 57.1%로 국내 대기업 평균(51.3%, 2019년 12월 공정거래위원회 발표) 대비 높은 수준을 유지하고 있습니다. 코웨이는 사외이사의 독립성 판단 기준에 대해 국내 상법, 공정거래법 및 기타 법령에 준하여 이사회 정관에 명시하고 있습니다.
+                    </p>
+                    <p>이사는 상법 제382조에 따라 주주총회에서 선임하며, 이사회는 정관에 따라 최소 3인에서 최대 9인으로 구성합니다. 2019년말 기준 코웨이 이사회는 사내이사 1인, 사외이사 5인, 기타비상무이사 1인으로 구성되어 있었으나, 2020년 2월 7일 인수에 따른 대주주 변경 이후 임시 주주총회를 통해 사내이사 3인, 사외이사 4인이 새롭게 선임되었습니다. 
+                    </p>
+
+                    <div>
+                        <p>사외이사 독립성 및 이해관계 상충 판단기준</p>
+                        <b-row>
+                            <b-col>
+                                독립성 결격 사유
+                            </b-col>
+                            <b-col>
+                                &#9312; 회사의 상무에 종사하는 이사∙집행임원 및 피용자 또는 최근 2년 이내 회사의 상무에 종사한 이사∙감사∙집행임원 및 피용자<br>
+                                &#9313; 최대주주 본인, 배우자 및 직계존속 및 비속<br>
+                                &#9314; 최대주주가 법인인 경우 법인의 이사∙감사∙집행임원 및 피용자<br>
+                                &#9315; 이사∙감사∙집행임원의 배우자 및 직계 존속∙비속<br>
+                                &#9316; 회사의 모회사 또는 자회사의 이사∙감사∙집행임원 및 피용자<br>
+                                &#9317; 회사의 거래관계 등 중요한 이해관계가 있는 법인의 이사∙감사∙집행임원 및 피용자<br>
+                                &#9318; 회사의 이사∙집행임원 및 피용자가 이사∙집행임원으로 있는 다른 회사의 이사∙감사∙집행임원 및 피용자<br>
+                            </b-col>
+                        </b-row>
+                        <b-row>
+                            <b-col>
+                                이해관계 상충
+                            </b-col>
+                            <b-col>
+                                &#9312;	회사와 경쟁관계에 있는 회사를 지배하는 공정거래법상 동일인 및 관련자<br>
+                                &#9313;	회사와 경쟁관계에 있는 회사 및 공정거래법상 동일한 기업집단에 속하는 회사의 임직원 또는 최근 2년이내 임직원이었던 자<br>
+                                &#9314;	회사의 경쟁관계에 있는 회사의 최대주주 또는 2대주주인 회사 및 공정거래법상 동일 기업집단에 속하는 회사의 임직원 또는 최근 2년 이내 임직원이었던 자<br>
+                            </b-col>
+                        </b-row>
+                    </div>
+
+                    <p>사내이사는 면밀한 검토 과정을 거쳐 후보를 추천하여 주주총회에서 최종 선임합니다. 사외이사는 상법 제542조의 8에 따라 설치된 사외이사후보추천위원회가 투명한 절차에 따라 후보를 선발한 후 주주총회에서 최종 선임합니다. 코웨이는 지배구조 다양성과 전문성을 구현하기 위하여 경영, 경제, 회계 등 각 분야의 전문성을 갖춘 자를 사외이사로 선임하고 있습니다. 
+                    </p>
+                    <p>사외이사 선임 시 독립성 및 겸직사항 등 법률상 사외이사 자격요건을 확인하여 확인서를 한국거래소에 제출하고 있으며, 주주총회소집 결의 공시 과정에서도 사외이사 자격요건 적격 확인서를 통해 회사와의 독립성 여부, 법령상 자격요건을 주주 및 이해관계자에게 투명하게 공개하고 있습니다.
+                    </p>
+
+                    <h7 class="mb-2 gray63">이사회 전문 분야별 구성</h7>
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">이사회 전문 분야별 구성 그림</div>
+
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'이사회 산하 위원회 운영'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">이사회 산하 위원회 운영</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p class="pb-3 mb-5"> 코웨이는 이사회 책임과 역할을 효율적이고 전문적으로 수행하기 위하여 이사회 산하 위원회로 경영위원회,사외이사후보추천위원회, 감사위원회를 운영하고 있습니다. 2020년 3월 기준 이사회 산하 위원회는 경영위원회의 경우 사내이사 3인, 감사위원회의 경우 사외이사 3인, 사외이사후보추천위원회의 경우 사외이사 3인으로 구성되어 운영되었습니다. 이사회가 경영진 견제기능을 실질적으로 행사할 수 있도록 이사회 내 사외이사비율을 과반 이상으로 구성하고, 이사회 내 위원회인 사외이사후보추천위원회, 감사위원회 모두 사외이사 과반 이상으로 구성하고 있습니다. 특히 감사위원회는 감사 위원장은 회계/재무 전문가이며, 감사위원회에 소비재 및 생활가전 산업전문가 1명과 법률 전문가 1명으로 구성하여 전문성을 높이고 있습니다. 
+                    </p>
+
+                    <p>2019년에는 총 13차에 걸쳐 이사회가 개최되었으며, 평균 이사 출석률은 98.9%입니다.</p>
+
+                        <h7 class="mb-2 gray63">2019 이사회 활동내역</h7>
+                        <b-table-simple responsive class="text-table f-95 mb-45">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td>회차</b-td><b-td>안건</b-td><b-td>구분</b-td><b-td>개최 일자</b-td><b-td>출석/총원</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td>1차</b-td><b-td>2019년 연간 사업계획 및 예산의 수립 외 1건</b-td><b-td>임시</b-td><b-td>2019.01.23</b-td><b-td>7/7</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>2차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</b-td><b-td>임시</b-td><b-td>2019.01.31</b-td><b-td>7/7</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>3차</b-td><b-td>제30기 정기주주총회 소집의 건 외 6건</b-td><b-td>정기</b-td><b-td>2019.02.13</b-td><b-td>7/7</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>4차</b-td><b-td>2019년 1차 임시주주총회 소집의 건 외 4건</b-td><b-td>임시</b-td><b-td>2019.03.06</b-td><b-td>6/7</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>5차</b-td><b-td>사외이사후보추천위원회 구성위원 선임의 건 외 2건</b-td><b-td>임시</b-td><b-td>2019.03.29</b-td><b-td>8/8</b-td>
+                                </b-tr>   
+                                <b-tr>
+                                    <b-td>6차</b-td><b-td>2019년 1분기 배당 결정의 건 외 6건</b-td><b-td>정기</b-td><b-td>2019.04.29</b-td><b-td>8/8</b-td>
+                                </b-tr> 
+                                <b-tr>
+                                    <b-td>7차</b-td><b-td>㈜웅진과의 렌탈사업 영업양수도 계약 체결의 건 외 1건</b-td><b-td>임시</b-td><b-td>2019.05.17</b-td><b-td>7/8</b-td>
+                                </b-tr> 
+                                <b-tr>
+                                    <b-td>8차</b-td><b-td>분기배당을 위한 주주명부 기준일 결정의 건</b-td><b-td>임시</b-td><b-td>2019.06.12</b-td><b-td>8/8</b-td>
+                                </b-tr>   
+                                <b-tr>
+                                    <b-td>9차</b-td><b-td>2019년 2분기 배당 결정의 건 외 5건</b-td><b-td>정기</b-td><b-td>2019.07.29</b-td><b-td>7/8</b-td>
+                                </b-tr> 
+                                <b-tr>
+                                    <b-td>10차</b-td><b-td>신임 대표이사 선임의 건</b-td><b-td>임시</b-td><b-td>2019.08.12</b-td><b-td>8/8</b-td>
+                                </b-tr> 
+                                <b-tr>
+                                    <b-td>11차</b-td><b-td>내부회계관리규정 개정 승인의 건 외 1건</b-td><b-td>임시</b-td><b-td>2019.09.19</b-td><b-td>7/8</b-td>
+                                </b-tr> 
+                                <b-tr>
+                                    <b-td>12차</b-td><b-td>2019년 3분기 배당 결정의 건 외 3건</b-td><b-td>정기</b-td><b-td>2019.10.28</b-td><b-td>8/8</b-td>
+                                </b-tr>  
+                                <b-tr>
+                                    <b-td>13차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건 외 2건</b-td><b-td>임시</b-td><b-td>2019.12.30</b-td><b-td>7/7</b-td>
+                                </b-tr>                                                                                                                                                                                                                                                       
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">의사결정구조 그림</div>
+
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'성과평가와 보수 지급'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">성과평가와 보수 지급</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p> 동종업계 보수 수준을 고려한 합리적인 보수를 지급하여 우수한 전문가를 사외이사로 선임하고, 적극적인 직무 활동을 할 수 있도록 보장하고 있습니다. 사내이사는 이사회 결의에 따라 직무 및 직급, 근속기간, 리더십, 전문성, 회사 기여도 등을 고려하여 기본 보수를 책정하고, 정량지표과제 및 정성지표 과제 평가에 따라 종합점수를 산출하여 달성률을 평가하여 인센티브(상여)를 지급하고 있습니다.
+                    </p>
+                    <p>코웨이는 2019년 제30기 정기주주총회를 통해 이사에게 지급할 연간 보수 총액을 40억으로 승인하였으며, 2020년 제31기 정기주주총회에서 연간 보수 총액을 50억으로 상향하여 승인하였습니다.
+                    </p>
+
+                        <h7 class="mb-2 gray63">CEO-임직원 보수 비율</h7>
+                        <b-table-simple responsive class="num-table f-95 mb-45">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td>최고 보수(CEO) (천 원)</b-td><b-td>직원 보수 평균(천 원)</b-td><b-td>비율(%)</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td>671,364</b-td><b-td>60,697</b-td><b-td>11.06</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <p class="f-80 ml-1">
+                            *2019년 10월까지 대표이사로 재직한 이해선 사장의 보수를 기준으로 하였습니다. 해당 사내이사는 임기만료 후 사업기술총괄 사장(미등기 임원)으로 재직한 바 있습니다. 공시금액은 미등기임원 재임분을 포함한 보수 총액 기준으로 산정되었으며, 2016년 부여된 주식매수선택권 행사이익을 제외한 금액입니다. 주식매수선택권 행사이익을 포함한 세부 내역은 사내이사 개인별 보수지급현황을 참조하시기 바랍니다.
+                        </p>
+
+
+                        <h7 class="mb-2 gray63">사내이사 개인별 보수 지급 현황</h7>
+                        <b-table-simple responsive class="text-table f-95 mb-45">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td>이름</b-td><b-td>총액(천원)</b-td><b-td colspan="2">산정기준 및 방법</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td rowspan="4">이해선</b-td><b-td>급여</b-td><b-td>411,364</b-td><b-td>직무 · 직급(대표이사), 근속기간, 리더십, 전문성, 회사기여도 등을 종합적으로 반영</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>상여</b-td><b-td>260,000</b-td><b-td>성장성, 수익성, 안정성 등으로 구성된 정량 KPI와 해당 년도 전략과제로 구성된 정성 KPI를 종합평가표에 의거하여 평가하여 종합점수를 산출함. 2018년은 당사 매출액이 연결기준 2017년 2조 5168억에서 2018년  2조 7073억으로 7.6% 증가한 점, 당기순이익이 2017년 3,256억에서 2017년 3,499억으로 7.4% 증가한 점 등을 고려함. 또한 신제품군 출시를 통한 성장 동력을 확보한 점, 해외사업 진출을 위한 기반을 마련한 점 등의 정성 및 전략 지표를 고려하여 총 급여의 65% 수준인 2.6억원을 산출·지급 하였음</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>주식매수선택권 행사이익</b-td><b-td>2,460,285</b-td><b-td>주주총회 결의로 부여받은 주식매수선택권의 행사가격(92,640원)과 최대주주변경에 따른 주식매수선택권 부여계약서상 특칙에 의거하여 (주당) 경영권 변동거래의 매각가격(102,891원)과의 차이에 행사수량(240,000주)을 곱하여 2,460,285천원을 산출하였음</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>비고</b-td><b-td colspan="2">- 기타근로소득, 퇴직소득 및 기타소득 해당사항 없음</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="3">안지용</b-td><b-td>급여</b-td><b-td>260,203</b-td><b-td>이사회 결의에 따라 직무 · 직급(본부장), 근속기간, 리더십, 전문성, 회사기여도 등을 종합적으로 반영하여 연간 급여총액을 245,440,000원으로 책정하고, 2019년 8월 승진 및 의사회 결의에 따라 직급(대표이사)를 고려해 연간 급여총액을 400,000,000원으로 인상 지급함. 본부장 직급기간 월 500,000원 및 복리후생 및 기타 세액반영액을 연간 6,518,156원을 지급함. 
+                                    </b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>상여</b-td><b-td>1,500,000</b-td><b-td>경영관리본부 및 마케팅본부 최고 책임자로서, 임원선임계약상 회사의 경영/재무/마케팅 목표달성을 위한 주요 검토, 의사결정, 책임을 부담함에 따라 의사회 결의를 통해 1,500,000,000원을 지급함                                        
+                                    </b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>비고</b-td><b-td colspan="2">- 주식매수선택권 행사이익, 기타근로소득, 퇴직소득 및 기타소득 해당사항 없음</b-td>
+                                </b-tr>
+
+                            </b-tbody>
+                        </b-table-simple>
+
+                        <h7 class="mb-2 gray63">등기임원 및 미등기임원 주식매수선택권 부여 내역</h7>
+                        <b-table-simple responsive class="num-table f-95 mb-45">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td class="text-left">부여 받은자</b-td><b-td class="text-left">관계</b-td><b-td class="text-left">부여일</b-td><b-td class="text-left">주식의 종류</b-td><b-td>부여</b-td><b-td>행사</b-td><b-td>취소</b-td><b-td>미행사수량</b-td><b-td class="text-left">행사기간</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-left">2017.03</b-td><b-td class="text-left">보통주</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td class="text-left">2019.03 ~ 2026.03</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-left">2017.04</b-td><b-td class="text-left">보통주</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td class="text-left">2019.04 ~ 2026.04</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">박재영 외 5명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-left">2018.03</b-td><b-td class="text-left">보통주</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td class="text-left">2020.03 ~ 2027.03</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">송현주 외 1명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-left">2019.03</b-td><b-td class="text-left">보통주</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td class="text-left">2021.03 ~ 2028.03</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <p class="f-80 ml-1">
+                            *표기기간: 2017년 1월 1일 ~ 2019년 12월 31일
+                        </p>
+
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'소유구조 및 의결권'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">소유구조 및 의결권</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p> 2019년 말 기준 코웨이의 주주는 웅진씽크빅 25.08%, 국민연금 8.08%, 자사주 2.14%, 외국인 58.87%, 기타 5.83%로 구성되어 있었으나, 2019년 12월 말 체결한 주식매매계약 등에 따라 2020년 2월 7일 웅진씽크빅이 소유하고 있던 18,511,446주(지분율 25.08%)를 ㈜넷마블에 매도하는 거래를 종결하였습니다. 이에 따라 2020년 2월 11일 이후 대주주가 넷마블㈜로 변경되었습니다. 
+                    </p>
+
+                    <p>코웨이의 총 발행주식 수는 73,799,619주이며, 우선주 없이 100% 보통주로 구성되어 있습니다. 코웨이는 1주당 1의결권 원칙을 따르고 있으며, 특정 주식에 복수 의결권을 부여하는 차등의결권제도를 두고 있지 않습니다. 단, 자사주로 보유하고 있는 자사주의 경우 상법에 따라 의결권이 제한되어 있습니다. 2019년 12월 말 기준 의결권이 부여된 주식은 72,218,395주(전체 발행 주식의 97.85%)입니다. 코웨이는 서면투표제나 전자투표제를 도입하고 있지 않습니다. 
+                    </p>
+
+                        <h7 class="mb-2 gray63">주주현황</h7>
+                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">주주현황 그림</div>
+                        <p class="f-80 ml-1">
+                            *2020년 2월 11일 웅진씽크빅 지분 25.08%를 (주)넷마블이 전액 인수함
+                        </p>
+                    
+                        <h7 class="mb-2 gray63">의결권 현황</h7>
+                        <b-table-simple responsive class="num-table f-95 mb-45">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td class="text-left">구분</b-td><b-td>주식 수</b-td><b-td>비율</b-td><b-td class="text-left">비고</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">우선주</b-td><b-td>0</b-td><b-td>0%</b-td><b-td class="text-left">의결권 없음</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">보통주 - 의결권 있는 주식</b-td><b-td>72,218,395</b-td><b-td>97.85%</b-td><b-td class="text-left">의결권 있음</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">보통주 - 자기주식</b-td><b-td>1,581,224</b-td><b-td>2.14%</b-td><b-td class="text-left">의결권 있음</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">합계</b-td><b-td>73,799,619</b-td><b-td>100%</b-td><b-td class="text-left"></b-td>
+                                </b-tr>                                                                
+                            </b-tbody>
+                        </b-table-simple>
+                        <p class="f-80 ml-1">
+                            *2019년 12월 말 기준임
+                        </p>   
                 </section> 
                 <!-- End of DMA-->
 
