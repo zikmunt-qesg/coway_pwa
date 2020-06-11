@@ -1,0 +1,248 @@
+<svg id="구성_요소_22_1" data-name="구성 요소 22 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="317.252" viewBox="0 0 836 317.252">
+  <defs>
+    <style>
+      .cls-1, .cls-25 {
+        fill: #0b504a;
+      }
+
+      .cls-12, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-24, .cls-27, .cls-28, .cls-3, .cls-31, .cls-32 {
+        fill: none;
+      }
+
+      .cls-27, .cls-28, .cls-3 {
+        stroke: #0b504a;
+      }
+
+      .cls-3 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-16, .cls-23, .cls-33, .cls-35, .cls-4 {
+        fill: #1e2323;
+      }
+
+      .cls-12, .cls-23, .cls-25, .cls-4 {
+        font-size: 15px;
+      }
+
+      .cls-4 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-7 {
+        fill: #bcbdbd;
+        font-family: NotoSansKR-Bold, Noto Sans KR;
+        font-weight: 700;
+      }
+
+      .cls-33, .cls-7 {
+        font-size: 13px;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.035em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.028em;
+      }
+
+      .cls-10 {
+        fill: #f5f7f7;
+      }
+
+      .cls-11 {
+        fill: #92bc49;
+      }
+
+      .cls-12, .cls-23, .cls-25 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-31 {
+        stroke: #3e3a39;
+      }
+
+      .cls-13, .cls-14, .cls-27, .cls-28, .cls-31 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-13 {
+        stroke-dasharray: 0 1.955;
+      }
+
+      .cls-16 {
+        font-size: 14px;
+      }
+
+      .cls-16, .cls-33, .cls-35 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0.184em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0.185em;
+      }
+
+      .cls-21 {
+        letter-spacing: -0.315em;
+      }
+
+      .cls-22 {
+        letter-spacing: -0.314em;
+      }
+
+      .cls-24 {
+        stroke: #1e2323;
+        stroke-width: 0.7px;
+      }
+
+      .cls-26 {
+        letter-spacing: -0.048em;
+      }
+
+      .cls-27 {
+        stroke-dasharray: 0 2.012;
+      }
+
+      .cls-29 {
+        fill: #c6da98;
+      }
+
+      .cls-30 {
+        letter-spacing: -0.32em;
+      }
+
+      .cls-31 {
+        stroke-dasharray: 0 2.9;
+      }
+
+      .cls-32 {
+        stroke: #92bc49;
+      }
+
+      .cls-34 {
+        letter-spacing: -0.046em;
+      }
+
+      .cls-35 {
+        font-size: 7.579px;
+      }
+
+      .cls-36 {
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_60" data-name="사각형 60" class="cls-1" width="603.61" height="37.25" transform="translate(144.598)"/>
+  <rect id="사각형_61" data-name="사각형 61" class="cls-2" width="603.11" height="33.5" transform="translate(139.566 0.25)"/>
+  <rect id="사각형_62" data-name="사각형 62" class="cls-3" width="603.11" height="33.5" transform="translate(139.566 0.25)"/>
+  <text id="친환경_제품과_서비스_비즈니스를_설계" data-name="친환경 제품과 서비스, 비즈니스를 설계" class="cls-4" transform="translate(323.229 23.046)"><tspan class="cls-5" x="0" y="0">친</tspan><tspan class="cls-6" y="0">환</tspan><tspan class="cls-5" y="0">경 제품</tspan><tspan class="cls-6" y="0">과</tspan><tspan class="cls-5" y="0" xml:space="preserve"> 서비스</tspan><tspan class="cls-6" y="0">,</tspan><tspan class="cls-5" y="0" xml:space="preserve"> 비즈</tspan><tspan class="cls-6" y="0">니</tspan><tspan class="cls-5" y="0">스를 설</tspan><tspan y="0">계</tspan></text>
+  <text id="PRODUCT_SERVICE" data-name="PRODUCT &amp; SERVICE" class="cls-7" transform="translate(374.149 96.05)"><tspan class="cls-6" x="0" y="0">PRODU</tspan><tspan class="cls-8" y="0">C</tspan><tspan class="cls-5" y="0">T &amp;</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-5" y="0">S</tspan><tspan class="cls-6" y="0">E</tspan><tspan class="cls-9" y="0">R</tspan><tspan class="cls-5" y="0">V</tspan><tspan class="cls-6" y="0">IC</tspan><tspan y="0">E</tspan></text>
+  <rect id="사각형_63" data-name="사각형 63" class="cls-10" width="637.288" height="30" transform="translate(198.712 107.012)"/>
+  <rect id="사각형_64" data-name="사각형 64" class="cls-11" width="158.002" height="30" transform="translate(0 107.012)"/>
+  <text id="최종_검증" data-name="최종 검증" class="cls-12" transform="translate(10.973 128.612)"><tspan class="cls-5" x="0" y="0">최종 검</tspan><tspan y="0">증</tspan></text>
+  <line id="선_551" data-name="선 551" class="cls-13" x2="24.44" transform="translate(167.279 121.571)"/>
+  <path id="패스_100" data-name="패스 100" class="cls-14" d="M3151.7,1841.962h0m-27.373,0h0" transform="translate(-2959 -1720.391)"/>
+  <path id="패스_101" data-name="패스 101" class="cls-15" d="M3147.691,1838.238l4.005,3.725-4.005,3.723" transform="translate(-2959 -1720.391)"/>
+  <text id="_01_개발_서비스_회수_재활용_실행" data-name="01       개발/서비스/회수‧재활용 실행" class="cls-16" transform="translate(225.542 128.612)"><tspan class="cls-17" x="0" y="0">01 </tspan><tspan class="cls-18" y="0" xml:space="preserve">  </tspan><tspan class="cls-17" y="0" xml:space="preserve">  </tspan><tspan class="cls-18" y="0" xml:space="preserve">  </tspan><tspan class="cls-17" y="0">개</tspan><tspan class="cls-19" y="0">발/</tspan><tspan class="cls-17" y="0">서</tspan><tspan class="cls-18" y="0">비</tspan><tspan class="cls-19" y="0">스</tspan><tspan class="cls-20" y="0">/</tspan><tspan class="cls-17" y="0">회</tspan><tspan class="cls-21" y="0">수</tspan><tspan class="cls-22" y="0">‧</tspan><tspan class="cls-18" y="0">재활</tspan><tspan class="cls-17" y="0">용</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">실</tspan><tspan y="0">행</tspan></text>
+  <text id="_구현_" data-name="(구현)" class="cls-23" transform="translate(451.851 128.612)"><tspan class="cls-6" x="0" y="0">(</tspan><tspan class="cls-5" y="0">구현</tspan><tspan y="0">)</tspan></text>
+  <line id="선_552" data-name="선 552" class="cls-24" x2="11.443" transform="translate(242.558 121.571)"/>
+  <rect id="사각형_65" data-name="사각형 65" class="cls-10" width="637.288" height="30" transform="translate(198.712 181.512)"/>
+  <rect id="사각형_66" data-name="사각형 66" class="cls-11" width="158.002" height="30" transform="translate(0 181.512)"/>
+  <text id="친환경_목표_설정" data-name="친환경 목표 설정" class="cls-12" transform="translate(10.973 203.112)"><tspan class="cls-5" x="0" y="0">친환경 목표 설</tspan><tspan y="0">정</tspan></text>
+  <line id="선_553" data-name="선 553" class="cls-13" x2="24.44" transform="translate(167.279 196.071)"/>
+  <path id="패스_102" data-name="패스 102" class="cls-14" d="M3151.7,1916.462h0m-27.373,0h0" transform="translate(-2959 -1720.391)"/>
+  <path id="패스_103" data-name="패스 103" class="cls-15" d="M3147.691,1912.738l4.005,3.725-4.005,3.723" transform="translate(-2959 -1720.391)"/>
+  <text id="_03_개발_서비스_회수_재활용_" data-name="03       개발/서비스/회수‧재활용 " class="cls-16" transform="translate(225.542 203.112)"><tspan class="cls-17" x="0" y="0">03 </tspan><tspan class="cls-18" y="0" xml:space="preserve">  </tspan><tspan class="cls-17" y="0" xml:space="preserve">  </tspan><tspan class="cls-18" y="0" xml:space="preserve">  </tspan><tspan class="cls-17" y="0">개</tspan><tspan class="cls-19" y="0">발/</tspan><tspan class="cls-17" y="0">서</tspan><tspan class="cls-18" y="0">비</tspan><tspan class="cls-19" y="0">스</tspan><tspan class="cls-20" y="0">/</tspan><tspan class="cls-17" y="0">회</tspan><tspan class="cls-21" y="0">수</tspan><tspan class="cls-22" y="0">‧</tspan><tspan class="cls-18" y="0">재활</tspan><tspan class="cls-17" y="0">용</tspan><tspan y="0"> </tspan></text>
+  <text id="_기획_" data-name="(기획)" class="cls-23" transform="translate(423.711 203.112)"><tspan class="cls-6" x="0" y="0">(기</tspan><tspan class="cls-5" y="0">획</tspan><tspan y="0">)</tspan></text>
+  <line id="선_554" data-name="선 554" class="cls-24" x2="11.443" transform="translate(242.558 196.071)"/>
+  <rect id="사각형_67" data-name="사각형 67" class="cls-10" width="637.288" height="30" transform="translate(198.712 144.512)"/>
+  <rect id="사각형_68" data-name="사각형 68" class="cls-11" width="158.002" height="30" transform="translate(0 144.512)"/>
+  <text id="평가_및_개선" data-name="평가 및 개선" class="cls-12" transform="translate(10.973 166.112)"><tspan class="cls-5" x="0" y="0">평가 및 개</tspan><tspan y="0">선</tspan></text>
+  <line id="선_555" data-name="선 555" class="cls-13" x2="24.44" transform="translate(167.279 159.071)"/>
+  <path id="패스_104" data-name="패스 104" class="cls-14" d="M3151.7,1879.462h0m-27.373,0h0" transform="translate(-2959 -1720.391)"/>
+  <path id="패스_105" data-name="패스 105" class="cls-15" d="M3147.691,1875.738l4.005,3.725-4.005,3.723" transform="translate(-2959 -1720.391)"/>
+  <text id="_02_개발_서비스_회수_재활용_" data-name="02       개발/서비스/회수‧재활용 " class="cls-16" transform="translate(225.542 166.112)"><tspan class="cls-17" x="0" y="0">02 </tspan><tspan class="cls-18" y="0" xml:space="preserve">  </tspan><tspan class="cls-17" y="0" xml:space="preserve">  </tspan><tspan class="cls-18" y="0" xml:space="preserve">  </tspan><tspan class="cls-17" y="0">개</tspan><tspan class="cls-19" y="0">발/</tspan><tspan class="cls-17" y="0">서</tspan><tspan class="cls-18" y="0">비</tspan><tspan class="cls-19" y="0">스</tspan><tspan class="cls-20" y="0">/</tspan><tspan class="cls-17" y="0">회</tspan><tspan class="cls-21" y="0">수</tspan><tspan class="cls-22" y="0">‧</tspan><tspan class="cls-18" y="0">재활</tspan><tspan class="cls-17" y="0">용</tspan><tspan y="0"> </tspan></text>
+  <text id="_계획_" data-name="(계획)" class="cls-23" transform="translate(423.711 166.112)"><tspan class="cls-6" x="0" y="0">(계</tspan><tspan class="cls-5" y="0">획</tspan><tspan y="0">)</tspan></text>
+  <line id="선_556" data-name="선 556" class="cls-24" x2="11.443" transform="translate(242.558 159.071)"/>
+  <rect id="사각형_69" data-name="사각형 69" class="cls-11" width="158.002" height="30" transform="translate(0 219.012)"/>
+  <text id="친환경_프로세스" data-name="친환경 프로세스" class="cls-12" transform="translate(10.973 240.612)"><tspan class="cls-5" x="0" y="0">친환경 프로세</tspan><tspan y="0">스</tspan></text>
+  <line id="선_557" data-name="선 557" class="cls-13" x2="24.44" transform="translate(167.279 233.571)"/>
+  <path id="패스_106" data-name="패스 106" class="cls-14" d="M3151.7,1953.962h0m-27.373,0h0" transform="translate(-2959 -1720.391)"/>
+  <path id="패스_107" data-name="패스 107" class="cls-15" d="M3147.691,1950.238l4.005,3.725-4.005,3.723" transform="translate(-2959 -1720.391)"/>
+  <text id="우리는_CSV_비즈니스를_설계한다" data-name="우리는 CSV 비즈니스를 설계한다" class="cls-25" transform="translate(340.922 61.212)"><tspan class="cls-5" x="0" y="0">우리</tspan><tspan class="cls-6" y="0">는</tspan><tspan class="cls-5" y="0"> </tspan><tspan class="cls-26" y="0">C</tspan><tspan class="cls-6" y="0">S</tspan><tspan class="cls-5" y="0">V </tspan><tspan class="cls-6" y="0">비</tspan><tspan class="cls-5" y="0">즈니스를</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-5" y="0">설계한</tspan><tspan y="0">다</tspan></text>
+  <line id="선_558" data-name="선 558" class="cls-27" x2="29.18" transform="translate(553.29 54.61)"/>
+  <path id="패스_108" data-name="패스 108" class="cls-28" d="M3542.476,1775h0m-32.2,0h0" transform="translate(-2959 -1720.391)"/>
+  <line id="선_559" data-name="선 559" class="cls-27" x2="29.18" transform="translate(298.767 54.61)"/>
+  <path id="패스_109" data-name="패스 109" class="cls-28" d="M3287.954,1775h0m-32.2,0h0" transform="translate(-2959 -1720.391)"/>
+  <rect id="사각형_70" data-name="사각형 70" class="cls-29" width="148.759" height="30" transform="translate(198.712 219.012)"/>
+  <text id="제품개발_프로세스" data-name="제품개발 프로세스" class="cls-4" transform="translate(216.992 240.612)"><tspan class="cls-5" x="0" y="0">제품개발 프로세</tspan><tspan y="0">스</tspan></text>
+  <rect id="사각형_71" data-name="사각형 71" class="cls-29" width="148.759" height="30" transform="translate(524.398 219.012)"/>
+  <text id="렌탈_서비스" data-name="렌탈 서비스" class="cls-4" transform="translate(563.997 240.612)"><tspan class="cls-5" x="0" y="0">렌탈</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-5" y="0">서비</tspan><tspan y="0">스</tspan></text>
+  <rect id="사각형_72" data-name="사각형 72" class="cls-29" width="148.759" height="30" transform="translate(361.555 219.012)"/>
+  <text id="청정_생산_" data-name="청정 생산 " class="cls-4" transform="translate(407.904 240.612)"><tspan class="cls-5" x="0" y="0">청</tspan><tspan class="cls-6" y="0">정</tspan><tspan class="cls-5" y="0" xml:space="preserve"> 생</tspan><tspan y="0">산 </tspan></text>
+  <rect id="사각형_73" data-name="사각형 73" class="cls-29" width="148.759" height="30" transform="translate(687.241 219.012)"/>
+  <text id="회수_재활용_프로세스" data-name="회수‧재활용 프로세스" class="cls-4" transform="translate(696.99 240.612)"><tspan class="cls-5" x="0" y="0">회</tspan><tspan class="cls-30" y="0">수‧</tspan><tspan class="cls-5" y="0">재활용</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-5" y="0">프로세</tspan><tspan y="0">스</tspan></text>
+  <line id="선_560" data-name="선 560" class="cls-31" y1="24.648" transform="translate(354.543 220.963)"/>
+  <path id="패스_110" data-name="패스 110" class="cls-14" d="M3313.543,1939.9h0m0,29h0" transform="translate(-2959 -1720.391)"/>
+  <line id="선_561" data-name="선 561" class="cls-31" y1="24.648" transform="translate(517.356 220.963)"/>
+  <path id="패스_111" data-name="패스 111" class="cls-14" d="M3476.356,1939.9h0m0,29h0" transform="translate(-2959 -1720.391)"/>
+  <line id="선_562" data-name="선 562" class="cls-31" y1="24.648" transform="translate(680.17 220.963)"/>
+  <path id="패스_112" data-name="패스 112" class="cls-14" d="M3639.17,1939.9h0m0,29h0" transform="translate(-2959 -1720.391)"/>
+  <rect id="사각형_74" data-name="사각형 74" class="cls-11" width="143.226" height="50.891" transform="translate(692.774 266.361)"/>
+  <rect id="사각형_75" data-name="사각형 75" class="cls-2" width="142.729" height="47.5" transform="translate(687.741 267.252)"/>
+  <rect id="사각형_76" data-name="사각형 76" class="cls-32" width="142.729" height="47.5" transform="translate(687.741 267.252)"/>
+  <text id="자원사용_저감" data-name="자원사용 저감" class="cls-33" transform="translate(722.186 287.442)"><tspan class="cls-5" x="0" y="0">자원사용 저</tspan><tspan y="0">감</tspan></text>
+  <text id="재활용성_증가_" data-name="재활용성 증가 " class="cls-33" transform="translate(722.186 304.446)"><tspan class="cls-5" x="0" y="0">재활용성 증</tspan><tspan y="0">가 </tspan></text>
+  <rect id="사각형_77" data-name="사각형 77" class="cls-11" width="143.226" height="50.891" transform="translate(529.931 266.361)"/>
+  <rect id="사각형_78" data-name="사각형 78" class="cls-2" width="142.729" height="47.5" transform="translate(524.898 267.252)"/>
+  <rect id="사각형_79" data-name="사각형 79" class="cls-32" width="142.729" height="47.5" transform="translate(524.898 267.252)"/>
+  <text id="생활환경_개선" data-name="생활환경 개선" class="cls-33" transform="translate(559.343 295.253)"><tspan class="cls-5" x="0" y="0">생활환경 개</tspan><tspan y="0">선</tspan></text>
+  <rect id="사각형_80" data-name="사각형 80" class="cls-11" width="142.877" height="50.891" transform="translate(367.438 266.361)"/>
+  <rect id="사각형_81" data-name="사각형 81" class="cls-2" width="142.411" height="47.5" transform="translate(362.055 267.252)"/>
+  <rect id="사각형_82" data-name="사각형 82" class="cls-32" width="142.411" height="47.5" transform="translate(362.055 267.252)"/>
+  <text id="에너지효율율" class="cls-33" transform="translate(394.251 287.442)"><tspan class="cls-5" x="0" y="0">에너지효율</tspan><tspan y="0">율</tspan></text>
+  <text id="_" data-name="
+" class="cls-33" transform="translate(464.711 287.442)"><tspan x="0" y="0"></tspan><tspan x="0" y="15.6"></tspan></text>
+  <text id="CO" class="cls-33" transform="translate(400.504 304.446)"><tspan class="cls-34" x="0" y="0">C</tspan><tspan y="0">O</tspan></text>
+  <text id="_2_" data-name="2 " class="cls-35" transform="translate(417.224 304.771)"><tspan class="cls-6" x="0" y="0">2</tspan><tspan y="0"> </tspan></text>
+  <text id="배출량" class="cls-33" transform="translate(423.097 304.442)"><tspan class="cls-5" x="0" y="0">배출</tspan><tspan y="0">량</tspan></text>
+  <path id="패스_113" data-name="패스 113" class="cls-11" d="M3163.769,1987.161v50.481l142.7-.409v-50.48Z" transform="translate(-2959 -1720.391)"/>
+  <path id="패스_114" data-name="패스 114" class="cls-2" d="M3158.212,1987.643v47.5l142.253-.39v-47.5Z" transform="translate(-2959 -1720.391)"/>
+  <path id="패스_115" data-name="패스 115" class="cls-32" d="M3158.212,1987.643v47.5l142.253-.39v-47.5Z" transform="translate(-2959 -1720.391)"/>
+  <text id="제·부품" class="cls-33" transform="translate(250.571 288.053)"><tspan class="cls-36" x="0" y="0">제·</tspan><tspan class="cls-5" y="0">부</tspan><tspan y="0">품</tspan></text>
+  <text id="_2" data-name="
+" class="cls-33" transform="translate(289.975 288.053)"><tspan x="0" y="0"></tspan><tspan x="0" y="15.6"></tspan></text>
+  <text id="화학물질안전성" class="cls-33" transform="translate(229.199 305.057)"><tspan class="cls-5" x="0" y="0">화학물질안전</tspan><tspan y="0">성</tspan></text>
+  <line id="선_563" data-name="선 563" class="cls-32" y2="17.74" transform="translate(273.091 249.012)"/>
+  <line id="선_564" data-name="선 564" class="cls-32" y2="17.74" transform="translate(435.935 249.012)"/>
+  <line id="선_565" data-name="선 565" class="cls-32" y2="17.74" transform="translate(598.779 249.012)"/>
+  <line id="선_566" data-name="선 566" class="cls-32" y2="17.74" transform="translate(761.623 249.012)"/>
+</svg>

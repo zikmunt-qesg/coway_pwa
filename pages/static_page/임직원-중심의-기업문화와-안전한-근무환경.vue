@@ -24,7 +24,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor :title="'임직원 중심의 기업문화와 안전한 근무환경'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2 ">임직원 중심의 기업문화와 안전한 근무환경</h4-ancor>
+                                <h4-ancor :title="'임직원 중심의 기업문화와 안전한 근무환경'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">임직원 중심의 기업문화와 안전한 근무환경</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
@@ -91,6 +91,7 @@
                         </b-row>
                     </div>
                 </section>
+                <!-- End of DMA-->
                 <hr class="py-2">
                 <section class="mb-5">
                     <p class="mb-5"> 코웨이는 기업의 미래가치는 인재로부터 비롯된다는 원칙을 기반으로 공정성, 일과 삶의 균형, 착한 성장 중심 인재 경영을 실천하고 있습니다. 코웨이는 모든 임직원이 공정한 기회를 토대로 자신의 역량을 개발하고 그에 대한 성과를 보상받을 수 있도록 다방면의 지원 체계를 구축하고 있습니다. 투명하고 공정한 채용 프로세스를 기반으로 인재상에 부합하는 인재를 채용하며, 임직원들이 자신의 역량을 적극적으로 개발할 수 있도록 STEP(Self Teaching & Education Plan)제도 기반의 다양한 학습 기회를 제공합니다. 또한, 소통과 참여 기반의 기업문화를 조성하여 임직원이 일과 삶의 균형을 이룰 수 있는 환경을 제공하고 있습니다. 
@@ -108,7 +109,7 @@
                     <h6-ancor :title="'직무 교육'" :activated="activated" class="gold6 fw-500 mb-3">직무 교육</h6-ancor>
                         <p class="mb-45"> 직무 교육은 직무 수행에 필요한 전문성을 강화하기 위한 공통역량 교육, 본부맞춤 교육, 외부위탁 교육, 글로벌 어학 지원, 명사 특강으로 프로그램이 구성되며, 임직원 개인이 자율적으로 이러닝을 들을 수 있도록 상시 학습환경을 구축했습니다. 특히 공통역량 교육은 기획, 재무회계, OA 등 다양한 분야의 전문가 강의와  코웨이의 제품과 기술력을 학습하고 서비스를 실습하는 사내 강의로 구성되어 있습니다. 김난도 서울대 교수, 유현준 건축가 등 저명한 강사를 초청하는 명사특강(착한교육)은 2013년부터 꾸준히 이어와 임직원들에게 다양한 주제로 인사이트를 제시하고 있습니다. 
                         </p>
-                        <h7 class="mb-2 gray63">교육훈련 투자</h7>
+                        <h7 class="mb-3 gray63">교육훈련 투자</h7>
                             <b-table-simple responsive class="num-table social-table f-95">
                                 <b-thead><b-tr>
                                     <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -184,7 +185,7 @@
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">고충처리 채널</p><p class="px-3 f-90 line-height-low">근로자 대표와 정기적인 노사협의회 및 노사협의회 워크숍 실시, 사내 온라인 상담 채널 '코러스' 운영</p>
                             </b-col>
                         </b-row>
-                    <h7 class="mb-2 gray63">임직원 고충 접수 현황</h7>
+                    <h7 class="mb-3 gray63">임직원 고충 접수 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -205,7 +206,7 @@
                     <h6-ancor :title="'노사협의회 기반의 커뮤니케이션'" :activated="activated" class="gold6 fw-500 mb-3">노사협의회 기반의 커뮤니케이션</h6-ancor>
                         <p class="mb-45"> 코웨이는 전 임직원을 대표하는 근로자 대표와의 정기적인 노사협의회를 통해 기업 경영과 관련된 중요한 의사결정 및 변동사항에 대하여 소통하고 있습니다. 회사에 중요한 사업변동이 발생한 경우 이를 사전에 투명하게 공유하고 있으며, 2019년에는 총 4회의 노사협의회를 통해 평가위원회 운영 및 승진, 연봉 책정, 연말 인센티브 지급, 기업문화 및 교육 제도 개선 등 7개 안건에 대해 협의하였습니다.
                         </p>
-                        <h7 class="mb-2 gray63">노사협의회 개최 및 협의 안건 수</h7>
+                        <h7 class="mb-3 gray63">노사협의회 개최 및 협의 안건 수</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -276,7 +277,7 @@
 
                         <p class="mb-45"> 코웨이는 연 1회 전 임직원을 대상으로 임직원 참여도를 조사하고 있습니다. 2019년 전체 임직원 중 참여도 조사에 참여한 임직원은 남성직원 xx%, 여성직원 xx%가 참여하여 총 xx%가 참여하였습니다. 조사 결과, 2019년 임직원 참여도는 지난해 대비 xx% 상승/하락한 xx점을 기록하였습니다. 남성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였으며, 여성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였습니다. 
                         </p>
-                        <h7 class="mb-2 gray63">임직원 참여도(만족도) 현황</h7>
+                        <h7 class="mb-3 gray63">임직원 참여도(만족도) 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -288,7 +289,7 @@
                         <p class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</p>
                     <hr class="space-p25"> 
                     <h6-ancor :title="'임직원 현황 데이터'" :activated="activated" class="gold6 fw-500 mb-3">임직원 현황 데이터</h6-ancor>
-                        <h7 class="mb-2 gray63">국내 임직원 현황</h7>
+                        <h7 class="mb-3 gray63">국내 임직원 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td> <b-td>2015</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -334,7 +335,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">* 2016년부터 데이터를 체계적으로 관리 및 보고함</p>
                     
-                        <h7 class="mb-2 gray63">연령별 현황</h7>
+                        <h7 class="mb-3 gray63">연령별 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">성별</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -373,7 +374,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2 gray63">글로벌 임직원 현황</h7>
+                        <h7 class="mb-3 gray63">글로벌 임직원 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td> <b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -391,7 +392,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2 gray63">여성관리자 비율</h7>
+                        <h7 class="mb-3 gray63">여성관리자 비율</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -406,7 +407,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2 gray63">공정한 보수</h7>
+                        <h7 class="mb-3 gray63">공정한 보수</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2019</b-td>
@@ -422,7 +423,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">* 2019년부터 기본급 및 성과급을 포함한 보수 총액 기준으로 보고</p>
                     
-                        <h7 class="mb-2 gray63">육아휴직 현황</h7>
+                        <h7 class="mb-3 gray63">육아휴직 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -446,7 +447,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2 gray63">신규 채용, 퇴직 및 근속년수 현황</h7>
+                        <h7 class="mb-3 gray63">신규 채용, 퇴직 및 근속년수 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -481,7 +482,7 @@
                     <h6-ancor :title="'안전보건 경영 및 안전문화 구축'" :activated="activated" class="gold6 fw-500 mb-3">안전보건 경영 및 안전문화 구축</h6-ancor>
                         <p class="mb-45"> 코웨이는 안전보건경영시스템(OHSAS18001 및 KOSHA 18001)인증을 보유하며, 이를 기반으로 국내 전 공장(유구, 인천, 포천)의 안전보건 시스템을 통합 운영하고 있습니다. 또한, 매년 협력사와 합동으로 안전실태를 점검하고 평가하여 공급망 전체에서의 안전 확보를 위해 노력하고 있습니다. 2019년 협력사 합동 안전실태 평가 결과 총 133건의 위험 요인을 발견하였으며, 산업안전보건위원회 논의를 통해 2019년 말까지 100%에 대해 개선하였습니다. 2020년에는 지난해 도출 및 개선 완료된 사항에 대한 후속 모니터링과 함께 실태 점검을 지속할 계획입니다. 
                         </p>
-                        <h7 class="mb-2 gray63">안전보건경영 인증 비율</h7>
+                        <h7 class="mb-3 gray63">안전보건경영 인증 비율</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">사업장</b-td><b-td class="text-left">인증 여부</b-td><b-td>유효기간</b-td>
@@ -499,7 +500,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-2 gray63">협력사 공동 안전 실태 점검 비율</h7>
+                        <h7 class="mb-3 gray63">협력사 공동 안전 실태 점검 비율</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -517,8 +518,8 @@
                         <p class="mb-5"> 코웨이는 안전한 일터를 제공할 뿐만 아니라 임직원이 자발적으로 안전한 환경을 조성할 수 있도록 안전문화 구축 활동을 시행하고 있습니다. 안전문화 구축을 위한 대표적 활동인 ‘행복지킴이’는 현장 관리자와 담당자, 근로자 대표로 구성된 조직으로, 매 월 2회 자발적인 시설점검, 환경개선 캠페인 등 안전 보건 관련 예방 및 개선활동을 실시합니다. 2019년에는 점검을 통해 총 133건의 위험 상황을 도출하였으며, 모든 위험 상황에 대해 100% 즉각적인 개선을 시행하였습니다. 또한 안전보건 인식 확산을 위한 공장 안전보건 업무체계표준화 활동, 화재예방 및 건강증진 프로그램 등 홍보 활동과 근골격계 질환 예방을 위한 프로젝트를 진행하였습니다. 
                         </p>
                         
-                    <section class="border-gold px-4 py-4 mb-5">
-                    <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gray7 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 바이러스 예방을 위한 코웨이의 노력</p>
+                    <section class="border-gold px-4 py-3 mb-5">
+                    <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 바이러스 예방을 위한 코웨이의 노력</p>
                     <p class="mb-3">코웨이는 코로나바이러스감염증-19(COVID-19) 확산의 방지 및 예방을 위해 다양한 활동을 추진하고 있습니다. 코로나바이러스-19에 대한 구체적인 정보가 부족한 만큼 잘못된 정보의 유통을 예방하고 정확한 정보가 전달될 수 있도록 중안재난안전대책본부에서 공식적으로 집계되는 일일 신규 확진자 수 및 발생현황 정보를 지속적으로 공지하고 예방 수칙을 안내하고 있습니다. 올바른 정보 및 행동 수칙의 인지를 기반으로 모든 임직원 및 이해관계자들이 스스로 안전한 환경을 조성할 수 있도록 전 사업장에 디스플레이 게시판 및 안전 수칙 홍보물을 제공하는 등 다양한 채널을 통해 커뮤니케이션 하였습니다.
                     </p>
                     <p class="mb-3">모든 사업장에 출입자 발열 체크, 손소독 및 마스크 착용을 의무화하며, 주 2회 자체 소독 작업을 진행하고 있습니다. 다중 이용시설로 위험성이 높은 구내식당의 경우 한 줄 줄서기 및 대화를 금지하는 등 밀접 접촉을 최소화하기 위한 규칙을 시행하고 있습니다. 임산부 및 초등학생 이하의 자녀가 있는 임직원의 경우 주 xx회 재택근무를 권유하여 바이러스 전파 위험 노출을 최소화하고 있습니다.
@@ -527,7 +528,7 @@
                     </p>
                     </section>
 
-                        <h7 class="mb-2 gray63">사망사고 발생 건 수</h7>
+                        <h7 class="mb-3 gray63">사망사고 발생 건 수</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -543,7 +544,7 @@
                         </b-table-simple>
 
 
-                        <h7 class="mb-2 gray63">산업재해 발생건수</h7>
+                        <h7 class="mb-3 gray63">산업재해 발생건수</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -562,7 +563,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1) 재해율 = 재해자 수 / 근로자 수 X 100 </p>
 
-                        <h7 class="mb-2 gray63">근로손실재해율(LITFR)<sup>1)</sup></h7>
+                        <h7 class="mb-3 gray63">근로손실재해율(LITFR)<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -578,7 +579,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1) 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </p>
 
-                        <h7 class="mb-2 gray63">업무상 질병 발생률(OIFR)</h7>
+                        <h7 class="mb-3 gray63">업무상 질병 발생률(OIFR)</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -593,11 +594,10 @@
                             </b-tbody>
                         </b-table-simple>
                 </section>
-                <hr class="space-p75 mb-5">
             </b-container>
             </b-col>
         </b-row>
-
+        <hr class="space-p75 mb-5">
     </b-container>
 </div>
 </template>

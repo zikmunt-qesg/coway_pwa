@@ -9,9 +9,9 @@
             <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
-            <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
+            <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'임직원 중심의 기업문화와 안전한 근무환경'"
+                :main_title="'지역사회'"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#8e6627'"
@@ -20,7 +20,7 @@
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
+                    <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">04</h1>
@@ -32,72 +32,68 @@
                                 <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold6 mb-3">Business relevance &amp; Approach</h7>
+                                <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
                                 <p>코웨이는 우리가 하는 일로 더 나은 세상을 만든다는 ‘착한 믿음’ 가지고 사람과 환경을 위한 나눔을 실천하고 있습니다. 코웨이는 깨끗한 물과 공기에 대한 전문성을 기반으로 가장 잘 할 수 있는 일을 통해, 가장 필요로 하는 곳에 기여하는 코웨이다운 사회공헌을 중점적으로 추진하고 있습니다. 코웨이는 깨끗한 물로 건강한 변화를 만들고, 청정한 공기를 마음껏 누릴 수 있도록 지원하고, 청년 창업가들과 꿈과 비전을 나눕니다.
                                 </p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <h7 class="gold6 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                        <b-row no-gutters class="px-3 py-3 border-top-dark">
+                            <h7 class="gold7 mb-4 w-100">Activity</h7>
+                            <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>물, 공기, 사람을 통한 사회공헌</p>
+                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">물, 공기, 사람을 통한 사회공헌</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                            <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>CEO가 함께하는 임직원 봉사단 운영</p>
+                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">CEO가 함께하는 임직원 봉사단 운영</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                            <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>말레이시아 글로벌 사회공헌 추진</p>
+                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">말레이시아 글로벌 사회공헌 추진</p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
-                                <h7 class="gold6 mb-4 w-100">Business Cases</h7>
+                        <b-row no-gutters class="px-3 py-3 border-top-dark">
+                            <b-col class="col-12 col-md-8 pr-md-4 mb-4 mb-md-0">
+                                <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">'착한 정수기' 캠페인</p>
+                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <p class="fw-500 word-break">'착한 정수기' 캠페인</p>
                                     </b-col>
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">취약계층 환경 개선 사업</p>
+                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <p class="fw-500 word-break">취약계층 환경 개선 사업</p>
                                     </b-col>
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">청년 창업사관학교 COWAY Wi School 운영</p>
+                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <p class="fw-500 word-break">청년 창업사관학교 COWAY Wi School 운영</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
-                            <b-col class="col-12 col-md-7">
-                                <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
-                                <b-row no-gutters class="pl-md-4 position-relative"> 
-                                    <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                    <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">임직원 인당 봉사활동 참여 22.1시간</p>
-                                        </b-col>
-                                    </b-row>
-                                </b-row>
+                            <b-col class="col-12 col-md-4 position-relative pl-md-4">
+                                <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
+                                <h7 class="gold7 mb-45 w-100">Performance</h7>
+                                <span class="f-330 fw-400">22.1</span><span class="fw-500">시간</span> <br>
+                                <p class="fw-500 line-height-low f-100 word-break">임직원 인당 봉사활동 참여</p>
                             </b-col>                            
                         </b-row>
                     </div>
                 </section> 
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'코웨이다운 사회공헌'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p>코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'코웨이다운 사회공헌'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-45">코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button>코웨이 사회공헌 웹사이트 바로가기</b-button></a>
+                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>코웨이 사회공헌 웹사이트 바로가기</b-button></a>
+                        <hr class="space-p25">
                         <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 코웨이 사회공헌 전략</div>
-
+                        <hr class="space-p25">
                         
-                        <h7 class="mb-2">사회공헌 투자액</h7>
-                        <b-table-simple responsive class="num-table social-table f-95 mb-45">
+                        <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
+                        <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">현금 기부</b-td><b-td class="text-left" rowspan="3">억 원</b-td><b-td>403,757,567</b-td><b-td>485,218,807</b-td><b-td>10,572,045</b-td>
+                                    <b-td class="text-left">현금 기부</b-td><b-td>403,757,567</b-td><b-td>485,218,807</b-td><b-td>10,572,045</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">현물 기부</b-td><b-td>95,278,076</b-td><b-td>212,726,724</b-td><b-td>662,125,605</b-td>
@@ -108,20 +104,20 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <div style="border-width:0.1px; border-style:dotted; border-color:gray" class="my-3 p-3">
-                            <p>Case. 코로나19 긴급재해 기부</p>
-                            <p>코웨이는 코로나바이러스감염증19로 인해 많은 지원이 필요한 우리 지역사회에 응원과 격려의 마음을 보태기 위해 모회사인 넷마블과 함께 각 10억원씩 성금을 전국재해구호협회 희망브리지에 기부하였습니다. 이 성금은 전국재해구호협회를 통해 방호 물품, 진단키트 등 의료 물품 부족 상황에 직면한 전국 의료진에 대한 지원과 의료·복지 시설의 방역에 사용되었습니다. 또한 코웨이 말레이시아법인은 말레이시아 정부에 코로나19 극복 성금 30만 링깃을 전달하였습니다. 코웨이는 전 세계가 힘을 모아 코로나19로 인한 어려움을 극복하고 안전한 생활환경을 되찾을 수 있도록 지원을 아끼지 않겠습니다.
-                            </p>
-                        </div>
+                    <section class="border-gold px-4 py-3 mb-5">
+                        <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 긴급재해 기부</p>
+                        <p class="mb-3">코웨이는 코로나바이러스감염증19로 인해 많은 지원이 필요한 우리 지역사회에 응원과 격려의 마음을 보태기 위해 모회사인 넷마블과 함께 각 10억원씩 성금을 전국재해구호협회 희망브리지에 기부하였습니다. 이 성금은 전국재해구호협회를 통해 방호 물품, 진단키트 등 의료 물품 부족 상황에 직면한 전국 의료진에 대한 지원과 의료·복지 시설의 방역에 사용되었습니다. 또한 코웨이 말레이시아법인은 말레이시아 정부에 코로나19 극복 성금 30만 링깃을 전달하였습니다. 코웨이는 전 세계가 힘을 모아 코로나19로 인한 어려움을 극복하고 안전한 생활환경을 되찾을 수 있도록 지원을 아끼지 않겠습니다.
+                        </p>
+                    </section>
 
                     <h6-ancor :title="'임직원과 함께하는 나눔 실천'" :activated="activated" class="gold6 fw-500 mb-3 f-110">임직원과 함께하는 나눔 실천</h6-ancor>
                         <p>코웨이는 임직원 참여 사회공헌 활동을 통해 나눔을 실천합니다. CEO를 단장으로 하는 임직원 봉사단을 운영하여 본사뿐만 아니라 R&amp;D센터 및 공장 등 전사 임직원의 적극적인 참여를 기반으로 하고 있습니다.
                         </p>
-                        <p>스마트 영업조직인 블루버드는 소아암재단과 협약을 맺고 정기적인 봉사활동을 실천하고 있습니다. 2019년에는 소아암 백혈병 치료를 마친 150명의 환아들을 격려하고 축하하기 위해 치료종결 축하행사를 진행했습니다.
+                        <p class="mb-45">스마트 영업조직인 블루버드는 소아암재단과 협약을 맺고 정기적인 봉사활동을 실천하고 있습니다. 2019년에는 소아암 백혈병 치료를 마친 150명의 환아들을 격려하고 축하하기 위해 치료종결 축하행사를 진행했습니다.
                         </p>
                         <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 코웨이 사회공헌 조직도</div>
-                    
-                        <h7 class="mb-2">임직원 봉사활동 성과</h7>
+                        <hr class="space-p25">
+                        <h7 class="mb-3 gray63">임직원 봉사활동 성과</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -138,13 +134,13 @@
                                 </b-tr>                                
                             </b-tbody>                                
                         </b-table-simple>
-                        <div class="f-80 ml-1 mb-45">(1) 가치 환산액: 시간당 평균 급여(추정치) X 봉사단 임직원 수 X 인당 봉사시간</div>
-
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'깨끗한 물과 공기를 위한 코웨이의 약속'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">깨끗한 물과 공기를 위한 코웨이의 약속</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p>코웨이는 모든 지역사회에 깨끗한 물과 공기에 대한 접근성을 향상하고 위생이 보장된 생활환경을 제공하여 삶의 질을 향상하고자 물, 공기, 사람의 세 가지 약속을 주요 사회공헌 영역으로 추진합니다. 이에 따라 중점 추진 활동으로 국내외 취약계층에 정수기 및 공기청정기를 지원하여 깨끗함의 가치를 공유하는 한편, 청년 일자리 창출 및 산업 혁신을 위해 라이프스타일 분야 청년 창업자를 지원하고 있습니다.  
+                        <p class="f-80 ml-1 mb-5">(1) 가치 환산액: 시간당 평균 급여(추정치) X 봉사단 임직원 수 X 인당 봉사시간</p>
+                    <hr class="py-3">
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'깨끗한 물과 공기를 위한 코웨이의 약속'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">깨끗한 물과 공기를 위한 코웨이의 약속</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-45">코웨이는 모든 지역사회에 깨끗한 물과 공기에 대한 접근성을 향상하고 위생이 보장된 생활환경을 제공하여 삶의 질을 향상하고자 물, 공기, 사람의 세 가지 약속을 주요 사회공헌 영역으로 추진합니다. 이에 따라 중점 추진 활동으로 국내외 취약계층에 정수기 및 공기청정기를 지원하여 깨끗함의 가치를 공유하는 한편, 청년 일자리 창출 및 산업 혁신을 위해 라이프스타일 분야 청년 창업자를 지원하고 있습니다.  
                         </p>
                         <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 물, 공기, 사람 핵심 성과</div>
-                    
+                    <hr class="space-p25">                
                     <h6-ancor :title="'약속 1.물 - 지역사회 깨끗한 물 지원'" :activated="activated" class="gold6 fw-500 mb-3 f-110">'약속 1.물 - 지역사회 깨끗한 물 지원'</h6-ancor>
                     <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">SDGs 아이콘 및 그림자리</div>
                         <b-table-simple responsive class="text-table social-table f-95">

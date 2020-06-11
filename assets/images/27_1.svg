@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.111" height="25" viewBox="0 0 110.111 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0b504a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #0b504a;
+        stroke-width: 0.5px;
+      }
+
+      .cls-4 {
+        fill: #1e2323;
+        font-size: 13px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.019em;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_27_1" data-name="구성 요소 27 – 1" transform="translate(0.25)">
+    <rect id="사각형_53" data-name="사각형 53" class="cls-1" width="104.111" height="25" transform="translate(5.75)"/>
+    <rect id="사각형_139" data-name="사각형 139" class="cls-2" width="103.611" height="21.5" transform="translate(0 0.25)"/>
+    <rect id="사각형_140" data-name="사각형 140" class="cls-3" width="103.611" height="21.5" transform="translate(0 0.25)"/>
+    <text id="_2019" data-name="2019" class="cls-4" transform="translate(37.376 16.279)"><tspan class="cls-5" x="0" y="0">201</tspan><tspan y="0">9</tspan></text>
+  </g>
+</svg>

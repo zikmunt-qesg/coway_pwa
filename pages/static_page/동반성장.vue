@@ -9,7 +9,7 @@
             <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
-            <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
+            <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
                 :main_title="'동반성장'"
                 :sub_titles="sub_titles"
@@ -20,10 +20,10 @@
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
+                    <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
-                                <h1 class="mt-m-2 mb-0">02</h1>
+                                <h1 class="mt-m-2 mb-0">03</h1>
                                 <h4-ancor :title="'동반성장'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">동반성장</h4-ancor>
                             </b-col>
                         </b-row>
@@ -32,73 +32,68 @@
                                 <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold6 mb-3">Business relevance &amp; Approach</h7>
+                                <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
                                 <p>산업 내 상생을 도모하고 건전하고 공정한 거래 문화를 조성하는 것은 경쟁력 확보 및 지속가능한 시장 성장의 기반이 됩니다. 코웨이는 밸류체인 전 과정에서 협력사와의 긴밀한 협력과 상생활동을 추진하여 산업 내 건강한 거래문화를 견인합니다. 이를 위해 협력사와 열린 소통을 추진하여 경영안정 기반 강화, 성장 인프라 지원, 1차협력사의 2차 협력사 지원 등 다각적인 동반성장 활동을 추진하고 있습니다.   
                                 </p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <h7 class="gold6 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                        <b-row no-gutters class="px-3 py-3 border-top-dark">
+                            <h7 class="gold7 mb-4 w-100">Activity</h7>
+                            <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
+                                <p class="fw-500 word-break px-sm-2">착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                            <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>경영안정 기반 강화 지원</p>
+                                <p class="fw-500 word-break px-sm-2">경영안정 기반 강화 지원</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                            <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>성장 인프라 지원</p>
+                                <p class="fw-500 word-break px-sm-2">성장 인프라 지원</p>
                             </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
+                            <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>1차 협력사의 2차 협력사 지원</p>
+                                <p class="fw-500 word-break px-sm-2"><span class="fw-600">1</span>차 협력사의 <span class="fw-600">2</span>차 협력사 지원</p>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
+                        <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
-                                <h7 class="gold6 mb-4 w-100">Business Cases</h7>
-                                <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">공정거래 4대 가이드라인을 기반으로 투명한 거래 문화 조성</p>
-                                    </b-col>
-                                </b-row>
+                                <h7 class="gold7 mb-4 w-100">Business Cases</h7>
+                                <div class="text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <p class="fw-500 word-break px-lg-3">공정거래 4대 가이드라인을 기반으로 투명한 거래 문화 조성</p>
+                                </div>
                             </b-col>
-                            <b-col class="col-12 col-md-7">
-                                <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
-                                <b-row no-gutters class="pl-md-4 position-relative"> 
-                                    <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                    <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">동반성장위원회 동반성장지수 2018까지 5년연속 최우수 등급 획득, 2019년 우수 등급 획득</p>
-                                        </b-col>
-                                        <b-col class="col-4 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">1,2차 간 상생협력을 위한 협약 체결 64건 달성</p>
-                                        </b-col>
-                                    </b-row>
-                                </b-row>
+                            <b-col class="col-12 col-md-7 position-relative pl-md-4">
+                                <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
+
+                                <h7 class="gold7 mb-4 w-100">Performance</h7>
+                                    <p class="fw-400 line-height-low f-130 word-break">동반성장위원회 동반성장지수<br>2018까지 5년연속 최우수 등급 획득,<br> 2019년 우수 등급 획득</p>
+                                    <p class="fw-400 line-height-low f-130 word-break">1,2차 간 상생협력을 위한 협약 체결 64건 달성</p>
                             </b-col>                            
                         </b-row>
                     </div>
-                </section> 
+                </section>
+                <hr class="py-2">
                 <!-- End of DMA-->
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사와의 소통을 통한 성장 지원'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사와의 소통을 통한 성장 지원</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p>코웨이는 협력사와의 열린 소통을 기반으로 건전한 산업 생태계를 조성하기 위해 동반성장을 추진하고 있습니다. 코웨이의 동반성장 추진 전략은 1) 품질/원가/기술/생산성 경쟁력 확보, 2) 지속가능 경영기반 강화, 3) 경영안정성 확보를 기반으로 글로벌 경쟁력을 확보하는 것입니다. 이에 따라 코웨이는 협력사와의 열린 소통을 동반성장 전략 이행의 핵심 전략으로 추진하고 있습니다. 
+                        <p class="mb-45">코웨이는 협력사와의 열린 소통을 기반으로 건전한 산업 생태계를 조성하기 위해 동반성장을 추진하고 있습니다. 코웨이의 동반성장 추진 전략은 1) 품질/원가/기술/생산성 경쟁력 확보, 2) 지속가능 경영기반 강화, 3) 경영안정성 확보를 기반으로 글로벌 경쟁력을 확보하는 것입니다. 이에 따라 코웨이는 협력사와의 열린 소통을 동반성장 전략 이행의 핵심 전략으로 추진하고 있습니다. 
                         </p>
-                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 지속가능한 동반성장 구축 그림</div>
-                        <p>코웨이는 정기적인 협의 채널인 착한믿음협의회를 운영하여 협력사와의 수평적 커뮤니케이션을 통해 산업 환경의 변화를 주도하고, 스마트한 커뮤니케이션을 위한 온라인 소통채널로 상생포털을 운영하고 있습니다. 간담회 위주의 정형화된 소통에서 벗어나 수평적이고 자율적인 협력사 소통을 위해 2011년부터 ‘착한믿음협의회’를 운영하고 있습니다. 착한믿음협의회는 코웨이의 주요 1차 및 2차 협력사가 참여하고 있습니다. 2019년 착한믿음협의회 참여기업은 67개사로, 생산성 혁신 활동 및 해외 우수기업 벤치마킹 등 기업 경쟁력 강화 활동을 진행하였습니다. 2019년 착한믿음협의회 활동 핵심 주제는 스마트팩토리(Smart Factory)와 생산성 향상으로, 교육 프로그램 ‘SMART DAY’를 4회 개최하였으며, 일본의 스마트팩토리 우수 도입 기업에 벤치마킹 연수를 실시하였습니다.
+                        <b-img src="@/assets/images/43_1.svg" fluid class="w-100"></b-img>
+                        <p class="mb-3">코웨이는 정기적인 협의 채널인 착한믿음협의회를 운영하여 협력사와의 수평적 커뮤니케이션을 통해 산업 환경의 변화를 주도하고, 스마트한 커뮤니케이션을 위한 온라인 소통채널로 상생포털을 운영하고 있습니다. 간담회 위주의 정형화된 소통에서 벗어나 수평적이고 자율적인 협력사 소통을 위해 2011년부터 ‘착한믿음협의회’를 운영하고 있습니다. 착한믿음협의회는 코웨이의 주요 1차 및 2차 협력사가 참여하고 있습니다. 2019년 착한믿음협의회 참여기업은 67개사로, 생산성 혁신 활동 및 해외 우수기업 벤치마킹 등 기업 경쟁력 강화 활동을 진행하였습니다. 2019년 착한믿음협의회 활동 핵심 주제는 스마트팩토리(Smart Factory)와 생산성 향상으로, 교육 프로그램 ‘SMART DAY’를 4회 개최하였으며, 일본의 스마트팩토리 우수 도입 기업에 벤치마킹 연수를 실시하였습니다.
                         </p>
-                        <p>온라인 동반성장 커뮤니티 ‘상생포털’은 산업 내 다양한 정보를 공유하고 동반성장 전략 및 혁신활동 등을 추진하는 기반 플랫폼으로 기능합니다. 2019년에는 6,541명의 협력사 임직원이 접속하여 12,636건의 댓글 소통을 진행하는 등 활발한 정보 공유의 장으로 활동을 이어 나가고 있습니다.
+                        <p class="mb-3">온라인 동반성장 커뮤니티 ‘상생포털’은 산업 내 다양한 정보를 공유하고 동반성장 전략 및 혁신활동 등을 추진하는 기반 플랫폼으로 기능합니다. 2019년에는 6,541명의 협력사 임직원이 접속하여 12,636건의 댓글 소통을 진행하는 등 활발한 정보 공유의 장으로 활동을 이어 나가고 있습니다.
                         </p>
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button>상생포털 바로가기</b-button></a>
+                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" block>상생포털 바로가기</b-button></a>
+                        <hr class="spacep25">
                         <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 동반성장협의회 구성</div>
-                        <p class="mb-45">코웨이는 협력사 동반성장 지원을 위해 경영안정 기반 강화 지원, 성장 인프라 지원, 2차협력사 지원 등을 제공하고 있습니다. 
+                        <hr class="spacep25">
+
+                        <p class="mb-45">코웨이는 협력사 동반성장 지원을 위해 경영안정 기반 강화 지원, 성장 인프라 지원, 2차 협력사 지원 등을 제공하고 있습니다. 
                         </p>
                     
-                    <h7 class="mb-3">경영안정 기반 강화</h7>
-                            <b-table-simple responsive class="text-table social-table f-95 mb-45">
+                    <h7 class="mb-3 gray63">경영안정 기반 강화</h7>
+                            <b-table-simple responsive class="txt-table social-table f-95 mb-5">
                                 <b-thead><b-tr>
                                     <b-td>구분</b-td> <b-td>추진내용</b-td><b-td>2019 추진결과</b-td>
                                 </b-tr></b-thead>
@@ -136,8 +131,8 @@
                                 </b-tbody>                                
                             </b-table-simple>
 
-                        <h7 class="mb-3">성장인프라 지원</h7>
-                            <b-table-simple responsive class="text-table social-table f-95 mb-45">
+                        <h7 class="mb-3 gray63">성장인프라 지원</h7>
+                            <b-table-simple responsive class="txt-table social-table f-95 mb-5">
                                 <b-thead><b-tr>
                                     <b-td>구분</b-td> <b-td>추진내용</b-td><b-td>2019 추진결과</b-td>
                                 </b-tr></b-thead>
@@ -165,8 +160,8 @@
                                 </b-tbody>                                
                             </b-table-simple>
 
-                        <h7 class="mb-3">1차 협력사의 2차 협력사 지원 유도</h7>
-                            <b-table-simple responsive class="text-table social-table f-95 mb-45">
+                        <h7 class="mb-3 gray63"><span class="fw-600">1</span>차 협력사의 <span class="fw-600">2</span>차 협력사 지원 유도</h7>
+                            <b-table-simple responsive class="txt-table social-table f-95 mb-5">
                                 <b-thead><b-tr>
                                     <b-td>구분</b-td> <b-td>추진내용</b-td><b-td>2019 추진결과</b-td>
                                 </b-tr></b-thead>
@@ -192,19 +187,20 @@
                                     </b-tr>   
                                 </b-tbody>                                
                             </b-table-simple>
-
+                    <hr class="py-3">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'공정거래 문화 조성'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">공정거래 문화 조성</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p>코웨이는 협력사의 권리와 이익을 정당하게 반영하고, 원청회사의 우월한 교섭력 남용을 방지하고자 상생협력을 위한 공정거래 4대 가이드라인을 운용하고 있습니다.  
+                        <p class="mb-3">코웨이는 협력사의 권리와 이익을 정당하게 반영하고, 원청회사의 우월한 교섭력 남용을 방지하고자 상생협력을 위한 공정거래 4대 가이드라인을 운용하고 있습니다.  
                         </p>
-                        <p>공정거래 4대 가이드라인은 1) 바람직한 계약 체결, 2) 협력사 선정운용의 공정성 및 투명성 보장, 3) 대·중소기업간 바람직한 계약체결 가이드라인의 준수, 4) 거래 심의위원회 설치 및 운용으로 구성되어 있으며, 이를 준수하기 위해 공정거래 담당자를 중심으로 가이드라인 준수 여부를 지속적으로 모니터링 및 문서화하여 관리하고 있습니다. 2019년에는 투명한 협력업체 선정을 위해 신규 입찰 시스템을 도입하고, 협력사에 시스템 이용 교육을 제공하였습니다.
+                        <p class="mb-3">공정거래 4대 가이드라인은 1) 바람직한 계약 체결, 2) 협력사 선정운용의 공정성 및 투명성 보장, 3) 대·중소기업간 바람직한 계약체결 가이드라인의 준수, 4) 거래 심의위원회 설치 및 운용으로 구성되어 있으며, 이를 준수하기 위해 공정거래 담당자를 중심으로 가이드라인 준수 여부를 지속적으로 모니터링 및 문서화하여 관리하고 있습니다. 2019년에는 투명한 협력업체 선정을 위해 신규 입찰 시스템을 도입하고, 협력사에 시스템 이용 교육을 제공하였습니다.
                         </p>
-                        <p>코웨이는 공정한 거래를 위해 공정거래위원회가 제시한 가이드라인을 내규화 하고 이를 운용하고자 내부 불공정거래 감시기구를 설치하여 운영하고 있습니다. 불공정거래 감시기구는 상생협력팀, 자재관리팀(유구, 인천), 기구구매팀, 전장구매팀의 각 팀장으로 구성되어 있으며 연 12회 공정거래 자율 심의 위원회를 운영하여 단가 변동 추이 등을 포함한 협력사 거래의 전반적인 사항을 모니터링 합니다. 코웨이는 공급망 내 투명한 거래 문화를 조성하여 함께 성장할 수 있는 산업 생태계를 조성해 나갈 예정입니다.
+                        <p class="mb-3">코웨이는 공정한 거래를 위해 공정거래위원회가 제시한 가이드라인을 내규화 하고 이를 운용하고자 내부 불공정거래 감시기구를 설치하여 운영하고 있습니다. 불공정거래 감시기구는 상생협력팀, 자재관리팀(유구, 인천), 기구구매팀, 전장구매팀의 각 팀장으로 구성되어 있으며 연 12회 공정거래 자율 심의 위원회를 운영하여 단가 변동 추이 등을 포함한 협력사 거래의 전반적인 사항을 모니터링 합니다. 코웨이는 공급망 내 투명한 거래 문화를 조성하여 함께 성장할 수 있는 산업 생태계를 조성해 나갈 예정입니다.
                         </p>
                 </section>
             </b-container> 
             <!-- End of Contents Container -->
             </b-col>
         </b-row>
+        <hr class="space-75 mb-5">
     </b-container>
 </div>
 </template>

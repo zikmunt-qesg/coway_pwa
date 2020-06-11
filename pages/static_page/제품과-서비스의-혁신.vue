@@ -194,7 +194,7 @@
                             <div class="text-center"><b-img src="@/assets/images/9_1@3x.png" fluid class="w-100"></b-img> </div>
                         </b-col>
                     </b-row>
-                    <h7 class="mb-2 gray63"> 지식재산권 보유 현황 <span class="f-80 fw-300"> (단위: 건)</span></h7>
+                    <h7 class="mb-3 gray63"> 지식재산권 보유 현황 <span class="f-80 fw-300"> (단위: 건)</span></h7>
                     <b-table-simple responsive class="num-table f-95">
                         <b-thead><b-tr>
                             <b-td class="text-left">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -217,12 +217,10 @@
                             </b-tr>                         
                         </b-tbody>                                
                     </b-table-simple>                    
-
             </b-container>
             </b-col>
         </b-row>
         <hr class="space-p75 mb-5">
-
     </b-container>
 </div>
 </template>
