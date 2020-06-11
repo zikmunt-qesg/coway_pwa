@@ -269,6 +269,9 @@ hr {
 .f-330{
     font-size: 3.3rem;
 }
+.f-280{
+    font-size: 2.8rem;
+}
 .f-230{
     font-size: 2.3rem;
 }
@@ -434,6 +437,16 @@ hr {
     color: $gold6;
 }
 
+.parang8{
+    color: $parang8;
+}
+.parang7{
+    color: $parang7;
+}
+.parang6{
+    color: $parang6;
+}
+
 /* background-color */
 .bg-blue8{
     background-color: $blue8;
@@ -475,6 +488,16 @@ hr {
 }
 .bg-green6{
     background-color: $green6;
+}
+
+.bg-parang8{
+    background-color: $parang8;
+}
+.bg-parang7{
+    background-color: $parang7;
+}
+.bg-parang6{
+    background-color: $parang6;
 }
 
 .bg-gray8{
@@ -671,6 +694,8 @@ table, .table {
 .border-gold {
     border: 1px solid $gold6;
 }
+
+
 
 /*card*/
 .card-body, .card-text, .card-title, .card-subtitle {

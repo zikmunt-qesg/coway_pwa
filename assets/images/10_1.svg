@@ -1,0 +1,184 @@
+<svg id="구성_요소_10_1" data-name="구성 요소 10 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="740.96" viewBox="0 0 836 740.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f6f7;
+      }
+
+      .cls-13, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #3e3a39;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #99691d;
+        font-family: NotoSansKR-Bold, Noto Sans KR;
+        font-weight: 700;
+      }
+
+      .cls-15, .cls-5 {
+        font-size: 17px;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-7 {
+        fill: #1e2323;
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.045em;
+      }
+
+      .cls-11, .cls-15 {
+        fill: #685239;
+      }
+
+      .cls-11 {
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-14, .cls-15 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-12 {
+        fill: #f0c560;
+      }
+
+      .cls-13 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.945px;
+      }
+
+      .cls-14 {
+        font-size: 16.065px;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.031em;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.046em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.035em;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_61" data-name="사각형 61" class="cls-1" width="836" height="740.96"/>
+  <line id="선_307" data-name="선 307" class="cls-2" y2="42" transform="translate(418 138.66)"/>
+  <line id="선_308" data-name="선 308" class="cls-3" y2="20" transform="translate(418 160.66)"/>
+  <line id="선_309" data-name="선 309" class="cls-2" y2="42" transform="translate(418 459.94)"/>
+  <line id="선_310" data-name="선 310" class="cls-3" y2="20" transform="translate(418 481.94)"/>
+  <rect id="사각형_62" data-name="사각형 62" class="cls-4" width="796" height="125.449" transform="translate(20 565.224)"/>
+  <line id="선_311" data-name="선 311" class="cls-2" x2="796" transform="translate(20 565.724)"/>
+  <line id="선_312" data-name="선 312" class="cls-2" x2="796" transform="translate(20 690.173)"/>
+  <text id="전략방향_실행_개요" data-name="전략방향 실행 개요" class="cls-5" transform="translate(352.21 541.9)"><tspan class="cls-6" x="0" y="0">전략방향 실행 개</tspan><tspan y="0">요</tspan></text>
+  <text id="웅진코웨이의_핵심_비즈니스인" data-name="웅진코웨이의 핵심 비즈니스인" class="cls-7" transform="translate(29.83 610.668)"><tspan class="cls-8" x="0" y="0">웅진코웨이의</tspan><tspan class="cls-9" y="0"> </tspan><tspan class="cls-8" y="0">핵</tspan><tspan class="cls-9" y="0">심</tspan><tspan class="cls-8" y="0" xml:space="preserve"> 비즈니스</tspan><tspan y="0">인</tspan></text>
+  <text id="_" data-name="" class="cls-7" transform="translate(202.17 610.668)"><tspan x="0" y="0"></tspan></text>
+  <text id="_물_과_핵심_역량인_코디_조직" data-name="&apos;물&apos;과 핵심 역량인 &apos;코디&apos; 조직" class="cls-7" transform="translate(32.183 632.663)"><tspan class="cls-8" x="0" y="0">&apos;물&apos;과 </tspan><tspan class="cls-9" y="0">핵</tspan><tspan class="cls-8" y="0">심</tspan><tspan class="cls-9" y="0"> </tspan><tspan class="cls-8" y="0">역량인 &apos;코디&apos; 조</tspan><tspan y="0">직</tspan></text>
+  <text id="을_연계한_사회공헌_실시" data-name="을 연계한 사회공헌 실시" class="cls-7" transform="translate(46.98 654.657)"><tspan class="cls-8" x="0" y="0">을 </tspan><tspan class="cls-9" y="0">연</tspan><tspan class="cls-8" y="0">계</tspan><tspan class="cls-9" y="0">한</tspan><tspan class="cls-8" y="0" xml:space="preserve"> 사회공헌 </tspan><tspan class="cls-9" y="0">실</tspan><tspan y="0">시</tspan></text>
+  <text id="봉사활동_동호회_재능기부_등" data-name="봉사활동, 동호회 재능기부 등" class="cls-7" transform="translate(237.772 610.655)"><tspan class="cls-8" x="0" y="0">봉사활동, 동호회</tspan><tspan class="cls-9" y="0"> </tspan><tspan class="cls-8" y="0">재</tspan><tspan class="cls-9" y="0">능</tspan><tspan class="cls-8" y="0">기</tspan><tspan class="cls-9" y="0">부</tspan><tspan class="cls-8" y="0"> </tspan><tspan y="0">등</tspan></text>
+  <text id="_2" data-name="" class="cls-7" transform="translate(404.456 610.655)"><tspan x="0" y="0"></tspan></text>
+  <text id="임직원이_주체적으로_참여하는" data-name="임직원이 주체적으로 참여하는" class="cls-7" transform="translate(234.944 632.649)"><tspan class="cls-8" x="0" y="0">임직원이</tspan><tspan class="cls-9" y="0"> </tspan><tspan class="cls-8" y="0">주</tspan><tspan class="cls-9" y="0">체</tspan><tspan class="cls-8" y="0">적</tspan><tspan class="cls-9" y="0">으</tspan><tspan class="cls-8" y="0">로</tspan><tspan class="cls-9" y="0" xml:space="preserve"> 참</tspan><tspan class="cls-8" y="0">여하</tspan><tspan y="0">는</tspan></text>
+  <text id="_3" data-name="" class="cls-7" transform="translate(407.284 632.649)"><tspan x="0" y="0"></tspan></text>
+  <text id="사회봉사_지원" data-name="사회봉사 지원" class="cls-7" transform="translate(281.145 654.643)"><tspan class="cls-8" x="0" y="0">사회봉사</tspan><tspan class="cls-9" y="0"> </tspan><tspan class="cls-8" y="0">지</tspan><tspan y="0">원</tspan></text>
+  <text id="사회공헌_실행력과_확산력을" data-name="사회공헌 실행력과 확산력을" class="cls-7" transform="translate(444.048 610.641)"><tspan class="cls-9" x="0" y="0">사</tspan><tspan class="cls-8" y="0">회공</tspan><tspan class="cls-9" y="0">헌 </tspan><tspan class="cls-8" y="0">실</tspan><tspan class="cls-9" y="0">행</tspan><tspan class="cls-8" y="0">력</tspan><tspan class="cls-9" y="0">과 </tspan><tspan class="cls-8" y="0">확산</tspan><tspan class="cls-9" y="0">력</tspan><tspan y="0">을</tspan></text>
+  <text id="_4" data-name="" class="cls-7" transform="translate(603.718 610.641)"><tspan x="0" y="0"></tspan></text>
+  <text id="높이기_위해_관계기관·단체와의" data-name="높이기 위해 관계기관·단체와의" class="cls-7" transform="translate(435.648 632.635)"><tspan class="cls-9" x="0" y="0">높</tspan><tspan class="cls-8" y="0">이기</tspan><tspan class="cls-9" y="0" xml:space="preserve"> 위</tspan><tspan class="cls-8" y="0">해</tspan><tspan class="cls-9" y="0"> </tspan><tspan class="cls-8" y="0">관</tspan><tspan class="cls-9" y="0">계기</tspan><tspan class="cls-10" y="0">관</tspan><tspan class="cls-8" y="0">·단</tspan><tspan class="cls-9" y="0">체</tspan><tspan class="cls-8" y="0">와</tspan><tspan y="0">의</tspan></text>
+  <text id="_5" data-name="" class="cls-7" transform="translate(612.132 632.635)"><tspan x="0" y="0"></tspan></text>
+  <text id="협력체제_구축" data-name="협력체제 구축" class="cls-7" transform="translate(483.92 654.629)"><tspan class="cls-9" x="0" y="0">협</tspan><tspan class="cls-8" y="0">력체</tspan><tspan class="cls-9" y="0">제 </tspan><tspan class="cls-8" y="0">구</tspan><tspan y="0">축</tspan></text>
+  <text id="사회공헌활동에_대한_고객" data-name="사회공헌활동에 대한 고객" class="cls-7" transform="translate(652.508 610.627)"><tspan class="cls-8" x="0" y="0">사</tspan><tspan class="cls-9" y="0">회공</tspan><tspan class="cls-8" y="0">헌활</tspan><tspan class="cls-9" y="0">동에</tspan><tspan class="cls-8" y="0"> </tspan><tspan class="cls-9" y="0">대</tspan><tspan class="cls-8" y="0">한</tspan><tspan class="cls-9" y="0" xml:space="preserve"> 고</tspan><tspan y="0">객</tspan></text>
+  <text id="_6" data-name="" class="cls-7" transform="translate(799.508 610.627)"><tspan x="0" y="0"></tspan></text>
+  <text id="참여_기회의_확대로" data-name="참여 기회의 확대로" class="cls-7" transform="translate(671.521 632.622)"><tspan class="cls-8" x="0" y="0">참</tspan><tspan class="cls-9" y="0">여 </tspan><tspan class="cls-8" y="0">기</tspan><tspan class="cls-9" y="0">회</tspan><tspan class="cls-8" y="0">의</tspan><tspan class="cls-9" y="0" xml:space="preserve"> 확</tspan><tspan class="cls-8" y="0">대</tspan><tspan y="0">로</tspan></text>
+  <text id="_7" data-name="" class="cls-7" transform="translate(780.51 632.622)"><tspan x="0" y="0"></tspan></text>
+  <text id="고객과의_신뢰관계_구축" data-name="고객과의 신뢰관계 구축" class="cls-7" transform="translate(658.85 654.616)"><tspan class="cls-9" x="0" y="0">고</tspan><tspan class="cls-8" y="0">객과</tspan><tspan class="cls-9" y="0">의 </tspan><tspan class="cls-8" y="0">신</tspan><tspan class="cls-9" y="0">뢰</tspan><tspan class="cls-8" y="0">관</tspan><tspan class="cls-9" y="0">계 </tspan><tspan class="cls-8" y="0">구</tspan><tspan y="0">축</tspan></text>
+  <rect id="사각형_63" data-name="사각형 63" class="cls-4" width="796" height="136" transform="translate(20 242.66)"/>
+  <line id="선_313" data-name="선 313" class="cls-2" x2="796" transform="translate(20 242.16)"/>
+  <line id="선_314" data-name="선 314" class="cls-2" x2="796" transform="translate(20 378.66)"/>
+  <text id="핵심_비즈니스와의" data-name="핵심 비즈니스와의" class="cls-11" transform="translate(70.51 411.94)"><tspan class="cls-6" x="0" y="0">핵심 비즈니스와</tspan><tspan y="0">의</tspan></text>
+  <text id="_8" data-name=" " class="cls-11" transform="translate(190.19 411.94)"><tspan x="0" y="0"> </tspan></text>
+  <text id="연계성_강화_및_확대" data-name="연계성 강화 및 확대" class="cls-11" transform="translate(66.35 434.933)"><tspan class="cls-6" x="0" y="0">연계성 강화 및 확</tspan><tspan y="0">대</tspan></text>
+  <g id="그룹_60" data-name="그룹 60" transform="translate(-8290.44 -1874.672)">
+    <path id="패스_192" data-name="패스 192" class="cls-12" d="M8461.425,2185.083a40.635,40.635,0,1,1-40.635-40.635,40.635,40.635,0,0,1,40.635,40.635"/>
+    <path id="패스_193" data-name="패스 193" d="M8433.075,2203.14c0-6.016-11.294-19.494-11.294-19.494s-11.294,13.478-11.294,19.494a11.3,11.3,0,0,0,22.588,0m-7.146-5.724c1.485,2.512,2.453,4.626,2.453,5.724a6.5,6.5,0,0,1-6.6,6.369"/>
+    <path id="패스_194" data-name="패스 194" class="cls-4" d="M8421.378,2209.224a8.078,8.078,0,1,0-8.386-8.072,8.233,8.233,0,0,0,8.386,8.072"/>
+    <path id="패스_195" data-name="패스 195" class="cls-4" d="M8431.162,2201.955c0-5.974-11.217-19.357-11.217-19.357s-11.215,13.383-11.215,19.357a11.223,11.223,0,0,0,22.432,0m-7.095-5.684c1.473,2.5,2.435,4.593,2.435,5.684a6.452,6.452,0,0,1-6.557,6.324"/>
+    <path id="패스_196" data-name="패스 196" class="cls-13" d="M8430.914,2201.935c0-5.85-10.969-18.952-10.969-18.952s-10.969,13.1-10.969,18.952a10.975,10.975,0,0,0,21.938,0Zm-6.938-5.565c1.441,2.443,2.382,4.5,2.382,5.565a6.311,6.311,0,0,1-6.412,6.191"/>
+  </g>
+  <text id="_1" data-name="1" class="cls-14" transform="translate(125.771 296.197)"><tspan x="0" y="0">1</tspan></text>
+  <text id="임직원의_자발적" data-name="임직원의 자발적" class="cls-11" transform="translate(265.423 411.94)"><tspan class="cls-6" x="0" y="0">임직원의 자발</tspan><tspan y="0">적</tspan></text>
+  <text id="_9" data-name=" " class="cls-11" transform="translate(370.702 411.94)"><tspan x="0" y="0"> </tspan></text>
+  <text id="참여_문화_정착" data-name="참여 문화 정착" class="cls-11" transform="translate(270.543 434.933)"><tspan class="cls-6" x="0" y="0">참여 문화 정</tspan><tspan y="0">착</tspan></text>
+  <g id="그룹_61" data-name="그룹 61" transform="translate(-8290.44 -1874.672)">
+    <path id="패스_197" data-name="패스 197" class="cls-12" d="M8649.138,2185.083a40.635,40.635,0,1,1-40.635-40.635,40.635,40.635,0,0,1,40.635,40.635"/>
+    <path id="패스_198" data-name="패스 198" d="M8619.8,2203.14c0-6.016-11.294-19.494-11.294-19.494s-11.294,13.478-11.294,19.494a11.3,11.3,0,0,0,22.588,0m-7.145-5.724c1.484,2.512,2.452,4.626,2.452,5.724a6.5,6.5,0,0,1-6.6,6.369"/>
+    <path id="패스_199" data-name="패스 199" class="cls-4" d="M8608.5,2209.224a8.078,8.078,0,1,0-8.387-8.072,8.233,8.233,0,0,0,8.387,8.072"/>
+    <path id="패스_200" data-name="패스 200" class="cls-4" d="M8619.719,2201.955c0-5.974-11.217-19.357-11.217-19.357s-11.215,13.383-11.215,19.357a11.223,11.223,0,0,0,22.432,0m-7.095-5.684c1.473,2.5,2.435,4.593,2.435,5.684a6.451,6.451,0,0,1-6.557,6.324"/>
+    <path id="패스_201" data-name="패스 201" class="cls-13" d="M8619.471,2201.935c0-5.85-10.969-18.952-10.969-18.952s-10.968,13.1-10.968,18.952a10.975,10.975,0,0,0,21.937,0Zm-6.937-5.565c1.44,2.443,2.381,4.5,2.381,5.565a6.311,6.311,0,0,1-6.412,6.191"/>
+  </g>
+  <text id="_2-2" data-name="2" class="cls-14" transform="translate(313.484 296.197)"><tspan x="0" y="0">2</tspan></text>
+  <text id="정부_및_민간단체와의" data-name="정부 및 민간단체와의" class="cls-11" transform="translate(445.744 411.94)"><tspan class="cls-6" x="0" y="0">정부 및 민간단체와</tspan><tspan y="0">의</tspan></text>
+  <text id="_10" data-name=" " class="cls-11" transform="translate(583.984 411.94)"><tspan x="0" y="0"> </tspan></text>
+  <text id="협력관계_구축" data-name="협력관계 구축" class="cls-11" transform="translate(469.425 434.933)"><tspan class="cls-6" x="0" y="0">협력관계 구</tspan><tspan y="0">축</tspan></text>
+  <g id="그룹_62" data-name="그룹 62" transform="translate(-8290.44 -1874.672)">
+    <path id="패스_202" data-name="패스 202" class="cls-12" d="M8845.94,2185.083a40.635,40.635,0,1,1-40.636-40.635,40.636,40.636,0,0,1,40.636,40.635"/>
+    <path id="패스_203" data-name="패스 203" d="M8817.59,2203.14c0-6.016-11.294-19.494-11.294-19.494S8795,2197.124,8795,2203.14a11.3,11.3,0,0,0,22.588,0m-7.145-5.724c1.484,2.512,2.453,4.626,2.453,5.724a6.5,6.5,0,0,1-6.6,6.369"/>
+    <path id="패스_204" data-name="패스 204" class="cls-4" d="M8805.893,2209.224a8.078,8.078,0,1,0-8.386-8.072,8.233,8.233,0,0,0,8.386,8.072"/>
+    <path id="패스_205" data-name="패스 205" class="cls-4" d="M8815.677,2201.955c0-5.974-11.217-19.357-11.217-19.357s-11.215,13.383-11.215,19.357a11.223,11.223,0,0,0,22.432,0m-7.095-5.684c1.473,2.5,2.435,4.593,2.435,5.684a6.451,6.451,0,0,1-6.557,6.324"/>
+    <path id="패스_206" data-name="패스 206" class="cls-13" d="M8815.429,2201.935c0-5.85-10.969-18.952-10.969-18.952s-10.968,13.1-10.968,18.952a10.975,10.975,0,0,0,21.937,0Zm-6.937-5.565c1.44,2.443,2.381,4.5,2.381,5.565a6.311,6.311,0,0,1-6.412,6.191"/>
+  </g>
+  <text id="_3-2" data-name="3" class="cls-14" transform="translate(510.286 296.197)"><tspan x="0" y="0">3</tspan></text>
+  <text id="고객의" class="cls-11" transform="translate(687.24 411.94)"><tspan class="cls-6" x="0" y="0">고객</tspan><tspan y="0">의</tspan></text>
+  <text id="_11" data-name=" " class="cls-11" transform="translate(730.76 411.94)"><tspan x="0" y="0"> </tspan></text>
+  <text id="참여_기회_확대" data-name="참여 기회 확대" class="cls-11" transform="translate(661.48 434.933)"><tspan class="cls-6" x="0" y="0">참여 기회 확</tspan><tspan y="0">대</tspan></text>
+  <g id="그룹_63" data-name="그룹 63" transform="translate(-8290.44 -1874.672)">
+    <path id="패스_207" data-name="패스 207" class="cls-12" d="M9040.075,2185.083a40.635,40.635,0,1,1-40.635-40.635,40.635,40.635,0,0,1,40.635,40.635"/>
+    <path id="패스_208" data-name="패스 208" d="M9011.725,2203.14c0-6.016-11.294-19.494-11.294-19.494s-11.294,13.478-11.294,19.494a11.3,11.3,0,0,0,22.588,0m-7.145-5.724c1.485,2.512,2.453,4.626,2.453,5.724a6.5,6.5,0,0,1-6.6,6.369"/>
+    <path id="패스_209" data-name="패스 209" class="cls-4" d="M9000.028,2209.224a8.078,8.078,0,1,0-8.387-8.072,8.233,8.233,0,0,0,8.387,8.072"/>
+    <path id="패스_210" data-name="패스 210" class="cls-4" d="M9009.812,2201.955c0-5.974-11.217-19.357-11.217-19.357s-11.215,13.383-11.215,19.357a11.223,11.223,0,0,0,22.432,0m-7.095-5.684c1.474,2.5,2.436,4.593,2.436,5.684a6.452,6.452,0,0,1-6.558,6.324"/>
+    <path id="패스_211" data-name="패스 211" class="cls-13" d="M9009.565,2201.935c0-5.85-10.97-18.952-10.97-18.952s-10.968,13.1-10.968,18.952a10.975,10.975,0,0,0,21.938,0Zm-6.938-5.565c1.44,2.443,2.381,4.5,2.381,5.565a6.312,6.312,0,0,1-6.412,6.191"/>
+  </g>
+  <text id="_4-2" data-name="4" class="cls-14" transform="translate(704.422 296.197)"><tspan x="0" y="0">4</tspan></text>
+  <text id="전략방향" class="cls-5" transform="translate(387.23 220.62)"><tspan class="cls-6" x="0" y="0">전략방</tspan><tspan y="0">향</tspan></text>
+  <rect id="사각형_64" data-name="사각형 64" class="cls-4" width="488" height="49.5" transform="translate(174 64.16)"/>
+  <text id="Cordial_Life_Care_Science_Solution_Company" data-name="Cordial Life Care Science &amp; Solution Company" class="cls-15" transform="translate(237.989 96.39)"><tspan class="cls-6" x="0" y="0">Co</tspan><tspan class="cls-16" y="0">r</tspan><tspan class="cls-17" y="0">di</tspan><tspan class="cls-6" y="0">a</tspan><tspan class="cls-17" y="0">l</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-17" y="0">Li</tspan><tspan class="cls-18" y="0">f</tspan><tspan class="cls-17" y="0">e</tspan><tspan class="cls-6" y="0" xml:space="preserve"> Ca</tspan><tspan class="cls-16" y="0">r</tspan><tspan class="cls-17" y="0">e</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-17" y="0">S</tspan><tspan class="cls-6" y="0">c</tspan><tspan class="cls-17" y="0">ie</tspan><tspan class="cls-6" y="0">n</tspan><tspan class="cls-19" y="0">c</tspan><tspan class="cls-17" y="0">e</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-17" y="0">&amp;</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-17" y="0">S</tspan><tspan class="cls-6" y="0">o</tspan><tspan class="cls-17" y="0">lu</tspan><tspan class="cls-6" y="0">t</tspan><tspan class="cls-17" y="0">i</tspan><tspan class="cls-6" y="0">on Co</tspan><tspan class="cls-17" y="0">m</tspan><tspan class="cls-20" y="0">p</tspan><tspan class="cls-6" y="0">an</tspan><tspan y="0">y</tspan></text>
+  <text id="비전" class="cls-5" transform="translate(402.532 43.112)"><tspan class="cls-6" x="0" y="0">비</tspan><tspan y="0">전</tspan></text>
+</svg>
