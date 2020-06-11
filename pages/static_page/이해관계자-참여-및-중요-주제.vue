@@ -36,7 +36,7 @@
                             </b-tr></b-tbody>
                         </b-table-simple>
 
-                        <b-table-simple responsive class="sep-table sep-table-body f-90 mb-5" style="border-bottom: 0.5px solid $gray3;">
+                        <b-table-simple responsive class="sep-table f-90 mb-5" style="border-bottom: 0.5px solid $gray3;">
                             <b-tbody>
                                 <b-tr>
                                     <b-td rowspan="3" style="width: 15%">고객<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td style="width: 38%">기업 홈페이지</b-td><b-td style="width: 17%">수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>제품 안전성 및 품질 책임</li><li>철저한 개인정보보호</li><li>제품 및 서비스 체험 및 경험</li><li>고객 불편사항의 즉각적 해소</li></ul></b-td>
