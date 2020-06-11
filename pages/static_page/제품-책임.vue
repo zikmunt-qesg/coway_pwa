@@ -1,206 +1,89 @@
 <template>
-<div class="position-relative page-top-bg min-vh-100">   
-    <logger title="제품 책임"></logger>
-    <b-img src="@/assets/images/사각형17.png" fluid class="page-top-img"></b-img>
+<div class="position-relative page-top-bg min-vh-100">  
+    <logger title="제품과 서비스의 혁신"></logger>
+    <b-img src="@/assets/images/사각형 8@2x.png" fluid class="material-page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="my-5 pt-md-5">
-            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">제품 책임</h1>
-            <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
+            <h1 class="mt-2 mt-lg-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
+            <p class="mb-0 mb-lg-4 text-center text-white w-100 f-95"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </p>
         </b-row>
-        <b-row>
-            <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
+        <b-row class="px-lg-3">
+            <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'동반성장'"
+                :main_title="'제품과 서비스의 혁신'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#8e6627'"
+                :active_color="'#1394d1'"
                 ></side-navigation>
             </b-col>
-            <b-col class="col-auto col-lg-9 pl-lg-4">
+            <b-col class="col-auto col-lg-9 pr-lg-0">
             <b-container class="px-0">
-                <section class="bg-blue-gray1 px-4 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
-                        <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
-                                <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor :title="'동반성장'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">동반성장</h4-ancor>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
-                            <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
-                            </b-col>
-                            <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold6 mb-3">Business relevance &amp; Approach</h7>
-                                <p>산업 내 상생을 도모하고 건전하고 공정한 거래 문화를 조성하는 것은 경쟁력 확보 및 지속가능한 시장 성장의 기반이 됩니다. 코웨이는 밸류체인 전 과정에서 협력사와의 긴밀한 협력과 상생활동을 추진하여 산업 내 건강한 거래문화를 견인합니다. 이를 위해 협력사와 열린 소통을 추진하여 경영안정 기반 강화, 성장 인프라 지원, 1차협력사의 2차 협력사 지원 등 다각적인 동반성장 활동을 추진하고 있습니다.   
-                                </p>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <h7 class="gold6 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>경영안정 기반 강화 지원</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>성장 인프라 지원</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>1차 협력사의 2차 협력사 지원</p>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
-                                <h7 class="gold6 mb-4 w-100">Business Cases</h7>
-                                <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">공정거래 4대 가이드라인을 기반으로 투명한 거래 문화 조성</p>
-                                    </b-col>
-                                </b-row>
-                            </b-col>
-                            <b-col class="col-12 col-md-7">
-                                <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
-                                <b-row no-gutters class="pl-md-4 position-relative"> 
-                                    <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                    <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">동반성장위원회 동반성장지수 2018까지 5년연속 최우수 등급 획득, 2019년 우수 등급 획득</p>
+                <section class="bg-blue1 px-4 py-4 mb-5">                    
+                    <b-row no-gutters class="px-3 pt-4">                            
+                        <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue7">
+                            <h4-ancor :title="'제품과 서비스의 혁신'" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품과 서비스의 혁신</h4-ancor>
+                        </b-col>
+                    </b-row>
+                    <b-row no-gutters class="px-3 pb-4">
+                        <b-col class="col-12 col-md-4 fw-500">
+                            <b-row no-gutters class="pr-md-4">
+                                <b-col class="col-12 pb-4 border-bottom-dark blue7">
+                                    <h7 class="mb-3 w-100">Activity</h7>
+                                    <div>‧ 본질적 가치를 높이는 제품 혁신</div>
+                                    <div>‧ 미래 기술 기반의 서비스 혁신</div>
+                                    <div>‧ 혁신을 위한 연구개발 역량 강화</div>
+                                </b-col>
+                                <b-col class="col-12 pt-3">
+                                    <h7 class="mb-4 w-100 blue7">Performance</h7>
+                                    <b-row>
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
+                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <p class="gray65 mb-0 fw-500"><span class="fw-600">2019</span>년 연구개발비</p>
+                                            <p class="mb-0 fw-400"><span class="f-230">37,671</span>백만 원</p>
+                                            <p class="gray65 fw-400 line-height-low px-xl-5">(전년대비 2.3% 증가, 매출액 대비 1.25%)</p>
                                         </b-col>
-                                        <b-col class="col-4 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">1,2차 간 상생협력을 위한 협약 체결 64건 달성</p>
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
+                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <p class="gray7 mb-0 fw-500">5년 연속</p>
+                                            <p class="f-140 fw-400">CES 혁신상 수상</p>
                                         </b-col>
                                     </b-row>
-                                </b-row>
-                            </b-col>                            
-                        </b-row>
-                    </div>
-                </section> 
-                <!-- End of DMA-->
-                <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사와의 소통을 통한 성장 지원'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사와의 소통을 통한 성장 지원</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p>코웨이는 협력사와의 열린 소통을 기반으로 건전한 산업 생태계를 조성하기 위해 동반성장을 추진하고 있습니다. 코웨이의 동반성장 추진 전략은 1) 품질/원가/기술/생산성 경쟁력 확보, 2) 지속가능 경영기반 강화, 3) 경영안정성 확보를 기반으로 글로벌 경쟁력을 확보하는 것입니다. 이에 따라 코웨이는 협력사와의 열린 소통을 동반성장 전략 이행의 핵심 전략으로 추진하고 있습니다. 
-                        </p>
-                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 지속가능한 동반성장 구축 그림</div>
-                        <p>코웨이는 정기적인 협의 채널인 착한믿음협의회를 운영하여 협력사와의 수평적 커뮤니케이션을 통해 산업 환경의 변화를 주도하고, 스마트한 커뮤니케이션을 위한 온라인 소통채널로 상생포털을 운영하고 있습니다. 간담회 위주의 정형화된 소통에서 벗어나 수평적이고 자율적인 협력사 소통을 위해 2011년부터 ‘착한믿음협의회’를 운영하고 있습니다. 착한믿음협의회는 코웨이의 주요 1차 및 2차 협력사가 참여하고 있습니다. 2019년 착한믿음협의회 참여기업은 67개사로, 생산성 혁신 활동 및 해외 우수기업 벤치마킹 등 기업 경쟁력 강화 활동을 진행하였습니다. 2019년 착한믿음협의회 활동 핵심 주제는 스마트팩토리(Smart Factory)와 생산성 향상으로, 교육 프로그램 ‘SMART DAY’를 4회 개최하였으며, 일본의 스마트팩토리 우수 도입 기업에 벤치마킹 연수를 실시하였습니다.
-                        </p>
-                        <p>온라인 동반성장 커뮤니티 ‘상생포털’은 산업 내 다양한 정보를 공유하고 동반성장 전략 및 혁신활동 등을 추진하는 기반 플랫폼으로 기능합니다. 2019년에는 6,541명의 협력사 임직원이 접속하여 12,636건의 댓글 소통을 진행하는 등 활발한 정보 공유의 장으로 활동을 이어 나가고 있습니다.
-                        </p>
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button>상생포털 바로가기</b-button></a>
-                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">그림. 동반성장협의회 구성</div>
-                        <p class="mb-45">코웨이는 협력사 동반성장 지원을 위해 경영안정 기반 강화 지원, 성장 인프라 지원, 2차협력사 지원 등을 제공하고 있습니다. 
-                        </p>
-                    
-                    <h7 class="mb-3">경영안정 기반 강화</h7>
-                            <b-table-simple responsive class="text-table social-table f-95 mb-45">
-                                <b-thead><b-tr>
-                                    <b-td>구분</b-td> <b-td>추진내용</b-td><b-td>2019 추진결과</b-td>
-                                </b-tr></b-thead>
-                                <b-tbody>
-                                    <b-tr>
-                                        <b-td>금융(자금)지원</b-td>
-                                        <b-td>200억 원 규모의 상생펀드와 30억 원 상한의무이자 자금 지원제도 운영</b-td> 
-                                        <b-td>자금지원: 84.01억 원 지원</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>대금지급</b-td>
-                                        <b-td>납품거래 시 10일 이내 100% 현금으로 결제</b-td> 
-                                        <b-td>대금지급일: 9.8일</b-td>
-                                    </b-tr>  
-                                    <b-tr>
-                                        <b-td>결재수단</b-td>
-                                        <b-td>현금(성) 결제 비율 100%</b-td> 
-                                        <b-td>결제수단: 현금(성) 100% 지급 이행</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>분쟁조정절차 마련 및 운영</b-td>
-                                        <b-td>분쟁조정절차를 마련하고 운용</b-td> 
-                                        <b-td>윤리제보센터 운용<br>사규화 및 홈페이지 고지</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>매입액 조정</b-td>
-                                        <b-td>협력사의 매입액 인상 요청에 대한 실제 매입액 조정(증가) 비율</b-td> 
-                                        <b-td>인상비율: 99.9%</b-td>
-                                    </b-tr> 
-                                    <b-tr>
-                                        <b-td>협력사 근로자 근로조건 개선</b-td>
-                                        <b-td>소비자물가상승률 대비 협력사 근로자 임금 향상</b-td> 
-                                        <b-td>임금상승률: 9.6%</b-td>
-                                    </b-tr>       
-                                </b-tbody>                                
-                            </b-table-simple>
-
-                        <h7 class="mb-3">성장인프라 지원</h7>
-                            <b-table-simple responsive class="text-table social-table f-95 mb-45">
-                                <b-thead><b-tr>
-                                    <b-td>구분</b-td> <b-td>추진내용</b-td><b-td>2019 추진결과</b-td>
-                                </b-tr></b-thead>
-                                <b-tbody>
-                                    <b-tr>
-                                        <b-td>교육 및 채용</b-td>
-                                        <b-td>협력사 현장개선활동 및 채용지원</b-td> 
-                                        <b-td>협력사 역량개발교육: 수료 인원 243명 (총12과목)</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>기술 지원 및 보호</b-td>
-                                        <b-td>협력사 기술 경쟁력 확보를 위한 기술 지원 및 보호 프로그램 운영</b-td> 
-                                        <b-td>기술지원/공동기술개발: 2건(47백만원)<br>기술보호/기술임치: 6건</b-td>
-                                    </b-tr>  
-                                    <b-tr>
-                                        <b-td>생산성 향상</b-td>
-                                        <b-td>현금(성) 결제 비율 100%</b-td> 
-                                        <b-td>결제수단: 현금(성) 100% 지급 이행</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>분쟁조정절차 마련 및 운영</b-td>
-                                        <b-td>협력사 현장 혁신지원을 통한 생산성 향상</b-td> 
-                                        <b-td>현장 혁신지원(공정혁신): 5개사 5건</b-td>
-                                    </b-tr>   
-                                </b-tbody>                                
-                            </b-table-simple>
-
-                        <h7 class="mb-3">1차 협력사의 2차 협력사 지원 유도</h7>
-                            <b-table-simple responsive class="text-table social-table f-95 mb-45">
-                                <b-thead><b-tr>
-                                    <b-td>구분</b-td> <b-td>추진내용</b-td><b-td>2019 추진결과</b-td>
-                                </b-tr></b-thead>
-                                <b-tbody>
-                                    <b-tr>
-                                        <b-td>협약 체결</b-td>
-                                        <b-td>1, 2차 간 상생협력을 위한 협약 체결</b-td> 
-                                        <b-td>64개사 협약 체결</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>자금 지원</b-td>
-                                        <b-td>2차 협력사 금융지원 유도</b-td> 
-                                        <b-td>5개사 17억 원 지원</b-td>
-                                    </b-tr>  
-                                    <b-tr>
-                                        <b-td rowspan="2">2차 협력사 지원</b-td>
-                                        <b-td>대금지급조건 개선 유도 시스템 도입</b-td> 
-                                        <b-td>1,355억 원 모니터링 완료</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>대금지급조건 개선 정도</b-td>
-                                        <b-td>평균지급일수: 25.4일<br>현금비율: 77%</b-td> 
-                                    </b-tr>   
-                                </b-tbody>                                
-                            </b-table-simple>
-
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'공정거래 문화 조성'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">공정거래 문화 조성</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p>코웨이는 협력사의 권리와 이익을 정당하게 반영하고, 원청회사의 우월한 교섭력 남용을 방지하고자 상생협력을 위한 공정거래 4대 가이드라인을 운용하고 있습니다.  
-                        </p>
-                        <p>공정거래 4대 가이드라인은 1) 바람직한 계약 체결, 2) 협력사 선정운용의 공정성 및 투명성 보장, 3) 대·중소기업간 바람직한 계약체결 가이드라인의 준수, 4) 거래 심의위원회 설치 및 운용으로 구성되어 있으며, 이를 준수하기 위해 공정거래 담당자를 중심으로 가이드라인 준수 여부를 지속적으로 모니터링 및 문서화하여 관리하고 있습니다. 2019년에는 투명한 협력업체 선정을 위해 신규 입찰 시스템을 도입하고, 협력사에 시스템 이용 교육을 제공하였습니다.
-                        </p>
-                        <p>코웨이는 공정한 거래를 위해 공정거래위원회가 제시한 가이드라인을 내규화 하고 이를 운용하고자 내부 불공정거래 감시기구를 설치하여 운영하고 있습니다. 불공정거래 감시기구는 상생협력팀, 자재관리팀(유구, 인천), 기구구매팀, 전장구매팀의 각 팀장으로 구성되어 있으며 연 12회 공정거래 자율 심의 위원회를 운영하여 단가 변동 추이 등을 포함한 협력사 거래의 전반적인 사항을 모니터링 합니다. 코웨이는 공급망 내 투명한 거래 문화를 조성하여 함께 성장할 수 있는 산업 생태계를 조성해 나갈 예정입니다.
-                        </p>
+                                </b-col>
+                            </b-row>                            
+                        </b-col>                        
+                        <b-col class="col-12 col-md-8 pr-2 position-relative pl-md-5">
+                        <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
+                            <h7 class="blue7 mb-3">Business relevance & Approach</h7>
+                            <p >감염병의 확산과 미세먼지 증가 등 최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 가정에 머무는 시간이 증가함에 따라 건강과 위생은 물론, 고객 개인의 라이프스타일을 반영한 제품과 서비스에 대한 니즈가 증가하였으며, 디지털 기술이 생활 전반에 자리함에 따라 주거공간에 인공지능(AI), 사물인터넷(IoT) 기술을 접목한 스마트 홈(Smart Home) 구현이 경쟁 요소로 자리하였습니다.
+                            </p>
+                            <p class="mb-45">코웨이는 이러한 변화를 환경가전 렌탈 비즈니스의 새로운 기회로 삼아 ‘물과 공기를 깨끗하게’라는 코웨이의 본질을 강화하기 위한 활동을 추진하였습니다. 2019년 코웨이는 위생성을 극대화한 ‘한뼘 시루직수 정수기’를 출시하고, 빅데이터 기반 고객 맞춤형 제품을 추천하는 ‘워터맵 서비스’를 제공하는 한편, 깨끗하고 맛있는 물을 선도하는 글로벌 리더로서 연구를 강화하기 위해 R&D 센터 내 ‘물맛 연구소’를 개소하는 등의 혁신 활동을 추진하였습니다. 또한, 오픈 이노베이션을 통해 제품에 ICT 기술을 결합한 스마트 가전을 선보이며 시장 내 경쟁력을 확보하고 고객 가치를 향상하기 위한 노력을 기울이고 있습니다.
+                            </p>
+                            <h7 class="blue7 mb-3">Business Cases</h7>
+                            <div class="d-flex align-items-center">
+                                <div class="py-2 d-flex align-items-center mr-3" style="width: 55%">
+                                    <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                    <p class="fw-500 mb-0 word-break"><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</p>
+                                </div>
+                                <div class="py-2 d-flex align-items-center" style="width: 45%">
+                                    <div class="temp-icon8 w-25"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                    <p class="fw-500 mb-0">물맛연구소 개소</p>
+                                </div>
+                            </div>
+                        </b-col>
+                    </b-row>
                 </section>
+                <hr class="py-3">
+                <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'본질적 가치를 높이는 제품 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p class="pb-3 mb-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
+                    </p>
+                    <b-row class="mb-5">
+                        <b-col class="col-12 col-md-5 mb-3 mb-md-0 temp-img1 pr-0"><b-img src="@/assets/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
+                        <b-col class="col-12 col-md-7 px-3 px-xl-0"><h6-ancor :title="'혁신 기술의 집약, 한뼘 시루직수 정수기 개발 '" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
+                            <p>코웨이는 끊임없는 기술 진화를 통해 2019년 ‘한뼘 시루직수 정수기’를 출시하였습니다. 한뼘 시루직수 정수기는 RO멤브레인 필터를 직수화 기술로 구현한 ‘시루직수 정수기’의 업그레이드 버전으로, 오염 물질 제거 성능과 풍부한 유량을 특징으로 합니다. 필터 기술력의 정점인 ‘CIROO 2.0 필터’를 탑재하여, 기존 필터보다 면적을 6배, 정수량을 30배 높인 직수 방식으로 구현하였으며, 물을 마실 때마다 유로에 남은 물을 배출하는 ‘유로 비움 모드’, 24시간 동안 사용하지 않으면 정수기 속 남은 물을 배출하는 ‘자동 배수 시스템’으로 위생성을 향상하였습니다. 또한, 기존 시루직수 정수기(CHP-7300R, CP-7300R) 대비 크기를 약 30% 줄여 공간 활용도를 높였고, 소형 냉각 시스템과 순간 온수 시스템을 적용하여 에너지소비효율을 1등급으로 높여 친환경적 측면도 개선하였습니다.
+                            </p>
+                        </b-col>
+                    </b-row>
             </b-container> 
             <!-- End of Contents Container -->
             </b-col>
