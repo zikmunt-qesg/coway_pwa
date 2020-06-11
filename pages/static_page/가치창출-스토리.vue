@@ -35,8 +35,8 @@
                     <b-img src="@/assets/images/1_1.svg" fluid class="w-100"></b-img>
 
                     <hr class="mb-3">
-                        <h7 class="mb-2 gray63">통합 자본표</h7>
-                        <b-table-simple responsive class="num-table f-95">
+                        <h7 class="mb-3 gray63">통합 자본표</h7>
+                        <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="4">구분</b-td><b-td>단위</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>

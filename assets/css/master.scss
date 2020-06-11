@@ -243,10 +243,19 @@
 .footnote-ol{
     padding-left: 1rem;
     margin: 0;
+    counter-reset: list;
 }
 .footnote-ol li {
     margin-bottom: 0.35rem;
     color: #656464;
+    list-style: none;
+    position: relative;
+}
+.footnote-ol li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
+    position: absolute;
+    left: -0.9rem;
 }
 
 

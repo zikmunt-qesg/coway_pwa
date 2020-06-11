@@ -24,7 +24,7 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'이해관계자 참여 및 중요 주제'" :activated="activated" class="parang8 mb-4 mb-sm-5">이해관계자 참여 및 중요 주제</h4-ancor>
 
-                    <h6-ancor :title="'이해관계자 참여'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">이해관계자 참여</h6-ancor>
+                    <h6-ancor :title="'이해관계자 참여'" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">이해관계자 참여</h6-ancor>
                     <p class="">코웨이는 기업 활동에 대해 영향을 주고받는 조직 내·외부의 주체를 이해관계자로 정의하고 이를 7개 그룹으로 나누어 관리하고 있습니다. 이해관계자 그룹 별 다양한 커뮤니케이션 채널을 운영하여 경영의 투명성을 제고하고 신뢰성 있는 관계를 구축해 나가고 있습니다. 코웨이의 이해관계자별 커뮤니케이션 채널은 각 담당부서에서 운영되며 주요 이슈는 경영위원회를 통해 검토됩니다. 
                     </p>
 

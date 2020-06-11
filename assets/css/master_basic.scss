@@ -578,6 +578,24 @@ table, .table {
     background-color:  $gold7;
     color: white;
 }
+.btn-parang {
+    background-color: $parang6;
+    color: $gray1;
+}
+.btn-parang:hover {
+    background-color:  $parang7;
+    color: white;
+}
+.btn-parang-text {
+    background-color: rgba(0,0,0,0);
+    color: $parang6;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.btn-parang-text:hover {
+    background-color:  rgba(0,0,0,0);
+    color: $parang7;
+}
 .btn-blue {
     background-color: $blue5;
     color: $gray1;
