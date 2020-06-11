@@ -31,9 +31,17 @@
 
                     <h7 class="mb-2">이사회 구성현황</h7>
                         <b-table-simple responsive class="text-table f-95">
+                        </b-table-simple>
+                        
+                </section> 
+                <!-- End of DMA-->
 
-
-
+                <section class="mb-5">
+                </section>
+            </b-container> 
+            <!-- End of Contents Container -->
+            </b-col>
+        </b-row>
     </b-container>
 </div>
 </template>
