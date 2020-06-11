@@ -5,90 +5,109 @@
 
     <b-container class="">
         <b-row class="my-5 pt-md-5">
-            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">윤리경영</h1>
+            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
             <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
                 <side-navigation 
-                :main_title="'가치창출 스토리'"
+                :main_title="'윤리경영'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#8e6627'"
+                :active_color="'#313d72'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-blue-gray1 px-4 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
-                        <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
-                                <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor :title="'동반성장'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">동반성장</h4-ancor>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
-                            <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
-                            </b-col>
-                            <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold6 mb-3">Business relevance &amp; Approach</h7>
-                                <p>산업 내 상생을 도모하고 건전하고 공정한 거래 문화를 조성하는 것은 경쟁력 확보 및 지속가능한 시장 성장의 기반이 됩니다. 코웨이는 밸류체인 전 과정에서 협력사와의 긴밀한 협력과 상생활동을 추진하여 산업 내 건강한 거래문화를 견인합니다. 이를 위해 협력사와 열린 소통을 추진하여 경영안정 기반 강화, 성장 인프라 지원, 1차협력사의 2차 협력사 지원 등 다각적인 동반성장 활동을 추진하고 있습니다.   
-                                </p>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <h7 class="gold6 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>경영안정 기반 강화 지원</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>성장 인프라 지원</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>1차 협력사의 2차 협력사 지원</p>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
-                                <h7 class="gold6 mb-4 w-100">Business Cases</h7>
-                                <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">공정거래 4대 가이드라인을 기반으로 투명한 거래 문화 조성</p>
-                                    </b-col>
-                                </b-row>
-                            </b-col>
-                            <b-col class="col-12 col-md-7">
-                                <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
-                                <b-row no-gutters class="pl-md-4 position-relative"> 
-                                    <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                    <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">동반성장위원회 동반성장지수 2018까지 5년연속 최우수 등급 획득, 2019년 우수 등급 획득</p>
-                                        </b-col>
-                                        <b-col class="col-4 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">1,2차 간 상생협력을 위한 협약 체결 64건 달성</p>
-                                        </b-col>
-                                    </b-row>
-                                </b-row>
-                            </b-col>                            
-                        </b-row>
-                    </div>
+                <section class="bg-white px-4 py-4 mb-5">
+
+                    <div class="border-top-dark pb-2 mb-5"></div>
+                    <h4-ancor :title="'윤리경영'" :activated="activated" class="blue9 mb-4 mb-sm-5 mt-m-2">윤리경영</h4-ancor>
+
+                    <p>코웨이는 윤리경영 방식인 3C(Code of Conduct, Compliance Check Organization, Consensus by Ethic Education)을 바탕으로 ‘클린 코웨이’를 추구 및 구현하고 있습니다. 
+                    </p>
+
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">윤리경영 체계 그림</div>    
+
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'윤리강령(Code of Conduct)'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리강령(Code of Conduct)</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p>코웨이는 책임있는 윤리 실천을 위해 ‘클린 코웨이(Clean Coway)’를 비전으로 윤리경영 문화를 조성하고 있습니다. 코웨이는 윤리헌장, 윤리규정, 윤리실천지침을 제정하여 임직원 및 이해관계자의 윤리적 행동 지침을 명확하게 규정하고 적용하고 있습니다. 윤리헌장은 클린 코웨이의 기본 원칙을 정립하며, 윤리규정을 통해 임직원 및 이해관계자의 윤리적 행동 및 가치판단의 기준을 명시합니다. 또한 윤리실천지침을 통해 구체적인 실천사항을 규정하여 다양한 윤리 이슈에 대응할 수 있는 지침을 마련하였습니다.
+                    </p>
+
+                    <a href="http://sustainability18.coway.co.kr/download/20140624%EC%9C%A4%EB%A6%AC%ED%97%8C%EC%9E%A5.pdf" target="_blink"><b-button>윤리헌장</b-button></a>
+                    <a href="http://sustainability18.coway.co.kr/download/20130529%EC%9C%A4%EB%A6%AC%EA%B7%9C%EC%A0%95.pdf" target="_blink"><b-button>윤리규정</b-button></a>
+                    <a href="http://sustainability18.coway.co.kr/download/%EC%BD%94%EC%9B%A8%EC%9D%B4%20%EC%9C%A4%EB%A6%AC%EC%8B%A4%EC%B2%9C%EC%A7%80%EC%B9%A8.pdf" target="_blink"><b-button>윤리실천지침</b-button></a>
+
+                    <p>코웨이는 홈페이지에 이해관계자가 제보하는 잘못된 관행이나 정책에 대한 개선사항을 접수 받는 윤리제보센터를 운영하고 있습니다. 코웨이는 우편, 팩스 및 온라인을 통해 제보를 접수받고 있습니다. 제보가 접수되면 윤리경영실에서 사안을 판단하여 조사를 진행하고 있으며, 제보된 사안과 동일 또는 유사한 사안이 재발하지 않도록 필요한 경우 사례공유 및 교육을 진행합니다. 코웨이는 제보자를 보호하기 위해 제보자 보호 및 포상 지침을 수립하여 적용하고 있습니다. 
+                    </p>
+
+                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blink"><b-button>윤리 제보센터</b-button></a>
+
+                        <h7 class="mb-2 gray63">코웨이 윤리 제보 프로세스</h7>
+                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">윤리 제보 프로세스 그림</div>
+
+
+                        <h7 class="mb-2 gray63">2019 윤리 제보 및 조치 건수</h7>
+                        <b-table-simple responsive class="num-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>기타 윤리실천지침 위배<sup>1)</sup></b-td><b-td>변칙영업</b-td><b-td>기타(금전거래 등)</b-td><b-td>총계</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">2019년 윤리 제보 건수</b-td><b-td>77건</b-td><b-td>50건</b-td><b-td>3건</b-td><b-td>130건</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                    
+                    <div class="d-flex mb-3 position-relative"><h6-ancor :title="'윤리진단(Compliance Check Organization)'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리진단(Compliance Check Organization)</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p>코웨이는 윤리강령에 기반하여 윤리 리스크 예방을 위해 정기적으로 윤리 진단을 실시하고 있습니다.  2019년 총 12회의 진단을 시행하였으며, 관련 내용을 사업장에 정기적으로 공지하여 비윤리 행위를 예방하고 있습니다. 
+                    </p>
+
+                        <h7 class="mb-2 gray63">반부패 진단 및 조치 현황</h7>
+                        <b-table-simple responsive class="num-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td>부패 진단이 실시된 사업장 비율</b-td><b-td>%</b-td><b-td>100%</b-td><b-td>100%</b-td><b-td>100%</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>윤리강령 위반에 대한 조치<sup>*</sup></b-td><b-td>건</b-td><b-td>46<sup>**</sup></b-td><b-td>4</b-td><b-td>5</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <p class="f-80 ml-1">
+                            * 인사위원회 실제 징계조치 건 수
+                            ** 2017년은 변칙 영업으로 인한 제재 건을 포함한 수치임. 2018년부터 제외함
+                        </p>                        
+
+                    <div class="d-flex mb-3 position-relative"><h6-ancor :title="'윤리교육(Consensus by Ethic Education)'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리교육(Consensus by Ethic Education)</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p>코웨이는 내재화된 윤리 문화로서 ‘클린 코웨이’를 조성하기 위해 정기적으로 윤리교육을 실시하여 윤리경영에 대한 인식과 실천 의지를 제고하고 있습니다. 전사 임직원을 대상으로 격년제로 의무 교육을 시행함에 따라 2019년에는 내부통제 수행자 및 관리자, 임원, 감사위원회를 대상으로 내부회계관리제도 오프라인 교육을 실시하였습니다.  
+                    </p>
+
+                        <h7 class="mb-2 gray63">임직원 윤리경영 교육</h7>
+                        <b-table-simple responsive class="num-table f-95">
+                             <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td>윤리경영 교육 참여 인원</b-td><b-td>명</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>윤리경영 교육 참여율<sup>*</sup></b-td><b-td>%</b-td><b-td>94</b-td><b-td>89</b-td><b-td>4<sup>**</sup></b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                        <p class="f-80 ml-1">
+                            * 전체 직원(4,988명) 대비 참여율
+                            ** 2019년부터 윤리교육을 격년제로 전환하여 교육 참여율이 감소 함
+                        </p>
                 </section> 
                 <!-- End of DMA-->
-
-                <section class="mb-5">
-                </section>
             </b-container> 
             <!-- End of Contents Container -->
-            </b-col>
+            </b-col>    
         </b-row>
     </b-container>
 </div>
@@ -104,20 +123,18 @@ export default {
     layout: 'StaticPage',
     data(){
         return {
-            title: '깨끗한 물과 공기를 위한 환경경영',
+            title: '윤리경영',
             activated: [],
             sub_titles: [
                 { 
-                    title: '환경경영을 통한 깨끗함의 가치 실현', 
-                    child: [
-                        { title: '코웨이 환경경영 방침' }, 
-                        { title: '환경경영 전략' }, 
-                        { title: '환경경영 추진 체계' }, 
-                    ]
+                    title: '윤리강령(Code of Conduct)', 
                 },
                 { 
-                    title: '가치사슬 전체의 환경역량 강화' 
-                }
+                    title: '윤리진단(Compliance Check Organization)' 
+                },
+                { 
+                    title: '윤리교육(Consensus by Ethic Education)' 
+                },                
             ],
         }
     },

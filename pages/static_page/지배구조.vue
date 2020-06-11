@@ -30,7 +30,7 @@
                     </p>
 
                     <h6-ancor :title="'이사회 구성 현황'" :activated="activated" class="blue6 fw-500 mb-2">이사회 구성 현황</h6-ancor>
-                        <b-table-simple responsive class="text-table f-95">
+                        <b-table-simple responsive class="txt-table f-95">
                             <b-thead>
                                 <b-tr>
                                     <b-td>성명</b-td><b-td>주요 역할</b-td><b-td>성별</b-td><b-td>주요 경력<sup>*</sup></b-td><b-td>최종 선임일</b-td>
