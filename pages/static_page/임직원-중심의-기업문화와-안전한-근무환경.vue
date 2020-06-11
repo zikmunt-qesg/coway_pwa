@@ -32,7 +32,7 @@
                                 <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold6 mb-3">Business relevance & Approach</h7>
+                                <h7 class="gold7 mb-3">Business relevance & Approach</h7>
                                 <p>임직원이 자유롭게 역량을 발휘할 수 있는 기업문화는 기업 경쟁력을 유지하기 위해 매우 중요한 요소입니다. 코웨이는 투명하고 공정한 채용 과정을 통해 우수 인재를 선발하고, 체계화된 교육 프로그램을 운영하여 임직원이 자발적으로 역량을 개발할 수 있도록 지원합니다. 또한 임직원과의 적극적인 커뮤니케이션을 기반으로 수평적으로 소통하는 기업문화를 조성하여 자율적인 업무역량 발휘는 물론 일과 삶의 균형을 추구하는 인재 경영을 실천하고 있습니다. 
                                 </p>
                                 <p>또한, 사람 중심의 기업문화에 기반하여 안전한 업무 환경을 조성하고 근로자의 질병 및 재해를 최소화하기 위해 안전보건 경영을 추진합니다. 산업안전보건위원회를 기반으로 안전보건 시스템을 마련하고, 국내 전 공장에 통합적인 안전보건 시스템을 운영하고 있습니다.
@@ -40,7 +40,7 @@
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
-                            <h7 class="gold6 mb-4 w-100">Activity</h7>
+                            <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">STEP 제도 기반의 역량 강화</p>
@@ -56,7 +56,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
-                                <h7 class="gold6 mb-4 w-100">Business Cases</h7>
+                                <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-3 px-md-0">디지털 기반의 업무 혁신 지원</p>
@@ -67,7 +67,7 @@
                                 </b-row>
                             </b-col>
                             <b-col class="col-12 col-md-7">
-                                <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
+                                <h7 class="gold7 mb-3 w-100 pl-md-4">Performance</h7>
                                 <b-row no-gutters class="pl-md-4 position-relative"> 
                                     <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                     <b-row no-gutters class="w-100">

@@ -98,11 +98,21 @@
 .blue-line {
     background-color: $blue6!important; 
 }
+.parang-line {
+    background-color: $parang7!important; 
+}
 .green-line {
-    background-color: $green5!important; 
+    background-color: $green6!important; 
 }
 .gold-line {
     background-color: $gold7!important; 
+}
+
+.parang8-box {
+    border: 1px solid $parang8;
+    -webkit-box-shadow: 6px 4px 0px 0px $parang8;
+    -moz-box-shadow: 6px 4px 0px 0px $parang8;
+    box-shadow: 6px 4px 0px 0px $parang8;
 }
   
 /* padding and margin extra */
@@ -153,7 +163,6 @@
     border-collapse: separate;
     border-spacing: 7px 0;
     margin-left: -4px;
-    font-weight: 300;
 }
 .num-table > table > thead > tr > td,
 .num-table > table > tbody > tr > td {
@@ -165,9 +174,14 @@
     padding: 0.2rem 0;
     text-align: left;
 }
+.sep-table > table > tbody > tr > td {
+    padding: 0.2rem 0.25rem;
+    text-align: left;
+}
 
 .num-table > table > tbody > tr > td, 
-.txt-table > table > tbody > tr > td {
+.txt-table > table > tbody > tr > td,
+.sep-table > table > tbody > tr > td {
     border-top: 0;
     border-bottom: 0.5px solid $gray3;
 }
@@ -183,6 +197,9 @@
 .social-table > table > thead > tr > td{
     border-bottom: 1.2px solid $gold6;
 }
+.sustainability-table > table > thead > tr > td{
+    border-bottom: 1.2px solid $parang6;
+}
 .case-table > table > thead > tr > td{
     border-bottom: 0;
 }
@@ -190,22 +207,36 @@
     font-size: 0.9rem;
     padding: 0.3rem 0;
 }
+.sep-table > table {
+    border-collapse: separate;
+    border-spacing: 10px 0;
+    margin-left: -5px;
+}
 
+// .sep-table-body > table > tbody > tr > td{
+//     vertical-align: middle;
+// }
 
-.custom-ul-li > ul{
+.custom-ul-li ul,
+.custom-ul{
     padding-left: 1rem;
     margin: 0;
     list-style: none;
 }
-.custom-ul-li > ul li {
+.custom-ul-li ul li,
+.custom-ul li {
     margin-bottom: 0.3rem
 }
-.custom-ul-li ul li:before {
+.custom-ul-li ul li:before,
+.custom-ul li:before{
     content: "•";
     font-size: 0.6rem;
     padding-right: 5px;
     margin-left: -9px;
     color: $gray7;
+}
+.table-li ul li {
+    margin-bottom:0!important;
 }
 
 
