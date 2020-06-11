@@ -203,6 +203,9 @@ p {
 p.word-break {
     word-break: keep-all;
 }
+td.word-break{
+    word-break: normal;
+}
 
 h1{
     font-size: 2.3rem;
