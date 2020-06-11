@@ -318,8 +318,6 @@
                 </section> 
                 <!-- End of DMA-->
 
-                <section class="mb-5">
-                </section>
             </b-container> 
             <!-- End of Contents Container -->
             </b-col>
