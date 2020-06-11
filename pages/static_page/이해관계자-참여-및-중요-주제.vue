@@ -5,82 +5,199 @@
 
     <b-container class="">
         <b-row class="my-5 pt-md-5">
-            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">이해관계자 참여 및 중요 주제</h1>
+            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">CARE FOR SUSTIANBILITY</h1>
             <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 side-nav position-relative">
                 <side-navigation 
-                :main_title="'가치창출 스토리'"
+                :main_title="'이해관계자 참여 및 중요 주제'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#8e6627'"
+                :active_color="'#313d72'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-blue-gray1 px-4 py-4 mb-5">
-                    <div class="border-top-bottom-bold">
-                        <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
-                                <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor :title="'동반성장'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">동반성장</h4-ancor>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
-                            <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
-                            </b-col>
-                            <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold6 mb-3">Business relevance &amp; Approach</h7>
-                                <p>산업 내 상생을 도모하고 건전하고 공정한 거래 문화를 조성하는 것은 경쟁력 확보 및 지속가능한 시장 성장의 기반이 됩니다. 코웨이는 밸류체인 전 과정에서 협력사와의 긴밀한 협력과 상생활동을 추진하여 산업 내 건강한 거래문화를 견인합니다. 이를 위해 협력사와 열린 소통을 추진하여 경영안정 기반 강화, 성장 인프라 지원, 1차협력사의 2차 협력사 지원 등 다각적인 동반성장 활동을 추진하고 있습니다.   
-                                </p>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <h7 class="gold6 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>경영안정 기반 강화 지원</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>성장 인프라 지원</p>
-                            </b-col>
-                            <b-col class="col-6 col-md-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p>1차 협력사의 2차 협력사 지원</p>
-                            </b-col>
-                        </b-row>
-                        <b-row no-gutters class="px-3 py-3 border-top-bold">
-                            <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
-                                <h7 class="gold6 mb-4 w-100">Business Cases</h7>
-                                <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="word-break">공정거래 4대 가이드라인을 기반으로 투명한 거래 문화 조성</p>
-                                    </b-col>
-                                </b-row>
-                            </b-col>
-                            <b-col class="col-12 col-md-7">
-                                <h7 class="gold6 mb-3 w-100 pl-md-4">Performance</h7>
-                                <b-row no-gutters class="pl-md-4 position-relative"> 
-                                    <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                    <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">동반성장위원회 동반성장지수 2018까지 5년연속 최우수 등급 획득, 2019년 우수 등급 획득</p>
-                                        </b-col>
-                                        <b-col class="col-4 text-center px-2">
-                                            <p class="fw-500 line-height-low word-break">1,2차 간 상생협력을 위한 협약 체결 64건 달성</p>
-                                        </b-col>
-                                    </b-row>
-                                </b-row>
-                            </b-col>                            
-                        </b-row>
-                    </div>
+                <section class="bg-white px-4 py-4 mb-5">
+
+                    <div class="border-top-dark pb-2 mb-5"></div>
+                    <h4-ancor :title="'이해관계자 참여 및 중요 주제'" :activated="activated" class="blue9 mb-4 mb-sm-5 mt-m-2">이해관계자 참여 및 중요 주제</h4-ancor>
+
+                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'이해관계자 참여'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">이해관계자 참여</h6-ancor></div>
+                    <p>코웨이는 기업 활동에 대해 영향을 주고받는 조직 내·외부의 주체를 이해관계자로 정의하고 이를 7개 그룹으로 나누어 관리하고 있습니다. 이해관계자 그룹 별 다양한 커뮤니케이션 채널을 운영하여 경영의 투명성을 제고하고 신뢰성 있는 관계를 구축해 나가고 있습니다. 코웨이의 이해관계자별 커뮤니케이션 채널은 각 담당부서에서 운영되며 주요 이슈는 경영위원회를 통해 검토됩니다. 
+                    </p>
+
+                    <hr class="mb-3">
+                        <h7 class="mb-2">이해관계자 커뮤니케이션 채널</h7>
+                        <b-table-simple responsive class="text-table f-95">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td>이해관계자</b-td><b-td>커뮤니케이션 채널</b-td><b-td>커뮤니케이션 빈도</b-td><b-td>주요 관심사</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td rowspan="3">고객</b-td><b-td>기업 홈페이지</b-td><b-td>수시</b-td><b-td rowspan="3"><li>제품 안전성 및 품질 책임</li><li>철저한 개인정보보호</li><li>제품 및 서비스 체험 및 경험</li><li>고객 불편사항의 즉각적 해소</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>미디어 및 보도자료</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>VOD/콜센터</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="4">주주·투자자</b-td><b-td>정기 주주총회</b-td><b-td>연 1회</b-td><b-td rowspan="4"><li>기업 가치 구축</li><li>주주가치 제고</li><li>건전한 지배구조</li><li>사업 기회 및 위험 관리</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>IR 미팅</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>투자자/애널리스트 컨퍼런스 콜</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>IR웹진</b-td><b-td>월 1회</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="3">임직원</b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3"><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>사내 온라인 상담 채널(소나무 베이커리, 코러스)</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>아이디어 제안 제도(상상오션)</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="3">파트너 및 협력사</b-td><b-td>협력사 협의회(착한믿음 협의회)</b-td><b-td>연 4회</b-td><b-td rowspan="3"><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>협력사 온라인 상생포털</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>파트너 간담회</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="3">지역사회</b-td><b-td>지역 협의회</b-td><b-td>연 4회</b-td><b-td rowspan="3"><li>사회공헌 및 지역사회 활동 참여</li><li>지역 내 일자리 창출</li><li>지속가능한 지역 발전</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>NGO 미팅</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>사회공헌 사업 및 프로젝트</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="4">학계·언론</b-td><b-td>기업지배구조 보고서</b-td><b-td>연 1회</b-td><b-td rowspan="4"><li>투명한 정보공개</li><li>ESG 데이터 및 성과 커뮤니케이션</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>사업보고서 등 정기공시</b-td><b-td>연5회 이상</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>글로벌 ESG 평가참여</b-td><b-td>연6회 이상</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>지속가능경영 이니셔티브 참여</b-td><b-td>연4회 이상</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="3">정부</b-td><b-td>금융감독원 공시</b-td><b-td>수시</b-td><b-td rowspan="3"><li>조세납부 등 경제적 가치 분배</li><li>법규 준수 및 윤리경영</li></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>법/규제 준수</b-td><b-td>수시</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>민관협력 사업</b-td><b-td>수시</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                    
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'중대성 평가'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 평가</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <p class="pb-3 mb-5"> 코웨이는 지속가능경영 측면의 중요 주제를 도출하기 위해 중대성 평가를 실시하고 있습니다. 코웨이가 중요 주제를 정의하는 방법은 대외 환경 변화 및 코웨이 전략 변화에 기반한 이슈 풀(Pool)을 구성하고, 사업적 연관성 및 이해관계자에의 영향력을 파악하여 우선순위 주제를 도출하는 과정으로 진행됩니다. 각 우선순위 주제는 코웨이의 사업적 가치 창출 측면에서의 영향 수준과 함께 중요 주제로 정의되며, 본 보고서 전반에 걸쳐 사업적 중요성 및 사회적 가치 창출 영향력, 경영 전략 및 목표, 활동 등에 대해 상세히 보고하고 있습니다. 
+                    </p>
+
+                    <h6-ancor :title="'Step 1. 이슈 풀(Pool)구성'" :activated="activated" class="blue5 mb-3">Step 1. 이슈 풀(Pool)구성</h6-ancor>
+                    <p>코웨이는 산업 및 기업환경의 변화를 반영하고 지속가능경영 측면의 핵심 화두를 반영한 중요 주제를 도출하기 위해 다양한 지표를 분석하여 이슈 풀(Pool)을 도출하고 있습니다. 글로벌 지속가능성 표준 및 이니셔티브 분석을 통해 최신 트랜드 및 거시적인 산업 환경의 변화를 파악하며, 코웨이의 변화를 밀접하게 반영하는 미디어 및 커뮤니케이션 키워드를 분석하여 핵심 이슈를 도출합니다. 이를 통해 2019년 코웨이의 이슈 풀(Pool)은 26개로 도출되었습니다.
+                    </p>
+
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">글로벌 지속가능성 표준 / 미디어 커뮤니케이션 키워드 분석 그림</div>
+
+                    <h6-ancor :title="'Step 2. 중대성 평가 실시'" :activated="activated" class="blue5 mb-3">Step 2. 중대성 평가 실시</h6-ancor>
+                    <p>26개 이슈 풀(Pool) 중 사업적 연관성과 이해관계자에의 영향력을 파악하여 중점 관리 이슈에 대한 우선순위를 도출하였습니다. 사업적 연관성 도출을 위해 코웨이 지속가능경영의 내부적 현안 분석과 산업 내 이슈 밀접성을 종합적으로 적용하였습니다. 각 이슈의 이해관계자 영향 수준을 파악하기 위해 온라인 설문조사를 통해 7대 이해관계자별 이슈 우선순위를 분석하였습니다. 또한, 연관성 및 영향력 분석을 통해 도출된 우선순위 이슈에 대해 해당 이슈가 코웨이의 사업적 가치 창출에 어떠한 영향을 미칠지에 대해 1) 비용(Cost), 수익창출(Revenue), 리스크(Risk)의 세 가지 측면에서 평가하였습니다. 
+                    </p>
+
+                    <h7 class="mb-3">연관성 분석 - 기업 내부적 &amp; 산업적 맥락</h7>
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">연관성 분석 그림</div>
+
+                    <h6-ancor :title="'Step 3. 중요 주제 보고'" :activated="activated" class="blue5 mb-3">Step 3. 중요 주제 보고</h6-ancor>
+                    <p>중대성 평가로 도출된 코웨이의 중요 주제는 총 10개로 도출되었습니다. 코웨이는 각 중요 주제의 사업적-사회적 배경과 핵심 KPI에 대해 보고하고 있으며, 상세 전략 및 활동, 성과와 비즈니스 케이스에 대해 본 지속가능경영 웹 리포트 전반에 걸쳐 보고하고 있습니다.
+                    </p>
+
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">중요성 평가 결과 그림</div>
+
+                        <b-table-simple responsive class="text-table f-95 mb-45">
+                                <b-thead>
+                                    <b-tr>
+                                        <b-td rowspan="2">No</b-td><b-td rowspan="2">중요 주제</b-td><b-td rowspan="2">보고 주제</b-td><b-td colspan="3">사업적 영향</b-td><b-td rowspan="2">보고 페이지</b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>비용</b-td><b-td>수익창출</b-td><b-td>리스크</b-td>
+                                    </b-tr>
+                                </b-thead>
+                                <b-tbody>
+                                    <b-tr>
+                                        <b-td>1</b-td><b-td>고객 맞춤형 제품 및 서비스 개발</b-td><b-td></b-td><b-td>●</b-td><b-td>●</b-td><b-td></b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>2</b-td><b-td>제품 안전 및 신뢰성 강화</b-td><b-td></b-td><b-td>●</b-td><b-td></b-td><b-td>●</b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>3</b-td><b-td>정보보호</b-td><b-td></b-td><b-td>●</b-td><b-td>●</b-td><b-td></b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>4</b-td><b-td>R&amp;D를 통한 기술 경쟁력 확보</b-td><b-td></b-td><b-td>●</b-td><b-td></b-td><b-td>●</b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>5</b-td><b-td>임직원 역량개발 및 유지</b-td><b-td></b-td><b-td>●</b-td><b-td>●</b-td><b-td></b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>6</b-td><b-td>환경 친화적 제품 및 서비스 개발</b-td><b-td></b-td><b-td>●</b-td><b-td>●</b-td><b-td></b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>7</b-td><b-td>전략적 사회공헌 활동</b-td><b-td></b-td><b-td>●</b-td><b-td></b-td><b-td></b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>8</b-td><b-td>인권과 노동 관련 원칙 준수</b-td><b-td></b-td><b-td>●</b-td><b-td></b-td><b-td>●</b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>9</b-td><b-td>브랜드 신뢰도 강화</b-td><b-td></b-td><b-td></b-td><b-td>●</b-td><b-td>●</b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <b-td>10</b-td><b-td>자원순환 및 재활용</b-td><b-td></b-td><b-td>●</b-td><b-td></b-td><b-td>●</b-td><b-td><b-button>바로가기</b-button></b-td>
+                                    </b-tr>
+                                </b-tbody>
+                        </b-table-simple> 
+                    
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'중대성 맥락과 중장기 목표'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 맥락과 중장기 목표</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+
+                    <h6-ancor :title="'고객 맞춤형 제품 및 서비스 개발'" :activated="activated" class="blue5 mb-3">고객 맞춤형 제품 및 서비스 개발</h6-ancor>
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">고객 맞춤형 제품 및 서비스 개발 그림</div>
+
+                    <p>코웨이의 비즈니스 모델은 고객의 접점에서 제품과 서비스를 제공함으로써 고객 만족을 통해 신뢰를 얻고 고객과 함께 발전하고 있습니다. 제품과 서비스의 혁신을 통해 고객에게 새로운 경험을 제공하고, 생활의 가치를 높임으로써 코웨이는 고객과 더불어 성장합니다. 이에 따라 물과 공기에 대한 전문성을 기반으로 깨끗함의 본질적 가치를 높이기 위한 제품 혁신을 지속한 결과 2019년에는 5년 연속 CES 혁신상을 수상하였습니다. 또한 고객 라이프스타일의 변화를 파악하고 서비스에 선제적으로 반영하여 미래 기술 기반의 서비스를 선보이기 위해 노력하고 있습니다. 2019년에는 빅데이터 기반의 제품 추천 서비스인 ‘워터맵 서비스’과 가상 시뮬레이션을 통해 개인 생활환경에 맞는 공기청정기를 체험할 수 있는 ‘공기주치의 서비스’ 등을 선보였습니다. 코웨이는 고객에 대한 끊임없는 연구를 통해 고객 생활의 전반에서 맞춤형 케어를 제공함으로써 고객 만족도를 제고하고 있습니다. 이를 기반으로 단기적으로는 2020년 고객만족도 77점 달성, 장기적으로 2030년 고객만족도 87점 달성을 목표로 수립하여 고객 가치를 높여 나갈 예정입니다.
+                    </p>
+
+                    <h6-ancor :title="'제품 안전 및 신뢰성 강화'" :activated="activated" class="blue5 mb-3">제품 안전 및 신뢰성 강화</h6-ancor>
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">제품 안전 및 신뢰성 강화 그림</div>
+
+                    <p>라이프스타일의 변화에 따라 생활 필수 가전제품이 다양화되며, 가정에 및 생활환경에서 사용하는 환경가전 제품의 수도 점차 증가하고 있습니다. 이에 따라 환경가전 제품의 안전성 및 품질 관리의 중요성이 더욱 부각되고 있습니다. 이에 대헤 코웨이는 2019년 한국신뢰성대상 ‘제조업 부문 대상’ 수상 및 ‘서비스 품질 우수상’ 국무총리 표창 수상 등을 통해 제품 책임의 우수성을 증명하였습니다. 코웨이는 전사적 제품 책임 거버넌스로서 CEO 직속 협의체인 무한책임위원회를 운영하며, 품질경영 전사 회의체인 PIC 360(Product Immersion Committee 360)을 운영하여 실행력을 강화하고 있습니다. 또한, TQA센터를 중심으로 제품 신뢰성 시험 표준 개발 및 검증 역량을 강화하고, 제품 안전 인증 공인 시험소를 운영하여 안전 인증 범위를 확대하고 있습니다. 코웨이는 체계적인 제품책임 및 품질경영 시스템을 통해 고객 신뢰를 높이기 위해 지속적으로 노력하겠습니다.
+                    </p>
+
+                    <h6-ancor :title="'정보보호'" :activated="activated" class="blue5 mb-3">정보보호</h6-ancor>
+                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">정보보호 그림</div>
+
+                    <p>데이터 및 정보 인프라가 사회 전반의 필수 자산으로 자리함에 따라 생활 전반의 영역에서 정보보호 및 개인정보보호의 중요성이 증가하고 있습니다. 4차 산업혁명에 따라 데이터의 활용도가 급격히 증가하고, ICT의 영역이 특정 디바이스를 넘어 환경가전 제품의 영역까지 연결되는 사물 인터넷이 보편화 됨에 따라 정보보안에 대한 철저한 관리가 필요한 시점입니다. 또한 코웨이는 렌탈 비즈니스의 특성상 많은 고객의 개인정보를 수집 및 활용하여 안전한 개인정보의 수집, 활용 및 폐기는 고객 신뢰에 중요한 영향을 미칩니다. 이에 따라 코웨이는 정보보호 및 개인정보보호 원칙을 기반으로 강력한 정보보안 체계를 운영하고 있습니다. 2019년 코웨이는 유럽연합 데이터 보호법(GDPR) 등 글로벌 정보보호 규제에 대응하기 위한 가이드를 수립하였습니다. 또한 정기적 모의해킹, 취약점 진단 등을 통해 위험 요소를 진단 및 완화하고 있으며, 시스템 기반의 개인정보 리스크 점검 및 실사를 진행하여 철저한 관리를 지속하고 있습니다. 
+                    </p>
+
+
+
+                                               
                 </section> 
                 <!-- End of DMA-->
 
@@ -104,20 +221,23 @@ export default {
     layout: 'StaticPage',
     data(){
         return {
-            title: '깨끗한 물과 공기를 위한 환경경영',
+            title: '이해관계자 참여 및 중요 주제',
             activated: [],
             sub_titles: [
                 { 
-                    title: '환경경영을 통한 깨끗함의 가치 실현', 
-                    child: [
-                        { title: '코웨이 환경경영 방침' }, 
-                        { title: '환경경영 전략' }, 
-                        { title: '환경경영 추진 체계' }, 
-                    ]
+                    title: '이해관계자 참여'
                 },
                 { 
-                    title: '가치사슬 전체의 환경역량 강화' 
-                }
+                    title: '중대성 평가',
+                    child: [
+                        { title: 'Step 1. 이슈 풀(Pool) 구성' }, 
+                        { title: 'Step 2. 중대성 평가 실시' }, 
+                        { title: 'Step 3. 중요 주제 보고' }, 
+                    ] 
+                },
+                { 
+                    title: '중대성 맥락과 중장기 목표'
+                },                
             ],
         }
     },
