@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky-top">
+  <header class="sticky-top" @mouseleave="show_sub_menu=false">
     <div class="position-relative">
         <b-navbar class="px-5 py-0 d-flex justify-content-center bg-white" toggleable="lg" variant="light" style="z-index:10">
             <b-navbar-brand class="my-3">
@@ -25,16 +25,17 @@
             <b-nav-item class="d-none d-lg-block ml-2" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
         </b-navbar>
 
-        <div @mouseleave="show_sub_menu=false" id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
+        <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
             <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center">
                 <b-col class="col-0 col-lg-1"></b-col>
                 <b-col class="col-12 col-md-5 col-lg-4 px-3 px-md-5 px-lg-3 f-90 gray3 fw-300">{{ menu_text }}</b-col>
                 <b-col class="col-12 col-md-7 col-lg-6 pr-3 pr-md-5 pr-lg-3 d-flex justify-content-end flex-wrap">
                     <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
-                        <div class="global-nav-2">
-                            <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false" class="lv2-text"> {{ level2_item.title }}
-                            </nuxt-link>
-                        </div>
+                        <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false">
+                            <div class="global-nav-2 lv2-text">
+                                {{ level2_item.title }}
+                            </div>
+                        </nuxt-link>
                     </div>
                 </b-col>
                 <b-col class="col-0 col-lg-1"></b-col>
@@ -61,9 +62,6 @@ export default {
             show_site_map: false
         }
     },
-    props:{
-        hide_sub_menu: {type:Boolean}
-    },
     computed: {
         ...mapState('menu', {
         menu: state => state.menu
@@ -77,8 +75,6 @@ export default {
             if (menu_item.child != undefined) {
                 this.show_sub_menu = true
                 this.sub_menu_item = menu_item.child
-                console.log(menu_item.child[0]);
-                console.log(this.sub_menu_item[0]);
             }
         },
         toggleSiteMap(){
@@ -88,14 +84,6 @@ export default {
     components:{
         SiteMap
     },
-    watch:{
-        hide_sub_menu(newVal){
-            if (newVal==true){
-                this.show_sub_menu = false
-            }
-            else this.show_sub_menu = true
-        }
-    }
 }
 </script>
 
@@ -110,7 +98,7 @@ export default {
 #global-site-map.sitemap-show {
     z-index: 100;
     margin-top: 0;
-    transition: all 1s ease-in; 
+    transition: all 0.5s ease-in; 
 }
 
 #global-nav {
@@ -119,12 +107,12 @@ export default {
 #global-nav.lv2-show{
     margin-top: 0;
     z-index: 9;
-    transition: all 1s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 #global-nav.lv2-hide{
     margin-top: -100%;
     z-index: 9;
-    transition: all 1s ease-in;    
+    transition: all 0.5s ease-in;    
 }
 
 .global-nav-lv1 > a{
@@ -156,11 +144,11 @@ export default {
     border-top: 0.75px solid $gray3;
     transition: margin-top 0.3s ease;
 }
-.global-nav-2 > .lv2-text {
+.lv2-text {
     color: $gray3;
     height: 100%;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 .global-nav-2:hover {
     border-top: 0.75px solid white;
