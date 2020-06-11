@@ -299,8 +299,8 @@ export const state = () => ({
                             ]
                     },
                     {
-                        title: '지역사회 참여',
-                        link: '/static_page/지역사회-참여',
+                        title: '지역사회',
+                        link: '/static_page/지역사회',
                         child:
                             [
                                 {

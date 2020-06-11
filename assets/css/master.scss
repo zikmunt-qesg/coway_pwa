@@ -56,6 +56,10 @@
     height: 48px;
     width: 100%;
 }
+.temp-icon9 {
+    height: 25px;
+    width: 100%;
+}
 .temp-img1{
     height: 270px;
     width: 100%;
@@ -72,6 +76,12 @@
     width: 1px;
     background-color: $gray7; 
     top:0;
+    left:0;
+}
+.vertical-line-dotted {
+    border-left: 1.5px dotted $gray4;
+    height: 82%;
+    top: 18%;
     left:0;
 }
 .horizontal-line-1 {
@@ -98,7 +108,7 @@
 /* padding and margin extra */
 
 .mb-45 {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem!important;
 }
 .mt-m-3 {
     margin-top: -0.75rem;
@@ -168,7 +178,7 @@
 }
 
 .env-table > table > thead > tr > td {
-    border-bottom: 1.2px solid $green6!important;
+    border-bottom: 1.2px solid $green5!important;
 }
 .social-table > table > thead > tr > td{
     border-bottom: 1.2px solid $gold6;
@@ -182,9 +192,31 @@
 }
 
 
+.custom-ul-li > ul{
+    padding-left: 1rem;
+    margin: 0;
+    list-style: none;
+}
+.custom-ul-li > ul li {
+    margin-bottom: 0.3rem
+}
+.custom-ul-li ul li:before {
+    content: "•";
+    font-size: 0.6rem;
+    padding-right: 5px;
+    margin-left: -9px;
+    color: $gray7;
+}
 
 
-
+.footnote-ol{
+    padding-left: 1rem;
+    margin: 0;
+}
+.footnote-ol li {
+    margin-bottom: 0.35rem;
+    color: #656464;
+}
 
 
 

@@ -1,0 +1,66 @@
+<svg id="구성_요소_30_1" data-name="구성 요소 30 – 1" xmlns="http://www.w3.org/2000/svg" width="249.18" height="107.992" viewBox="0 0 249.18 107.992">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #92bc49;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.945px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #0b504a;
+      }
+
+      .cls-4 {
+        font-size: 43px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-5 {
+        font-size: 25px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        fill: #1e2323;
+        font-size: 16px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <path id="패스_140" data-name="패스 140" class="cls-1" d="M3343,4571.238a45.75,45.75,0,1,1-45.75-45.75,45.75,45.75,0,0,1,45.75,45.75" transform="translate(-3251.5 -4516.155)"/>
+  <path id="패스_141" data-name="패스 141" d="M3318.266,4579.826c0-10.335-19.321-33.487-19.321-33.487s-19.32,23.152-19.32,33.487,8.65,18.715,19.32,18.715,19.321-8.38,19.321-18.715m-12.223-9.833c2.54,4.316,4.2,7.947,4.2,9.833a11.134,11.134,0,0,1-11.294,10.94" transform="translate(-3251.5 -4516.155)"/>
+  <path id="패스_142" data-name="패스 142" class="cls-2" d="M3298.256,4590.275a13.874,13.874,0,1,0-14.346-13.865,14.111,14.111,0,0,0,14.346,13.865" transform="translate(-3251.5 -4516.155)"/>
+  <path id="패스_143" data-name="패스 143" class="cls-2" d="M3314.994,4577.791c0-10.263-19.189-33.252-19.189-33.252s-19.187,22.989-19.187,33.252,8.592,18.583,19.187,18.583,19.189-8.32,19.189-18.583m-12.138-9.765c2.521,4.286,4.165,7.891,4.165,9.765a11.056,11.056,0,0,1-11.216,10.863" transform="translate(-3251.5 -4516.155)"/>
+  <path id="패스_144" data-name="패스 144" class="cls-3" d="M3314.906,4577.785c0-10.22-19.1-33.111-19.1-33.111s-19.1,22.891-19.1,33.111,8.552,18.5,19.1,18.5S3314.906,4588,3314.906,4577.785Zm-12.081-9.723c2.508,4.267,4.145,7.856,4.145,9.723A11.007,11.007,0,0,1,3295.8,4588.6" transform="translate(-3251.5 -4516.155)"/>
+  <g id="그룹_58" data-name="그룹 58" transform="translate(-3251.5 -4516.155)">
+    <text id="_0" data-name="0" class="cls-4" transform="translate(3415.569 4566.155)"><tspan x="0" y="0">0</tspan></text>
+    <text id="_0-2" data-name="0" class="cls-4" transform="translate(3392.564 4566.155)"><tspan x="0" y="0">0</tspan></text>
+    <text id="_1" data-name="1" class="cls-4" transform="translate(3369.561 4566.155)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_" data-name=" " class="cls-4" transform="translate(3373 4566.155)"><tspan x="0" y="0"> </tspan></text>
+  </g>
+  <text id="_2" data-name="%" class="cls-5" transform="translate(190.514 48)"><tspan x="0" y="0">%</tspan></text>
+  <text id="_2030년까지_사업장_" data-name="2030년까지 사업장 " class="cls-6" transform="translate(121.5 78)"><tspan class="cls-7" x="0" y="0">2030</tspan><tspan class="cls-8" y="0">년까지 사업</tspan><tspan y="0">장 </tspan></text>
+  <text id="_3" data-name="
+" class="cls-6" transform="translate(249.18 78)"><tspan x="0" y="0"></tspan><tspan x="0" y="19.2"></tspan></text>
+  <text id="폐기물_재자원화율" data-name="폐기물 재자원화율" class="cls-6" transform="translate(121.5 102.992)"><tspan class="cls-8" x="0" y="0">폐기물 재자원화</tspan><tspan y="0">율</tspan></text>
+</svg>

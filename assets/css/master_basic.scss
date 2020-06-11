@@ -246,6 +246,9 @@ hr {
     border-bottom: 0.5px solid $gray5;
     margin-bottom: 1.5rem;
 }
+.font-noto{
+    font-family: 'Noto Sans Kr';
+}
 
 .line-height-low{
     line-height: 1.4;
@@ -454,12 +457,25 @@ hr {
     background-color: $blue2;
 }
 .bg-blue1{
-    background-color: rgba(208, 234, 246, 0.9);
+    background-color: rgba(231, 244, 250, 0.9);
 }
 .bg-coway-blue{
     background-color: $coway-blue;
 }
 
+.bg-gold7{
+    background-color: $gold7;
+}
+.bg-gold6{
+    background-color: $gold6;
+}
+
+.bg-green7{
+    background-color: $green7;
+}
+.bg-green6{
+    background-color: $green6;
+}
 
 .bg-gray8{
     background-color: $gray8;
@@ -528,6 +544,14 @@ table, .table {
     border-color: $gray6;
 }
 
+.btn-gold {
+    background-color: $gold6;
+    color: $gray1;
+}
+.btn-gold:hover {
+    background-color:  $gold7;
+    color: white;
+}
 .btn-blue {
     background-color: $blue5;
     color: $gray1;
