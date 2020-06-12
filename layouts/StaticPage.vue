@@ -1,7 +1,7 @@
 <template>
   <div>
     <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
-        <site-header :hide_sub_menu="hide_sub_menu"/>
+        <site-header />
 
         <nuxt class="nuxt" @mouseover="hideSubmenu"/>
 
@@ -16,7 +16,6 @@ import siteFooter from '@/components/footer.vue'
 export default {
     data() {
         return {
-            hide_sub_menu: true
         }
     },
     components: {
@@ -31,9 +30,6 @@ export default {
     },
     methods: {
         ...mapActions('articles', ['readArticles', 'saveArticle']),
-        hideSubmenu(){
-            this.hide_sub_menu = true
-        }
     },
     created() {
         //console.log(this.is_articles_loaded)
