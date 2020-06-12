@@ -1,0 +1,56 @@
+<svg id="구성_요소_64_1" data-name="구성 요소 64 – 1" xmlns="http://www.w3.org/2000/svg" width="414.679" height="281.444" viewBox="0 0 414.679 281.444">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1e2323;
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+        letter-spacing: -0.015em;
+      }
+
+      .cls-2 {
+        fill: #f4f6f7;
+      }
+
+      .cls-3 {
+        fill: #685239;
+        font-size: 16px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        fill: #f0c560;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #42454a;
+      }
+    </style>
+  </defs>
+  <text id="환경" class="cls-1" transform="translate(183.903 277.444)"><tspan x="0" y="0">환경</tspan></text>
+  <path id="패스_594" data-name="패스 594" class="cls-2" d="M576.044-23.76h40V-277.444h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="_44.7" data-name="44.7" class="cls-3" transform="translate(181.531 24.08)"><tspan x="0" y="0">44.7</tspan></text>
+  <path id="패스_595" data-name="패스 595" class="cls-4" d="M576.119-23.76h40v-115h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="윤리" class="cls-1" transform="translate(261.629 277.444)"><tspan x="0" y="0">윤리</tspan></text>
+  <path id="패스_597" data-name="패스 597" class="cls-2" d="M653.769-23.76h40V-277.444h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="_55.1" data-name="55.1" class="cls-3" transform="translate(259.332 24.08)"><tspan x="0" y="0">55.1</tspan></text>
+  <path id="패스_598" data-name="패스 598" class="cls-4" d="M653.844-23.76h40V-173.865h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="분쟁광물" class="cls-1" transform="translate(326.684 277.444)"><tspan x="0" y="0">분쟁광물</tspan></text>
+  <path id="패스_600" data-name="패스 600" class="cls-2" d="M731.494-23.76h40V-277.444h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="_61.2" data-name="61.2" class="cls-3" transform="translate(337.057 24.08)"><tspan x="0" y="0">61.2</tspan></text>
+  <path id="패스_601" data-name="패스 601" class="cls-4" d="M731.569-23.76h40V-210.866h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="안전_보건" data-name="안전 보건" class="cls-1" transform="translate(91.653 277.444)"><tspan x="0" y="0">안전 보건</tspan></text>
+  <path id="패스_603" data-name="패스 603" class="cls-2" d="M498.394-23.76h40V-277.444h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="_59.9" data-name="59.9" class="cls-3" transform="translate(103.882 24.08)"><tspan x="0" y="0">59.9</tspan></text>
+  <path id="패스_604" data-name="패스 604" class="cls-4" d="M498.394-23.76h40V-209.016h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="노동" class="cls-1" transform="translate(28.454 277.444)"><tspan x="0" y="0">노동</tspan></text>
+  <path id="패스_606" data-name="패스 606" class="cls-2" d="M420.669-23.76h40V-277.444h-40Z" transform="translate(-399.44 277.444)"/>
+  <text id="_62.4" data-name="62.4" class="cls-3" transform="translate(26.157 24.08)"><tspan x="0" y="0">62.4</tspan></text>
+  <path id="패스_607" data-name="패스 607" class="cls-4" d="M420.669-23.76h40V-218.266h-40Z" transform="translate(-399.44 277.444)"/>
+  <g id="그룹_234" data-name="그룹 234" transform="translate(0 254.184)">
+    <path id="패스_608" data-name="패스 608" class="cls-5" d="M0,0H414.679" transform="translate(0 0)"/>
+  </g>
+</svg>
