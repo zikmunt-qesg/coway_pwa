@@ -29,21 +29,26 @@
                         <b-col class="col-12 col-md-4 fw-500">
                             <b-row no-gutters class="pr-md-4">
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
-                                    <h7 class="mb-3 w-100">Activity</h7>
-                                    <div>‧ 제품 책임 거버넌스 - 무한책임위원회, PIC360, TQA 센터</div>
-                                    <div>‧ 신뢰성 시험 표준 개발 및 검증 역량 강화</div>
-                                    <div>‧ 안전인증 확대 및 고객 안심 서비스</div>
+                                    <h7 class="mb-3 f-120 w-100">Activity</h7>
+                                    <ul class="material-ul fw-600 font-noto">
+                                        <li>제품 책임 거버넌스 - 무한책임위원회, PIC360, TQA 센터</li>
+                                        <li>신뢰성 시험 표준 개발 및 검증 역량 강화</li>
+                                        <li>안전인증 확대 및 고객 안심 서비스</li>
+                                    </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
-                                    <h7 class="mb-4 w-100 blue7">Performance</h7>
+                                    <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
                                             <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="gray65 mb-0 fw-500"><span class="fw-600">국제안전인증센터 공인시험소 13개소 보유(2019년 말 기준)</span></p>
+                                            <p class="mb-0 fw-500 line-height-low">국제안전인증센터<br> 공인시험소</p> 
+                                            <p class="mb-0 mt-m-2 fw-400 blue7"><span class="f-230">13</span>개소 보유</p>
+                                            <p class="gray65 fw-400 mt-m-2">(2019년 말 기준)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
                                             <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="gray7 mb-0 fw-500">2019년 제품책임 관련 규제 위반 0건</p>
+                                            <p class="mb-0 fw-500 font-noto">2019년 제품책임 관련</p> 
+                                            <p class="mb-0 f-140 fw-400 blue7">규제 위반 0건</p>
                                         </b-col>
                                     </b-row>
                                 </b-col>
@@ -51,22 +56,22 @@
                         </b-col>                        
                         <b-col class="col-12 col-md-8 pr-2 position-relative pl-md-5">
                         <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
-                            <h7 class="blue7 mb-3">Business relevance & Approach</h7>
+                            <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
                             <p >실내 생활환경의 위생과 건강에 대한 관심이 증가함에 따라 소비자들은 인체 무해성, 위생성, 환경적 영향력 등을 제품 선택의 우선순위로 두고 있습니다. 이러한 구매 경향은 제품 생산 및 판매 기업의 제품 책임을 더욱 강화하고 있습니다. 이에 따라 제품 책임은 기업의 브랜드 가치 및 재무적 가치에 직접적인 영향을 줄 수 있는 핵심 관리 요소로서 중요도가 증가하고 있습니다.
                             </p>
                             <p>코웨이의 주요 제품은 우리의 건강과 밀접한 물과 공기를 다루고, 오랜 기간 일상적으로 사용된다는 점에서 제품의 안전성, 위생성, 성능의 항상성을 제품 책임 우선순위로 관리하고 있습니다. 코웨이는 고객이 제품을 사용하는 동안 안전하고 무해하며, 변함없이 성능이 지속되도록 제품 책임을 적극적으로 이행하여 고객 신뢰를 쌓고자 노력하고 있습니다. 
                             </p>
                             <p class="mb-45">코웨이는 무한책임위원회를 비롯한 전사 회의체 및 총괄 조직인 TQA(Trust & Quality Assurance)센터를 중심으로 제품 책임을 적극적으로 이행하고 있습니다. 제품 기획부터 설계, 생산, 서비스 등 전 단계에 걸쳐 품질, 신뢰성, 안전성, 환경성 검증을 실시하고 있으며, 글로벌 품질 검증력 강화와 신규 해외시장 진출 확대를 위해 글로벌 사용환경을 분석해 데이터를 구축하고 지역별 신뢰성 표준을 수립하였습니다. 또한 서비스 위생 강화를 위해 서비스 점검 기준 및 범위를 확대하여 고객 관점에서 서비스를 강화하고 선제적으로 대응하고 있습니다. 
                             </p>
-                            <h7 class="blue7 mb-3">Business Cases</h7>
+                            <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <div class="d-flex align-items-center">
-                                <div class="py-2 d-flex align-items-center mr-3" style="width: 55%">
+                                <div class="py-2 d-flex align-items-center mr-3 w-50">
                                     <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0 word-break">2019년 한국신뢰성대상 '제조업 부문 대상' 수상</p>
+                                    <p class="fw-500 mb-0 word-break font-noto">2019년 한국신뢰성대상 '제조업 부문 대상' 수상</p>
                                 </div>
-                                <div class="py-2 d-flex align-items-center" style="width: 45%">
-                                    <div class="temp-icon8 w-25"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0">2019년 '서비스품질우수상' 국무총리 표창</p>
+                                <div class="py-2 d-flex align-items-center w-50">
+                                    <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                    <p class="fw-500 mb-0 word-break font-noto">2019년 '서비스품질 우수상' 국무총리 표창</p>
                                 </div>
                             </div>
                         </b-col>
@@ -74,114 +79,131 @@
                 </section>
                 <hr class="py-3">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'제품 책임 거버넌스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 책임 거버넌스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="pb-3 mb-5">코웨이는 제품 책임 및 품질경영을 위해 CEO 직속 협의체인 ‘무한책임위원회’와 CEO 참석 전사 회의체 PIC 360를 운영하고 있습니다. 또한, 통합적 품질관리로 일관적이고 효율적인 품질 혁신 관리를 위해 통합 품질검증 조직인 TQA 센터를 운영하고 있습니다.
+                    <p class="mb-5">코웨이는 제품 책임 및 품질경영을 위해 CEO 직속 협의체인 ‘무한책임위원회’와 CEO 참석 전사 회의체 PIC 360를 운영하고 있습니다. 또한, 통합적 품질관리로 일관적이고 효율적인 품질 혁신 관리를 위해 통합 품질검증 조직인 TQA 센터를 운영하고 있습니다.
                     </p>
                 
-                    <h6-ancor :title="'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360'" :activated="activated" class="blue5 mb-3">전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360</h6-ancor>
+                    <h6-ancor :title="'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360'" :activated="activated" class="blue5 mb-3 font-noto">전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360</h6-ancor>
                     <p>코웨이는 제품 책임을 다하여 고객 신뢰를 강화하고자 ‘무한책임위원회’를 운영하고 있습니다. 고객에게 좋은 품질의 제품을 제공하기 위해 제품 품질, 안전성, 고객 신뢰 이슈 등을 포괄적으로 검토하고, 관련 사항을 선제적으로 점검 및 개선하고 있습니다. 무한책임위원회는 CEO 직속 협의체로서 신속한 의사결정을 내리기 위해 매월 1회 본부장급 임원으로 구성된 책임위원들이 모여 안건을 공유하며, 논의된 사항은 전사 프로세스에 접목해 실행하면서 문제를 신속히 해결하고 궁극적으로는 고객 신뢰를 강화하고 있습니다. 
                     </p>
 
-                    <p>또한 2018년 8월부터 연구개발회의와 품질회의를 통합하여 전사 회의체 PIC 360(Product Immersion Committee 360)를 신설하였습니다. 매월 1회 대표이사, 관련 부문 임원, 실무 팀장까지 참석하여, 상품 기획단계부터 출시 이후 전 과정에 대한 전방위적(360도) 관점에서 제품 책임을 논의하고 실행력을 강화하고 있습니다. 
+                    <p class="mb-5">또한 2018년 8월부터 연구개발회의와 품질회의를 통합하여 전사 회의체 PIC 360(Product Immersion Committee 360)를 신설하였습니다. 매월 1회 대표이사, 관련 부문 임원, 실무 팀장까지 참석하여, 상품 기획단계부터 출시 이후 전 과정에 대한 전방위적(360도) 관점에서 제품 책임을 논의하고 실행력을 강화하고 있습니다. 
                     </p>
 
                     <h6-ancor :title="'TQA 센터(Trust & Quality Assurance Center)'" :activated="activated" class="blue5 mb-3">TQA 센터(Trust &amp; Quality Assurance Center)</h6-ancor>
-                    <p>고객신뢰 회복과 고객 안심 구현을 위한 품질 혁신 추진체로 TQA센터 (Trust & Quality Assurance Center)를 운영하고 있습니다. TQA센터는 환경기술연구소와 생산운영본부로 분사되어 있던 품질 검증 부서를 통합한 독립적인 조직으로, 품질관련 전략과 기능을 통합하고 역량 및 실행력을 강화하여 잠재된 품질 이슈를 사전에 발굴하고 선제적으로 대응하기 위해 노력하고 있습니다. 
+                    <p class="mb-5">고객신뢰 회복과 고객 안심 구현을 위한 품질 혁신 추진체로 TQA센터 (Trust & Quality Assurance Center)를 운영하고 있습니다. TQA센터는 환경기술연구소와 생산운영본부로 분사되어 있던 품질 검증 부서를 통합한 독립적인 조직으로, 품질관련 전략과 기능을 통합하고 역량 및 실행력을 강화하여 잠재된 품질 이슈를 사전에 발굴하고 선제적으로 대응하기 위해 노력하고 있습니다. 
                     </p>
 
-                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">제품책임 거버넌스 그림</div>
+                    <b-img src="@/assets/images/81_1.svg" fluid></b-img>
+                    <hr class="mb-4">
 
-                    <section class="border-blue px-4 py-4 mb-5">
-                        <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gray7 f-90 p-1 mr-2"> Case.</b-badge><span class="fw-600">2019</span> 한국신뢰성대상 '제조업 부문 대상' 수상</p>
+                    <section class="border-blue px-4 py-3 mb-5">
+                        <p class="blue5 fw-500 mt-2 mb-3 f-105 font-noto"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>2019 한국신뢰성대상* '제조업 부문 대상' 수상</p>
                         <p class="mb-3">코웨이는 제20회 한국신뢰성대상에서 ‘제조업 부문’ 대상을 수상했습니다. 코웨이는 이번 평가에서 높은 수준의 신뢰성 검증 시스템을 구축하고 국내 및 해외의 다양한 사용환경에 따른 시험표준을 개발한 공로를 인정받아 제조업 부문 대상을 수상했습니다. 
                         </p>
                         <p class="mb-3"> 코웨이는 품질검증 총괄 부서인 TQA(Trust & Quality Assurance)센터를 중심으로 제품 기획부터 설계, 생산, 서비스 등 전 단계에 걸쳐 품질과 신뢰성을 강화하고 있습니다. 코웨이는 시험실에서 벗어나 실제 사용 환경과 고객 관점에서 제품 적합성을 평가하기 위해 국내외 필드테스트를 진행하여 제품 설계에 적용하는 방법을 통해 제품 신뢰성을 향상하고 있습니다. 실제 사용기준보다 엄격한 조건에서 제품 및 부품 수명을 측정하는 가속수명 시험법을 적용해 내구성을 향상하며, 제품 기능별 고장 예측 및 원인 분석 프로세스를 시행해 잠재 불량을 예방하고 제품 설계 완성도를 높였습니다. 
                         </p>
                         <p class="mb-3"> 글로벌 품질 검증력 강화와 신규 해외시장 진출 확대를 위해 국내외 각 지역마다 다른 수질, 온도, 기압 등 사용환경을 분석해 데이터를 구축하고 지역별 신뢰성 표준을 수립한 점도 우수한 평가를 받았습니다. 코웨이가 보유한 시험 표준은 약 300여 건에 달하며, 고객 사용환경 변화와 기술 발전에 따라 매년 신뢰성 시험법을 제·개정하고 있습니다. 또 글로벌 기업들과 제휴해 신뢰성 시험기준 검증을 진행하며 해외시장 품질 인증에도 나서고 있습니다.  
                         </p>
-                        <p class="f-80 mb-5">*한국신뢰성학회가 주관하는 한국신뢰성대상은 소재나 부품, 제품의 신뢰성을 강화해 산업 및 국가의 경제발전에 기여하고 고객 만족도를 향상시킨 기업을 선정합니다. 
+                        <p class="f-80 mb-4">* 한국신뢰성학회가 주관하는 한국신뢰성대상은 소재나 부품, 제품의 신뢰성을 강화해 산업 및 국가의 경제발전에 기여하고 고객 만족도를 향상시킨 기업을 선정합니다. 
                         </p>
-                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">주주현황 그림</div>
+                        <b-img src="@/assets/images/97.png" fluid class="mb-3"></b-img>
                     </section>
 
+                    <hr class="py-2">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'제품 신뢰성 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 신뢰성 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="pb-3 mb-5">코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 또한 IoCare 제품 신뢰성 검증 향상을 위해 무선 기술 측정 장비를 확충하였으며, IAQ(Indoor Air Quality, 실내공기질) 센싱 기술 검증력을 확보해 IT 기술을 활용한 다양한 제품 개발에 대응할 수 있는 인프라를 확충하고 있습니다. 
+                    <p class="pb-3 mb-3">코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 또한 IoCare 제품 신뢰성 검증 향상을 위해 무선 기술 측정 장비를 확충하였으며, IAQ(Indoor Air Quality, 실내공기질) 센싱 기술 검증력을 확보해 IT 기술을 활용한 다양한 제품 개발에 대응할 수 있는 인프라를 확충하고 있습니다. 
                     </p>
 
-                        <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'성과평가와 보수 지급'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">신뢰성 인프라 투자금액 그림</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    
-                        <h7 class="mb-2 gray63">코웨이 신뢰성 인프라 보유현황(2019년 말 기준)</h7>
-                            <b-table-simple responsive class="num-table f-95">
+                    <b-row class="mb-5">
+                        <b-col class="col-12 col-sm-6 mb-3 mb-sm-0">
+                            <b-img src="@/assets/images/82_1.svg" fluid></b-img>
+                        </b-col>
+                        <b-col class="col-12 col-sm-6">
+                            <h7 class="gray63 mb-0">코웨이 신뢰성 인프라 보유현황</h7>
+                            <div class="f-80 gray6 mb-2">(단위: 건)</div>
+                            <b-table-simple responsive class="txt-table f-95">
                                 <b-thead><b-tr>
                                     <b-td>계측장비</b-td><b-td>시험장비</b-td><b-td>시험지그</b-td><b-td>합계</b-td>
                                 </b-tr></b-thead>
-                                <b-tbody>
-                                    <b-tr>
-                                        <b-td>263건</b-td><b-td>207건</b-td><b-td>130건</b-td><b-td>600건</b-td>
-                                    </b-tr>
-                                </b-tbody>
+                                <b-tbody><b-tr>
+                                    <b-td>263건</b-td><b-td>207건</b-td><b-td>130건</b-td><b-td>600건</b-td>
+                                </b-tr></b-tbody>
                             </b-table-simple>
-                    
+                        </b-col>
+                    </b-row>
+                
+                    <hr class="py-2">
                     <h6-ancor :title="'신뢰성 시험 표준 개발'" :activated="activated" class="blue5 mb-3">신뢰성 시험 표준 개발</h6-ancor>
-                    <p>글로벌 스탠다드를 충족하는 제품·부품 신뢰성 시험 역량을 보유하기 위해 국내외 선진 6개사, 국제 표준(IEC, ISO), 국가 표준(KS, MIL, JIS, BS) 및 관련 단체 규격(JEDEC, EIAJ) 등을 검토하여, 자사 제품에 적합한 시험 표준을 개발하는 등 외부 규격을 적극 도입하고 있습니다. 매년 필드 실패사례 및 고객 사용환경에 따른 신뢰성 시험법을 지속적으로 제/개정하여, 환경의 변화와 기술 발전, 사업 범위와 영역의 확대 등에 신속하게 대응하고 있습니다. 
+                    <p class="mb-45">글로벌 스탠다드를 충족하는 제품·부품 신뢰성 시험 역량을 보유하기 위해 국내외 선진 6개사, 국제 표준(IEC, ISO), 국가 표준(KS, MIL, JIS, BS) 및 관련 단체 규격(JEDEC, EIAJ) 등을 검토하여, 자사 제품에 적합한 시험 표준을 개발하는 등 외부 규격을 적극 도입하고 있습니다. 매년 필드 실패사례 및 고객 사용환경에 따른 신뢰성 시험법을 지속적으로 제/개정하여, 환경의 변화와 기술 발전, 사업 범위와 영역의 확대 등에 신속하게 대응하고 있습니다. 
                     </p>
 
-                        <h7 class="mb-2 gray63">신뢰성 시험표준 보유현황</h7>
-                            <b-table-simple responsive class="num-table f-95">
+                            <b-table-simple responsive class="num-table f-95 mb-2">
                                 <b-thead><b-tr>
-                                    <b-td class="text-left">구분</b-td><b-td>2017년</b-td><b-td>2018년</b-td><b-td>2019년</b-td>
+                                    <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                                 </b-tr></b-thead>
                                 <b-tbody>
                                     <b-tr>
-                                        <b-td>신뢰성 시험표준 보유 현황(누적)</b-td><b-td>289건</b-td><b-td>294건</b-td><b-td>302건</b-td>
+                                        <b-td class="text-left">신뢰성 시험표준 보유 현황</b-td><b-td class="text-left">누적 건수</b-td><b-td>289</b-td><b-td>294</b-td><b-td>302</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td>해당년도 개정 건수</b-td><b-td>18건</b-td><b-td>6건</b-td><b-td>15건</b-td>
+                                        <b-td class="text-left">연도별 개정 건</b-td><b-td class="text-left">건수</b-td><b-td>18</b-td><b-td>6</b-td><b-td>15</b-td>
                                     </b-tr>
                                 </b-tbody>
                             </b-table-simple>
-                            <p class="f-80 ml-1">
-                                *신뢰성 시험 항목: 공통, 정수기, 청정기, 비데, 전기레인지, 의류청정기 등 9개 항목
+                            <p class="f-80 ml-1 mb-45">
+                                * 신뢰성 시험 항목: 공통, 정수기, 청정기, 비데, 전기레인지, 의류청정기 등 9개 항목
                             </p>
                     
-                    <p>2009년부터 가속수명시험법을 도입하고 있으며, 가혹한 부하(Stress) 인가에 따른, 제품 부하와 수명의 상관관계를 분석해 제품 사용환경에 따른, 수명을 정확하게 추정하고 있습니다. 실제 필드 데이터와 비교검증을 진행하여, 실제 사용 환경에서 정확한 신뢰성이 확보될 수 있도록 기준을 개선해 나가고 있습니다.
-                    </p>
+                        <p class="mb-45">2009년부터 가속수명시험법을 도입하고 있으며, 가혹한 부하(Stress) 인가에 따른, 제품 부하와 수명의 상관관계를 분석해 제품 사용환경에 따른, 수명을 정확하게 추정하고 있습니다. 실제 필드 데이터와 비교검증을 진행하여, 실제 사용 환경에서 정확한 신뢰성이 확보될 수 있도록 기준을 개선해 나가고 있습니다.
+                        </p>
 
-                        <h7 class="mb-2 gray63">가속수명시험법 보유현황</h7>
-                            <b-table-simple responsive class="num-table f-95">
+                            <b-table-simple responsive class="num-table f-95 mb-5">
                                 <b-thead><b-tr>
-                                    <b-td class="text-left">구분</b-td><b-td>2017년</b-td><b-td>2018년</b-td><b-td>2019년</b-td>
+                                    <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                                 </b-tr></b-thead>
                                 <b-tbody>
                                     <b-tr>
-                                        <b-td>가속수명 시험법 보유 현황(누적)</b-td><b-td>33건</b-td><b-td>35건</b-td><b-td>36건</b-td>
+                                        <b-td class="text-left">가속수명 시험법 보유 현황</b-td><b-td class="text-left">누적 건수</b-td><b-td>33</b-td><b-td>35</b-td><b-td>36</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td>해당년도 개정 건수</b-td><b-td>1건</b-td><b-td>2건</b-td><b-td>1건</b-td>
+                                        <b-td class="text-left">연도별 개정 건</b-td><b-td class="text-left">건수</b-td><b-td>1</b-td><b-td>2</b-td><b-td>1</b-td>
                                     </b-tr>
                                 </b-tbody>
                             </b-table-simple>
-                    
+
+                    <hr class="py-2">                    
                     <h6-ancor :title="'신뢰성 검증 역량 강화'" :activated="activated" class="blue5 mb-3">신뢰성 검증 역량 강화</h6-ancor>
-                    <p>제품 고장을 사전 예측하고 분석하는 프로세스를 기반으로 설계 완성도를 높이고 불량 및 고장을 예방하여, 제품 신뢰성을 향상하고 있습니다.
+                    <p class="mb-45"> 제품 고장을 사전 예측하고 분석하는 프로세스를 기반으로 설계 완성도를 높이고 불량 및 고장을 예방하여, 제품 신뢰성을 향상하고 있습니다.
                     </p>
 
-                    <div>DFMEA(Design Failure Modes and Effect Analysis, 제품 고장 모드 및 영향도 분석)</div>
-                    <div>DFMEA 시스템 운영을 통해, 제품 구조에 따른 고장 모드를 체계적으로 추출하고 분석하여, 보다 효과적으로 고장을 예방하고 있습니다. 예측된 고장과 개선 방안의 정확성을 평가하여, 제품 설계 완성도를 향상하는 프로세스로, 2019년에는 AIS3.0 등 총 32건의 DFMEA 심의를 시행하여 약 1,200여건의 고장 모드 및 고장원인을 예측하고 예방 설계를 진행하였습니다.
-                    </div>
+                    <b-row no-gutters class="mb-45">
+                        <b-col class="col-12 col-sm-6 pr-sm-3 mb-3 mb-sm-0">
+                            <div class="py-2 px-3 blue7-box blue7 text-center fw-500 border-bottom-blue7" style="height:66px;">DFMEA(Design Failure Modes and Effect Analysis, 제품 고장 모드 및 영향도 분석)</div>
+                            <div class="border-bottom-blue7" style="height: 79%;">
+                                <p class="px-3 py-4 f-95">DFMEA 시스템 운영을 통해, 제품 구조에 따른 고장 모드를 체계적으로 추출하고 분석하여, 보다 효과적으로 고장을 예방하고 있습니다. 예측된 고장과 개선 방안의 정확성을 평가하여, 제품 설계 완성도를 향상하는 프로세스로, 2019년에는 AIS3.0 등 총 32건의 DFMEA 심의를 시행하여 약 1,200여건의 고장 모드 및 고장원인을 예측하고 예방 설계를 진행하였습니다.
+                                </p>
+                            </div>
+                        </b-col>
+                        <b-col class="col-12 col-sm-6 pl-sm-3 position-relative">
+                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 23%;"></div>
+                            <div class="px-3 blue7-box blue7 fw-500 text-center d-flex align-items-center justify-content-center" style="height:66px; z-index:10;">SSM(Stress-Strength Model, 스트레스-강도 모델)</div>
+                            <div class="border-bottom-blue7" style="height: 79%;">
+                                <p class="px-3 py-4 f-95 mb-0"> SSM 시스템 구축을 통해, 과거 실패사례, 사용환경 데이터, 화학물질 사용기준 등 다양한 지식을 구조화하여 관리함으로써, 신규 제품·부품 개발 과정에서 효율성을 향상하고 실패 사례의 재발 방지를 추진하고 있습니다. 또한, 품질 및 개발과정 관련 실패사례를 취합하여 지식구조화 함으로써 실패에 따른 반복적인 설계 개선과 검증, 단가 상승 및 개발 일정 지연 등을 예방하고 있습니다. 2016년 도입 이후 2019년까지 시장 품질, 고분자 재료, 전자부품 등 다양하 분야에서 총 835건의 지식을 등록하여 관리하고 있습니다.
+                                </p>
+                            </div>
+                        </b-col>
+                    </b-row>
 
-                    <div>SSM(Stress-Strength Model; 스트레스-강도 모델)</div>
-                    <div>SSM 시스템 구축을 통해, 과거 실패사례, 사용환경 데이터, 화학물질 사용기준 등 다양한 지식을 구조화하여 관리함으로써, 신규 제품·부품 개발 과정에서 효율성을 향상하고 실패 사례의 재발 방지를 추진하고 있습니다. 또한, 품질 및 개발과정 관련 실패사례를 취합하여 지식구조화 함으로써 실패에 따른 반복적인 설계 개선과 검증, 단가 상승 및 개발 일정 지연 등을 예방하고 있습니다. 2016년 도입 이후 2019년까지 시장 품질, 고분자 재료, 전자부품 등 다양하 분야에서 총 835건의 지식을 등록하여 관리하고 있습니다.
-                    </div>
-
-                    <p>또한, 내부 전문교육 프로그램인 R-campus(Reliability Campus)를 통해 전문 분야별, 직급별 필수 교육 항목을 선정하여 신뢰성 검증 전문가를 육성하고 있습니다. 대외적으로는 한국신뢰성협회, 한국표준협회, FITI시험연구원 등 다양한 외부 전문기관과의 협력을 통해 시험원들에게 보다 전문적인 교육의 기회를 제공하고 있으며, CRE(국제신뢰성기사), ISTA CPLP(국제포장운송시험원) 등 국제 자격증 취득을 지원하여 개인 역량 향상에 노력하고 있습니다. 
+                    <p class="mb-5">또한, 내부 전문교육 프로그램인 R-campus(Reliability Campus)를 통해 전문 분야별, 직급별 필수 교육 항목을 선정하여 신뢰성 검증 전문가를 육성하고 있습니다. 대외적으로는 한국신뢰성협회, 한국표준협회, FITI시험연구원 등 다양한 외부 전문기관과의 협력을 통해 시험원들에게 보다 전문적인 교육의 기회를 제공하고 있으며, CRE(국제신뢰성기사), ISTA CPLP(국제포장운송시험원) 등 국제 자격증 취득을 지원하여 개인 역량 향상에 노력하고 있습니다. 
                     </p>
+                    <hr class="py-3">                    
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'안전 인증 확대 및 고객 안심'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전 인증 확대 및 고객 안심</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="pb-3 mb-5">코웨이는 적극적인 안전 인증 시험소 운영을 기반으로 안전 인증 취득 범위를 확대하고, 제품 안전성에 대한 신속한 사전 준비를 추진합니다. 안전 인증을 통해 고객에 믿을 수 있는 정보를 제공하며, 시장 경쟁에서의 민첩성을 확보하고 있습니다. 또한 고객에 종합적인 안전 및 위생 안심 서비스를 제공하여 사용단계에서의 제품 책임을 이행하고 있습니다.
+                    <p class="mb-5">코웨이는 적극적인 안전 인증 시험소 운영을 기반으로 안전 인증 취득 범위를 확대하고, 제품 안전성에 대한 신속한 사전 준비를 추진합니다. 안전 인증을 통해 고객에 믿을 수 있는 정보를 제공하며, 시장 경쟁에서의 민첩성을 확보하고 있습니다. 또한 고객에 종합적인 안전 및 위생 안심 서비스를 제공하여 사용단계에서의 제품 책임을 이행하고 있습니다.
                     </p>
 
                     <h6-ancor :title="'제품 안전 인증 확대'" :activated="activated" class="blue5 mb-3">제품 안전 인증 확대</h6-ancor>
-                    <p>코웨이 TQA 센터는 13개의 제품 안전 관련 공인 시험소를 운영하며 빠르게 변화하는 국내외 안전성 트랜드 및 인증 규제에 신속히 대응하고 있습니다. 2019년에는 유럽 공인 시험기관인 NEMKO(전기 장비 제조 안전 테스트 감독 기관)와 공동으로 운영하고 있는 CTF(Customer’s Testing Facility) 시험소를 갱신하며 해외에 수출하는 전기전자제품의 안전 인증인 ENEC 와 CB 인증의 취득 관리를 더욱 효율적으로 수행할 수 있도록 협력을 강화하였습니다. 또한, 2019년 내부 NEMKO ICSE(International Certified Safety Engineer) 자격증 취득 인원을 4명으로 확대하여 전문성 기반의 안전 인증을 취득하였습니다.
+                    <p class="mb-45">코웨이 TQA 센터는 13개의 제품 안전 관련 공인 시험소를 운영하며 빠르게 변화하는 국내외 안전성 트랜드 및 인증 규제에 신속히 대응하고 있습니다. 2019년에는 유럽 공인 시험기관인 NEMKO(전기 장비 제조 안전 테스트 감독 기관)와 공동으로 운영하고 있는 CTF(Customer’s Testing Facility) 시험소를 갱신하며 해외에 수출하는 전기전자제품의 안전 인증인 ENEC 와 CB 인증의 취득 관리를 더욱 효율적으로 수행할 수 있도록 협력을 강화하였습니다. 또한, 2019년 내부 NEMKO ICSE(International Certified Safety Engineer) 자격증 취득 인원을 4명으로 확대하여 전문성 기반의 안전 인증을 취득하였습니다.
                     </p>
 
                         <h7 class="mb-2 gray63">국제 공인시험소 운영 및 인증 취득 현황</h7>

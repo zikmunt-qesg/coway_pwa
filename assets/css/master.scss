@@ -114,6 +114,13 @@
     -moz-box-shadow: 6px 4px 0px 0px $parang8;
     box-shadow: 6px 4px 0px 0px $parang8;
 }
+
+.blue7-box {
+    border: 1px solid $blue7;
+    -webkit-box-shadow: 6px 4px 0px 0px $blue7;
+    -moz-box-shadow: 6px 4px 0px 0px $blue7;
+    box-shadow: 6px 4px 0px 0px $blue7;
+}
   
 /* padding and margin extra */
 
@@ -218,7 +225,8 @@
 // }
 
 .custom-ul-li ul,
-.custom-ul{
+.custom-ul,
+.material-ul{
     padding-left: 1rem;
     margin: 0;
     list-style: none;
@@ -234,6 +242,13 @@
     padding-right: 5px;
     margin-left: -9px;
     color: $gray7;
+}
+.material-ul li:before{
+    content: "•";
+    font-size: 0.6rem;
+    padding-right: 5px;
+    margin-left: -9px;
+    color: $parang7;
 }
 .table-li ul li {
     margin-bottom:0!important;
