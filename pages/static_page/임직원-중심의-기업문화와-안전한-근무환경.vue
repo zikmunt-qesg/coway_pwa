@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="임직원 중심의 기업문화와 안전한 근무환경"></logger>
-    <b-img src="@/assets/images/사각형17.png" fluid class="page-top-img"></b-img>
+    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="my-5 pt-md-5">

@@ -30,7 +30,7 @@
                             <b-row no-gutters class="pr-md-4">
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
-                                    <ul class="material-ul fw-600">
+                                    <ul class="material-ul fw-500">
                                         <li>본질적 가치를 높이는 제품 혁신</li>
                                         <li>미래 기술 기반의 서비스 혁신</li>
                                         <li>혁신을 위한 연구개발 역량 강화</li>

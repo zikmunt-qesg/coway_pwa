@@ -30,7 +30,7 @@
                             <b-row no-gutters class="pr-md-4">
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
-                                    <ul class="material-ul fw-600">
+                                    <ul class="material-ul fw-500">
                                         <li>정보보호 및 개인정보보호 원칙 기반의 철저한 관리</li>
                                         <li>글로벌 정보보호 규제 대응</li>
                                         <li>시스템 기반 모니터링 및 실사</li>

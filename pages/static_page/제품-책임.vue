@@ -30,7 +30,7 @@
                             <b-row no-gutters class="pr-md-4">
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
-                                    <ul class="material-ul fw-600 font-noto">
+                                    <ul class="material-ul fw-500 font-noto">
                                         <li>제품 책임 거버넌스 - 무한책임위원회, PIC360, TQA 센터</li>
                                         <li>신뢰성 시험 표준 개발 및 검증 역량 강화</li>
                                         <li>안전인증 확대 및 고객 안심 서비스</li>
