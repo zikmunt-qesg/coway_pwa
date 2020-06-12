@@ -54,7 +54,7 @@
                                 </b-col>
                             </b-row>                            
                         </b-col>                        
-                        <b-col class="col-12 col-md-8 pr-2 position-relative pl-md-5">
+                        <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                         <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
                             <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
                             <p >감염병의 확산과 미세먼지 증가 등 최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 가정에 머무는 시간이 증가함에 따라 건강과 위생은 물론, 고객 개인의 라이프스타일을 반영한 제품과 서비스에 대한 니즈가 증가하였으며, 디지털 기술이 생활 전반에 자리함에 따라 주거공간에 인공지능(AI), 사물인터넷(IoT) 기술을 접목한 스마트 홈(Smart Home) 구현이 경쟁 요소로 자리하였습니다.

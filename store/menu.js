@@ -45,21 +45,21 @@ export const state = () => ({
                         ]
                 },
                 {
-                    title: '데이터 및 개인정보보호',
-                    link: '/static_page/데이터-및-개인정보보호',
+                    title: '정보보안 및 개인정보보호',
+                    link: '/static_page/정보보안-및-개인정보보호',
                     child:
                         [
                             {
-                                title: '데이터 및 개인정보보호 원칙과 조직',
-                                link: '/static_page/데이터-및-개인정보보호#데이터및개인정보보호원칙과조직'
+                                title: '정보보안 및 개인정보보호 원칙과 조직',
+                                link: '/static_page/정보보안-및-개인정보보호#정보보안및개인정보보호원칙과조직'
                             },
                             {
                                 title: '정보보호 관리체계',
-                                link: '/static_page/데이터-및-개인정보보호#정보보호관리체계'
+                                link: '/static_page/정보보안-및-개인정보보호#정보보호관리체계'
                             },
                             {
                                 title: '모니터링 및 실사 프로세스',
-                                link: '/static_page/데이터-및-개인정보보호#모니터링및실사프로세스'
+                                link: '/static_page/정보보안-및-개인정보보호#모니터링및실사프로세스'
                             }
                         ]
                 }

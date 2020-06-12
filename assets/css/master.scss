@@ -3,6 +3,7 @@
 }
 .text-underline{
     text-decoration: underline;
+    text-underline-position: under;
 }
 .side-nav {
     padding: 2.3em 1.4em 1.9em;
@@ -191,11 +192,13 @@
 .sep-table > table > tbody > tr > td {
     border-top: 0;
     border-bottom: 0.5px solid $gray3;
+    font-weight: 300;
 }
 .num-table > table > thead > tr > td, 
 .txt-table > table > thead > tr > td {
     border-top: 0;
     border-bottom: 1.2px solid $blue4;
+    font-weight: 300;
 }
 
 .env-table > table > thead > tr > td {

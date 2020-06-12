@@ -1,0 +1,71 @@
+<svg id="구성_요소_24_1" data-name="구성 요소 24 – 1" xmlns="http://www.w3.org/2000/svg" width="323.672" height="292.775" viewBox="0 0 323.672 292.775">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f6f7;
+      }
+
+      .cls-2 {
+        fill: #4d4d4d;
+        font-size: 16px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        fill: #1e2323;
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #1f4a8c;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_61" data-name="사각형 61" class="cls-1" width="323.672" height="259.646" transform="translate(0 33.129)"/>
+  <text id="정보보호대책_상세_항목" data-name="정보보호대책 상세 항목" class="cls-2" transform="translate(0.822 19)"><tspan class="cls-3" x="0" y="0">정보보호대책 상세 항</tspan><tspan y="0">목</tspan></text>
+  <text id="외부자산_보안" data-name="외부자산 보안" class="cls-4" transform="translate(99.953 66.272)"><tspan class="cls-5" x="0" y="0">외</tspan><tspan class="cls-6" y="0">부자</tspan><tspan class="cls-5" y="0">산 </tspan><tspan class="cls-6" y="0">보</tspan><tspan y="0">안</tspan></text>
+  <rect id="사각형_62" data-name="사각형 62" class="cls-7" width="111.626" height="29.5" transform="translate(84.11 45.362)"/>
+  <text id="정보보호_교육" data-name="정보보호 교육" class="cls-4" transform="translate(99.953 101.272)"><tspan class="cls-5" x="0" y="0">정</tspan><tspan class="cls-6" y="0">보보</tspan><tspan class="cls-5" y="0">호 </tspan><tspan class="cls-6" y="0">교</tspan><tspan y="0">육</tspan></text>
+  <rect id="사각형_63" data-name="사각형 63" class="cls-7" width="111.626" height="29.5" transform="translate(84.11 80.362)"/>
+  <text id="정보자산_분류" data-name="정보자산 분류" class="cls-4" transform="translate(219.781 66.272)"><tspan class="cls-6" x="0" y="0">정</tspan><tspan class="cls-5" y="0">보자</tspan><tspan class="cls-6" y="0">산</tspan><tspan class="cls-5" y="0"> </tspan><tspan class="cls-6" y="0">분</tspan><tspan y="0">류</tspan></text>
+  <rect id="사각형_64" data-name="사각형 64" class="cls-7" width="111.626" height="29.5" transform="translate(203.938 45.362)"/>
+  <text id="인적보안" class="cls-4" transform="translate(234.306 101.272)"><tspan class="cls-5" x="0" y="0">인</tspan><tspan class="cls-6" y="0">적보</tspan><tspan y="0">안</tspan></text>
+  <rect id="사각형_65" data-name="사각형 65" class="cls-7" width="111.626" height="29.5" transform="translate(203.938 80.362)"/>
+  <text id="관리영역" class="cls-4" transform="translate(5 82.276)"><tspan class="cls-6" x="0" y="0">관</tspan><tspan class="cls-5" y="0">리영</tspan><tspan y="0">역</tspan></text>
+  <line id="선_130" data-name="선 130" class="cls-7" x2="8.861" transform="translate(65.953 77.612)"/>
+  <text id="물리적_보안" data-name="물리적 보안" class="cls-4" transform="translate(166.203 151.272)"><tspan class="cls-5" x="0" y="0">물</tspan><tspan class="cls-6" y="0">리적</tspan><tspan class="cls-5" y="0" xml:space="preserve"> 보</tspan><tspan y="0">안</tspan></text>
+  <rect id="사각형_66" data-name="사각형 66" class="cls-7" width="231.454" height="29.5" transform="translate(84.11 130.362)"/>
+  <text id="물리영역" class="cls-4" transform="translate(5 151.992)"><tspan class="cls-6" x="0" y="0">물</tspan><tspan class="cls-5" y="0">리영</tspan><tspan y="0">역</tspan></text>
+  <text id="시스템_개발보안" data-name="시스템 개발보안" class="cls-4" transform="translate(93.62 201.271)"><tspan class="cls-5" x="0" y="0">시</tspan><tspan class="cls-6" y="0">스템</tspan><tspan class="cls-5" y="0" xml:space="preserve"> 개</tspan><tspan class="cls-6" y="0">발</tspan><tspan class="cls-5" y="0">보</tspan><tspan y="0">안</tspan></text>
+  <rect id="사각형_67" data-name="사각형 67" class="cls-7" width="111.626" height="29.5" transform="translate(84.11 180.362)"/>
+  <text id="암호통제" class="cls-4" transform="translate(234.306 201.272)"><tspan class="cls-5" x="0" y="0">암</tspan><tspan class="cls-6" y="0">호통</tspan><tspan y="0">제</tspan></text>
+  <rect id="사각형_68" data-name="사각형 68" class="cls-7" width="111.626" height="29.5" transform="translate(203.938 180.362)"/>
+  <text id="접근통제" class="cls-4" transform="translate(114.478 236.49)"><tspan class="cls-6" x="0" y="0">접</tspan><tspan class="cls-5" y="0">근통</tspan><tspan y="0">제</tspan></text>
+  <rect id="사각형_69" data-name="사각형 69" class="cls-7" width="111.626" height="29.5" transform="translate(84.11 215.581)"/>
+  <text id="운영보안" class="cls-4" transform="translate(234.306 236.49)"><tspan class="cls-5" x="0" y="0">운</tspan><tspan class="cls-6" y="0">영보</tspan><tspan y="0">안</tspan></text>
+  <rect id="사각형_70" data-name="사각형 70" class="cls-7" width="111.626" height="29.5" transform="translate(203.938 215.581)"/>
+  <text id="침해사고_관리" data-name="침해사고 관리" class="cls-4" transform="translate(99.953 271.708)"><tspan class="cls-5" x="0" y="0">침</tspan><tspan class="cls-6" y="0">해사</tspan><tspan class="cls-5" y="0">고 </tspan><tspan class="cls-6" y="0">관</tspan><tspan y="0">리</tspan></text>
+  <rect id="사각형_71" data-name="사각형 71" class="cls-7" width="111.626" height="29.5" transform="translate(84.11 250.797)"/>
+  <text id="IT_재해복구" data-name="IT 재해복구" class="cls-4" transform="translate(226.669 271.708)"><tspan class="cls-6" x="0" y="0">IT</tspan><tspan class="cls-5" y="0"> </tspan><tspan class="cls-6" y="0">재</tspan><tspan class="cls-5" y="0">해복</tspan><tspan y="0">구</tspan></text>
+  <rect id="사각형_72" data-name="사각형 72" class="cls-7" width="111.626" height="29.5" transform="translate(203.938 250.797)"/>
+  <text id="기술영역" class="cls-4" transform="translate(5 237.242)"><tspan class="cls-6" x="0" y="0">기</tspan><tspan class="cls-5" y="0">술영</tspan><tspan y="0">역</tspan></text>
+  <line id="선_154" data-name="선 154" class="cls-7" x2="8.861" transform="translate(65.953 145.831)"/>
+  <line id="선_155" data-name="선 155" class="cls-7" x2="8.861" transform="translate(65.953 230.831)"/>
+</svg>
