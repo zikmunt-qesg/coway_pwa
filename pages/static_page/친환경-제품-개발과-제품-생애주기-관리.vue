@@ -14,7 +14,7 @@
                 :main_title="'친환경 제품 개발과 제품 생애주기 관리'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#0b564a'"
+                :active_color="'#216a5a'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">

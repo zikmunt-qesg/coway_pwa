@@ -14,7 +14,7 @@
                 :main_title="'지배구조'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#132e54'"
+                :active_color="'#5171b1'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
