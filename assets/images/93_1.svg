@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="796.864" height="438.559" viewBox="0 0 796.864 438.559">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke: #3e3a39;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-dasharray: 0 2.962;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 2.997;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 0 2.995;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 0 3.006;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 0 2.998;
+      }
+
+      .cls-12, .cls-14, .cls-7, .cls-9 {
+        fill: #1e2323;
+      }
+
+      .cls-7, .cls-9 {
+        font-size: 17px;
+      }
+
+      .cls-14, .cls-7 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-22, .cls-25, .cls-9 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-10, .cls-20, .cls-25 {
+        fill: #132e54;
+      }
+
+      .cls-10 {
+        font-size: 32px;
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-12 {
+        font-size: 13px;
+      }
+
+      .cls-12, .cls-23, .cls-26 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-14 {
+        font-size: 16px;
+      }
+
+      .cls-15 {
+        fill: #828585;
+      }
+
+      .cls-16 {
+        fill: #cbd0d3;
+      }
+
+      .cls-17 {
+        fill: #d0eaf6;
+      }
+
+      .cls-18, .cls-22 {
+        fill: #5171b1;
+      }
+
+      .cls-19 {
+        fill: #a0c0eb;
+      }
+
+      .cls-21 {
+        fill: #fff;
+      }
+
+      .cls-22 {
+        font-size: 18px;
+      }
+
+      .cls-23 {
+        font-size: 14px;
+      }
+
+      .cls-24 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-25 {
+        font-size: 20px;
+      }
+
+      .cls-26 {
+        fill: #656464;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_41_1" data-name="구성 요소 41 – 1" transform="translate(0 0.021)">
+    <line id="선_93" data-name="선 93" class="cls-1" y1="46.289" x2="43.728" transform="translate(487.034 1.555)"/>
+    <line id="선_94" data-name="선 94" class="cls-2" x2="259.226" transform="translate(534.775 0.479)"/>
+    <path id="패스_52" data-name="패스 52" class="cls-3" d="M13425.42,3448.912h0m-263.722,0h0m-46.778,49.518h0" transform="translate(-12629.92 -3448.433)"/>
+    <line id="선_95" data-name="선 95" class="cls-4" x2="286.008" transform="translate(507.995 93.03)"/>
+    <path id="패스_53" data-name="패스 53" class="cls-3" d="M13425.42,3541.463h0m-290.5,0h0" transform="translate(-12629.92 -3448.433)"/>
+    <line id="선_96" data-name="선 96" class="cls-4" x2="286.008" transform="translate(3.495 72.323)"/>
+    <path id="패스_54" data-name="패스 54" class="cls-3" d="M12920.92,3520.756h0m-290.5,0h0" transform="translate(-12629.92 -3448.433)"/>
+    <line id="선_97" data-name="선 97" class="cls-4" x2="286.008" transform="translate(3.495 204.295)"/>
+    <path id="패스_55" data-name="패스 55" class="cls-3" d="M12920.92,3652.729h0m-290.5,0h0" transform="translate(-12629.92 -3448.433)"/>
+    <line id="선_98" data-name="선 98" class="cls-4" x2="286.008" transform="translate(507.995 185.008)"/>
+    <path id="패스_56" data-name="패스 56" class="cls-3" d="M13425.42,3633.441h0m-290.5,0h0" transform="translate(-12629.92 -3448.433)"/>
+    <line id="선_99" data-name="선 99" class="cls-5" x2="62.981" y2="43.701" transform="translate(467.47 234.405)"/>
+    <line id="선_100" data-name="선 100" class="cls-6" x2="259.317" transform="translate(534.684 278.963)"/>
+    <path id="패스_57" data-name="패스 57" class="cls-3" d="M13425.42,3727.4h0m-263.813,0h0m-66.687-46.271h0" transform="translate(-12629.92 -3448.433)"/>
+    <text id="정부" class="cls-7" transform="translate(712.242 36.684)"><tspan class="cls-8" x="0" y="0">정</tspan><tspan y="0">부</tspan></text>
+    <text id="_" data-name="  " class="cls-9" transform="translate(742.842 36.684)"><tspan class="cls-8" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_4_" data-name="4%" class="cls-10" transform="translate(751.682 36.684)"><tspan class="cls-11" x="0" y="0">4</tspan><tspan y="0">%</tspan></text>
+    <text id="_119_210_882" data-name="119,210,882" class="cls-12" transform="translate(729.323 63.684)"><tspan class="cls-13" x="0" y="0">119,210,88</tspan><tspan y="0">2</tspan></text>
+    <text id="기타" class="cls-7" transform="translate(712.242 129.234)"><tspan class="cls-8" x="0" y="0">기</tspan><tspan y="0">타</tspan></text>
+    <text id="_2" data-name="  " class="cls-9" transform="translate(742.842 129.234)"><tspan class="cls-8" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_8_" data-name="8%" class="cls-10" transform="translate(751.682 129.234)"><tspan class="cls-11" x="0" y="0">8</tspan><tspan y="0">%</tspan></text>
+    <text id="_242_194_605" data-name="242,194,605" class="cls-12" transform="translate(729.323 156.234)"><tspan class="cls-13" x="0" y="0">242,194,60</tspan><tspan y="0">5</tspan></text>
+    <text id="협력회사" class="cls-14" transform="translate(0 107.528)"><tspan class="cls-8" x="0" y="0">협력회</tspan><tspan y="0">사</tspan></text>
+    <text id="_3" data-name="  " class="cls-9" transform="translate(57.6 108.528)"><tspan class="cls-8" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_43_" data-name="43%" class="cls-10" transform="translate(66.439 108.528)"><tspan class="cls-11" x="0" y="0">43</tspan><tspan y="0">%</tspan></text>
+    <text id="_1_301_778_834" data-name="1,301,778,834" class="cls-12" transform="translate(0 130.528)"><tspan class="cls-13" x="0" y="0">1,301,778,83</tspan><tspan y="0">4</tspan></text>
+    <text id="파트너" class="cls-14" transform="translate(0 239.5)"><tspan class="cls-8" x="0" y="0">파트</tspan><tspan y="0">너</tspan></text>
+    <text id="_4" data-name="  " class="cls-9" transform="translate(43.199 240.5)"><tspan class="cls-8" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_8_2" data-name="8%" class="cls-10" transform="translate(52.04 240.5)"><tspan class="cls-11" x="0" y="0">8</tspan><tspan y="0">%</tspan></text>
+    <text id="_652_681_144" data-name="652,681,144" class="cls-12" transform="translate(0 262.5)"><tspan class="cls-13" x="0" y="0">652,681,14</tspan><tspan y="0">4</tspan></text>
+    <text id="주주_및_투자자" data-name="주주 및 투자자" class="cls-7" transform="translate(642.202 221.213)"><tspan class="cls-8" x="0" y="0">주주 및 투자</tspan><tspan y="0">자</tspan></text>
+    <text id="_5" data-name="  " class="cls-9" transform="translate(742.842 221.213)"><tspan class="cls-8" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_9_" data-name="9%" class="cls-10" transform="translate(751.682 221.213)"><tspan class="cls-11" x="0" y="0">9</tspan><tspan y="0">%</tspan></text>
+    <text id="_279_454_064" data-name="279,454,064" class="cls-12" transform="translate(729.322 248.213)"><tspan class="cls-13" x="0" y="0">279,454,06</tspan><tspan y="0">4</tspan></text>
+    <text id="임직원" class="cls-7" transform="translate(679.125 315.168)"><tspan class="cls-8" x="0" y="0">임직</tspan><tspan y="0">원</tspan></text>
+    <text id="_6" data-name="  " class="cls-9" transform="translate(725.024 315.168)"><tspan class="cls-8" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_14_" data-name="14%" class="cls-10" transform="translate(733.864 315.168)"><tspan class="cls-11" x="0" y="0">14</tspan><tspan y="0">%</tspan></text>
+    <text id="_423_310_932" data-name="423,310,932" class="cls-12" transform="translate(729.322 342.168)"><tspan class="cls-13" x="0" y="0">423,310,93</tspan><tspan y="0">2</tspan></text>
+    <g id="그룹_10" data-name="그룹 10" transform="translate(-12629.92 -3448.433)">
+      <path id="패스_58" data-name="패스 58" class="cls-15" d="M13028.121,3582.139l111.272-73.832a134.5,134.5,0,0,0-22.84-26.335Z"/>
+      <path id="패스_59" data-name="패스 59" class="cls-16" d="M13028.121,3582.139l133-10.533a128.591,128.591,0,0,0-21.73-63.3Z"/>
+      <path id="패스_60" data-name="패스 60" class="cls-17" d="M13028.121,3582.139l117.224,63.761c13.017-24.015,17.91-47.057,15.779-74.294Z"/>
+      <path id="패스_61" data-name="패스 61" class="cls-18" d="M13028.121,3582.139l26.556,131.012c40.437-8.257,70.968-30.9,90.668-67.251Z"/>
+      <path id="패스_62" data-name="패스 62" class="cls-19" d="M13028.121,3582.139l-122.363,53.354c25.366,58.5,86.533,90.4,148.919,77.658Z"/>
+      <path id="패스_63" data-name="패스 63" class="cls-20" d="M13028.121,3582.139l88.433-100.167a133.219,133.219,0,0,0-188.323,11.6c-35.36,40.052-43.729,92.9-22.473,141.917Z"/>
+      <path id="패스_64" data-name="패스 64" class="cls-21" d="M13027.92,3686.07a103.881,103.881,0,1,0-103.881-103.881,103.879,103.879,0,0,0,103.881,103.881"/>
+    </g>
+    <text id="경제적_가치_분배" data-name="경제적 가치 분배" class="cls-22" transform="translate(336.44 114.958)"><tspan class="cls-8" x="0" y="0">경제적 가치 분</tspan><tspan y="0">배</tspan></text>
+    <text id="_단위:_천원_" data-name="(단위: %, 천원)" class="cls-23" transform="translate(396.862 146.958)"><tspan class="cls-24" x="-42.028" y="0">(</tspan><tspan class="cls-11" y="0">단</tspan><tspan class="cls-24" y="0">위</tspan><tspan class="cls-11" y="0">:</tspan><tspan class="cls-24" y="0" xml:space="preserve"> %, 천</tspan><tspan class="cls-11" y="0">원</tspan><tspan y="0">)</tspan></text>
+    <text id="_3조_7억_원" data-name="3조 7억 원" class="cls-25" transform="translate(354.581 182.244)"><tspan class="cls-13" x="0" y="0">3조</tspan><tspan class="cls-8" y="0"> </tspan><tspan class="cls-13" y="0">7</tspan><tspan class="cls-8" y="0">억 </tspan><tspan y="0">원</tspan></text>
+    <text id="협력회사:_상품_및_원재료의_사용_재료비_외주용역_소모품_지급수수료_감가상각비_광고선전비_등_" data-name="협력회사: 상품 및 원재료의 사용(재료비), 외주용역, 소모품, 지급수수료, 감가상각비, 광고선전비 등 " class="cls-26" transform="translate(0 354.557)"><tspan class="cls-11" x="0" y="0">협력회사: 상품 및 원재료의 사용(재료비), 외주용역, 소모품, 지급수수</tspan><tspan class="cls-24" y="0">료</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-24" y="0">감</tspan><tspan class="cls-11" y="0">가</tspan><tspan class="cls-24" y="0">상</tspan><tspan class="cls-11" y="0">각</tspan><tspan class="cls-24" y="0">비</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-24" y="0">광</tspan><tspan class="cls-11" y="0">고</tspan><tspan class="cls-24" y="0">선</tspan><tspan class="cls-11" y="0">전</tspan><tspan class="cls-24" y="0">비</tspan><tspan class="cls-11" y="0"> </tspan><tspan y="0">등 </tspan></text>
+    <text id="_7" data-name="	" class="cls-26" transform="translate(49.452 354.557)"><tspan x="0" y="0">	</tspan></text>
+    <text id="파트너:_판촉비_판매수수료" data-name="파트너: 판촉비, 판매수수료" class="cls-26" transform="translate(0 370.553)"><tspan class="cls-11" x="0" y="0">파트너: 판촉비, 판매수수</tspan><tspan y="0">료</tspan></text>
+    <text id="주주_및_투자자:_연차배당_및_중간배당" data-name="주주 및 투자자: 연차배당 및 중간배당" class="cls-26" transform="translate(0 386.549)"><tspan class="cls-11" x="0" y="0">주주 및 투자자: 연차배당 및 중간배</tspan><tspan y="0">당</tspan></text>
+    <text id="임직원:_급여_및_상여_퇴직급여_복리후생비" data-name="임직원: 급여 및 상여, 퇴직급여, 복리후생비" class="cls-26" transform="translate(0 402.545)"><tspan class="cls-11" x="0" y="0">임직원: 급여 및 상여, 퇴직급여, 복리후생</tspan><tspan y="0">비</tspan></text>
+    <text id="정부:_법인세_비용" data-name="정부: 법인세 비용" class="cls-26" transform="translate(0 418.542)"><tspan class="cls-11" x="0" y="0">정부: 법인세 비</tspan><tspan y="0">용</tspan></text>
+    <text id="기타:_기타포괄손익_등" data-name="기타: 기타포괄손익 등" class="cls-26" transform="translate(0 434.538)"><tspan class="cls-11" x="0" y="0">기타: 기타포괄손익 </tspan><tspan y="0">등</tspan></text>
+  </g>
+</svg>
