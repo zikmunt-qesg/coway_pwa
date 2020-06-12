@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="146.08" height="50" viewBox="0 0 146.08 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #85c16b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #5e6366;
+      }
+
+      .cls-4 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_14_1" data-name="구성 요소 14 – 1" transform="translate(0.5 0.5)">
+    <g id="그룹_34" data-name="그룹 34" transform="translate(-1196.913 -1848.1)">
+      <path id="패스_100" data-name="패스 100" class="cls-1" d="M1221.414,1892.554a19.954,19.954,0,1,0-19.956-19.954,19.954,19.954,0,0,0,19.956,19.954"/>
+    </g>
+    <text id="_4" data-name="4" class="cls-2" transform="translate(19.941 30.785)"><tspan x="0" y="0">4</tspan></text>
+    <line id="선_56" data-name="선 56" class="cls-3" x2="86.402" transform="translate(59.178 24.5)"/>
+    <line id="선_57" data-name="선 57" class="cls-3" y2="4.5" transform="translate(59.178 22.25)"/>
+    <g id="그룹_35" data-name="그룹 35" transform="translate(-1196.913 -1848.1)">
+      <path id="패스_101" data-name="패스 101" class="cls-4" d="M1221.413,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
+    </g>
+    <path id="패스_102" data-name="패스 102" class="cls-4" d="M1233.125,1854.931l-1.221-4.768,4.844-.871" transform="translate(-1196.913 -1848.1)"/>
+  </g>
+</svg>
