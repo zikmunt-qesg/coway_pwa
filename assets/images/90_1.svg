@@ -1,0 +1,112 @@
+<svg id="구성_요소_38_1" data-name="구성 요소 38 – 1" xmlns="http://www.w3.org/2000/svg" width="796" height="370" viewBox="0 0 796 370">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f7f7;
+      }
+
+      .cls-2 {
+        fill: #4d4d4d;
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-14, .cls-2 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        fill: #656464;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 12px;
+      }
+
+      .cls-4, .cls-5, .cls-8 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #1e2323;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-10, .cls-13, .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #3e3a39;
+      }
+
+      .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-9 {
+        stroke: #828585;
+        stroke-width: 0.283px;
+      }
+
+      .cls-10 {
+        stroke: #5171b1;
+        stroke-width: 0.5px;
+      }
+
+      .cls-11 {
+        fill: #132e54;
+        font-size: 15px;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-13 {
+        stroke: #78a5e2;
+        stroke-width: 3px;
+      }
+
+      .cls-14 {
+        fill: #5171b1;
+        font-size: 21px;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_9" data-name="사각형 9" class="cls-1" width="796" height="370"/>
+  <text id="렌탈_계정현황" data-name="렌탈 계정현황" class="cls-2" transform="translate(20 32.65)"><tspan class="cls-3" x="0" y="0">렌탈 계정현</tspan><tspan y="0">황</tspan></text>
+  <text id="_" data-name=" " class="cls-4" transform="translate(110.88 32.65)"><tspan x="0" y="0"> </tspan></text>
+  <text id="_단위:_계정_" data-name="(단위: 계정)" class="cls-5" transform="translate(20.004 53.65)"><tspan class="cls-6" x="0" y="0">(단위: 계정</tspan><tspan y="0">)</tspan></text>
+  <line id="선_72" data-name="선 72" class="cls-7" x2="756" transform="translate(20 312.01)"/>
+  <text id="_4_435" data-name="4,435" class="cls-8" transform="translate(117.818 186.894)"><tspan class="cls-6" x="0" y="0">4,43</tspan><tspan y="0">5</tspan></text>
+  <text id="_4_610" data-name="4,610" class="cls-8" transform="translate(210.961 177.583)"><tspan class="cls-6" x="0" y="0">4,61</tspan><tspan y="0">0</tspan></text>
+  <text id="_4_832" data-name="4,832" class="cls-8" transform="translate(304.383 165.264)"><tspan class="cls-6" x="0" y="0">4,83</tspan><tspan y="0">2</tspan></text>
+  <text id="_4_849" data-name="4,849" class="cls-8" transform="translate(397.847 156.85)"><tspan class="cls-6" x="0" y="0">4,84</tspan><tspan y="0">9</tspan></text>
+  <text id="_4_970" data-name="4,970" class="cls-8" transform="translate(490.961 140.554)"><tspan class="cls-6" x="0" y="0">4,97</tspan><tspan y="0">0</tspan></text>
+  <text id="_5_230" data-name="5,230" class="cls-8" transform="translate(584.074 138.384)"><tspan class="cls-6" x="0" y="0">5,23</tspan><tspan y="0">0</tspan></text>
+  <line id="선_73" data-name="선 73" class="cls-9" y1="107.541" transform="translate(117.96 204.469)"/>
+  <line id="선_74" data-name="선 74" class="cls-9" y1="118.716" transform="translate(211.105 193.294)"/>
+  <line id="선_75" data-name="선 75" class="cls-9" y1="126.102" transform="translate(304.534 185.908)"/>
+  <line id="선_76" data-name="선 76" class="cls-9" y1="130.021" transform="translate(398 181.989)"/>
+  <line id="선_77" data-name="선 77" class="cls-9" y1="137.421" transform="translate(491.107 174.589)"/>
+  <line id="선_78" data-name="선 78" class="cls-9" y1="154.997" transform="translate(584.216 157.013)"/>
+  <line id="선_79" data-name="선 79" class="cls-10" y1="215.17" transform="translate(678.142 96.84)"/>
+  <text id="_2013" data-name="2013" class="cls-8" transform="translate(103.295 334.829)"><tspan class="cls-6" x="0" y="0">201</tspan><tspan y="0">3</tspan></text>
+  <text id="_2019" data-name="2019" class="cls-11" transform="translate(661.492 335.709)"><tspan class="cls-12" x="0" y="0">201</tspan><tspan y="0">9</tspan></text>
+  <text id="_2018" data-name="2018" class="cls-8" transform="translate(569.73 334.829)"><tspan class="cls-6" x="0" y="0">201</tspan><tspan y="0">8</tspan></text>
+  <text id="_2017" data-name="2017" class="cls-8" transform="translate(476.448 334.829)"><tspan class="cls-6" x="0" y="0">201</tspan><tspan y="0">7</tspan></text>
+  <text id="_2016" data-name="2016" class="cls-8" transform="translate(383.166 334.829)"><tspan class="cls-6" x="0" y="0">201</tspan><tspan y="0">6</tspan></text>
+  <text id="_2015" data-name="2015" class="cls-8" transform="translate(289.884 334.829)"><tspan class="cls-6" x="0" y="0">201</tspan><tspan y="0">5</tspan></text>
+  <text id="_2014" data-name="2014" class="cls-8" transform="translate(196.602 334.829)"><tspan class="cls-6" x="0" y="0">201</tspan><tspan y="0">4</tspan></text>
+  <path id="패스_38" data-name="패스 38" class="cls-13" d="M12746.92,1745.736l95.472-10.711,91.92-7.383,93.75-3.918,93.108-7.4,93.145-17.731,94.605-20.855" transform="translate(-12629.92 -1541.732)"/>
+  <text id="_5_688" data-name="5,688" class="cls-14" transform="translate(627.36 89.839)"><tspan class="cls-12" x="0" y="0">5</tspan><tspan class="cls-3" y="0">,</tspan><tspan class="cls-12" y="0">68</tspan><tspan y="0">8</tspan></text>
+</svg>
