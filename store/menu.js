@@ -70,7 +70,7 @@ export const state = () => ({
             link: '#',
             child: [
                 {
-                    title: 'CEO 메시지',
+                    title: 'CEO Message',
                     link: '/static_page/CEO-메시지'
                 },
                 {
