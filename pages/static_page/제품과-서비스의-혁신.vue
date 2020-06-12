@@ -29,37 +29,39 @@
                         <b-col class="col-12 col-md-4 fw-500">
                             <b-row no-gutters class="pr-md-4">
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
-                                    <h7 class="mb-3 w-100">Activity</h7>
-                                    <div>‧ 본질적 가치를 높이는 제품 혁신</div>
-                                    <div>‧ 미래 기술 기반의 서비스 혁신</div>
-                                    <div>‧ 혁신을 위한 연구개발 역량 강화</div>
+                                    <h7 class="mb-3 f-120 w-100">Activity</h7>
+                                    <ul class="material-ul fw-500">
+                                        <li>본질적 가치를 높이는 제품 혁신</li>
+                                        <li>미래 기술 기반의 서비스 혁신</li>
+                                        <li>혁신을 위한 연구개발 역량 강화</li>
+                                    </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
-                                    <h7 class="mb-4 w-100 blue7">Performance</h7>
+                                    <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
                                             <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="gray65 mb-0 fw-500"><span class="fw-600">2019</span>년 연구개발비</p>
-                                            <p class="mb-0 fw-400"><span class="f-230">37,671</span>백만 원</p>
+                                            <p class="mb-0 fw-500 font-noto">2019년 연구개발비</p>
+                                            <p class="mb-0 fw-400 blue7"><span class="f-230">37,671</span>백만 원</p>
                                             <p class="gray65 fw-400 line-height-low px-xl-5">(전년대비 2.3% 증가, 매출액 대비 1.25%)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
                                             <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="gray7 mb-0 fw-500">5년 연속</p>
-                                            <p class="f-140 fw-400">CES 혁신상 수상</p>
+                                            <p class="gray7 mb-0 fw-500 font-noto">5년 연속</p>
+                                            <p class="f-140 fw-400 blue7">CES 혁신상 수상</p>
                                         </b-col>
                                     </b-row>
                                 </b-col>
                             </b-row>                            
                         </b-col>                        
-                        <b-col class="col-12 col-md-8 pr-2 position-relative pl-md-5">
+                        <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                         <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
-                            <h7 class="blue7 mb-3">Business relevance & Approach</h7>
+                            <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
                             <p >감염병의 확산과 미세먼지 증가 등 최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 가정에 머무는 시간이 증가함에 따라 건강과 위생은 물론, 고객 개인의 라이프스타일을 반영한 제품과 서비스에 대한 니즈가 증가하였으며, 디지털 기술이 생활 전반에 자리함에 따라 주거공간에 인공지능(AI), 사물인터넷(IoT) 기술을 접목한 스마트 홈(Smart Home) 구현이 경쟁 요소로 자리하였습니다.
                             </p>
                             <p class="mb-45">코웨이는 이러한 변화를 환경가전 렌탈 비즈니스의 새로운 기회로 삼아 ‘물과 공기를 깨끗하게’라는 코웨이의 본질을 강화하기 위한 활동을 추진하였습니다. 2019년 코웨이는 위생성을 극대화한 ‘한뼘 시루직수 정수기’를 출시하고, 빅데이터 기반 고객 맞춤형 제품을 추천하는 ‘워터맵 서비스’를 제공하는 한편, 깨끗하고 맛있는 물을 선도하는 글로벌 리더로서 연구를 강화하기 위해 R&D 센터 내 ‘물맛 연구소’를 개소하는 등의 혁신 활동을 추진하였습니다. 또한, 오픈 이노베이션을 통해 제품에 ICT 기술을 결합한 스마트 가전을 선보이며 시장 내 경쟁력을 확보하고 고객 가치를 향상하기 위한 노력을 기울이고 있습니다.
                             </p>
-                            <h7 class="blue7 mb-3">Business Cases</h7>
+                            <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <div class="d-flex align-items-center">
                                 <div class="py-2 d-flex align-items-center mr-3" style="width: 55%">
                                     <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
@@ -85,7 +87,7 @@
                         </b-col>
                     </b-row>
                 <section class="border-blue px-4 py-4 mb-5">
-                    <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gray7 f-90 p-1 mr-2"> Case.</b-badge><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</p>
+                    <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</p>
                     <p class="mb-3">코웨이는 2020년 CES(Consumer Electronics Show)*에 참가하여 혁신적인 생활가전 제품 및 서비스를 전 세계에 선보였으며, 5년연속 CES 혁신상을 수상하며 혁신성을 인정받고 있습니다.
                     </p>
                     <p class="mb-3"> 매해 전세계 각국의 혁신적인 기업들이 새로운 아이디어와 제품을 선보이는 CES는 한 해를 견인할 기술을 확인할 수 있는 지표입니다. CES혁신상은 매년 CES(소비자 가전 전시회)에서 미국소비자기술협회(CTA: Consumer Technology Association)의 전문가들이 기술력, 디자인, 고객가치 등의 혁신성을 종합 평가하여 우수한 제품을 선발, 시상하는 상으로, 코웨이는 2016년 첫 참가 이후 5년 연속 CES 혁신상을 수상하는 성과를 거두고 있습니다.
@@ -97,7 +99,7 @@
 
                     <b-table-simple responsive class="txt-table case-table f-95 mb-5">
                         <b-thead><b-tr>
-                            <b-td>컨셉</b-td> <b-td class="text-center bg-blue1 fw-500" style="width:18%"><span class="text-underline fw-300">2016 </span><br>복합기능</b-td> <b-td class="text-center bg-blue1 fw-500" style="width:18%"><span class="text-underline fw-300">2017 </span><br>IoT(사물인터넷)</b-td><b-td class="text-center bg-blue1 fw-500" style="width:18%"><span class="text-underline fw-300">2018</span><br>AI(인공지능)</b-td> <b-td class="text-center bg-blue1 fw-500" style="width:18%"><span class="text-underline fw-300">2019</span><br>원천기술의 혁신</b-td> <b-td class="text-center bg-blue1 fw-500" style="width:18%"><span class="text-underline fw-300">2020</span><br>미래 Home</b-td>
+                            <b-td>컨셉</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2016 </span><br>복합기능</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2017 </span><br>IoT(사물인터넷)</b-td><b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2018</span><br>AI(인공지능)</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2019</span><br>원천기술의 혁신</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2020</span><br>미래 Home</b-td>
                         </b-tr></b-thead>
                         <b-tbody>
                             <b-tr>
@@ -120,6 +122,7 @@
                         </b-col>
                     </b-row>
                 </section>
+                <hr class="py-2">
                 <h6-ancor :title="'고객 맞춤형 혁신 다각화'" :activated="activated" class="blue5 mb-3">고객 맞춤형 혁신 다각화 </h6-ancor>
                 <b-row class="mb-5">
                     <b-col class="col-12 col-sm-6">
@@ -141,15 +144,15 @@
                     <h6-ancor :title="'빅데이터 기반 제품 추천, 워터맵 서비스'" :activated="activated" class="blue5 mb-3">빅데이터 기반 제품 추천, 워터맵 서비스</h6-ancor>
                     <p class="mb-45"> 워터맵 서비스는 국내외 각지의 물을 채취·분석해 수질 데이터베이스를 구축한 뒤 이를 기반으로 고객 수질 환경에 따른 맞춤 필터를 파악하고, 고객의 다양한 상황을 고려해 최종적으로 적합한 제품을 추천해주는 서비스입니다. 빅데이터 분석* 기반의 추천 서비스를 통해 고객이 속한 지역적 특성에 맞는 필터 및 제품을 사용할 수 있도록 차별화된 가치를 제공하고 있습니다.
                     </p>
-                <section class="bg-blue-gray1 py-4 px-4">
+                <section class="bg-blue-gray1 py-4 px-4 mb-5">
                     <b-row class="mb-45">
-                        <b-col class="col-12 col-sm-8 mb-3 mb-sm-0"><b-img src="@/assets/images/사각형 19@3x.png" fluid class="w-100"></b-img> <div class="f-80 mt-2">코웨이 글로벌 워터맵</div></b-col>
-                        <b-col class="col-12 col-sm-4"><b-img src="@/assets/images/사각형 22@3x.png" fluid class="w-100"></b-img> <div class="f-80 mt-2">국내 워터맵</div></b-col>
+                        <b-col class="col-12 col-sm-8 mb-3 mb-sm-0"><b-img src="@/assets/images/사각형 19@3x.png" fluid class="w-100"></b-img> <p class="f-80 mt-2">코웨이 글로벌 워터맵</p></b-col>
+                        <b-col class="col-12 col-sm-4"><b-img src="@/assets/images/사각형 22@3x.png" fluid class="w-100"></b-img> <p class="f-80 mt-2">국내 워터맵</p></b-col>
                     </b-row>
                     <p class="f-90 letter-narrow"> 1단계 : ‘모바일 워터맵 서비스 페이지’ 접속 &rarr; 2단계 : 거주하는 지역, 건물의 연식, 원수 종류 등의 정보 입력 &rarr; 3단계 : 입력 정보 기반으로 수질 데이터베이스 이용해 수질 환경 분석 &rarr; 4단계 : 수질 환경에 알맞은 필터를 파악, 사용 장소, 필요 기능, 사용자 수 등을 고려해 맞춤 정수기 추천</p>
                     <p class="f-80">*빅데이터 분석 항목 : 먹는 물 수질 기준 항목인 탁도, TDS(Total Dissolved Solid), pH를 비롯해 양이온 17종, 음이온 4종 등 </p>
                 </section>
-                <hr class="space-p45">
+                <hr class="py-2">
                 <h6-ancor :title="'시뮬레이션 체험, 공기 주치의 서비스 '" :activated="activated" class="blue5 mb-3">시뮬레이션 체험, 공기 주치의 서비스</h6-ancor>
                     <p class="mb-45"> 코웨이는 ‘에어 시뮬레이션 시스템’을 활용하여 공간의 구조, 가구, 사람 수 등에 따라 다른 사용 환경에 공간별로 공기 청정 성능이 어떻게 다른지 직접 보여주고, 알맞은 제품 종류 및 최적의 배치 장소를 제안하는 맞춤형 ‘공기주치의 서비스’를 제공합니다. 에어 시뮬레이션 시스템은 약 1,960억 개의 공기질 빅데이터를 활용한 컴퓨터 시뮬레이션을 통해 공기나 물의 움직임을 예측하는 시스템으로, 설치한 공기청정기를 통해 시간 단위로 공기가 정화되는 효과를 확인할 수 있습니다. 고객은 가상 시뮬레이션을 통해 시각적으로 제품을 체험할 수 있으며 생활 환경에 최적화된 제품을 구매하여 높은 만족도를 얻을 수 있습니다.
                     </p>
@@ -166,7 +169,7 @@
                             </p>
                         </b-col>
                     </b-row>
-                <hr class="py-2">
+                <hr class="py-3">
                 <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'혁신을 위한 연구개발 역량 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">혁신을 위한 연구개발 역량 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">코웨이는 물과 공기에 대한 전문성과 책임감을 바탕으로 건강한 생활환경을 위한 신기술을 확보하고 혁신제품을 개발하기 위해 노력하고 있습니다. 코웨이는 기술 연구부터 제품 개발, 신뢰성 검증에 이르기까지 지속적으로 연구개발 투자를 확대하며, 미래 가치를 발굴하기 위해 선행기술과 디자인을 논의하는 전사 차원의 회의체인 NIC 365(New Technology and Product Innovation Committee 365)를 운영하여 전사차원의 혁신을 추진하고 있습니다. 물과 공기에 대한 기존 보유 기술을 강화하는 한편, 의류청정기, 매트리스 등 새로운 제품군에 신기술 접목에 힘쓰고 있습니다. 또한 오픈 이노베이션 및 기술제휴를 통해 신성장동력을 탐색하고 있습니다.
                 </p>

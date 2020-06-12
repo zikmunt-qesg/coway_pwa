@@ -197,7 +197,7 @@ a:hover {
 p {
     margin-bottom: 0.7rem;
     word-break: normal;
-    font-size: 0.96rem;
+    font-size: 0.99rem;
     font-weight: 300;
 }
 p.word-break {
@@ -240,6 +240,7 @@ hr {
     padding-bottom: 3rem;
 }
 .space-p75 {
+    padding-top: 2.5rem;
     padding-bottom: 7.5rem;
 }
 .space-p25 {
@@ -268,6 +269,10 @@ hr {
     cursor: pointer;
 }
 
+.indent-sm{
+    text-indent: -0.65rem;
+    margin-left: 0.65rem;
+}
 .indent{
     text-indent: -1.15rem;
     margin-left: 1.15rem;
@@ -476,6 +481,9 @@ hr {
 }
 .bg-blue2{
     background-color: $blue2;
+}
+.bg-blue15{
+    background-color: $blue15;
 }
 .bg-blue1{
     background-color: rgba(231, 244, 250, 0.9);
@@ -714,6 +722,9 @@ table, .table {
     border-bottom: 1px dashed $gray4;
 }
 
+.border-bottom-blue7 {
+    border-bottom: 1px solid $blue7;
+}
 .border-blue {
     border: 1px solid $blue5;
 }

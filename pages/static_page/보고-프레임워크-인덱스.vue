@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="보고 프레임워크 인덱스"></logger>
 
-    <b-img src="@/assets/images/사각형17.png" fluid class="page-top-img"></b-img>
+    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="my-5 pt-md-5">
