@@ -25,10 +25,10 @@
                     <h4-ancor :title="'이해관계자 참여 및 중요 주제'" :activated="activated" class="parang8 mb-4 mb-sm-5">이해관계자 참여 및 중요 주제</h4-ancor>
 
                     <h6-ancor :title="'이해관계자 참여'" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">이해관계자 참여</h6-ancor>
-                    <p class="">코웨이는 기업 활동에 대해 영향을 주고받는 조직 내·외부의 주체를 이해관계자로 정의하고 이를 7개 그룹으로 나누어 관리하고 있습니다. 이해관계자 그룹 별 다양한 커뮤니케이션 채널을 운영하여 경영의 투명성을 제고하고 신뢰성 있는 관계를 구축해 나가고 있습니다. 코웨이의 이해관계자별 커뮤니케이션 채널은 각 담당부서에서 운영되며 주요 이슈는 경영위원회를 통해 검토됩니다. 
+                    <p class="mb-5">코웨이는 기업 활동에 대해 영향을 주고받는 조직 내·외부의 주체를 이해관계자로 정의하고 이를 7개 그룹으로 나누어 관리하고 있습니다. 이해관계자 그룹 별 다양한 커뮤니케이션 채널을 운영하여 경영의 투명성을 제고하고 신뢰성 있는 관계를 구축해 나가고 있습니다. 코웨이의 이해관계자별 커뮤니케이션 채널은 각 담당부서에서 운영되며 주요 이슈는 경영위원회를 통해 검토됩니다. 
                     </p>
 
-                    <hr class="mb-3">
+                    <!-- <hr class=""> -->
                         <h7 class="mb-3 gray63">이해관계자 커뮤니케이션 채널</h7>
                         <b-table-simple responsive class="sep-table f-90 mb-1">
                             <b-tbody><b-tr class="bg-parang7 fw-300 text-white">
@@ -115,12 +115,12 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                    <hr class="py-2">
+                    <hr class="py-3">
                     
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'중대성 평가'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 평가</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> 코웨이는 지속가능경영 측면의 중요 주제를 도출하기 위해 중대성 평가를 실시하고 있습니다. 코웨이가 중요 주제를 정의하는 방법은 대외 환경 변화 및 코웨이 전략 변화에 기반한 이슈 풀(Pool)을 구성하고, 사업적 연관성 및 이해관계자에의 영향력을 파악하여 우선순위 주제를 도출하는 과정으로 진행됩니다. 각 우선순위 주제는 코웨이의 사업적 가치 창출 측면에서의 영향 수준과 함께 중요 주제로 정의되며, 본 보고서 전반에 걸쳐 사업적 중요성 및 사회적 가치 창출 영향력, 경영 전략 및 목표, 활동 등에 대해 상세히 보고하고 있습니다. 
                     </p>
-                    <hr class="py-2">
+                    <hr class="py-1">
                     <h6-ancor :title="'Step 1. 이슈 풀(Pool)구성'" :activated="activated" class="parang6 mb-3 font-noto">Step 1. 이슈 풀(Pool)구성</h6-ancor>
                     <p class="mb-45">코웨이는 산업 및 기업환경의 변화를 반영하고 지속가능경영 측면의 핵심 화두를 반영한 중요 주제를 도출하기 위해 다양한 지표를 분석하여 이슈 풀(Pool)을 도출하고 있습니다. 글로벌 지속가능성 표준 및 이니셔티브 분석을 통해 최신 트랜드 및 거시적인 산업 환경의 변화를 파악하며, 코웨이의 변화를 밀접하게 반영하는 미디어 및 커뮤니케이션 키워드를 분석하여 핵심 이슈를 도출합니다. 이를 통해 2019년 코웨이의 이슈 풀(Pool)은 26개로 도출되었습니다.
                     </p>
@@ -257,7 +257,7 @@
 
                     <h6-ancor :title="'고객 맞춤형 제품 및 서비스 개발'" :activated="activated" class="parang6 mb-3 pb-2">고객 맞춤형 제품 및 서비스 개발</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
-                        <b-col class="col-12 col-sm-5 pr-sm-5">
+                        <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
                             <ul class="custom-ul f-95 pt-2 fw-300">
                                 <li>고객 니즈와 라이프스타일에 기반한 혁신적 제품 및 서비스 개발</li>
@@ -265,9 +265,13 @@
                                 <li>R&D와 오픈 이노베이션을 통한 고객가치 혁신 역량 강화</li>
                             </ul>
                         </b-col>
-                        <b-col class="col-12 col-sm-7 pl-sm-5">
+                        <b-col class="col-12 col-md-7 pl-md-4 position-relative">
+                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
-                            <b-img src="@/assets/images/17_1.svg" fluid class="pt-2"></b-img>
+                            <div class="d-md-flex pt-2">
+                                <div class="fw-500 mr-3 mb-2 mb-md-0">고객만족도 <br> <span class="fw-300 f-80">(단위: 점수)</span></div>
+                                <div><b-img src="@/assets/images/17_1.svg" fluid class="w-100"></b-img></div>
+                            </div>
                         </b-col>
                     </b-row>                   
 
@@ -275,8 +279,8 @@
                     </p>
 
                     <h6-ancor :title="'제품 안전 및 신뢰성 강화'" :activated="activated" class="parang6 mb-3">제품 안전 및 신뢰성 강화</h6-ancor>
-                    <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
-                        <b-col class="col-12 col-sm-4 pr-sm-4">
+                    <b-row no-gutters class="mb-4 border-bottom-dark pb-3 pt-1">
+                        <b-col class="col-12 col-md-4 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
                             <ul class="custom-ul f-95 pt-2 fw-300">
                                 <li>제품 책임 거버넌스 – 무한책임위원회, PIC 360, TQA 센터</li>
@@ -284,9 +288,17 @@
                                 <li>안전인증 확대 및 고객 안심 서비스</li>
                             </ul>
                         </b-col>
-                        <b-col class="col-12 col-sm-8 pl-sm-3">
-                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
-                            <b-img src="@/assets/images/22_1.svg" fluid class="pt-2"></b-img>
+                        <b-col class="col-12 col-md-8 pl-md-4 position-relative">
+                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                            <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
+                            <div class="position-relative">
+                                <div class="fw-500 mr-2 position-absolute">
+                                    <div class="line-height-low">연도별 검증 <br>진행 현황 </div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
+                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
+                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div>
+                                </div>
+                                <b-img src="@/assets/images/22_1.svg" fluid class="pt-2"></b-img>
+                            </div>
                         </b-col>
                     </b-row>      
 
@@ -295,7 +307,7 @@
 
                     <h6-ancor :title="'정보보호'" :activated="activated" class="parang6 mb-3">정보보호</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
-                        <b-col class="col-12 col-sm-5 pr-sm-5">
+                        <b-col class="col-12 col-md-4 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
                             <ul class="custom-ul f-95 pt-2 fw-300">
                                 <li>정보보호 및 개인정보보호 원칙 기반의 철저한 관리</li>
@@ -303,9 +315,13 @@
                                 <li>시스템 기반 모니터링 및 실사</li>
                             </ul>
                         </b-col>
-                        <b-col class="col-12 col-sm-7 pl-sm-5">
+                        <b-col class="col-12 col-md-8 pl-md-4 position-relative">
+                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
-                            <b-img src="@/assets/images/17_1.svg" fluid class="pt-2"></b-img>
+                            <div class="d-md-flex pt-2">
+                                <div class="fw-500 mr-3 w-25 mb-2 mb-md-0">임직원 정보보호 교육 참여율</div>
+                                <div><b-img src="@/assets/images/45_1.svg" fluid class="w-100"></b-img></div>
+                            </div>
                         </b-col>
                     </b-row> 
 

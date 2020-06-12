@@ -159,7 +159,7 @@ html {
 
 @media (max-width: 640px) {
     html {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -266,6 +266,11 @@ hr {
 
 .cursor{
     cursor: pointer;
+}
+
+.indent{
+    text-indent: -1.15rem;
+    margin-left: 1.15rem;
 }
 
 /*font-size*/
@@ -711,6 +716,9 @@ table, .table {
 
 .border-blue {
     border: 1px solid $blue5;
+}
+.border-parang {
+    border: 1px solid $parang6;
 }
 .border-gold {
     border: 1px solid $gold6;

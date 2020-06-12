@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="797.364" height="302.92" viewBox="0 0 797.364 302.92">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-3 {
+        fill: #1e2323;
+      }
+
+      .cls-1, .cls-10 {
+        font-size: 16px;
+      }
+
+      .cls-1 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-3 {
+        font-size: 17px;
+      }
+
+      .cls-20, .cls-3 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-15, .cls-4 {
+        fill: #132e54;
+      }
+
+      .cls-4 {
+        font-size: 32px;
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke: #3e3a39;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 0 3.027;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 0 3.018;
+      }
+
+      .cls-9 {
+        stroke-dasharray: 0 2.99;
+      }
+
+      .cls-10, .cls-17, .cls-21 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-11, .cls-20 {
+        fill: #5171b1;
+      }
+
+      .cls-12 {
+        fill: #a0c0eb;
+      }
+
+      .cls-13 {
+        fill: #d0eaf6;
+      }
+
+      .cls-14 {
+        fill: #f5f7f7;
+      }
+
+      .cls-16 {
+        fill: #fff;
+      }
+
+      .cls-17 {
+        fill: #656464;
+        font-size: 12px;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.044em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-20 {
+        font-size: 18px;
+      }
+
+      .cls-21 {
+        font-size: 14px;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_32_1" data-name="구성 요소 32 – 1" transform="translate(0.5)">
+    <text id="자기주식" class="cls-1" transform="translate(0.158 183.39)"><tspan class="cls-2" x="0" y="0">자기주</tspan><tspan y="0">식</tspan></text>
+    <text id="_" data-name="  " class="cls-3" transform="translate(57.758 184.39)"><tspan class="cls-2" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_2_" data-name="2%" class="cls-4" transform="translate(66.598 184.39)"><tspan class="cls-5" x="0" y="0">2</tspan><tspan y="0">%</tspan></text>
+    <line id="선_386" data-name="선 386" class="cls-6" x1="114.234" y2="76.916" transform="translate(167.255 67.657)"/>
+    <line id="선_387" data-name="선 387" class="cls-7" x1="161.473" transform="translate(1.509 145.417)"/>
+    <path id="패스_286" data-name="패스 286" class="cls-8" d="M4986.92,5473.726h0m166,0h0m118-79.449h0" transform="translate(-4986.92 -5328.31)"/>
+    <line id="선_388" data-name="선 388" class="cls-9" x2="336.365" transform="translate(3.49 28.177)"/>
+    <path id="패스_287" data-name="패스 287" class="cls-8" d="M5328.269,5356.486h0m-340.849,0h0" transform="translate(-4986.92 -5328.31)"/>
+    <line id="선_389" data-name="선 389" class="cls-9" x2="336.365" transform="translate(457.64 17.315)"/>
+    <path id="패스_288" data-name="패스 288" class="cls-8" d="M5782.42,5345.625h0m-340.85,0h0" transform="translate(-4986.92 -5328.31)"/>
+    <text id="_주_넷마블" data-name="(주)넷마블" class="cls-1" transform="translate(657.249 57.554)"><tspan class="cls-2" x="0" y="0">(주)넷마</tspan><tspan y="0">블</tspan></text>
+    <text id="_2" data-name="  " class="cls-3" transform="translate(725.024 58.554)"><tspan class="cls-2" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_25_" data-name="25%" class="cls-4" transform="translate(733.864 58.554)"><tspan class="cls-5" x="0" y="0">25</tspan><tspan y="0">%</tspan></text>
+    <text id="기타" class="cls-1" transform="translate(0.158 68.415)"><tspan class="cls-2" x="0" y="0">기</tspan><tspan y="0">타</tspan></text>
+    <text id="_3" data-name="  " class="cls-3" transform="translate(28.958 69.415)"><tspan class="cls-2" x="0" y="0"> </tspan><tspan y="0"> </tspan></text>
+    <text id="_6_" data-name="6%" class="cls-4" transform="translate(37.798 69.415)"><tspan class="cls-5" x="0" y="0">6</tspan><tspan y="0">%</tspan></text>
+    <line id="선_390" data-name="선 390" class="cls-9" x2="336.365" transform="translate(457.64 110.249)"/>
+    <path id="패스_289" data-name="패스 289" class="cls-8" d="M5782.42,5438.559h0m-340.85,0h0" transform="translate(-4986.92 -5328.31)"/>
+    <text id="국민연금" class="cls-1" transform="translate(685.502 150.453)"><tspan class="cls-2" x="0" y="0">국민연</tspan><tspan y="0">금</tspan></text>
+    <text id="_4" data-name=" " class="cls-10" transform="translate(743.102 151.445)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_5" data-name=" " class="cls-3" transform="translate(747.262 151.453)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_8_" data-name="8%" class="cls-4" transform="translate(751.682 151.453)"><tspan class="cls-5" x="0" y="0">8</tspan><tspan y="0">%</tspan></text>
+    <line id="선_391" data-name="선 391" class="cls-9" x2="336.365" transform="translate(457.64 203.147)"/>
+    <path id="패스_290" data-name="패스 290" class="cls-8" d="M5782.42,5531.457h0m-340.85,0h0" transform="translate(-4986.92 -5328.31)"/>
+    <text id="외국인" class="cls-1" transform="translate(682.085 243.353)"><tspan class="cls-2" x="0" y="0">외국</tspan><tspan y="0">인</tspan></text>
+    <text id="_6" data-name=" " class="cls-10" transform="translate(725.285 244.345)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_7" data-name=" " class="cls-3" transform="translate(729.444 244.353)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_59_" data-name="59%" class="cls-4" transform="translate(733.864 244.353)"><tspan class="cls-5" x="0" y="0">59</tspan><tspan y="0">%</tspan></text>
+    <path id="패스_291" data-name="패스 291" class="cls-11" d="M5384.921,5462.09l111.546-73.83a128.557,128.557,0,0,1,21.808,63.335Z" transform="translate(-4986.92 -5328.31)"/>
+    <path id="패스_292" data-name="패스 292" class="cls-12" d="M5384.921,5462.09l-73.831-111.545a133.767,133.767,0,0,1,185.377,37.715Z" transform="translate(-4986.92 -5328.31)"/>
+    <path id="패스_293" data-name="패스 293" class="cls-13" d="M5384.921,5462.09l-110.24-75.766a129.635,129.635,0,0,1,36.409-35.779Z" transform="translate(-4986.92 -5328.31)"/>
+    <path id="패스_294" data-name="패스 294" class="cls-14" d="M5384.921,5462.09l-118.652-61.766a123.2,123.2,0,0,1,8.412-14Z" transform="translate(-4986.92 -5328.31)"/>
+    <path id="패스_295" data-name="패스 295" class="cls-15" d="M5384.921,5462.09l133.354-10.495a133.766,133.766,0,0,1-266.708,20.99c-2.087-26.513,2.422-48.671,14.7-72.261Z" transform="translate(-4986.92 -5328.31)"/>
+    <path id="패스_296" data-name="패스 296" class="cls-16" d="M5384.92,5565.959a103.881,103.881,0,1,0-103.881-103.881,103.88,103.88,0,0,0,103.881,103.881" transform="translate(-4986.92 -5328.31)"/>
+    <text id="_2020년_2월_11일_웅진씽크빅_지분_25.08_를_넷마블이_전액_인수함" data-name="* 2020년 2월 11일 웅진씽크빅 지분 25.08%를 ㈜넷마블이 전액 인수함" class="cls-17" transform="translate(0 298.92)"><tspan class="cls-5" x="0" y="0">*</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">2020년</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">2월</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">11일</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">웅진씽크빅</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">지분</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">25.08%를</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">㈜넷마블이</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">전액</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-5" y="0">인</tspan><tspan class="cls-19" y="0">수</tspan><tspan y="0">함</tspan></text>
+    <text id="주주현황" class="cls-20" transform="translate(365.17 126.37)"><tspan class="cls-2" x="0" y="0">주주현</tspan><tspan y="0">황</tspan></text>
+    <text id="_단위_" data-name="(단위 %)" class="cls-21" transform="translate(372.76 158.37)"><tspan class="cls-19" x="0" y="0">(</tspan><tspan class="cls-5" y="0">단</tspan><tspan class="cls-19" y="0">위 </tspan><tspan class="cls-5" y="0">%</tspan><tspan y="0">)</tspan></text>
+  </g>
+</svg>
