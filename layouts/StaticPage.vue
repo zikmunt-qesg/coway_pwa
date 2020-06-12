@@ -3,7 +3,7 @@
     <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
         <site-header />
 
-        <nuxt class="nuxt" @mouseover="hideSubmenu"/>
+        <nuxt class="nuxt"/>
 
         <site-footer />
   </div>

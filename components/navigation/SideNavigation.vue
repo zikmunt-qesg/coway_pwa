@@ -62,7 +62,6 @@ export default {
         },
     },
     created(){
-      console.log(this.new_class);
         
     }
     

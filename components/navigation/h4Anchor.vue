@@ -14,15 +14,15 @@ export default {
             return ih.safeHash(target)
         },
         viewHandler(event){
-            if(event.type == 'enter' ){
-                this.activated.push(event.target.element.id)
+            if(event.type == 'progress' ){
+                if(event.percentCenter==0.5) { this.activated.splice(0, 1, event.target.element.id) }
             }
-            else if(event.type == 'exit'){
-                let idx = this.activated.findIndex(item => item == event.target.element.id)
-                if (idx > -1) {
-                    this.activated.splice(idx, 1)
-                }
-            }
+            //else if(event.type == 'exit'){
+            //    let idx = this.activated.findIndex(item => item == event.target.element.id)
+            //    if (idx > -1) {
+            //        this.activated.splice(idx, 1)
+            //    }
+            //}
         },
     }
 }
