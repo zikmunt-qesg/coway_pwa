@@ -1,5 +1,5 @@
 function safeHash(target){
-    return target.replace(/\./g,'-').replace(/\s/g,'')
+    return target.replace(/\./g,'-').replace(/\s/g,'').replace(/[\{\}\[\]\/?.,;:|*~`!^_+<>@\#$%&\\\=\(\)\'\" ]/g,'')
 }
 
 function deepCopy(obj) {

@@ -5,7 +5,7 @@
     </b-row>
     <b-container>
         <b-card class="border-0 bg-blue-gray1 mb-5">
-            <search-form class="my-3" prop_mode='indicator' prop_framework='GRI'></search-form>
+            <search-form class="my-3" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form>
         </b-card>
 
             <b-nav tabs class="mb-5">
@@ -141,6 +141,9 @@ import SearchForm from '@/components/search/SearchForm'
 export default {
   components: {
     SearchForm
+  },
+  async asyncData({ query }) {
+    return { defined_query: query.defined_query }
   },
   data() {
     return {

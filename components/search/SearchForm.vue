@@ -11,7 +11,7 @@
             </b-col>
             <b-col class="col-12 col-md-8 d-flex">
                 <b-input-group class="d-flex align-items-stretch">
-                    <template v-slot:prepend>
+                    <template v-slot:prepend v-if="selected_mode=='indicator'">
                         <b-dropdown split :disabled="selected_mode !='indicator'" :text="selected_framework" variant="blue">
                             <b-dropdown-item href="#" @click="selected_framework='GRI'">GRI</b-dropdown-item>
                             <b-dropdown-item href="#" @click="selected_framework='SASB'">SASB</b-dropdown-item>
@@ -23,13 +23,13 @@
                 </b-input-group>        
             </b-col>
         </b-row>
-
     </div>
 </template>
 <script>
 import { mapActions } from 'vuex'
 
 export default {
+
   data() {
     return {
       selected_framework: '',
@@ -40,7 +40,8 @@ export default {
   },
   props:{
     prop_framework: { type: String, default: 'GRI' },
-    prop_mode: { type: String, default: 'integrated'}
+    prop_mode: { type: String, default: 'integrated'},
+    defined_query: { type: String, default: '' }
   },
   methods: {
     ...mapActions('search', ['searchPages']),
@@ -56,20 +57,23 @@ export default {
       if (this.selected_mode == 'integrated'){
         this.searchPages({ q: this.search_query })
         .then( () => {
-          this.$router.push({ path: '/framework/search_result' })
+          this.$router.push({ path: '/framework/search_result', query: { defined_query: this.search_query} })
         })
       }
       else{
         if (this.selected_framework == 'GRI') {
-          this.$router.push({ path: '/framework/gri', hash: this.safeHash(`gri_${this.search_query}`)})
+          this.$router.push({ path: '/framework/gri', hash: this.safeHash(`gri_${this.search_query}`), query: { defined_query: this.search_query} })
         }
         else if(this.selected_framework == 'SASB'){
-          this.$router.push({ path: '/framework/sasb', hash: this.safeHash(`sasb_${this.search_query}`)})
+          this.$router.push({ path: '/framework/sasb', hash: this.safeHash(`sasb_${this.search_query}`), query: { defined_query: this.search_query} })
         }
         else if(this.selected_framework == 'DJSI'){
-          this.$router.push({ path: '/framework/djsi', hash: this.safeHash(`djsi_${this.search_query}`)})
+          this.$router.push({ path: '/framework/djsi', hash: this.safeHash(`djsi_${this.search_query}`), query: { defined_query: this.search_query} })
         }
       }
+
+      this.$emit('hide-finder', false)
+
     },
     safeHash(target){
       return target.replace(/\./g,'-').replace(/\s/g,'')
@@ -78,6 +82,10 @@ export default {
   mounted(){
     this.selected_framework = this.prop_framework
     this.selectMode(this.prop_mode)
+    if(this.defined_query != '') { this.search_query = this.defined_query }
+  },
+  created(){
+
   },
   watch: {
     selected_framework(new_value) {

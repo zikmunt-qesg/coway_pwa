@@ -56,6 +56,23 @@ export const actions = {
                 console.log(error)
             })
     },
+    deleteArticle({ state, commit, rootState }, { id }){
+        const path = rootState.backend_host + '/delete_article'
+
+        let formData = new FormData()
+        formData.append('id', id)
+
+        return this.$axios.post(path, formData)
+        .then(result => {
+            let articles = [ ...state.articles ]
+            let idx = articles.findIndex(item => item.id == id )
+            if (idx > -1){
+                articles.splice(idx, 1)
+            }
+            commit('update_articles', articles)
+            return result 
+        })
+    },
     loadPicture({ state, commit, rootState }, { id, thumb } ){
         const path = rootState.backend_host + '/get_file_from_server'
         let target_article = state.articles.find(item => item.id == id)

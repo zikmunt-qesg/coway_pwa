@@ -21,7 +21,7 @@
                         <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" block> 수정 </b-button>
                     </b-td>
                     <b-td class="border-0">
-                        <b-button block>삭제</b-button>
+                        <b-button block @click.stop.prevent="deleteArticle({ id: item.id})">삭제</b-button>
                     </b-td>           
                 </b-tr>
                 <b-tr>
@@ -43,7 +43,7 @@
         </b-table-simple>
                 
         <div class="text-right">
-            <b-button @click.stop.prevent="$router.push('/news/write_article')" variant="blue">새 글쓰기</b-button>
+            <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기</b-button>
         </div>
     </b-container>
     <!-- <iframe class="fullbody" ref="iframe" src="https://cowaypwa.dataflare.net/admin"></iframe> -->
@@ -64,7 +64,7 @@ export default {
         }),
     },
     methods: {
-        ...mapActions('articles', ['readArticles', 'saveArticle'])
+        ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle'])
     },
     created(){
         // if (this.is_authenticated != true){

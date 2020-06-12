@@ -156,31 +156,6 @@ export default {
         }
     },
     methods:{
-        viewHandler(event){
-            if(event.type == 'enter' ){
-                if(this.activated.length() != 0) {
-                    this.activated.splice(0, this.activated.length() )
-                }
-                this.activated.push(event.target.element.id)
-            }
-            else if(event.type == 'exit'){
-                let idx = this.activated.findIndex(item => item == event.target.element.id)
-                if (idx > -1) {
-                    if(this.activate.length() != 1)
-                        { this.activated.splice(idx, 1) }
-                }
-            }
-            console.log(this.activated)
-        },
-        isActive(target){
-            let idx = this.activated.findIndex(item => item == target)
-            if(idx > -1) {
-                return true
-            }
-            else {
-                return false
-            }
-        },
         safeHash(target){
             return ih.safeHash(target)
         }

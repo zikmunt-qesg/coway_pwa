@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-container>
-        <search-form class="my-3" prop_mode='integrated' prop_framework='GRI'></search-form>
+        <search-form class="my-3" prop_mode='integrated' prop_framework='GRI' :defined_query="defined_query"></search-form>
 
         <template v-if="search_results.length != 0">
             <b-card class="my-2" v-for="item in search_results" :key="item.link">
@@ -26,6 +26,9 @@ import { mapState } from 'vuex'
 export default {
   components: {
     SearchForm
+  },
+  async asyncData({ query }) {
+    return { defined_query: query.defined_query }
   },
   computed:{
       ...mapState('search', {

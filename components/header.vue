@@ -21,7 +21,7 @@
                 </b-navbar-nav>
             </b-collapse>
             <b-nav-item class="ml-4 pt-1 f-90" style="list-style: none"> ENG </b-nav-item>
-            <b-nav-item class="ml-2" style="list-style: none"><i class="fas fa-search"></i></b-nav-item>
+            <b-nav-item class="ml-2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
             <b-nav-item class="d-none d-lg-block ml-2" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
         </b-navbar>
 
@@ -44,6 +44,11 @@
         <b-modal hide-header hide-footer v-model="show_site_map" id="sitemap-modal" class="position-absolute w-100 bg-gray">
             <site-map @show_site_map="toggleSiteMap"></site-map>
         </b-modal>
+        <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="position-absolute w-100 bg-gray">
+            <div class="py-5 px-5">
+                <search-form @hide-finder="toggleSearchForm"></search-form>
+            </div>
+        </b-modal>
 
     </div>
   </header>
@@ -52,6 +57,7 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import SiteMap from '@/components/GlobalComponents/SiteMap'
+import SearchForm from '@/components/search/SearchForm'
 
 export default {
     data() {
@@ -59,15 +65,16 @@ export default {
             show_sub_menu: false,
             sub_menu_item: [],
             menu_text: '코웨이의 제품 및 브랜드는 궁극적으로 환경을 건강하게, 사람을 행복하게 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다. 특히, 자재 및 부품 공급부터 제품 판매에 이르기까지 전 공급망에서 지속가능경영 관점으로 경제/환경/사회적 가치를 투입해 행복한 고객, 건강한 환경을 구현하며 사회적 가치를 창출하고 있습니다.',
-            show_site_map: false
+            show_site_map: false,
+            show_finder: false
         }
     },
     computed: {
         ...mapState('menu', {
-        menu: state => state.menu
+            menu: state => state.menu
         }),
         pages() {
-        return this.$store.state.pages
+            return this.$store.state.pages
         }
     },
     methods: {
@@ -79,10 +86,20 @@ export default {
         },
         toggleSiteMap(){
             this.show_site_map = !this.show_site_map
+        },
+        toggleSearchForm(target)
+        {
+            if(!target){
+                this.show_finder = false
+            }
+            else{
+                this.show_finder = !this.show_finder
+            }
         }
     },
     components:{
-        SiteMap
+        SiteMap,
+        SearchForm
     },
 }
 </script>
