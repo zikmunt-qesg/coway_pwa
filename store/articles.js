@@ -29,7 +29,9 @@ export const actions = {
 
         return this.$axios.get(path)
             .then(response => {
-                console.log(response.data)
+                for(let i=0; i < response.data.length ; i++){
+                    response.data[i].index = response.data.length - i
+                }
                 commit('update_articles', response.data)
 
                 return state.articles
