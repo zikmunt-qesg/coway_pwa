@@ -69,7 +69,7 @@ export default {
 .close-btn{
     position: absolute;
     top: 0.3rem;
-    right: 2.5rem;
+    right: 1.75rem;
 }
 .close-btn::before{
     content: "×";

@@ -1,28 +1,38 @@
 <template>
   <header class="sticky-top" @mouseleave="show_sub_menu=false">
     <div class="position-relative">
-        <b-navbar class="px-5 py-0 d-flex justify-content-between justify-content-lg-center bg-white" toggleable="lg" variant="light" style="z-index:10">
+        <b-navbar class="px-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" toggleable="lg" variant="light" style="z-index:10">
             <b-navbar-brand class="my-3">
                 <nuxt-link to="/">
                     <b-img class="header-logo" src="@/assets/images/coway-ci.svg" alt="Logo" /> 
-                    <span class="f-90 align-self-center"> Sustainability 2020</span>
+                    <span class="f-90 align-self-center d-none d-md-inline"> Sustainability 2020</span>
                 </nuxt-link>
-            </b-navbar-brand>
+            </b-navbar-brand>   
 
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            <div class="d-lg-flex flex-lg-row-reverse justify-content-start w-100">
+                <div class="d-flex justify-content-end align-items-center jump-up">                
+                    <b-nav-item class="mr-1 mr-sm-2 pl-lg-2 pt-1 f-90" style="list-style: none"> ENG </b-nav-item>
+                    <b-nav-item class="mr-1 mr-sm-2 pl-lg-1" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
+                    <b-nav-item class="d-none d-lg-block pl-lg-1" @click.stop="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
 
-            <b-collapse id="nav-collapse" is-nav class="float-right">
-                <b-navbar-nav class="ml-4 h-100">
-                    <b-nav-item v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" 
-                    :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-2 px-auto f-90 global-nav-lv1']">
-                        {{ item.title }}
-                        <!-- <nuxt-link :to="`${item.link}`" class="px-0 f-85"></nuxt-link> -->
-                    </b-nav-item>                    
-                </b-navbar-nav>
-            </b-collapse>
-            <b-nav-item class="ml-4 pt-1 f-90" style="list-style: none"> ENG </b-nav-item>
-            <b-nav-item class="ml-2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
-            <b-nav-item class="d-none d-lg-block ml-2" @click="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
+                    <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2"></b-navbar-toggle>
+                </div>
+
+                <b-collapse id="nav-collapse" is-nav class="">
+                    <b-navbar-nav class="ml-lg-3" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" >
+                        <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-2 py-2 f-90 global-nav-lv1']"  >
+                        <span @click.stop="routerGo(item.link)">{{ item.title }}</span></div>
+                            <div v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 py-1" >
+                               <span @click.stop="routerGo(level2_item.link)"> {{ level2_item.title }}</span>
+                            </div> 
+                        <div style="height:5px;"></div>    
+                    </b-navbar-nav>
+                </b-collapse>
+
+                
+            </div>
+            
+            
         </b-navbar>
 
         <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
@@ -41,10 +51,10 @@
             </b-row>
             </b-container>
         </div>
-        <b-modal hide-header hide-footer v-model="show_site_map" id="sitemap-modal" class="position-absolute w-100 bg-gray">
-            <site-map @show_site_map="toggleSiteMap"></site-map>
+        <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            
+                <site-map @show_site_map="toggleSiteMap"></site-map>            
         </b-modal>
-        <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="position-absolute w-100 bg-gray">
+        <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="">
             <div class="py-5 px-5">
                 <search-form @hide-finder="toggleSearchForm"></search-form>
             </div>
@@ -62,6 +72,7 @@ import SearchForm from '@/components/search/SearchForm'
 export default {
     data() {
         return {
+            open_sub_nav: false,
             show_sub_menu: false,
             sub_menu_item: [],
             menu_text: '코웨이의 제품 및 브랜드는 궁극적으로 환경을 건강하게, 사람을 행복하게 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다.',
@@ -95,6 +106,10 @@ export default {
             else{
                 this.show_finder = !this.show_finder
             }
+        },
+        routerGo(target){
+            this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
+            this.$router.push(target)
         }
     },
     components:{
@@ -132,18 +147,28 @@ export default {
     transition: all 0.5s ease-in;    
 }
 
-.global-nav-lv1 > a{
+.global-nav-lv1{
     font-weight: 400;
     color: $gray6;
     letter-spacing: 0.196px;
     line-height: 1.4;
+    cursor:pointer;
 }
-.global-nav-lv1 > a:hover,
-.nav-active > .nav-link {
+.global-nav-lv1:hover,
+.global-nav-lv2:hover,
+.nav-active{
     font-weight: 500;
     color: $gray7;
     text-decoration: none;
-    letter-spacing: 0;
+    letter-spacing: 0;    
+}
+.global-nav-lv2{
+    font-weight: 400;
+    color: $gray5;
+    letter-spacing: 0.196px;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    cursor:pointer;
 }
 
 .global-nav-temp{
@@ -186,5 +211,23 @@ export default {
     color: $gray3;
     text-decoration: none;
 }
+
+@media (max-width: 992px) {
+    .jump-up {
+        position: absolute;
+        top: 1rem;
+        right: 3rem;
+    }
+    .jump-up li a{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .jump-up button{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+
 
 </style>

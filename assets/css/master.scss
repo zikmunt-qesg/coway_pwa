@@ -9,21 +9,18 @@
     padding: 2.3em 1.4em 1.9em;
 }
 
-.page-top-img{
-    position: absolute;
-    z-index: -1;
-    top: -3vw;
+@media (max-width: 768px) {
+    .page-top-img {
+        height: 100vh;
+        overflow-x: hidden;
+    }
 }
-.material-page-top-img{
+.page-top-img, .material-page-top-img{
     position: absolute;
     z-index: -1;
-    top: -3vw;
+    top: 0;
 }
 
-// .dma-title {
-//     color: $blue7;
-//     font-weight: 500;
-// }
 
 .temp-icon1{
     height: 180px;
@@ -327,21 +324,6 @@
 }
 
 /* modal 변형, 활용요소 */
-button.close {
-    color: $gray8;
-}
-button.close:hover {
-    color: $gray6;
-}
-.close {
-    padding: 0.7rem 1rem!important;
-    font-size: 1.7rem!important;
-    font-weight: 500 !important;
-    text-shadow: 0 0 0 #fff !important;
-    opacity: 1 !important;
-    align-self: center !important;
-}
-
 
 #sitemap-modal > .modal-dialog{
     min-width: 80vw;
@@ -349,6 +331,9 @@ button.close:hover {
 }
 #sitemap-modal___BV_modal_body_.modal-body{
     padding: 0;
+}
+#sitemap-modal___BV_modal_footer_.modal-footer{
+    display: none;
 }
 
 #finder-modal > .modal-dialog{
@@ -359,121 +344,121 @@ button.close:hover {
 }
 
 
-@media (max-width: 768px) {
-    #modify-modal-top > .modal-dialog{
-      position: absolute !important;
-      margin: 0.5rem !important;
-      top: 40px;
-      pointer-events: none;
-      right: 1rem !important;
-      max-height: 90vh;
-    }
-}
+// @media (max-width: 768px) {
+//     #modify-modal-top > .modal-dialog{
+//       position: absolute !important;
+//       margin: 0.5rem !important;
+//       top: 40px;
+//       pointer-events: none;
+//       right: 1rem !important;
+//       max-height: 90vh;
+//     }
+// }
   
-@media (min-width: 768px) {
-    #modify-modal > .modal-dialog{
-        min-width: 500px;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        bottom: 10px !important;
-        pointer-events: none;
-        right: 10px !important;
-    }
+// @media (min-width: 768px) {
+//     #modify-modal > .modal-dialog{
+//         min-width: 500px;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         bottom: 10px !important;
+//         pointer-events: none;
+//         right: 10px !important;
+//     }
 
-    #modify-wide-modal > .modal-dialog{
-        min-width: 650px;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        bottom: 10px !important;
-        pointer-events: none;
-        right: 10px !important
-    }
+//     #modify-wide-modal > .modal-dialog{
+//         min-width: 650px;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         bottom: 10px !important;
+//         pointer-events: none;
+//         right: 10px !important
+//     }
 
-    #modify-modal-top > .modal-dialog{
-        min-width: 45vw;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        top: 40px;
-        pointer-events: none;
-        right: 1rem !important;
-        max-height: 90vh;
-    }
-}
+//     #modify-modal-top > .modal-dialog{
+//         min-width: 45vw;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         top: 40px;
+//         pointer-events: none;
+//         right: 1rem !important;
+//         max-height: 90vh;
+//     }
+// }
 
-@media (min-width: 992px) {
-    #modify-modal > .modal-dialog{
-        min-width: 600px;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        bottom: 10px !important;
-        pointer-events: none;
-        right: 10px !important;
-    }
+// @media (min-width: 992px) {
+//     #modify-modal > .modal-dialog{
+//         min-width: 600px;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         bottom: 10px !important;
+//         pointer-events: none;
+//         right: 10px !important;
+//     }
 
-    #modify-wide-modal > .modal-dialog{
-        min-width: 800px;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        bottom: 10px !important;
-        pointer-events: none;
-        right: 10px !important
-    }
+//     #modify-wide-modal > .modal-dialog{
+//         min-width: 800px;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         bottom: 10px !important;
+//         pointer-events: none;
+//         right: 10px !important
+//     }
 
-    #modify-modal-top > .modal-dialog{
-        min-width: 42vw;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        top: 40px;
-        pointer-events: none;
-        right: 1rem !important;
-    }
-}
+//     #modify-modal-top > .modal-dialog{
+//         min-width: 42vw;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         top: 40px;
+//         pointer-events: none;
+//         right: 1rem !important;
+//     }
+// }
 
-@media (min-width: 1200px) {
-    #modify-modal > .modal-dialog{
-        min-width: 800px;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        bottom: 10px !important;
-        pointer-events: none;
-        right: 10px !important;
-    }
+// @media (min-width: 1200px) {
+//     #modify-modal > .modal-dialog{
+//         min-width: 800px;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         bottom: 10px !important;
+//         pointer-events: none;
+//         right: 10px !important;
+//     }
 
-    #modify-wide-modal > .modal-dialog{
-        min-width: 950px;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        bottom: 10px !important;
-        pointer-events: none;
-        right: 10px !important
-    }
+//     #modify-wide-modal > .modal-dialog{
+//         min-width: 950px;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         bottom: 10px !important;
+//         pointer-events: none;
+//         right: 10px !important
+//     }
 
-    #modify-modal-top > .modal-dialog{
-        max-width: 38vw;
-        position: absolute !important;
-        margin: 0.5rem !important;
-        top: 40px;
-        pointer-events: none;
-        right: 1rem !important;
-    }
-}
+//     #modify-modal-top > .modal-dialog{
+//         max-width: 38vw;
+//         position: absolute !important;
+//         margin: 0.5rem !important;
+//         top: 40px;
+//         pointer-events: none;
+//         right: 1rem !important;
+//     }
+// }
 
-#modify-wide-modal___BV_modal_body_.modal-body{
-padding: 0;
-}
+// #modify-wide-modal___BV_modal_body_.modal-body{
+// padding: 0;
+// }
 
-#modify-wide-modal___BV_modal_content_.modal-content{
-background-color: transparent;
-border: none;
-}
+// #modify-wide-modal___BV_modal_content_.modal-content{
+// background-color: transparent;
+// border: none;
+// }
 
-#modify-modal___BV_modal_backdrop_.modal-backdrop {
-    opacity: 0.2!important;
-}
+// #modify-modal___BV_modal_backdrop_.modal-backdrop {
+//     opacity: 0.2!important;
+// }
 
-#modify-wide-modal___BV_modal_backdrop_.modal-backdrop {
-opacity: 0.2!important;
-}
+// #modify-wide-modal___BV_modal_backdrop_.modal-backdrop {
+// opacity: 0.2!important;
+// }
 
   /*categories*/
   .edit-mode-category{
