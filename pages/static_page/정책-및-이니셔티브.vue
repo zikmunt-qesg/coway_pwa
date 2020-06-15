@@ -1,14 +1,22 @@
 <template>
-<div class="position-relative page-top-bg min-vh-100">   
+<div class="position-relative min-vh-100">
+    <b-row no-gutters class="py-5 bg-blue3 mb-5">
+        <b-col class="py-5 my-3 my-md-4 text-center text-white"><h1>Policies &amp; Initiatives</h1></b-col>
+    </b-row>
+    <b-container>
+            <b-nav tabs class="mb-5">
+                <b-nav-item :active="show_page=='Policies'" @click.stop.prevent="showTab('Policies')" class="f-110 fw-400"> 지속가능성 정책 </b-nav-item>
+                <b-nav-item :active="show_page=='Initiatives'" @click.stop.prevent="showTab('Initiatives')" class="f-110 fw-400"> 참여 이니셔티브 </b-nav-item>
+            </b-nav>
 
-    <logger title="정책 및 이니셔티브"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
-
-    <b-container class="">
-        <b-row class="my-5 pt-md-5">
-            <h1 class="mt-2 mt-lg-5 mb-3 text-center w-100 fw-400">정책 및 이니셔티브</h1>
-            <h7 class="mb-lg-5 text-center w-100 fw-400"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
-        </b-row>
+            <b-card v-if="show_page=='Policies'" class="p-0">
+                <b-card-header>지속가능성 정책</b-card-header>
+                <b-card-body>
+                    <li>코웨이 트러스트 가이드라인(국문)</li>
+                    <li>코웨이 트러스트 가이드라인(영문)</li>
+                </b-card-body>
+            </b-card>       
+            <hr class="mb-3">
     </b-container>
 </div>
 </template>
@@ -23,26 +31,18 @@ export default {
     layout: 'StaticPage',
     data(){
         return {
-            title: '깨끗한 물과 공기를 위한 환경경영',
+            show_page: 'Policies',
+            title: '정책 및 이니셔티브',
             activated: [],
-            sub_titles: [
-                { 
-                    title: '환경경영을 통한 깨끗함의 가치 실현', 
-                    child: [
-                        { title: '코웨이 환경경영 방침' }, 
-                        { title: '환경경영 전략' }, 
-                        { title: '환경경영 추진 체계' }, 
-                    ]
-                },
-                { 
-                    title: '가치사슬 전체의 환경역량 강화' 
-                }
-            ],
+            sub_titles: [],
         }
     },
     methods:{
         safeHash(target){
             return ih.safeHash(target)
+        },
+        showTab(target){
+            this.show_page = target
         }
     },
     components:{
