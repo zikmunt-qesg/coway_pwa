@@ -9,7 +9,7 @@
                 </nuxt-link>
             </b-navbar-brand>   
 
-            <div class="d-lg-flex flex-lg-row-reverse justify-content-start w-100">
+            <div class="d-lg-flex flex-lg-row-reverse justify-content-start jump-width">
                 <div class="d-flex justify-content-end align-items-center jump-up">                
                     <b-nav-item class="mr-1 mr-sm-2 pl-lg-2 pt-1 f-90" style="list-style: none"> ENG </b-nav-item>
                     <b-nav-item class="mr-1 mr-sm-2 pl-lg-1" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
@@ -27,12 +27,8 @@
                             </div> 
                         <div style="height:5px;"></div>    
                     </b-navbar-nav>
-                </b-collapse>
-
-                
-            </div>
-            
-            
+                </b-collapse>                
+            </div>           
         </b-navbar>
 
         <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
@@ -175,7 +171,7 @@ export default {
     // background-color: $blue4;
     width: 10.7em;
     height: 4.5em;
-    margin-left: 1.2em;
+    margin-left: 1.3em;
 }
 
 .global-nav-2{
@@ -213,6 +209,9 @@ export default {
 }
 
 @media (max-width: 992px) {
+    .jump-width{
+        width: 100%;
+    }
     .jump-up {
         position: absolute;
         top: 1rem;
