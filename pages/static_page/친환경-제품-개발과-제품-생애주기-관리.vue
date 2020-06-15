@@ -285,53 +285,78 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="4">제품</b-td><b-td>소각</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td rowspan="19">0</b-td>
+                                    <b-td class="text-left" colspan="2" rowspan="4">제품</b-td><b-td class="text-left">소각</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td rowspan="19">0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>매립</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">매립</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>재활용</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
+                                    <b-td class="text-left">재활용</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>소계</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
+                                    <b-td class="text-left">소계</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="4">서비스</b-td><b-td>소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left" colspan="2" rowspan="4">서비스</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>재활용</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
+                                    <b-td class="text-left">재활용</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>소계</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
+                                    <b-td class="text-left">소계</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td rowspan="8">사업장(제조공장)</b-td><b-td rowspan="4">일반</b-td><b-td>소각</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
+                                    <b-td class="text-left" rowspan="8">사업장(제조공장)</b-td><b-td class="text-left" rowspan="4">일반</b-td><b-td class="text-left">소각</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>재활용</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>699</b-td>
+                                    <b-td class="text-left">재활용</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>699</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td rowspan="4">지정</b-td><b-td>소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">소계</b-td><b-td>1,431</b-td><b-td>851</b-td><b-td>916</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left" rowspan="4">지정</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>재활용</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>소계</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">재활용</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">소계</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left" colspan="3">폐기물 발생량 총계</b-td><b-td>24,536</b-td><b-td>23,540</b-td><b-td>23,649</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left" colspan="3">폐기물 재활용량</b-td><b-td>24,376</b-td><b-td>23,383</b-td><b-td>23,432</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left" colspan="3">폐기물 재활용률(%)</b-td><b-td>99.3</b-td><b-td>99.3</b-td><b-td>99.1</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">* 2019년도 데이터는 외부 검증 전의 수치임</p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li> 환경가전기준의 폐기물 발생량 (화장품, 매트리스 제외)
+                            </li>
+                            <li> 2016년부터 서비스폐기물은 전량 고형화 연료. 사업장폐기물은 일부만 제외하고 고형화 연료화 진행 → 폐기물발생량 중 99%이상 재활용 진행
+                            </li>
+                            <li> 2018년 포천공장 재활용업 반납으로 인해 제품폐기물 재활용량은 코웨이 재활용사 실적으로 집계
+                            </li>
+                            <li> 2018년 포천공장 재활용업 반납으로 인해 사업장 폐기물 감소
+                            </li>
+                            <li> 생산량 증가에 따른 사업장, 서비스폐기물 증가
+                            </li>
+                            <li> 재활용율: 제품, 서비스, 사업장 재활용량 /제품, 서비스, 사업장 발생량
+                            </li>
+                        </ol>
 
 
             </b-container>
