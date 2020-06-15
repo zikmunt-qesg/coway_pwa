@@ -40,13 +40,13 @@
                                     <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
-                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-3" style="height:58px"><b-img src="@/assets/images/63_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 font-noto">2019년 연구개발비</p>
                                             <p class="mb-0 fw-400 blue7"><span class="f-230">37,671</span>백만 원</p>
                                             <p class="gray65 fw-400 line-height-low px-xl-5">(전년대비 2.3% 증가, 매출액 대비 1.25%)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
-                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-3" style="height:58px"><b-img src="@/assets/images/64_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="gray7 mb-0 fw-500 font-noto">5년 연속</p>
                                             <p class="f-140 fw-400 blue7">CES 혁신상 수상</p>
                                         </b-col>
@@ -64,11 +64,11 @@
                             <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <div class="d-flex align-items-center">
                                 <div class="py-2 d-flex align-items-center mr-3" style="width: 55%">
-                                    <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                    <div class="w-50" style="height:50px"><b-img src="@/assets/images/65_1.svg" fluid class="h-100"></b-img> </div>
                                     <p class="fw-500 mb-0 word-break"><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</p>
                                 </div>
                                 <div class="py-2 d-flex align-items-center" style="width: 45%">
-                                    <div class="temp-icon8 w-25"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                    <div class="w-25" style="height:57px"><b-img src="@/assets/images/66_1.svg" fluid class="h-100"></b-img> </div>
                                     <p class="fw-500 mb-0">물맛연구소 개소</p>
                                 </div>
                             </div>
