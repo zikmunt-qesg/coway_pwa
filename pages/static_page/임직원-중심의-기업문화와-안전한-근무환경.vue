@@ -101,7 +101,7 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="`'착한성장'을 위한 역량 강화`" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 강화하고, 비즈니스 변화에 부합하는 직무 역량을 향상할 수 있도록 교육을 강화할 예정입니다. 
                         </p>
-                        <b-img src="@/assets/images/구성 요소11_1.svg" fluid class="w-100"></b-img>
+                        <b-img src="@/assets/images/68_1.svg" fluid ></b-img>
                     <hr class="space-p25 mb-2">
                     <h6-ancor :title="'리더십 교육'" :activated="activated" class="gold6 fw-500 mb-2">리더십 교육</h6-ancor>
                         <p class="mb-45"> 미래를 선도하는 리더를 육성하고 직책에 맞는 역량을 개발하기 위해 리더십 교육을 진행하고 있습니다. 임원 및 팀장을 대상으로 맞춤 교육과 온라인 컨텐츠 교육을 정기적으로 제공하며, 신임직책자를 대상으로 신임리더 교육을 지원합니다. 또한 pre-leadership 교육으로 승진자 교육 및 직급별 3년차 교육을 실시하여 개인의 성장을 점검하고 필요한 역량을 개발하도록 지원하고 있습니다.
