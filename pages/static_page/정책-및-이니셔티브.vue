@@ -9,14 +9,46 @@
                 <b-nav-item :active="show_page=='Initiatives'" @click.stop.prevent="showTab('Initiatives')" class="f-110 fw-400"> 참여 이니셔티브 </b-nav-item>
             </b-nav>
 
-            <b-card v-if="show_page=='Policies'" class="p-0">
-                <b-card-header>지속가능성 정책</b-card-header>
-                <b-card-body>
-                    <li>코웨이 트러스트 가이드라인(국문)</li>
-                    <li>코웨이 트러스트 가이드라인(영문)</li>
-                </b-card-body>
-            </b-card>       
-            <hr class="mb-3">
+            <div v-if="show_page=='Policies'">
+                <b-card header="지속가능성 정책">
+                    <b-card-body class="p-0">
+                        <a href="/documents/coway_trust_guideline_kor.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(국문)</li></a>
+                        <a href="/documents/coway_trust_guideline_eng.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(영문)</li></a>
+                    </b-card-body>
+                </b-card>       
+                <hr class="mb-2">
+
+                <b-card header="윤리경영">
+                    <b-card-body class="p-0">
+                        <a href="/documents/code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
+                        <a href="/documents/code_of_conduct_guideline.pdf" download><li class="py-2">윤리규정(국문)</li></a>
+                        <a href="/documents/code_of_conduct_instruction.pdf" download><li class="py-2">윤리실천지침(국문)</li></a>
+                    </b-card-body>
+                </b-card>  
+                <hr class="mb-2">
+
+                <b-card header="협력회사 CSR">
+                    <b-card-body class="p-0">
+                        <a href="/documents/supplier_code_of_conduct_kor.pdf" download><li class="py-2">협력사 행동규범(국문)</li></a>
+                        <a href="/documents/supplier_code_of_conduct_eng.pdf" download><li class="py-2">협력사 행동규범(영문)</li></a>
+                    </b-card-body>
+                </b-card>
+                <hr class="mb-2">
+
+                <b-card header="환경">
+                    <b-card-body class="p-0">
+                        <a href="/documents/carbon_report_2018.pdf" download><li class="py-2">Carbon Report 2018(국문)</li></a>
+                    </b-card-body>
+                </b-card>  
+                <hr class="mb-2">
+
+                <b-card header="지배구조">
+                    <b-card-body class="p-0">
+                        <a href="/documents/governance_report_2019.pdf" download><li class="py-2">거버넌스 리포트 2019(국문)</li></a>
+                    </b-card-body>
+                </b-card>
+                <hr class="mb-2">
+            </div>
     </b-container>
 </div>
 </template>
@@ -52,3 +84,6 @@ export default {
     }
 }
 </script>
+<style scoped>
+
+</style>
