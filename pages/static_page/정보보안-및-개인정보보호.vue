@@ -4,9 +4,9 @@
     <b-img src="@/assets/images/사각형 8@2x.png" fluid class="material-page-top-img"></b-img>
 
     <b-container class="">
-        <b-row class="my-5 pt-md-5">
-            <h1 class="mt-2 mt-lg-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
-            <p class="mb-0 mb-lg-4 text-center text-white w-100 f-95"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </p>
+        <b-row class="pt-md-5 px-3">
+            <h1 class="mt-5 mb-3 pt-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
+            <h7 class="mb-5 text-center w-100 text-white fw-300 font-noto"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
         </b-row>
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
