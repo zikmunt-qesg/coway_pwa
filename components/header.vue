@@ -21,7 +21,7 @@
                 <b-collapse id="nav-collapse" is-nav class="">
                     <b-navbar-nav class="ml-lg-3" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)" >
                         <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-2 py-2 f-90 global-nav-lv1']"  >
-                        <span @click.stop="routerGo(item.link)">{{ item.title }}</span></div>
+                        <span @click.stop="$router.push(item.link)" class="d-none d-lg-block">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span></div>
                             <div v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 py-1" >
                                <span @click.stop="routerGo(level2_item.link)"> {{ level2_item.title }}</span>
                             </div> 
