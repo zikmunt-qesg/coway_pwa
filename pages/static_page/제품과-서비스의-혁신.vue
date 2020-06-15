@@ -144,13 +144,12 @@
                     <h6-ancor :title="'빅데이터 기반 제품 추천, 워터맵 서비스'" :activated="activated" class="blue5 mb-3">빅데이터 기반 제품 추천, 워터맵 서비스</h6-ancor>
                     <p class="mb-45"> 워터맵 서비스는 국내외 각지의 물을 채취·분석해 수질 데이터베이스를 구축한 뒤 이를 기반으로 고객 수질 환경에 따른 맞춤 필터를 파악하고, 고객의 다양한 상황을 고려해 최종적으로 적합한 제품을 추천해주는 서비스입니다. 빅데이터 분석* 기반의 추천 서비스를 통해 고객이 속한 지역적 특성에 맞는 필터 및 제품을 사용할 수 있도록 차별화된 가치를 제공하고 있습니다.
                     </p>
-                <section class="bg-blue-gray1 py-4 px-4 mb-5">
-                    <b-row class="mb-45">
-                        <b-col class="col-12 col-sm-8 mb-3 mb-sm-0"><b-img src="@/assets/images/사각형 19@3x.png" fluid class="w-100"></b-img> <p class="f-80 mt-2">코웨이 글로벌 워터맵</p></b-col>
-                        <b-col class="col-12 col-sm-4"><b-img src="@/assets/images/사각형 22@3x.png" fluid class="w-100"></b-img> <p class="f-80 mt-2">국내 워터맵</p></b-col>
-                    </b-row>
+                <section class="bg-blue-gray1 py-4 px-4 mb-5">                    
+                    <b-img src="@/assets/images/62_1@3x.png" fluid></b-img> 
+                    <p class="f-80 mt-2">코웨이 글로벌 워터맵 / 국내 워터맵</p>
+                    <hr class="space-p25">
                     <p class="f-90 letter-narrow"> 1단계 : ‘모바일 워터맵 서비스 페이지’ 접속 &rarr; 2단계 : 거주하는 지역, 건물의 연식, 원수 종류 등의 정보 입력 &rarr; 3단계 : 입력 정보 기반으로 수질 데이터베이스 이용해 수질 환경 분석 &rarr; 4단계 : 수질 환경에 알맞은 필터를 파악, 사용 장소, 필요 기능, 사용자 수 등을 고려해 맞춤 정수기 추천</p>
-                    <p class="f-80">*빅데이터 분석 항목 : 먹는 물 수질 기준 항목인 탁도, TDS(Total Dissolved Solid), pH를 비롯해 양이온 17종, 음이온 4종 등 </p>
+                    <p class="f-80">* 빅데이터 분석 항목 : 먹는 물 수질 기준 항목인 탁도, TDS(Total Dissolved Solid), pH를 비롯해 양이온 17종, 음이온 4종 등 </p>
                 </section>
                 <hr class="py-2">
                 <h6-ancor :title="'시뮬레이션 체험, 공기 주치의 서비스 '" :activated="activated" class="blue5 mb-3">시뮬레이션 체험, 공기 주치의 서비스</h6-ancor>

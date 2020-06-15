@@ -199,12 +199,20 @@ p {
     word-break: normal;
     font-size: 0.99rem;
     font-weight: 300;
+    font-family: 'Noto Sans Kr';
 }
 p.word-break {
     word-break: keep-all;
 }
 td.word-break{
     word-break: normal;
+}
+
+sub{
+    bottom: -0.15em;
+}
+sup{
+    top: -0.25em;
 }
 
 h1{

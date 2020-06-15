@@ -69,7 +69,7 @@
                                         <span class="f-330 fw-400">100</span><span class="f-130 fw-500">%</span>   
                                     </b-col>
                                 </b-row>
-                                <b-row no-gutters class="align-items-center">                                    
+                                <b-row no-gutters class="align-items-start">                                    
                                     <b-col class="col-6 text-center">                   
                                         <p class="fw-500 word-break font-noto">2019년 리퍼브 제품 판매량 <br>(2020년 10,000대 달성 목표) </p>
                                     </b-col>

@@ -44,13 +44,12 @@
                     <hr class="mb-4">
 
                     <h6-ancor :title="'핵심적 인권 요소에 대한 조치 결과'" :activated="activated" class="gold6 fw-500 mb-2">핵심적 인권 요소에 대한 조치 결과</h6-ancor>
-                    <p class="font-noto mb-5">2019년 시행된 가치사슬상에서의 주요 인권이슈 및 실사 결과는 아래와 같습니다. 
+                    <p class="font-noto mb-45">2019년 시행된 가치사슬상에서의 주요 인권이슈 및 실사 결과는 아래와 같습니다. 
                     </p>
-
-                    <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">리스크 조치 결과 그림</div>
+                    <b-img src="@/assets/images/60_1.svg" fluid></b-img>
                     <hr class="mb-4">
 
-                        <h7 class="mb-2 gray63">주요 인권 이슈 및 개선조치</h7>
+                        <h7 class="mb-3 gray63">주요 인권 이슈 및 개선조치</h7>
                         <b-table-simple responsive class="txt-table social-table f-95 font-noto">
                              <b-thead>
                                  <b-tr>

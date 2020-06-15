@@ -1,86 +1,73 @@
-<svg id="구성_요소_14_1" data-name="구성 요소 14 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="403" height="194.634" viewBox="0 0 403 194.634">
+<svg id="구성_요소_28_1" data-name="구성 요소 28 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="403" height="139.715" viewBox="0 0 403 139.715">
   <defs>
     <style>
-      .cls-1, .cls-12, .cls-16, .cls-17 {
+      .cls-1, .cls-10, .cls-14, .cls-15 {
         fill: none;
       }
 
       .cls-2 {
-        fill: #4d4d4d;
-        font-size: 16px;
-      }
-
-      .cls-14, .cls-2, .cls-7 {
-        font-family: NotoSansKR-Medium, Noto Sans KR;
-        font-weight: 500;
-      }
-
-      .cls-3 {
-        letter-spacing: -0.02em;
-      }
-
-      .cls-4 {
-        fill: #656464;
-        font-size: 12px;
-      }
-
-      .cls-4, .cls-6 {
+        fill: #1e2323;
+        font-size: 14px;
         font-family: NotoSansKR-Light, Noto Sans KR;
         font-weight: 300;
       }
 
-      .cls-5 {
+      .cls-3 {
         letter-spacing: -0.014em;
       }
 
-      .cls-6 {
-        fill: #1e2323;
-        font-size: 14px;
-      }
-
-      .cls-14, .cls-15, .cls-7 {
+      .cls-12, .cls-13, .cls-4 {
         fill: #1f4a8c;
       }
 
-      .cls-10, .cls-7 {
+      .cls-4, .cls-7 {
         font-size: 15px;
       }
 
-      .cls-8 {
+      .cls-12, .cls-4 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-5 {
         letter-spacing: -0.019em;
       }
 
-      .cls-9 {
+      .cls-6 {
         fill: #f5f6f7;
       }
 
-      .cls-10 {
+      .cls-7 {
         fill: #4b4f50;
         font-family: NotoSansKR-Regular, Noto Sans KR;
       }
 
-      .cls-11 {
+      .cls-8 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-9 {
         clip-path: url(#clip-path);
       }
 
-      .cls-12 {
+      .cls-10 {
         stroke: #1394d1;
       }
 
-      .cls-13 {
+      .cls-11 {
         clip-path: url(#clip-path-2);
       }
 
-      .cls-14 {
+      .cls-12 {
         font-size: 21px;
       }
 
-      .cls-16 {
+      .cls-14 {
         stroke: #1f4a8c;
         stroke-width: 0.283px;
       }
 
-      .cls-17 {
+      .cls-15 {
         stroke: #3e3a39;
       }
     </style>
@@ -91,212 +78,210 @@
       <rect id="사각형_104" data-name="사각형 104" class="cls-1" width="239.672" height="30" transform="translate(3001.322 3356.132)"/>
     </clipPath>
   </defs>
-  <text id="신뢰성_인프라_투자금액" data-name="신뢰성 인프라 투자금액" class="cls-2" transform="translate(3.457 19)"><tspan class="cls-3" x="0" y="0">신뢰성 인프라 투자금</tspan><tspan y="0">액</tspan></text>
-  <text id="_단위:_백만_원_" data-name="(단위: 백만 원)" class="cls-4" transform="translate(3.457 40)"><tspan class="cls-5" x="0" y="0">(단위: 백만 원</tspan><tspan y="0">)</tspan></text>
-  <text id="_2017" data-name="2017" class="cls-6" transform="translate(3.97 76.08)"><tspan class="cls-5" x="0" y="0">201</tspan><tspan y="0">7</tspan></text>
-  <text id="_2018" data-name="2018" class="cls-6" transform="translate(3.97 119.438)"><tspan class="cls-5" x="0" y="0">201</tspan><tspan y="0">8</tspan></text>
-  <text id="_2019" data-name="2019" class="cls-7" transform="translate(0 163.242)"><tspan class="cls-8" x="0" y="0">201</tspan><tspan y="0">9</tspan></text>
-  <rect id="사각형_101" data-name="사각형 101" class="cls-9" width="360.178" height="30" transform="translate(42.822 98.281)"/>
-  <text id="_953" data-name="953" class="cls-10" transform="translate(369.2 119.881)"><tspan class="cls-3" x="0" y="0">9</tspan><tspan class="cls-8" y="0">5</tspan><tspan y="0">3</tspan></text>
-  <g id="그룹_50" data-name="그룹 50" transform="translate(-2958.5 -3301.211)">
-    <g id="그룹_49" data-name="그룹 49" class="cls-11">
-      <line id="선_213" data-name="선 213" class="cls-12" x1="102.33" y1="151.363" transform="translate(3090.625 3338.812)"/>
-      <line id="선_214" data-name="선 214" class="cls-12" x1="102.33" y1="151.363" transform="translate(3098.712 3338.812)"/>
-      <line id="선_215" data-name="선 215" class="cls-12" x1="102.33" y1="151.363" transform="translate(3082.539 3338.812)"/>
-      <line id="선_216" data-name="선 216" class="cls-12" x1="102.33" y1="151.363" transform="translate(3094.669 3338.812)"/>
-      <line id="선_217" data-name="선 217" class="cls-12" x1="102.33" y1="151.363" transform="translate(3074.452 3338.812)"/>
-      <line id="선_218" data-name="선 218" class="cls-12" x1="102.33" y1="151.363" transform="translate(3086.582 3338.812)"/>
-      <line id="선_219" data-name="선 219" class="cls-12" x1="102.33" y1="151.363" transform="translate(3066.366 3338.812)"/>
-      <line id="선_220" data-name="선 220" class="cls-12" x1="102.33" y1="151.363" transform="translate(3078.496 3338.812)"/>
-      <line id="선_221" data-name="선 221" class="cls-12" x1="102.33" y1="151.363" transform="translate(3058.279 3338.812)"/>
-      <line id="선_222" data-name="선 222" class="cls-12" x1="102.33" y1="151.363" transform="translate(3070.409 3338.812)"/>
-      <line id="선_223" data-name="선 223" class="cls-12" x1="102.33" y1="151.363" transform="translate(3050.193 3338.812)"/>
-      <line id="선_224" data-name="선 224" class="cls-12" x1="102.33" y1="151.363" transform="translate(3062.323 3338.812)"/>
-      <line id="선_225" data-name="선 225" class="cls-12" x1="102.33" y1="151.363" transform="translate(3042.106 3338.812)"/>
-      <line id="선_226" data-name="선 226" class="cls-12" x1="102.33" y1="151.363" transform="translate(3054.236 3338.812)"/>
-      <line id="선_227" data-name="선 227" class="cls-12" x1="102.33" y1="151.363" transform="translate(3025.933 3338.812)"/>
-      <line id="선_228" data-name="선 228" class="cls-12" x1="102.33" y1="151.363" transform="translate(3284.703 3338.812)"/>
-      <line id="선_229" data-name="선 229" class="cls-12" x1="102.33" y1="151.363" transform="translate(3046.149 3338.812)"/>
-      <line id="선_230" data-name="선 230" class="cls-12" x1="102.33" y1="151.363" transform="translate(3009.76 3338.812)"/>
-      <line id="선_231" data-name="선 231" class="cls-12" x1="102.33" y1="151.363" transform="translate(3268.53 3338.812)"/>
-      <line id="선_232" data-name="선 232" class="cls-12" x1="102.33" y1="151.363" transform="translate(3034.02 3338.812)"/>
-      <line id="선_233" data-name="선 233" class="cls-12" x1="102.33" y1="151.363" transform="translate(3292.789 3338.812)"/>
-      <line id="선_234" data-name="선 234" class="cls-12" x1="102.33" y1="151.363" transform="translate(2993.587 3338.812)"/>
-      <line id="선_235" data-name="선 235" class="cls-12" x1="102.33" y1="151.363" transform="translate(3252.356 3338.812)"/>
-      <line id="선_236" data-name="선 236" class="cls-12" x1="102.33" y1="151.363" transform="translate(3017.846 3338.812)"/>
-      <line id="선_237" data-name="선 237" class="cls-12" x1="102.33" y1="151.363" transform="translate(3276.616 3338.812)"/>
-      <line id="선_238" data-name="선 238" class="cls-12" x1="102.33" y1="151.363" transform="translate(2977.414 3338.812)"/>
-      <line id="선_239" data-name="선 239" class="cls-12" x1="102.33" y1="151.363" transform="translate(3236.183 3338.812)"/>
-      <line id="선_240" data-name="선 240" class="cls-12" x1="102.33" y1="151.363" transform="translate(3001.673 3338.812)"/>
-      <line id="선_241" data-name="선 241" class="cls-12" x1="102.33" y1="151.363" transform="translate(3260.443 3338.812)"/>
-      <line id="선_242" data-name="선 242" class="cls-12" x1="102.33" y1="151.363" transform="translate(2961.241 3338.812)"/>
-      <line id="선_243" data-name="선 243" class="cls-12" x1="102.33" y1="151.363" transform="translate(3220.01 3338.812)"/>
-      <line id="선_244" data-name="선 244" class="cls-12" x1="102.33" y1="151.363" transform="translate(2985.5 3338.812)"/>
-      <line id="선_245" data-name="선 245" class="cls-12" x1="102.33" y1="151.363" transform="translate(3244.27 3338.812)"/>
-      <line id="선_246" data-name="선 246" class="cls-12" x1="102.33" y1="151.363" transform="translate(2945.068 3338.812)"/>
-      <line id="선_247" data-name="선 247" class="cls-12" x1="102.33" y1="151.363" transform="translate(3203.837 3338.812)"/>
-      <line id="선_248" data-name="선 248" class="cls-12" x1="102.33" y1="151.363" transform="translate(2969.327 3338.812)"/>
-      <line id="선_249" data-name="선 249" class="cls-12" x1="102.33" y1="151.363" transform="translate(3228.097 3338.812)"/>
-      <line id="선_250" data-name="선 250" class="cls-12" x1="102.33" y1="151.363" transform="translate(2928.895 3338.812)"/>
-      <line id="선_251" data-name="선 251" class="cls-12" x1="102.33" y1="151.363" transform="translate(3187.664 3338.812)"/>
-      <line id="선_252" data-name="선 252" class="cls-12" x1="102.33" y1="151.363" transform="translate(2953.154 3338.812)"/>
-      <line id="선_253" data-name="선 253" class="cls-12" x1="102.33" y1="151.363" transform="translate(3211.924 3338.812)"/>
-      <line id="선_254" data-name="선 254" class="cls-12" x1="102.33" y1="151.363" transform="translate(2912.721 3338.812)"/>
-      <line id="선_255" data-name="선 255" class="cls-12" x1="102.33" y1="151.363" transform="translate(3171.491 3338.812)"/>
-      <line id="선_256" data-name="선 256" class="cls-12" x1="102.33" y1="151.363" transform="translate(2936.981 3338.812)"/>
-      <line id="선_257" data-name="선 257" class="cls-12" x1="102.33" y1="151.363" transform="translate(3195.75 3338.812)"/>
-      <line id="선_258" data-name="선 258" class="cls-12" x1="102.33" y1="151.363" transform="translate(2900.592 3338.812)"/>
-      <line id="선_259" data-name="선 259" class="cls-12" x1="102.33" y1="151.363" transform="translate(3159.361 3338.812)"/>
-      <line id="선_260" data-name="선 260" class="cls-12" x1="102.33" y1="151.363" transform="translate(2920.808 3338.812)"/>
-      <line id="선_261" data-name="선 261" class="cls-12" x1="102.33" y1="151.363" transform="translate(3179.577 3338.812)"/>
-      <line id="선_262" data-name="선 262" class="cls-12" x1="102.33" y1="151.363" transform="translate(3021.89 3338.812)"/>
-      <line id="선_263" data-name="선 263" class="cls-12" x1="102.33" y1="151.363" transform="translate(3280.659 3338.812)"/>
-      <line id="선_264" data-name="선 264" class="cls-12" x1="102.33" y1="151.363" transform="translate(3038.063 3338.812)"/>
-      <line id="선_265" data-name="선 265" class="cls-12" x1="102.33" y1="151.363" transform="translate(3296.833 3338.812)"/>
-      <line id="선_266" data-name="선 266" class="cls-12" x1="102.33" y1="151.363" transform="translate(3005.717 3338.812)"/>
-      <line id="선_267" data-name="선 267" class="cls-12" x1="102.33" y1="151.363" transform="translate(3264.486 3338.812)"/>
-      <line id="선_268" data-name="선 268" class="cls-12" x1="102.33" y1="151.363" transform="translate(3029.976 3338.812)"/>
-      <line id="선_269" data-name="선 269" class="cls-12" x1="102.33" y1="151.363" transform="translate(3288.746 3338.812)"/>
-      <line id="선_270" data-name="선 270" class="cls-12" x1="102.33" y1="151.363" transform="translate(2989.544 3338.812)"/>
-      <line id="선_271" data-name="선 271" class="cls-12" x1="102.33" y1="151.363" transform="translate(3248.313 3338.812)"/>
-      <line id="선_272" data-name="선 272" class="cls-12" x1="102.33" y1="151.363" transform="translate(3013.803 3338.812)"/>
-      <line id="선_273" data-name="선 273" class="cls-12" x1="102.33" y1="151.363" transform="translate(3272.573 3338.812)"/>
-      <line id="선_274" data-name="선 274" class="cls-12" x1="102.33" y1="151.363" transform="translate(2973.371 3338.812)"/>
-      <line id="선_275" data-name="선 275" class="cls-12" x1="102.33" y1="151.363" transform="translate(3232.14 3338.812)"/>
-      <line id="선_276" data-name="선 276" class="cls-12" x1="102.33" y1="151.363" transform="translate(2997.63 3338.812)"/>
-      <line id="선_277" data-name="선 277" class="cls-12" x1="102.33" y1="151.363" transform="translate(3256.4 3338.812)"/>
-      <line id="선_278" data-name="선 278" class="cls-12" x1="102.33" y1="151.363" transform="translate(2957.198 3338.812)"/>
-      <line id="선_279" data-name="선 279" class="cls-12" x1="102.33" y1="151.363" transform="translate(3215.967 3338.812)"/>
-      <line id="선_280" data-name="선 280" class="cls-12" x1="102.33" y1="151.363" transform="translate(2981.457 3338.812)"/>
-      <line id="선_281" data-name="선 281" class="cls-12" x1="102.33" y1="151.363" transform="translate(3240.227 3338.812)"/>
-      <line id="선_282" data-name="선 282" class="cls-12" x1="102.33" y1="151.363" transform="translate(2941.024 3338.812)"/>
-      <line id="선_283" data-name="선 283" class="cls-12" x1="102.33" y1="151.363" transform="translate(3199.794 3338.812)"/>
-      <line id="선_284" data-name="선 284" class="cls-12" x1="102.33" y1="151.363" transform="translate(2965.284 3338.812)"/>
-      <line id="선_285" data-name="선 285" class="cls-12" x1="102.33" y1="151.363" transform="translate(3224.053 3338.812)"/>
-      <line id="선_286" data-name="선 286" class="cls-12" x1="102.33" y1="151.363" transform="translate(2924.851 3338.812)"/>
-      <line id="선_287" data-name="선 287" class="cls-12" x1="102.33" y1="151.363" transform="translate(3183.621 3338.812)"/>
-      <line id="선_288" data-name="선 288" class="cls-12" x1="102.33" y1="151.363" transform="translate(2949.111 3338.812)"/>
-      <line id="선_289" data-name="선 289" class="cls-12" x1="102.33" y1="151.363" transform="translate(3207.88 3338.812)"/>
-      <line id="선_290" data-name="선 290" class="cls-12" x1="102.33" y1="151.363" transform="translate(2908.678 3338.812)"/>
-      <line id="선_291" data-name="선 291" class="cls-12" x1="102.33" y1="151.363" transform="translate(3167.448 3338.812)"/>
-      <line id="선_292" data-name="선 292" class="cls-12" x1="102.33" y1="151.363" transform="translate(2932.938 3338.812)"/>
-      <line id="선_293" data-name="선 293" class="cls-12" x1="102.33" y1="151.363" transform="translate(3191.707 3338.812)"/>
-      <line id="선_294" data-name="선 294" class="cls-12" x1="102.33" y1="151.363" transform="translate(2896.548 3338.812)"/>
-      <line id="선_295" data-name="선 295" class="cls-12" x1="102.33" y1="151.363" transform="translate(3155.318 3338.812)"/>
-      <line id="선_296" data-name="선 296" class="cls-12" x1="102.33" y1="151.363" transform="translate(2916.765 3338.812)"/>
-      <line id="선_297" data-name="선 297" class="cls-12" x1="102.33" y1="151.363" transform="translate(3175.534 3338.812)"/>
-      <line id="선_298" data-name="선 298" class="cls-12" x1="102.33" y1="151.363" transform="translate(3147.231 3338.812)"/>
-      <line id="선_299" data-name="선 299" class="cls-12" x1="102.33" y1="151.363" transform="translate(2904.635 3338.812)"/>
-      <line id="선_300" data-name="선 300" class="cls-12" x1="102.33" y1="151.363" transform="translate(3163.404 3338.812)"/>
-      <line id="선_301" data-name="선 301" class="cls-12" x1="102.33" y1="151.363" transform="translate(3139.145 3338.812)"/>
-      <line id="선_302" data-name="선 302" class="cls-12" x1="102.33" y1="151.363" transform="translate(3151.275 3338.812)"/>
-      <line id="선_303" data-name="선 303" class="cls-12" x1="102.33" y1="151.363" transform="translate(3131.058 3338.812)"/>
-      <line id="선_304" data-name="선 304" class="cls-12" x1="102.33" y1="151.363" transform="translate(3143.188 3338.812)"/>
-      <line id="선_305" data-name="선 305" class="cls-12" x1="102.33" y1="151.363" transform="translate(3122.972 3338.812)"/>
-      <line id="선_306" data-name="선 306" class="cls-12" x1="102.33" y1="151.363" transform="translate(3135.102 3338.812)"/>
-      <line id="선_307" data-name="선 307" class="cls-12" x1="102.33" y1="151.363" transform="translate(3114.885 3338.812)"/>
-      <line id="선_308" data-name="선 308" class="cls-12" x1="102.33" y1="151.363" transform="translate(3127.015 3338.812)"/>
-      <line id="선_309" data-name="선 309" class="cls-12" x1="102.33" y1="151.363" transform="translate(3106.798 3338.812)"/>
-      <line id="선_310" data-name="선 310" class="cls-12" x1="102.33" y1="151.363" transform="translate(3118.928 3338.812)"/>
-      <line id="선_311" data-name="선 311" class="cls-12" x1="102.33" y1="151.363" transform="translate(3102.755 3338.812)"/>
-      <line id="선_312" data-name="선 312" class="cls-12" x1="102.33" y1="151.363" transform="translate(3110.842 3338.812)"/>
+  <text id="_2017" data-name="2017" class="cls-2" transform="translate(3.97 21.16)"><tspan class="cls-3" x="0" y="0">201</tspan><tspan y="0">7</tspan></text>
+  <text id="_2018" data-name="2018" class="cls-2" transform="translate(3.97 64.518)"><tspan class="cls-3" x="0" y="0">201</tspan><tspan y="0">8</tspan></text>
+  <text id="_2019" data-name="2019" class="cls-4" transform="translate(0 108.323)"><tspan class="cls-5" x="0" y="0">201</tspan><tspan y="0">9</tspan></text>
+  <rect id="사각형_101" data-name="사각형 101" class="cls-6" width="360.178" height="30" transform="translate(42.822 43.362)"/>
+  <text id="_953" data-name="953" class="cls-7" transform="translate(369.2 64.962)"><tspan class="cls-8" x="0" y="0">9</tspan><tspan class="cls-5" y="0">5</tspan><tspan y="0">3</tspan></text>
+  <g id="그룹_50" data-name="그룹 50" transform="translate(-2958.5 -3356.131)">
+    <g id="그룹_49" data-name="그룹 49" class="cls-9">
+      <line id="선_213" data-name="선 213" class="cls-10" x1="102.33" y1="151.363" transform="translate(3090.625 3338.812)"/>
+      <line id="선_214" data-name="선 214" class="cls-10" x1="102.33" y1="151.363" transform="translate(3098.712 3338.812)"/>
+      <line id="선_215" data-name="선 215" class="cls-10" x1="102.33" y1="151.363" transform="translate(3082.539 3338.812)"/>
+      <line id="선_216" data-name="선 216" class="cls-10" x1="102.33" y1="151.363" transform="translate(3094.669 3338.812)"/>
+      <line id="선_217" data-name="선 217" class="cls-10" x1="102.33" y1="151.363" transform="translate(3074.452 3338.812)"/>
+      <line id="선_218" data-name="선 218" class="cls-10" x1="102.33" y1="151.363" transform="translate(3086.582 3338.812)"/>
+      <line id="선_219" data-name="선 219" class="cls-10" x1="102.33" y1="151.363" transform="translate(3066.366 3338.812)"/>
+      <line id="선_220" data-name="선 220" class="cls-10" x1="102.33" y1="151.363" transform="translate(3078.496 3338.812)"/>
+      <line id="선_221" data-name="선 221" class="cls-10" x1="102.33" y1="151.363" transform="translate(3058.279 3338.812)"/>
+      <line id="선_222" data-name="선 222" class="cls-10" x1="102.33" y1="151.363" transform="translate(3070.409 3338.812)"/>
+      <line id="선_223" data-name="선 223" class="cls-10" x1="102.33" y1="151.363" transform="translate(3050.193 3338.812)"/>
+      <line id="선_224" data-name="선 224" class="cls-10" x1="102.33" y1="151.363" transform="translate(3062.323 3338.812)"/>
+      <line id="선_225" data-name="선 225" class="cls-10" x1="102.33" y1="151.363" transform="translate(3042.106 3338.812)"/>
+      <line id="선_226" data-name="선 226" class="cls-10" x1="102.33" y1="151.363" transform="translate(3054.236 3338.812)"/>
+      <line id="선_227" data-name="선 227" class="cls-10" x1="102.33" y1="151.363" transform="translate(3025.933 3338.812)"/>
+      <line id="선_228" data-name="선 228" class="cls-10" x1="102.33" y1="151.363" transform="translate(3284.703 3338.812)"/>
+      <line id="선_229" data-name="선 229" class="cls-10" x1="102.33" y1="151.363" transform="translate(3046.149 3338.812)"/>
+      <line id="선_230" data-name="선 230" class="cls-10" x1="102.33" y1="151.363" transform="translate(3009.76 3338.812)"/>
+      <line id="선_231" data-name="선 231" class="cls-10" x1="102.33" y1="151.363" transform="translate(3268.53 3338.812)"/>
+      <line id="선_232" data-name="선 232" class="cls-10" x1="102.33" y1="151.363" transform="translate(3034.02 3338.812)"/>
+      <line id="선_233" data-name="선 233" class="cls-10" x1="102.33" y1="151.363" transform="translate(3292.789 3338.812)"/>
+      <line id="선_234" data-name="선 234" class="cls-10" x1="102.33" y1="151.363" transform="translate(2993.587 3338.812)"/>
+      <line id="선_235" data-name="선 235" class="cls-10" x1="102.33" y1="151.363" transform="translate(3252.356 3338.812)"/>
+      <line id="선_236" data-name="선 236" class="cls-10" x1="102.33" y1="151.363" transform="translate(3017.846 3338.812)"/>
+      <line id="선_237" data-name="선 237" class="cls-10" x1="102.33" y1="151.363" transform="translate(3276.616 3338.812)"/>
+      <line id="선_238" data-name="선 238" class="cls-10" x1="102.33" y1="151.363" transform="translate(2977.414 3338.812)"/>
+      <line id="선_239" data-name="선 239" class="cls-10" x1="102.33" y1="151.363" transform="translate(3236.183 3338.812)"/>
+      <line id="선_240" data-name="선 240" class="cls-10" x1="102.33" y1="151.363" transform="translate(3001.673 3338.812)"/>
+      <line id="선_241" data-name="선 241" class="cls-10" x1="102.33" y1="151.363" transform="translate(3260.443 3338.812)"/>
+      <line id="선_242" data-name="선 242" class="cls-10" x1="102.33" y1="151.363" transform="translate(2961.241 3338.812)"/>
+      <line id="선_243" data-name="선 243" class="cls-10" x1="102.33" y1="151.363" transform="translate(3220.01 3338.812)"/>
+      <line id="선_244" data-name="선 244" class="cls-10" x1="102.33" y1="151.363" transform="translate(2985.5 3338.812)"/>
+      <line id="선_245" data-name="선 245" class="cls-10" x1="102.33" y1="151.363" transform="translate(3244.27 3338.812)"/>
+      <line id="선_246" data-name="선 246" class="cls-10" x1="102.33" y1="151.363" transform="translate(2945.068 3338.812)"/>
+      <line id="선_247" data-name="선 247" class="cls-10" x1="102.33" y1="151.363" transform="translate(3203.837 3338.812)"/>
+      <line id="선_248" data-name="선 248" class="cls-10" x1="102.33" y1="151.363" transform="translate(2969.327 3338.812)"/>
+      <line id="선_249" data-name="선 249" class="cls-10" x1="102.33" y1="151.363" transform="translate(3228.097 3338.812)"/>
+      <line id="선_250" data-name="선 250" class="cls-10" x1="102.33" y1="151.363" transform="translate(2928.895 3338.812)"/>
+      <line id="선_251" data-name="선 251" class="cls-10" x1="102.33" y1="151.363" transform="translate(3187.664 3338.812)"/>
+      <line id="선_252" data-name="선 252" class="cls-10" x1="102.33" y1="151.363" transform="translate(2953.154 3338.812)"/>
+      <line id="선_253" data-name="선 253" class="cls-10" x1="102.33" y1="151.363" transform="translate(3211.924 3338.812)"/>
+      <line id="선_254" data-name="선 254" class="cls-10" x1="102.33" y1="151.363" transform="translate(2912.721 3338.812)"/>
+      <line id="선_255" data-name="선 255" class="cls-10" x1="102.33" y1="151.363" transform="translate(3171.491 3338.812)"/>
+      <line id="선_256" data-name="선 256" class="cls-10" x1="102.33" y1="151.363" transform="translate(2936.981 3338.812)"/>
+      <line id="선_257" data-name="선 257" class="cls-10" x1="102.33" y1="151.363" transform="translate(3195.75 3338.812)"/>
+      <line id="선_258" data-name="선 258" class="cls-10" x1="102.33" y1="151.363" transform="translate(2900.592 3338.812)"/>
+      <line id="선_259" data-name="선 259" class="cls-10" x1="102.33" y1="151.363" transform="translate(3159.361 3338.812)"/>
+      <line id="선_260" data-name="선 260" class="cls-10" x1="102.33" y1="151.363" transform="translate(2920.808 3338.812)"/>
+      <line id="선_261" data-name="선 261" class="cls-10" x1="102.33" y1="151.363" transform="translate(3179.577 3338.812)"/>
+      <line id="선_262" data-name="선 262" class="cls-10" x1="102.33" y1="151.363" transform="translate(3021.89 3338.812)"/>
+      <line id="선_263" data-name="선 263" class="cls-10" x1="102.33" y1="151.363" transform="translate(3280.659 3338.812)"/>
+      <line id="선_264" data-name="선 264" class="cls-10" x1="102.33" y1="151.363" transform="translate(3038.063 3338.812)"/>
+      <line id="선_265" data-name="선 265" class="cls-10" x1="102.33" y1="151.363" transform="translate(3296.833 3338.812)"/>
+      <line id="선_266" data-name="선 266" class="cls-10" x1="102.33" y1="151.363" transform="translate(3005.717 3338.812)"/>
+      <line id="선_267" data-name="선 267" class="cls-10" x1="102.33" y1="151.363" transform="translate(3264.486 3338.812)"/>
+      <line id="선_268" data-name="선 268" class="cls-10" x1="102.33" y1="151.363" transform="translate(3029.976 3338.812)"/>
+      <line id="선_269" data-name="선 269" class="cls-10" x1="102.33" y1="151.363" transform="translate(3288.746 3338.812)"/>
+      <line id="선_270" data-name="선 270" class="cls-10" x1="102.33" y1="151.363" transform="translate(2989.544 3338.812)"/>
+      <line id="선_271" data-name="선 271" class="cls-10" x1="102.33" y1="151.363" transform="translate(3248.313 3338.812)"/>
+      <line id="선_272" data-name="선 272" class="cls-10" x1="102.33" y1="151.363" transform="translate(3013.803 3338.812)"/>
+      <line id="선_273" data-name="선 273" class="cls-10" x1="102.33" y1="151.363" transform="translate(3272.573 3338.812)"/>
+      <line id="선_274" data-name="선 274" class="cls-10" x1="102.33" y1="151.363" transform="translate(2973.371 3338.812)"/>
+      <line id="선_275" data-name="선 275" class="cls-10" x1="102.33" y1="151.363" transform="translate(3232.14 3338.812)"/>
+      <line id="선_276" data-name="선 276" class="cls-10" x1="102.33" y1="151.363" transform="translate(2997.63 3338.812)"/>
+      <line id="선_277" data-name="선 277" class="cls-10" x1="102.33" y1="151.363" transform="translate(3256.4 3338.812)"/>
+      <line id="선_278" data-name="선 278" class="cls-10" x1="102.33" y1="151.363" transform="translate(2957.198 3338.812)"/>
+      <line id="선_279" data-name="선 279" class="cls-10" x1="102.33" y1="151.363" transform="translate(3215.967 3338.812)"/>
+      <line id="선_280" data-name="선 280" class="cls-10" x1="102.33" y1="151.363" transform="translate(2981.457 3338.812)"/>
+      <line id="선_281" data-name="선 281" class="cls-10" x1="102.33" y1="151.363" transform="translate(3240.227 3338.812)"/>
+      <line id="선_282" data-name="선 282" class="cls-10" x1="102.33" y1="151.363" transform="translate(2941.024 3338.812)"/>
+      <line id="선_283" data-name="선 283" class="cls-10" x1="102.33" y1="151.363" transform="translate(3199.794 3338.812)"/>
+      <line id="선_284" data-name="선 284" class="cls-10" x1="102.33" y1="151.363" transform="translate(2965.284 3338.812)"/>
+      <line id="선_285" data-name="선 285" class="cls-10" x1="102.33" y1="151.363" transform="translate(3224.053 3338.812)"/>
+      <line id="선_286" data-name="선 286" class="cls-10" x1="102.33" y1="151.363" transform="translate(2924.851 3338.812)"/>
+      <line id="선_287" data-name="선 287" class="cls-10" x1="102.33" y1="151.363" transform="translate(3183.621 3338.812)"/>
+      <line id="선_288" data-name="선 288" class="cls-10" x1="102.33" y1="151.363" transform="translate(2949.111 3338.812)"/>
+      <line id="선_289" data-name="선 289" class="cls-10" x1="102.33" y1="151.363" transform="translate(3207.88 3338.812)"/>
+      <line id="선_290" data-name="선 290" class="cls-10" x1="102.33" y1="151.363" transform="translate(2908.678 3338.812)"/>
+      <line id="선_291" data-name="선 291" class="cls-10" x1="102.33" y1="151.363" transform="translate(3167.448 3338.812)"/>
+      <line id="선_292" data-name="선 292" class="cls-10" x1="102.33" y1="151.363" transform="translate(2932.938 3338.812)"/>
+      <line id="선_293" data-name="선 293" class="cls-10" x1="102.33" y1="151.363" transform="translate(3191.707 3338.812)"/>
+      <line id="선_294" data-name="선 294" class="cls-10" x1="102.33" y1="151.363" transform="translate(2896.548 3338.812)"/>
+      <line id="선_295" data-name="선 295" class="cls-10" x1="102.33" y1="151.363" transform="translate(3155.318 3338.812)"/>
+      <line id="선_296" data-name="선 296" class="cls-10" x1="102.33" y1="151.363" transform="translate(2916.765 3338.812)"/>
+      <line id="선_297" data-name="선 297" class="cls-10" x1="102.33" y1="151.363" transform="translate(3175.534 3338.812)"/>
+      <line id="선_298" data-name="선 298" class="cls-10" x1="102.33" y1="151.363" transform="translate(3147.231 3338.812)"/>
+      <line id="선_299" data-name="선 299" class="cls-10" x1="102.33" y1="151.363" transform="translate(2904.635 3338.812)"/>
+      <line id="선_300" data-name="선 300" class="cls-10" x1="102.33" y1="151.363" transform="translate(3163.404 3338.812)"/>
+      <line id="선_301" data-name="선 301" class="cls-10" x1="102.33" y1="151.363" transform="translate(3139.145 3338.812)"/>
+      <line id="선_302" data-name="선 302" class="cls-10" x1="102.33" y1="151.363" transform="translate(3151.275 3338.812)"/>
+      <line id="선_303" data-name="선 303" class="cls-10" x1="102.33" y1="151.363" transform="translate(3131.058 3338.812)"/>
+      <line id="선_304" data-name="선 304" class="cls-10" x1="102.33" y1="151.363" transform="translate(3143.188 3338.812)"/>
+      <line id="선_305" data-name="선 305" class="cls-10" x1="102.33" y1="151.363" transform="translate(3122.972 3338.812)"/>
+      <line id="선_306" data-name="선 306" class="cls-10" x1="102.33" y1="151.363" transform="translate(3135.102 3338.812)"/>
+      <line id="선_307" data-name="선 307" class="cls-10" x1="102.33" y1="151.363" transform="translate(3114.885 3338.812)"/>
+      <line id="선_308" data-name="선 308" class="cls-10" x1="102.33" y1="151.363" transform="translate(3127.015 3338.812)"/>
+      <line id="선_309" data-name="선 309" class="cls-10" x1="102.33" y1="151.363" transform="translate(3106.798 3338.812)"/>
+      <line id="선_310" data-name="선 310" class="cls-10" x1="102.33" y1="151.363" transform="translate(3118.928 3338.812)"/>
+      <line id="선_311" data-name="선 311" class="cls-10" x1="102.33" y1="151.363" transform="translate(3102.755 3338.812)"/>
+      <line id="선_312" data-name="선 312" class="cls-10" x1="102.33" y1="151.363" transform="translate(3110.842 3338.812)"/>
     </g>
   </g>
-  <rect id="사각형_103" data-name="사각형 103" class="cls-9" width="360.178" height="30" transform="translate(42.822 54.92)"/>
-  <text id="_520" data-name="520" class="cls-10" transform="translate(369.2 78.17)"><tspan class="cls-3" x="0" y="0">5</tspan><tspan class="cls-8" y="0">2</tspan><tspan y="0">0</tspan></text>
-  <g id="그룹_52" data-name="그룹 52" transform="translate(-2958.5 -3301.211)">
-    <g id="그룹_51" data-name="그룹 51" class="cls-13">
-      <line id="선_313" data-name="선 313" class="cls-12" x1="102.33" y1="151.363" transform="translate(3062.125 3295.45)"/>
-      <line id="선_314" data-name="선 314" class="cls-12" x1="102.33" y1="151.363" transform="translate(3070.212 3295.45)"/>
-      <line id="선_315" data-name="선 315" class="cls-12" x1="102.33" y1="151.363" transform="translate(3054.039 3295.45)"/>
-      <line id="선_316" data-name="선 316" class="cls-12" x1="102.33" y1="151.363" transform="translate(3066.169 3295.45)"/>
-      <line id="선_317" data-name="선 317" class="cls-12" x1="102.33" y1="151.363" transform="translate(3045.952 3295.45)"/>
-      <line id="선_318" data-name="선 318" class="cls-12" x1="102.33" y1="151.363" transform="translate(3058.082 3295.45)"/>
-      <line id="선_319" data-name="선 319" class="cls-12" x1="102.33" y1="151.363" transform="translate(3037.866 3295.45)"/>
-      <line id="선_320" data-name="선 320" class="cls-12" x1="102.33" y1="151.363" transform="translate(3049.996 3295.45)"/>
-      <line id="선_321" data-name="선 321" class="cls-12" x1="102.33" y1="151.363" transform="translate(3029.779 3295.45)"/>
-      <line id="선_322" data-name="선 322" class="cls-12" x1="102.33" y1="151.363" transform="translate(3041.909 3295.45)"/>
-      <line id="선_323" data-name="선 323" class="cls-12" x1="102.33" y1="151.363" transform="translate(3021.693 3295.45)"/>
-      <line id="선_324" data-name="선 324" class="cls-12" x1="102.33" y1="151.363" transform="translate(3033.823 3295.45)"/>
-      <line id="선_325" data-name="선 325" class="cls-12" x1="102.33" y1="151.363" transform="translate(3013.606 3295.45)"/>
-      <line id="선_326" data-name="선 326" class="cls-12" x1="102.33" y1="151.363" transform="translate(3025.736 3295.45)"/>
-      <line id="선_327" data-name="선 327" class="cls-12" x1="102.33" y1="151.363" transform="translate(2997.433 3295.45)"/>
-      <line id="선_328" data-name="선 328" class="cls-12" x1="102.33" y1="151.363" transform="translate(3017.649 3295.45)"/>
-      <line id="선_329" data-name="선 329" class="cls-12" x1="102.33" y1="151.363" transform="translate(2981.26 3295.45)"/>
-      <line id="선_330" data-name="선 330" class="cls-12" x1="102.33" y1="151.363" transform="translate(3240.03 3295.45)"/>
-      <line id="선_331" data-name="선 331" class="cls-12" x1="102.33" y1="151.363" transform="translate(3005.52 3295.45)"/>
-      <line id="선_332" data-name="선 332" class="cls-12" x1="102.33" y1="151.363" transform="translate(2965.087 3295.45)"/>
-      <line id="선_333" data-name="선 333" class="cls-12" x1="102.33" y1="151.363" transform="translate(3223.856 3295.45)"/>
-      <line id="선_334" data-name="선 334" class="cls-12" x1="102.33" y1="151.363" transform="translate(2989.346 3295.45)"/>
-      <line id="선_335" data-name="선 335" class="cls-12" x1="102.33" y1="151.363" transform="translate(2948.914 3295.45)"/>
-      <line id="선_336" data-name="선 336" class="cls-12" x1="102.33" y1="151.363" transform="translate(3207.683 3295.45)"/>
-      <line id="선_337" data-name="선 337" class="cls-12" x1="102.33" y1="151.363" transform="translate(2973.173 3295.45)"/>
-      <line id="선_338" data-name="선 338" class="cls-12" x1="102.33" y1="151.363" transform="translate(3231.943 3295.45)"/>
-      <line id="선_339" data-name="선 339" class="cls-12" x1="102.33" y1="151.363" transform="translate(2932.741 3295.45)"/>
-      <line id="선_340" data-name="선 340" class="cls-12" x1="102.33" y1="151.363" transform="translate(3191.51 3295.45)"/>
-      <line id="선_341" data-name="선 341" class="cls-12" x1="102.33" y1="151.363" transform="translate(2957 3295.45)"/>
-      <line id="선_342" data-name="선 342" class="cls-12" x1="102.33" y1="151.363" transform="translate(3215.77 3295.45)"/>
-      <line id="선_343" data-name="선 343" class="cls-12" x1="102.33" y1="151.363" transform="translate(2916.568 3295.45)"/>
-      <line id="선_344" data-name="선 344" class="cls-12" x1="102.33" y1="151.363" transform="translate(3175.337 3295.45)"/>
-      <line id="선_345" data-name="선 345" class="cls-12" x1="102.33" y1="151.363" transform="translate(2940.827 3295.45)"/>
-      <line id="선_346" data-name="선 346" class="cls-12" x1="102.33" y1="151.363" transform="translate(3199.597 3295.45)"/>
-      <line id="선_347" data-name="선 347" class="cls-12" x1="102.33" y1="151.363" transform="translate(2900.395 3295.45)"/>
-      <line id="선_348" data-name="선 348" class="cls-12" x1="102.33" y1="151.363" transform="translate(3159.164 3295.45)"/>
-      <line id="선_349" data-name="선 349" class="cls-12" x1="102.33" y1="151.363" transform="translate(2924.654 3295.45)"/>
-      <line id="선_350" data-name="선 350" class="cls-12" x1="102.33" y1="151.363" transform="translate(3183.424 3295.45)"/>
-      <line id="선_351" data-name="선 351" class="cls-12" x1="102.33" y1="151.363" transform="translate(3142.991 3295.45)"/>
-      <line id="선_352" data-name="선 352" class="cls-12" x1="102.33" y1="151.363" transform="translate(2908.481 3295.45)"/>
-      <line id="선_353" data-name="선 353" class="cls-12" x1="102.33" y1="151.363" transform="translate(3167.25 3295.45)"/>
-      <line id="선_354" data-name="선 354" class="cls-12" x1="102.33" y1="151.363" transform="translate(3130.861 3295.45)"/>
-      <line id="선_355" data-name="선 355" class="cls-12" x1="102.33" y1="151.363" transform="translate(3151.077 3295.45)"/>
-      <line id="선_356" data-name="선 356" class="cls-12" x1="102.33" y1="151.363" transform="translate(2993.39 3295.45)"/>
-      <line id="선_357" data-name="선 357" class="cls-12" x1="102.33" y1="151.363" transform="translate(3009.563 3295.45)"/>
-      <line id="선_358" data-name="선 358" class="cls-12" x1="102.33" y1="151.363" transform="translate(2977.217 3295.45)"/>
-      <line id="선_359" data-name="선 359" class="cls-12" x1="102.33" y1="151.363" transform="translate(3235.986 3295.45)"/>
-      <line id="선_360" data-name="선 360" class="cls-12" x1="102.33" y1="151.363" transform="translate(3001.476 3295.45)"/>
-      <line id="선_361" data-name="선 361" class="cls-12" x1="102.33" y1="151.363" transform="translate(2961.044 3295.45)"/>
-      <line id="선_362" data-name="선 362" class="cls-12" x1="102.33" y1="151.363" transform="translate(3219.813 3295.45)"/>
-      <line id="선_363" data-name="선 363" class="cls-12" x1="102.33" y1="151.363" transform="translate(2985.303 3295.45)"/>
-      <line id="선_364" data-name="선 364" class="cls-12" x1="102.33" y1="151.363" transform="translate(2944.871 3295.45)"/>
-      <line id="선_365" data-name="선 365" class="cls-12" x1="102.33" y1="151.363" transform="translate(3203.64 3295.45)"/>
-      <line id="선_366" data-name="선 366" class="cls-12" x1="102.33" y1="151.363" transform="translate(2969.13 3295.45)"/>
-      <line id="선_367" data-name="선 367" class="cls-12" x1="102.33" y1="151.363" transform="translate(3227.9 3295.45)"/>
-      <line id="선_368" data-name="선 368" class="cls-12" x1="102.33" y1="151.363" transform="translate(2928.698 3295.45)"/>
-      <line id="선_369" data-name="선 369" class="cls-12" x1="102.33" y1="151.363" transform="translate(3187.467 3295.45)"/>
-      <line id="선_370" data-name="선 370" class="cls-12" x1="102.33" y1="151.363" transform="translate(2952.957 3295.45)"/>
-      <line id="선_371" data-name="선 371" class="cls-12" x1="102.33" y1="151.363" transform="translate(3211.727 3295.45)"/>
-      <line id="선_372" data-name="선 372" class="cls-12" x1="102.33" y1="151.363" transform="translate(2912.524 3295.45)"/>
-      <line id="선_373" data-name="선 373" class="cls-12" x1="102.33" y1="151.363" transform="translate(3171.294 3295.45)"/>
-      <line id="선_374" data-name="선 374" class="cls-12" x1="102.33" y1="151.363" transform="translate(2936.784 3295.45)"/>
-      <line id="선_375" data-name="선 375" class="cls-12" x1="102.33" y1="151.363" transform="translate(3195.553 3295.45)"/>
-      <line id="선_376" data-name="선 376" class="cls-12" x1="102.33" y1="151.363" transform="translate(2896.351 3295.45)"/>
-      <line id="선_377" data-name="선 377" class="cls-12" x1="102.33" y1="151.363" transform="translate(3155.121 3295.45)"/>
-      <line id="선_378" data-name="선 378" class="cls-12" x1="102.33" y1="151.363" transform="translate(2920.611 3295.45)"/>
-      <line id="선_379" data-name="선 379" class="cls-12" x1="102.33" y1="151.363" transform="translate(3179.38 3295.45)"/>
-      <line id="선_380" data-name="선 380" class="cls-12" x1="102.33" y1="151.363" transform="translate(3138.948 3295.45)"/>
-      <line id="선_381" data-name="선 381" class="cls-12" x1="102.33" y1="151.363" transform="translate(2904.438 3295.45)"/>
-      <line id="선_382" data-name="선 382" class="cls-12" x1="102.33" y1="151.363" transform="translate(3163.207 3295.45)"/>
-      <line id="선_383" data-name="선 383" class="cls-12" x1="102.33" y1="151.363" transform="translate(3126.818 3295.45)"/>
-      <line id="선_384" data-name="선 384" class="cls-12" x1="102.33" y1="151.363" transform="translate(3147.034 3295.45)"/>
-      <line id="선_385" data-name="선 385" class="cls-12" x1="102.33" y1="151.363" transform="translate(3118.731 3295.45)"/>
-      <line id="선_386" data-name="선 386" class="cls-12" x1="102.33" y1="151.363" transform="translate(3134.904 3295.45)"/>
-      <line id="선_387" data-name="선 387" class="cls-12" x1="102.33" y1="151.363" transform="translate(3110.645 3295.45)"/>
-      <line id="선_388" data-name="선 388" class="cls-12" x1="102.33" y1="151.363" transform="translate(3122.775 3295.45)"/>
-      <line id="선_389" data-name="선 389" class="cls-12" x1="102.33" y1="151.363" transform="translate(3102.558 3295.45)"/>
-      <line id="선_390" data-name="선 390" class="cls-12" x1="102.33" y1="151.363" transform="translate(3114.688 3295.45)"/>
-      <line id="선_391" data-name="선 391" class="cls-12" x1="102.33" y1="151.363" transform="translate(3094.472 3295.45)"/>
-      <line id="선_392" data-name="선 392" class="cls-12" x1="102.33" y1="151.363" transform="translate(3106.602 3295.45)"/>
-      <line id="선_393" data-name="선 393" class="cls-12" x1="102.33" y1="151.363" transform="translate(3086.385 3295.45)"/>
-      <line id="선_394" data-name="선 394" class="cls-12" x1="102.33" y1="151.363" transform="translate(3098.515 3295.45)"/>
-      <line id="선_395" data-name="선 395" class="cls-12" x1="102.33" y1="151.363" transform="translate(3078.298 3295.45)"/>
-      <line id="선_396" data-name="선 396" class="cls-12" x1="102.33" y1="151.363" transform="translate(3090.428 3295.45)"/>
-      <line id="선_397" data-name="선 397" class="cls-12" x1="102.33" y1="151.363" transform="translate(3074.255 3295.45)"/>
-      <line id="선_398" data-name="선 398" class="cls-12" x1="102.33" y1="151.363" transform="translate(3082.342 3295.45)"/>
+  <rect id="사각형_103" data-name="사각형 103" class="cls-6" width="360.178" height="30" transform="translate(42.822)"/>
+  <text id="_520" data-name="520" class="cls-7" transform="translate(369.2 23.25)"><tspan class="cls-8" x="0" y="0">5</tspan><tspan class="cls-5" y="0">2</tspan><tspan y="0">0</tspan></text>
+  <g id="그룹_52" data-name="그룹 52" transform="translate(-2958.5 -3356.131)">
+    <g id="그룹_51" data-name="그룹 51" class="cls-11">
+      <line id="선_313" data-name="선 313" class="cls-10" x1="102.33" y1="151.363" transform="translate(3062.125 3295.45)"/>
+      <line id="선_314" data-name="선 314" class="cls-10" x1="102.33" y1="151.363" transform="translate(3070.212 3295.45)"/>
+      <line id="선_315" data-name="선 315" class="cls-10" x1="102.33" y1="151.363" transform="translate(3054.039 3295.45)"/>
+      <line id="선_316" data-name="선 316" class="cls-10" x1="102.33" y1="151.363" transform="translate(3066.169 3295.45)"/>
+      <line id="선_317" data-name="선 317" class="cls-10" x1="102.33" y1="151.363" transform="translate(3045.952 3295.45)"/>
+      <line id="선_318" data-name="선 318" class="cls-10" x1="102.33" y1="151.363" transform="translate(3058.082 3295.45)"/>
+      <line id="선_319" data-name="선 319" class="cls-10" x1="102.33" y1="151.363" transform="translate(3037.866 3295.45)"/>
+      <line id="선_320" data-name="선 320" class="cls-10" x1="102.33" y1="151.363" transform="translate(3049.996 3295.45)"/>
+      <line id="선_321" data-name="선 321" class="cls-10" x1="102.33" y1="151.363" transform="translate(3029.779 3295.45)"/>
+      <line id="선_322" data-name="선 322" class="cls-10" x1="102.33" y1="151.363" transform="translate(3041.909 3295.45)"/>
+      <line id="선_323" data-name="선 323" class="cls-10" x1="102.33" y1="151.363" transform="translate(3021.693 3295.45)"/>
+      <line id="선_324" data-name="선 324" class="cls-10" x1="102.33" y1="151.363" transform="translate(3033.823 3295.45)"/>
+      <line id="선_325" data-name="선 325" class="cls-10" x1="102.33" y1="151.363" transform="translate(3013.606 3295.45)"/>
+      <line id="선_326" data-name="선 326" class="cls-10" x1="102.33" y1="151.363" transform="translate(3025.736 3295.45)"/>
+      <line id="선_327" data-name="선 327" class="cls-10" x1="102.33" y1="151.363" transform="translate(2997.433 3295.45)"/>
+      <line id="선_328" data-name="선 328" class="cls-10" x1="102.33" y1="151.363" transform="translate(3017.649 3295.45)"/>
+      <line id="선_329" data-name="선 329" class="cls-10" x1="102.33" y1="151.363" transform="translate(2981.26 3295.45)"/>
+      <line id="선_330" data-name="선 330" class="cls-10" x1="102.33" y1="151.363" transform="translate(3240.03 3295.45)"/>
+      <line id="선_331" data-name="선 331" class="cls-10" x1="102.33" y1="151.363" transform="translate(3005.52 3295.45)"/>
+      <line id="선_332" data-name="선 332" class="cls-10" x1="102.33" y1="151.363" transform="translate(2965.087 3295.45)"/>
+      <line id="선_333" data-name="선 333" class="cls-10" x1="102.33" y1="151.363" transform="translate(3223.856 3295.45)"/>
+      <line id="선_334" data-name="선 334" class="cls-10" x1="102.33" y1="151.363" transform="translate(2989.346 3295.45)"/>
+      <line id="선_335" data-name="선 335" class="cls-10" x1="102.33" y1="151.363" transform="translate(2948.914 3295.45)"/>
+      <line id="선_336" data-name="선 336" class="cls-10" x1="102.33" y1="151.363" transform="translate(3207.683 3295.45)"/>
+      <line id="선_337" data-name="선 337" class="cls-10" x1="102.33" y1="151.363" transform="translate(2973.173 3295.45)"/>
+      <line id="선_338" data-name="선 338" class="cls-10" x1="102.33" y1="151.363" transform="translate(3231.943 3295.45)"/>
+      <line id="선_339" data-name="선 339" class="cls-10" x1="102.33" y1="151.363" transform="translate(2932.741 3295.45)"/>
+      <line id="선_340" data-name="선 340" class="cls-10" x1="102.33" y1="151.363" transform="translate(3191.51 3295.45)"/>
+      <line id="선_341" data-name="선 341" class="cls-10" x1="102.33" y1="151.363" transform="translate(2957 3295.45)"/>
+      <line id="선_342" data-name="선 342" class="cls-10" x1="102.33" y1="151.363" transform="translate(3215.77 3295.45)"/>
+      <line id="선_343" data-name="선 343" class="cls-10" x1="102.33" y1="151.363" transform="translate(2916.568 3295.45)"/>
+      <line id="선_344" data-name="선 344" class="cls-10" x1="102.33" y1="151.363" transform="translate(3175.337 3295.45)"/>
+      <line id="선_345" data-name="선 345" class="cls-10" x1="102.33" y1="151.363" transform="translate(2940.827 3295.45)"/>
+      <line id="선_346" data-name="선 346" class="cls-10" x1="102.33" y1="151.363" transform="translate(3199.597 3295.45)"/>
+      <line id="선_347" data-name="선 347" class="cls-10" x1="102.33" y1="151.363" transform="translate(2900.395 3295.45)"/>
+      <line id="선_348" data-name="선 348" class="cls-10" x1="102.33" y1="151.363" transform="translate(3159.164 3295.45)"/>
+      <line id="선_349" data-name="선 349" class="cls-10" x1="102.33" y1="151.363" transform="translate(2924.654 3295.45)"/>
+      <line id="선_350" data-name="선 350" class="cls-10" x1="102.33" y1="151.363" transform="translate(3183.424 3295.45)"/>
+      <line id="선_351" data-name="선 351" class="cls-10" x1="102.33" y1="151.363" transform="translate(3142.991 3295.45)"/>
+      <line id="선_352" data-name="선 352" class="cls-10" x1="102.33" y1="151.363" transform="translate(2908.481 3295.45)"/>
+      <line id="선_353" data-name="선 353" class="cls-10" x1="102.33" y1="151.363" transform="translate(3167.25 3295.45)"/>
+      <line id="선_354" data-name="선 354" class="cls-10" x1="102.33" y1="151.363" transform="translate(3130.861 3295.45)"/>
+      <line id="선_355" data-name="선 355" class="cls-10" x1="102.33" y1="151.363" transform="translate(3151.077 3295.45)"/>
+      <line id="선_356" data-name="선 356" class="cls-10" x1="102.33" y1="151.363" transform="translate(2993.39 3295.45)"/>
+      <line id="선_357" data-name="선 357" class="cls-10" x1="102.33" y1="151.363" transform="translate(3009.563 3295.45)"/>
+      <line id="선_358" data-name="선 358" class="cls-10" x1="102.33" y1="151.363" transform="translate(2977.217 3295.45)"/>
+      <line id="선_359" data-name="선 359" class="cls-10" x1="102.33" y1="151.363" transform="translate(3235.986 3295.45)"/>
+      <line id="선_360" data-name="선 360" class="cls-10" x1="102.33" y1="151.363" transform="translate(3001.476 3295.45)"/>
+      <line id="선_361" data-name="선 361" class="cls-10" x1="102.33" y1="151.363" transform="translate(2961.044 3295.45)"/>
+      <line id="선_362" data-name="선 362" class="cls-10" x1="102.33" y1="151.363" transform="translate(3219.813 3295.45)"/>
+      <line id="선_363" data-name="선 363" class="cls-10" x1="102.33" y1="151.363" transform="translate(2985.303 3295.45)"/>
+      <line id="선_364" data-name="선 364" class="cls-10" x1="102.33" y1="151.363" transform="translate(2944.871 3295.45)"/>
+      <line id="선_365" data-name="선 365" class="cls-10" x1="102.33" y1="151.363" transform="translate(3203.64 3295.45)"/>
+      <line id="선_366" data-name="선 366" class="cls-10" x1="102.33" y1="151.363" transform="translate(2969.13 3295.45)"/>
+      <line id="선_367" data-name="선 367" class="cls-10" x1="102.33" y1="151.363" transform="translate(3227.9 3295.45)"/>
+      <line id="선_368" data-name="선 368" class="cls-10" x1="102.33" y1="151.363" transform="translate(2928.698 3295.45)"/>
+      <line id="선_369" data-name="선 369" class="cls-10" x1="102.33" y1="151.363" transform="translate(3187.467 3295.45)"/>
+      <line id="선_370" data-name="선 370" class="cls-10" x1="102.33" y1="151.363" transform="translate(2952.957 3295.45)"/>
+      <line id="선_371" data-name="선 371" class="cls-10" x1="102.33" y1="151.363" transform="translate(3211.727 3295.45)"/>
+      <line id="선_372" data-name="선 372" class="cls-10" x1="102.33" y1="151.363" transform="translate(2912.524 3295.45)"/>
+      <line id="선_373" data-name="선 373" class="cls-10" x1="102.33" y1="151.363" transform="translate(3171.294 3295.45)"/>
+      <line id="선_374" data-name="선 374" class="cls-10" x1="102.33" y1="151.363" transform="translate(2936.784 3295.45)"/>
+      <line id="선_375" data-name="선 375" class="cls-10" x1="102.33" y1="151.363" transform="translate(3195.553 3295.45)"/>
+      <line id="선_376" data-name="선 376" class="cls-10" x1="102.33" y1="151.363" transform="translate(2896.351 3295.45)"/>
+      <line id="선_377" data-name="선 377" class="cls-10" x1="102.33" y1="151.363" transform="translate(3155.121 3295.45)"/>
+      <line id="선_378" data-name="선 378" class="cls-10" x1="102.33" y1="151.363" transform="translate(2920.611 3295.45)"/>
+      <line id="선_379" data-name="선 379" class="cls-10" x1="102.33" y1="151.363" transform="translate(3179.38 3295.45)"/>
+      <line id="선_380" data-name="선 380" class="cls-10" x1="102.33" y1="151.363" transform="translate(3138.948 3295.45)"/>
+      <line id="선_381" data-name="선 381" class="cls-10" x1="102.33" y1="151.363" transform="translate(2904.438 3295.45)"/>
+      <line id="선_382" data-name="선 382" class="cls-10" x1="102.33" y1="151.363" transform="translate(3163.207 3295.45)"/>
+      <line id="선_383" data-name="선 383" class="cls-10" x1="102.33" y1="151.363" transform="translate(3126.818 3295.45)"/>
+      <line id="선_384" data-name="선 384" class="cls-10" x1="102.33" y1="151.363" transform="translate(3147.034 3295.45)"/>
+      <line id="선_385" data-name="선 385" class="cls-10" x1="102.33" y1="151.363" transform="translate(3118.731 3295.45)"/>
+      <line id="선_386" data-name="선 386" class="cls-10" x1="102.33" y1="151.363" transform="translate(3134.904 3295.45)"/>
+      <line id="선_387" data-name="선 387" class="cls-10" x1="102.33" y1="151.363" transform="translate(3110.645 3295.45)"/>
+      <line id="선_388" data-name="선 388" class="cls-10" x1="102.33" y1="151.363" transform="translate(3122.775 3295.45)"/>
+      <line id="선_389" data-name="선 389" class="cls-10" x1="102.33" y1="151.363" transform="translate(3102.558 3295.45)"/>
+      <line id="선_390" data-name="선 390" class="cls-10" x1="102.33" y1="151.363" transform="translate(3114.688 3295.45)"/>
+      <line id="선_391" data-name="선 391" class="cls-10" x1="102.33" y1="151.363" transform="translate(3094.472 3295.45)"/>
+      <line id="선_392" data-name="선 392" class="cls-10" x1="102.33" y1="151.363" transform="translate(3106.602 3295.45)"/>
+      <line id="선_393" data-name="선 393" class="cls-10" x1="102.33" y1="151.363" transform="translate(3086.385 3295.45)"/>
+      <line id="선_394" data-name="선 394" class="cls-10" x1="102.33" y1="151.363" transform="translate(3098.515 3295.45)"/>
+      <line id="선_395" data-name="선 395" class="cls-10" x1="102.33" y1="151.363" transform="translate(3078.298 3295.45)"/>
+      <line id="선_396" data-name="선 396" class="cls-10" x1="102.33" y1="151.363" transform="translate(3090.428 3295.45)"/>
+      <line id="선_397" data-name="선 397" class="cls-10" x1="102.33" y1="151.363" transform="translate(3074.255 3295.45)"/>
+      <line id="선_398" data-name="선 398" class="cls-10" x1="102.33" y1="151.363" transform="translate(3082.342 3295.45)"/>
     </g>
   </g>
-  <rect id="사각형_105" data-name="사각형 105" class="cls-9" width="360.178" height="30" transform="translate(42.822 141.643)"/>
-  <text id="_609" data-name="609" class="cls-14" transform="translate(362.511 165.057)"><tspan class="cls-8" x="0" y="0">60</tspan><tspan y="0">9</tspan></text>
-  <rect id="사각형_106" data-name="사각형 106" class="cls-15" width="268.797" height="30" transform="translate(42.823 141.643)"/>
-  <rect id="사각형_107" data-name="사각형 107" class="cls-16" width="268.797" height="30" transform="translate(42.823 141.643)"/>
-  <line id="선_399" data-name="선 399" class="cls-17" y2="139.714" transform="translate(43.322 54.92)"/>
+  <rect id="사각형_105" data-name="사각형 105" class="cls-6" width="360.178" height="30" transform="translate(42.822 86.723)"/>
+  <text id="_609" data-name="609" class="cls-12" transform="translate(362.511 110.137)"><tspan class="cls-5" x="0" y="0">60</tspan><tspan y="0">9</tspan></text>
+  <rect id="사각형_106" data-name="사각형 106" class="cls-13" width="268.797" height="30" transform="translate(42.823 86.723)"/>
+  <rect id="사각형_107" data-name="사각형 107" class="cls-14" width="268.797" height="30" transform="translate(42.823 86.723)"/>
+  <line id="선_399" data-name="선 399" class="cls-15" y2="139.714" transform="translate(43.322 0)"/>
 </svg>
