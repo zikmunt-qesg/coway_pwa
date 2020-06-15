@@ -484,7 +484,7 @@ export default {
           classification: '경제성과',
           code: '201-3',
           indicators: '조직의 확정급여형 연금제도 채무 충당',
-          link: ['view-source:http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200515001781'],
+          link: ['http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200515001781'],
           Note: ''
         },
         {

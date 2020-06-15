@@ -210,6 +210,20 @@
                     </p>
                     <hr class="py-2">
 
+                    <h7 class="mb-3 gray63">냉매 회수 및 재활용량</h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td> <b-td>2019 회수량</b-td> <b-td>2019 재활용량</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">냉매 회수 및 재활용</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+                        <p class="f-80 ml-1 mb-5">* 냉매 회수량은 전량 재활용되고 있음</p>
+
+
                     <h6-ancor :title="'리퍼브 제도'" :activated="activated" class="fw-500 green5 mb-3 f-105">리퍼브 제도</h6-ancor>
                     <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
                     </p>
@@ -219,6 +233,31 @@
                         <b-col class="col-12 col-sm-7"><b-img src="@/assets/images/36_1.svg" fluid style="width: 88%;"></b-img></b-col>
                         <b-col class="col-12 col-sm-5"><b-img src="@/assets/images/35_1.svg" fluid class="w-100"></b-img></b-col>
                     </b-row>
+
+                    <hr class="mb-2">
+
+                    <h7 class="mb-3 gray63">리퍼브 제품 판매량 <span class="f-80 fw-300">(단위: 대)</span> </h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">정수기</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">공기청정기</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">비데</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">Total</b-td><b-td>17,348</b-td><b-td>10,609</b-td><b-td>6,125</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+                    
+                    <hr class="mb-2">
                     
                     <h6-ancor :title="'전과정 수자원 사용량 절감 '" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 수자원 사용량 절감 </h6-ancor>
                     <p class="mb-5"> 물은 중요한 자원입니다. 물 사용 제조 공정 개선 및 워터리스 테스트 시스템 도입 등을 통해 물 사용량을 지속적으로 관리하고 있습니다.
@@ -357,7 +396,6 @@
                             <li> 재활용율: 제품, 서비스, 사업장 재활용량 /제품, 서비스, 사업장 발생량
                             </li>
                         </ol>
-
 
             </b-container>
             </b-col>

@@ -14,7 +14,7 @@
             <b-img v-if="picture_file != null && picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
         </div>
         <div class="mb-3">
-            {{ contents }}
+          <div v-html="contents"></div>
         </div>
     </b-container>
 </div>
