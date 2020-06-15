@@ -318,8 +318,8 @@ export const state = () => ({
                             ]
                     },
                     {
-                        title: '협력회사 CSR 리포트',
-                        link: '/static_page/협력회사-CSR-리포트',
+                        title: '협력사 CSR 리포트',
+                        link: '/static_page/협력사-CSR-리포트',
                         child:
                             [
                                 {

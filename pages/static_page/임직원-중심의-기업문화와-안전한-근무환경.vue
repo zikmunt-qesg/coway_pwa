@@ -162,7 +162,7 @@
                                 <p class="gold6 fw-500 f-100 mb-2">방식(METHODS)</p><p class="px-2 f-90 word-break line-height-low">일하는 방식 효율을 위한 프로세스 검토</p>
                             </b-col> 
                         </b-row>
-                        <p>디지털 업무 혁신을 통해 업무 효율성을 높이고자 회계, 분석 등 주요 업무에 로봇 프로세스 자동화(RPA, Robotic Process Automation) 시스템을 도입하였습니다. 로봇 프로세스 자동화는 반복적으로 실행하던 단순 업무를 로봇 소프트웨어가 자동으로 처리하는 시스템입니다. 이를 통해 임직원은 단순 업무에서 벗어나 부가가치가 높은 일에 집중하며 업무 효율을 증진시킬 수 있습니다. 현재 계정현황 모니터링, 판매실적 집계, 렌탈자산현황 정리, 요금 청구내역 조회 등 약 40여 개 업무에 RPA를 적용하였으며, 총 70개의 로봇을 운영하여 전체 업무처리 속도를 약 50% 이상 향상시켰습니다. 향후 업무영역 전반에 걸쳐 RPA 도입 가능성을 검토하고 순차적으로 확대 적용할 계획이며 이를 통해 임직원이 업무의 질적 수준을 높이고 일과 삶의 균형을 이룰 수 있도록 노력하겠습니다.
+                        <p>디지털 업무 혁신을 통해 업무 효율성을 높이고자 2018년부터 회계, 분석 등 주요 업무에 로봇 프로세스 자동화(RPA, Robotic Process Automation) 시스템을 도입하였습니다. 로봇 프로세스 자동화는 반복적으로 실행하던 단순 업무를 로봇 소프트웨어가 자동으로 처리하는 시스템입니다. 이를 통해 임직원은 단순 업무에서 벗어나 부가가치가 높은 일에 집중하며 업무 효율을 증진시킬 수 있습니다. 현재 계정현황 모니터링, 판매실적 집계, 렌탈자산현황 정리, 요금 청구내역 조회 등 약 40여 개 업무에 RPA를 적용하였으며, 총 70개의 로봇을 운영하여 전체 업무처리 속도를 약 50% 이상 향상시켰습니다. 향후 업무영역 전반에 걸쳐 RPA 도입 가능성을 검토하고 순차적으로 확대 적용할 계획이며 이를 통해 임직원이 업무의 질적 수준을 높이고 일과 삶의 균형을 이룰 수 있도록 노력하겠습니다.
                         </p>
                     <hr class="space-p25 mb-4">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'커뮤니케이션 기반의 기업문화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">커뮤니케이션 기반의 기업문화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -579,20 +579,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1) 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </p>
 
-                        <h7 class="mb-3 gray63">업무상 질병 발생률(OIFR)</h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
-                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
-                            </b-tr></b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td></b-td><b-td></b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td></b-td><b-td></b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                            </b-tbody>
-                        </b-table-simple>
+                       
                 </section>
             </b-container>
             </b-col>
