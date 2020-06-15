@@ -19,6 +19,7 @@
                         </b-dropdown>
                     </template>              
                     <b-form-input v-model="search_query" type="text" :placeholder="form_placeholder" @keyup.enter="handleOK" claas="w-100"></b-form-input>
+                    <!--<searchable-input v-model="search_query" :placeholder="form_placeholder" :search_universe="gri_universe" :search_keys="['code', 'indicators']"></searchable-input>-->
                     <b-input-group-append> <b-button @click="handleOK" variant="blue-border"><i class="fas fa-search"></i> </b-button> </b-input-group-append>
                 </b-input-group>        
             </b-col>
@@ -26,10 +27,13 @@
     </div>
 </template>
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapState } from 'vuex'
+import SearchableInput from '@/components/search/SearchableInput'
 
 export default {
-
+  components: {
+    SearchableInput
+  },
   data() {
     return {
       selected_framework: '',
@@ -42,6 +46,14 @@ export default {
     prop_framework: { type: String, default: 'GRI' },
     prop_mode: { type: String, default: 'integrated'},
     defined_query: { type: String, default: '' }
+  },
+  computed:{
+    ...mapState('frameworks', 
+    ['gri_table_100', 'gri_table_200', 'gri_table_300', 'gri_table_400', 'sasb_table_appliance_s', 'sasb_table_appliance_a', 'sasb_table_professional_s', 'sasb_table_professional_a', 'djsi_table']),
+
+    gri_universe(){
+      return this.gri_table_100.concat(this.gri_table_200).concat(this.gri_table_300).concat(this.gri_table_400)
+    }
   },
   methods: {
     ...mapActions('search', ['searchPages']),
