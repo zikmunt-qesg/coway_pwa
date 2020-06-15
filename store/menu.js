@@ -3,7 +3,7 @@ export const state = () => ({
     menu: [
         {
             title: 'MATERIAL TOPICS',
-            link: '#',
+            link: '/static_page/제품과-서비스의-혁신',
             child: [
                 {
                     title: '제품과 서비스의 혁신',
@@ -67,7 +67,7 @@ export const state = () => ({
         },
         {
             title: 'CARE FOR SUSTAINABILITY',
-            link: '#',
+            link: '/static_page/CEO-메시지',
             child: [
                 {
                     title: 'CEO Message',
@@ -191,7 +191,7 @@ export const state = () => ({
         },
         {
             title: 'CARE FOR ENVIRONMENT',
-            link: '#',
+            link: '/static_page/깨끗한-물과-공기를-위한-환경경영',
             child: [
                 {
                     title: '깨끗한 물과 공기를 위한 환경경영',
@@ -246,7 +246,7 @@ export const state = () => ({
         },
         {
             title: 'CARE FOR SOCIETY',
-            link: '#',
+            link: '/static_page/임직원-중심의-기업문화와-안전한-근무환경',
             child:
                 [
                     {
@@ -355,7 +355,7 @@ export const state = () => ({
         },
         {
             title: 'DATA AND FRAMEWORKS',
-            link: '#',
+            link: '/static_page/정책-및-이니셔티브',
             child:
                 [
                     {
