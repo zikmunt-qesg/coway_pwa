@@ -23,7 +23,7 @@
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
-                                <h1 class="mt-m-2 mb-0">01</h1>
+                                <h1 class="mt-m-2 mb-0">03</h1>
                                 <h4-ancor :title="'기후변화 대응'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">기후변화 대응</h4-ancor>
                             </b-col>
                         </b-row>
@@ -41,65 +41,71 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
-                            <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">기후변화 대응 중장기 목표치 재산정</p>
+                            <b-col class="col-0 col-lg-1"></b-col>
+                            <b-col class="col-6 col-lg-5 text-center mb-3 mb-sm-0">
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                <p class="fw-500 word-break pr-1 px-md-3 px-lg-4 mx-xl-3">기후변화 대응 중장기 목표치 재산정</p>
                             </b-col>
-                            <b-col class="col-6 col-md-3 text-center">
+                            <b-col class="col-6 col-lg-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">과학기반 감축 방법론(SBT, Science Based Target) 추진</p>
+                                <p class="fw-500 word-break pl-1 px-md-3 px-lg-4 mx-xl-3">과학기반 감축 방법론 (SBT, Science Based Target) 추진</p>
                             </b-col>
+                            <b-col class="col-0 col-lg-1"></b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
-                            <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
+                            <b-col class="col-12 col-md-6 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-4">협력사 탄소 파트너십 강화</p>
+                                    <b-col class="col-6 text-center mb-3 mb-sm-0"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <p class="fw-500 word-break pr-1 pr-md-2 px-xl-3">협력사 탄소 파트너십 강화</p>
                                     </b-col>
                                     <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-4">CDP(Carbon Disclosure Project)등 국제 이니셔티브 적극 참여</p>
+                                        <p class="fw-500 word-break pl-1">CDP(Carbon Disclosure Project)등 국제 이니셔티브 적극 참여</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
-                            <b-col class="col-12 col-md-7 position-relative pl-md-4">
+                            <b-col class="col-12 col-md-6 position-relative pl-md-4">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
-                                <b-row no-gutters class="align-items-center">                                    
-                                    <b-col class="col-7 pr-xl-2">
-                                        <p class="fw-500 word-break">2010년 대비 2020년 매출액당 온실가스 배출량(원단위) 50% 감축</p>
-                                        <p class="f-90 fw-300 word-break">기업협력군 에너지 동행사업 실행</p>
+                                <b-row no-gutters class="align-items-center mb-3 pb-1">                                    
+                                    <b-col class="col-6 text-center">                   
+                                        <div class="f-330 fw-400 mb-3 mb-sm-1 pt-2">-50<span class="f-130 fw-500">%</span> </div>     
+                                        <p class="fw-500 word-break pr-1 px-md-2 font-noto">온실가스 원단위 배출량 감축 (2010년 대비) </p>       
                                     </b-col>
-                                    <b-col class="col-5"><div class="temp-icon3 mx-auto"><b-img src="@/assets/images/구성 요소15_1.svg" fluid class="w-100"></b-img></div></b-col>
+                                    <b-col class="col-6 text-center">
+                                        <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <p class="fw-500 word-break pl-1 px-md-2 font-noto">물류센터 신재생에너지(태양광) 1차 구축 실행</p>
+                                    </b-col>
                                 </b-row>
                             </b-col>
                         </b-row>
                     </div>
                 </section>
                 <!-- End of DMA -->
-                <hr class="py-2">
+                <hr class="py-3">
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class=""> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 목표 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
+                        <p class="mb-5"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 목표 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
                         </p>
-                        <div style="border-width:0.1px; border-style:dotted; border-color:gray mb-45" class="my-3 p-3">주주현황 그림</div>
+                        <b-img src="@/assets/images/44_1.svg" fluid></b-img>
+                        <hr class="mb-4">
                         
-                        <p>코웨이는 사업장의 온실가스 저감 활동과 기업 운영 효율화를 통해 에너지를 효율적으로 사용하고 있습니다. 또한 신∙재생에너지인 태양광 발전의 지속적인 도입으로 인한 효과도 있었습니다. 코웨이는 유구공장(49.5KWh 규모), 인천공장(39KWh), 포천공장(45KWh 규모) 및 물류센터(48.8KWh 규모)에 태양광 발전을 설치하여 운영하고 있습니다. 3공장 및 물류센터에서 2019년 약 237MW의 전력을 생산, 자체 소비하여 온실가스 약 110톤을 저감하는 효과가 있었습니다(검증 전, 추정 치). 또한 유구공장에 도입된 에너지저장장치(ESS, Energy Storage System)는 Peak 부하를 감소시키고, 에너지 사용량 분산에 기여하고 있습니다. 뿐만 아니라 에너지 비용 절감 효과가 있어 2019년 약 1.2억원의 비용을 절감하였습니다. 유구공장과 물류센터에 도입된 LED 조명은 작업장 근로환경(조도) 개선과 함께 물류센터 기준 2019년 약 0.65억원 이상의 에너지 비용이 절감되었으며, 온실가스 약 264톤[물류센터 기준]을 저감하는 효과가 있었습니다.
+                        <p class="mb-5">코웨이는 사업장의 온실가스 저감 활동과 기업 운영 효율화를 통해 에너지를 효율적으로 사용하고 있습니다. 또한 신∙재생에너지인 태양광 발전의 지속적인 도입으로 인한 효과도 있었습니다. 코웨이는 유구공장(49.5KWh 규모), 인천공장(39KWh), 포천공장(45KWh 규모) 및 물류센터(48.8KWh 규모)에 태양광 발전을 설치하여 운영하고 있습니다. 3공장 및 물류센터에서 2019년 약 237MW의 전력을 생산, 자체 소비하여 온실가스 약 110톤을 저감하는 효과가 있었습니다(검증 전, 추정 치). 또한 유구공장에 도입된 에너지저장장치(ESS, Energy Storage System)는 Peak 부하를 감소시키고, 에너지 사용량 분산에 기여하고 있습니다. 뿐만 아니라 에너지 비용 절감 효과가 있어 2019년 약 1.2억원의 비용을 절감하였습니다. 유구공장과 물류센터에 도입된 LED 조명은 작업장 근로환경(조도) 개선과 함께 물류센터 기준 2019년 약 0.65억원 이상의 에너지 비용이 절감되었으며, 온실가스 약 264톤[물류센터 기준]을 저감하는 효과가 있었습니다.
                         </p>
 
-                    <h6-ancor :title="'과학적 감축 목표(Science based Target)계획 도입'" :activated="activated" class="blue6 fw-500 mb-2">과학적 감축 목표(Science based Target)계획 도입</h6-ancor>
-                        <p class=""> 코웨이는 2020년 이후, 신기후변화체제에 대응하기 위해 온실가스 감축 목표를 과학적 감축 목표 계획 [SBT, Science Based Target]에 근거하여 2030년, 및 2050년까지의 목표를 수립하고 있습니다. 에너지의 대부분을 전력에 의존하고 있어 신·재생에너지의 지속 설치, 구매 및 감축량 구매 등, 실질적인 감축이 이루어질 수 있는 방향으로 목표를 수립 중에 있습니다. 이를 위해 온실가스 배출량 산정 기준을 자사 내부 기준에서 대한민국 에너지·온실가스 목표관리제 기준으로 산정 기준을 변경하여 최근 3년간 온실가스 배출량을 재산정 하였습니다. 최근 3년간 온실가스 배출량에 대한 외부 검증이 완료되는 시점에서 2030년 및 2050년 온실가스 감축 목표를 최종 확정하여 공개할 예정입니다. 
+                    <h6-ancor :title="'과학적 감축 목표(Science based Target)계획 도입'" :activated="activated" class="green6 fw-500 mb-2">과학적 감축 목표(Science based Target)계획 도입</h6-ancor>
+                        <p class="mb-5"> 코웨이는 2020년 이후, 신기후변화체제에 대응하기 위해 온실가스 감축 목표를 과학적 감축 목표 계획 [SBT, Science Based Target]에 근거하여 2030년, 및 2050년까지의 목표를 수립하고 있습니다. 에너지의 대부분을 전력에 의존하고 있어 신·재생에너지의 지속 설치, 구매 및 감축량 구매 등, 실질적인 감축이 이루어질 수 있는 방향으로 목표를 수립 중에 있습니다. 이를 위해 온실가스 배출량 산정 기준을 자사 내부 기준에서 대한민국 에너지·온실가스 목표관리제 기준으로 산정 기준을 변경하여 최근 3년간 온실가스 배출량을 재산정 하였습니다. 최근 3년간 온실가스 배출량에 대한 외부 검증이 완료되는 시점에서 2030년 및 2050년 온실가스 감축 목표를 최종 확정하여 공개할 예정입니다. 
                         </p>
-                    
+                    <hr class="py-3">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화의 위험과 기회 분석'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화의 위험과 기회 분석</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class=""> 코웨이는 TCFD(Taskforce on Climate Related Financial Disclosures)의 권고에 따라 세부적인 기후변화 위험과 기회를 분석하고 이를 공개하고 있습니다. 코웨이의 2019 기후변화 관련 위험과 기회 분석은 아래와 같습니다.  
+                        <p class="mb-45"> 코웨이는 TCFD(Taskforce on Climate Related Financial Disclosures)의 권고에 따라 세부적인 기후변화 위험과 기회를 분석하고 이를 공개하고 있습니다. 코웨이의 2019 기후변화 관련 위험과 기회 분석은 아래와 같습니다.  
                         </p>
                     
-                        <h6-ancor :title="'기후변화에 따른 잠재 위험 분석'" :activated="activated" class="blue6 fw-500 mb-2">기후변화에 따른 잠재 위험 분석</h6-ancor>
-                        <b-table-simple responsive class="sep-table f-95">
+                        <h6-ancor :title="'기후변화에 따른 잠재 위험 분석'" :activated="activated" class="green6 fw-500 mb-3">기후변화에 따른 잠재 위험 분석</h6-ancor>
+                        <b-table-simple responsive class="sep-table f-95 mb-5">
                             <b-tbody>
                                 <b-tr class="bg-green7 text-white">
-                                    <b-td>위험 요인</b-td><b-td>설명</b-td><b-td>시점</b-td><b-td>추정 영향</b-td><b-td>관리 및 투자</b-td>
+                                    <b-td style="width:16%">위험 요인</b-td><b-td style="width:40%">설명</b-td><b-td>시점</b-td><b-td>추정 영향</b-td><b-td>관리 및 투자</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>제품에 관한 정책 및 법적 규제 강화</b-td>
@@ -110,50 +116,50 @@
                                 </b-tr>
                                 <b-tr>
                                     <b-td>저탄소 배출 기술에 대한 전환 비용</b-td>
-                                    <b-td>현재 코웨이가 생산하는 정수기 제품에는 R-134a 냉매가 사용되고 있습니다. 국제협약으로 오존층 파괴물질인 냉매의 사용 규제가 강화되고 있습니다. R-12 냉매는 이미 제조와 판매가 금지되었으며, R-134a 냉매도 GWP가 높아 규제적 위험으로 작용하고 있습니다. 따라서 코웨이가 R-134a 냉매를 대체 할 수 있는 소재와 신기술을 개발하지 않는 다면 정수기 사업에 큰 위험이 될 수 있습니다.</b-td>
+                                    <b-td class="word-break">현재 코웨이가 생산하는 정수기 제품에는 R-134a 냉매가 사용되고 있습니다. 국제협약으로 오존층 파괴물질인 냉매의 사용 규제가 강화되고 있습니다. R-12 냉매는 이미 제조와 판매가 금지되었으며, R-134a 냉매도 GWP가 높아 규제적 위험으로 작용하고 있습니다. 따라서 코웨이가 R-134a 냉매를 대체 할 수 있는 소재와 신기술을 개발하지 않는 다면 정수기 사업에 큰 위험이 될 수 있습니다.</b-td>
                                     <b-td>단기</b-td>
-                                    <b-td>1개 라인당 1억 원의 설비 투자 비용이 발생하며 전체 확대 시, 20억 원이 소요 될 것으로 예상됩니다.</b-td>
-                                    <b-td>반도체 냉각 방식의 정수기 적용 기초 기술 개발에 약 2억 원 이상의 연구비용이 투자됨.</b-td>
+                                    <b-td class="word-break">1개 라인당 1억 원의 설비 투자 비용이 발생하며 전체 확대 시, 20억 원이 소요 될 것으로 예상됩니다.</b-td>
+                                    <b-td class="word-break">반도체 냉각 방식의 정수기 적용 기초 기술 개발에 약 2억 원 이상의 연구비용이 투자됨.</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>시장 불확실성</b-td>
-                                    <b-td>대한민국은 기후변화로 인해 강수 패턴이 변화하고 있습니다. 따라서, 물 부족으로 인한 국가의 수자원 관리 정책도 강화될 것으로 예상됩니다. 코웨이의 정수기에는 물이 사용되고 있으며, 이 정수기 제품은 국가 수자원 관리 정책에 의해 영향을 받게 될 것으로 예상됩니다. 이로 인해 코웨이는 연구 개발 및 시설 투자 등과 같은 기업 운영비의 증가가 예상 됩니다.</b-td>
+                                    <b-td class="word-break">대한민국은 기후변화로 인해 강수 패턴이 변화하고 있습니다. 따라서, 물 부족으로 인한 국가의 수자원 관리 정책도 강화될 것으로 예상됩니다. 코웨이의 정수기에는 물이 사용되고 있으며, 이 정수기 제품은 국가 수자원 관리 정책에 의해 영향을 받게 될 것으로 예상됩니다. 이로 인해 코웨이는 연구 개발 및 시설 투자 등과 같은 기업 운영비의 증가가 예상 됩니다.</b-td>
                                     <b-td>중기</b-td>
-                                    <b-td>코웨이가 국가의 수자원 관리 정책에 대응하지 못하여, 국가 정책에 대응하지 못하는 정수기 제품의 판매가 금지 된다면 약1,750억 원의 경제적 손실이 있을 것으로 예상됩니다.</b-td>
-                                    <b-td>현재까지 코웨이는 나노트랩필터의 기초 기술 개발에 약 4억 원을 투자하였으며, 지속적으로 성능 향상을 위해 비용을 투자할 예정입니다.</b-td>
+                                    <b-td class="word-break">코웨이가 국가의 수자원 관리 정책에 대응하지 못하여, 국가 정책에 대응하지 못하는 정수기 제품의 판매가 금지 된다면 약1,750억 원의 경제적 손실이 있을 것으로 예상됩니다.</b-td>
+                                    <b-td class="word-break">현재까지 코웨이는 나노트랩필터의 기초 기술 개발에 약 4억 원을 투자하였으며, 지속적으로 성능 향상을 위해 비용을 투자할 예정입니다.</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-
-                        <h6-ancor :title="'기후변화에 따른 잠재 기회 분석'" :activated="activated" class="blue6 fw-500 mb-2">기후변화에 따른 잠재 기회 분석</h6-ancor>
-                        <b-table-simple responsive class="sep-table f-95">
+                        <hr class="py-2">
+                        <h6-ancor :title="'기후변화에 따른 잠재 기회 분석'" :activated="activated" class="green6 fw-500 mb-3">기후변화에 따른 잠재 기회 분석</h6-ancor>
+                        <b-table-simple responsive class="sep-table f-95 mb-5">
                             <b-tbody>
                                 <b-tr class="bg-green7 text-white">
-                                    <b-td>기회 요인</b-td><b-td>설명</b-td><b-td>시점</b-td><b-td>추정 영향</b-td><b-td>관리 및 투자</b-td>
+                                    <b-td style="width:16%">기회 요인</b-td><b-td style="width:28%">설명</b-td><b-td>시점</b-td><b-td style="width:22%">추정 영향</b-td><b-td style="">관리 및 투자</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>새로운 시장에의 접근</b-td>
-                                    <b-td>기후변화로 인해 강수 패턴이 변화하고 있습니다. 강수 패턴의 변화에 의한 극심한 가뭄으로 황사와 미세먼지의 발생 빈도가 증가하고 있습니다. 이러한 기후변화로 인해 공기청정기 시장이 중국으로 확대되어 웅진코웨이에게 새로운 시장 진출의 기회를 제공하고 있습니다.</b-td>
+                                    <b-td class="word-break">기후변화로 인해 강수 패턴이 변화하고 있습니다. 강수 패턴의 변화에 의한 극심한 가뭄으로 황사와 미세먼지의 발생 빈도가 증가하고 있습니다. 이러한 기후변화로 인해 공기청정기 시장이 중국으로 확대되어 웅진코웨이에게 새로운 시장 진출의 기회를 제공하고 있습니다.</b-td>
                                     <b-td>단기</b-td>
-                                    <b-td>2018년 중국 및 아시아 시장에 40만대 이상의 코웨이의 공기청정기가 공급되었습니다. 대당 50만원 계산시, 약 2,000억원의 경제적 이익이 있을 것으로 예상됩니다.</b-td>
-                                    <b-td>코웨이는 기후변화로 인한 황사나 미세먼지 제거 필터의 성능 향상을 위한 기술 개발을 강화하고 있습니다. 또한 이러한 기술을 기반으로 중국 시장 진출의 기회를 강화하기 위해 글로벌 기업과의 전력적 제휴를 강화하고 있습니다.진코웨이는 타사 제휴 전용 제품 개발에 약 10억 원, 파생모델 개발에 약 1.5억 원의 개발비를 투자하고 있습니다.</b-td>
+                                    <b-td class="word-break">2018년 중국 및 아시아 시장에 40만대 이상의 코웨이의 공기청정기가 공급되었습니다. 대당 50만원 계산시, 약 2,000억원의 경제적 이익이 있을 것으로 예상됩니다.</b-td>
+                                    <b-td class="word-break">코웨이는 기후변화로 인한 황사나 미세먼지 제거 필터의 성능 향상을 위한 기술 개발을 강화하고 있습니다. 또한 이러한 기술을 기반으로 중국 시장 진출의 기회를 강화하기 위해 글로벌 기업과의 전력적 제휴를 강화하고 있습니다.진코웨이는 타사 제휴 전용 제품 개발에 약 10억 원, 파생모델 개발에 약 1.5억 원의 개발비를 투자하고 있습니다.</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>사업 다각화 기회</b-td>
-                                    <b-td>기후변화로 인해 에너지 소비가 증가하고 있으며, 가정에 공급되는 전력의 종류에도 변화가 예상되고 있습니다. 코웨이는 플랫폼 비즈니스를 하고 있습니다. 따라서 새로운 형태의 사업이나 상품을 도입하는데 편리합니다. 기후변화와 관련된 새로운 사업이나 상품은 코웨이에게 새로운 시장 진출의 기회를 제공할 것으로 예측하고 있습니다.</b-td>
+                                    <b-td class="word-break">기후변화로 인해 에너지 소비가 증가하고 있으며, 가정에 공급되는 전력의 종류에도 변화가 예상되고 있습니다. 코웨이는 플랫폼 비즈니스를 하고 있습니다. 따라서 새로운 형태의 사업이나 상품을 도입하는데 편리합니다. 기후변화와 관련된 새로운 사업이나 상품은 코웨이에게 새로운 시장 진출의 기회를 제공할 것으로 예측하고 있습니다.</b-td>
                                     <b-td>중기</b-td>
-                                    <b-td>가정용 소형 융복합 발전 시스템을 렌탈 비즈니스를 통해 약 1,000대를 보급할 경우, 대당 2.5억원(100KWH) 계산시, 약 2,000억원의 경제적 이익이 있을 것으로 예상됩니다.</b-td>
-                                    <b-td>태양광 발전과 ESS(에너지 저장 장치)와 같은 융복합 발전 시스템을 소규모 단위로 공급하는 비즈니스를 검토 중에 있습니다. 코웨이의 플랫폼 비즈니스에 도입하게 된다면 기후변화와 관련된 새로운 시장에 진입할 수 있을 것으로 예상됩니다. 융복합 발전 시스템의 유지보수 비용을 대당 2.5억원의 10%로 예상합니다. </b-td>
+                                    <b-td class="word-break">가정용 소형 융복합 발전 시스템을 렌탈 비즈니스를 통해 약 1,000대를 보급할 경우, 대당 2.5억원(100KWH) 계산시, 약 2,000억원의 경제적 이익이 있을 것으로 예상됩니다.</b-td>
+                                    <b-td class="word-break">태양광 발전과 ESS(에너지 저장 장치)와 같은 융복합 발전 시스템을 소규모 단위로 공급하는 비즈니스를 검토 중에 있습니다. 코웨이의 플랫폼 비즈니스에 도입하게 된다면 기후변화와 관련된 새로운 시장에 진입할 수 있을 것으로 예상됩니다. 융복합 발전 시스템의 유지보수 비용을 대당 2.5억원의 10%로 예상합니다. </b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-
+                    <hr class="py-4">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사 탄소 파트너십'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 탄소 파트너십</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class=""> 코웨이의 탄소파트너 협력사들도 2010년 대비 2020년까지 온실가스 원단위 50% 저감이라는 목표를 가지고 감축 활동을 진행해 왔습니다. 코웨이는 탄소파트너십 협력사들을 지속적으로 지원하여 협력사들의 매출 증가 대비 에너지 사용량을 최대한 억제하여 탄소파트너 협력사들의 에너지 경쟁력을 강화하고 있으며, 이를 통해 기후변화로 인한 코웨이 협력사 리스크를 예방하기 위해 노력하고 있습니다. 2018년 기준 온실가스 원단위는 감축 목표 대비 110%, 배출량은 7.55% 감축하는 성과를 이미 달성 하였습니다. 2019년부터는 자발적 관리로 전환하여 운영 중에 있으며, 2019년 온실가스 배출량 정보는 필요 시, CDP 질의&amp;응답 및 탄소보고서를 통해 정보를 공개할 예정입니다.
+                        <p class="mb-5"> 코웨이의 탄소파트너 협력사들도 2010년 대비 2020년까지 온실가스 원단위 50% 저감이라는 목표를 가지고 감축 활동을 진행해 왔습니다. 코웨이는 탄소파트너십 협력사들을 지속적으로 지원하여 협력사들의 매출 증가 대비 에너지 사용량을 최대한 억제하여 탄소파트너 협력사들의 에너지 경쟁력을 강화하고 있으며, 이를 통해 기후변화로 인한 코웨이 협력사 리스크를 예방하기 위해 노력하고 있습니다. 2018년 기준 온실가스 원단위는 감축 목표 대비 110%, 배출량은 7.55% 감축하는 성과를 이미 달성 하였습니다. 2019년부터는 자발적 관리로 전환하여 운영 중에 있으며, 2019년 온실가스 배출량 정보는 필요 시, CDP 질의&amp;응답 및 탄소보고서를 통해 정보를 공개할 예정입니다.
                         </p> 
 
                         <h7 class="mb-3 gray63">탄소파트너 협력사 지원 현황</h7>
-                        <b-table-simple responsive class="txt-table env-table">
+                        <b-table-simple responsive class="txt-table env-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">참여 협력사</b-td> <b-td class="text-left w-25">기간</b-td><b-td>주요 내용</b-td> 
                             </b-tr></b-thead>
@@ -163,19 +169,19 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5">
+                        <p class="f-80 ml-1 mb-5 font-noto">
                             * 2014년 6월 코웨이 협력사[㈜제성]에 29.7KWh 규모의 태양광발전 설치 지원<br>
                             * 2015년 7월 코웨이 협력사[아이디시스템㈜에 29.4KWh 규모의 태양광발전 설치 지원<br>
                             * 기업협력군 에너지동행사업은 2012년부터 2019년까지 지속적으로 참여하고 있으며, 8년간 참여 협력사는 39개사 입니다.
                         </p>
 
-                        <b-table-simple responsive class="num-table env-table">
+                        <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019목표</b-td><b-td>2025목표</b-td> 
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019 목표</b-td><b-td>2025 목표</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="3">tCO2e</b-td><b-td>380</b-td><b-td>705</b-td><b-td>402</b-td><b-td>748</b-td><b-td>710</b-td>
+                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="3">tCO<sub>2</sub>e</b-td><b-td>380</b-td><b-td>705</b-td><b-td>402</b-td><b-td>748</b-td><b-td>710</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Scope2</b-td><b-td>5,012</b-td><b-td>5,162</b-td><b-td>5,170</b-td><b-td>5,349</b-td><b-td>5,229</b-td>
@@ -184,28 +190,28 @@
                                     <b-td class="text-left">Total</b-td><b-td>5,392</b-td><b-td>5,864</b-td><b-td>5,572</b-td><b-td>6,094</b-td><b-td>5,935</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">원단위</b-td><b-td class="text-left">tCO2e/억원</b-td><b-td>0.232</b-td><b-td>0.253</b-td><b-td>0.233</b-td><b-td>0.254</b-td><b-td>0.234</b-td>
+                                    <b-td class="text-left">원단위</b-td><b-td class="text-left">tCO<sub>2</sub>e/억원</b-td><b-td>0.232</b-td><b-td>0.253</b-td><b-td>0.233</b-td><b-td>0.254</b-td><b-td>0.234</b-td>
                                 </b-tr>                                   
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5">
-                            1. 에너지·온실가스 목표관리제 기준을 적용, 재산정 결과 배출량 증가[외부 자문 결과 및 누락 사항 반영]<br>
-                            - 기존 Scope3 이동연소(인천/포천 통근차량)는 실제 이동거리 재측정 및 Scope1으로 이동하여 계산함<br>
-                            - 임직원 임대차량(렌트 차량 및 지게차) 및 임대이동버스(순환버스) 배출량 산정하여 Scope1으로 계산함<br>
-                            - 유구공장 ESS(에너지 저장 장치), 전기 고지서 분리 청구에 따른 누락 분을 반영하여 재계산함<br>
-                            - 화장품연구소 폐쇄 후, 감평분(환경기술연구소 일부 사용) 누락 사항 Scope2에 반영하여 재계산함<br>
+                        <p class="f-80 ml-1 mb-5 font-noto">
+                            1. 에너지·온실가스 목표관리제 기준을 적용, 재산정 결과 배출량 증가(외부 자문 결과 및 누락 사항 반영)<br>
+                            &emsp; - 기존 Scope3 이동연소(인천/포천 통근차량)는 실제 이동거리 재측정 및 Scope1으로 이동하여 계산함<br>
+                            &emsp; - 임직원 임대차량(렌트 차량 및 지게차) 및 임대이동버스(순환버스) 배출량 산정하여 Scope1으로 계산함<br>
+                            &emsp; - 유구공장 ESS(에너지 저장 장치), 전기 고지서 분리 청구에 따른 누락 분을 반영하여 재계산함<br>
+                            &emsp; - 화장품연구소 폐쇄 후, 감평분(환경기술연구소 일부 사용) 누락 사항 Scope2에 반영하여 재계산함<br>
                             2. Total 값, 차이는 ROUNDDOWN 함수 적용으로 인한 차이 발생(Scope1과 2는 소수점 이하 반올림)<br>
                             3. 2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함<br> 
                         </p>
 
                         <h7 class="mb-3 gray63">사업장별 온실가스 배출</h7>
-                        <b-table-simple responsive class="num-table env-table">
+                        <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">유구공장</b-td><b-td class="text-left" rowspan="7">tCO2e</b-td><b-td>1,950</b-td><b-td>2,177</b-td><b-td>2,240</b-td>
+                                    <b-td class="text-left">유구공장</b-td><b-td class="text-left" rowspan="7">tCO<sub>2</sub>e</b-td><b-td>1,950</b-td><b-td>2,177</b-td><b-td>2,240</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">인천공장</b-td><b-td>598</b-td><b-td>609</b-td><b-td>652</b-td>
@@ -217,7 +223,7 @@
                                     <b-td class="text-left">환경기술연구소(R&amp;D센터)</b-td><b-td>1,708</b-td><b-td>1,707</b-td><b-td>1,858</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">화장품연구소</b-td><b-td>203</b-td><b-td>203</b-td><b-td>104</b-td>
+                                    <b-td class="text-left">화장품연구소*</b-td><b-td>203</b-td><b-td>203</b-td><b-td>104</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">서울사무소</b-td><b-td>287</b-td><b-td>506</b-td><b-td>239</b-td>
@@ -227,12 +233,12 @@
                                 </b-tr>                                
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5">
-                            * 화장품연구소 폐쇄<br>
+                        <p class="f-80 ml-1 mb-5 font-noto">
+                            * 화장품연구소 폐쇄
                         </p>
 
                         <h7 class="mb-3 gray63">냉매 사용에 따른 온실가스 배출</h7>
-                        <b-table-simple responsive class="num-table env-table">
+                        <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
@@ -245,29 +251,30 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">
-                            * 2018년 R-134a는 49,320 → 51,230 / R-600a, R-436B는 3,220 → 5,320kg으로 수정
+                        <p class="f-80 ml-1 mb-5 font-noto">
+                            * 2019년 배출량 산출 범위의 변화로 인해 2018년 데이터는 전년도 보고 데이터와 상이함 (2018년 데이터 R-134a 49,320 → 51,230 / R-600a, R-436B 3,220 → 5,320)
                         </p>
 
                         
-                        <h7 class="mb-3 gray63">기타 간접 온실가스(Scope 3) 배출량</h7>
-                        <b-table-simple responsive class="num-table env-table">
+                        <h7 class="mb-3 gray63 font-noto">기타 간접 온실가스(Scope 3) 배출량</h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">국내물류/운송</b-td><b-td class="text-left" rowspan="2">tCO2e</b-td><b-td>5,047</b-td><b-td>5,420</b-td><b-td>5,491</b-td>
+                                    <b-td class="text-left">국내물류/운송</b-td><b-td class="text-left" rowspan="2">tCO<sub>2</sub>e</b-td><b-td>5,047</b-td><b-td>5,420</b-td><b-td>5,491</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">
+                        <p class="f-80 ml-1 mb-5 font-noto">
                             * 국내물류/운송은 자발적으로 위탁 협력기업에서 제공한 자료이며, 외부 검증은 진행하지 않음
                         </p>
 
 
                         <h7 class="mb-3 gray63">에너지 사용량</h7>
-                        <b-table-simple responsive class="num-table env-table">
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr><b-td colspan="10"></b-td></b-tr></b-thead>
                             <b-thead>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2" rowspan="2">구분</b-td><b-td class="text-left" rowspan="2">단위</b-td><b-td colspan="2">2017</b-td><b-td colspan="2">2018</b-td><b-td>2019</b-td><b-td rowspan="2">2019 목표</b-td><b-td rowspan="2">2025 목표</b-td> 
@@ -312,13 +319,13 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">
-                            * LNG, 등유, 프로판은 순발열량을 최신 계수 반영함
+                        <p class="f-80 ml-1 mb-5 font-noto">
+                            * LNG, 등유, 프로판은 순발열량을 최신 계수 반영함<br>
                             * 2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
                         </p>
 
                         <h7 class="mb-3 gray63">환경/품질 인증률</h7>
-                        <b-table-simple responsive class="txt-table env-table">
+                        <b-table-simple responsive class="txt-table env-table f-95 mb-5">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">인증범위</b-td>
                             </b-tr></b-thead>
@@ -358,7 +365,7 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">
+                        <p class="f-80 ml-1 mb-5 font-noto">
                             1) 시설운영: 고효율 설비 교체, 신규 설비 투자 등을 지칭<br>
                             2) 시스템운영: IT구축 및 운영, 내부심사, 벤치카밍, 교육, 검증 등을 지칭<br>
                             3)	커뮤니케이션: 법규 대응, 국책과제, 홍보/이벤트/교육, 기부, 사회공헌 등<br>
@@ -366,7 +373,7 @@
                         </p>
 
                         <h7 class="mb-3 gray63">환경 법규 위반 및 벌금액</h7>
-                        <b-table-simple responsive class="num-table env-table">
+                        <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead>
                                 <b-tr>
                                     <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -395,6 +402,8 @@
 import * as ih from '@/components/util'
 import SideNavigation from '@/components/navigation/SideNavigation'
 import h6Ancor from '@/components/navigation/h6Ancor'
+import h4Ancor from '@/components/navigation/h4Anchor'
+
 
 export default {
     layout: 'StaticPage',
@@ -430,6 +439,7 @@ export default {
     components:{
         SideNavigation,
         h6Ancor,
+        h4Ancor
     }
     
 }

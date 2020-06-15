@@ -116,6 +116,8 @@
 
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-6 mb-3 mb-sm-0">
+                            <h7 class="gray63 mb-0">신뢰성 인프라 투자금액</h7>
+                            <div class="f-80 gray6 mb-2">(단위: 백만 원)</div>
                             <b-img src="@/assets/images/82_1.svg" fluid></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-6">
