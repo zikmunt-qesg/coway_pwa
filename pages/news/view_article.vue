@@ -14,8 +14,9 @@
             <b-img v-if="picture_file != null && picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
         </div>
         <div class="mb-3">
-          <div v-html="contents"></div>
+          <div v-html="$md.render(contents)"></div>
         </div>
+        <hr class='mb-5 space-p75'> 
     </b-container>
 </div>
 </template>

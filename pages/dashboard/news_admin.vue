@@ -9,11 +9,11 @@
                     <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
                 </b-tr>
             </b-thead>
-            <b-tbody v-for="(item, index) in articles" :key="item.id">
+            <b-tbody v-for="item in current_articles" :key="item.id">
                 <b-tr>
-                    <b-td class="border-0">{{ index }}</b-td> 
+                    <b-td class="border-0">{{ item.index }}</b-td> 
                     <b-td class="border-0">
-                        <b-button v-b-toggle="'collapse'+`${index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>
+                        <b-button v-b-toggle="'collapse'+`${item.index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>
                         <!-- <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button> -->
                     </b-td>
                     <b-td class="border-0">{{ item.date }}</b-td>                    
@@ -26,11 +26,11 @@
                 </b-tr>
                 <b-tr>
                     <b-td colspan="5" class="p-0">
-                         <b-collapse :id="'collapse'+`${index}`" class="mb-4">
+                         <b-collapse :id="'collapse'+`${item.index}`" class="mb-4">
                             <b-card class="border-dotted bg-gray1 gray6 py-md-2 px-md-3">
                                 <h7 class="border-bottom">{{ item.title }}</h7>
                                 <b-card-body v-if="item.description!=''" class="border-0 bg-transparent f-95 fw-400">{{ item.description }}</b-card-body>
-                                <b-card-body class="border-0 bg-transparent f-95"> <p v-html="item.contents"></p></b-card-body>
+                                <b-card-body class="border-0 bg-transparent f-95"> <p v-html="$md.render(item.contents)"></p></b-card-body>
                                 <div v-if="item.picture!=null" class="mt-3">
                                      <!-- <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img> -->
                                     <span class="pl-3 f-80 gray6">{{ item.picture }}</span>
@@ -41,6 +41,12 @@
                 </b-tr>
             </b-tbody>
         </b-table-simple>
+        <b-pagination
+        v-model="current_page"
+        :total-rows="articles.length"
+        :per-page="per_page"
+        aria-controls="article-table"
+        ></b-pagination>
                 
         <div class="text-right">
             <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기</b-button>
@@ -54,6 +60,12 @@ import { mapState, mapActions } from 'vuex'
 
 export default {
     layout: 'AdminPage',
+    data(){
+        return{
+            current_page: 1,
+            per_page: 10
+        }
+    },
     computed: {
         ...mapState('articles', {
         articles: state => state.articles,
@@ -62,23 +74,23 @@ export default {
         ...mapState({
             is_authenticated: state => state.is_authenticated,
         }),
+        current_articles(){
+            let total_num = this.articles.length 
+            let start_index = (this.current_page - 1) * this.per_page
+            let end_index = Math.min( (this.current_page - 1) * this.per_page + this.per_page, total_num)
+
+            return this.articles.slice(start_index, end_index)
+        }
     },
     methods: {
         ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle'])
     },
     created(){
-        // if (this.is_authenticated != true){
-        //     this.$router.push('/dashboard')
-        // }
-        // else {
-            console.log(this.is_articles_loaded)
-            if (this.is_articles_loaded != true) {
-                this.readArticles().then(() => {
-                    console.log(this.articles)
-                })
+        if (this.is_articles_loaded != true) {
+            this.readArticles()
             }
-        // }
-    }
+    },
+
 }
 </script>
 
