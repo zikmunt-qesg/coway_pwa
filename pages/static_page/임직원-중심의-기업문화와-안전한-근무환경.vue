@@ -579,20 +579,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1) 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </p>
 
-                        <h7 class="mb-3 gray63">업무상 질병 발생률(OIFR)</h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
-                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
-                            </b-tr></b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td></b-td><b-td></b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td></b-td><b-td></b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                            </b-tbody>
-                        </b-table-simple>
+                       
                 </section>
             </b-container>
             </b-col>

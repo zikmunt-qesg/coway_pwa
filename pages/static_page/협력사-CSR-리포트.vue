@@ -1,6 +1,6 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
-    <logger title="협력회사 CSR 리포트"></logger>
+    <logger title="협력사 CSR 리포트"></logger>
     <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
@@ -96,13 +96,16 @@
                             </b-thead>
                             <b-tbody>                                
                                 <b-tr>
-                                    <b-td rowspan="2" class="text-left">1차 협력사</b-td><b-td class="text-left">전체 협력사</b-td><b-td></b-td><b-td></b-td>
+                                    <b-td rowspan="2" class="text-left">1차 협력사</b-td><b-td class="text-left">1차 전체 협력사</b-td><b-td>180</b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">핵심 협력사</b-td><b-td></b-td><b-td></b-td>
+                                    <b-td class="text-left">핵심 협력사</b-td><b-td>67</b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">2차 이상 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td></b-td><b-td></b-td>
+                                    <b-td class="text-left">2차 이상 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td>82</b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">전체 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td>262</b-td><b-td></b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
