@@ -251,6 +251,7 @@
                             </b-tbody> 
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">* 2019년도 데이터는 외부 검증 전의 수치임</p>
+
                         <h7 class="mb-3 gray63">사업장별 수자원 사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
@@ -271,6 +272,62 @@
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">물류센터(유구)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+                        <p class="f-80 ml-1 mb-5">* 2019년도 데이터는 외부 검증 전의 수치임</p>
+
+                        
+                        <h7 class="mb-3 gray63">유형별 폐기물 발생량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left" colspan="3">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td><b-td>2019 목표</b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left" colspan="2" rowspan="4">제품</b-td><b-td>소각</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td rowspan="19">0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>매립</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>재활용</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>소계</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left" colspan="2" rowspan="4">서비스</b-td><b-td>소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>재활용</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>소계</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="8">사업장(제조공장)</b-td><b-td rowspan="4">일반</b-td><b-td>소각</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>재활용</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>699</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="4">지정</b-td><b-td>소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>재활용</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>소계</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
