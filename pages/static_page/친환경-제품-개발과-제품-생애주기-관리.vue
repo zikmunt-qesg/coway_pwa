@@ -179,10 +179,12 @@
                     </div>
                     <hr class="mb-5">
                     <b-img src="@/assets/images/28_1.svg" fluid class="w-100"></b-img>
-                    <hr class="space-25">
-                    <h6-ancor :title="'자원효율성 향상과 순환경제 지원'" :activated="activated" class="fw-500 green5 mb-3 f-105">자원효율성 향상과 순환경제 지원</h6-ancor>
+
+                    <hr class="mb-5 py-3">
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'자원효율성 향상과 순환경제 지원'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 지원</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     
-                    <h7 class="mb-3 gray63">자원효율성 KPI</h7>
+                    <h6-ancor :title="'자원효율성 KPI'" :activated="activated" class="fw-500 green5 mb-3 f-105">자원효율성 KPI</h6-ancor>
+
                     <b-row no-gutters class="py-5 mb-45 border-top-bottom-dark">
                         <b-col class="col-12 col-md-4 px-md-3 position-relative"><b-img src="@/assets/images/29_1.svg" fluid class="h-100"></b-img></b-col>
                         <b-col class="col-12 col-md-4 px-md-3 position-relative"><div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
@@ -203,128 +205,14 @@
                     </p>
                     <p class="mb-5"> 코웨이는 한 번 사용된 제품을 다시 재생하여 사용하여 순환경제에 이바지하고 있습니다. 2007년 렌탈 가전 업계 최초로 리퍼브 제도를 도입하여, 내부적으로는 렌탈 폐기 절감과 외부적으로는 가격 경쟁력 모델 운영 및 자원재활용을 통한 가치를 창출하고 있습니다. 리퍼브 제품은 정상가 대비 평균 렌탈료 기준 20% 할인된 가격으로 판매되며, 19에는 전체 판매량의 0.4% 차지합니다.  향후에는 리퍼브 제품군 판매 활성화 및 고객 인식 제고를 위해 자원재활용, 친환경, 착한소비 컨셉에 부합되는 메시지를 전달하여 고객과 커뮤니케이션을 추진할 계획입니다.
                     </p>
-
-                    <hr class="py-2">
-                    <h6-ancor :title="'냉매 회수 및 재활용'" :activated="activated" class="fw-500 green5 mb-3 f-105">냉매 회수 및 재활용</h6-ancor>
-                    <p class="mb-5"> 코웨이는 냉매로 인한 환경오염을 최소화하고자 제품에 사용되는 냉매를 친환경 냉매로 전환하고 있습니다. 아울러 기존 제품에 사용된 냉매(R-134a)를 제품 폐기시 회수하여 환경부가 지정한 업체를 통해 안전하게 처리하고 있습니다. 코웨이는 2018년이후 냉매·오일 회수 및 재활용을 1곳에서 2곳으로 확대하여 운영하였으며, 재활용사업자가 정수기 및 제습기 냉매·오일 회수 및 재활용 진행시 적법한 관리 및 운영에 대해 지속적으로 모니터링을 진행하고 있습니다. 2019년에는 약 6.1톤의 냉매를 회수하여 재활용하였습니다.
-                    </p>
-                    <hr class="py-2">
-
-                    <h7 class="mb-3 gray63">냉매 회수 및 재활용량</h7>
+                    <h7 class="mb-3 gray63">유형별 폐기물 발생량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td>2019 회수량</b-td> <b-td>2019 재활용량</b-td> 
+                                <b-td class="text-left" colspan="3">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">냉매 회수 및 재활용</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
-                                </b-tr>
-                            </b-tbody> 
-                        </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">* 냉매 회수량은 전량 재활용되고 있음</p>
-
-
-                    <h6-ancor :title="'리퍼브 제도'" :activated="activated" class="fw-500 green5 mb-3 f-105">리퍼브 제도</h6-ancor>
-                    <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
-                    </p>
-                    <b-img src="@/assets/images/33_1@3x.png" fluid class="w-100"></b-img>
-                    <hr class="mb-2">
-                    <b-row no-gutters>
-                        <b-col class="col-12 col-sm-7"><b-img src="@/assets/images/36_1.svg" fluid style="width: 88%;"></b-img></b-col>
-                        <b-col class="col-12 col-sm-5"><b-img src="@/assets/images/35_1.svg" fluid class="w-100"></b-img></b-col>
-                    </b-row>
-
-                    <hr class="mb-2">
-
-                    <h7 class="mb-3 gray63">리퍼브 제품 판매량 <span class="f-80 fw-300">(단위: 대)</span> </h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
-                            <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
-                            </b-tr></b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left">정수기</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">공기청정기</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">비데</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">Total</b-td><b-td>17,348</b-td><b-td>10,609</b-td><b-td>6,125</b-td>
-                                </b-tr>
-                            </b-tbody> 
-                        </b-table-simple>
-                    
-                    <hr class="mb-2">
-                    
-                    <h6-ancor :title="'전과정 수자원 사용량 절감 '" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 수자원 사용량 절감 </h6-ancor>
-                    <p class="mb-5"> 물은 중요한 자원입니다. 물 사용 제조 공정 개선 및 워터리스 테스트 시스템 도입 등을 통해 물 사용량을 지속적으로 관리하고 있습니다.
-                    </p>
-
-                    <h7 class="mb-3 gray63">수자원 사용량</h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
-                            <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
-                            </b-tr></b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left">공업용수</b-td><b-td rowspan="5" class="text-left">톤</b-td> <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">지하수</b-td>    <b-td>26,084</b-td> <b-td>21,962</b-td><b-td>29,904</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">표층수</b-td>    <b-td>45,901</b-td> <b-td>49,385</b-td><b-td>60,519</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">수자원 사용 총량</b-td>    <b-td>71,985</b-td> <b-td>71,347</b-td><b-td>90,423</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">폐수 배출량</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">수자원 사용 원단위</b-td><b-td class="text-left">톤/억 원</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
-                                </b-tr>
-                            </b-tbody> 
-                        </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">* 2019년도 데이터는 외부 검증 전의 수치임</p>
-
-                        <h7 class="mb-3 gray63">사업장별 수자원 사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
-                            <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
-                            </b-tr></b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left">유구공장</b-td> <b-td>37,879</b-td> <b-td>34,501</b-td><b-td>44,357</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">인천공장</b-td><b-td>6,482</b-td> <b-td>4,401</b-td><b-td>5,725</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">포천공장</b-td> <b-td>134</b-td> <b-td>594</b-td><b-td>1,771</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">환경기술연구소(R&D센터)</b-td> <b-td>22,597</b-td> <b-td>26,045</b-td><b-td>33,183</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">물류센터(유구)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
-                                </b-tr>
-                            </b-tbody> 
-                        </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">* 2019년도 데이터는 외부 검증 전의 수치임</p>
-
-                        
-                        <h7 class="mb-3 gray63">유형별 폐기물 발생량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
-                            <b-thead><b-tr>
-                                <b-td class="text-left" colspan="3">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td><b-td>2019 목표</b-td>
-                            </b-tr></b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="4">제품</b-td><b-td class="text-left">소각</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td rowspan="19">0</b-td>
+                                    <b-td class="text-left" colspan="2" rowspan="4">제품</b-td><b-td class="text-left">소각</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">매립</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
@@ -397,6 +285,130 @@
                             </li>
                         </ol>
 
+                    <hr class="py-3">
+                    <h6-ancor :title="'냉매 회수 및 재활용'" :activated="activated" class="fw-500 green5 mb-3 f-105">냉매 회수 및 재활용</h6-ancor>
+                    <p class="mb-5"> 코웨이는 냉매로 인한 환경오염을 최소화하고자 제품에 사용되는 냉매를 친환경 냉매로 전환하고 있습니다. 아울러 기존 제품에 사용된 냉매(R-134a)를 제품 폐기시 회수하여 환경부가 지정한 업체를 통해 안전하게 처리하고 있습니다. 코웨이는 2018년이후 냉매·오일 회수 및 재활용을 1곳에서 2곳으로 확대하여 운영하였으며, 재활용사업자가 정수기 및 제습기 냉매·오일 회수 및 재활용 진행시 적법한 관리 및 운영에 대해 지속적으로 모니터링을 진행하고 있습니다. 2019년에는 약 6.1톤의 냉매를 회수하여 재활용하였습니다.
+                    </p>
+
+                    <h7 class="mb-3 gray63">냉매 회수 및 재활용량</h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td> <b-td>2019 회수량</b-td> <b-td>2019 재활용량</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">냉매 회수 및 재활용</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+                        <p class="f-80 ml-1 mb-5">* 냉매 회수량은 전량 재활용되고 있음</p>
+
+                    <hr class="py-3">
+                    <h6-ancor :title="'리퍼브 제도'" :activated="activated" class="fw-500 green5 mb-3 f-105">리퍼브 제도</h6-ancor>
+                    <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
+                    </p>
+                    <b-img src="@/assets/images/33_1@3x.png" fluid class="w-100"></b-img>
+                    <hr class="mb-2">
+                    <b-row no-gutters>
+                        <b-col class="col-12 col-sm-7"><b-img src="@/assets/images/36_1.svg" fluid style="width: 88%;"></b-img></b-col>
+                        <b-col class="col-12 col-sm-5"><b-img src="@/assets/images/35_1.svg" fluid class="w-100"></b-img></b-col>
+                    </b-row>
+
+                    <hr class="mb-2">
+
+                    <h7 class="mb-3 gray63">리퍼브 제품 판매량 <span class="f-80 fw-300">(단위: 대)</span> </h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">정수기</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">공기청정기</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">비데</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">Total</b-td><b-td>17,348</b-td><b-td>10,609</b-td><b-td>6,125</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+                    
+                    <hr class="mb-2">
+                    
+                    <h6-ancor :title="'전과정 수자원 사용량 절감 '" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 수자원 사용량 절감 </h6-ancor>
+                    <p class="mb-45"> 코웨이는 최종 조립 및 검사 공정의 비중이 높아 제품 생산 과정에서 수자원 사용량이 많지 않으며, 폐수 또한 배출하지 않습니다. 그러나 수자원 사용으로 인한 환경적 영향을 최소화 하기 위해 물 사용 공정을 지속적으로 개선하고, 물 대신 질소, 진공을 이용한 ‘워터리스’ 시스템을 도입하는 등 물 사용량을 관리하기 위해 지속적인 노력을 기울이고 있습니다.
+                    </p>
+
+                    <h7 class="mb-3 gray63">워터리스 시스템을 통한 수자원 사용 절감량 <span class="f-80 fw-300"> (단위: 톤)</span> </h7>
+                        <b-table-simple responsive class="num-table env-table f-95 mb-5">
+                            <b-thead><b-tr>
+                                <b-td class="text-left"></b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">워터리스 시스템을 통한 수자원 사용 절감량</b-td> <b-td>5,028</b-td> <b-td>6,306</b-td><b-td>5,957</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+
+                    <h7 class="mb-3 gray63">수자원 사용량</h7>
+                        <b-table-simple responsive class="num-table env-table f-95 mb-5">
+                            <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">공업용수</b-td><b-td rowspan="5" class="text-left">톤</b-td> <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">지하수</b-td>    <b-td>26,084</b-td> <b-td>21,962</b-td><b-td>29,904</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">표층수</b-td>    <b-td>45,901</b-td> <b-td>49,385</b-td><b-td>60,519</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">수자원 사용 총량</b-td>    <b-td>71,985</b-td> <b-td>71,347</b-td><b-td>90,423</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">폐수 배출량</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">수자원 사용 원단위</b-td><b-td class="text-left">톤/억 원</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+
+                        <h7 class="mb-3 gray63">사업장별 수자원 사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                        <b-table-simple responsive class="num-table env-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left">유구공장</b-td> <b-td>37,879</b-td> <b-td>34,501</b-td><b-td>44,357</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">인천공장</b-td><b-td>6,482</b-td> <b-td>4,401</b-td><b-td>5,725</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">포천공장</b-td> <b-td>134</b-td> <b-td>594</b-td><b-td>1,771</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">환경기술연구소(R&D센터)</b-td> <b-td>22,597</b-td> <b-td>26,045</b-td><b-td>33,183</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">물류센터(유구)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
+                                </b-tr>
+                            </b-tbody> 
+                        </b-table-simple>
+                        <p class="f-80 ml-1">* 2020년 수자원 데이터 검증범위 확대에 따라 2018년 포천공장 데이터가 전년도 보고 데이터와 상이함 <br>
+                        <a href="#" class="green-a">검증의견서 확인</a></p>
+                        
+
             </b-container>
             </b-col>
         </b-row>
@@ -428,6 +440,7 @@ export default {
                 { 
                     title: '자원효율성 향상과 순환경제 지원',
                     child: [
+                        { title: '자원효율성 KPI' }, 
                         { title: '냉매 회수 및 재활용' }, 
                         { title: '리퍼브 제도' }, 
                         { title: '전과정 수자원 사용량 절감' }, 
