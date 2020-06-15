@@ -62,16 +62,16 @@
                             <p class="mb-45">코웨이는 이러한 변화를 환경가전 렌탈 비즈니스의 새로운 기회로 삼아 ‘물과 공기를 깨끗하게’라는 코웨이의 본질을 강화하기 위한 활동을 추진하였습니다. 2019년 코웨이는 위생성을 극대화한 ‘한뼘 시루직수 정수기’를 출시하고, 빅데이터 기반 고객 맞춤형 제품을 추천하는 ‘워터맵 서비스’를 제공하는 한편, 깨끗하고 맛있는 물을 선도하는 글로벌 리더로서 연구를 강화하기 위해 R&D 센터 내 ‘물맛 연구소’를 개소하는 등의 혁신 활동을 추진하였습니다. 또한, 오픈 이노베이션을 통해 제품에 ICT 기술을 결합한 스마트 가전을 선보이며 시장 내 경쟁력을 확보하고 고객 가치를 향상하기 위한 노력을 기울이고 있습니다.
                             </p>
                             <h7 class="blue7 f-120 mb-3">Business Cases</h7>
-                            <div class="d-sm-flex align-items-center">
-                                <div class="py-2 d-flex align-items-center mr-3 w-100" style="width: 55%">
-                                    <div class="w-50" style="height:50px"><b-img src="@/assets/images/65_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0 word-break"><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</p>
-                                </div>
-                                <div class="py-2 d-flex align-items-center w-100" style="width: 45%">
-                                    <div class="ml-2 ml-sm-0 w-25" style="height:57px"><b-img src="@/assets/images/66_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0">물맛연구소 개소</p>
-                                </div>
-                            </div>
+                            <b-row>
+                                <b-col class="col-12 col-md-7 py-2 pr-sm-2 pr-xl-3 d-flex">
+                                    <div class="mr-3" style="height:50px;"><b-img src="@/assets/images/65_1.svg" ></b-img> </div>
+                                    <div class="fw-500 mb-0"><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</div>
+                                </b-col>
+                                <b-col class="col-12 col-md-5 py-2 d-flex align-items-center">
+                                    <div class="mr-3" style="height:57px"><b-img src="@/assets/images/66_1.svg" ></b-img> </div>
+                                    <div class="fw-500 mb-0">물맛연구소 개소</div>
+                                </b-col>
+                            </b-row>
                         </b-col>
                     </b-row>
                 </section>
