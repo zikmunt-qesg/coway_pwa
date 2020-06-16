@@ -18,7 +18,7 @@
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2"></b-navbar-toggle>
                 </div>
                 <div >
-                <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto pb-3">
+                <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto">
                     <b-navbar-nav class="ml-lg-3 align-self-center" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
                         <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-2 py-2 f-90 global-nav-lv1']"  >
                         <span @click.stop="$router.push(item.link)" class="d-none d-lg-block">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span></div>
