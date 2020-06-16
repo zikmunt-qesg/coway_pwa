@@ -30,7 +30,7 @@
                     </p>
 
                     <h7 class="mb-3 gray63">전사 리스크 대응 프로세스</h7>
-                    <b-img src="@/assets/images/42_1.svg" fluid></b-img>
+                    <b-img src="@/assets/images/69_2.svg" fluid></b-img>
                     <hr class="mb-3">
                     <b-img src="@/assets/images/73_1.svg" fluid></b-img>
                     <hr class="mb-45">
