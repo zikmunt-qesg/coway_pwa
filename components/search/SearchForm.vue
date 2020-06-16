@@ -18,7 +18,7 @@
                             <b-dropdown-item href="#" @click="selected_framework='DJSI'">DJSI Public</b-dropdown-item>
                         </b-dropdown>
                     </template>              
-                    <b-form-input v-if="selected_mode=='integrated'" v-model="search_query" type="text" :placeholder="form_placeholder" @keyup.enter="handleOK" claas="w-100"></b-form-input>
+                    <b-form-input v-if="selected_mode=='integrated'" v-model="search_query" type="text" :placeholder="form_placeholder" @keyup.enter="handleOK"></b-form-input>
                     <searchable-input v-if="selected_mode!='integrated'" v-model="search_query" :placeholder="form_placeholder" :search_universe="search_universe" :search_keys="['code', 'indicators']" :key="searchable_input_key" @select-item="handleOK"></searchable-input>
                     <b-input-group-append> <b-button @click="handleOK" variant="blue-border"><i class="fas fa-search"></i> </b-button> </b-input-group-append>
                 </b-input-group>        
