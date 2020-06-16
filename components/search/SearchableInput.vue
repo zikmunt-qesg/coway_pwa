@@ -1,5 +1,5 @@
 <template>
-<div class="input-box">
+<div class="form-control p-0">
 <b-form-input 
     id="searchable-input"
     autocomplete="off" 
@@ -17,28 +17,28 @@
     @change="$emit('input', value)"
     >
 </b-form-input>
-    
-    <!-- tippy -->
-    <div v-show="tippy_popup" class="suggested-items" ref="suggestions">
-        <template>
-            <div v-if="hasResult">
-                <div
-                v-for="(item, index) in filteredItems"
-                :key="item.id"
-                class="suggested-items_item text-left"
-                :class="{'is-selected': navigatedItemIndex === index}"
-                @click="handleQuery(index, item)"
-                >
-                <span v-for="item_key in search_keys" :key="item_key.id"> {{ item[item_key] }} &nbsp; </span> 
-                </div>
-            </div>
-            <div v-else>
-                
-            </div>
-        </template>
-    </div>
 
+    <div v-show="tippy_popup" class="suggested-items" ref="suggestions">
+    <template>
+        <div v-if="hasResult">
+            <div
+            v-for="(item, index) in filteredItems"
+            :key="item.id"
+            class="suggested-items_item text-left"
+            :class="{'is-selected': navigatedItemIndex === index}"
+            @click="handleQuery(index, item)"
+            >
+            <span v-for="item_key in search_keys" :key="item_key.id"> {{ item[item_key] }} &nbsp; </span> 
+            </div>
+        </div>
+        <div v-else>
+            
+        </div>
+    </template>
+    </div>
 </div>
+
+
 </template>
 
 <script>
@@ -120,6 +120,7 @@ export default {
                     duration: 500,
                     arrow: false,
                     animation: 'shift-away',
+                    maxWidth: 800,
                 })
             }
             //console.log(this.filteredItems)
@@ -139,6 +140,7 @@ export default {
         },
         selectItem(item){
             this.$emit('input', item.code )
+            this.$emit('select-item')
             this.hideTippy()
         },
         handleQuery(index, item){
@@ -158,7 +160,6 @@ export default {
 
 .transparent {
     background-color: transparent;
-    color: var(--hpink);
     border-color: transparent;
 }
 
@@ -175,34 +176,34 @@ export default {
     flex-direction: row;
     width: 100%;
     border-radius: 0.2rem;
-    border-color: var(--gray-400);
     border-style: solid;
     border-width: thin;
     background-color: #fff;
 }
 
 .search-input {
-    padding-left: 16px;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border: none;
-    outline: none;
+   padding-left: 16px;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   border: none;
+   outline: none;
 
-    box-shadow: none!important;
+   //box-shadow: none!important;
 
 }
 
 .suggested-items {
     font-size: 0.8em;
-    color: var(--gray-800);
+    color: $gray7;
 
     &_item {
     padding-left: 15px;
-    padding-right: 100px;
+    padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 2px;
+
     cursor: pointer;
     &:last-child {
       margin-bottom: 0;
@@ -210,7 +211,7 @@ export default {
     &.is-selected,
     &:hover {
       color: black;
-      background-color: var(--gray-200);
+      background-color: $gray2;
     }
     &.is-empty {
       opacity: 0.5;
@@ -219,12 +220,9 @@ export default {
 
 }
 
-.form-control:focus{
-    background-color: transparent;
-}
-
 .search-button {
     cursor: pointer;
 }
+
 
 </style>
