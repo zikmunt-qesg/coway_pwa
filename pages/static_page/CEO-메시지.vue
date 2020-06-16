@@ -29,7 +29,7 @@
                             <h6>안녕하십니까? </h6>
                             <h6>이해관계자 여러분 모두에게<br> 건강과 행복이 가득하기를 바랍니다.</h6>
                         </div>
-                        <div><b-img src="@/assets/images/50_1.png" fluid class="w-100"></b-img></div>
+                        <div><b-img src="@/assets/images/CEO.png" fluid class="w-100"></b-img></div>
                     </div>
                 </section>
                 <section class="px-4 py-4">
