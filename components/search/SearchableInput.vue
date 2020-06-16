@@ -120,6 +120,7 @@ export default {
                     duration: 500,
                     arrow: false,
                     animation: 'shift-away',
+                    maxWidth: 800,
                 })
             }
             //console.log(this.filteredItems)
