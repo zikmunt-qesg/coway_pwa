@@ -75,9 +75,10 @@ export default {
     transition: all 0.1s ease;
 }
 .side-nav-link-2:hover {
+    font-weight: 600;
     margin-top: 0em;
-    text-decoration: underline;
-    text-underline-position: under;
+    // text-decoration: underline;
+    // text-underline-position: under;
 }
 
 .side-nav-link-3{
@@ -85,8 +86,9 @@ export default {
     transition: all 0.1s ease;
 }
 .side-nav-link-3:hover {
-    text-decoration: underline;
-    text-underline-position: under;
+    font-weight: 500;
+    // text-decoration: underline;
+    // text-underline-position: under;
 }
 
 .nav-link-color:hover{
