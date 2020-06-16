@@ -18,8 +18,8 @@
                             <b-dropdown-item href="#" @click="selected_framework='DJSI'">DJSI Public</b-dropdown-item>
                         </b-dropdown>
                     </template>              
-                    <b-form-input v-model="search_query" type="text" :placeholder="form_placeholder" @keyup.enter="handleOK" claas="w-100"></b-form-input>
-                    <!--<searchable-input v-model="search_query" :placeholder="form_placeholder" :search_universe="gri_universe" :search_keys="['code', 'indicators']"></searchable-input>-->
+                    <b-form-input v-if="selected_mode=='integrated'" v-model="search_query" type="text" :placeholder="form_placeholder" @keyup.enter="handleOK" claas="w-100"></b-form-input>
+                    <searchable-input v-if="selected_mode!='integrated'" v-model="search_query" :placeholder="form_placeholder" :search_universe="search_universe" :search_keys="['code', 'indicators']" :key="searchable_input_key" @select-item="handleOK"></searchable-input>
                     <b-input-group-append> <b-button @click="handleOK" variant="blue-border"><i class="fas fa-search"></i> </b-button> </b-input-group-append>
                 </b-input-group>        
             </b-col>
@@ -39,13 +39,14 @@ export default {
       selected_framework: '',
       selected_mode: ['integrated'], // 'integrated' or 'indicator',
       form_placeholder: '검색할 내용을 입력해 주세요',
-      search_query: ''
+      search_query: '',
+      searchable_input_key: 0
     }
   },
   props:{
     prop_framework: { type: String, default: 'GRI' },
     prop_mode: { type: String, default: 'integrated'},
-    defined_query: { type: String, default: '' }
+    defined_query: { type: String, default: '' },
   },
   computed:{
     ...mapState('frameworks', 
@@ -53,6 +54,26 @@ export default {
 
     gri_universe(){
       return this.gri_table_100.concat(this.gri_table_200).concat(this.gri_table_300).concat(this.gri_table_400)
+    },
+    djsi_universe(){
+      return this.djsi_table
+    },
+    sasb_universe(){
+      return this.sasb_table_appliance_s.concat(this.sasb_table_appliance_a).concat(this.sasb_table_professional_s).concat(this.sasb_table_professional_a)
+    },
+    search_universe(){
+      if(this.selected_framework=='DJSI') 
+      {
+        return this.djsi_universe
+      }
+      else if(this.selected_framework=='SASB')
+      {
+        return this.sasb_universe
+      }
+      else
+      {
+        return this.gri_universe
+      }
     }
   },
   methods: {
@@ -102,16 +123,17 @@ export default {
   watch: {
     selected_framework(new_value) {
       if (this.selected_mode =='indicator' && new_value == 'GRI') {
-        this.form_placeholder =
-          'GRI 지표코드(ex.203-1) 또는 지표명을 입력해 주세요'
+        this.form_placeholder = 'GRI 지표코드(ex.203-1) 또는 지표명을 입력해 주세요'
+        this.searchable_input_key += 1
       } else if (this.selected_mode =='indicator' && new_value == 'SASB') {
-        this.form_placeholder =
-          'SASB 지표코드(ex. SA-101) 또는 지표명을 입력해 주세요'
+        this.form_placeholder = 'SASB 지표코드(ex. SA-101) 또는 지표명을 입력해 주세요'
+        this.searchable_input_key += 1
       } else if (this.selected_mode =='indicator' && new_value == 'DJSI') {
-        this.form_placeholder =
-          'DJSI 항목번호(ex. 1.2.1) 또는 질문명을 입력해 주세요'
+        this.form_placeholder = 'DJSI 항목번호(ex. 1.2.1) 또는 질문명을 입력해 주세요'
+        this.searchable_input_key += 1
       } else {
         this.form_placeholder = '검색할 내용을 입력해 주세요'
+        this.searchable_input_key += 1
       }
     }
   }
