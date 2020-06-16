@@ -25,7 +25,7 @@
             <br>대표이사 이해선 사업자등록번호 307-81-06054 통신판매번호 제 2005-21호
             </p>
 
-            <p> COPYRIGHT WOONGJIN COWAY CO., LTD. ALL RIGHTS RESERVED.
+            <p> COPYRIGHT COWAY CO., LTD. ALL RIGHTS RESERVED.
             </p>
         </div>
     </b-container>

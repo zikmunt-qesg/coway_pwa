@@ -27,7 +27,7 @@
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
                         <b-col class="col-12 col-md-4 fw-500">
-                            <b-row no-gutters class="pr-md-4">
+                            <b-row no-gutters class="pr-md-4 mb-3 mb-md-0">
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
                                     <ul class="material-ul fw-500 font-noto">
@@ -39,14 +39,14 @@
                                 <b-col class="col-12 pt-3">
                                     <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
-                                        <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
-                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="mb-0 fw-500 line-height-low">국제안전인증센터<br> 공인시험소</p> 
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-4 text-center">
+                                            <div class="mx-auto mb-2" style="height:61px;"><b-img src="@/assets/images/98_1.svg" fluid class="h-100"></b-img> </div>
+                                            <p class="mb-0 fw-500 line-height-low word-break">국제안전인증센터 공인시험소</p> 
                                             <p class="mb-0 mt-m-2 fw-400 blue7"><span class="f-230">13</span>개소 보유</p>
                                             <p class="gray65 fw-400 mt-m-2">(2019년 말 기준)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
-                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-2" style="height:61px;"><b-img src="@/assets/images/99_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 font-noto">2019년 제품책임 관련</p> 
                                             <p class="mb-0 f-140 fw-400 blue7">규제 위반 0건</p>
                                         </b-col>
@@ -55,24 +55,21 @@
                             </b-row>                            
                         </b-col>                        
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
-                        <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
+                            <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
                             <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
                             <p >실내 생활환경의 위생과 건강에 대한 관심이 증가함에 따라 소비자들은 인체 무해성, 위생성, 환경적 영향력 등을 제품 선택의 우선순위로 두고 있습니다. 이러한 구매 경향은 제품 생산 및 판매 기업의 제품 책임을 더욱 강화하고 있습니다. 이에 따라 제품 책임은 기업의 브랜드 가치 및 재무적 가치에 직접적인 영향을 줄 수 있는 핵심 관리 요소로서 중요도가 증가하고 있습니다.
                             </p>
                             <p>코웨이의 주요 제품은 우리의 건강과 밀접한 물과 공기를 다루고, 오랜 기간 일상적으로 사용된다는 점에서 제품의 안전성, 위생성, 성능의 항상성을 제품 책임 우선순위로 관리하고 있습니다. 코웨이는 고객이 제품을 사용하는 동안 안전하고 무해하며, 변함없이 성능이 지속되도록 제품 책임을 적극적으로 이행하여 고객 신뢰를 쌓고자 노력하고 있습니다. 
                             </p>
-                            <p class="mb-45">코웨이는 무한책임위원회를 비롯한 전사 회의체 및 총괄 조직인 TQA(Trust & Quality Assurance)센터를 중심으로 제품 책임을 적극적으로 이행하고 있습니다. 제품 기획부터 설계, 생산, 서비스 등 전 단계에 걸쳐 품질, 신뢰성, 안전성, 환경성 검증을 실시하고 있으며, 글로벌 품질 검증력 강화와 신규 해외시장 진출 확대를 위해 글로벌 사용환경을 분석해 데이터를 구축하고 지역별 신뢰성 표준을 수립하였습니다. 또한 서비스 위생 강화를 위해 서비스 점검 기준 및 범위를 확대하여 고객 관점에서 서비스를 강화하고 선제적으로 대응하고 있습니다. 
+                            <p class="mb-5 mb-md-45">코웨이는 무한책임위원회를 비롯한 전사 회의체 및 총괄 조직인 TQA(Trust & Quality Assurance)센터를 중심으로 제품 책임을 적극적으로 이행하고 있습니다. 제품 기획부터 설계, 생산, 서비스 등 전 단계에 걸쳐 품질, 신뢰성, 안전성, 환경성 검증을 실시하고 있으며, 글로벌 품질 검증력 강화와 신규 해외시장 진출 확대를 위해 글로벌 사용환경을 분석해 데이터를 구축하고 지역별 신뢰성 표준을 수립하였습니다. 또한 서비스 위생 강화를 위해 서비스 점검 기준 및 범위를 확대하여 고객 관점에서 서비스를 강화하고 선제적으로 대응하고 있습니다. 
                             </p>
                             <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <div class="d-flex align-items-center">
-                                <div class="py-2 d-flex align-items-center mr-3 w-50">
-                                    <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0 word-break font-noto">2019년 한국신뢰성대상 '제조업 부문 대상' 수상</p>
+                                <div class="py-2 d-xl-flex align-items-center mr-3">
+                                    <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">2019년 한국신뢰성대상 '제조업 부문 대상' 수상</p>
+                                    <p class="fw-500 mb-0 mr-2 word-break font-noto line-height-low">2019년 '서비스품질 우수상' 국무총리 표창</p>
                                 </div>
-                                <div class="py-2 d-flex align-items-center w-50">
-                                    <div class="temp-icon8 w-50"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0 word-break font-noto">2019년 '서비스품질 우수상' 국무총리 표창</p>
-                                </div>
+                                <div style="height:90px;"><b-img src="@/assets/images/100_1.svg"></b-img> </div>
                             </div>
                         </b-col>
                     </b-row>
@@ -180,14 +177,14 @@
 
                     <b-row no-gutters class="mb-45">
                         <b-col class="col-12 col-sm-6 pr-sm-3 mb-3 mb-sm-0">
-                            <div class="py-2 px-3 blue7-box blue7 text-center fw-500 border-bottom-blue7" style="height:66px;">DFMEA(Design Failure Modes and Effect Analysis, 제품 고장 모드 및 영향도 분석)</div>
+                            <div class="px-3 blue7-box blue7 text-center d-flex align-items-center fw-500 border-bottom-blue7" style="height:66px;">DFMEA(Design Failure Modes and Effect Analysis, 제품 고장 모드 및 영향도 분석)</div>
                             <div class="border-bottom-blue7" style="height: 79%;">
                                 <p class="px-3 py-4 f-95">DFMEA 시스템 운영을 통해, 제품 구조에 따른 고장 모드를 체계적으로 추출하고 분석하여, 보다 효과적으로 고장을 예방하고 있습니다. 예측된 고장과 개선 방안의 정확성을 평가하여, 제품 설계 완성도를 향상하는 프로세스로, 2019년에는 AIS3.0 등 총 32건의 DFMEA 심의를 시행하여 약 1,200여건의 고장 모드 및 고장원인을 예측하고 예방 설계를 진행하였습니다.
                                 </p>
                             </div>
                         </b-col>
                         <b-col class="col-12 col-sm-6 pl-sm-3 position-relative">
-                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 23%;"></div>
+                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 74%; top: 23%;"></div>
                             <div class="px-3 blue7-box blue7 fw-500 text-center d-flex align-items-center justify-content-center" style="height:66px; z-index:10;">SSM(Stress-Strength Model, 스트레스-강도 모델)</div>
                             <div class="border-bottom-blue7" style="height: 79%;">
                                 <p class="px-3 py-4 f-95 mb-0"> SSM 시스템 구축을 통해, 과거 실패사례, 사용환경 데이터, 화학물질 사용기준 등 다양한 지식을 구조화하여 관리함으로써, 신규 제품·부품 개발 과정에서 효율성을 향상하고 실패 사례의 재발 방지를 추진하고 있습니다. 또한, 품질 및 개발과정 관련 실패사례를 취합하여 지식구조화 함으로써 실패에 따른 반복적인 설계 개선과 검증, 단가 상승 및 개발 일정 지연 등을 예방하고 있습니다. 2016년 도입 이후 2019년까지 시장 품질, 고분자 재료, 전자부품 등 다양하 분야에서 총 835건의 지식을 등록하여 관리하고 있습니다.
