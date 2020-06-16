@@ -9,7 +9,7 @@
                 </nuxt-link>
             </b-navbar-brand>   
 
-            <div class="d-lg-flex flex-lg-row-reverse justify-content-start jump-width" style="max-height:80vh">
+            <div class="d-lg-flex flex-lg-row-reverse justify-content-start jump-width" style="max-height:100vh">
                 <div class="d-flex justify-content-end align-items-center jump-up">                
                     <b-nav-item class="mr-1 mr-sm-2 pl-lg-2 pt-1 f-90" style="list-style: none"> ENG </b-nav-item>
                     <b-nav-item class="mr-1 mr-sm-2 pl-lg-1" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
@@ -17,7 +17,7 @@
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2"></b-navbar-toggle>
                 </div>
-                <div style="max-height:75vh" class="overflow-auto">
+                <div style="max-height:95vh" class="overflow-auto">
                 <b-collapse id="nav-collapse" is-nav >
                     <b-navbar-nav class="ml-lg-3 " v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
                         <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-2 py-2 f-90 global-nav-lv1']"  >
