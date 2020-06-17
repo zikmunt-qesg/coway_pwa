@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
                             <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 green7">
-                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/구성 요소8_1@2x.png" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
@@ -86,7 +86,7 @@
                 <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'친환경 제품 개발과 제품 생애주기 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">친환경 제품 개발과 제품 생애주기 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> 코웨이는 친환경적 제품과 서비스, 비즈니스를 설계합니다. 제품개발 프로세스, 청정생산, 렌탈 서비스, 회수 및 재활용 절차에 이르는 전 과정에서 화학물질 안전성 확보, 에너지 고효율 달성 및 탄소배출 저감, 생활환경 개선, 자원사용 저감 및 재활용성 증가에 이르기까지 전 과정에서 부정적 영향을 감소시키고 긍정적 영향은 확대하기 위한 위한 다양한 활동을 전개하고 있습니다.
                     </p>
-                    <b-img src="/images/72_1.svg" fluid class="w-100"></b-img>
+                    <hj-img src="/images/72_1.svg" fluid class="w-100"></hj-img>
                     <hr class="mb-3">
 
                     <h6-ancor :title="'전과정 평가와 제품 책임'" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 평가와 제품 책임</h6-ancor>
@@ -137,67 +137,67 @@
                     </p>
                     <p class="mb-5">사전 규제 대응 체계 강화로 RoHSⅡ 프탈레이트 규제에 대해 규제 시행 전 사전 대응 완료를 진행하였으며 지속 관리하고 있는 식품 접촉 물질에 대한 ‘식품용 기구 및 용기포장 기준’ 및 항균/살균 부품/물질에 대한 국내·외 살생물제법 기준에 맞춰 관리 및 검증을 강화하였습니다.
                     </p>
-                    <div class="row force-deflex pb-3 border-bottom-dark">
-                        <b-col class="custom-ul-li">
+                    <div class="row d-flex flex-column flex-md-row pb-3 border-bottom-dark mx-1">
+                        <b-col class="custom-ul-li pl-md-0">
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li>모든 부품에 대해 EU·X-RoHS 기준을 적용하여 적합성을 검증</li>
+                                <li class="no-word-break">모든 부품에 대해 EU·X-RoHS 기준을 적용하여 적합성을 검증</li>
                                 <li>전 제품의 적합성을 내부적으로 검증하기 위해 K-RoHS 대응을 확대하여 서비스 부품 코드 100% 등록</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
-                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                        <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/24_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li>사업장 내 화학물질 사용 현황을 파악 및 점검하기 위한 관련 데이터 베이스(DB) 구축</li>
-                                <li>국내·외 규제 및 법규와 관련된 DB 구축</li>
+                                <li class="no-word-break">사업장 내 화학물질 사용 현황을 파악 및 점검하기 위한 관련 데이터 베이스(DB) 구축</li>
+                                <li class="no-word-break">국내·외 규제 및 법규와 관련된 DB 구축</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
-                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                        <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/25_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li>화학물질관리를 제품 단위로 확대</li>
-                                <li>글로벌 환경 규제 및 고객사의 화학물질 사용 관련 요구 적극 대응</li>
+                                <li class="no-word-break">화학물질관리를 제품 단위로 확대</li>
+                                <li class="no-word-break">글로벌 환경 규제 및 고객사의 화학물질 사용 관련 요구 적극 대응</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
-                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                        <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li>국가별 법규·규제 강화 및 관리범위 확대에 따라 법규관리 영역을 전기·전자 제품에서 식품·위생 안전까지 확대</li>
+                                <li class="no-word-break">국가별 법규·규제 강화 및 관리범위 확대에 따라 법규관리 영역을 전기·전자 제품에서 식품·위생 안전까지 확대</li>
                             </ul>
                         </b-col>
-                        <b-col class="custom-ul-li position-relative">
-                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                        <b-col class="custom-ul-li position-relative pr-md-0">
+                        <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li>화학물질 사전 규제 모니터링 체계 구축에 따라 사전 규제 대응력 강화</li>
-                                <li>전 제·부품에 대한 RoHSⅡ프탈레이트 규제 사전 대응 및 적합성 검증</li>
+                                <li class="no-word-break">화학물질 사전 규제 모니터링 체계 구축에 따라 사전 규제 대응력 강화</li>
+                                <li class="no-word-break">전 제·부품에 대한 RoHSⅡ프탈레이트 규제 사전 대응 및 적합성 검증</li>
                             </ul>
                         </b-col>
                     </div>
                     <hr class="mb-5">
-                    <b-img src="/images/28_1.svg" fluid class="w-100"></b-img>
+                    <hj-img src="/images/28_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-5 py-3">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'자원효율성 향상과 순환경제 지원'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 지원</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     
                     <h6-ancor :title="'자원효율성 KPI'" :activated="activated" class="fw-500 green5 mb-3 f-105">자원효율성 KPI</h6-ancor>
 
-                    <b-row no-gutters class="py-5 mb-45 border-top-bottom-dark">
-                        <b-col class="col-12 col-md-4 px-md-3 position-relative"><b-img src="/images/29_1.svg" fluid class="h-100"></b-img></b-col>
-                        <b-col class="col-12 col-md-4 px-md-3 position-relative"><div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
-                            <b-img src="/images/30_1.svg" fluid class="h-100"></b-img></b-col>
-                        <b-col class="col-12 col-md-4 px-md-3 position-relative"><div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
-                            <b-img src="/images/31_1.svg" fluid class="h-100"></b-img></b-col>
+                    <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
+                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative" style="max-width: 250px;"><hj-img src="/images/29_1.svg" fluid></hj-img></b-col>
+                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative" style="max-width: 250px;"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
+                            <hj-img src="/images/30_1.svg" fluid ></hj-img></b-col>
+                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative" style="max-width: 250px;"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
+                            <hj-img src="/images/31_1.svg" fluid ></hj-img></b-col>
                     </b-row>
                     <p class="mb-5">코웨이는 위기에 처한 환경을 보호하고 자원의 낭비를 막고자, 새로운 개념인 순환경제에 초점을 맞추어 활동을 펼치고 있습니다. 코웨이는 자원을 한 번만 쓰고 버리는 기존의 방식을 넘어, 제품이 사용된 후에도 회수와 물질 재활용을 통해 지속적으로 자원이 다시 사용될 수 있도록 많은 노력을 쏟고 있습니다. 리퍼브 제도 운영, 제·부품 물질 재활용, 매립 zero화, 전 과정에서 발생한 폐기물을 폐기물에너지화 하는 등 이러한 순환경제시스템을 통해 폐기물 소각으로 인해 발생하는 온실가스와 오염물질을 감소시키며, 매립으로 인한 토양 및 지하수 오염도 방지하고 있습니다.
                     </p>
                     <hr class="py-2">                   
                 
                     <h7 class="mb-3 gray63">코웨이 자원순환 사이클</h7>
-                    <b-img src="/images/32_1.svg" fluid class="w-100"></b-img>
+                    <hj-img src="/images/32_1.svg" fluid class="w-100"></hj-img>
                     <hr class="space-25">                   
                     <p class="mb-3"> 코웨이는 한 번쓰고 폐기하는 기존의 자원소비구조에서 자원순환사회 구축 전환을 위한 다양한 활동을 추진하고 있습니다. 신제품 개발시 대당 재활용율이 75% 이상을 만족하는지 여부를 점검하고 있으며, 만약 75%이하로 산정되면 재활용 가능한 소재로 대체하거나 실제 재활용공정에서 재활용가능한지 여부를 사전에 면밀히 검토하는 등 제품군별 재활용율 향상을 위해 노력하고 있습니다. 
                     </p>

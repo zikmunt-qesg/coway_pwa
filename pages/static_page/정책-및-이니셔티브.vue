@@ -49,6 +49,9 @@
                 </b-card>
                 <hr class="mb-2">
             </div>
+            <div v-if="show_page=='Initiatives'">
+                <b-card header="글로벌 기후변화 이니셔티브 참여"></b-card>
+            </div>
     </b-container>
 </div>
 </template>

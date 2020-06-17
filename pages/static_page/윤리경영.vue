@@ -26,7 +26,7 @@
 
                     <p class="mb-5">코웨이는 윤리경영 방식인 3C(Code of Conduct, Compliance Check Organization, Consensus by Ethic Education)을 바탕으로 ‘클린 코웨이’를 추구 및 구현하고 있습니다. 
                     </p>
-                    <b-img src="/images/33_1.svg" fluid></b-img>
+                    <hj-img src="/images/33_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'윤리강령(Code of Conduct)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리강령(Code of Conduct)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
@@ -43,7 +43,7 @@
                     <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blink"><b-button variant="parang" size="sm" block>윤리 제보센터</b-button></a>
                     <hr class="mb-2">
 
-                    <b-img src="/images/34_1.svg" fluid></b-img>
+                    <hj-img src="/images/34_1.svg" fluid></hj-img>
 
                     <hr class="">
                         <h7 class="mb-3 gray63 font-noto">2019 윤리 제보 및 조치 건수</h7>

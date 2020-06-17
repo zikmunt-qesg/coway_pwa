@@ -30,9 +30,9 @@
                     </p>
 
                     <h7 class="mb-3 gray63">전사 리스크 대응 프로세스</h7>
-                    <b-img src="/images/69_2.svg" fluid></b-img>
+                    <hj-img src="/images/69_2.svg" fluid></hj-img>
                     <hr class="mb-3">
-                    <b-img src="/images/73_1.svg" fluid></b-img>
+                    <hj-img src="/images/73_1.svg" fluid></hj-img>
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'잠재 리스크의 관리'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
@@ -58,7 +58,7 @@
                                     </p>
                                     <p>또한 글로벌 시장 진출 확대에 따라 유럽연합 개인정보보호 규정(GDPR) 등 개인정보보호 규제에 대한 효과적인 대응체계를 수립 및 추진하고 있습니다.
                                     </p>
-                                    <nuxt-link to="/static_page/데이터-및-개인정보보호"><b-button variant="parang-text" class="px-0 py-1 f-95">정보보안 및 개인정보보호 정책</b-button></nuxt-link>
+                                    <nuxt-link to="/static_page/데이터-및-개인정보보호"><b-button variant="parang-text" class="px-0 py-1 f-95 text-left">정보보안 및 개인정보보호 정책</b-button></nuxt-link>
                                 </b-td>
                             </b-tr>
                             <b-tr>

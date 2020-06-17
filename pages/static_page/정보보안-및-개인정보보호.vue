@@ -37,17 +37,17 @@
                                     </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
-                                    <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
+                                    <h7 class="mb-45 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
-                                        <b-col class="col-12 col-sm-6 col-md-12 mb-4 text-center">
-                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="mb-0 fw-500 font-noto px-lg-4 px-xl-5">3년 연속 정보보호 및 사이버보안 관련 위반</p>
-                                            <p class="mb-0 fw-400 blue7"><span class="f-230">0</span>건</p>
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
+                                            <div class="mx-auto mb-3" style="height:52px"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <p class="mb-0 fw-500 font-noto word-break px-lg-4 px-xl-5 mt-m-2">3년 연속 정보보호 및 사이버보안 관련 위반</p>
+                                            <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">0</span>건</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
-                                            <div class="temp-icon8 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-3" style="height:52px"><b-img src="/images/101_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 word-break font-noto px-lg-4 px-xl-5">2019년 임직원 정보보호 교육 참여율</p>
-                                            <p class="mb-0 fw-400 blue7"><span class="f-230">100</span>%</p>
+                                            <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">100</span>%</p>
                                         </b-col>
                                     </b-row>
                                 </b-col>
@@ -64,8 +64,8 @@
                             </p>
                             <h7 class="blue7 f-120 mb-2">Business Cases</h7>
                             <div class="d-flex align-items-center">
-                                <div class="py-2 d-flex align-items-center mr-3 w-50">
-                                    <div class="temp-icon8 w-25"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="py-2 d-flex align-items-center">
+                                    <div class="mr-4" style="height:54px"><b-img src="/images/102_1.svg" fluid class="h-100"></b-img> </div>
                                     <p class="fw-500 mb-0 word-break">정보보호 인증 현황</p>
                                 </div>
                             </div>
@@ -99,9 +99,9 @@
                     <h6-ancor :title="'개인정보보호 라이프사이클 관리'" :activated="activated" class="blue5 mb-3">개인정보보호 라이프사이클 관리</h6-ancor>
                     <p class="mb-5">코웨이는 개인정보 수집, 보관 및 활용, 파기의 전 과정에서 정보를 안전하게 관리하기 위해 개인정보보호 라이프사이클 관리를 추진합니다. 또한, 라이프사이클 전반에서 더욱 강화된 정보보호를 위해 관리영역, 물리영역 및 기술영역에서 정보보호대책을 실행합니다. 관리 영역에서 정보 자산 분류에 따른 정보 핸들링과 함께 정보보호 교육을 통한 인적 보안을 추진하며, 물리적인 관리 한계를 넘어 전체 시스템 통제 및 회복력 확보를 위해 기술영역에서 IT 시스템 기반의 진단, 통제 및 사고 복구를 진행하고 있습니다.
                     </p>
-                    <div class="d-md-flex mb-5">
-                        <b-img src="/images/86_1.svg" fluid class="pr-md-3"></b-img>
-                        <b-img src="/images/87_1.svg" fluid class="pl-md-3"></b-img>
+                    <div class="d-md-flex mb-5 w-100">
+                        <div><hj-img src="/images/86_1.svg" fluid class="pr-md-3"></hj-img></div>
+                        <div><hj-img src="/images/87_1.svg" fluid class="pl-md-3"></hj-img></div>
                     </div>
                     <hr class="py-2">
                      
@@ -192,7 +192,7 @@
                     </p>
 
                     <h6-ancor :title="'시스템 기반 위험 점검 및 실사'" :activated="activated" class="blue5 mb-3">시스템 기반 위험점검 및 실사</h6-ancor>
-                    <b-img src="/images/88_1.svg" fluid></b-img>
+                    <hj-img src="/images/88_1.svg" fluid></hj-img>
                     <hr class="py-4">              
                     
                     <p class="mb-5">코웨이는 2019년 개인정보 이상징후 탐지 시스템을 통하여 개인정보 과다 보유, 근무시간 외 개인정보 조회, 개인정보 반출 등의 기준으로 고위험군 15개 영업소를 선별하여 현장 점검을 시행하였고, 정보보안에 위배되는 오남용 사례를 확인하여 개선할 수 있었습니다. 점검 시에는 24개 항목의 체크리스트 기반의 점검을 실시하였습니다. 내부 직원의 보안 인식 제고를 위해 온오프라인 교육을 강화하였으며, 개인정보 사이클에 대한 내부 공지를 강화하여 개인정보 취급에 대한 표준 정책을 공유하였습니다. 주기적으로 ‘개인정보검출솔루션’을 통한 개인정보 취급 및 관리에 대한 인식을 높이고, 연1회 선별 지국에 방문하여 정기 실사를 통해 개인정보 취급에 대한 기준을 공유하고 처리 방침에 관하여 계도하여 개인정보 취급에 대한 위험성을 낮추고 있습니다.

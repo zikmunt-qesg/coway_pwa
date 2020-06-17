@@ -1,4 +1,4 @@
-<svg id="구성_요소_25_1" data-name="구성 요소 25 – 1" xmlns="http://www.w3.org/2000/svg" width="836.377" height="257.15" viewBox="0 0 836.377 257.15">
+<svg xmlns="http://www.w3.org/2000/svg" width="836.377" height="202.25" viewBox="0 0 836.377 202.25">
   <defs>
     <style>
       .cls-1 {
@@ -75,7 +75,7 @@
         letter-spacing: -0.019em;
       }
 
-      .cls-20, .cls-23 {
+      .cls-20 {
         fill: #29669e;
       }
 
@@ -86,57 +86,52 @@
       .cls-22 {
         fill: #1394d1;
       }
-
-      .cls-23 {
-        font-size: 17px;
-        font-family: NotoSansKR-Medium, Noto Sans KR;
-        font-weight: 500;
-      }
     </style>
   </defs>
-  <rect id="사각형_14" data-name="사각형 14" class="cls-1" width="253.53" height="36.75" transform="translate(582.847 54.9)"/>
-  <rect id="사각형_15" data-name="사각형 15" class="cls-1" width="544.176" height="36.75" transform="translate(6.25 54.9)"/>
-  <line id="선_113" data-name="선 113" class="cls-2" y2="13.92" transform="translate(129.702 149.292)"/>
-  <path id="패스_49" data-name="패스 49" class="cls-3" d="M5468.2,5959.067h0m0-17.133h0" transform="translate(-5338.5 -5794.784)"/>
-  <path id="패스_50" data-name="패스 50" class="cls-4" d="M5471.625,5955.385l-3.424,3.682-3.423-3.682" transform="translate(-5338.5 -5794.784)"/>
-  <line id="선_114" data-name="선 114" class="cls-5" y2="13.92" transform="translate(418 149.292)"/>
-  <path id="패스_51" data-name="패스 51" class="cls-6" d="M5756.5,5959.067h0m0-17.133h0" transform="translate(-5338.5 -5794.784)"/>
-  <path id="패스_52" data-name="패스 52" class="cls-7" d="M5759.924,5955.385l-3.424,3.682-3.423-3.682" transform="translate(-5338.5 -5794.784)"/>
-  <line id="선_115" data-name="선 115" class="cls-5" y2="13.92" transform="translate(706.298 149.292)"/>
-  <path id="패스_53" data-name="패스 53" class="cls-6" d="M6044.8,5959.067h0m0-17.133h0" transform="translate(-5338.5 -5794.784)"/>
-  <path id="패스_54" data-name="패스 54" class="cls-7" d="M6048.222,5955.385l-3.424,3.682-3.423-3.682" transform="translate(-5338.5 -5794.784)"/>
-  <line id="선_116" data-name="선 116" class="cls-8" y2="13.92" transform="translate(706.298 204.642)"/>
-  <path id="패스_55" data-name="패스 55" class="cls-9" d="M6044.8,6014.416h0m0-17.133h0" transform="translate(-5338.5 -5794.784)"/>
-  <path id="패스_56" data-name="패스 56" class="cls-10" d="M6048.222,6010.734l-3.424,3.682-3.423-3.682" transform="translate(-5338.5 -5794.784)"/>
-  <line id="선_117" data-name="선 117" class="cls-2" y2="13.92" transform="translate(129.702 204.642)"/>
-  <path id="패스_57" data-name="패스 57" class="cls-3" d="M5468.2,6014.416h0m0-17.133h0" transform="translate(-5338.5 -5794.784)"/>
-  <path id="패스_58" data-name="패스 58" class="cls-4" d="M5471.625,6010.734l-3.424,3.682-3.423-3.682" transform="translate(-5338.5 -5794.784)"/>
-  <line id="선_118" data-name="선 118" class="cls-11" x2="11.51" transform="translate(261.441 239.65)"/>
-  <line id="선_119" data-name="선 119" class="cls-12" y1="106.827" transform="translate(273.996 130.708)"/>
-  <line id="선_120" data-name="선 120" class="cls-13" x2="7.344" transform="translate(276.094 129.65)"/>
-  <path id="패스_59" data-name="패스 59" class="cls-6" d="M5622.987,5924.434h0m-10.491,0h0m0,110h0m-14.646,0h0" transform="translate(-5338.5 -5794.784)"/>
-  <path id="패스_60" data-name="패스 60" class="cls-7" d="M5619.3,5921.01l3.684,3.424-3.684,3.423" transform="translate(-5338.5 -5794.784)"/>
-  <rect id="사각형_16" data-name="사각형 16" class="cls-14" width="544.176" height="33.5" transform="translate(0.25 55.15)"/>
-  <rect id="사각형_17" data-name="사각형 17" class="cls-15" width="544.176" height="33.5" transform="translate(0.25 55.15)"/>
-  <text id="개인정보_이상징후_탐지시스템_기반_위험_진단" data-name="개인정보 이상징후 탐지시스템 기반 위험 진단" class="cls-16" transform="translate(134.188 78.5)"><tspan class="cls-17" x="0" y="0">개인정보 이상징후 탐지시스템 기반 위험 </tspan><tspan class="cls-18" y="0">진</tspan><tspan y="0">단</tspan></text>
-  <rect id="사각형_18" data-name="사각형 18" class="cls-14" width="253.53" height="33.5" transform="translate(576.847 55.15)"/>
-  <rect id="사각형_19" data-name="사각형 19" class="cls-15" width="253.53" height="33.5" transform="translate(576.847 55.15)"/>
-  <text id="실사" class="cls-16" transform="translate(691.487 78.028)"><tspan class="cls-17" x="0" y="0">실</tspan><tspan y="0">사</tspan></text>
-  <rect id="사각형_20" data-name="사각형 20" class="cls-1" width="258.903" height="34.5" transform="translate(0.25 112.4)"/>
-  <text id="데이터_분석" data-name="데이터 분석" class="cls-19" transform="translate(93.852 136.25)"><tspan class="cls-17" x="0" y="0">데이터 분</tspan><tspan y="0">석</tspan></text>
-  <text id="이상징후에_대한_소명_요구" data-name="이상징후에 대한 소명 요구" class="cls-16" transform="translate(337.752 136.25)"><tspan class="cls-17" x="0" y="0">이상</tspan><tspan class="cls-18" y="0">징</tspan><tspan class="cls-17" y="0">후에 </tspan><tspan class="cls-18" y="0">대</tspan><tspan class="cls-17" y="0">한 소</tspan><tspan class="cls-18" y="0">명</tspan><tspan class="cls-17" y="0" xml:space="preserve"> 요</tspan><tspan y="0">구</tspan></text>
-  <rect id="사각형_21" data-name="사각형 21" class="cls-15" width="258.903" height="34.5" transform="translate(288.548 112.4)"/>
-  <text id="현장_실사" data-name="현장 실사" class="cls-16" transform="translate(677.198 136.25)"><tspan class="cls-17" x="0" y="0">현장</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">실</tspan><tspan y="0">사</tspan></text>
-  <rect id="사각형_22" data-name="사각형 22" class="cls-15" width="258.903" height="34.5" transform="translate(576.847 112.4)"/>
-  <text id="취약점_도출_및_보호_대책_수립" data-name="취약점 도출 및 보호 대책 수립" class="cls-16" transform="translate(615.398 191.25)"><tspan class="cls-17" x="0" y="0">취약</tspan><tspan class="cls-18" y="0">점</tspan><tspan class="cls-17" y="0" xml:space="preserve"> 도출 </tspan><tspan class="cls-18" y="0">및</tspan><tspan class="cls-17" y="0" xml:space="preserve"> 보호 </tspan><tspan class="cls-18" y="0">대</tspan><tspan class="cls-17" y="0">책 수</tspan><tspan y="0">립</tspan></text>
-  <rect id="사각형_23" data-name="사각형 23" class="cls-15" width="258.903" height="34.5" transform="translate(576.847 167.4)"/>
-  <text id="정보보호교육_이수_등_개선_조치" data-name="정보보호교육 이수 등 개선 조치" class="cls-16" transform="translate(322.3 191.25)"><tspan class="cls-17" x="0" y="0">정</tspan><tspan class="cls-18" y="0">보</tspan><tspan class="cls-17" y="0">보호교육</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">이수 등</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">개선 조</tspan><tspan y="0">치</tspan></text>
-  <rect id="사각형_24" data-name="사각형 24" class="cls-15" width="258.903" height="34.5" transform="translate(288.548 167.4)"/>
-  <rect id="사각형_25" data-name="사각형 25" class="cls-20" width="258.903" height="34.5" transform="translate(0.25 167.4)"/>
-  <text id="시나리오_구현" data-name="시나리오 구현" class="cls-19" transform="translate(87.102 191.25)"><tspan class="cls-17" x="0" y="0">시나리오 구</tspan><tspan y="0">현</tspan></text>
-  <text id="개선_조치_이행" data-name="개선 조치 이행" class="cls-16" transform="translate(661.752 246.255)"><tspan class="cls-17" x="0" y="0">개선</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">조치 이</tspan><tspan y="0">행</tspan></text>
-  <rect id="사각형_26" data-name="사각형 26" class="cls-21" width="258.903" height="34.5" transform="translate(576.847 222.4)"/>
-  <rect id="사각형_27" data-name="사각형 27" class="cls-22" width="258.903" height="34.5" transform="translate(0.25 222.4)"/>
-  <text id="이상징후_탐지" data-name="이상징후 탐지" class="cls-19" transform="translate(87.102 246.25)"><tspan class="cls-17" x="0" y="0">이상징후 탐</tspan><tspan y="0">지</tspan></text>
-  <text id="시스템_기반_위험_점검_및_실사" data-name="시스템 기반 위험 점검 및 실사" class="cls-23" transform="translate(0 20)"><tspan class="cls-17" x="0" y="0">시스템 기반 위험 점검 및 실</tspan><tspan y="0">사</tspan></text>
+  <g id="구성_요소_31_1" data-name="구성 요소 31 – 1" transform="translate(0.25)">
+    <rect id="사각형_14" data-name="사각형 14" class="cls-1" width="253.53" height="36.75" transform="translate(582.597)"/>
+    <rect id="사각형_15" data-name="사각형 15" class="cls-1" width="544.176" height="36.75" transform="translate(6)"/>
+    <line id="선_113" data-name="선 113" class="cls-2" y2="13.92" transform="translate(129.452 94.392)"/>
+    <path id="패스_49" data-name="패스 49" class="cls-3" d="M5468.2,5959.067h0m0-17.133h0" transform="translate(-5338.75 -5849.684)"/>
+    <path id="패스_50" data-name="패스 50" class="cls-4" d="M5471.625,5955.385l-3.424,3.682-3.423-3.682" transform="translate(-5338.75 -5849.684)"/>
+    <line id="선_114" data-name="선 114" class="cls-5" y2="13.92" transform="translate(417.75 94.392)"/>
+    <path id="패스_51" data-name="패스 51" class="cls-6" d="M5756.5,5959.067h0m0-17.133h0" transform="translate(-5338.75 -5849.684)"/>
+    <path id="패스_52" data-name="패스 52" class="cls-7" d="M5759.924,5955.385l-3.424,3.682-3.423-3.682" transform="translate(-5338.75 -5849.684)"/>
+    <line id="선_115" data-name="선 115" class="cls-5" y2="13.92" transform="translate(706.048 94.392)"/>
+    <path id="패스_53" data-name="패스 53" class="cls-6" d="M6044.8,5959.067h0m0-17.133h0" transform="translate(-5338.75 -5849.684)"/>
+    <path id="패스_54" data-name="패스 54" class="cls-7" d="M6048.222,5955.385l-3.424,3.682-3.423-3.682" transform="translate(-5338.75 -5849.684)"/>
+    <line id="선_116" data-name="선 116" class="cls-8" y2="13.92" transform="translate(706.048 149.742)"/>
+    <path id="패스_55" data-name="패스 55" class="cls-9" d="M6044.8,6014.416h0m0-17.133h0" transform="translate(-5338.75 -5849.684)"/>
+    <path id="패스_56" data-name="패스 56" class="cls-10" d="M6048.222,6010.734l-3.424,3.682-3.423-3.682" transform="translate(-5338.75 -5849.684)"/>
+    <line id="선_117" data-name="선 117" class="cls-2" y2="13.92" transform="translate(129.452 149.742)"/>
+    <path id="패스_57" data-name="패스 57" class="cls-3" d="M5468.2,6014.416h0m0-17.133h0" transform="translate(-5338.75 -5849.684)"/>
+    <path id="패스_58" data-name="패스 58" class="cls-4" d="M5471.625,6010.734l-3.424,3.682-3.423-3.682" transform="translate(-5338.75 -5849.684)"/>
+    <line id="선_118" data-name="선 118" class="cls-11" x2="11.51" transform="translate(261.191 184.75)"/>
+    <line id="선_119" data-name="선 119" class="cls-12" y1="106.827" transform="translate(273.746 75.808)"/>
+    <line id="선_120" data-name="선 120" class="cls-13" x2="7.344" transform="translate(275.844 74.75)"/>
+    <path id="패스_59" data-name="패스 59" class="cls-6" d="M5622.987,5924.434h0m-10.491,0h0m0,110h0m-14.646,0h0" transform="translate(-5338.75 -5849.684)"/>
+    <path id="패스_60" data-name="패스 60" class="cls-7" d="M5619.3,5921.01l3.684,3.424-3.684,3.423" transform="translate(-5338.75 -5849.684)"/>
+    <rect id="사각형_16" data-name="사각형 16" class="cls-14" width="544.176" height="33.5" transform="translate(0 0.25)"/>
+    <rect id="사각형_17" data-name="사각형 17" class="cls-15" width="544.176" height="33.5" transform="translate(0 0.25)"/>
+    <text id="개인정보_이상징후_탐지시스템_기반_위험_진단" data-name="개인정보 이상징후 탐지시스템 기반 위험 진단" class="cls-16" transform="translate(133.938 23.6)"><tspan class="cls-17" x="0" y="0">개인정보 이상징후 탐지시스템 기반 위험 </tspan><tspan class="cls-18" y="0">진</tspan><tspan y="0">단</tspan></text>
+    <rect id="사각형_18" data-name="사각형 18" class="cls-14" width="253.53" height="33.5" transform="translate(576.597 0.25)"/>
+    <rect id="사각형_19" data-name="사각형 19" class="cls-15" width="253.53" height="33.5" transform="translate(576.597 0.25)"/>
+    <text id="실사" class="cls-16" transform="translate(691.237 23.128)"><tspan class="cls-17" x="0" y="0">실</tspan><tspan y="0">사</tspan></text>
+    <rect id="사각형_20" data-name="사각형 20" class="cls-1" width="258.903" height="34.5" transform="translate(0 57.5)"/>
+    <text id="데이터_분석" data-name="데이터 분석" class="cls-19" transform="translate(93.602 81.35)"><tspan class="cls-17" x="0" y="0">데이터 분</tspan><tspan y="0">석</tspan></text>
+    <text id="이상징후에_대한_소명_요구" data-name="이상징후에 대한 소명 요구" class="cls-16" transform="translate(337.502 81.35)"><tspan class="cls-17" x="0" y="0">이상</tspan><tspan class="cls-18" y="0">징</tspan><tspan class="cls-17" y="0">후에 </tspan><tspan class="cls-18" y="0">대</tspan><tspan class="cls-17" y="0">한 소</tspan><tspan class="cls-18" y="0">명</tspan><tspan class="cls-17" y="0" xml:space="preserve"> 요</tspan><tspan y="0">구</tspan></text>
+    <rect id="사각형_21" data-name="사각형 21" class="cls-15" width="258.903" height="34.5" transform="translate(288.298 57.5)"/>
+    <text id="현장_실사" data-name="현장 실사" class="cls-16" transform="translate(676.948 81.35)"><tspan class="cls-17" x="0" y="0">현장</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">실</tspan><tspan y="0">사</tspan></text>
+    <rect id="사각형_22" data-name="사각형 22" class="cls-15" width="258.903" height="34.5" transform="translate(576.597 57.5)"/>
+    <text id="취약점_도출_및_보호_대책_수립" data-name="취약점 도출 및 보호 대책 수립" class="cls-16" transform="translate(615.148 136.35)"><tspan class="cls-17" x="0" y="0">취약</tspan><tspan class="cls-18" y="0">점</tspan><tspan class="cls-17" y="0" xml:space="preserve"> 도출 </tspan><tspan class="cls-18" y="0">및</tspan><tspan class="cls-17" y="0" xml:space="preserve"> 보호 </tspan><tspan class="cls-18" y="0">대</tspan><tspan class="cls-17" y="0">책 수</tspan><tspan y="0">립</tspan></text>
+    <rect id="사각형_23" data-name="사각형 23" class="cls-15" width="258.903" height="34.5" transform="translate(576.597 112.5)"/>
+    <text id="정보보호교육_이수_등_개선_조치" data-name="정보보호교육 이수 등 개선 조치" class="cls-16" transform="translate(322.05 136.35)"><tspan class="cls-17" x="0" y="0">정</tspan><tspan class="cls-18" y="0">보</tspan><tspan class="cls-17" y="0">보호교육</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">이수 등</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">개선 조</tspan><tspan y="0">치</tspan></text>
+    <rect id="사각형_24" data-name="사각형 24" class="cls-15" width="258.903" height="34.5" transform="translate(288.298 112.5)"/>
+    <rect id="사각형_25" data-name="사각형 25" class="cls-20" width="258.903" height="34.5" transform="translate(0 112.5)"/>
+    <text id="시나리오_구현" data-name="시나리오 구현" class="cls-19" transform="translate(86.852 136.35)"><tspan class="cls-17" x="0" y="0">시나리오 구</tspan><tspan y="0">현</tspan></text>
+    <text id="개선_조치_이행" data-name="개선 조치 이행" class="cls-16" transform="translate(661.502 191.355)"><tspan class="cls-17" x="0" y="0">개선</tspan><tspan class="cls-18" y="0"> </tspan><tspan class="cls-17" y="0">조치 이</tspan><tspan y="0">행</tspan></text>
+    <rect id="사각형_26" data-name="사각형 26" class="cls-21" width="258.903" height="34.5" transform="translate(576.597 167.5)"/>
+    <rect id="사각형_27" data-name="사각형 27" class="cls-22" width="258.903" height="34.5" transform="translate(0 167.5)"/>
+    <text id="이상징후_탐지" data-name="이상징후 탐지" class="cls-19" transform="translate(86.852 191.35)"><tspan class="cls-17" x="0" y="0">이상징후 탐</tspan><tspan y="0">지</tspan></text>
+  </g>
 </svg>

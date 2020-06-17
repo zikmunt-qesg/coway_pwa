@@ -3,7 +3,7 @@
     <b-container class="gray4">
         <b-row>
             <b-col class="col-3">
-                <b-img class="header-logo" src="@/assets/images/coway-ci.svg" alt="Logo" /> 
+                <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /> 
             </b-col>
             <b-col class="col-9">
                 <div class="row">

@@ -4,7 +4,7 @@
         <b-navbar class="px-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" toggleable="lg" variant="light" style="z-index:10">
             <b-navbar-brand class="my-3">
                 <nuxt-link to="/">
-                    <b-img class="header-logo" src="@/assets/images/coway-ci.svg" alt="Logo" /> 
+                    <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /> 
                     <span class="f-90 align-self-center d-none d-md-inline"> Sustainability 2020</span>
                 </nuxt-link>
             </b-navbar-brand>   

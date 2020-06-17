@@ -113,11 +113,11 @@
                             </b-tr>                                
                         </b-tbody>                                
                     </b-table-simple>
-                    <b-row class="mb-45">
-                        <b-col class="col-12 col-sm-6 mb-5 mb-md-0" style="height:250px"><b-img src="/images/사각형 66@2x.png" fluid class="h-100"></b-img>
+                    <b-row class="">
+                        <b-col class="col-12 col-sm-6 mb-5 mb-md-0"><b-img src="/images/사각형 66@2x.png" fluid></b-img>
                             <p class="f-80 mt-2">사계절 의류청정기 더블케어 FAD-01S</p>
                         </b-col>
-                        <b-col class="col-12 col-sm-6 " style="height:250px"><b-img src="/images/사각형 69@2x.png" fluid class="h-100"></b-img>
+                        <b-col class="col-12 col-sm-6 "><b-img src="/images/사각형 69@2x.png" fluid></b-img>
                             <p class="f-80 mt-2">2020 CES</p>
                         </b-col>
                     </b-row>
@@ -132,7 +132,7 @@
                         </p>
                     </b-col>
                     <b-col class="col-12 col-sm-6 line-height-low">
-                        <div class="w-100 mb-3"><b-img src="/images/구성 요소21_1.svg" fluid class="w-100"></b-img></div>
+                        <div class="w-100 mb-3"><hj-img src="/images/구성 요소21_1.svg" fluid class="w-100"></hj-img></div>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
                             <li> NPS(순추천 지수 = 추천 고객비율 - 비추천 고객 비율)를 통해 고객만족도를 측정함
                             </li>
@@ -148,7 +148,7 @@
                     <p class="mb-45"> 워터맵 서비스는 국내외 각지의 물을 채취·분석해 수질 데이터베이스를 구축한 뒤 이를 기반으로 고객 수질 환경에 따른 맞춤 필터를 파악하고, 고객의 다양한 상황을 고려해 최종적으로 적합한 제품을 추천해주는 서비스입니다. 빅데이터 분석* 기반의 추천 서비스를 통해 고객이 속한 지역적 특성에 맞는 필터 및 제품을 사용할 수 있도록 차별화된 가치를 제공하고 있습니다.
                     </p>
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">                    
-                    <b-img src="/images/62_1@3x.png" fluid></b-img> 
+                    <hj-img src="/images/62_1@3x.png" fluid></hj-img> 
                     <p class="f-80 mt-2">코웨이 글로벌 워터맵 / 국내 워터맵</p>
                     <hr class="space-p25">
                     <p class="f-90 letter-narrow"> 1단계 : ‘모바일 워터맵 서비스 페이지’ 접속 &rarr; 2단계 : 거주하는 지역, 건물의 연식, 원수 종류 등의 정보 입력 &rarr; 3단계 : 입력 정보 기반으로 수질 데이터베이스 이용해 수질 환경 분석 &rarr; 4단계 : 수질 환경에 알맞은 필터를 파악, 사용 장소, 필요 기능, 사용자 수 등을 고려해 맞춤 정수기 추천</p>
@@ -196,7 +196,7 @@
                         </b-col>
                         <b-col class="col-12 col-md-6 d-flex flex-row flex-md-column align-items-center">
                             <div class="text-center d-none d-sm-block mb-md-4 px-md-5"><b-img src="/images/33@3x.png" fluid></b-img></div>
-                            <div class="text-center"><b-img src="/images/9_1@3x.png" fluid class="w-100"></b-img> </div>
+                            <div class="text-center"><hj-img src="/images/9_1@3x.png" fluid class="w-100"></hj-img> </div>
                         </b-col>
                     </b-row>
                     <h7 class="mb-3 gray63"> 지식재산권 보유 현황 <span class="f-80 fw-300"> (단위: 건)</span></h7>

@@ -25,7 +25,7 @@
                         <div class="my-5 my-md-4 my-md-5 py-4 py-sm-2 py-md-4"></div>
                         <div class="px-2 f-105 mb-4 border border-white fw-300">제품과 서비스의 혁신</div>
                         <div class="d-flex justify-content-between align-items-center"> 
-                            <b-img src="@/assets/images/사각형33.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img> 
+                            <b-img src="/images/사각형33.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img> 
                             <div class="card-plus" @click="$router.push('/static_page/제품과-서비스의-혁신')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                         </div>
                     </b-card>
@@ -38,7 +38,7 @@
                         <div class="my-5 my-md-4 my-md-5 py-4 py-sm-2 py-md-4"></div>
                         <div class="px-2 f-105 mb-4 border border-white fw-300">제품 책임</div>
                         <div class="d-flex justify-content-between align-items-center"> 
-                            <b-img src="@/assets/images/사각형37.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
+                            <b-img src="/images/사각형37.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
                             <div class="card-plus" @click="$router.push('/static_page/제품-책임')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                         </div>
                     </b-card>
@@ -51,7 +51,7 @@
                         <div class="my-5 my-md-4 my-md-5 py-4 py-sm-2 py-md-4"></div>
                         <div class="px-2 f-105 mb-4 border border-white fw-300">데이터 및 개인정보 보호</div>
                         <div class="d-flex justify-content-between align-items-center"> 
-                            <b-img src="@/assets/images/사각형40.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
+                            <b-img src="/images/사각형40.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
                             <div class="card-plus"  @click="$router.push('/static_page/데이터-및-개인정보-보호')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                         </div>
                     </b-card>
@@ -86,7 +86,7 @@
                     </div>
                 </b-col>
                 <b-col class="col-12 col-md-4 border-right-gray-bold">
-                    <div class="temp-icon7 px-2 mb-45"><b-img src="@/assets/images/구성 요소2_1.png" fluid></b-img> </div>
+                    <div class="temp-icon7 px-2 mb-45"><b-img src="/images/구성 요소2_1.png" fluid></b-img> </div>
                     <p class="blue7 fw-500 pt-1 f-105"> 제품과 서비스 혁신 </p>
                     <div class="blue7 fw-400 f-110"> 본질적 가치를 높이는 제품과 서비스 혁신으로 CES에서 5년 연속 혁신상을 수상했습니다. 
                     </div>
@@ -94,7 +94,7 @@
                 <b-col class="col-12 col-md-4">
                     <div class="d-flex justify-content-between align-items-start mb-45">
                         <div class="blue7 main1-card-num fw-300">95.7%</div>
-                        <div class="temp-icon7 text-right"><b-img src="@/assets/images/구성 요소1_1.png" fluid class="h-100"></b-img></div>
+                        <div class="temp-icon7 text-right"><b-img src="/images/구성 요소1_1.png" fluid class="h-100"></b-img></div>
                     </div>
                     <p class="my-3 f-105 gray67 fw-400"> 2019년 말 기준 국내외 000 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
                     </p>
@@ -107,18 +107,18 @@
                     <div class="d-flex justify-content-between align-items-end">
                         <p class="gray67 pr-4 f-105 fw-400"> 코로나바이러스19로 많은 지원이 필요한 지역사회에 10억원을 기부했습니다. 이 성금은 방호 물품, 진단키트 등 의료 물품 부족에 직면한 전국 의료진에 대한 지원과 의료복지 시설 방역에 사용되었습니다. 
                         </p>
-                        <div class="temp-icon5"> <b-img src="@/assets/images/구성 요소3_1.png" fluid class="w-100"></b-img></div>
+                        <div class="temp-icon5"> <b-img src="/images/구성 요소3_1.png" fluid class="w-100"></b-img></div>
                     </div>
                 </b-col>
                 <b-col class="col-12 col-md-4 border-right-gray-bold blue7 ">
                     <div class="mb-5 f-105 fw-500"> 물과 공기 나눔 <span class="gray6 f-80">(2015~2019년 누적)</span></div>
                     <b-row>
                         <b-col class="col-6 text-center">
-                            <div class="temp-icon5 mb-3"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon5 mb-3"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
                             <p class="fw-500 f-105">생명의 물 나눔</p> <p class="num-extra-margin" style="margin-bottom: -1em;"><span class="main1-card-num fw-300 f-105">875</span>대</p>
                         </b-col>
                         <b-col class="col-6 text-center">
-                            <div class="temp-icon5 mb-3"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon5 mb-3"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
                             <p class="fw-500 f-105">청정한 공기 나눔</p> <p class="num-extra-margin" style="margin-bottom: -1em;"> <span class="main1-card-num fw-300 f-105">450</span>대</p>
                         </b-col>
                     </b-row>
@@ -139,7 +139,7 @@
                         <div class="blue7 fw-400"><p class="f-105 fw-500"> 매출액 </p> 
                             <p class="num-extra-margin f-105 mb-m-2"><span class="main1-card-num fw-300">5,529</span>억 원</p>
                         </div>
-                        <div class="temp-icon5 text-right" style="max-width: 100px"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
+                        <div class="temp-icon5 text-right" style="max-width: 100px"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
                     </div>
                 </b-col>
                 <b-col class="col-12 col-md-4 border-right-gray-bold">
@@ -166,8 +166,8 @@
                 <b-col class="col-12 col-md-4">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div class="blue7 main1-card-num mb-3 fw-300">99.1%</div>
-                        <div class="temp-icon5 text-right mr-3" style="max-width: 100px"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
-                        <!-- <div class="temp-icon6 mt-1"><b-img src="@/assets/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
+                        <div class="temp-icon5 text-right mr-3" style="max-width: 100px"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div>
+                        <!-- <div class="temp-icon6 mt-1"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
                     <div class="blue7 fw-500 f-105 mb-2"> 폐기물 재활용률 </div>
                     <p class="blue7 f-110 fw-400"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 

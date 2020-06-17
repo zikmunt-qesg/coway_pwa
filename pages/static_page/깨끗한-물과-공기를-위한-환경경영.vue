@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
                             <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 green7">
-                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/구성 요소8_1@2x.png" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
@@ -40,29 +40,29 @@
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">친환경 · 착한 브랜드 정립</p>
+                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">친환경 · 착한 브랜드 정립</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">에코 비즈니스 (Eco-Business) 구축</p>
+                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">에코 비즈니스 (Eco-Business) 구축</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">친환경 가치사슬 구축 및 운영</p>
+                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">친환경 가치사슬 구축 및 운영</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">친환경 소통과 참여 확대</p>
+                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">친환경 소통과 참여 확대</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-12 col-sm-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-md-2 px-xl-4">Ecoway 협의체 부문 확대</p>
                                     </b-col>
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-12 col-sm-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-md-2 px-xl-4">전과정 수자원 절감</p>
                                     </b-col>
                                 </b-row>
@@ -71,11 +71,11 @@
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center">                                    
-                                    <b-col class="col-7 pr-xl-2">
+                                    <b-col class="col-12 col-sm-7 pr-xl-2">
                                         <p class="fw-500 word-break">2050년까지 신재생에너지 RE100, 탄소 배출량 제로 NET ZERO 달성 </p>
                                         <p class="f-90 fw-300 word-break">(2030년 신재생 50%, 2040년 75%, 2050년 100%)</p>
                                     </b-col>
-                                    <b-col class="col-5"><div class="temp-icon3 mx-auto"><b-img src="/images/구성 요소15_1.svg" fluid class="w-100"></b-img></div></b-col>
+                                    <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/구성 요소15_1.svg" fluid class="w-100"></b-img></div></b-col>
                                 </b-row>
                             </b-col>
                         </b-row>

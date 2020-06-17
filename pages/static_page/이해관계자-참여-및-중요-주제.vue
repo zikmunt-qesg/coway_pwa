@@ -30,14 +30,10 @@
 
                     <!-- <hr class=""> -->
                         <h7 class="mb-3 gray63">이해관계자 커뮤니케이션 채널</h7>
-                        <b-table-simple responsive class="sep-table f-90 mb-1">
+                        <b-table-simple responsive class="sep-table f-90 mb-5">
                             <b-tbody><b-tr class="bg-parang7 fw-300 text-white">
                                 <b-td class="border-0" style="width: 15%">이해관계자</b-td><b-td class="border-0" style="width: 38%">커뮤니케이션 채널</b-td><b-td class="border-0" style="width: 17%">커뮤니케이션 빈도</b-td><b-td class="border-0">주요 관심사</b-td>
-                            </b-tr></b-tbody>
-                        </b-table-simple>
-
-                        <b-table-simple responsive class="sep-table f-90 mb-5" style="border-bottom: 0.5px solid $gray3;">
-                            <b-tbody>
+                            </b-tr>
                                 <b-tr>
                                     <b-td rowspan="3" style="width: 15%">고객<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td style="width: 38%">기업 홈페이지</b-td><b-td style="width: 17%">수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>제품 안전성 및 품질 책임</li><li>철저한 개인정보보호</li><li>제품 및 서비스 체험 및 경험</li><li>고객 불편사항의 즉각적 해소</li></ul></b-td>
                                 </b-tr>
@@ -127,7 +123,7 @@
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-6">
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">글로벌 지속가능성 표준 및 이니셔티브</div>
-                            <div class="px-md-3 py-3 border-bottom-dark">
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
                                 <p class="parang6 fw-400 pt-2 pb-1"> 지속가능경영 보고 표준의 정보공개 요건, 글로벌 지속가능성 관련 표준 및 이니셔티브 주요 이슈 반영
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90">
@@ -140,9 +136,9 @@
                             </div>
                         </b-col>
                         <b-col class="col-12 col-sm-6 position-relative">
-                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 80%; top: 20%;"></div>
+                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 20%;"></div>
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">미디어 및 커뮤니케이션 키워드 분석</div>
-                            <div class="px-md-3 py-3 border-bottom-dark">
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
                                 <p class="parang6 fw-400 pt-2 pb-1"> 미디어 리서치를 통한 코웨이 지속가능경영 이슈 노출도 및 긍정/부정 이슈 분석
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90 mb-3">
@@ -166,7 +162,7 @@
                     <b-row class="mb-3">
                         <b-col class="col-12 col-sm-6">
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">내부 연관성(Internal Relevance)</div>
-                            <div class="px-md-3 py-3 border-bottom-dark ">
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
                                 <p class="parang6 fw-400 pt-2 pb-1"> 코웨이 지속가능경영 추진 전략, 정책 및 현황 분석 기반 내부 주요 이슈 도출
                                 </p>
                                 <ul class="custom-ul fw-300 f-90 mb-45">
@@ -177,9 +173,9 @@
                             </div>
                         </b-col>
                         <b-col class="col-12 col-sm-6 position-relative">
-                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 80%; top: 20%;"></div>
+                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 20%;"></div>
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">산업적 연관성(Industrial Relevance)</div>
-                            <div class="px-md-3 py-3 border-bottom-dark">
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
                                 <p class="parang6 fw-400 pt-2 pb-1"> 산업 내 동종기업 보고 이슈 및 맥락 심층 리뷰 및 글로벌 지속가능성 평가의 산업 특수 평가 지표 분석
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90">
@@ -206,7 +202,7 @@
                     <h6-ancor :title="'Step 3. 중요 주제 보고'" :activated="activated" class="parang6 mb-3 font-noto">Step 3. 중요 주제 보고</h6-ancor>
                     <p class="mb-45">중대성 평가로 도출된 코웨이의 중요 주제는 총 10개로 도출되었습니다. 코웨이는 각 중요 주제의 사업적-사회적 배경과 핵심 KPI에 대해 보고하고 있으며, 상세 전략 및 활동, 성과와 비즈니스 케이스에 대해 본 지속가능경영 웹 리포트 전반에 걸쳐 보고하고 있습니다.
                     </p>
-                    <b-img src="/images/14_1.svg" fluid></b-img>
+                    <hj-img src="/images/14_1.svg" fluid></hj-img>
                     <hr class="space-p25">
                     <div style="border-bottom: 1.2px solid #6095dd;"> </div>
                         <b-table-simple responsive class="txt-table sustainability-table f-95 mb-5">
@@ -319,7 +315,7 @@
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
                             <div class="d-md-flex pt-2">
-                                <div class="fw-500 mr-3 w-25 mb-2 mb-md-0">임직원 정보보호 교육 참여율</div>
+                                <div class="fw-500 mr-3 mb-3 mb-md-0">임직원 정보보호 교육 참여율</div>
                                 <div><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
                             </div>
                         </b-col>
@@ -384,3 +380,13 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+.adjust-height-80{
+    height: 80%;
+}
+@media (max-width: 576px) {
+    .adjust-height-80{
+        height: auto;
+    }
+}
+</style>
