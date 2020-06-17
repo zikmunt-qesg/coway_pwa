@@ -1,0 +1,89 @@
+<svg id="구성_요소_63_1" data-name="구성 요소 63 – 1" xmlns="http://www.w3.org/2000/svg" width="385.771" height="214.397" viewBox="0 0 385.771 214.397">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #42454a;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 2.983;
+      }
+
+      .cls-4 {
+        fill: #f4f6f7;
+      }
+
+      .cls-5 {
+        fill: #f0c560;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-7 {
+        fill: #1e2323;
+      }
+
+      .cls-11, .cls-7 {
+        font-size: 17px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #132d53;
+        font-size: 32px;
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-10 {
+        font-size: 16px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-10, .cls-11 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-11 {
+        fill: #99691d;
+      }
+    </style>
+  </defs>
+  <g id="그룹_235" data-name="그룹 235" transform="translate(0 213.897)">
+    <path id="패스_608" data-name="패스 608" class="cls-1" d="M0,0H385.771" transform="translate(0 0)"/>
+  </g>
+  <g id="그룹_224" data-name="그룹 224" transform="translate(157.933 48.213)">
+    <path id="패스_588" data-name="패스 588" class="cls-2" d="M0,0H129.747"/>
+  </g>
+  <g id="그룹_225" data-name="그룹 225" transform="translate(154.95 48.213)">
+    <path id="패스_589" data-name="패스 589" class="cls-3" d="M0,0H0M134.221,0h0"/>
+  </g>
+  <g id="그룹_226" data-name="그룹 226" transform="translate(94.453 90)">
+    <path id="패스_590" data-name="패스 590" class="cls-4" d="M0,0-52.9,72.811A90,90,0,0,1-72.809-52.9C-55.28-77.028-29.822-90,0-90Z"/>
+  </g>
+  <g id="그룹_227" data-name="그룹 227" transform="translate(94.453 90)">
+    <path id="패스_591" data-name="패스 591" class="cls-5" d="M0,0V-90A90,90,0,0,1,90,0,90,90,0,0,1,0,90,86.228,86.228,0,0,1-52.9,72.811Z"/>
+  </g>
+  <g id="그룹_228" data-name="그룹 228" transform="translate(94.45 158.93)">
+    <path id="패스_592" data-name="패스 592" class="cls-6" d="M0,0A68.933,68.933,0,0,0,68.931-68.934,68.933,68.933,0,0,0,0-137.867,68.933,68.933,0,0,0-68.931-68.934,68.933,68.933,0,0,0,0,0"/>
+  </g>
+  <text id="_" data-name=" " class="cls-7" transform="translate(217.52 95.713)"><tspan x="0" y="0"> </tspan></text>
+  <g id="그룹" transform="translate(-13.669 237.157)">
+    <text id="_57_" data-name="57%" class="cls-8" transform="translate(235.608 -141.444)"><tspan x="0" y="0">57%</tspan></text>
+    <text id="_2" data-name=" " class="cls-9" transform="translate(297.592 -141.444)"><tspan x="0" y="0"> </tspan></text>
+  </g>
+  <text id="_56.7점_" data-name="(56.7점)" class="cls-10" transform="translate(229.197 118.713)"><tspan x="0" y="0">(56.7점)</tspan></text>
+  <text id="기준_충족률" data-name="기준 충족률" class="cls-11" transform="translate(54.45 97.193)"><tspan x="0" y="0">기준 충족률</tspan></text>
+</svg>

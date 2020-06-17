@@ -17,7 +17,6 @@
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2"></b-navbar-toggle>
                 </div>
-                <div >
                 <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto">
                     <b-navbar-nav class="ml-lg-3 align-self-center" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
                         <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-2 py-2 f-90 global-nav-lv1']"  >
@@ -25,11 +24,10 @@
                             <div v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 py-1" >
                                <span @click.stop="routerGo(level2_item.link)"> {{ level2_item.title }}</span>
                             </div> 
-                            <div class="d-block d-lg-none f-60">&nbsp;</div>    
+                            <!-- <div class="d-block d-lg-none f-60">&nbsp;</div>     -->
                     </b-navbar-nav>
                 </b-collapse>
                 </div>           
-            </div>           
         </b-navbar>
 
         <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">

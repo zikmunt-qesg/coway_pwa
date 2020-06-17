@@ -1,0 +1,148 @@
+<svg id="구성_요소_36_1" data-name="구성 요소 36 – 1" xmlns="http://www.w3.org/2000/svg" width="796.931" height="230.187" viewBox="0 0 796.931 230.187">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f7f7;
+      }
+
+      .cls-2, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #5171b1;
+        stroke-miterlimit: 10;
+        stroke-width: 0.8px;
+      }
+
+      .cls-3 {
+        fill: #5171b1;
+      }
+
+      .cls-10, .cls-3 {
+        font-size: 16px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-8 {
+        stroke: #3e3a39;
+      }
+
+      .cls-9 {
+        fill: #78a5e2;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.019em;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_37" data-name="사각형 37" class="cls-1" width="795.73" height="196.836" transform="translate(1.065 33.351)"/>
+  <line id="선_153" data-name="선 153" class="cls-2" x2="128" transform="translate(16 77.637)"/>
+  <text id="리스크_인지_및_보고" data-name="리스크 인지 및 보고" class="cls-3" transform="translate(16 75.237)"><tspan class="cls-4" x="0" y="0">리스크 인지 및 보</tspan><tspan y="0">고</tspan></text>
+  <text id="_·_" data-name="· " class="cls-5" transform="translate(0 102.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_" data-name="	" class="cls-5" transform="translate(7.015 102.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="각_부서에서_실시간_정보_" data-name="각 부서에서 실시간 정보 " class="cls-5" transform="translate(7.015 102.237)"><tspan class="cls-6" x="0" y="0">각 </tspan><tspan class="cls-7" y="0">부</tspan><tspan class="cls-6" y="0">서</tspan><tspan class="cls-7" y="0">에</tspan><tspan class="cls-6" y="0">서</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">실시간 </tspan><tspan class="cls-7" y="0">정</tspan><tspan y="0">보 </tspan></text>
+  <text id="_2" data-name="	" class="cls-5" transform="translate(148.554 102.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="수집_위기평가_회의_준비" data-name="수집, 위기평가 회의 준비" class="cls-5" transform="translate(7.015 124.231)"><tspan class="cls-6" x="0" y="0">수집, 위기평가 </tspan><tspan class="cls-7" y="0">회</tspan><tspan class="cls-6" y="0">의</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">준</tspan><tspan y="0">비</tspan></text>
+  <line id="선_154" data-name="선 154" class="cls-2" x2="131.84" transform="translate(175.489 77.637)"/>
+  <line id="선_155" data-name="선 155" class="cls-2" x2="62.08" transform="translate(208.449 100.637)"/>
+  <text id="영향도_분석_및_대응_" data-name="영향도 분석 및 대응 " class="cls-3" transform="translate(175.489 75.237)"><tspan class="cls-4" x="0" y="0">영향도 분석 및 대</tspan><tspan y="0">응 </tspan></text>
+  <text id="_3" data-name=" " class="cls-3" transform="translate(307.329 75.237)"><tspan x="0" y="0"> </tspan></text>
+  <text id="체계_수립" data-name="체계 수립" class="cls-3" transform="translate(208.449 98.229)"><tspan class="cls-4" x="0" y="0">체계 수</tspan><tspan y="0">립</tspan></text>
+  <text id="_·_2" data-name="· " class="cls-5" transform="translate(159.489 125.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_4" data-name="	" class="cls-5" transform="translate(166.503 125.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="리스크_정보_분석_및_영향_" data-name="리스크 정보 분석 및 영향 " class="cls-5" transform="translate(166.503 125.237)"><tspan class="cls-6" x="0" y="0">리스크</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">정</tspan><tspan class="cls-7" y="0">보</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 분석 </tspan><tspan class="cls-7" y="0">및</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 영</tspan><tspan y="0">향 </tspan></text>
+  <text id="_5" data-name="	" class="cls-5" transform="translate(311.753 125.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="수준_평가_위기경보_발령" data-name="수준 평가, 위기경보 발령" class="cls-5" transform="translate(166.503 147.231)"><tspan class="cls-6" x="0" y="0">수준 </tspan><tspan class="cls-7" y="0">평</tspan><tspan class="cls-6" y="0">가,</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">위</tspan><tspan class="cls-7" y="0">기</tspan><tspan class="cls-6" y="0">경</tspan><tspan class="cls-7" y="0">보</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 발</tspan><tspan y="0">령</tspan></text>
+  <text id="_·_3" data-name="· " class="cls-5" transform="translate(159.489 174.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_6" data-name="	" class="cls-5" transform="translate(166.503 174.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="대응방향_및_주요_지침_결" data-name="대응방향 및 주요 지침 결" class="cls-5" transform="translate(166.503 174.237)"><tspan class="cls-6" x="0" y="0">대응방향 </tspan><tspan class="cls-7" y="0">및</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 주요 </tspan><tspan class="cls-7" y="0">지</tspan><tspan class="cls-6" y="0">침</tspan><tspan class="cls-7" y="0"> </tspan><tspan y="0">결</tspan></text>
+  <text id="정_대응방안_수립" data-name="정, 대응방안 수립" class="cls-5" transform="translate(166.503 196.231)"><tspan class="cls-6" x="0" y="0">정, 대응방안 </tspan><tspan class="cls-7" y="0">수</tspan><tspan y="0">립</tspan></text>
+  <line id="선_156" data-name="선 156" class="cls-2" x2="95.04" transform="translate(510.948 77.637)"/>
+  <text id="대응_활동_추진" data-name="대응 활동 추진" class="cls-3" transform="translate(510.948 75.237)"><tspan class="cls-4" x="0" y="0">대응 활동 추</tspan><tspan y="0">진</tspan></text>
+  <text id="_·_4" data-name="· " class="cls-5" transform="translate(486.468 102.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_7" data-name="	" class="cls-5" transform="translate(493.481 102.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="상호_협력_기반_리스크_" data-name="상호 협력 기반 리스크 " class="cls-5" transform="translate(493.481 102.237)"><tspan class="cls-6" x="0" y="0">상</tspan><tspan class="cls-7" y="0">호 </tspan><tspan class="cls-6" y="0">협</tspan><tspan class="cls-7" y="0">력</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-7" y="0">기반</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-7" y="0">리</tspan><tspan class="cls-6" y="0">스</tspan><tspan y="0">크 </tspan></text>
+  <text id="_8" data-name="	" class="cls-5" transform="translate(622.352 102.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="대응_활동_수행" data-name="대응 활동 수행" class="cls-5" transform="translate(493.481 124.231)"><tspan class="cls-6" x="0" y="0">대</tspan><tspan class="cls-7" y="0">응 </tspan><tspan class="cls-6" y="0">활</tspan><tspan class="cls-7" y="0">동</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-7" y="0">수</tspan><tspan y="0">행</tspan></text>
+  <line id="선_157" data-name="선 157" class="cls-2" x2="113.28" transform="translate(663.237 77.637)"/>
+  <line id="선_158" data-name="선 158" class="cls-2" x2="57.92" transform="translate(688.997 100.637)"/>
+  <text id="리스크_대응_현황_" data-name="리스크 대응 현황 " class="cls-3" transform="translate(663.237 75.237)"><tspan class="cls-4" x="0" y="0">리스크 대응 현</tspan><tspan y="0">황 </tspan></text>
+  <text id="_9" data-name=" " class="cls-3" transform="translate(776.517 75.237)"><tspan x="0" y="0"> </tspan></text>
+  <text id="모니터링" class="cls-3" transform="translate(688.997 98.229)"><tspan class="cls-4" x="0" y="0">모니터</tspan><tspan y="0">링</tspan></text>
+  <text id="_·_5" data-name="· " class="cls-5" transform="translate(637.957 125.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_10" data-name="	" class="cls-5" transform="translate(644.971 125.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="리스크_모니터링_및_감사" data-name="리스크 모니터링 및 감사" class="cls-5" transform="translate(644.971 125.237)"><tspan class="cls-7" x="0" y="0">리</tspan><tspan class="cls-6" y="0">스크</tspan><tspan class="cls-7" y="0" xml:space="preserve"> 모</tspan><tspan class="cls-6" y="0">니</tspan><tspan class="cls-7" y="0">터</tspan><tspan class="cls-6" y="0">링</tspan><tspan class="cls-7" y="0" xml:space="preserve"> 및</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-7" y="0">감</tspan><tspan y="0">사</tspan></text>
+  <line id="선_159" data-name="선 159" class="cls-2" x2="76.48" transform="translate(360.739 77.637)"/>
+  <text id="경영진_보고" data-name="경영진 보고" class="cls-3" transform="translate(360.739 75.237)"><tspan class="cls-4" x="0" y="0">경영진 보</tspan><tspan y="0">고</tspan></text>
+  <text id="_·_6" data-name="· " class="cls-5" transform="translate(323.979 102.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_11" data-name="	" class="cls-5" transform="translate(330.993 102.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="리스크_현안_보고_및_핵심_" data-name="리스크 현안 보고 및 핵심 " class="cls-5" transform="translate(330.993 102.237)"><tspan class="cls-7" x="0" y="0">리</tspan><tspan class="cls-6" y="0">스크</tspan><tspan class="cls-7" y="0" xml:space="preserve"> 현</tspan><tspan class="cls-6" y="0">안</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">보</tspan><tspan class="cls-7" y="0">고 </tspan><tspan class="cls-6" y="0">및</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">핵</tspan><tspan y="0">심 </tspan></text>
+  <text id="의사결정" class="cls-5" transform="translate(330.993 124.231)"><tspan class="cls-7" x="0" y="0">의</tspan><tspan class="cls-6" y="0">사결</tspan><tspan y="0">정</tspan></text>
+  <text id="_·_7" data-name="· " class="cls-5" transform="translate(323.979 151.237)"><tspan class="cls-6" x="0" y="0">·</tspan><tspan y="0"> </tspan></text>
+  <text id="_12" data-name="	" class="cls-5" transform="translate(330.993 151.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="상호_협력_기반_리스크_2" data-name="상호 협력 기반 리스크 " class="cls-5" transform="translate(330.993 151.237)"><tspan class="cls-7" x="0" y="0">상</tspan><tspan class="cls-6" y="0">호</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">협</tspan><tspan class="cls-7" y="0">력 </tspan><tspan class="cls-6" y="0">기반</tspan><tspan class="cls-7" y="0" xml:space="preserve"> 리</tspan><tspan class="cls-6" y="0">스</tspan><tspan y="0">크 </tspan></text>
+  <text id="_13" data-name="	" class="cls-5" transform="translate(459.862 151.237)"><tspan x="0" y="0">	</tspan></text>
+  <text id="대응_활동_수행-2" data-name="대응 활동 수행" class="cls-5" transform="translate(330.993 173.231)"><tspan class="cls-7" x="0" y="0">대</tspan><tspan class="cls-6" y="0">응</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">활</tspan><tspan class="cls-7" y="0">동 </tspan><tspan class="cls-6" y="0">수</tspan><tspan y="0">행</tspan></text>
+  <line id="선_160" data-name="선 160" class="cls-8" x2="796" transform="translate(0.931 228.994)"/>
+  <g id="그룹_24" data-name="그룹 24" transform="translate(-10052.989 -1576.243)">
+    <path id="패스_129" data-name="패스 129" class="cls-9" d="M10152.227,1598.838a21.591,21.591,0,1,1-21.591-21.591,21.591,21.591,0,0,1,21.591,21.591"/>
+    <path id="패스_130" data-name="패스 130" class="cls-8" d="M10152.206,1598.362a21.571,21.571,0,1,1-43.142,0"/>
+  </g>
+  <text id="_01" data-name="01" class="cls-10" transform="translate(69.095 28.742)"><tspan class="cls-11" x="0" y="0">0</tspan><tspan y="0">1</tspan></text>
+  <line id="선_161" data-name="선 161" class="cls-8" x2="43.433" transform="translate(1.065 24.437)"/>
+  <line id="선_162" data-name="선 162" class="cls-8" x2="89.765" transform="translate(114.466 24.437)"/>
+  <line id="선_163" data-name="선 163" class="cls-8" x2="89.765" transform="translate(273.162 24.437)"/>
+  <line id="선_164" data-name="선 164" class="cls-8" x2="89.765" transform="translate(434.935 24.437)"/>
+  <line id="선_165" data-name="선 165" class="cls-8" x2="89.765" transform="translate(595.42 24.437)"/>
+  <line id="선_166" data-name="선 166" class="cls-8" x2="40.869" transform="translate(756.063 24.437)"/>
+  <g id="그룹_25" data-name="그룹 25" transform="translate(-10052.989 -1576.243)">
+    <path id="패스_131" data-name="패스 131" d="M10157.455,1601.332a22.68,22.68,0,1,1-22.68-22.68,22.68,22.68,0,0,1,22.68,22.68"/>
+    <path id="패스_132" data-name="패스 132" class="cls-9" d="M10153.884,1598.923a22.68,22.68,0,1,1-22.68-22.68,22.68,22.68,0,0,1,22.68,22.68"/>
+  </g>
+  <text id="_01-2" data-name="01" class="cls-10" transform="translate(69.255 28.428)"><tspan class="cls-11" x="0" y="0">0</tspan><tspan y="0">1</tspan></text>
+  <g id="그룹_26" data-name="그룹 26" transform="translate(-10052.989 -1576.243)">
+    <path id="패스_133" data-name="패스 133" d="M10316.152,1601.332a22.68,22.68,0,1,1-22.682-22.68,22.681,22.681,0,0,1,22.682,22.68"/>
+    <path id="패스_134" data-name="패스 134" class="cls-9" d="M10312.58,1598.923a22.68,22.68,0,1,1-22.68-22.68,22.681,22.681,0,0,1,22.68,22.68"/>
+  </g>
+  <text id="_02" data-name="02" class="cls-10" transform="translate(227.951 28.428)"><tspan class="cls-11" x="0" y="0">0</tspan><tspan y="0">2</tspan></text>
+  <g id="그룹_27" data-name="그룹 27" transform="translate(-10052.989 -1576.243)">
+    <path id="패스_135" data-name="패스 135" d="M10476.434,1601.332a22.68,22.68,0,1,1-22.68-22.68,22.679,22.679,0,0,1,22.68,22.68"/>
+    <path id="패스_136" data-name="패스 136" class="cls-9" d="M10472.862,1598.923a22.68,22.68,0,1,1-22.681-22.68,22.681,22.681,0,0,1,22.681,22.68"/>
+  </g>
+  <text id="_03" data-name="03" class="cls-10" transform="translate(388.233 28.428)"><tspan class="cls-11" x="0" y="0">0</tspan><tspan y="0">3</tspan></text>
+  <g id="그룹_28" data-name="그룹 28" transform="translate(-10052.989 -1576.243)">
+    <path id="패스_137" data-name="패스 137" d="M10637.436,1601.332a22.68,22.68,0,1,1-22.68-22.68,22.679,22.679,0,0,1,22.68,22.68"/>
+    <path id="패스_138" data-name="패스 138" class="cls-9" d="M10633.865,1598.923a22.68,22.68,0,1,1-22.681-22.68,22.681,22.681,0,0,1,22.681,22.68"/>
+  </g>
+  <text id="_04" data-name="04" class="cls-10" transform="translate(549.235 28.428)"><tspan class="cls-11" x="0" y="0">0</tspan><tspan y="0">4</tspan></text>
+  <g id="그룹_29" data-name="그룹 29" transform="translate(-10052.989 -1576.243)">
+    <path id="패스_139" data-name="패스 139" d="M10798.078,1601.332a22.68,22.68,0,1,1-22.68-22.68,22.68,22.68,0,0,1,22.68,22.68"/>
+    <path id="패스_140" data-name="패스 140" class="cls-9" d="M10794.507,1598.923a22.68,22.68,0,1,1-22.68-22.68,22.681,22.681,0,0,1,22.68,22.68"/>
+  </g>
+  <text id="_05" data-name="05" class="cls-10" transform="translate(709.878 28.428)"><tspan class="cls-11" x="0" y="0">0</tspan><tspan y="0">5</tspan></text>
+</svg>

@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">  
     <logger title="정보보안 및 개인정보보호"></logger>
-    <b-img src="@/assets/images/사각형 8@2x.png" fluid class="material-page-top-img"></b-img>
+    <b-img src="@/assets/images/사각형 8.png" fluid class="material-page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">

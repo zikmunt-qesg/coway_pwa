@@ -1,0 +1,159 @@
+<svg id="구성_요소_33_1" data-name="구성 요소 33 – 1" xmlns="http://www.w3.org/2000/svg" width="796" height="521.12" viewBox="0 0 796 521.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f7f7;
+      }
+
+      .cls-10, .cls-2, .cls-3 {
+        fill: #132e54;
+      }
+
+      .cls-3 {
+        font-size: 17px;
+        font-family: NotoSansKR-Bold, Noto Sans KR;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-21, .cls-6, .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-21, .cls-6, .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        stroke-width: 3px;
+      }
+
+      .cls-16, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        stroke: #132e54;
+        stroke-width: 0.5px;
+      }
+
+      .cls-10, .cls-16, .cls-17 {
+        font-size: 15px;
+      }
+
+      .cls-10, .cls-17 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.034em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0.025em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.026em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-15, .cls-17 {
+        fill: #5171b1;
+      }
+
+      .cls-16 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.022em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.031em;
+      }
+
+      .cls-20 {
+        fill: #78a5e2;
+      }
+
+      .cls-21 {
+        stroke-miterlimit: 10;
+        stroke-width: 0.945px;
+      }
+
+      .cls-22 {
+        letter-spacing: -0.046em;
+      }
+
+      .cls-23 {
+        letter-spacing: -0.038em;
+      }
+
+      .cls-24 {
+        letter-spacing: -0.042em;
+      }
+
+      .cls-25 {
+        letter-spacing: -0.037em;
+      }
+
+      .cls-26 {
+        letter-spacing: -0.047em;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_45" data-name="사각형 45" class="cls-1" width="796" height="521.12"/>
+  <rect id="사각형_46" data-name="사각형 46" class="cls-2" width="409.75" height="36.75" transform="translate(195.625 146.648)"/>
+  <text id="ViSION" class="cls-3" transform="translate(369.993 58.897)"><tspan class="cls-4" x="0" y="0">V</tspan><tspan class="cls-5" y="0">i</tspan><tspan class="cls-4" y="0">S</tspan><tspan class="cls-5" y="0">IO</tspan><tspan y="0">N</tspan></text>
+  <line id="선_219" data-name="선 219" class="cls-6" y2="42" transform="translate(398 83.817)"/>
+  <line id="선_220" data-name="선 220" class="cls-7" y2="20" transform="translate(398 105.817)"/>
+  <rect id="사각형_47" data-name="사각형 47" class="cls-8" width="409.75" height="33.5" transform="translate(189.625 146.898)"/>
+  <rect id="사각형_48" data-name="사각형 48" class="cls-9" width="409.75" height="33.5" transform="translate(189.625 146.898)"/>
+  <text id="윤리경영_문화_Clean_Woongjin_Coway" data-name="윤리경영 문화 Clean Woongjin Coway" class="cls-10" transform="translate(270.211 169.694)"><tspan class="cls-4" x="0" y="0">윤리경영 문화 </tspan><tspan class="cls-4" y="0">C</tspan><tspan class="cls-5" y="0">l</tspan><tspan class="cls-11" y="0">e</tspan><tspan class="cls-4" y="0">an Woon</tspan><tspan class="cls-12" y="0">g</tspan><tspan class="cls-4" y="0">j</tspan><tspan class="cls-5" y="0">i</tspan><tspan class="cls-4" y="0">n C</tspan><tspan class="cls-13" y="0">o</tspan><tspan class="cls-14" y="0">w</tspan><tspan class="cls-4" y="0">a</tspan><tspan y="0">y</tspan></text>
+  <line id="선_221" data-name="선 221" class="cls-6" y2="42" transform="translate(398 243.397)"/>
+  <line id="선_222" data-name="선 222" class="cls-7" y2="20" transform="translate(398 265.397)"/>
+  <rect id="사각형_49" data-name="사각형 49" class="cls-8" width="756" height="136" transform="translate(20 286.398)"/>
+  <line id="선_223" data-name="선 223" class="cls-6" x2="756" transform="translate(20 285.897)"/>
+  <line id="선_224" data-name="선 224" class="cls-6" x2="756" transform="translate(20 422.397)"/>
+  <rect id="사각형_50" data-name="사각형 50" class="cls-15" width="417" height="29" transform="translate(189.5 198.149)"/>
+  <text id="전략" class="cls-16" transform="translate(384.35 219.247)"><tspan class="cls-4" x="0" y="0">전</tspan><tspan y="0">략</tspan></text>
+  <text id="Code_of_Conduct" data-name="Code of Conduct" class="cls-17" transform="translate(109.985 454.177)"><tspan class="cls-4" x="0" y="0">Co</tspan><tspan class="cls-5" y="0">de</tspan><tspan class="cls-4" y="0"> </tspan><tspan class="cls-18" y="0">o</tspan><tspan class="cls-5" y="0">f</tspan><tspan class="cls-4" y="0" xml:space="preserve"> Con</tspan><tspan class="cls-5" y="0">d</tspan><tspan class="cls-4" y="0">u</tspan><tspan class="cls-19" y="0">c</tspan><tspan y="0">t</tspan></text>
+  <g id="그룹_43" data-name="그룹 43" transform="translate(-7597.92 -782.734)">
+    <path id="패스_220" data-name="패스 220" class="cls-20" d="M7806.484,1136.882a40.635,40.635,0,1,1-40.635-40.635,40.635,40.635,0,0,1,40.635,40.635"/>
+    <path id="패스_221" data-name="패스 221" d="M7778.135,1141.94c0-6.016-11.294-19.494-11.294-19.494s-11.294,13.478-11.294,19.494a11.3,11.3,0,0,0,22.588,0m-7.145-5.724c1.485,2.512,2.453,4.626,2.453,5.724a6.5,6.5,0,0,1-6.6,6.369"/>
+    <path id="패스_222" data-name="패스 222" class="cls-8" d="M7766.438,1148.023a8.078,8.078,0,1,0-8.386-8.072,8.233,8.233,0,0,0,8.386,8.072"/>
+    <path id="패스_223" data-name="패스 223" class="cls-8" d="M7776.222,1140.755c0-5.975-11.217-19.358-11.217-19.358s-11.215,13.383-11.215,19.358a11.223,11.223,0,0,0,22.432,0m-7.1-5.684c1.473,2.494,2.435,4.593,2.435,5.684a6.451,6.451,0,0,1-6.557,6.324"/>
+    <path id="패스_224" data-name="패스 224" class="cls-21" d="M7775.974,1140.735c0-5.85-10.969-18.953-10.969-18.953s-10.968,13.1-10.968,18.953a10.975,10.975,0,0,0,21.937,0Zm-6.938-5.566c1.441,2.443,2.381,4.5,2.381,5.566a6.312,6.312,0,0,1-6.412,6.191"/>
+  </g>
+  <text id="Compliance_check_" data-name="Compliance check " class="cls-17" transform="translate(334.648 454.183)"><tspan class="cls-4" x="0" y="0">Co</tspan><tspan class="cls-5" y="0">mpli</tspan><tspan class="cls-4" y="0">an</tspan><tspan class="cls-22" y="0">c</tspan><tspan class="cls-5" y="0">e</tspan><tspan class="cls-4" y="0" xml:space="preserve"> c</tspan><tspan class="cls-5" y="0">he</tspan><tspan class="cls-4" y="0">c</tspan><tspan y="0">k </tspan></text>
+  <text id="organization" class="cls-17" transform="translate(354.628 477.178)"><tspan class="cls-4" x="0" y="0">o</tspan><tspan class="cls-19" y="0">r</tspan><tspan class="cls-23" y="0">g</tspan><tspan class="cls-4" y="0">an</tspan><tspan class="cls-5" y="0">i</tspan><tspan class="cls-24" y="0">z</tspan><tspan class="cls-25" y="0">a</tspan><tspan class="cls-4" y="0">t</tspan><tspan class="cls-5" y="0">i</tspan><tspan class="cls-4" y="0">o</tspan><tspan y="0">n</tspan></text>
+  <g id="그룹_44" data-name="그룹 44" transform="translate(-7597.92 -782.734)">
+    <path id="패스_225" data-name="패스 225" class="cls-20" d="M8036.555,1136.882a40.635,40.635,0,1,1-40.635-40.635,40.635,40.635,0,0,1,40.635,40.635"/>
+    <path id="패스_226" data-name="패스 226" d="M8008.205,1141.94c0-6.016-11.294-19.494-11.294-19.494s-11.294,13.478-11.294,19.494a11.3,11.3,0,0,0,22.588,0m-7.145-5.724c1.485,2.512,2.453,4.626,2.453,5.724a6.5,6.5,0,0,1-6.6,6.369"/>
+    <path id="패스_227" data-name="패스 227" class="cls-8" d="M7996.508,1148.023a8.078,8.078,0,1,0-8.386-8.072,8.233,8.233,0,0,0,8.386,8.072"/>
+    <path id="패스_228" data-name="패스 228" class="cls-8" d="M8006.292,1140.755c0-5.975-11.217-19.358-11.217-19.358s-11.215,13.383-11.215,19.358a11.223,11.223,0,0,0,22.432,0m-7.1-5.684c1.473,2.494,2.435,4.593,2.435,5.684a6.451,6.451,0,0,1-6.557,6.324"/>
+    <path id="패스_229" data-name="패스 229" class="cls-21" d="M8006.044,1140.735c0-5.85-10.969-18.953-10.969-18.953s-10.968,13.1-10.968,18.953a10.975,10.975,0,0,0,21.937,0Zm-6.938-5.566c1.441,2.443,2.381,4.5,2.381,5.566a6.312,6.312,0,0,1-6.412,6.191"/>
+  </g>
+  <text id="Consensus_by_Ethic_" data-name="Consensus by Ethic " class="cls-17" transform="translate(561.224 454.183)"><tspan class="cls-4" x="0" y="0">Cons</tspan><tspan class="cls-5" y="0">e</tspan><tspan class="cls-4" y="0">nsus </tspan><tspan class="cls-13" y="0">b</tspan><tspan class="cls-5" y="0">y</tspan><tspan class="cls-4" y="0"> </tspan><tspan class="cls-26" y="0">E</tspan><tspan class="cls-4" y="0">t</tspan><tspan class="cls-5" y="0">hi</tspan><tspan y="0">c </tspan></text>
+  <text id="Education" class="cls-17" transform="translate(593.084 477.178)"><tspan class="cls-14" x="0" y="0">E</tspan><tspan class="cls-5" y="0">d</tspan><tspan class="cls-4" y="0">u</tspan><tspan class="cls-19" y="0">c</tspan><tspan class="cls-25" y="0">a</tspan><tspan class="cls-4" y="0">t</tspan><tspan class="cls-5" y="0">i</tspan><tspan class="cls-4" y="0">o</tspan><tspan y="0">n</tspan></text>
+  <g id="그룹_45" data-name="그룹 45" transform="translate(-7597.92 -782.734)">
+    <path id="패스_230" data-name="패스 230" class="cls-20" d="M8266.625,1136.882a40.635,40.635,0,1,1-40.635-40.635,40.635,40.635,0,0,1,40.635,40.635"/>
+    <path id="패스_231" data-name="패스 231" d="M8238.276,1141.94c0-6.016-11.294-19.494-11.294-19.494s-11.294,13.478-11.294,19.494a11.3,11.3,0,0,0,22.588,0m-7.146-5.724c1.485,2.512,2.452,4.626,2.452,5.724a6.494,6.494,0,0,1-6.6,6.369"/>
+    <path id="패스_232" data-name="패스 232" class="cls-8" d="M8226.579,1148.023a8.078,8.078,0,1,0-8.386-8.072,8.233,8.233,0,0,0,8.386,8.072"/>
+    <path id="패스_233" data-name="패스 233" class="cls-8" d="M8236.363,1140.755c0-5.975-11.217-19.358-11.217-19.358s-11.216,13.383-11.216,19.358a11.224,11.224,0,0,0,22.433,0m-7.1-5.684c1.474,2.494,2.436,4.593,2.436,5.684a6.452,6.452,0,0,1-6.557,6.324"/>
+    <path id="패스_234" data-name="패스 234" class="cls-21" d="M8236.115,1140.735c0-5.85-10.969-18.953-10.969-18.953s-10.969,13.1-10.969,18.953a10.976,10.976,0,0,0,21.938,0Zm-6.938-5.566c1.441,2.443,2.381,4.5,2.381,5.566a6.312,6.312,0,0,1-6.411,6.191"/>
+  </g>
+</svg>

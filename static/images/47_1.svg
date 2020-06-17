@@ -1,0 +1,144 @@
+<svg id="구성_요소_47_1" data-name="구성 요소 47 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="796" height="267.557" viewBox="0 0 796 267.557">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-12, .cls-3 {
+        fill: #132d53;
+      }
+
+      .cls-14, .cls-15, .cls-4 {
+        fill: #5a78b5;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke: #42454a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 0 2.99;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 0 2.999;
+      }
+
+      .cls-8 {
+        stroke-dasharray: 0 2.984;
+      }
+
+      .cls-9 {
+        fill: #a6c4ec;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-11, .cls-13 {
+        fill: #1e2323;
+        font-size: 17px;
+      }
+
+      .cls-11, .cls-13, .cls-14, .cls-15 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-11, .cls-14 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-12 {
+        font-size: 32px;
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-12, .cls-16 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-14, .cls-15 {
+        font-size: 18px;
+      }
+
+      .cls-16 {
+        fill: #2b2e34;
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_496" data-name="패스 496" class="cls-1" d="M0,0H796V-267.557H0Z"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_143" data-name="그룹 143" class="cls-2" transform="translate(0 267.557)">
+    <g id="그룹_141" data-name="그룹 141" transform="translate(394.535 -137.367)">
+      <path id="패스_494" data-name="패스 494" class="cls-3" d="M0,0-89.466-92.644C-117.1-65.956-130.314-34.831-130.314,3.588A133.779,133.779,0,0,0,3.465,137.367a133.174,133.174,0,0,0,79.664-26.308Z"/>
+    </g>
+    <g id="그룹_142" data-name="그룹 142" transform="translate(400.032 -129.208)">
+      <path id="패스_495" data-name="패스 495" class="cls-4" d="M0,0,53.409,117.194c34.96-15.932,57.8-40.861,70.628-77.077A133.778,133.778,0,0,0,42.588-130.644a133.171,133.171,0,0,0-83.876-1.794Z"/>
+    </g>
+  </g>
+  <g id="그룹_144" data-name="그룹 144" transform="translate(3.49 21.026)">
+    <path id="패스_497" data-name="패스 497" class="cls-5" d="M0,0H336.365"/>
+  </g>
+  <g id="그룹_148" data-name="그룹 148" class="cls-2" transform="translate(0 267.557)">
+    <g id="그룹_145" data-name="그룹 145" transform="translate(0.5 -246.531)">
+      <path id="패스_498" data-name="패스 498" class="cls-6" d="M0,0H0M340.85,0h0"/>
+    </g>
+    <g id="그룹_146" data-name="그룹 146" transform="translate(457.64 -182.75)">
+      <path id="패스_499" data-name="패스 499" class="cls-5" d="M0,0H336.365"/>
+    </g>
+    <g id="그룹_147" data-name="그룹 147" transform="translate(454.651 -182.75)">
+      <path id="패스_500" data-name="패스 500" class="cls-6" d="M0,0H0M340.85,0h0"/>
+    </g>
+  </g>
+  <g id="그룹_149" data-name="그룹 149" transform="translate(3.5 189.842)">
+    <path id="패스_502" data-name="패스 502" class="cls-7" d="M0,0H181.459"/>
+  </g>
+  <g id="그룹_150" data-name="그룹 150" transform="translate(188.564 187.729)">
+    <path id="패스_503" data-name="패스 503" class="cls-8" d="M0,0,85.268-85.658"/>
+  </g>
+  <g id="그룹_155" data-name="그룹 155" class="cls-2" transform="translate(0 267.557)">
+    <g id="그룹_151" data-name="그룹 151" transform="translate(0.5 -77.715)">
+      <path id="패스_504" data-name="패스 504" class="cls-6" d="M0,0H0M185.958,0h0m88.427-88.83h0"/>
+    </g>
+    <g id="그룹_152" data-name="그룹 152" transform="translate(398 -133.779)">
+      <path id="패스_505" data-name="패스 505" class="cls-4" d="M0,0V-133.779A133.779,133.779,0,0,1,133.779,0Z"/>
+    </g>
+    <g id="그룹_153" data-name="그룹 153" transform="translate(398 -133.779)">
+      <path id="패스_506" data-name="패스 506" class="cls-9" d="M0,0-92.931-96.232C-67.42-120.868-35.464-133.779,0-133.779Z"/>
+    </g>
+    <g id="그룹_154" data-name="그룹 154" transform="translate(398 -34.846)">
+      <path id="패스_507" data-name="패스 507" class="cls-10" d="M0,0A98.933,98.933,0,0,0,98.934-98.934,98.933,98.933,0,0,0,0-197.867,98.933,98.933,0,0,0-98.934-98.934,98.933,98.933,0,0,0,0,0"/>
+    </g>
+    <text id="법률_" data-name="법률  " class="cls-11" transform="translate(0.158 -205.291)"><tspan x="0" y="0" xml:space="preserve">법률  </tspan></text>
+  </g>
+  <text id="_14_" data-name="14%" class="cls-12" transform="translate(39.598 62.266)"><tspan x="0" y="0">14%</tspan></text>
+  <g id="그룹_156" data-name="그룹 156" class="cls-2" transform="translate(0 267.557)">
+    <g id="그룹">
+      <text id="소비재_및_생활가전_산업전문가" data-name="소비재 및 생활가전 산업전문가" class="cls-11" transform="translate(583.343 -154.005)"><tspan x="0" y="0">소비재 및 생활가전 산업전문가</tspan></text>
+      <text id="_" data-name=" " class="cls-13" transform="translate(795.843 -154.005)"><tspan x="0" y="0"> </tspan></text>
+    </g>
+    <text id="_50_" data-name="50%" class="cls-12" transform="translate(733.865 -117.005)"><tspan x="0" y="0">50%</tspan></text>
+    <text id="경제_경영_및_회계_" data-name="경제 경영 및 회계  " class="cls-11" transform="translate(0.158 -36.524)"><tspan x="0" y="0" xml:space="preserve">경제 경영 및 회계  </tspan></text>
+  </g>
+  <text id="_43_" data-name="43%" class="cls-12" transform="translate(129.357 231.033)"><tspan x="0" y="0">43%</tspan></text>
+  <g id="그룹-2" data-name="그룹" transform="translate(0 267.557)">
+    <text id="이사회_전문" data-name="이사회 전문" class="cls-14" transform="translate(354.98 -156.359)"><tspan x="0" y="0">이사회 전문</tspan></text>
+    <text id="_2" data-name=" " class="cls-14" transform="translate(441.02 -156.359)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_3" data-name=" " class="cls-15" transform="translate(445.34 -156.359)"><tspan x="0" y="0"> </tspan></text>
+    <text id="분야별_구성" data-name="분야별 구성" class="cls-14" transform="translate(354.98 -127.361)"><tspan x="0" y="0">분야별 구성</tspan></text>
+  </g>
+  <text id="_단위_" data-name="(단위 %)" class="cls-16" transform="translate(373.01 172.198)"><tspan x="0" y="0">(단위 %)</tspan></text>
+</svg>

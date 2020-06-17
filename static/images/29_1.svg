@@ -1,0 +1,68 @@
+<svg id="구성_요소_29_1" data-name="구성 요소 29 – 1" xmlns="http://www.w3.org/2000/svg" width="226.5" height="107.992" viewBox="0 0 226.5 107.992">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #0b504a;
+      }
+
+      .cls-1 {
+        font-size: 43px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: #1e2323;
+        font-size: 16px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        fill: #92bc49;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.945px;
+      }
+    </style>
+  </defs>
+  <g id="그룹_59" data-name="그룹 59" transform="translate(-2959 -4516.155)">
+    <text id="_0" data-name="0" class="cls-1" transform="translate(3123.069 4566.155)"><tspan x="0" y="0">0</tspan></text>
+    <text id="_0-2" data-name="0" class="cls-1" transform="translate(3100.064 4566.155)"><tspan x="0" y="0">0</tspan></text>
+    <text id="_1" data-name="1" class="cls-1" transform="translate(3077.06 4566.155)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_" data-name=" " class="cls-1" transform="translate(3080.5 4566.155)"><tspan x="0" y="0"> </tspan></text>
+  </g>
+  <text id="_2" data-name="%" class="cls-2" transform="translate(190.514 48)"><tspan x="0" y="0">%</tspan></text>
+  <text id="_2030년까지_" data-name="2030년까지 " class="cls-3" transform="translate(121.5 78)"><tspan class="cls-4" x="0" y="0">2030</tspan><tspan class="cls-5" y="0">년까</tspan><tspan y="0">지 </tspan></text>
+  <text id="_3" data-name="
+" class="cls-3" transform="translate(201.82 78)"><tspan x="0" y="0"></tspan><tspan x="0" y="19.2"></tspan></text>
+  <text id="폐기물_재활용율" data-name="폐기물 재활용율" class="cls-3" transform="translate(121.5 102.992)"><tspan class="cls-5" x="0" y="0">폐기물 재활용</tspan><tspan y="0">율</tspan></text>
+  <g id="그룹_60" data-name="그룹 60" transform="translate(-2959 -4516.155)">
+    <path id="패스_145" data-name="패스 145" class="cls-6" d="M3050.5,4571.238a45.75,45.75,0,1,1-45.75-45.75,45.75,45.75,0,0,1,45.75,45.75"/>
+    <path id="패스_146" data-name="패스 146" d="M3025.766,4579.826c0-10.335-19.321-33.487-19.321-33.487s-19.32,23.152-19.32,33.487,8.65,18.715,19.32,18.715,19.321-8.38,19.321-18.715m-12.223-9.833c2.54,4.316,4.2,7.947,4.2,9.833a11.134,11.134,0,0,1-11.294,10.94"/>
+    <path id="패스_147" data-name="패스 147" class="cls-7" d="M3005.756,4590.275a13.874,13.874,0,1,0-14.346-13.865,14.111,14.111,0,0,0,14.346,13.865"/>
+    <path id="패스_148" data-name="패스 148" class="cls-7" d="M3022.494,4577.791c0-10.263-19.189-33.252-19.189-33.252s-19.187,22.989-19.187,33.252,8.592,18.583,19.187,18.583,19.189-8.32,19.189-18.583m-12.138-9.765c2.521,4.286,4.165,7.891,4.165,9.765a11.056,11.056,0,0,1-11.216,10.863"/>
+    <path id="패스_149" data-name="패스 149" class="cls-8" d="M3022.406,4577.785c0-10.22-19.1-33.111-19.1-33.111s-19.1,22.891-19.1,33.111,8.552,18.5,19.1,18.5S3022.406,4588,3022.406,4577.785Zm-12.082-9.723c2.509,4.267,4.146,7.856,4.146,9.723A11.007,11.007,0,0,1,3003.3,4588.6"/>
+  </g>
+</svg>

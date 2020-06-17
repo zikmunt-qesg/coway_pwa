@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">  
     <logger title="제품 책임"></logger>
-    <b-img src="@/assets/images/사각형 8@2x.png" fluid class="material-page-top-img"></b-img>
+    <b-img src="@/assets/images/사각형 8.png" fluid class="material-page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -31,21 +31,21 @@
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
                                     <ul class="material-ul fw-500 font-noto">
-                                        <li>제품 책임 거버넌스 - 무한책임위원회, PIC360, TQA 센터</li>
+                                        <li>제품 책임 거버넌스 - 무한책임위원회, PIC 360, TQA 센터</li>
                                         <li>신뢰성 시험 표준 개발 및 검증 역량 강화</li>
                                         <li>안전인증 확대 및 고객 안심 서비스</li>
                                     </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
-                                    <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
+                                    <h7 class="mb-45 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
-                                        <b-col class="col-12 col-sm-6 col-md-12 mb-4 text-center">
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
                                             <div class="mx-auto mb-2" style="height:61px;"><b-img src="@/assets/images/98_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 line-height-low word-break">국제안전인증센터 공인시험소</p> 
                                             <p class="mb-0 mt-m-2 fw-400 blue7"><span class="f-230">13</span>개소 보유</p>
                                             <p class="gray65 fw-400 mt-m-2">(2019년 말 기준)</p>
                                         </b-col>
-                                        <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-45 mb-sm-0 text-center">
                                             <div class="mx-auto mb-2" style="height:61px;"><b-img src="@/assets/images/99_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 font-noto">2019년 제품책임 관련</p> 
                                             <p class="mb-0 f-140 fw-400 blue7">규제 위반 0건</p>
@@ -63,7 +63,7 @@
                             </p>
                             <p class="mb-5 mb-md-45">코웨이는 무한책임위원회를 비롯한 전사 회의체 및 총괄 조직인 TQA(Trust & Quality Assurance)센터를 중심으로 제품 책임을 적극적으로 이행하고 있습니다. 제품 기획부터 설계, 생산, 서비스 등 전 단계에 걸쳐 품질, 신뢰성, 안전성, 환경성 검증을 실시하고 있으며, 글로벌 품질 검증력 강화와 신규 해외시장 진출 확대를 위해 글로벌 사용환경을 분석해 데이터를 구축하고 지역별 신뢰성 표준을 수립하였습니다. 또한 서비스 위생 강화를 위해 서비스 점검 기준 및 범위를 확대하여 고객 관점에서 서비스를 강화하고 선제적으로 대응하고 있습니다. 
                             </p>
-                            <h7 class="blue7 f-120 mb-3">Business Cases</h7>
+                            <h7 class="blue7 f-120 mb-3 mb-sm-2">Business Cases</h7>
                             <div class="d-flex align-items-center">
                                 <div class="py-2 d-xl-flex align-items-center mr-3">
                                     <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">2019년 한국신뢰성대상 '제조업 부문 대상' 수상</p>
@@ -90,7 +90,7 @@
                     <p class="mb-5">고객신뢰 회복과 고객 안심 구현을 위한 품질 혁신 추진체로 TQA센터 (Trust & Quality Assurance Center)를 운영하고 있습니다. TQA센터는 환경기술연구소와 생산운영본부로 분사되어 있던 품질 검증 부서를 통합한 독립적인 조직으로, 품질관련 전략과 기능을 통합하고 역량 및 실행력을 강화하여 잠재된 품질 이슈를 사전에 발굴하고 선제적으로 대응하기 위해 노력하고 있습니다. 
                     </p>
 
-                    <b-img src="@/assets/images/81_1.svg" fluid></b-img>
+                    <hj-img src="/images/81_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
                     <section class="border-blue px-4 py-3 mb-5">
@@ -103,7 +103,7 @@
                         </p>
                         <p class="f-80 mb-4">* 한국신뢰성학회가 주관하는 한국신뢰성대상은 소재나 부품, 제품의 신뢰성을 강화해 산업 및 국가의 경제발전에 기여하고 고객 만족도를 향상시킨 기업을 선정합니다. 
                         </p>
-                        <b-img src="@/assets/images/97.png" fluid class="mb-3"></b-img>
+                        <b-img class="mb-3" src="@/assets/images/97.png" fluid></b-img>
                     </section>
 
                     <hr class="py-2">
@@ -149,7 +149,7 @@
                                     </b-tr>
                                 </b-tbody>
                             </b-table-simple>
-                            <p class="f-80 ml-1 mb-45">
+                            <p class="f-80 ml-1 mb-5">
                                 * 신뢰성 시험 항목: 공통, 정수기, 청정기, 비데, 전기레인지, 의류청정기 등 9개 항목
                             </p>
                     
@@ -178,7 +178,7 @@
                     <b-row no-gutters class="mb-45">
                         <b-col class="col-12 col-sm-6 pr-sm-3 mb-3 mb-sm-0">
                             <div class="px-3 blue7-box blue7 text-center d-flex align-items-center fw-500 border-bottom-blue7" style="height:66px;">DFMEA(Design Failure Modes and Effect Analysis, 제품 고장 모드 및 영향도 분석)</div>
-                            <div class="border-bottom-blue7" style="height: 79%;">
+                            <div class="border-bottom-blue7 adjust-height">
                                 <p class="px-3 py-4 f-95">DFMEA 시스템 운영을 통해, 제품 구조에 따른 고장 모드를 체계적으로 추출하고 분석하여, 보다 효과적으로 고장을 예방하고 있습니다. 예측된 고장과 개선 방안의 정확성을 평가하여, 제품 설계 완성도를 향상하는 프로세스로, 2019년에는 AIS3.0 등 총 32건의 DFMEA 심의를 시행하여 약 1,200여건의 고장 모드 및 고장원인을 예측하고 예방 설계를 진행하였습니다.
                                 </p>
                             </div>
@@ -186,7 +186,7 @@
                         <b-col class="col-12 col-sm-6 pl-sm-3 position-relative">
                             <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 74%; top: 23%;"></div>
                             <div class="px-3 blue7-box blue7 fw-500 text-center d-flex align-items-center justify-content-center" style="height:66px; z-index:10;">SSM(Stress-Strength Model, 스트레스-강도 모델)</div>
-                            <div class="border-bottom-blue7" style="height: 79%;">
+                            <div class="border-bottom-blue7 adjust-height">
                                 <p class="px-3 py-4 f-95 mb-0"> SSM 시스템 구축을 통해, 과거 실패사례, 사용환경 데이터, 화학물질 사용기준 등 다양한 지식을 구조화하여 관리함으로써, 신규 제품·부품 개발 과정에서 효율성을 향상하고 실패 사례의 재발 방지를 추진하고 있습니다. 또한, 품질 및 개발과정 관련 실패사례를 취합하여 지식구조화 함으로써 실패에 따른 반복적인 설계 개선과 검증, 단가 상승 및 개발 일정 지연 등을 예방하고 있습니다. 2016년 도입 이후 2019년까지 시장 품질, 고분자 재료, 전자부품 등 다양하 분야에서 총 835건의 지식을 등록하여 관리하고 있습니다.
                                 </p>
                             </div>
@@ -206,13 +206,13 @@
                     </p>
 
                         <h7 class="mb-45 gray63">국제 공인시험소 운영 및 인증 취득 현황</h7>
-                        <b-img src="@/assets/images/83_1.svg" fluid></b-img>
+                        <hj-img src="/images/83_1.svg" fluid></hj-img>
                         <hr class="mb-5 py-2">                    
                     
                     <h6-ancor :title="'안전 및 위생 안심 서비스'" :activated="activated" class="blue5 mb-3">안전 및 위생 안심 서비스</h6-ancor>
                     <p class="mb-45">코웨이는 제품의 위생과 안전성을 확보하기 위해 제품 설계부터 소재 선택, 관리 서비스까지 통합적 관리를 추진하고 있습니다. 제품 설계 과정에서 부품 교체 및 청소 등 위생적인 유지 보수 및 자동화된 위생 관리 시스템을 적용합니다. 먹는 물의 위생 관리가 핵심적인 정수기의 경우 정수기 사용 시 유로에 남은 잔수를 자동으로 배출하는 ‘유로 비움 모드’를 적용하고, 24시간 미사용 시 정수기 내 장수를 자동으로 배출하는 자동 배수 시스템을 도입하였습니다. 또한 안전한 소재를 사용하기 위해 모든 부품에 대한 화학물질 함유량을 확인하며, 더욱 안전성이 높은 소재로 대체하기 위한 신소재 개발을 지속하고 있습니다. 또한 고객 사용 단계에서의 안전 및 위생 관리를 위해 1) 제품별 전문 위생관리 도구 제공, 2) 위생 부품 전면 교체 스페셜 케어 서비스, 3) 위생 모니터링 및 경고 알람 제공, 4) IoT 기술 기반 제품 상태 정보 제공 등의 복합 서비스를 제공하고 있습니다. 
                     </p>     
-                        <b-img src="@/assets/images/84_1.svg" fluid></b-img>
+                        <hj-img src="/images/84_1.svg" fluid></hj-img>
 
                     <hr class="mb-5 py-3">                    
                     <section class="border-blue px-4 py-3 mb-5">
@@ -274,7 +274,7 @@ export default {
     methods:{
         safeHash(target){
             return ih.safeHash(target)
-        }
+        },
     },
     components:{
         SideNavigation,
@@ -283,3 +283,15 @@ export default {
     }
 }
 </script>
+<style scoped lang="scss">
+
+
+.adjust-height{
+    height: 80%;
+}
+@media (max-width: 576px) {
+    .adjust-height{
+        height: auto;
+    }
+}
+</style>

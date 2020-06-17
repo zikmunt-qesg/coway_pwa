@@ -1,0 +1,149 @@
+<svg id="구성_요소_61_1" data-name="구성 요소 61 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="286.5" viewBox="0 0 836 286.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f6f7;
+      }
+
+      .cls-13, .cls-14, .cls-2 {
+        fill: #1e2323;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.041em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.097em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.035em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.031em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.037em;
+      }
+
+      .cls-11 {
+        fill: #d6a803;
+      }
+
+      .cls-12 {
+        fill: #fff;
+        font-size: 15px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-13, .cls-14 {
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-15, .cls-16, .cls-17 {
+        fill: none;
+        stroke: #3e3a39;
+      }
+
+      .cls-15, .cls-16 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-15 {
+        stroke-dasharray: 0 2.976;
+      }
+
+      .cls-17 {
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_227" data-name="사각형 227" class="cls-1" width="836" height="286.5"/>
+  <text id="코웨이_STEP_Self_Teaching_Education_Plan_제도" data-name="코웨이 STEP(Self Teaching &amp; Education Plan) 제도" class="cls-2" transform="translate(240.269 39.513)"><tspan class="cls-3" x="0" y="0">코웨이 </tspan><tspan class="cls-4" y="0">S</tspan><tspan class="cls-5" y="0">TEP(Self</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-6" y="0">T</tspan><tspan class="cls-7" y="0">e</tspan><tspan class="cls-3" y="0">ac</tspan><tspan class="cls-5" y="0">hi</tspan><tspan class="cls-3" y="0">n</tspan><tspan class="cls-5" y="0">g</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-5" y="0">&amp;</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-8" y="0">E</tspan><tspan class="cls-5" y="0">d</tspan><tspan class="cls-3" y="0">u</tspan><tspan class="cls-9" y="0">c</tspan><tspan class="cls-10" y="0">a</tspan><tspan class="cls-3" y="0">t</tspan><tspan class="cls-5" y="0">i</tspan><tspan class="cls-3" y="0">on </tspan><tspan class="cls-5" y="0">Pl</tspan><tspan class="cls-3" y="0">an</tspan><tspan class="cls-5" y="0">)</tspan><tspan class="cls-3" y="0" xml:space="preserve"> 제</tspan><tspan y="0">도</tspan></text>
+  <rect id="사각형_228" data-name="사각형 228" class="cls-11" width="163.724" height="30" transform="translate(20 80.61)"/>
+  <rect id="사각형_229" data-name="사각형 229" class="cls-11" width="163.724" height="30" transform="translate(230.759 80.61)"/>
+  <rect id="사각형_230" data-name="사각형 230" class="cls-11" width="163.724" height="30" transform="translate(441.517 80.61)"/>
+  <rect id="사각형_231" data-name="사각형 231" class="cls-11" width="163.724" height="30" transform="translate(652.276 80.61)"/>
+  <text id="리더십_교육" data-name="리더십 교육" class="cls-12" transform="translate(66.012 102.212)"><tspan class="cls-3" x="0" y="0">리더십 교</tspan><tspan y="0">육</tspan></text>
+  <text id="직무_교육" data-name="직무 교육" class="cls-12" transform="translate(283.527 102.212)"><tspan class="cls-3" x="0" y="0">직무 교</tspan><tspan y="0">육</tspan></text>
+  <text id="온보딩_교육" data-name="온보딩 교육" class="cls-12" transform="translate(487.542 102.212)"><tspan class="cls-3" x="0" y="0">온</tspan><tspan class="cls-5" y="0">보</tspan><tspan class="cls-3" y="0">딩 교</tspan><tspan y="0">육</tspan></text>
+  <text id="법정필수_교육" data-name="법정필수 교육" class="cls-12" transform="translate(691.542 102.212)"><tspan class="cls-3" x="0" y="0">법</tspan><tspan class="cls-5" y="0">정</tspan><tspan class="cls-3" y="0">필수 교</tspan><tspan y="0">육</tspan></text>
+  <g id="그룹_220" data-name="그룹 220" transform="translate(-679 -2187.401)">
+    <text id="_" data-name=" " class="cls-13" transform="translate(820.455 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_2" data-name=" " class="cls-13" transform="translate(756.559 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_3" data-name=" " class="cls-13" transform="translate(714.839 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_·_직책자_교육_임원_팀장_·_신임직책자_교육_·_승진자_교육_·_직급별_3년차_교육" data-name="· 직책자 교육(임원/ 팀장)
+· 신임직책자 교육
+· 승진자 교육
+· 직급별 3년차 교육" class="cls-14" transform="translate(711.535 2338.724)"><tspan x="0" y="0">· 직책자 교육(임원/ 팀장)</tspan><tspan x="0" y="22">· 신임직책자 교육</tspan><tspan x="0" y="44">· 승진자 교육</tspan><tspan x="0" y="66">· 직급별 3년차 교육</tspan></text>
+  </g>
+  <g id="그룹_221" data-name="그룹 221" transform="translate(-679 -2187.401)">
+    <text id="_4" data-name=" " class="cls-13" transform="translate(1025.549 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_5" data-name=" " class="cls-13" transform="translate(961.653 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_6" data-name=" " class="cls-13" transform="translate(919.933 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_·_공통역량_교육_·_본부맞춤_교육_·_외부위탁_교육_·_글로벌_어학_지원_·_명사_특강" data-name="· 공통역량 교육
+· 본부맞춤 교육
+· 외부위탁 교육
+· 글로벌 어학 지원
+· 명사 특강" class="cls-14" transform="translate(916.629 2338.724)"><tspan x="0" y="0">· 공통역량 교육</tspan><tspan x="0" y="22">· 본부맞춤 교육</tspan><tspan x="0" y="44">· 외부위탁 교육</tspan><tspan x="0" y="66">· 글로벌 어학 지원</tspan><tspan x="0" y="88">· 명사 특강</tspan></text>
+  </g>
+  <g id="그룹_222" data-name="그룹 222" transform="translate(-679 -2187.401)">
+    <text id="_7" data-name=" " class="cls-13" transform="translate(1233.455 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_8" data-name=" " class="cls-13" transform="translate(1169.559 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_9" data-name=" " class="cls-13" transform="translate(1127.839 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_·_공채신입사원_교육_·_경력직_신규입사자_교육" data-name="· 공채신입사원 교육
+· 경력직 신규입사자 교육" class="cls-14" transform="translate(1120.517 2338.724)"><tspan x="0" y="0">· 공채신입사원 교육</tspan><tspan x="0" y="22">· 경력직 신규입사자 교육</tspan></text>
+  </g>
+  <g id="그룹_223" data-name="그룹 223" transform="translate(-679 -2187.401)">
+    <text id="_10" data-name=" " class="cls-13" transform="translate(1444.214 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_11" data-name=" " class="cls-13" transform="translate(1380.318 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_12" data-name=" " class="cls-13" transform="translate(1338.597 2338.724)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_·_성희롱예방_교육_·_정보보호_교육_·_직장내_장애인인식개선_교육_·_직장내_괴롭힘_예방_교육" data-name="· 성희롱예방 교육
+· 정보보호 교육
+· 직장내 장애인인식개선 교육
+· 직장내 괴롭힘 예방 교육" class="cls-14" transform="translate(1331.276 2338.724)"><tspan x="0" y="0">· 성희롱예방 교육</tspan><tspan x="0" y="22">· 정보보호 교육</tspan><tspan x="0" y="44">· 직장내 장애인인식개선 교육</tspan><tspan x="0" y="66">· 직장내 괴롭힘 예방 교육</tspan></text>
+  </g>
+  <line id="선_940" data-name="선 940" class="cls-15" y1="120.535" transform="translate(207.242 128.142)"/>
+  <path id="패스_585" data-name="패스 585" class="cls-16" d="M886.242,2314.055h0m0,125h0" transform="translate(-679 -2187.401)"/>
+  <line id="선_941" data-name="선 941" class="cls-15" y1="120.535" transform="translate(418 128.142)"/>
+  <path id="패스_586" data-name="패스 586" class="cls-16" d="M1097,2314.055h0m0,125h0" transform="translate(-679 -2187.401)"/>
+  <line id="선_942" data-name="선 942" class="cls-15" y1="120.535" transform="translate(628.759 128.142)"/>
+  <path id="패스_587" data-name="패스 587" class="cls-16" d="M1307.759,2314.055h0m0,125h0" transform="translate(-679 -2187.401)"/>
+  <line id="선_943" data-name="선 943" class="cls-17" y2="15" transform="translate(101.862 110.611)"/>
+  <line id="선_944" data-name="선 944" class="cls-17" x2="163.724" transform="translate(20 125.792)"/>
+  <line id="선_945" data-name="선 945" class="cls-17" y2="15" transform="translate(312.621 110.611)"/>
+  <line id="선_946" data-name="선 946" class="cls-17" x2="163.724" transform="translate(230.759 125.792)"/>
+  <line id="선_947" data-name="선 947" class="cls-17" y2="15" transform="translate(523.379 110.611)"/>
+  <line id="선_948" data-name="선 948" class="cls-17" x2="163.724" transform="translate(441.517 125.792)"/>
+  <line id="선_949" data-name="선 949" class="cls-17" y2="15" transform="translate(734.123 110.611)"/>
+  <line id="선_950" data-name="선 950" class="cls-17" x2="163.694" transform="translate(652.276 125.792)"/>
+  <line id="선_951" data-name="선 951" class="cls-17" x2="795.97" transform="translate(20 263.761)"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.075" height="47.911" viewBox="0 0 49.075 47.911">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#f0c560;stroke-miterlimit:10;stroke-width:.143px}
+        </style>
+    </defs>
+    <g id="prefix__구성_요소_27_1" data-name="구성 요소 27 – 1" transform="translate(.072 .072)">
+        <g id="prefix__그룹_23" data-name="그룹 23" transform="translate(-1166.941 -5118.498)">
+            <path id="prefix__패스_120" d="M1215.873 5143.586a22.681 22.681 0 1 1-22.68-22.68 22.68 22.68 0 0 1 22.68 22.68" data-name="패스 120"/>
+            <path id="prefix__패스_121" d="M1215.873 5143.586a22.681 22.681 0 1 1-22.68-22.68 22.68 22.68 0 0 1 22.68 22.68z" class="prefix__cls-1" data-name="패스 121"/>
+            <path id="prefix__패스_122" fill="#d6a803" d="M1212.3 5141.177a22.68 22.68 0 1 1-22.68-22.679 22.679 22.679 0 0 1 22.68 22.679" data-name="패스 122"/>
+            <path id="prefix__패스_123" d="M1212.3 5141.177a22.68 22.68 0 1 1-22.68-22.679 22.679 22.679 0 0 1 22.68 22.679z" class="prefix__cls-1" data-name="패스 123"/>
+        </g>
+        <text id="prefix___03" fill="#fff" data-name="3" font-family="NotoSansKR-Medium, Noto Sans KR" font-size="16px" font-weight="500" transform="translate(13.72 28.428)">
+            <tspan x="0" y="0" letter-spacing="-0.019em">0</tspan><tspan y="0">3</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,119 @@
+<svg id="구성_요소_31_1" data-name="구성 요소 31 – 1" xmlns="http://www.w3.org/2000/svg" width="796" height="376" viewBox="0 0 796 376">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9fafa;
+      }
+
+      .cls-15, .cls-2 {
+        fill: #132e54;
+      }
+
+      .cls-3, .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #132e54;
+        stroke-width: 0.5px;
+      }
+
+      .cls-4 {
+        fill: #78a5e2;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-15, .cls-5 {
+        font-size: 15px;
+      }
+
+      .cls-5 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-7 {
+        stroke: #0b468c;
+      }
+
+      .cls-9 {
+        stroke: #78a5e2;
+      }
+
+      .cls-10 {
+        fill: #656464;
+        font-size: 13px;
+      }
+
+      .cls-10, .cls-12 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-12 {
+        font-size: 14px;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-15 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_62" data-name="사각형 62" class="cls-1" width="796" height="376"/>
+  <rect id="사각형_63" data-name="사각형 63" class="cls-2" width="265.187" height="36.842" transform="translate(268.563 29.658)"/>
+  <line id="선_273" data-name="선 273" class="cls-3" y2="80" transform="translate(116.143 257)"/>
+  <rect id="사각형_64" data-name="사각형 64" class="cls-4" width="192" height="30.534" transform="translate(20.143 241.542)"/>
+  <text id="감사위원회" class="cls-5" transform="translate(82.243 261.201)"><tspan class="cls-6" x="0" y="0">감사위원</tspan><tspan y="0">회</tspan></text>
+  <line id="선_274" data-name="선 274" class="cls-7" x2="192" transform="translate(20.143 271.575)"/>
+  <path id="패스_279" data-name="패스 279" class="cls-8" d="M5198.563,3345.713h-191v29h191Z" transform="translate(-4986.92 -3023.021)"/>
+  <path id="패스_280" data-name="패스 280" class="cls-9" d="M5198.563,3345.713h-191v29h191Z" transform="translate(-4986.92 -3023.021)"/>
+  <rect id="사각형_65" data-name="사각형 65" class="cls-1" width="192.285" height="27" transform="translate(20 272.41)"/>
+  <text id="_기타비상무이사_1인_사외이사_2인_" data-name="(기타비상무이사 1인, 사외이사 2인)" class="cls-10" transform="translate(22.875 291.629)"><tspan class="cls-6" x="0" y="0">(기타비상무이사 </tspan><tspan class="cls-11" y="0">1</tspan><tspan class="cls-6" y="0">인</tspan><tspan class="cls-11" y="0">,</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 사외이사 </tspan><tspan class="cls-11" y="0">2</tspan><tspan class="cls-6" y="0">인</tspan><tspan y="0">)</tspan></text>
+  <text id="재무팀_12명_진단팀_4명_" data-name="재무팀(12명), 진단팀(4명)" class="cls-12" transform="translate(42.559 343.352)"><tspan class="cls-13" x="0" y="0">재무팀(12명</tspan><tspan class="cls-14" y="0">)</tspan><tspan class="cls-13" y="0">, 진단팀</tspan><tspan class="cls-14" y="0">(</tspan><tspan class="cls-13" y="0">4명</tspan><tspan y="0">)</tspan></text>
+  <line id="선_275" data-name="선 275" class="cls-3" y2="80" transform="translate(679.857 257)"/>
+  <rect id="사각형_66" data-name="사각형 66" class="cls-4" width="192" height="30" transform="translate(583.857 242)"/>
+  <text id="경영위원회" class="cls-5" transform="translate(645.957 261.528)"><tspan class="cls-6" x="0" y="0">경영</tspan><tspan class="cls-11" y="0">위</tspan><tspan class="cls-6" y="0">원</tspan><tspan y="0">회</tspan></text>
+  <line id="선_276" data-name="선 276" class="cls-7" x2="192" transform="translate(583.858 271.5)"/>
+  <path id="패스_281" data-name="패스 281" class="cls-8" d="M5762.278,3345.521h-191v29h191Z" transform="translate(-4986.92 -3023.021)"/>
+  <path id="패스_282" data-name="패스 282" class="cls-9" d="M5762.278,3345.521h-191v29h191Z" transform="translate(-4986.92 -3023.021)"/>
+  <rect id="사각형_67" data-name="사각형 67" class="cls-1" width="192.285" height="27" transform="translate(583.715 272.41)"/>
+  <text id="_사내이사_2인_기타비상무이사_1인_" data-name="(사내이사 2인, 기타비상무이사 1인)" class="cls-10" transform="translate(586.59 291.629)"><tspan class="cls-6" x="0" y="0">(사내이사 </tspan><tspan class="cls-11" y="0">2</tspan><tspan class="cls-6" y="0">인</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-6" y="0">기타비상무이사 </tspan><tspan class="cls-11" y="0">1</tspan><tspan class="cls-6" y="0">인</tspan><tspan y="0">)</tspan></text>
+  <text id="경영기획팀_11명_" data-name="경영기획팀(11명)" class="cls-12" transform="translate(630.277 343.161)"><tspan class="cls-14" x="0" y="0">경</tspan><tspan class="cls-13" y="0">영기</tspan><tspan class="cls-14" y="0">획팀</tspan><tspan class="cls-13" y="0">(11명</tspan><tspan y="0">)</tspan></text>
+  <path id="패스_283" data-name="패스 283" class="cls-3" d="M5665.92,3264.563v-25.34H5102.882v25.34" transform="translate(-4986.92 -3023.021)"/>
+  <line id="선_277" data-name="선 277" class="cls-3" y2="177.5" transform="translate(397.129 64)"/>
+  <line id="선_278" data-name="선 278" class="cls-3" y2="80" transform="translate(396.879 257)"/>
+  <rect id="사각형_68" data-name="사각형 68" class="cls-4" width="192" height="30" transform="translate(305.031 242)"/>
+  <text id="사외이사후보추천위원회" class="cls-5" transform="translate(326.632 261.528)"><tspan class="cls-6" x="0" y="0">사</tspan><tspan class="cls-11" y="0">외</tspan><tspan class="cls-6" y="0">이사후보</tspan><tspan class="cls-11" y="0">추</tspan><tspan class="cls-6" y="0">천위</tspan><tspan class="cls-11" y="0">원</tspan><tspan y="0">회</tspan></text>
+  <line id="선_279" data-name="선 279" class="cls-7" x2="192" transform="translate(305.032 271.5)"/>
+  <path id="패스_284" data-name="패스 284" class="cls-8" d="M5483.451,3345.521h-191v29h191Z" transform="translate(-4986.92 -3023.021)"/>
+  <path id="패스_285" data-name="패스 285" class="cls-9" d="M5483.451,3345.521h-191v29h191Z" transform="translate(-4986.92 -3023.021)"/>
+  <rect id="사각형_69" data-name="사각형 69" class="cls-1" width="202.285" height="27" transform="translate(296.857 272.41)"/>
+  <text id="_사내이사_1인_사외이사_2인_" data-name="(사내이사 1인, 사외이사 2인)" class="cls-10" transform="translate(322.282 291.629)"><tspan class="cls-6" x="0" y="0">(사내이사</tspan><tspan class="cls-11" y="0" xml:space="preserve"> 1</tspan><tspan class="cls-6" y="0">인</tspan><tspan class="cls-11" y="0">,</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 사외이사</tspan><tspan class="cls-11" y="0" xml:space="preserve"> 2</tspan><tspan class="cls-6" y="0">인</tspan><tspan y="0">)</tspan></text>
+  <text id="IR팀_4명_" data-name="IR팀(4명)" class="cls-12" transform="translate(374.48 343.161)"><tspan class="cls-13" x="0" y="0">IR</tspan><tspan class="cls-14" y="0">팀(</tspan><tspan class="cls-13" y="0">4</tspan><tspan class="cls-14" y="0">명</tspan><tspan y="0">)</tspan></text>
+  <rect id="사각형_70" data-name="사각형 70" class="cls-8" width="265.187" height="33.5" transform="translate(262.563 30)"/>
+  <rect id="사각형_71" data-name="사각형 71" class="cls-3" width="265.187" height="33.5" transform="translate(262.563 30)"/>
+  <text id="주주총회" class="cls-15" transform="translate(366.396 52.594)"><tspan class="cls-6" x="0" y="0">주</tspan><tspan class="cls-11" y="0">주</tspan><tspan class="cls-6" y="0">총</tspan><tspan y="0">회</tspan></text>
+  <rect id="사각형_72" data-name="사각형 72" class="cls-2" width="271.233" height="30" transform="translate(262.383 108)"/>
+  <text id="이사회" class="cls-5" transform="translate(377.6 129.5)"><tspan class="cls-6" x="0" y="0">이사</tspan><tspan y="0">회</tspan></text>
+  <rect id="사각형_73" data-name="사각형 73" class="cls-1" width="341.759" height="30" transform="translate(227.12 137.75)"/>
+  <text id="_사내이사_2인_기타비상무이사_1인_사외이사_5인_" data-name="(사내이사 2인, 기타비상무이사 1인, 사외이사 5인)" class="cls-10" transform="translate(267.253 158.47)"><tspan class="cls-6" x="0" y="0">(사내이사 </tspan><tspan class="cls-11" y="0">2</tspan><tspan class="cls-6" y="0">인</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-6" y="0">기타비상무이사 </tspan><tspan class="cls-11" y="0">1</tspan><tspan class="cls-6" y="0">인</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-6" y="0">사외이사 </tspan><tspan class="cls-11" y="0">5</tspan><tspan class="cls-6" y="0">인</tspan><tspan y="0">)</tspan></text>
+</svg>

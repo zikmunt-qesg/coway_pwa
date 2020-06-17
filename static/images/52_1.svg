@@ -1,0 +1,137 @@
+<svg id="구성_요소_52_1" data-name="구성 요소 52 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="349.125" viewBox="0 0 836 349.125">
+  <defs>
+    <style>
+      .cls-1, .cls-14, .cls-16, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #969697;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #3e3a39;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 2.989;
+      }
+
+      .cls-4 {
+        fill: #d6a803;
+      }
+
+      .cls-13, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-15, .cls-17, .cls-5, .cls-8 {
+        font-size: 15px;
+      }
+
+      .cls-5 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #1e2323;
+      }
+
+      .cls-15, .cls-17, .cls-8 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-9 {
+        font-size: 14px;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.015em;
+      }
+
+      .cls-12, .cls-15 {
+        fill: #685239;
+      }
+
+      .cls-14 {
+        stroke: #685239;
+        stroke-width: 0.5px;
+      }
+
+      .cls-16 {
+        stroke: #5e6366;
+      }
+
+      .cls-17 {
+        fill: #333;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.025em;
+      }
+    </style>
+  </defs>
+  <line id="선_459" data-name="선 459" class="cls-1" x2="836" transform="translate(0 348.625)"/>
+  <line id="선_460" data-name="선 460" class="cls-2" y1="270.516" transform="translate(284.593 51.479)"/>
+  <path id="패스_450" data-name="패스 450" class="cls-3" d="M3567.033,2330.171h0m0,275h0" transform="translate(-3282.44 -2280.186)"/>
+  <line id="선_461" data-name="선 461" class="cls-2" y1="270.516" transform="translate(578.051 51.479)"/>
+  <path id="패스_451" data-name="패스 451" class="cls-3" d="M3860.491,2330.171h0m0,275h0" transform="translate(-3282.44 -2280.186)"/>
+  <rect id="사각형_133" data-name="사각형 133" class="cls-4" width="253.375" height="27" transform="translate(293.458 49.485)"/>
+  <text id="신규_코디_집중_과정" data-name="신규 코디 집중 과정" class="cls-5" transform="translate(303.458 69.584)"><tspan class="cls-6" x="0" y="0">신규 코디 </tspan><tspan class="cls-7" y="0">집</tspan><tspan class="cls-6" y="0">중 과</tspan><tspan y="0">정</tspan></text>
+  <text id="전국_18개_전문_교육기관을_통한_" data-name="전국 18개 전문 교육기관을 통한 " class="cls-8" transform="translate(303.458 101.685)"><tspan class="cls-6" x="0" y="0">전국 </tspan><tspan class="cls-7" y="0">18개</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 전문 </tspan><tspan class="cls-7" y="0">교</tspan><tspan class="cls-6" y="0">육기관</tspan><tspan class="cls-7" y="0">을</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 통</tspan><tspan y="0">한 </tspan></text>
+  <text id="_" data-name=" " class="cls-8" transform="translate(501.458 101.685)"><tspan x="0" y="0"> </tspan></text>
+  <text id="집중_트레이닝" data-name="집중 트레이닝" class="cls-8" transform="translate(303.458 121.679)"><tspan class="cls-6" x="0" y="0">집중 트레이</tspan><tspan y="0">닝</tspan></text>
+  <text id="_·_제품_교육" data-name="· 제품 교육" class="cls-9" transform="translate(303.458 146.685)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">제품</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_표준_서비스_기술_교육" data-name="· 표준 서비스 기술 교육" class="cls-9" transform="translate(303.458 171.689)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">표준</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">서</tspan><tspan class="cls-11" y="0">비</tspan><tspan class="cls-10" y="0">스</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">기</tspan><tspan class="cls-11" y="0">술 </tspan><tspan class="cls-10" y="0">교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_세일즈_교육" data-name="· 세일즈 교육" class="cls-9" transform="translate(303.458 196.693)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">세일즈</tspan><tspan class="cls-11" y="0" xml:space="preserve"> 교</tspan><tspan y="0">육</tspan></text>
+  <rect id="사각형_134" data-name="사각형 134" class="cls-4" width="253.375" height="30" transform="translate(293.458 216.805)"/>
+  <text id="코디_멘토링_제도" data-name="코디 멘토링 제도" class="cls-5" transform="translate(303.458 238.405)"><tspan class="cls-6" x="0" y="0">코디 멘토링</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">제</tspan><tspan y="0">도</tspan></text>
+  <text id="선배모범코디와_1:1_매칭" data-name="선배모범코디와 1:1 매칭" class="cls-8" transform="translate(303.458 272.004)"><tspan class="cls-6" x="0" y="0">선배모범코디</tspan><tspan class="cls-7" y="0">와</tspan><tspan class="cls-6" y="0"> </tspan><tspan class="cls-7" y="0">1</tspan><tspan class="cls-6" y="0">:</tspan><tspan class="cls-7" y="0">1</tspan><tspan class="cls-6" y="0" xml:space="preserve"> 매</tspan><tspan y="0">칭</tspan></text>
+  <text id="_·_5개월_동안_멘토링_진행" data-name="· 5개월 동안 멘토링 진행" class="cls-9" transform="translate(303.458 297.004)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">5개</tspan><tspan class="cls-11" y="0">월</tspan><tspan class="cls-10" y="0"> </tspan><tspan class="cls-11" y="0">동안</tspan><tspan class="cls-10" y="0"> </tspan><tspan class="cls-11" y="0">멘</tspan><tspan class="cls-10" y="0">토</tspan><tspan class="cls-11" y="0">링 </tspan><tspan class="cls-10" y="0">진</tspan><tspan y="0">행</tspan></text>
+  <text id="_·_업무_멘토링_3개월_감성_멘토링_2개월_" data-name="· 업무 멘토링(3개월)+감성 멘토링(2개월)" class="cls-9" transform="translate(303.458 322.009)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">업무</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">멘</tspan><tspan class="cls-11" y="0">토</tspan><tspan class="cls-10" y="0">링</tspan><tspan class="cls-11" y="0">(</tspan><tspan class="cls-10" y="0">3개</tspan><tspan class="cls-11" y="0">월)</tspan><tspan class="cls-10" y="0">+</tspan><tspan class="cls-11" y="0">감</tspan><tspan class="cls-10" y="0">성</tspan><tspan class="cls-11" y="0" xml:space="preserve"> 멘</tspan><tspan class="cls-10" y="0">토링</tspan><tspan class="cls-11" y="0">(</tspan><tspan class="cls-10" y="0">2개</tspan><tspan class="cls-11" y="0">월</tspan><tspan y="0">)</tspan></text>
+  <rect id="사각형_135" data-name="사각형 135" class="cls-12" width="182.833" height="36.75" transform="translate(299.708)"/>
+  <rect id="사각형_136" data-name="사각형 136" class="cls-13" width="182.833" height="33.5" transform="translate(293.708 0.25)"/>
+  <rect id="사각형_137" data-name="사각형 137" class="cls-14" width="182.833" height="33.5" transform="translate(293.708 0.25)"/>
+  <text id="_0_3개월_차" data-name="0~3개월 차" class="cls-15" transform="translate(351.544 23.599)"><tspan class="cls-7" x="0" y="0">0~3</tspan><tspan class="cls-6" y="0">개월 </tspan><tspan y="0">차</tspan></text>
+  <rect id="사각형_138" data-name="사각형 138" class="cls-4" width="249.083" height="30" transform="translate(586.917 49.485)"/>
+  <text id="현장_밀착_교육" data-name="현장 밀착 교육" class="cls-5" transform="translate(596.917 71.084)"><tspan class="cls-6" x="0" y="0">현장</tspan><tspan class="cls-7" y="0"> </tspan><tspan class="cls-6" y="0">밀착 교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_현장_이슈_교육" data-name="· 현장 이슈 교육" class="cls-9" transform="translate(596.917 103.804)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">현장</tspan><tspan class="cls-11" y="0" xml:space="preserve"> 이</tspan><tspan class="cls-10" y="0">슈</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_총_지국별_맞춤_교육" data-name="· 총/ 지국별 맞춤 교육" class="cls-9" transform="translate(596.917 128.809)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">총/</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">지</tspan><tspan class="cls-11" y="0">국</tspan><tspan class="cls-10" y="0">별</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">맞</tspan><tspan class="cls-11" y="0">춤 </tspan><tspan class="cls-10" y="0">교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_테마별_영상교육" data-name="· 테마별 영상교육" class="cls-9" transform="translate(596.917 153.813)"><tspan class="cls-10" x="0" y="0">·</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">테마</tspan><tspan class="cls-11" y="0">별 </tspan><tspan class="cls-10" y="0">영</tspan><tspan class="cls-11" y="0">상</tspan><tspan class="cls-10" y="0">교</tspan><tspan y="0">육</tspan></text>
+  <rect id="사각형_139" data-name="사각형 139" class="cls-12" width="182.833" height="36.75" transform="translate(593.167)"/>
+  <rect id="사각형_140" data-name="사각형 140" class="cls-13" width="182.833" height="33.5" transform="translate(587.167 0.25)"/>
+  <rect id="사각형_141" data-name="사각형 141" class="cls-14" width="182.833" height="33.5" transform="translate(587.167 0.25)"/>
+  <text id="_4개월_차_" data-name="4개월 차 ~" class="cls-15" transform="translate(647.177 23.599)"><tspan class="cls-7" x="0" y="0">4개</tspan><tspan class="cls-6" y="0">월 차 </tspan><tspan y="0">~</tspan></text>
+  <line id="선_462" data-name="선 462" class="cls-16" x1="182.833" transform="translate(593.167 36.985)"/>
+  <rect id="사각형_142" data-name="사각형 142" class="cls-4" width="253.375" height="28" transform="translate(0 49.485)"/>
+  <text id="입문_교육" data-name="입문 교육" class="cls-5" transform="translate(10 70.084)"><tspan class="cls-6" x="0" y="0">입문 교</tspan><tspan y="0">육</tspan></text>
+  <text id="_기술_교육" data-name="① 기술 교육" class="cls-17" transform="translate(10 104.089)"><tspan class="cls-6" x="0" y="0">① 기술 교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_코웨이_서비스_차별점_이해" data-name="· 코웨이 서비스 차별점 이해" class="cls-9" transform="translate(10 132.905)"><tspan class="cls-10" x="0" y="0">· 코웨이</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">서</tspan><tspan class="cls-11" y="0">비</tspan><tspan class="cls-10" y="0">스</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">차별점 </tspan><tspan class="cls-11" y="0">이</tspan><tspan y="0">해</tspan></text>
+  <text id="_·_하트서비스_정복" data-name="· 하트서비스 정복" class="cls-9" transform="translate(10 157.909)"><tspan class="cls-10" x="0" y="0">· 하트서비스</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">정</tspan><tspan y="0">복</tspan></text>
+  <text id="_·_IoCare_이해_및_실습" data-name="· IoCare 이해 및 실습" class="cls-9" transform="translate(10 182.913)"><tspan class="cls-10" x="0" y="0">· I</tspan><tspan class="cls-11" y="0">o</tspan><tspan class="cls-10" y="0">C</tspan><tspan class="cls-11" y="0">a</tspan><tspan class="cls-18" y="0">r</tspan><tspan class="cls-10" y="0">e</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">이해</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">및</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">실</tspan><tspan y="0">습</tspan></text>
+  <rect id="사각형_143" data-name="사각형 143" class="cls-12" width="192.833" height="36.75" transform="translate(6.25)"/>
+  <rect id="사각형_144" data-name="사각형 144" class="cls-13" width="192.833" height="33.5" transform="translate(0.25 0.25)"/>
+  <rect id="사각형_145" data-name="사각형 145" class="cls-14" width="192.833" height="33.5" transform="translate(0.25 0.25)"/>
+  <text id="_0_20일_차" data-name="0~20일 차" class="cls-15" transform="translate(64.385 23.599)"><tspan class="cls-7" x="0" y="0">0~20</tspan><tspan class="cls-6" y="0">일 </tspan><tspan y="0">차</tspan></text>
+  <text id="_서비스_교육" data-name="② 서비스 교육" class="cls-8" transform="translate(9.995 230)"><tspan class="cls-6" x="0" y="0">② 서비스 교</tspan><tspan y="0">육</tspan></text>
+  <text id="_·_코디_업무_이해" data-name="· 코디 업무 이해" class="cls-9" transform="translate(10 258.825)"><tspan class="cls-10" x="0" y="0">· 코디 </tspan><tspan class="cls-11" y="0">업</tspan><tspan class="cls-10" y="0">무</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">이</tspan><tspan y="0">해</tspan></text>
+  <text id="_·_비즈니스_매너" data-name="· 비즈니스 매너" class="cls-9" transform="translate(10 283.829)"><tspan class="cls-10" x="0" y="0">· 비즈니스 </tspan><tspan class="cls-11" y="0">매</tspan><tspan y="0">너</tspan></text>
+  <text id="_·_서비스_마인드" data-name="· 서비스 마인드" class="cls-9" transform="translate(10 308.833)"><tspan class="cls-10" x="0" y="0">· 서비스</tspan><tspan class="cls-11" y="0"> </tspan><tspan class="cls-10" y="0">마</tspan><tspan class="cls-11" y="0">인</tspan><tspan y="0">드</tspan></text>
+</svg>

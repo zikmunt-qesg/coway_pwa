@@ -1,0 +1,24 @@
+<svg id="구성_요소_27_1" data-name="구성 요소 27 – 1" xmlns="http://www.w3.org/2000/svg" width="539.02" height="44.354" viewBox="0 0 539.02 44.354">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #91c9e0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #3e3a39;
+        stroke-width: 0.99px;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_26_1" data-name="구성 요소 26 – 1">
+    <rect id="사각형_73" data-name="사각형 73" class="cls-1" width="122.851" height="44.354"/>
+    <path id="패스_83" data-name="패스 83" class="cls-2" d="M5763.728,4008.318l4.727,4.721-4.727,4.721" transform="translate(-5635.479 -3990.818)"/>
+  </g>
+  <rect id="사각형_74" data-name="사각형 74" class="cls-1" width="122.851" height="44.354" transform="translate(138.723)"/>
+  <rect id="사각형_75" data-name="사각형 75" class="cls-1" width="122.851" height="44.354" transform="translate(277.446)"/>
+  <rect id="사각형_76" data-name="사각형 76" class="cls-1" width="122.851" height="44.354" transform="translate(416.169)"/>
+  <path id="패스_84" data-name="패스 84" class="cls-2" d="M5902.451,4008.318l4.727,4.721-4.727,4.721" transform="translate(-5635.479 -3990.818)"/>
+  <path id="패스_85" data-name="패스 85" class="cls-2" d="M6041.173,4008.318l4.727,4.721-4.727,4.721" transform="translate(-5635.479 -3990.818)"/>
+</svg>

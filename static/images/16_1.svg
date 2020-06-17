@@ -1,0 +1,103 @@
+<svg id="구성_요소_16_1" data-name="구성 요소 16 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="285.68" viewBox="0 0 836 285.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f6f7;
+      }
+
+      .cls-2 {
+        fill: #fcf1db;
+      }
+
+      .cls-3 {
+        fill: #e6e6e6;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #685239;
+        stroke-width: 0.5px;
+      }
+
+      .cls-10, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-13, .cls-6 {
+        font-size: 13px;
+      }
+
+      .cls-6 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-9 {
+        fill: #d6a803;
+      }
+
+      .cls-10, .cls-12 {
+        font-size: 15px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-11, .cls-12 {
+        fill: #685239;
+      }
+
+      .cls-13 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_102" data-name="사각형 102" class="cls-1" width="836" height="285.68"/>
+  <rect id="사각형_103" data-name="사각형 103" class="cls-2" width="633" height="82" transform="translate(20 165.957)"/>
+  <rect id="사각형_104" data-name="사각형 104" class="cls-3" width="144" height="82" transform="translate(672 165.957)"/>
+  <line id="선_423" data-name="선 423" class="cls-4" y2="137.375" transform="translate(417.12 39.402)"/>
+  <path id="패스_363" data-name="패스 363" class="cls-4" d="M6566.749,2914.958V2893.5H5922.132v21.458" transform="translate(-5826.44 -2739.18)"/>
+  <rect id="사각형_105" data-name="사각형 105" class="cls-5" width="110.38" height="29.5" transform="translate(40.25 176.027)"/>
+  <rect id="사각형_106" data-name="사각형 106" class="cls-4" width="110.38" height="29.5" transform="translate(40.25 176.027)"/>
+  <text id="_1분과" data-name="1분과" class="cls-6" transform="translate(80.263 196.498)"><tspan class="cls-7" x="0" y="0">1</tspan><tspan class="cls-8" y="0">분</tspan><tspan y="0">과</tspan></text>
+  <rect id="사각형_107" data-name="사각형 107" class="cls-5" width="110.38" height="29.5" transform="translate(362.81 176.027)"/>
+  <rect id="사각형_108" data-name="사각형 108" class="cls-4" width="110.38" height="29.5" transform="translate(362.81 176.027)"/>
+  <text id="_3분과" data-name="3분과" class="cls-6" transform="translate(402.822 196.498)"><tspan class="cls-7" x="0" y="0">3</tspan><tspan class="cls-8" y="0">분</tspan><tspan y="0">과</tspan></text>
+  <rect id="사각형_109" data-name="사각형 109" class="cls-5" width="110.38" height="29.5" transform="translate(685.37 176.027)"/>
+  <rect id="사각형_110" data-name="사각형 110" class="cls-4" width="110.38" height="29.5" transform="translate(685.37 176.027)"/>
+  <text id="_5분과" data-name="5분과" class="cls-6" transform="translate(725.383 196.498)"><tspan class="cls-7" x="0" y="0">5</tspan><tspan class="cls-8" y="0">분</tspan><tspan y="0">과</tspan></text>
+  <line id="선_424" data-name="선 424" class="cls-4" x1="138.16" transform="translate(279.18 107.68)"/>
+  <rect id="사각형_111" data-name="사각형 111" class="cls-9" width="132" height="30" transform="translate(149.6 92.679)"/>
+  <text id="웅진코웨이" class="cls-10" transform="translate(181.7 113.281)"><tspan class="cls-8" x="0" y="0">웅진코웨</tspan><tspan y="0">이</tspan></text>
+  <line id="선_425" data-name="선 425" class="cls-4" y1="21.708" transform="translate(579.531 154.07)"/>
+  <line id="선_426" data-name="선 426" class="cls-4" y1="22.708" transform="translate(256.969 154.07)"/>
+  <rect id="사각형_112" data-name="사각형 112" class="cls-5" width="110.38" height="29.5" transform="translate(201.53 176.027)"/>
+  <rect id="사각형_113" data-name="사각형 113" class="cls-4" width="110.38" height="29.5" transform="translate(201.53 176.027)"/>
+  <text id="_2분과" data-name="2분과" class="cls-6" transform="translate(241.542 196.498)"><tspan class="cls-7" x="0" y="0">2</tspan><tspan class="cls-8" y="0">분</tspan><tspan y="0">과</tspan></text>
+  <rect id="사각형_114" data-name="사각형 114" class="cls-5" width="110.38" height="29.5" transform="translate(524.09 176.027)"/>
+  <rect id="사각형_115" data-name="사각형 115" class="cls-4" width="110.38" height="29.5" transform="translate(524.09 176.027)"/>
+  <text id="_4분과" data-name="4분과" class="cls-6" transform="translate(564.103 196.498)"><tspan class="cls-7" x="0" y="0">4</tspan><tspan class="cls-8" y="0">분</tspan><tspan y="0">과</tspan></text>
+  <rect id="사각형_116" data-name="사각형 116" class="cls-11" width="253.333" height="33" transform="translate(293.204 26.154)"/>
+  <rect id="사각형_117" data-name="사각형 117" class="cls-5" width="252.833" height="29.5" transform="translate(287.453 26.404)"/>
+  <rect id="사각형_118" data-name="사각형 118" class="cls-4" width="252.833" height="29.5" transform="translate(287.453 26.404)"/>
+  <text id="착한믿음협의회" class="cls-12" transform="translate(366.47 47.754)"><tspan class="cls-8" x="0" y="0">착</tspan><tspan class="cls-7" y="0">한</tspan><tspan class="cls-8" y="0">믿음협의</tspan><tspan y="0">회</tspan></text>
+  <line id="선_427" data-name="선 427" class="cls-4" x2="594.22" transform="translate(40.25 226.777)"/>
+  <line id="선_428" data-name="선 428" class="cls-4" y2="2.25" transform="translate(40.25 225.652)"/>
+  <line id="선_429" data-name="선 429" class="cls-4" y2="2.25" transform="translate(634.47 225.652)"/>
+  <line id="선_430" data-name="선 430" class="cls-4" x2="110.38" transform="translate(685.37 226.777)"/>
+  <line id="선_431" data-name="선 431" class="cls-4" y2="2.25" transform="translate(685.37 225.652)"/>
+  <line id="선_432" data-name="선 432" class="cls-4" y2="2.25" transform="translate(795.75 225.652)"/>
+  <rect id="사각형_119" data-name="사각형 119" class="cls-2" width="62" height="11.44" transform="translate(312.7 221.057)"/>
+  <text id="_1차_협력사" data-name="1차 협력사" class="cls-13" transform="translate(315.003 232.498)"><tspan class="cls-8" x="0" y="0">1차 협력</tspan><tspan y="0">사</tspan></text>
+  <rect id="사각형_120" data-name="사각형 120" class="cls-1" width="169.499" height="20" transform="translate(332.37 69.153)"/>
+  <text id="_5개_분과_총_100여개_협력사" data-name="5개 분과 총 100여개 협력사" class="cls-6" transform="translate(344.19 83.873)"><tspan class="cls-7" x="0" y="0">5</tspan><tspan class="cls-8" y="0">개 분과 총 </tspan><tspan class="cls-7" y="0">100</tspan><tspan class="cls-8" y="0">여개 협력</tspan><tspan y="0">사</tspan></text>
+  <rect id="사각형_121" data-name="사각형 121" class="cls-3" width="61" height="11.44" transform="translate(710.06 221.057)"/>
+  <text id="_2차_협력사" data-name="2차 협력사" class="cls-13" transform="translate(711.862 232.498)"><tspan class="cls-8" x="0" y="0">2차 협력</tspan><tspan y="0">사</tspan></text>
+</svg>

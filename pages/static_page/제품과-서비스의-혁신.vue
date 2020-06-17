@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">  
     <logger title="제품과 서비스의 혁신"></logger>
-    <b-img src="@/assets/images/사각형 8@2x.png" fluid class="material-page-top-img"></b-img>
+    <b-img src="@/assets/images/사각형 8.png" fluid class="material-page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -39,14 +39,14 @@
                                 <b-col class="col-12 pt-3">
                                     <h7 class="mb-4 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
-                                        <b-col class="col-12 col-sm-6 col-md-12 mb-3 text-center">
+                                        <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
                                             <div class="mx-auto mb-3" style="height:58px"><b-img src="@/assets/images/63_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 font-noto">2019년 연구개발비</p>
-                                            <p class="mb-0 fw-400 blue7"><span class="f-230">37,671</span>백만 원</p>
+                                            <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">37,671</span>백만 원</p>
                                             <p class="gray65 fw-400 line-height-low px-xl-5">(전년대비 2.3% 증가, 매출액 대비 1.25%)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
-                                            <div class="mx-auto mb-3" style="height:58px"><b-img src="@/assets/images/64_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-2" style="height:58px"><b-img src="@/assets/images/64_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="gray7 mb-0 fw-500 font-noto">5년 연속</p>
                                             <p class="f-140 fw-400 blue7">CES 혁신상 수상</p>
                                         </b-col>
@@ -59,16 +59,16 @@
                             <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
                             <p >감염병의 확산과 미세먼지 증가 등 최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 가정에 머무는 시간이 증가함에 따라 건강과 위생은 물론, 고객 개인의 라이프스타일을 반영한 제품과 서비스에 대한 니즈가 증가하였으며, 디지털 기술이 생활 전반에 자리함에 따라 주거공간에 인공지능(AI), 사물인터넷(IoT) 기술을 접목한 스마트 홈(Smart Home) 구현이 경쟁 요소로 자리하였습니다.
                             </p>
-                            <p class="mb-45">코웨이는 이러한 변화를 환경가전 렌탈 비즈니스의 새로운 기회로 삼아 ‘물과 공기를 깨끗하게’라는 코웨이의 본질을 강화하기 위한 활동을 추진하였습니다. 2019년 코웨이는 위생성을 극대화한 ‘한뼘 시루직수 정수기’를 출시하고, 빅데이터 기반 고객 맞춤형 제품을 추천하는 ‘워터맵 서비스’를 제공하는 한편, 깨끗하고 맛있는 물을 선도하는 글로벌 리더로서 연구를 강화하기 위해 R&D 센터 내 ‘물맛 연구소’를 개소하는 등의 혁신 활동을 추진하였습니다. 또한, 오픈 이노베이션을 통해 제품에 ICT 기술을 결합한 스마트 가전을 선보이며 시장 내 경쟁력을 확보하고 고객 가치를 향상하기 위한 노력을 기울이고 있습니다.
+                            <p class="mb-5 mb-md-45">코웨이는 이러한 변화를 환경가전 렌탈 비즈니스의 새로운 기회로 삼아 ‘물과 공기를 깨끗하게’라는 코웨이의 본질을 강화하기 위한 활동을 추진하였습니다. 2019년 코웨이는 위생성을 극대화한 ‘한뼘 시루직수 정수기’를 출시하고, 빅데이터 기반 고객 맞춤형 제품을 추천하는 ‘워터맵 서비스’를 제공하는 한편, 깨끗하고 맛있는 물을 선도하는 글로벌 리더로서 연구를 강화하기 위해 R&D 센터 내 ‘물맛 연구소’를 개소하는 등의 혁신 활동을 추진하였습니다. 또한, 오픈 이노베이션을 통해 제품에 ICT 기술을 결합한 스마트 가전을 선보이며 시장 내 경쟁력을 확보하고 고객 가치를 향상하기 위한 노력을 기울이고 있습니다.
                             </p>
                             <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <b-row>
-                                <b-col class="col-12 col-md-7 py-2 pr-sm-2 pr-xl-3 d-flex">
+                                <b-col class="col-12 col-md-7 py-2 pr-sm-2 pr-xl-3 d-flex align-items-center">
                                     <div class="mr-3" style="height:50px;"><b-img src="@/assets/images/65_1.svg" ></b-img> </div>
                                     <div class="fw-500 mb-0"><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</div>
                                 </b-col>
                                 <b-col class="col-12 col-md-5 py-2 d-flex align-items-center">
-                                    <div class="mr-3" style="height:57px"><b-img src="@/assets/images/66_1.svg" ></b-img> </div>
+                                    <div class="ml-2 ml-md-0 mr-3" style="height:57px"><b-img src="@/assets/images/66_1.svg" ></b-img> </div>
                                     <div class="fw-500 mb-0">물맛연구소 개소</div>
                                 </b-col>
                             </b-row>
@@ -77,11 +77,11 @@
                 </section>
                 <hr class="py-3">
                 <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'본질적 가치를 높이는 제품 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="pb-3 mb-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
+                    <p class="mb-45 mb-md-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
                     </p>
                     <b-row class="mb-5">
-                        <b-col class="col-12 col-md-5 mb-3 mb-md-0 temp-img1 pr-0"><b-img src="@/assets/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
-                        <b-col class="col-12 col-md-7 px-3 px-xl-0"><h6-ancor :title="'혁신 기술의 집약, 한뼘 시루직수 정수기 개발 '" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
+                        <b-col class="col-12 col-md-5 mb-45 mb-md-0 temp-img1 pr-0"><b-img src="@/assets/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
+                        <b-col class="col-12 col-md-7 px-3 pl-md-4 px-xl-0"><h6-ancor :title="'혁신 기술의 집약, 한뼘 시루직수 정수기 개발 '" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
                             <p>코웨이는 끊임없는 기술 진화를 통해 2019년 ‘한뼘 시루직수 정수기’를 출시하였습니다. 한뼘 시루직수 정수기는 RO멤브레인 필터를 직수화 기술로 구현한 ‘시루직수 정수기’의 업그레이드 버전으로, 오염 물질 제거 성능과 풍부한 유량을 특징으로 합니다. 필터 기술력의 정점인 ‘CIROO 2.0 필터’를 탑재하여, 기존 필터보다 면적을 6배, 정수량을 30배 높인 직수 방식으로 구현하였으며, 물을 마실 때마다 유로에 남은 물을 배출하는 ‘유로 비움 모드’, 24시간 동안 사용하지 않으면 정수기 속 남은 물을 배출하는 ‘자동 배수 시스템’으로 위생성을 향상하였습니다. 또한, 기존 시루직수 정수기(CHP-7300R, CP-7300R) 대비 크기를 약 30% 줄여 공간 활용도를 높였고, 소형 냉각 시스템과 순간 온수 시스템을 적용하여 에너지소비효율을 1등급으로 높여 친환경적 측면도 개선하였습니다.
                             </p>
                         </b-col>
@@ -115,10 +115,10 @@
                     </b-table-simple>
                     <b-row class="mb-45">
                         <b-col class="col-12 col-sm-6 mb-5 mb-md-0" style="height:250px"><b-img src="@/assets/images/사각형 66@2x.png" fluid class="h-100"></b-img>
-                            <div class="f-80 mt-2">사계절 의류청정기 더블케어 FAD-01S</div>
+                            <p class="f-80 mt-2">사계절 의류청정기 더블케어 FAD-01S</p>
                         </b-col>
                         <b-col class="col-12 col-sm-6 " style="height:250px"><b-img src="@/assets/images/사각형 69@2x.png" fluid class="h-100"></b-img>
-                            <div class="f-80 mt-2">2020 CES</div>
+                            <p class="f-80 mt-2">2020 CES</p>
                         </b-col>
                     </b-row>
                 </section>
@@ -133,8 +133,11 @@
                     </b-col>
                     <b-col class="col-12 col-sm-6 line-height-low">
                         <div class="w-100 mb-3"><b-img src="@/assets/images/구성 요소21_1.svg" fluid class="w-100"></b-img></div>
-                        <p class="f-80 mb-1"> 1) NPS(순추천 지수 = 추천 고객비율 - 비추천 고객 비율)를 통해 고객만족도를 측정함</p>
-                        <p class="f-80"> 2) 2019년도는 모바일로 조사방법을 변경함</p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li> NPS(순추천 지수 = 추천 고객비율 - 비추천 고객 비율)를 통해 고객만족도를 측정함
+                            </li>
+                            <li> 2019년도는 모바일로 조사방법을 변경함</li>
+                        </ol>
                     </b-col>
                 </b-row>
                 <hr class="py-2">
@@ -192,7 +195,7 @@
                             </p>
                         </b-col>
                         <b-col class="col-12 col-md-6 d-flex flex-row flex-md-column align-items-center">
-                            <div class="text-center mb-md-4 px-md-5"><b-img src="@/assets/images/33@3x.png" fluid></b-img></div>
+                            <div class="text-center d-none d-sm-block mb-md-4 px-md-5"><b-img src="@/assets/images/33@3x.png" fluid></b-img></div>
                             <div class="text-center"><b-img src="@/assets/images/9_1@3x.png" fluid class="w-100"></b-img> </div>
                         </b-col>
                     </b-row>
