@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="경제적 가치 창출과 분배"></logger>
 
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -32,19 +32,19 @@
                     <p class="font-noto mb-5">고객 해약률 또한 1.01%로 장기적 감소추세에 있으며, 렌탈 자산폐기 또한 매출대비 2.5%로 손실을 최소화하고 있습니다. 
                     </p>
                     <hr class="py-1">
-                    <b-img src="@/assets/images/89_1.svg" fluid alt="코웨이 매출 및 영업이익 추이(2010-2019)"></b-img>
+                    <b-img src="/images/89_1.svg" fluid alt="코웨이 매출 및 영업이익 추이(2010-2019)"></b-img>
                     <hr class="mb-3">
-                    <b-img src="@/assets/images/90_1.svg" fluid alt="렌탈 계정현황"></b-img>
+                    <b-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></b-img>
                     <hr class="mb-3">
 
                     <h6-ancor :title="'해외 사업의 꾸준한 확대'" :activated="activated" class="parang6 fw-500 mb-2">해외 사업의 꾸준한 확대</h6-ancor>
                     <p class="mb-45">2019년 해외사업 매출은 7,491억 원으로 전년대비 37.7% 성장하였습니다. 말레이시아 및 미국법인의 매출이 큰 폭으로 증가하며 해외법인은 고성장을 지속하고 있습니다. 주요 법인별로는 말레이시아 법인의 매출이 전년 3,534억 원 대비 48.9% 증가하여 5,263억 원을 달성하였으며, 관리계정은 2018년 97만 6,000계정에서 135만 4,000 계정으로 38.8% 증가하였습니다. 미국 또한 전년 805억 원 대비 20.9% 성장한 973억 원의 매출, 11만 4,000계정에서 4.7% 증가한 12만 계정을 달성하며 견조한 성장세를 유지하고 있습니다. 
                     </p>
 
-                    <b-img src="@/assets/images/91_1.svg" fluid alt="제품별 수출 비중"></b-img>
+                    <b-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></b-img>
                     <hr class="mb-3">
 
-                    <b-img src="@/assets/images/92_1.svg" fluid alt="해외법인 관리계정"></b-img>
+                    <b-img src="/images/92_1.svg" fluid alt="해외법인 관리계정"></b-img>
                     <hr class="mb-3">
 
                     <h6-ancor :title="'넷마블 인수에 따른 구독경제 시너지 확대'" :activated="activated" class="parang6 fw-500 mb-2">넷마블 인수에 따른 구독경제 시너지 확대</h6-ancor>
@@ -55,7 +55,7 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'경제적 가치 분배'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 분배</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 2019년 연결기준 3조 189억 원의 매출액과 기타수익 및 금융수익을 합해 총 3조 683억 원의 경제적 가치를 창출하였습니다. 창출된 가치 중 3조 7억 원을 기업의 미래가치와 투자 효율성을 고려하여 이해관계자들에게 합리적으로 배분하였으며, 모든 배분을 마치고 유보된 총 675억 원의 경제적 가치를 자본 총계로 가산하였습니다. 한편 코웨이는 2019년 연구인력 개발비 투자, 생산성 향상 투자 등으로 정부로부터 약 XX원의 세액을 공제 받았습니다. 
                     </p>
-                    <b-img src="@/assets/images/93_1.svg" fluid alt="해외법인 관리계정"></b-img>
+                    <b-img src="/images/93_1.svg" fluid alt="해외법인 관리계정"></b-img>
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'조세 정책'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">조세 정책</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>

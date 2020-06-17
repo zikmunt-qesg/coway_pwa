@@ -15,7 +15,7 @@ export default {
         },
         viewHandler(event){
             if(event.type == 'progress' ){
-                if(event.percentCenter==0.5) { this.activated.splice(0, 1, event.target.element.id) }
+                if(event.percentCenter > 0.1 && event.percentCenter < 0.3) { this.activated.splice(0, 1, event.target.element.id) }
             }
             //else if(event.type == 'exit'){
             //    let idx = this.activated.findIndex(item => item == event.target.element.id)

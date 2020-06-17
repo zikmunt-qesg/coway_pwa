@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="CEO Message"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -29,7 +29,7 @@
                             <h6>안녕하십니까? </h6>
                             <h6>이해관계자 여러분 모두에게<br> 건강과 행복이 가득하기를 바랍니다.</h6>
                         </div>
-                        <div><b-img src="@/assets/images/CEO.png" fluid class="w-100"></b-img></div>
+                        <div><b-img src="/images/CEO.png" fluid class="w-100"></b-img></div>
                     </div>
                 </section>
                 <section class="px-4 py-4">
@@ -91,7 +91,7 @@
                     </b-row> 
                     <p class="text-right f-90 fw-500 mb-1"> 코웨이 대표이사 </p>
                     <div class="text-right fw-500 f-130 mb-2"> 이 해 선 </div>
-                    <div class="text-right"><b-img src="@/assets/images/49_1.png"></b-img></div>
+                    <div class="text-right"><b-img src="/images/49_1.png"></b-img></div>
                 </section>                
             </b-container>
             </b-col>

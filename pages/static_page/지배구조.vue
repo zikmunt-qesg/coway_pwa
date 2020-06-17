@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="지배구조"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -128,7 +128,7 @@
                     <p class="mb-5">사외이사 선임 시 독립성 및 겸직사항 등 법률상 사외이사 자격요건을 확인하여 확인서를 한국거래소에 제출하고 있으며, 주주총회소집 결의 공시 과정에서도 사외이사 자격요건 적격 확인서를 통해 회사와의 독립성 여부, 법령상 자격요건을 주주 및 이해관계자에게 투명하게 공개하고 있습니다.
                     </p>
 
-                    <b-img src="@/assets/images/47_1.svg" fluid></b-img>
+                    <b-img src="/images/47_1.svg" fluid></b-img>
                     <hr class="mb-4">
 
                     <h6-ancor :title="'이사회 산하 위원회 운영'" :activated="activated" class="parang6 fw-500 mb-3">이사회 산하 위원회 운영</h6-ancor>
@@ -187,7 +187,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <hr class="py-2">
-                        <b-img src="@/assets/images/79_1.svg" fluid></b-img>
+                        <b-img src="/images/79_1.svg" fluid></b-img>
 
                     <hr class="py-3 mb-5">
 
@@ -289,7 +289,7 @@
                     </p>
 
                         <h7 class="mb-2 gray63">주주현황</h7>
-                        <b-img src="@/assets/images/80_1.svg" fluid></b-img>
+                        <b-img src="/images/80_1.svg" fluid></b-img>
                         <hr class="mb-4">
                     
                         <h7 class="mb-3 gray63">의결권 현황 *</h7>

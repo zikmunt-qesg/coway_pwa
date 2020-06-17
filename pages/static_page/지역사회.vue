@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="지역사회 참여"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
                             <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
@@ -40,15 +40,15 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">물, 공기, 사람을 통한 사회공헌</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">CEO가 함께하는 임직원 봉사단 운영</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">말레이시아 글로벌 사회공헌 추진</p>
                             </b-col>
                         </b-row>
@@ -56,13 +56,13 @@
                             <b-col class="col-12 col-md-8 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break">'착한 정수기' 캠페인</p>
                                     </b-col>
-                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break">취약계층 환경 개선 사업</p>
                                     </b-col>
-                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break">청년 창업사관학교 COWAY Wi School 운영</p>
                                     </b-col>
                                 </b-row>
@@ -83,7 +83,7 @@
                         </p>
                         <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>코웨이 사회공헌 웹사이트 바로가기</b-button></a>
                         <hr class="space-p25">
-                        <b-img src="@/assets/images/10_1.svg" fluid></b-img>
+                        <b-img src="/images/10_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
                         <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
@@ -115,7 +115,7 @@
                         </p>
                         <p class="mb-45">스마트 영업조직인 블루버드는 소아암재단과 협약을 맺고 정기적인 봉사활동을 실천하고 있습니다. 2019년에는 소아암 백혈병 치료를 마친 150명의 환아들을 격려하고 축하하기 위해 치료종결 축하행사를 진행했습니다.
                         </p>
-                        <b-img src="@/assets/images/15_1.svg" fluid></b-img>
+                        <b-img src="/images/15_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         <h7 class="mb-3 gray63">임직원 봉사활동 성과</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
@@ -139,13 +139,13 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'깨끗한 물과 공기를 위한 코웨이의 약속'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">깨끗한 물과 공기를 위한 코웨이의 약속</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5">코웨이는 모든 지역사회에 깨끗한 물과 공기에 대한 접근성을 향상하고 위생이 보장된 생활환경을 제공하여 삶의 질을 향상하고자 물, 공기, 사람의 세 가지 약속을 주요 사회공헌 영역으로 추진합니다. 이에 따라 중점 추진 활동으로 국내외 취약계층에 정수기 및 공기청정기를 지원하여 깨끗함의 가치를 공유하는 한편, 청년 일자리 창출 및 산업 혁신을 위해 라이프스타일 분야 청년 창업자를 지원하고 있습니다.  
                         </p>
-                        <b-img src="@/assets/images/57_1.svg" fluid></b-img>
+                        <b-img src="/images/57_1.svg" fluid></b-img>
                     <hr class="mb-4">          
 
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">
                     <div class="d-flex justify-content-between mb-3 mt-2">
                         <h6-ancor :title="'약속 1.물 - 지역사회 깨끗한 물 지원'" :activated="activated" class="gold8 fw-500 mb-3 f-110 font-noto">'약속 1.물 - 지역사회 깨끗한 물 지원'</h6-ancor>
-                        <b-img src="@/assets/images/13_1.svg" fluid></b-img>
+                        <b-img src="/images/13_1.svg" fluid></b-img>
                     </div>
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 6 – 깨끗한 물과 위생</div>
                     <p class="f-105 ">6.1 모두가 이용 가능한 안전한 식수에 대한 접근성 확보</p>
@@ -182,7 +182,7 @@
                     <hr class="py-2">
                     <div class="d-flex justify-content-between mb-3 mt-2">
                         <h6-ancor :title="'약속 2.공기 - 취약계층 환경개선 지원'" :activated="activated" class="gold8 fw-500 mb-3 f-110 font-noto">'약속 2.공기 - 취약계층 환경개선 지원'</h6-ancor>
-                        <b-img src="@/assets/images/12_1.svg" fluid></b-img>
+                        <b-img src="/images/12_1.svg" fluid></b-img>
                     </div> 
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 3 – 건강과 웰빙</div>
                     <p class="f-105 ">3.9 대기, 수질, 토양오염 및 유해 화학물질 등으로 인한 질병 및 사망 감축</p>
@@ -209,7 +209,7 @@
                     <hr class="py-2">
                     <div class="d-flex justify-content-between mb-3 mt-2">
                         <h6-ancor :title="'약속 3.사람 - 청년 창업 지원'" :activated="activated" class="gold8 fw-500 mb-3 f-110 font-noto">'약속 3.사람 - 청년 창업 지원'</h6-ancor>
-                        <b-img src="@/assets/images/11_1.svg" fluid></b-img>
+                        <b-img src="/images/11_1.svg" fluid></b-img>
                     </div> 
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 8 – 양질의 일자리와 경제 성장</div>
                     <div class="f-105 fw-300">8.3 일자리 창출에 대한 창의적·혁신적 정책 장려 및 중소기업 성장 촉진</div>

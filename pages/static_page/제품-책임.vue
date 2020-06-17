@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">  
     <logger title="제품 책임"></logger>
-    <b-img src="@/assets/images/사각형 8.png" fluid class="material-page-top-img"></b-img>
+    <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -40,13 +40,13 @@
                                     <h7 class="mb-45 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
-                                            <div class="mx-auto mb-2" style="height:61px;"><b-img src="@/assets/images/98_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-2" style="height:61px;"><b-img src="/images/98_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 line-height-low word-break">국제안전인증센터 공인시험소</p> 
                                             <p class="mb-0 mt-m-2 fw-400 blue7"><span class="f-230">13</span>개소 보유</p>
                                             <p class="gray65 fw-400 mt-m-2">(2019년 말 기준)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 mb-sm-0 text-center">
-                                            <div class="mx-auto mb-2" style="height:61px;"><b-img src="@/assets/images/99_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-2" style="height:61px;"><b-img src="/images/99_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 font-noto">2019년 제품책임 관련</p> 
                                             <p class="mb-0 f-140 fw-400 blue7">규제 위반 0건</p>
                                         </b-col>
@@ -69,7 +69,7 @@
                                     <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">2019년 한국신뢰성대상 '제조업 부문 대상' 수상</p>
                                     <p class="fw-500 mb-0 mr-2 word-break font-noto line-height-low">2019년 '서비스품질 우수상' 국무총리 표창</p>
                                 </div>
-                                <div style="height:90px;"><b-img src="@/assets/images/100_1.svg"></b-img> </div>
+                                <div style="height:90px;"><b-img src="/images/100_1.svg"></b-img> </div>
                             </div>
                         </b-col>
                     </b-row>
@@ -103,7 +103,7 @@
                         </p>
                         <p class="f-80 mb-4">* 한국신뢰성학회가 주관하는 한국신뢰성대상은 소재나 부품, 제품의 신뢰성을 강화해 산업 및 국가의 경제발전에 기여하고 고객 만족도를 향상시킨 기업을 선정합니다. 
                         </p>
-                        <b-img class="mb-3" src="@/assets/images/97.png" fluid></b-img>
+                        <b-img class="mb-3" src="/images/97.png" fluid></b-img>
                     </section>
 
                     <hr class="py-2">
@@ -115,7 +115,7 @@
                         <b-col class="col-12 col-sm-6 mb-3 mb-sm-0">
                             <h7 class="gray63 mb-0">신뢰성 인프라 투자금액</h7>
                             <div class="f-80 gray6 mb-2">(단위: 백만 원)</div>
-                            <b-img src="@/assets/images/82_1.svg" fluid></b-img>
+                            <b-img src="/images/82_1.svg" fluid></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-6">
                             <h7 class="gray63 mb-0">코웨이 신뢰성 인프라 보유현황</h7>

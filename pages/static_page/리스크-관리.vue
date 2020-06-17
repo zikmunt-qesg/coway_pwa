@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="리스크 관리"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
     
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -30,9 +30,9 @@
                     </p>
 
                     <h7 class="mb-3 gray63">전사 리스크 대응 프로세스</h7>
-                    <b-img src="@/assets/images/69_2.svg" fluid></b-img>
+                    <b-img src="/images/69_2.svg" fluid></b-img>
                     <hr class="mb-3">
-                    <b-img src="@/assets/images/73_1.svg" fluid></b-img>
+                    <b-img src="/images/73_1.svg" fluid></b-img>
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'잠재 리스크의 관리'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>

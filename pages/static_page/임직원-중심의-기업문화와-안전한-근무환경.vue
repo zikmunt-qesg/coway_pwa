@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="임직원 중심의 기업문화와 안전한 근무환경"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
                             <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance & Approach</h7>
@@ -42,15 +42,15 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">STEP 제도 기반의 역량 강화</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">노사협의회 운영을 통한 정기적 소통</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">산업안전보건 위원회 운영</p>
                             </b-col>
                         </b-row>
@@ -58,10 +58,10 @@
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-3 px-md-0">디지털 기반의 업무 혁신 지원</p>
                                     </b-col>
-                                    <b-col class="col-7 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-7 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-3 px-md-0"><span style="word-break: normal;">코로나바이러스감염증<span class="fw-600">-19</span></span> (COVID<span class="fw-600">-19</span>) 확산 방지 및 예방을 위한 노력</p>
                                     </b-col>
                                 </b-row>
@@ -96,12 +96,12 @@
                 <section class="mb-5">
                     <p class="mb-5"> 코웨이는 기업의 미래가치는 인재로부터 비롯된다는 원칙을 기반으로 공정성, 일과 삶의 균형, 착한 성장 중심 인재 경영을 실천하고 있습니다. 코웨이는 모든 임직원이 공정한 기회를 토대로 자신의 역량을 개발하고 그에 대한 성과를 보상받을 수 있도록 다방면의 지원 체계를 구축하고 있습니다. 투명하고 공정한 채용 프로세스를 기반으로 인재상에 부합하는 인재를 채용하며, 임직원들이 자신의 역량을 적극적으로 개발할 수 있도록 STEP(Self Teaching & Education Plan)제도 기반의 다양한 학습 기회를 제공합니다. 또한, 소통과 참여 기반의 기업문화를 조성하여 임직원이 일과 삶의 균형을 이룰 수 있는 환경을 제공하고 있습니다. 
                     </p>
-                    <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="@/assets/images/구성 요소4_1.svg" fluid class="h-100"></b-img></div>
+                    <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="/images/구성 요소4_1.svg" fluid class="h-100"></b-img></div>
                     <hr class="mb-4">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="`'착한성장'을 위한 역량 강화`" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 강화하고, 비즈니스 변화에 부합하는 직무 역량을 향상할 수 있도록 교육을 강화할 예정입니다. 
                         </p>
-                        <b-img src="@/assets/images/68_1.svg" fluid ></b-img>
+                        <b-img src="/images/68_1.svg" fluid ></b-img>
                     <hr class="space-p25 mb-2">
                     <h6-ancor :title="'리더십 교육'" :activated="activated" class="gold6 fw-500 mb-2">리더십 교육</h6-ancor>
                         <p class="mb-45"> 미래를 선도하는 리더를 육성하고 직책에 맞는 역량을 개발하기 위해 리더십 교육을 진행하고 있습니다. 임원 및 팀장을 대상으로 맞춤 교육과 온라인 컨텐츠 교육을 정기적으로 제공하며, 신임직책자를 대상으로 신임리더 교육을 지원합니다. 또한 pre-leadership 교육으로 승진자 교육 및 직급별 3년차 교육을 실시하여 개인의 성장을 점검하고 필요한 역량을 개발하도록 지원하고 있습니다.
@@ -138,27 +138,27 @@
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-4 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 fw-500 f-100 mb-2">공간(SPACE)</p><p class="px-2 f-90 word-break line-height-low">몰입 준비와 배려를 위한 효율적 공간 활용</p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 fw-500 f-100 mb-2">시간(TIME)</p><p class="px-2 f-90 word-break line-height-low">책임있는 매너를 위한 효율적 시간 운영</p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 fw-500 f-100 mb-2">성과(RESULT)</p><p class="px-2 f-90 word-break line-height-low">지속적인 문화 정착을 위한 기업문화 평가 모델 구축</p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 fw-500 f-100 mb-2">지식(ACQUAINTANCE)</p><p class="px-2 f-90 word-break line-height-low">지식 습득 및 공유를 위한 활동 지속</p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="@/assets/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/구성 요소12_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 fw-500 f-100 mb-2">방식(METHODS)</p><p class="px-2 f-90 word-break line-height-low">일하는 방식 효율을 위한 프로세스 검토</p>
                             </b-col> 
                         </b-row>
@@ -171,17 +171,17 @@
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO 커뮤니케이션 활동</p><p class="px-3 f-90 line-height-low">신년식과 종무식, 수능을 앞둔 자녀가 있는 임직원을 위한 격려선물, 영업 현장 호프데이 등 다양한 활동을 진행하며 CEO와 임직원 간의 수평적 의사소통 강화</p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">상상오션</p><p class="px-3 f-90 line-height-low">코웨이의 대표적인 아이디어 제안 제도로 임직원이 자유롭게 아이디어를 제공하고 이에 따른 보상 제공</p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">고충처리 채널</p><p class="px-3 f-90 line-height-low">근로자 대표와 정기적인 노사협의회 및 노사협의회 워크숍 실시, 사내 온라인 상담 채널 '코러스' 운영</p>
                             </b-col>
                         </b-row>
@@ -231,22 +231,22 @@
                         <b-row no-gutters class="bg-blue-gray1 mb-45 py-3 text-center border-bottom-gray-bold">
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">패밀리 데이 및 정시 출퇴근제도</p><p class="px-2 f-90 mb-md-0 line-height-low">정시 출퇴근을 장려하는 PC-Off 제도, 패밀리 데이 운영 등으로 가족과 함께 시간을 보낼 수 있도록 지원</p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">효율적 일하기 문화</p><p class="px-2 f-90 mb-md-0 line-height-low">효율적이고 생산적인 코웨이만의 일하는 방법을 구축하기 위해 ‘결승전결’이라는 슬로건을 수립하고, 회의/보고/협업과 관련된 지침과 행동규범을 통해 업무에 집중할 수 있는 환경을 조성</p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">초등학교 입학 휴가</p><p class="px-2 f-90 mb-md-0 line-height-low">초등학교에 입학한 자녀의 적응을 돕기 위해 임직원에게 5일 유급휴가 지급</p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">임신기간 단축 근무</p><p class="px-2 f-90 mb-md-0 line-height-low">임신기간 중 위험성이 높은 초기와 말기에 출근/퇴근 2시간 단축 근무 시행</p>
                             </b-col>
                         </b-row>
@@ -255,22 +255,22 @@
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center border-bottom-gray-bold">
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">가족초청 코웨이데이</p><p class="px-2 f-90 mb-md-0 line-height-low">임직원 가족들을 초청하여 코웨이 견학, 레일바이크, 글램핑 등 다양한 프로그램 진행</p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_2.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">가족초청 코웨이데이</p><p class="px-2 f-90 mb-md-0 line-height-low">신입사원의 입사 100일을 기념하고 소속감을 강화하기 위해 가족들을 초청하여 업무 공간 견학 등의 행사 진행</p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">과학캠프</p><p class="px-2 f-90 mb-md-0 line-height-low">연 2회 임직원 자녀를 초청하여 물과 공기의 가치에 대해 느끼고 체험하는 기회 제공</p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
-                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="@/assets/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/구성 요소13_3.svg" fluid class="h-100"></b-img></div>
                                 <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">코웨이 가족농장</p><p class="px-2 f-90 mb-md-0 line-height-low">매년 4월부터 10월까지 가족농장을 운영하여 임직원들에게 유기농 채소재배를 통한 소소한 행복 제공</p>
                             </b-col>
                         </b-row>

@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">
     <logger title="깨끗한 물과 공기를 위한 환경경영"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
                             <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 green7">
-                                <div class="temp-icon1"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
@@ -39,19 +39,19 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">친환경 · 착한 브랜드 정립</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">에코 비즈니스 (Eco-Business) 구축</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">친환경 가치사슬 구축 및 운영</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-md-2 px-xl-4 mx-xl-2">친환경 소통과 참여 확대</p>
                             </b-col>
                         </b-row>
@@ -59,10 +59,10 @@
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-md-2 px-xl-4">Ecoway 협의체 부문 확대</p>
                                     </b-col>
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-md-2 px-xl-4">전과정 수자원 절감</p>
                                     </b-col>
                                 </b-row>
@@ -75,7 +75,7 @@
                                         <p class="fw-500 word-break">2050년까지 신재생에너지 RE100, 탄소 배출량 제로 NET ZERO 달성 </p>
                                         <p class="f-90 fw-300 word-break">(2030년 신재생 50%, 2040년 75%, 2050년 100%)</p>
                                     </b-col>
-                                    <b-col class="col-5"><div class="temp-icon3 mx-auto"><b-img src="@/assets/images/구성 요소15_1.svg" fluid class="w-100"></b-img></div></b-col>
+                                    <b-col class="col-5"><div class="temp-icon3 mx-auto"><b-img src="/images/구성 요소15_1.svg" fluid class="w-100"></b-img></div></b-col>
                                 </b-row>
                             </b-col>
                         </b-row>
@@ -92,27 +92,27 @@
                     <h6-ancor :title="'코웨이 환경경영 방침'" :activated="activated" class="fw-500 gray65 mb-3 f-105">코웨이 환경경영 방침</h6-ancor>
                         <div class="row force-deflex mb-2">
                             <div class="col">
-                                <div class="temp-icon4 mb-3"><b-img src="@/assets/images/74_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 mb-3"><b-img src="/images/74_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="f-90 fw-300">친환경 비즈니스에 지속적인 투자와 혁신을 통해 코웨이 지속가능성 강화와 글로벌 친환경기업 리더십을 확보한다.
                                 </p>
                             </div>
                             <div class="col">
-                                <div class="temp-icon4 mb-3"><b-img src="@/assets/images/75_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 mb-3"><b-img src="/images/75_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="f-90 fw-300"> 환경법규를 준수하고 선진적인 환경경영시스템을 구축하여 지속적인 환경경영 가치 창출 및 미래성장 동력을 확보한다.
                                 </p>
                             </div>
                             <div class="col">
-                                <div class="temp-icon4 mb-3"><b-img src="@/assets/images/76_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 mb-3"><b-img src="/images/76_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="f-90 fw-300"> 청정생산 체계를 구축하여 환경오염물질 및 온실가스 배출 감축활동 등 사전 예방활동을 통해 환경부하를 최소화하고 후손에게 쾌적한 환경을 제공한다. 
                                 </p>
                             </div>
                             <div class="col">
-                                <div class="temp-icon4 mb-3"><b-img src="@/assets/images/77_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 mb-3"><b-img src="/images/77_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="f-90 fw-300"> 제품 및 서비스의 전과정에 걸쳐 환경성을 고려하여 녹색 제품, 서비스 및 기술 개발을 선도한다.
                                 </p>
                             </div>
                             <div class="col">
-                                <div class="temp-icon4 mb-3"><b-img src="@/assets/images/78_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon4 mb-3"><b-img src="/images/78_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="f-90 fw-300"> 이해관계자에게 환경경영 정보를 투명하게 공개하고 지속적인 커뮤니케이션을 수행하여 지역사회의 환경보전활동에 적극 참여한다.
                                 </p>
                             </div>
@@ -144,16 +144,16 @@
                     </div>
                     <b-row no-gutters class="border-top-bottom-dark bg-white py-4">
                         <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
-                            <div class="temp-icon5 mx-auto"><b-img src="@/assets/images/18_1.svg" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon5 mx-auto"><b-img src="/images/18_1.svg" fluid class="h-100"></b-img></div>
                         </b-col>
                         <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
-                            <div class="temp-icon5 mx-auto"><b-img src="@/assets/images/19_1.svg" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon5 mx-auto"><b-img src="/images/19_1.svg" fluid class="h-100"></b-img></div>
                         </b-col>
                         <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
-                            <div class="temp-icon5 mx-auto"><b-img src="@/assets/images/20_1.svg" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon5 mx-auto"><b-img src="/images/20_1.svg" fluid class="h-100"></b-img></div>
                         </b-col>
                         <b-col class="col-6 col-sm-3 mb-3 mb-sm-0">
-                            <div class="temp-icon5 mx-auto"><b-img src="@/assets/images/21_1.svg" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon5 mx-auto"><b-img src="/images/21_1.svg" fluid class="h-100"></b-img></div>
                         </b-col>
                     </b-row>
                     <b-row class="pt-3">

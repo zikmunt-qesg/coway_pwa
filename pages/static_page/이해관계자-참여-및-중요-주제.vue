@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
    <logger title="이해관계자 참여 및 중요 주제"></logger>
-   <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+   <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -39,7 +39,7 @@
                         <b-table-simple responsive class="sep-table f-90 mb-5" style="border-bottom: 0.5px solid $gray3;">
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="3" style="width: 15%">고객<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td style="width: 38%">기업 홈페이지</b-td><b-td style="width: 17%">수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>제품 안전성 및 품질 책임</li><li>철저한 개인정보보호</li><li>제품 및 서비스 체험 및 경험</li><li>고객 불편사항의 즉각적 해소</li></ul></b-td>
+                                    <b-td rowspan="3" style="width: 15%">고객<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td style="width: 38%">기업 홈페이지</b-td><b-td style="width: 17%">수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>제품 안전성 및 품질 책임</li><li>철저한 개인정보보호</li><li>제품 및 서비스 체험 및 경험</li><li>고객 불편사항의 즉각적 해소</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>미디어 및 보도자료</b-td><b-td>수시</b-td>
@@ -49,7 +49,7 @@
                                 </b-tr>
                             
                                 <b-tr>
-                                    <b-td rowspan="4">주주·투자자<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>정기 주주총회</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>기업 가치 구축</li><li>주주가치 제고</li><li>건전한 지배구조</li><li>사업 기회 및 위험 관리</li></ul></b-td>
+                                    <b-td rowspan="4">주주·투자자<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>정기 주주총회</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>기업 가치 구축</li><li>주주가치 제고</li><li>건전한 지배구조</li><li>사업 기회 및 위험 관리</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>IR 미팅</b-td><b-td>수시</b-td>
@@ -62,7 +62,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">임직원<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
+                                    <b-td rowspan="3">임직원<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>사내 온라인 상담 채널(소나무 베이커리, 코러스)</b-td><b-td>수시</b-td>
@@ -72,7 +72,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">파트너 및 협력사<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>협력사 협의회(착한믿음 협의회)</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></ul></b-td>
+                                    <b-td rowspan="3">파트너 및 협력사<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>협력사 협의회(착한믿음 협의회)</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>협력사 온라인 상생포털</b-td><b-td>수시</b-td>
@@ -82,7 +82,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">지역사회<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>지역 협의회</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>사회공헌 및 지역사회 활동 참여</li><li>지역 내 일자리 창출</li><li>지속가능한 지역 발전</li></ul></b-td>
+                                    <b-td rowspan="3">지역사회<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>지역 협의회</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>사회공헌 및 지역사회 활동 참여</li><li>지역 내 일자리 창출</li><li>지속가능한 지역 발전</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>NGO 미팅</b-td><b-td>수시</b-td>
@@ -92,7 +92,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="4">학계·언론<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>기업지배구조 보고서</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>투명한 정보공개</li><li>ESG 데이터 및 성과 커뮤니케이션</li></ul></b-td>
+                                    <b-td rowspan="4">학계·언론<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>기업지배구조 보고서</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>투명한 정보공개</li><li>ESG 데이터 및 성과 커뮤니케이션</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>사업보고서 등 정기공시</b-td><b-td>연5회 이상</b-td>
@@ -105,7 +105,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">정부<br><b-img src="@/assets/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>금융감독원 공시</b-td><b-td>수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>조세납부 등 경제적 가치 분배</li><li>법규 준수 및 윤리경영</li></ul></b-td>
+                                    <b-td rowspan="3">정부<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>금융감독원 공시</b-td><b-td>수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>조세납부 등 경제적 가치 분배</li><li>법규 준수 및 윤리경영</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>법/규제 준수</b-td><b-td>수시</b-td>
@@ -206,7 +206,7 @@
                     <h6-ancor :title="'Step 3. 중요 주제 보고'" :activated="activated" class="parang6 mb-3 font-noto">Step 3. 중요 주제 보고</h6-ancor>
                     <p class="mb-45">중대성 평가로 도출된 코웨이의 중요 주제는 총 10개로 도출되었습니다. 코웨이는 각 중요 주제의 사업적-사회적 배경과 핵심 KPI에 대해 보고하고 있으며, 상세 전략 및 활동, 성과와 비즈니스 케이스에 대해 본 지속가능경영 웹 리포트 전반에 걸쳐 보고하고 있습니다.
                     </p>
-                    <b-img src="@/assets/images/14_1.svg" fluid></b-img>
+                    <b-img src="/images/14_1.svg" fluid></b-img>
                     <hr class="space-p25">
                     <div style="border-bottom: 1.2px solid #6095dd;"> </div>
                         <b-table-simple responsive class="txt-table sustainability-table f-95 mb-5">
@@ -270,7 +270,7 @@
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
                             <div class="d-md-flex pt-2">
                                 <div class="fw-500 mr-3 mb-2 mb-md-0">고객만족도 <br> <span class="fw-300 f-80">(단위: 점수)</span></div>
-                                <div><b-img src="@/assets/images/17_1.svg" fluid class="w-100"></b-img></div>
+                                <div><b-img src="/images/17_1.svg" fluid class="w-100"></b-img></div>
                             </div>
                         </b-col>
                     </b-row>                   
@@ -297,7 +297,7 @@
                                     <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
                                     <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div>
                                 </div>
-                                <b-img src="@/assets/images/22_1.svg" fluid class="pt-2"></b-img>
+                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img>
                             </div>
                         </b-col>
                     </b-row>      
@@ -320,7 +320,7 @@
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
                             <div class="d-md-flex pt-2">
                                 <div class="fw-500 mr-3 w-25 mb-2 mb-md-0">임직원 정보보호 교육 참여율</div>
-                                <div><b-img src="@/assets/images/45_1.svg" fluid class="w-100"></b-img></div>
+                                <div><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
                             </div>
                         </b-col>
                     </b-row> 

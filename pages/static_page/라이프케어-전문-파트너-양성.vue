@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100"> 
     <logger title="라이프케어 전문 파트너 양성"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 pb-4 mb-2 mb-sm-0">  
                             <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1 mb-3 mb-sm-0"> <b-img src="@/assets/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon1 mb-3 mb-sm-0"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
@@ -40,15 +40,15 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">파트너 기술 교육 및 서비스 교육</p>
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">현장 이슈 점검을 통한 전문성 향상</p>
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">상생 커뮤니케이션</p>
                             </b-col>
                         </b-row>
@@ -56,13 +56,13 @@
                             <b-col class="col-12 col-md-7 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-3 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-1 px-lg-2">대학 협력 아카데미 운영</p>
                                     </b-col>
-                                    <b-col class="col-4 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-4 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-1 px-lg-2">파트너 서비스 툴백 (Tool bag) 제공</p>
                                     </b-col>
-                                    <b-col class="col-4 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="@/assets/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-4 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
                                         <p class="fw-500 word-break px-1 px-lg-2 font-noto">파트너 소통 3C* 간담회 실시</p>
                                     </b-col>
                                     <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, CS Dr., Call center</div>
@@ -82,12 +82,12 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'파트너 전문성 강화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">파트너 전문성 강화</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">코웨이는 고객과 가장 가까운 현장에서 코웨이의 제품 및 서비스를 제공하는 파트너와의 상생 성장을 추구하고 있습니다. 파트너는 고객 접점에서 소통하며 브랜드 가치 및 만족도를 제고하는 중요한 역할을 하고 있습니다. 이에 코웨이는 영업·서비스 파트너가 현장에서 고객을 대상으로 원활한 서비스와 판매활동을 진행할 수 있도록 지원하고 있습니다.
                         </p>
-                        <b-img src="@/assets/images/51_1.svg" fluid></b-img>
+                        <b-img src="/images/51_1.svg" fluid></b-img>
                         <hr class="mb-3">
                     <h6-ancor :title="'파트너 전문성 향상을 위한 교육 지원'" :activated="activated" class="gold6 fw-500 mb-3 f-110">파트너 전문성 향상을 위한 교육 지원</h6-ancor>
                         <p class="mb-45">코웨이는 파트너가 직무 역량을 갖추고 장기적으로 활동할 수 있도록 체계적인 교육 프로그램을 제공합니다. 교육은 제품 및 서비스 지식을 습득하는 기술 교육과 서비스 교육으로 구성됩니다. 기술 교육은 코웨이의 제품과 서비스에 대한 기본 지식을 갖추고 실습을 통해 하트서비스의 진행 방법을 숙달하는 과정이며, 서비스 교육은 업무에 대한 전반적인 이해와 함께 고객을 대하는 서비스 마인드를 갖출 수 있는 과정입니다. 이와 더불어 신규 코디에게는 안정적으로 업무를 시작할 수 있도록 별도의 멘토링 프로그램을 진행합니다.
                         </p>
-                        <b-img src="@/assets/images/52_1.svg" fluid></b-img>
+                        <b-img src="/images/52_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         <p class="mb-5">코웨이는 대학 협력 아카데미를 운영하여 파트너 역량 강화를 지원합니다. 아카데미는 총 2개 프로그램으로, 이화여자대학교와 진행하는 소비자 서비스 역량강화 프로그램 ‘코웨이-이화 아카데미’와 연세대학교와 진행하는 리더십 프로그램 ‘코웨이-연세 리더십 아카데미’로 구성되어 있습니다. 코웨이-이화 아카데미는 소비자 심리의 이해, 창조적인 사고와 자기계발, 맞춤형 힐링 스트레스 관리법 등 고객관리 및 서비스 경쟁력 향상 프로그램을 9주간 진행합니다. 코웨이-연세 리더십 아카데미는 영업 현장에서 우수한 리더십 역량을 발휘하고 있는 리더를 대상으로 8주에 걸처 인문과 철학, 인간관계, 경영관리 등 리더 역량에 대한 교육을 제공합니다.
                         </p>

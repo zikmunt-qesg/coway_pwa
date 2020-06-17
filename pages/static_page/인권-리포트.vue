@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="인권 리포트"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -40,13 +40,13 @@
                     </p>
                     <p class="mb-5"> 리스크 식별 단계에서는 인권위험과 영향 확인을 위한 자료를 조사하고, 협력회사, 고객, 지역단체를 포함한 이해관계자 조사를 실시하여 인권 위험을 식별합니다. 특히 2019년에는 코웨이 주요 협력사를 대상으로 온라인 기반 인권 조사를 진행하고, 주요 위험을 식별하였습니다. 인권 영향평가 결과 주요한 위험이 있을 경우 사업장 및 협력사를 대상으로 완화 행동계획 수립을 권고합니다. 완화 행동 실행과 조치 결과는 본 보고서에 포함되어 공개됩니다.
                     </p>
-                    <b-img src="@/assets/images/96_1.svg" fluid></b-img>
+                    <b-img src="/images/96_1.svg" fluid></b-img>
                     <hr class="mb-4">
 
                     <h6-ancor :title="'핵심적 인권 요소에 대한 조치 결과'" :activated="activated" class="gold6 fw-500 mb-2">핵심적 인권 요소에 대한 조치 결과</h6-ancor>
                     <p class="font-noto mb-45">2019년 시행된 가치사슬상에서의 주요 인권이슈 및 실사 결과는 아래와 같습니다. 
                     </p>
-                    <b-img src="@/assets/images/60_1.svg" fluid></b-img>
+                    <b-img src="/images/60_1.svg" fluid></b-img>
                     <hr class="mb-4">
 
                         <h7 class="mb-3 gray63">주요 인권 이슈 및 개선조치</h7>

@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative page-top-bg min-vh-100">   
     <logger title="협력사 CSR 리포트"></logger>
-    <b-img src="@/assets/images/500.png" fluid class="page-top-img"></b-img>
+    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -53,8 +53,8 @@
                         <p class="f-80 gray6 mb-2"> (단위: %)</p>
                         <div class="d-flex align-items-center"> <div style="width:16px; height:16px; background-color:#f0c560;" class="mr-2"></div><span class="f-95 fw-300">충족률</span></div>
                         <div class="d-sm-flex"> 
-                            <div class="d-flex align-items-end mb-3 mb-sm-0" style="padding-bottom:1.67rem"><b-img src="@/assets/images/94_1.svg" fluid></b-img></div>
-                            <div class="d-flex align-items-end"><b-img src="@/assets/images/95_1.svg" fluid></b-img></div>
+                            <div class="d-flex align-items-end mb-3 mb-sm-0" style="padding-bottom:1.67rem"><b-img src="/images/94_1.svg" fluid></b-img></div>
+                            <div class="d-flex align-items-end"><b-img src="/images/95_1.svg" fluid></b-img></div>
                         </div>
                     <hr class="mb-4">
                     <h6-ancor :title="'시정 조치'" :activated="activated" class="gold6 fw-500 mb-2">시정 조치</h6-ancor>
