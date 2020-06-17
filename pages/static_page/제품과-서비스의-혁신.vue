@@ -6,7 +6,7 @@
     <b-container class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
-            <h7 class="mb-5 text-center w-100 text-white fw-300 font-noto"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
+            <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
         </b-row>
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">

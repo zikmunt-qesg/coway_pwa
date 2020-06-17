@@ -20,7 +20,8 @@
                 <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto">
                     <b-navbar-nav class="ml-lg-3 align-self-center" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
                         <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-2 py-2 f-90 global-nav-lv1']"  >
-                        <span @click.stop="$router.push(item.link)" class="d-none d-lg-block">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span></div>
+                            <span @click.stop="$router.push(item.link)" class="d-none d-lg-block">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
+                        </div>
                             <div v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 py-1" >
                                <span @click.stop="routerGo(level2_item.link)"> {{ level2_item.title }}</span>
                             </div> 
@@ -32,8 +33,8 @@
 
         <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
             <b-container>
-            <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center">
-                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300">{{ menu_text }}</b-col>
+            <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
+                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">{{ menu_text }}</b-col>
                 <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
                     <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
                         <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false">
@@ -72,7 +73,9 @@ export default {
             sub_menu_item: [],
             menu_text: '코웨이의 제품 및 브랜드는 궁극적으로 환경을 건강하게, 사람을 행복하게 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다.',
             show_site_map: false,
-            show_finder: false
+            show_finder: false,
+            menu_changed: false,
+            menu_change_key: 1
         }
     },
     computed: {
@@ -88,6 +91,7 @@ export default {
             if (menu_item.child != undefined) {
                 this.show_sub_menu = true
                 this.sub_menu_item = menu_item.child
+                this.menu_text = menu_item.text
             }
         },
         toggleSiteMap(){
@@ -111,6 +115,15 @@ export default {
         SiteMap,
         SearchForm
     },
+    watch:{
+        sub_menu_item(newVal, oldVal){
+            if (newVal != oldVal){
+                this.menu_changed = true
+                this.menu_change_key+=1
+            }
+            else this.menu_changed = false
+        }
+    }
 }
 </script>
 

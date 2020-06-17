@@ -6,7 +6,7 @@
     <b-container class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
-            <h7 class="mb-5 text-center w-100 text-white fw-300 font-noto"> dummy text 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
+            <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
         </b-row>
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -178,7 +178,7 @@
                     <b-row no-gutters class="mb-45">
                         <b-col class="col-12 col-sm-6 pr-sm-3 mb-3 mb-sm-0">
                             <div class="px-3 blue7-box blue7 text-center d-flex align-items-center fw-500 border-bottom-blue7" style="height:66px;">DFMEA(Design Failure Modes and Effect Analysis, 제품 고장 모드 및 영향도 분석)</div>
-                            <div class="border-bottom-blue7 adjust-height-80">
+                            <div class="border-bottom-blue7 adjust-height">
                                 <p class="px-3 py-4 f-95">DFMEA 시스템 운영을 통해, 제품 구조에 따른 고장 모드를 체계적으로 추출하고 분석하여, 보다 효과적으로 고장을 예방하고 있습니다. 예측된 고장과 개선 방안의 정확성을 평가하여, 제품 설계 완성도를 향상하는 프로세스로, 2019년에는 AIS3.0 등 총 32건의 DFMEA 심의를 시행하여 약 1,200여건의 고장 모드 및 고장원인을 예측하고 예방 설계를 진행하였습니다.
                                 </p>
                             </div>
@@ -186,7 +186,7 @@
                         <b-col class="col-12 col-sm-6 pl-sm-3 position-relative">
                             <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 74%; top: 23%;"></div>
                             <div class="px-3 blue7-box blue7 fw-500 text-center d-flex align-items-center justify-content-center" style="height:66px; z-index:10;">SSM(Stress-Strength Model, 스트레스-강도 모델)</div>
-                            <div class="border-bottom-blue7 adjust-height-80">
+                            <div class="border-bottom-blue7 adjust-height">
                                 <p class="px-3 py-4 f-95 mb-0"> SSM 시스템 구축을 통해, 과거 실패사례, 사용환경 데이터, 화학물질 사용기준 등 다양한 지식을 구조화하여 관리함으로써, 신규 제품·부품 개발 과정에서 효율성을 향상하고 실패 사례의 재발 방지를 추진하고 있습니다. 또한, 품질 및 개발과정 관련 실패사례를 취합하여 지식구조화 함으로써 실패에 따른 반복적인 설계 개선과 검증, 단가 상승 및 개발 일정 지연 등을 예방하고 있습니다. 2016년 도입 이후 2019년까지 시장 품질, 고분자 재료, 전자부품 등 다양하 분야에서 총 835건의 지식을 등록하여 관리하고 있습니다.
                                 </p>
                             </div>
@@ -284,11 +284,11 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-.adjust-height-80{
+.adjust-height{
     height: 80%;
 }
 @media (max-width: 576px) {
-    .adjust-height-80{
+    .adjust-height{
         height: auto;
     }
 }

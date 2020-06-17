@@ -4,6 +4,7 @@ export const state = () => ({
         {
             title: 'MATERIAL TOPICS',
             link: '/static_page/제품과-서비스의-혁신',
+            text: '사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다.',
             child: [
                 {
                     title: '제품과 서비스의 혁신',
@@ -68,6 +69,7 @@ export const state = () => ({
         {
             title: 'CARE FOR SUSTAINABILITY',
             link: '/static_page/CEO-메시지',
+            text: '비즈니스 전 과정에서 영향을 주고 받는 모든 이해관계자와 함께 새로운 가치를 더하는 일, 코웨이 지속가능경영의 방향입니다.',
             child: [
                 {
                     title: 'CEO Message',
@@ -192,6 +194,7 @@ export const state = () => ({
         {
             title: 'CARE FOR ENVIRONMENT',
             link: '/static_page/깨끗한-물과-공기를-위한-환경경영',
+            text: '비즈니스 운영 과정에서 환경영향을 최소화하고 환경을 건강하게 지키는 일, 그린 글로벌 리더 코웨이가 함께합니다.',
             child: [
                 {
                     title: '깨끗한 물과 공기를 위한 환경경영',
@@ -247,6 +250,7 @@ export const state = () => ({
         {
             title: 'CARE FOR SOCIETY',
             link: '/static_page/임직원-중심의-기업문화와-안전한-근무환경',
+            text: '우리가 하는 일이 더 나은 세상, 더 좋은 사회, 더 행복한 삶을 만드는 데 기여하는지 코웨이는 확인하고 노력하겠습니다.',
             child:
                 [
                     {

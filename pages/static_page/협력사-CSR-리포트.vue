@@ -6,7 +6,11 @@
     <b-container class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SOCIETY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400">협력사 CSR 리포트</h7>
+            <div class="d-flex justify-content-center mb-5 text-center w-100">
+                <div class="border-bottom-dark mr-3" style="width: 50px; margin-bottom: 1.25rem"></div>
+                <h7 class="fw-400"> Supplier CSR Report</h7>
+                <div class="border-bottom-dark ml-3" style="width: 50px; margin-bottom: 1.25rem"></div>
+            </div>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">

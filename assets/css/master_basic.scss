@@ -271,7 +271,13 @@ hr {
 .font-noto{
     font-family: 'Noto Sans Kr';
 }
+.font-open{
+    font-family: 'Open Sans';
+}
 
+.line-height-15{
+    line-height: 1.5;
+}
 .line-height-low{
     line-height: 1.4;
 }
@@ -546,7 +552,9 @@ hr {
 .bg-gray6{
     background-color: $gray6;
 }
-
+.bg-gray5{
+    background-color: $gray5;
+}
 .bg-gray4{
     background-color: $gray4;
 }
