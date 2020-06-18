@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative min-vh-100">    
     <b-row no-gutters class="py-5 bg-blue3">
-        <b-col class="py-5 text-center text-white"><h1>Reporting Frameworks</h1></b-col>
+        <b-col class="py-5 my-3 my-md-4 text-center text-white"><h1>Reporting Frameworks</h1></b-col>
     </b-row>
     <b-card class="border-0 bg-transparent-gray-50 sticky-top" style="top:72px; z-index:888;">
         <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form></b-container>
@@ -40,7 +40,7 @@
                 <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
                 <b-td>{{ row_item.Note }} 
                     <span v-if="row_item.link.length != 0">
-                        <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                        <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
                             {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                         </a>
                     </span> 
@@ -72,11 +72,11 @@
             <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
             <b-td>{{ row_item.Note }} 
                 <span v-if="row_item.link.length != 0">
-                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
                         {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                     </a>
                 </span> 
-                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span>  -->
+                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blank"><b-button>+</b-button></a></span>  -->
             </b-td>
             </b-tr>
         </b-tbody>
@@ -105,11 +105,11 @@
             <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
             <b-td>{{ row_item.Note }} 
                 <span v-if="row_item.link.length != 0">
-                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
                         {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                     </a>
                 </span> 
-                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span>  -->
+                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blank"><b-button>+</b-button></a></span>  -->
             </b-td>
             </b-tr>
         </b-tbody>
@@ -138,11 +138,11 @@
             <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
             <b-td>{{ row_item.Note }} 
                 <span v-if="row_item.link.length != 0">
-                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
                         {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                     </a>
                 </span> 
-                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span>  -->
+                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blank"><b-button>+</b-button></a></span>  -->
             </b-td>
             </b-tr>
         </b-tbody>

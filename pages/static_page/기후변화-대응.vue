@@ -176,15 +176,15 @@
                         </p>
 
                     <hr class="py-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="`온실가스 에너지 및 기타 환경 데이터`" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'온실가스 · 에너지 및 기타 환경 데이터'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 &middot; 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                        <h7 class="mb-3 gray63">온실가스 배출</h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019 목표</b-td><b-td>2030 목표</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="3">tCO<sub>2</sub>e</b-td><b-td>630</b-td><b-td>676</b-td><b-td>640</b-td><b-td>672</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="4">tCO<sub>2</sub>e</b-td><b-td>630</b-td><b-td>676</b-td><b-td>640</b-td><b-td>672</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Scope2</b-td><b-td>5,162</b-td><b-td>5,349</b-td><b-td>5,224</b-td><b-td>5,485</b-td><b-td>-</b-td>
@@ -447,7 +447,7 @@ export default {
                     title: '협력사 탄소 파트너십'
                 },
                 { 
-                    title: '온실가스 에너지 및 기타 환경 데이터'
+                    title: '온실가스 · 에너지 및 기타 환경 데이터'
                 },
             ]
         }

@@ -1,13 +1,12 @@
 <template>
 <div class="position-relative min-vh-100">
-    <b-row no-gutters class="py-5 bg-blue3 mb-5">
+    <b-row no-gutters class="py-5 bg-blue3">
         <b-col class="py-5 my-3 my-md-4 text-center text-white"><h1>Reporting Frameworks</h1></b-col>
     </b-row>
-    <b-container>
-        <b-card class="border-0 bg-blue-gray1 mb-5">
-            <search-form class="my-3" prop_mode='indicator' prop_framework='SASB' :defined_query="defined_query"></search-form>
-        </b-card>
-
+    <b-card class="border-0 bg-transparent-gray-50 sticky-top" style="top:72px; z-index:888;">
+        <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form></b-container>
+    </b-card>
+    <b-container class="pt-5">  
             <b-nav tabs class="mb-5">
                 <b-nav-item @click.stop.prevent="$router.push('/framework/gri')" class="f-110 fw-400"> GRI </b-nav-item>
                 <b-nav-item active class="f-110 fw-400"> SASB </b-nav-item>
@@ -22,14 +21,14 @@
             </b-card>
          
     <hr class="space-p25">
-    <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> 가전제품 제조(Appliance Manufacturing) 지속가능성 지표 </div>
+    <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> 가전제품 제조(Appliance Manufacturing) 지속가능성 지표 </div>
 
-    <b-table-simple class="txt-table mb-5" responsive>
+    <b-table-simple class="txt-table f-95 mb-5" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:15%;">구분</b-td>
             <b-td style="width:13%;">SASB 코드</b-td>
-            <b-td>지표명</b-td>
+            <b-td style="width:32%;">지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -42,19 +41,23 @@
             </template>
             <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-            <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+            <b-td>{{ row_item.Note }} <br v-if="row_item.Note">
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
             </b-td>
             </b-tr>
         </b-tbody>
     </b-table-simple>
 
-    <b-table-simple class="txt-table" responsive>
+    <b-table-simple class="txt-table f-95" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:15%;">구분</b-td>
             <b-td style="width:13%;">SASB 코드</b-td>
-            <b-td>지표명</b-td>
+            <b-td style="width:32%;">지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -67,8 +70,12 @@
             </template>
             <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-            <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+            <b-td>{{ row_item.Note }} <br v-if="row_item.Note">
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
             </b-td>
             </b-tr>
         </b-tbody>
@@ -76,13 +83,13 @@
 
     <hr class="mb-4">
 
-    <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> 전문 및 상업 서비스(Professional and Commercial Service) 지속가능성 지표 </div>
-    <b-table-simple class="txt-table mb-5" responsive>
+    <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> 전문 및 상업 서비스(Professional and Commercial Service) 지속가능성 지표 </div>
+    <b-table-simple class="txt-table f-95 mb-5" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:15%;">구분</b-td>
             <b-td style="width:13%;">SASB 코드</b-td>
-            <b-td>지표명</b-td>
+            <b-td style="width:32%;">지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -95,19 +102,23 @@
             </template>
             <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-            <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+            <b-td>{{ row_item.Note }} <br v-if="row_item.Note">
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
             </b-td>
             </b-tr>
         </b-tbody>
     </b-table-simple>
 
-    <b-table-simple class="txt-table" responsive>
+    <b-table-simple class="txt-table f-95" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:15%;">구분</b-td>
             <b-td style="width:13%;">SASB 코드</b-td>
-            <b-td>지표명</b-td>
+            <b-td style="width:32%;">지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -120,8 +131,12 @@
             </template>
             <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-            <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+            <b-td>{{ row_item.Note }} <br v-if="row_item.Note">
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
             </b-td>
             </b-tr>
         </b-tbody>

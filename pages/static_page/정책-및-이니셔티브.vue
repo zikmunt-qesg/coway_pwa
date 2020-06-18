@@ -64,9 +64,16 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    async asyncData({ query }) {
+        if (query.p != null) {
+            return { show_page: query.p }
+        }
+        else{
+            return { show_page: 'Policies'}
+        }
+    },
     data(){
         return {
-            show_page: 'Policies',
             title: '정책 및 이니셔티브',
             activated: [],
             sub_titles: [],

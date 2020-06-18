@@ -16,8 +16,8 @@ export const state = () => ({
                                 link: '/static_page/제품과-서비스의-혁신#본질적가치를높이는제품혁신'
                             },
                             {
-                                title: '미래 기술 기반의 서비스',
-                                link: '/static_page/제품과-서비스의-혁신#미래기술기반의서비스'
+                                title: '미래 기술 기반의 서비스 혁신',
+                                link: '/static_page/제품과-서비스의-혁신#미래기술기반의서비스혁신'
                             },
                             {
                                 title: '혁신을 위한 연구개발 역량 강화',
@@ -171,7 +171,7 @@ export const state = () => ({
                         ]
                 },
                 {
-                    title: '경제적가치 창출과 분배',
+                    title: '경제적 가치 창출과 분배',
                     link: '/static_page/경제적-가치-창출과-분배',
                     child:
                         [
@@ -242,6 +242,10 @@ export const state = () => ({
                             {
                                 title: '협력사 탄소 파트너십',
                                 link: '/static_page/기후변화-대응#협력사탄소파트너십'
+                            },
+                            {
+                                title: '온실가스 · 에너지 및 기타 환경 데이터',
+                                link: '/static_page/기후변화-대응#온실가스에너지및기타환경 데이터'
                             }
                         ]
                 }
@@ -260,15 +264,15 @@ export const state = () => ({
                             [
                                 {
                                     title: '착한성장을 위한 역량 강화',
-                                    link: '/static_page/임직원 중심의 기업문화와 안전한 근무환경#착한성장을위한역량강화'
+                                    link: '/static_page/임직원-중심의-기업문화와-안전한-근무환경#착한성장을위한역량강화'
                                 },
                                 {
                                     title: '커뮤니케이션 기반의 기업문화',
-                                    link: '/static_page/임직원 중심의 기업문화와 안전한 근무환경#커뮤니케이션기반의기업문화'
+                                    link: '/static_page/임직원-중심의-기업문화와-안전한-근무환경#커뮤니케이션기반의기업문화'
                                 },
                                 {
                                     title: '안전하고 건강한 근무환경',
-                                    link: '/static_page/임직원 중심의 기업문화와 안전한 근무환경#안전하고건강한근무환경'
+                                    link: '/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경'
                                 }
                             ]
                     },
@@ -309,15 +313,15 @@ export const state = () => ({
                             [
                                 {
                                     title: '코웨이 다운 사회공헌',
-                                    link: '/static_page/지역사회-참여#코웨이다운사회공헌'
+                                    link: '/static_page/지역사회#코웨이다운사회공헌'
                                 },
                                 {
                                     title: '깨끗한 물과 공기를 위한 코웨이의 약속',
-                                    link: '/static_page/지역사회-참여#깨끗한물과공기를위한코웨이의약속'
+                                    link: '/static_page/지역사회#깨끗한물과공기를위한코웨이의약속'
                                 },
                                 {
                                     title: '공공정책 참여',
-                                    link: '/static_page/지역사회-참여#공공정책참여'
+                                    link: '/static_page/지역사회#공공정책참여'
                                 }
                             ]
                     },
@@ -328,15 +332,15 @@ export const state = () => ({
                             [
                                 {
                                     title: '협력사 행동 규범',
-                                    link: '/static_page/협력회사-CSR-리포트#협력사행동규범'
+                                    link: '/static_page/협력사-CSR-리포트#협력사행동규범'
                                 },
                                 {
                                     title: '협력사 지속가능성 평가',
-                                    link: '/static_page/협력회사-CSR-리포트#협력사지속가능성평가'
+                                    link: '/static_page/협력사-CSR-리포트#협력사지속가능성평가'
                                 },
                                 {
                                     title: '분쟁광물',
-                                    link: '/static_page/협력회사-CSR-리포트#분쟁광물'
+                                    link: '/static_page/협력사-CSR-리포트#분쟁광물'
                                 }
                             ]
                     },
@@ -347,11 +351,11 @@ export const state = () => ({
                             [
                                 {
                                     title: '인권경영 원칙 및 가이드',
-                                    link: '/static_page/인권보호-리포트#인권경영원칙및가이드'
+                                    link: '/static_page/인권-리포트#인권경영원칙및가이드'
                                 },
                                 {
                                     title: '인권 리스크 식별 및 완화 프로세스',
-                                    link: '/static_page/인권보호-리포트#인권리스크식별및완화프로세스'
+                                    link: '/static_page/인권-리포트#인권리스크식별및완화프로세스'
                                 }
                             ]
                     }
@@ -364,15 +368,53 @@ export const state = () => ({
                 [
                     {
                         title: '정책 및 이니셔티브',
-                        link: '/static_page/정책-및-이니셔티브'
+                        link: '/static_page/정책-및-이니셔티브',
+                        child:[
+                            {
+                                title: '지속가능성 정책',
+                                link: '/static_page/정책-및-이니셔티브'
+                            },
+                            {
+                                title: '참여 이니셔티브',
+                                link: '/static_page/정책-및-이니셔티브?p=Initiatives'
+                            },
+                        ]
                     },
                     {
                         title: '보고 프레임워크 인덱스',
-                        link: '/framework/gri'
+                        link: '/framework/gri',
+                        child:[
+                            {
+                                title: 'GRI',
+                                link: '/framework/gri'
+                            },
+                            {
+                                title: 'SASB',
+                                link: '/framework/sasb'
+                            },
+                            {
+                                title: 'DJSI Public',
+                                link: '/framework/djsi'
+                            }
+                        ]
                     },
                     {
                         title: '보고 범위 및 검증',
-                        link: '/static_page/보고-범위-및-검증'
+                        link: '/static_page/보고-범위-및-검증',
+                        child:[
+                            {
+                                title: 'About This Report',
+                                link: '/static_page/보고-범위-및-검증'
+                            },
+                            {
+                                title: '제3자 검증 의견서',
+                                link: '/static_page/보고-범위-및-검증?p=Independent-Assurance-Report'
+                            },
+                            {
+                                title: '온실가스 검증 의견서',
+                                link: '/static_page/보고-범위-및-검증?p=GHG-Assurance-Report'
+                            }
+                        ]
                     },
                     {
                         title: 'Sustainability News',

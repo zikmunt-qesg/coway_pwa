@@ -5,12 +5,12 @@
     </b-row>
     <b-container>
             <b-nav tabs class="mb-5">
-                <b-nav-item :active="show_page=='About This Report'" @click.stop.prevent="showTab('About This Report')" class="f-110 fw-400"> 이 보고서에 대하여 </b-nav-item>
-                <b-nav-item :active="show_page=='Independent Assurance Report'" @click.stop.prevent="showTab('Independent Assurance Report')" class="f-110 fw-400"> 제3자 검증 보고서 </b-nav-item>
-                <b-nav-item :active="show_page=='GHG Assurance Report'"@click.stop.prevent="showTab('GHG Assurance Report')" class="f-110 fw-400"> 온실가스 검증 보고서 </b-nav-item>
+                <b-nav-item :active="show_page=='About-This-Report'" @click.stop.prevent="showTab('About-This-Report')" class="f-110 fw-400"> 이 보고서에 대하여 </b-nav-item>
+                <b-nav-item :active="show_page=='Independent-Assurance-Report'" @click.stop.prevent="showTab('Independent-Assurance-Report')" class="f-110 fw-400"> 제3자 검증 보고서 </b-nav-item>
+                <b-nav-item :active="show_page=='GHG-Assurance-Report'" @click.stop.prevent="showTab('GHG-Assurance-Report')" class="f-110 fw-400"> 온실가스 검증 보고서 </b-nav-item>
             </b-nav>
 
-            <b-card v-if="show_page=='About This Report'" class="border-0 px-4 fw-400">
+            <b-card v-if="show_page=='About-This-Report'" class="border-0 px-4 fw-400">
                 <p>본 보고서는 코웨이의 열 다섯번 째 지속가능경영 보고서입니다. 코웨이는 2016년부터 매년 온라인으로 지속가능경영보고서를 발간하고 있습니다. 회사의 위험과 기회에 대하여 이해관계자의 의견을 심도 있게 수렴하고, 사회적 환경적 영향을 고려한 중요성 평가 과정을 거쳐 보고 콘텐츠를 결정하였습니다. 본 보고서는 글로벌리포팅이니셔티브(GRI, Global Reporting Initiatives)의 GRI Standard를 준수하여 작성하였습니다.  
                 <p>2019년 보고서는 인쇄물(책) 중심의 구조를 탈피하여 온라인 보고를 중심으로 기획된 첫 번째 보고서입니다. 이해관계자 여러분이 필요로 하는 정보에 손쉽게 접근할 수 있도록 네비게이션(목차)와 사이트 맵 구조를 전반적으로 재점검하고, 필요한 정보를 빠르게 확인할 수 있도록 검색 기능을 도입하였습니다. 사이트는 국문과 영문으로 이용할 수 있으며, 상단의 메인 메뉴 버튼을 통해 모든 콘텐츠를 확인할 수 있습니다. 사이트는 데스크탑 PC와 모바일에 모두 최적화되어 있으며, 반응협 레이아웃(Responsive Layout)<sup>*</sup> 및 프로그레시프웹앱(Progressive Web App)<sup>**</sup>으로 구현됩니다.</p> 
                 <p>본 보고서는 제3자 검증 과정을 거쳐 2020년 6월 30일에 게시되었습니다.</p> 
@@ -67,9 +67,16 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    async asyncData({ query }) {
+        if (query.p != null) {
+            return { show_page: query.p }
+        }
+        else{
+            return { show_page: 'About-This-Report'}
+        }
+    },
     data(){
         return {
-            show_page: 'About This Report',
             title: '보고 범위 및 검증',
             activated: [],
             sub_titles: [],

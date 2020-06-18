@@ -93,14 +93,14 @@
                         <h7 class="mb-3 gray63">임직원 윤리경영 교육</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td>윤리경영 교육 참여 인원</b-td><b-td>명</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
+                                    <b-td class="text-left">윤리경영 교육 참여 인원</b-td><b-td class="text-left">명</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>윤리경영 교육 참여율<sup> 1)</sup></b-td><b-td>%</b-td><b-td>94</b-td><b-td>89</b-td><b-td>4<sup> 2)</sup></b-td>
+                                    <b-td class="text-left">윤리경영 교육 참여율<sup> 1)</sup></b-td><b-td class="text-left">%</b-td><b-td>94</b-td><b-td>89</b-td><b-td>4<sup> 2)</sup></b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
