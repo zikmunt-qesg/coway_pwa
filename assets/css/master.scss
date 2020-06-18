@@ -8,6 +8,10 @@
     text-decoration: underline;
     text-underline-position: under;
 }
+.hover-underline:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
 .side-nav {
     padding: 2.3em 1.4em 1.9em;
 }
@@ -387,7 +391,47 @@
 #finder-modal___BV_modal_body_.modal-body{
     padding: 0;
 }
+@media (max-width: 768px) {
+    #finder-modal > .modal-dialog{
+        min-width: 90vw;
+    }
+    #finder-modal___BV_modal_body_.modal-body{
+        padding: 0;
+    }
+}
+@media (min-width: 768px) {
+    #finder-modal > .modal-dialog{
+        min-width: 80vw;
+    }
+    #finder-modal___BV_modal_body_.modal-body{
+        padding: 0;
+    }
+}
+@media (min-width: 992px) {
+    #finder-modal > .modal-dialog{
+        min-width: 70vw;
+    }
+    #finder-modal___BV_modal_body_.modal-body{
+        padding: 0;
+    }
+}
+@media (min-width: 1200px){
+    #finder-modal > .modal-dialog{
+        min-width: 60vw;
+    }
+    #finder-modal___BV_modal_body_.modal-body{
+        padding: 0;
+    }
+}
 
+// .close-btn{
+//     position: absolute;
+//     top: 0.3rem;
+//     right: 1.75rem;
+// }
+.close-btn::before{
+    content: "×";
+}
 
 // @media (max-width: 768px) {
 //     #modify-modal-top > .modal-dialog{

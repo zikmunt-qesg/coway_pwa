@@ -1,14 +1,13 @@
 <template>
-<div class="position-relative min-vh-100">
-    <b-row no-gutters class="py-5 bg-blue3 mb-5">
-        <b-col class="py-5 my-3 my-md-4 text-center text-white"><h1>Reporting Frameworks</h1></b-col>
+<div class="position-relative min-vh-100">    
+    <b-row no-gutters class="py-5 bg-blue3">
+        <b-col class="py-5 text-center text-white"><h1>Reporting Frameworks</h1></b-col>
     </b-row>
-    <b-container>
-        <b-card class="border-0 bg-blue-gray1 mb-5">
-            <search-form class="my-3" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form>
-        </b-card>
-
-            <b-nav tabs class="mb-5">
+    <b-card class="border-0 bg-transparent-gray-50 sticky-top" style="top:72px; z-index:888;">
+        <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form></b-container>
+    </b-card>
+    <b-container class="pt-5">    
+            <b-nav tabs class="my-5">
                 <b-nav-item active class="f-110 fw-400"> GRI </b-nav-item>
                 <b-nav-item @click.stop.prevent="$router.push('/framework/sasb')" class="f-110 fw-400"> SASB </b-nav-item>
                 <b-nav-item @click.stop.prevent="$router.push('/framework/djsi')" class="f-110 fw-400"> DJSI Public </b-nav-item>
@@ -20,41 +19,45 @@
             </b-card>
 
         <hr class="space-p25">
-        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Universal Standards (GRI 100) </div>
-        <b-table-simple class="txt-table" responsive>
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Universal Standards (GRI 100) </div>
+        <b-table-simple class="txt-table f-95" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:18%;">구분</b-td>
             <b-td style="width:8%;">GRI 번호</b-td>
-            <b-td >지표명</b-td>
+            <b-td style="width:36%;" >지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
         <b-tbody>
             <b-tr v-for="(row_item, index) in gri_table_100" :key="row_item.id">
-            <template
-                v-if="index-1 < 0 ? true: row_item.classification != gri_table_100[index-1].classification"
-            >
-                <b-td :rowspan="getSameLength(gri_table_100, index)">{{ row_item.classification }}</b-td>
-            </template>
-            <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
-            <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-            <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
-            </b-td>
+                <template
+                    v-if="index-1 < 0 ? true: row_item.classification != gri_table_100[index-1].classification"
+                >
+                    <b-td :rowspan="getSameLength(gri_table_100, index)">{{ row_item.classification }}</b-td>
+                </template>
+                <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
+                <b-td>{{ row_item.Note }} 
+                    <span v-if="row_item.link.length != 0">
+                        <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                            {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                        </a>
+                    </span> 
+                </b-td>
             </b-tr>
         </b-tbody>
         </b-table-simple>
 
         <hr class="space-p25">
-        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Econimic (GRI 200) </div>
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Econimic (GRI 200) </div>
 
-        <b-table-simple class="txt-table" responsive>
+        <b-table-simple class="txt-table f-95" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:18%;">구분</b-td>
             <b-td style="width:8%;">GRI 번호</b-td>
-            <b-td >지표명</b-td>
+            <b-td style="width:36%;" >지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -68,7 +71,12 @@
             <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
             <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
+                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span>  -->
             </b-td>
             </b-tr>
         </b-tbody>
@@ -76,13 +84,13 @@
 
         <hr class="space-p25">
 
-        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Environmental (GRI 300) </div>
-        <b-table-simple class="txt-table" responsive>
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Environmental (GRI 300) </div>
+        <b-table-simple class="txt-table f-95" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:18%;">구분</b-td>
             <b-td style="width:8%;">GRI 번호</b-td>
-            <b-td >지표명</b-td>
+            <b-td style="width:36%;" >지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -96,21 +104,26 @@
             <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
             <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
+                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span>  -->
             </b-td>
             </b-tr>
         </b-tbody>
         </b-table-simple>
 
         <hr class="space-p25">
-        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4"> Social (GRI 400) </div>
+        <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Social (GRI 400) </div>
 
-        <b-table-simple class="txt-table" responsive>
+        <b-table-simple class="txt-table f-95" responsive>
         <b-thead>
             <b-tr>
             <b-td style="width:18%;">구분</b-td>
             <b-td style="width:8%;">GRI 번호</b-td>
-            <b-td >지표명</b-td>
+            <b-td style="width:36%;" >지표명</b-td>
             <b-td>Contents</b-td>
             </b-tr>
         </b-thead>
@@ -124,7 +137,12 @@
             <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
             <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
             <b-td>{{ row_item.Note }} 
-                <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span> 
+                <span v-if="row_item.link.length != 0">
+                    <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blink" class="mr-3">
+                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                    </a>
+                </span> 
+                <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" target="_blink"><b-button>+</b-button></a></span>  -->
             </b-td>
             </b-tr>
         </b-tbody>

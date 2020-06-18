@@ -4,7 +4,7 @@
     id="searchable-input"
     autocomplete="off" 
     type="text" 
-    class="d-flex search-input" 
+    class=" search-input" 
     :placeholder="placeholder" 
     :value="value" 
     @focus="showTippy()"

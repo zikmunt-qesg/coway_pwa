@@ -1,16 +1,16 @@
 <template>
-    <div class="d-flex">
-        <b-row class="w-100">
-            <b-col class="col-12 col-md-4 d-flex align-items-center justify-content-md-around mb-3 mb-md-0">
+    <div class="">
+        <b-row no-gutters class="w-100 d-flex align-items-center">
+            <b-col class="col-12 col-md-5 col-lg-4 d-flex align-items-center justify-content-md-start mb-3 mb-md-0">
                 <div :class="[selected_mode !='indicator'? 'is-active':'','p-2 fw-400 selectable']">
                     <b-form-checkbox @change="selectMode('integrated')" v-model="selected_mode" value="integrated">통합검색</b-form-checkbox>
                 </div>
-                <div :class="[selected_mode =='indicator'? 'is-active':'','p-2 fw-400 selectable ml-3 ml-lg-0']">
+                <div :class="[selected_mode =='indicator'? 'is-active':'','p-2 fw-400 selectable ml-3']">
                     <b-form-checkbox @change="selectMode('indicator')" v-model="selected_mode" value="indicator">지표검색</b-form-checkbox>
                 </div>
             </b-col>
-            <b-col class="col-12 col-md-8 d-flex">
-                <b-input-group class="d-flex align-items-stretch">
+            <b-col class="col-12 col-md-7 col-lg-8">
+                <b-input-group class="d-flex align-items-stretch justify-content-end">
                     <template v-slot:prepend v-if="selected_mode=='indicator'">
                         <b-dropdown split :disabled="selected_mode !='indicator'" :text="selected_framework" variant="blue">
                             <b-dropdown-item href="#" @click="selected_framework='GRI'">GRI</b-dropdown-item>
@@ -139,23 +139,27 @@ export default {
   }
 }
 </script>
-<style scoped lang="scss">
+<style lang="scss">
 .is-active{
-    border-width: 1px;
-    border-style: solid;
-    border-color: $blue5;
+    border: 1px solid $blue5 !important;
+}
+.selectable{
+    border: 1px solid rgba(0,0,0,0)
 }
 .selectable:hover{
-    border-width: 0.5px;
-    border-style: dashed;
-    border-color: $blue5;
+    border: 1px dashed $blue5;
 }
-// .selectable > .custom-checkbox > .custom-control-label {
-//     cursor: pointer!important;
-// }
+.selectable > .custom-control,
+.selectable div input,
+.selectable div .custom-control-input,
+.selectable div label {
+    cursor: pointer!important;
+}
 
 .form-control {
     height: auto
 }
-
+// .custom-control, .custom-control-input, .custom-control-label {
+//     cursor: pointer!important;
+// }
 </style>

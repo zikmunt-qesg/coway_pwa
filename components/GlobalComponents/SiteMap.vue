@@ -1,22 +1,24 @@
 <template>
-<div class="">
+<div class="position-relative">
     <b-container>
-        <b-row class="py-4">
-            <b-col class="col-2 f-85 gray5"> Coway Sustainability 2020</b-col>
-            <b-col class="col-2" v-for="item in menu" :key="item.id">
+        <b-row class="py-4 font-noto d-flex flex-column flex-sm-row">
+            <b-col class="col-4 col-lg-1 f-85 gray5 cursor hover-underline pl-xl-0 pr-0 mb-3 mb-sm-0" @click.stop="$router.push('/')" style="height:50px;"> Coway Sustainability 2020</b-col>
+            <b-col class="col-4 col-lg-2" v-for="item in menu" :key="item.id">
                 <div class="f-85 mb-3" @click.stop="toggleSiteMap">
                     <nuxt-link :to="`${item.link}`">{{ item.title }}</nuxt-link>
                 </div>
                 <div v-for="level2_item in item.child" :key="level2_item.id" class="mb-4 g-nav">
-                    <div class="pb-1 mb-2" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2"> {{ level2_item.title }}</nuxt-link></div>
-                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-2" @click.stop="toggleSiteMap">
-                        <nuxt-link :to="`${level3_item.link}`" class="f-80 g-nav-lv3"> {{ level3_item.title }}</nuxt-link>
+                    <div class="pb-1 mb-2" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2 letter-narrow"> {{ level2_item.title }}</nuxt-link></div>
+                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-1" @click.stop="toggleSiteMap">
+                        <nuxt-link :to="`${level3_item.link}`" class="f-80 g-nav-lv3 letter-narrow"> {{ level3_item.title }}</nuxt-link>
                     </div>
                 </div>
             </b-col>
+            <b-col class="col-0 col-lg-1" style="margin-top:-1.6rem;"><a href="#" @click.stop="toggleSiteMap" class="close-btn f-280 fw-300"></a></b-col>
         </b-row>
     </b-container>
-    <a href="#" @click.stop="toggleSiteMap" class="close-btn py-0 f-230"></a>
+    <!-- <a href="#" @click.stop="toggleSiteMap" class="close-btn py-0 f-280 fw-300 position-absolute" style="top:0; right:1em"></a> -->
+
 </div>
 </template>
 
@@ -44,7 +46,7 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 /* .g-nav-vh{
     height: 85vh;
 } */
@@ -53,25 +55,18 @@ export default {
 }
 
 .g-nav-lv2{
-    color: var(--gray8);
+    color: $gray7;
 }
 .g-nav-lv2:hover{
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .g-nav-lv3{
-    color: var(--gray6);
+    color: $gray5;
 }
 .g-nav-lv3:hover{
-    font-weight: 600;
+    font-weight: 500;
 }
 
-.close-btn{
-    position: absolute;
-    top: 0.3rem;
-    right: 1.75rem;
-}
-.close-btn::before{
-    content: "×";
-}
+
 </style>
