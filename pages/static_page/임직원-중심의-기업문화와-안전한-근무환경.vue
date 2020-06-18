@@ -71,20 +71,20 @@
                                 <b-row no-gutters class="pl-md-4 position-relative"> 
                                     <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                     <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center px-2">
+                                        <!--<b-col class="col-3 text-center px-2">
                                             <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 임직원 만족도</p>
-                                        </b-col>
-                                        <b-col class="col-4 text-center px-2">
+                                        </b-col>-->
+                                        <b-col class="col-6 text-center px-2">
                                             <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 임직원 고충 연내 처리율</p>
                                         </b-col>
-                                        <b-col class="col-5 text-center">
+                                        <b-col class="col-6 text-center">
                                             <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 협력사 합동 안전실태 점검을 통한 안전환경 개선율</p>
                                         </b-col>
                                     </b-row>
                                     <b-row no-gutters class="w-100">
-                                        <b-col class="col-3 text-center"><span class="f-330 fw-400">00</span>점 </b-col>
-                                        <b-col class="col-4 text-center"><span class="f-330 fw-400">100</span>% </b-col>
-                                        <b-col class="col-5 text-center"><span class="f-330 fw-400">100</span>% </b-col>
+                                        <!--<b-col class="col-3 text-center"><span class="f-330 fw-400">00</span>점 </b-col>-->
+                                        <b-col class="col-6 text-center"><span class="f-330 fw-400">100</span>% </b-col>
+                                        <b-col class="col-6 text-center"><span class="f-330 fw-400">100</span>% </b-col>
                                     </b-row>
                                 </b-row>
                             </b-col>                            
@@ -275,7 +275,7 @@
                             </b-col>
                         </b-row>
 
-                        <p class="mb-45"> 코웨이는 연 1회 전 임직원을 대상으로 임직원 참여도를 조사하고 있습니다. 2019년 전체 임직원 중 참여도 조사에 참여한 임직원은 남성직원 xx%, 여성직원 xx%가 참여하여 총 xx%가 참여하였습니다. 조사 결과, 2019년 임직원 참여도는 지난해 대비 xx% 상승/하락한 xx점을 기록하였습니다. 남성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였으며, 여성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였습니다. 
+                        <!--<p class="mb-45"> 코웨이는 연 1회 전 임직원을 대상으로 임직원 참여도를 조사하고 있습니다. 2019년 전체 임직원 중 참여도 조사에 참여한 임직원은 남성직원 xx%, 여성직원 xx%가 참여하여 총 xx%가 참여하였습니다. 조사 결과, 2019년 임직원 참여도는 지난해 대비 xx% 상승/하락한 xx점을 기록하였습니다. 남성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였으며, 여성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였습니다. 
                         </p>
                         <h7 class="mb-3 gray63">임직원 참여도(만족도) 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
@@ -286,7 +286,7 @@
                                     <b-td class="text-left">참여도<sup>*</sup></b-td> <b-td class="text-left">점수</b-td> <b-td></b-td> <b-td></b-td> <b-td></b-td> <b-td></b-td>
                             </b-tr></b-tbody>                                
                         </b-table-simple>
-                        <p class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</p>
+                        <p class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</p>-->
                     <hr class="space-p25"> 
                     <h6-ancor :title="'임직원 현황 데이터'" :activated="activated" class="gold6 fw-500 mb-3">임직원 현황 데이터</h6-ancor>
                         <h7 class="mb-3 gray63">국내 임직원 현황</h7>

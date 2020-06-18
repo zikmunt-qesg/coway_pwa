@@ -175,34 +175,39 @@
                             * 기업협력군 에너지동행사업은 2012년부터 2019년까지 지속적으로 참여하고 있으며, 8년간 참여 협력사는 39개사 입니다.
                         </p>
 
+                    <hr class="py-4">
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="`온실가스 에너지 및 기타 환경 데이터`" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019 목표</b-td><b-td>2025 목표</b-td> 
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019 목표</b-td><b-td>2030 목표</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="3">tCO<sub>2</sub>e</b-td><b-td>380</b-td><b-td>705</b-td><b-td>402</b-td><b-td>748</b-td><b-td>710</b-td>
+                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="3">tCO<sub>2</sub>e</b-td><b-td>630</b-td><b-td>676</b-td><b-td>640</b-td><b-td>672</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Scope2</b-td><b-td>5,012</b-td><b-td>5,162</b-td><b-td>5,170</b-td><b-td>5,349</b-td><b-td>5,229</b-td>
+                                    <b-td class="text-left">Scope2</b-td><b-td>5,162</b-td><b-td>5,349</b-td><b-td>5,224</b-td><b-td>5,485</b-td><b-td>-</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">Scope3</b-td><b-td>71</b-td><b-td>71</b-td><b-td>70</b-td><b-td>71</b-td><b-td>-</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td class="text-left">Total</b-td><b-td>5,392</b-td><b-td>5,864</b-td><b-td>5,572</b-td><b-td>6,094</b-td><b-td>5,935</b-td>
+                                    <b-td class="text-left">Total</b-td><b-td>5,863</b-td><b-td>6,096</b-td><b-td>5,935</b-td><b-td>6,157</b-td><b-td>298</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">원단위</b-td><b-td class="text-left">tCO<sub>2</sub>e/억원</b-td><b-td>0.232</b-td><b-td>0.253</b-td><b-td>0.233</b-td><b-td>0.254</b-td><b-td>0.234</b-td>
+                                    <b-td class="text-left">원단위</b-td><b-td class="text-left">tCO<sub>2</sub>e/억원</b-td><b-td>0.253</b-td><b-td>0.254</b-td><b-td>0.234</b-td><b-td>0.243</b-td><b-td>0.007</b-td>
                                 </b-tr>                                   
                             </b-tbody> 
-                        </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5 font-noto">
-                            1. 에너지·온실가스 목표관리제 기준을 적용, 재산정 결과 배출량 증가(외부 자문 결과 및 누락 사항 반영)<br>
-                            &emsp; - 기존 Scope3 이동연소(인천/포천 통근차량)는 실제 이동거리 재측정 및 Scope1으로 이동하여 계산함<br>
-                            &emsp; - 임직원 임대차량(렌트 차량 및 지게차) 및 임대이동버스(순환버스) 배출량 산정하여 Scope1으로 계산함<br>
-                            &emsp; - 유구공장 ESS(에너지 저장 장치), 전기 고지서 분리 청구에 따른 누락 분을 반영하여 재계산함<br>
-                            &emsp; - 화장품연구소 폐쇄 후, 감평분(환경기술연구소 일부 사용) 누락 사항 Scope2에 반영하여 재계산함<br>
-                            2. Total 값, 차이는 ROUNDDOWN 함수 적용으로 인한 차이 발생(Scope1과 2는 소수점 이하 반올림)<br>
-                            3. 2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함<br> 
-                        </p>
+                        </b-table-simple> 
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li>2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
+                            </li>
+                            <li>2030년 목표는 매출 증가율과 에너지 사용 증가율이 년간 5% 증가하는 것으로 예상한 목표
+                            </li>
+                            <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(17~19년 배출량 국가 기준으로 재검증)
+                            </li>
+                        </ol>      
 
                         <h7 class="mb-3 gray63">사업장별 온실가스 배출</h7>
                         <b-table-simple responsive class="num-table env-table f-95">
@@ -211,31 +216,37 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">유구공장</b-td><b-td class="text-left" rowspan="7">tCO<sub>2</sub>e</b-td><b-td>1,950</b-td><b-td>2,177</b-td><b-td>2,240</b-td>
+                                    <b-td class="text-left">유구공장</b-td><b-td class="text-left" rowspan="7">tCO<sub>2</sub>e</b-td><b-td>2,178</b-td><b-td>2,466</b-td><b-td>2,438</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">인천공장</b-td><b-td>598</b-td><b-td>609</b-td><b-td>652</b-td>
+                                    <b-td class="text-left">인천공장</b-td><b-td>609</b-td><b-td>663</b-td><b-td>707</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">포천공장</b-td><b-td>359</b-td><b-td>375</b-td><b-td>187</b-td>
+                                    <b-td class="text-left">포천공장</b-td><b-td>375</b-td><b-td>205</b-td><b-td>218</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">환경기술연구소(R&amp;D센터)</b-td><b-td>1,708</b-td><b-td>1,707</b-td><b-td>1,858</b-td>
+                                    <b-td class="text-left">환경기술연구소(R&amp;D센터)</b-td><b-td>1,708</b-td><b-td>1,889</b-td><b-td>1,849</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">화장품연구소*</b-td><b-td>203</b-td><b-td>203</b-td><b-td>104</b-td>
+                                    <b-td class="text-left">화장품연구소</b-td><b-td>203</b-td><b-td>126</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">서울사무소</b-td><b-td>287</b-td><b-td>506</b-td><b-td>239</b-td>
+                                    <b-td class="text-left">서울사무소</b-td><b-td>502</b-td><b-td>456</b-td><b-td>444</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">물류센터</b-td><b-td>287</b-td><b-td>287</b-td><b-td>292</b-td>
+                                    <b-td class="text-left">물류센터</b-td><b-td>287</b-td><b-td>292</b-td><b-td>279</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">합계</b-td><b-td>5,863</b-td><b-td>6,096</b-td><b-td>5,935</b-td>
                                 </b-tr>                                
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5 font-noto">
-                            * 화장품연구소 폐쇄
-                        </p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li>화장품연구소 폐쇄로 2019년 온실가스 배출량 0임
+                            </li>
+                            <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(17~19년 배출량 국가 기준으로 재검증)
+                            </li>
+                        </ol>  
 
                         <h7 class="mb-3 gray63">냉매 사용에 따른 온실가스 배출</h7>
                         <b-table-simple responsive class="num-table env-table f-95">
@@ -252,7 +263,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5 font-noto">
-                            * 2019년 배출량 산출 범위의 변화로 인해 2018년 데이터는 전년도 보고 데이터와 상이함 (2018년 데이터 R-134a 49,320 → 51,230 / R-600a, R-436B 3,220 → 5,320)
+                            * 2018년 R-134a는 49,320 → 51,230 / R-600a, R-436B는 3,220 → 5,320kg으로 수정
                         </p>
 
                         
@@ -277,52 +288,59 @@
                             <b-thead><b-tr><b-td colspan="10"></b-td></b-tr></b-thead>
                             <b-thead>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="2">구분</b-td><b-td class="text-left" rowspan="2">단위</b-td><b-td colspan="2">2017</b-td><b-td colspan="2">2018</b-td><b-td>2019</b-td><b-td rowspan="2">2019 목표</b-td><b-td rowspan="2">2025 목표</b-td> 
-                                </b-tr>
-                                <b-tr>
-                                    <b-td>내부기준</b-td><b-td>국가기준</b-td><b-td>내부기준</b-td><b-td>국가기준</b-td><b-td>국가기준</b-td>  
+                                    <b-td class="text-left" colspan="2">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019 목표</b-td><b-td>2030 목표</b-td> 
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="6">직접</b-td><b-td class="text-left">LPG</b-td><b-td rowspan="10" class="text-left">GJ</b-td><b-td>0</b-td><b-td>133</b-td><b-td>0</b-td><b-td>65</b-td><b-td>0</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left" rowspan="6">직접</b-td><b-td class="text-left">LPG</b-td><b-td rowspan="10" class="text-left">GJ</b-td><b-td>84</b-td><b-td>41</b-td><b-td>0</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">휘발유</b-td><b-td>0</b-td><b-td>2,252</b-td><b-td>0</b-td><b-td>2,354</b-td><b-td>2,405</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">휘발유</b-td><b-td>2,423</b-td><b-td>2,533</b-td><b-td>2,587</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">경유</b-td><b-td>276</b-td><b-td>2,302</b-td><b-td>114</b-td><b-td>2,378</b-td><b-td>2,596</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">경유</b-td><b-td>2,458</b-td><b-td>2,540</b-td><b-td>2,773</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">LNG</b-td><b-td>323</b-td><b-td>292</b-td><b-td>554</b-td><b-td>500</b-td><b-td>181</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">LNG</b-td><b-td>323</b-td><b-td>554</b-td><b-td>201</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">등유</b-td><b-td>432</b-td><b-td>402</b-td><b-td>225</b-td><b-td>210</b-td><b-td>315</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">등유</b-td><b-td>432</b-td><b-td>225</b-td><b-td>338</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">프로판</b-td><b-td>5,407</b-td><b-td>4,967</b-td><b-td>6,052</b-td><b-td>5,560</b-td><b-td>4,866</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">프로판</b-td><b-td>5,294</b-td><b-td>5,908</b-td><b-td>5,163</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">직접 Total</b-td><b-td>6,438</b-td><b-td>10,348</b-td><b-td>6,945</b-td><b-td>11,067</b-td><b-td>10,363</b-td><b-td>11,620</b-td><b-td>-</b-td>
+                                    <b-td colspan="2" class="text-left">직접 Total</b-td><b-td>11,014</b-td><b-td>11,801</b-td><b-td>11,062</b-td><b-td>11,615</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">간접</b-td><b-td>전력</b-td><b-td>103,205</b-td><b-td>106,275</b-td><b-td>106,441</b-td><b-td>110,142</b-td><b-td>107,658</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">간접</b-td><b-td class="text-left">전력</b-td><b-td>106,275</b-td><b-td>110,142</b-td><b-td>107,564</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">간접 Total</b-td><b-td>103,205</b-td><b-td>106,275</b-td><b-td>106,441</b-td><b-td>110,142</b-td><b-td>107,658</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td colspan="2" class="text-left">간접 Total</b-td><b-td>106,275</b-td><b-td>110,142</b-td><b-td>107,564</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">총 에너지 사용량</b-td><b-td>109,643</b-td><b-td>116,623</b-td><b-td>113,386</b-td><b-td>121,209</b-td><b-td>118,020</b-td><b-td>127,629</b-td><b-td>-</b-td>
+                                    <b-td colspan="2" class="text-left">총 에너지 사용량</b-td><b-td>117,290</b-td><b-td>121,943</b-td><b-td>118,627</b-td><b-td>124,557</b-td><b-td>5,931</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">총 에너지 원단위 사용량</b-td><b-td>GJ/매출액</b-td><b-td>4.72</b-td><b-td>5.03</b-td><b-td>4.73</b-td><b-td>5.06</b-td><b-td>4.66</b-td><b-td>5.31</b-td><b-td>-</b-td>
+                                    <b-td colspan="2" class="text-left">총 에너지 원단위 사용량</b-td><b-td class="text-left">GJ/매출액</b-td><b-td>5.055</b-td><b-td>5.091</b-td><b-td>4.687</b-td><b-td>4,921</b-td><b-td>0.137</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto">
-                            * LNG, 등유, 프로판은 순발열량을 최신 계수 반영함<br>
-                            * 2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
-                        </p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li>2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
+                            </li>
+                            <li>2030년 목표는 매출 증가율과 에너지 사용 증가율이 년간 5% 증가하는 것으로 예상한 목표
+                            </li>
+                            <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(17~19년 배출량 국가 기준으로 재검증)
+                            </li>
+                            <li>에너지 사용량 계산에 적용된 계수는 총발열량을 적용함
+                            </li>
+                            <li>코웨이의 모든 사업장은 대기배출시설을 보유하고 있지 않으며 따라서 질소산화물(NOx), 황산화물(Sox) 등의 대기오염물질을 배출하지 않습니다.
+                            </li>
+                            <li>2019년 임직원 렌트 차량 중, LPG 차량이 없는 관계로 온실가스 배출량 0임
+                            </li>
+                        </ol>
 
                         <h7 class="mb-3 gray63">환경/품질 인증률</h7>
                         <b-table-simple responsive class="txt-table env-table f-95 mb-5">
@@ -427,6 +445,9 @@ export default {
                 }, 
                 { 
                     title: '협력사 탄소 파트너십'
+                },
+                { 
+                    title: '온실가스 에너지 및 기타 환경 데이터'
                 },
             ]
         }
