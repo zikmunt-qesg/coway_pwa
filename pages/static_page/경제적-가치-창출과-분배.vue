@@ -53,7 +53,7 @@
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'경제적 가치 분배'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 분배</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-5">코웨이는 2019년 연결기준 3조 189억 원의 매출액과 기타수익 및 금융수익을 합해 총 3조 683억 원의 경제적 가치를 창출하였습니다. 창출된 가치 중 3조 7억 원을 기업의 미래가치와 투자 효율성을 고려하여 이해관계자들에게 합리적으로 배분하였으며, 모든 배분을 마치고 유보된 총 675억 원의 경제적 가치를 자본 총계로 가산하였습니다. 한편 코웨이는 2019년 연구인력 개발비 투자, 생산성 향상 투자 등으로 정부로부터 약 XX원의 세액을 공제 받았습니다. 
+                    <p class="mb-5">코웨이는 2019년 연결기준 3조 189억 원의 매출액과 기타수익 및 금융수익을 합해 총 3조 683억 원의 경제적 가치를 창출하였습니다. 창출된 가치 중 3조 7억 원을 기업의 미래가치와 투자 효율성을 고려하여 이해관계자들에게 합리적으로 배분하였으며, 모든 배분을 마치고 유보된 총 675억 원의 경제적 가치를 자본 총계로 가산하였습니다. 
                     </p>
                     <hj-img src="/images/93_1.svg" fluid alt="해외법인 관리계정"></hj-img>
                     <hr class="mb-45">

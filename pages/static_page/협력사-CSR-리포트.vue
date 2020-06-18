@@ -95,27 +95,27 @@
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">구분</b-td><b-td>협력사 수</b-td><b-td>구매비중</b-td>
+                                    <b-td colspan="2" class="text-left">구분</b-td><b-td>협력사 수</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>                                
                                 <b-tr>
-                                    <b-td rowspan="2" class="text-left">1차 협력사</b-td><b-td class="text-left">1차 전체 협력사</b-td><b-td>180</b-td><b-td></b-td>
+                                    <b-td rowspan="2" class="text-left">1차 협력사</b-td><b-td class="text-left">1차 전체 협력사</b-td><b-td>180</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">핵심 협력사</b-td><b-td>67</b-td><b-td></b-td>
+                                    <b-td class="text-left">핵심 협력사</b-td><b-td>67</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">2차 이상 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td>82</b-td><b-td></b-td>
+                                    <b-td class="text-left">2차 이상 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td>82</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">전체 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td>262</b-td><b-td></b-td>
+                                    <b-td class="text-left">전체 협력사</b-td><b-td class="text-left">핵심 협력사</b-td><b-td>262</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
 
                         
-                        <h7 class="mb-3 gray63">물품구매액</h7>
+                        <!--<h7 class="mb-3 gray63">물품구매액</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                             <b-thead>
                                 <b-tr>
@@ -136,7 +136,7 @@
                                     <b-td class="text-left">&nbsp;</b-td><b-td></b-td><b-td></b-td><b-td></b-td>
                                 </b-tr>
                             </b-tbody>
-                        </b-table-simple>
+                        </b-table-simple>-->
 
                         <h7 class="mb-3 gray63">공급망 CSR 평가 현황(위험요인별)</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
