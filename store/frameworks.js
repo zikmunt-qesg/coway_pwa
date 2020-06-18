@@ -1052,8 +1052,8 @@ export const state = () => ({
             classification: '거버넌스', 
             code: '1.1.11', 
             indicators: '임원 주식소유 요건', 
-            link: [{'to':'/static_page/지배구조#소유구조및의결권','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
-            Note: '' 
+            link: '', 
+            Note: 'N/A' 
         },            
         { 
             classification: '거버넌스', 
@@ -1276,14 +1276,14 @@ export const state = () => ({
             classification: '사회보고', 
             code: '3.1.1', 
             indicators: '사회 보고 - 범위', 
-            link: [{'to':'/static_page/보고-범위-및-검증','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/보고-범위-및-검증','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '사회보고', 
             code: '3.1.2', 
             indicators: '사회 보고 - 검증', 
-            link:  [{'to':'/static_page/보고-범위-및-검증','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
+            link:  [{'to':'/static_page/보고-범위-및-검증','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
@@ -1301,27 +1301,82 @@ export const state = () => ({
             Note: '' 
         },            
         { 
-            classification: '노동지표', code: '3.2.3', indicators: '결사의 자유', link: '', Note: '' },            
+            classification: '노동지표', 
+            code: '3.2.3', 
+            indicators: '결사의 자유', 
+            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#노사협의회기반의커뮤니케이션','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }], 
+            Note: '' 
+        },            
         { 
-            classification: '인권', code: '3.3.1', indicators: '인권 정책', link: '', Note: '' },            
+            classification: '인권', 
+            code: '3.3.1', 
+            indicators: '인권 정책', 
+            link: [{'to':'/static_page/인권-리포트#인권경영원칙및가이드','name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
+            Note: '' 
+        },            
         { 
-            classification: '인권', code: '3.3.4', indicators: '인권 공시', link: '', Note: '' },            
+            classification: '인권', 
+            code: '3.3.4', 
+            indicators: '인권 공시', 
+            link: [{'to':'/static_page/인권-리포트','name': '인권 리포트', 'icon':'fas fa-link' }],  
+            Note: '' 
+        },            
         { 
-            classification: '인재 확보 및 유지', code: '3.5.4', indicators: '임직원 참여도 추이', link: '', Note: 'N/A' },            
+            classification: '인재 확보 및 유지', 
+            code: '3.5.4', 
+            indicators: '임직원 참여도 추이', 
+            link: '', 
+            Note: 'N/A' 
+        },            
         { 
-            classification: '사회공헌', code: '3.6.1', indicators: '사회공헌 전략', link: '', Note: '' },            
+            classification: '사회공헌', 
+            code: '3.6.1', 
+            indicators: '사회공헌 전략', 
+            link: [{'to':'/static_page/지역사회#코웨이다운사회공헌','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
+            Note: '' 
+        },            
         { 
-            classification: '사회공헌', code: '3.6.2', indicators: '사회공헌 활동 내역', link: '', Note: '' },            
+            classification: '사회공헌', 
+            code: '3.6.2', 
+            indicators: '사회공헌 활동 내역', 
+            link: [{'to':'/static_page/지역사회#깨끗한물과공기를위한코웨이의약속','name': '지역사회 - 깨끗한 물과 공기를 위한 코웨이의 약속', 'icon':'fas fa-link' }],   
+            Note: '' 
+        },            
         { 
-            classification: '사회공헌', code: '3.6.3', indicators: '사회공헌 투입', link: '', Note: '' },            
+            classification: '사회공헌', 
+            code: '3.6.3', 
+            indicators: '사회공헌 투입', 
+            link: [{'to':'/static_page/지역사회#코웨이다운사회공헌','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
+            Note: '' 
+        },            
         { 
-            classification: '안전 및 보건', code: '3.7.1', indicators: '건강 및 웰빙', link: '', Note: '' },            
+            classification: '안전 및 보건', 
+            code: '3.7.1', 
+            indicators: '건강 및 웰빙', 
+            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
+            Note: '' 
+        },            
         { 
-            classification: '안전 및 보건', code: '3.7.3', indicators: '근로손실재해율(LTIFR) - 임직원', link: '', Note: '' },            
+            classification: '안전 및 보건', 
+            code: '3.7.3', 
+            indicators: '근로손실재해율(LTIFR) - 임직원', 
+            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
+            Note: '' 
+        },            
         { 
-            classification: '안전 및 보건', code: '3.7.4', indicators: '근로손실재해율(LTIFR) - 계약자', link: '', Note: '' },            
+            classification: '안전 및 보건', 
+            code: '3.7.4', 
+            indicators: '근로손실재해율(LTIFR) - 계약자', 
+            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
+            Note: '' 
+        },            
         { 
-            classification: '안전 및 보건', code: '3.7.5', indicators: '업무상발병률(OIFR) - 임직원', link: '', Note: 'N/A' },                   
+            classification: '안전 및 보건', 
+            code: '3.7.5', 
+            indicators: '업무상발병률(OIFR) - 임직원', 
+            link: '', 
+            Note: 'N/A' 
+        },                   
     ],    
 
 })

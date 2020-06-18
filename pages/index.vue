@@ -200,8 +200,9 @@
         </b-row>
         <b-row class="mb-5">
             <b-col v-for="item in main_articles" :key="item.id" class="col-12 col-md-4 mb-3 mb-md-0">
-                <b-card no-body class="shadow border-0 cursor" @click="$router.push('/news/view_article?id='+item.id)">
-                    <b-card-img v-if="item.picture_file_url" :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top></b-card-img>
+                <b-card no-body class="shadow border-0 cursor " @click="$router.push('/news/view_article?id='+item.id)">
+
+                    <div class="overflow-hidden"><b-card-img v-if="item.picture_file_url" :src="item.picture_file_url" alt="Image" class="main-news-card-img" img-top ></b-card-img>   </div>
                     <b-card-body class="p-4">
                         <p class="px-2 mb-1 fw-400 f-110 gray6 overflow-hidden" style="max-height:52px; min-height:52px;"> {{ item.title }} </p>
                         <p class="px-2 f-90 gray5 mb-0 overflow-hidden" style="max-height:65px; min-height:65px;">{{ item.description }} </p>
@@ -222,6 +223,11 @@ import { mapState, mapActions } from 'vuex'
 import * as ih from '@/components/util'
 
 export default {
+    data() {
+        return {
+            news_img_overlay: false
+        }
+    },
   transition(to, from) {
     if (!from) {
       return "slide-left";
@@ -260,7 +266,13 @@ export default {
     },
   },
   methods: {
-    ...mapActions('articles', ['loadPicture'])
+    ...mapActions('articles', ['loadPicture']),
+    showImgOverlay(){
+        this.news_img_overlay =true
+    },
+    hideImgOverlay(){
+        this.news_img_overlay =false
+    }
   },
   mounted() {
     this.main_articles.forEach(item => {
@@ -353,7 +365,7 @@ export default {
     cursor: pointer;
 }
 .card-plus:hover {
-    width: 5em; height: 5em; position: relative; 
+    width: 3.3em; height: 3.3em; position: relative; 
     // transform: rotate( 45deg );
 }
 .card-plus-news {
@@ -367,10 +379,10 @@ export default {
 }
 .bar { margin: 0 auto; position: absolute; background-color: $gray2;
 }
-.bar-news { margin: 0 auto; position: absolute; background-color: $gray5;
+.bar-news { margin: 0 auto; position: absolute; background-color: $gray4;
 }
-.horizontal { width: 100%; height: 4%; left: 0; top: 49%; }
-.vertical { width: 4%; height: 100%; left: 49%; top: 0; }
+.horizontal { width: 100%; height: 2px; left: 0; top: 49%; }
+.vertical { width: 2px; height: 100%; left: 49%; top: 0; }
 
 .local-temp-circle{
     width: 100px; 
@@ -399,5 +411,14 @@ export default {
         width: 100px; 
         height: 100px;
     }
+}
+
+.main-news-card-img {
+    width:100%;
+    transition: all ease-out 0.5s;
+}
+.main-news-card-img:hover {
+    transform: scale(1.05)
+    // height: 110%;
 }
 </style>
