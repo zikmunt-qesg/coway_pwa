@@ -1,7 +1,7 @@
 <template>
 <div>
     <transition name="show-fade" mode="out-in">
-        <div v-if="isVisible" class="position-fixed text-center" style="right:0; top:20vh">
+        <div v-if="isVisible" class="position-fixed text-center" style="right:10px; top:10vh">
             
             <b-button variant="icon-gray" :aria-expanded="is_opened ? 'false' : 'true'" aria-controls="external-btns" @click="changeCollapse" style="width:64px;">           
                 <div v-if="is_opened==true" key="opened"><i class="fas fa-angle-double-right"></i></div>
@@ -11,15 +11,15 @@
             <transition name="slide-fade" mode="out-in">  
                 <div id="external-btns" v-if="is_opened==true" class="">             
                     <div class="d-flex flex-column justify-content-center">
-                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/109_1.svg"></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/109_1.svg" class="external-link-btn"></b-img> </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/110_1.svg"></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/110_1.svg" class="external-link-btn"></b-img> </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/111_1.svg"></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/111_1.svg" class="external-link-btn"></b-img> </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/112_1.svg"></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="py-3 text-center"><b-img src="/images/112_1.svg" class="external-link-btn"></b-img> </a>
                         <div class="short-divide-line"></div>
-                        <div @click="backToTop" class="py-3 text-center cursor"><b-img src="/images/113_1.svg"></b-img> </div>
+                        <div @click="backToTop" class="py-3 text-center cursor go-to-top"><b-img src="/images/113_1.svg"></b-img> </div>
                     </div>            
                 </div>
             </transition>
@@ -136,9 +136,15 @@ export default {
   transform: translateY(-50px);
   opacity: 0;
 }
-
-
-
+.external-link-btn, .go-to-top{
+    transition: all ease-out .3s;
+}
+.external-link-btn:hover{
+    transform: translateX(5px);
+}
+.go-to-top:hover{
+    transform: translateY(5px);
+}
 
 // .goTop {
 //   border-radius: 5px;
