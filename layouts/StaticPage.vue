@@ -4,6 +4,7 @@
         <site-header />
 
         <nuxt class="nuxt"/>
+        <back-to-top :key="$route.fullPath"></back-to-top>
 
         <site-footer />
   </div>

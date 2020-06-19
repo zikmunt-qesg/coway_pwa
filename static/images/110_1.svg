@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="73.772" viewBox="0 0 52 73.772">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3e3a39;
+      }
+
+      .cls-2 {
+        fill: #fafafa;
+      }
+
+      .cls-3 {
+        fill: #3e3a39;
+        font-size: 14px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.009em;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_9_1" data-name="구성 요소 9 – 1" transform="translate(0 0.5)">
+    <line id="선_24" data-name="선 24" class="cls-1" y2="23.68" transform="translate(25.445 2.591)"/>
+    <line id="선_25" data-name="선 25" class="cls-1" x2="14.83" transform="translate(18.032 26.49)"/>
+    <g id="그룹_44" data-name="그룹 44" transform="translate(-1849.45 -2157.809)">
+      <path id="패스_48" data-name="패스 48" class="cls-1" d="M1855.355,2171.893a7.173,7.173,0,0,0,14.339,0Z"/>
+      <path id="패스_49" data-name="패스 49" class="cls-1" d="M1880.306,2171.893a7.173,7.173,0,0,0,14.339,0Z"/>
+    </g>
+    <path id="패스_50" data-name="패스 50" class="cls-1" d="M1857.153,2172.094l5.256-11.9h12.614" transform="translate(-1849.45 -2157.809)"/>
+    <line id="선_26" data-name="선 26" class="cls-1" x2="5.617" y2="11.748" transform="translate(12.905 2.507)"/>
+    <path id="패스_51" data-name="패스 51" class="cls-1" d="M1892.847,2172.094l-5.256-11.9h-12.614" transform="translate(-1849.45 -2157.809)"/>
+    <line id="선_27" data-name="선 27" class="cls-1" x1="5.617" y2="11.748" transform="translate(32.577 2.507)"/>
+    <g id="그룹_45" data-name="그룹 45" transform="translate(-1849.45 -2157.809)">
+      <path id="패스_52" data-name="패스 52" class="cls-2" d="M1874.9,2163.42a2.807,2.807,0,1,0-2.911-2.8,2.859,2.859,0,0,0,2.911,2.8"/>
+      <path id="패스_53" data-name="패스 53" class="cls-1" d="M1874.9,2163.42a2.807,2.807,0,1,0-2.911-2.8A2.859,2.859,0,0,0,1874.9,2163.42Z"/>
+    </g>
+    <line id="선_28" data-name="선 28" class="cls-1" x2="18.353" transform="translate(16.27 28.757)"/>
+    <text id="무한책임" class="cls-3" transform="translate(0 52.272)"><tspan class="cls-4" x="0" y="0">무한책</tspan><tspan y="0">임</tspan></text>
+    <text id="_" data-name="
+" class="cls-3" transform="translate(51.1 52.272)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
+    <text id="위원회" class="cls-3" transform="translate(6.37 69.072)"><tspan class="cls-4" x="0" y="0">위원</tspan><tspan y="0">회</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="72.833" viewBox="0 0 64 72.833">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3e3a39;
+      }
+
+      .cls-2 {
+        fill: #3e3a39;
+        font-size: 14px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.009em;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_10_1" data-name="구성 요소 10 – 1" transform="translate(0 0.5)">
+    <g id="그룹_43" data-name="그룹 43" transform="translate(-1843.08 -2275.082)">
+      <path id="패스_43" data-name="패스 43" class="cls-1" d="M1889.236,2278.146V2297.3a2.872,2.872,0,0,1-5.744,0v-19.157h-.21a.994.994,0,0,1-1-.989v-2.075h8.158v2.075a.994.994,0,0,1-1,.989h-3.081m-8.491,0V2297.3a2.873,2.873,0,0,1-5.745,0v-19.157h-.209a.994.994,0,0,1-1-.989v-2.075h8.159v2.075a.994.994,0,0,1-1,.989H1875m-8.491,0V2297.3a2.872,2.872,0,0,1-5.744,0v-19.157h-.209a.993.993,0,0,1-1-.989v-2.075h8.158v2.075a.994.994,0,0,1-1,.989h-3.081m28.263,4.29h2.747v18.228a2.944,2.944,0,0,1-2.958,2.931h-33.377a2.944,2.944,0,0,1-2.958-2.931v-18.228h2.747"/>
+    </g>
+    <line id="선_19" data-name="선 19" class="cls-1" y1="10.612" transform="translate(43.413 10.774)"/>
+    <line id="선_20" data-name="선 20" class="cls-1" y1="10.612" transform="translate(31.936 10.774)"/>
+    <line id="선_21" data-name="선 21" class="cls-1" y1="10.612" transform="translate(20.458 10.774)"/>
+    <text id="코웨이" class="cls-2" transform="translate(12.74 51.333)"><tspan class="cls-3" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
+    <text id="_" data-name="
+" class="cls-2" transform="translate(51.1 51.333)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
+    <text id="공기연구소" class="cls-2" transform="translate(0 68.133)"><tspan class="cls-3" x="0" y="0">공기연구</tspan><tspan y="0">소</tspan></text>
+  </g>
+</svg>

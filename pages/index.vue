@@ -214,7 +214,8 @@
             <div class="card-plus-news"  @click="$router.push('/news')"> <div class="bar-news horizontal"></div> <div class="bar-news vertical"></div> </div>
         </div>
         <hr class="mb-5 space-p75">
-    </b-container>
+        <!-- <back-to-top></back-to-top> -->
+    </b-container>    
 </div>
 </template>
 

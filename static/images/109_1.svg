@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="76.324" viewBox="0 0 52 76.324">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3e3a39;
+      }
+
+      .cls-2 {
+        fill: #3e3a39;
+        font-size: 14px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.009em;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_8_1" data-name="구성 요소 8 – 1" transform="translate(0 0.695)">
+    <path id="패스_46" data-name="패스 46" class="cls-1" d="M1891.153,2055.529,1875,2039.923l-16.152,15.606" transform="translate(-1849.45 -2039.923)"/>
+    <path id="패스_47" data-name="패스 47" class="cls-1" d="M1864.828,2052.719v19.013h20.344v-19.013" transform="translate(-1849.45 -2039.923)"/>
+    <text id="코웨이_" data-name="코웨이 " class="cls-2" transform="translate(6.37 54.629)"><tspan class="cls-3" x="0" y="0">코웨</tspan><tspan y="0">이 </tspan></text>
+    <text id="_" data-name="
+" class="cls-2" transform="translate(48.37 54.629)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
+    <text id="홈페이지" class="cls-2" transform="translate(0 71.429)"><tspan class="cls-3" x="0" y="0">홈페이</tspan><tspan y="0">지</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg id="구성_요소_11_1" data-name="구성 요소 11 – 1" xmlns="http://www.w3.org/2000/svg" width="52" height="53.666" viewBox="0 0 52 53.666">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e3a39;
+        font-size: 14px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.009em;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #3e3a39;
+        stroke-width: 1.259px;
+      }
+    </style>
+  </defs>
+  <text id="다운로드" class="cls-1" transform="translate(0 49.666)"><tspan class="cls-2" x="0" y="0">다운로</tspan><tspan y="0">드</tspan></text>
+  <line id="선_23" data-name="선 23" class="cls-3" y2="20.075" transform="translate(25.55)"/>
+  <path id="패스_44" data-name="패스 44" class="cls-3" d="M1878.983,2416.662l-3.983,4.284-3.982-4.284" transform="translate(-1849.45 -2400.87)"/>
+  <path id="패스_45" data-name="패스 45" class="cls-3" d="M1858.6,2411.37v16.216H1891.4V2411.37" transform="translate(-1849.45 -2400.87)"/>
+</svg>
