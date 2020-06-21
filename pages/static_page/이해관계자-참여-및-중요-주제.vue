@@ -32,7 +32,7 @@
                         <h7 class="mb-3 gray63">이해관계자 커뮤니케이션 채널</h7>
                         <b-table-simple responsive class="sep-table f-90 mb-5">
                             <b-tbody><b-tr class="bg-parang7 fw-300 text-white">
-                                <b-td class="border-0" style="width: 15%">이해관계자</b-td><b-td class="border-0" style="width: 38%">커뮤니케이션 채널</b-td><b-td class="border-0" style="width: 17%">커뮤니케이션 빈도</b-td><b-td class="border-0">주요 관심사</b-td>
+                                <b-td class="border-0 py-0" style="width: 15%">이해관계자</b-td><b-td class="border-0 py-0" style="width: 38%">커뮤니케이션 채널</b-td><b-td class="border-0 py-0" style="width: 17%">커뮤니케이션 빈도</b-td><b-td class="border-0 py-0">주요 관심사</b-td>
                             </b-tr>
                                 <b-tr>
                                     <b-td rowspan="3" style="width: 15%">고객<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td style="width: 38%">기업 홈페이지</b-td><b-td style="width: 17%">수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>제품 안전성 및 품질 책임</li><li>철저한 개인정보보호</li><li>제품 및 서비스 체험 및 경험</li><li>고객 불편사항의 즉각적 해소</li></ul></b-td>
@@ -45,7 +45,7 @@
                                 </b-tr>
                             
                                 <b-tr>
-                                    <b-td rowspan="4">주주·투자자<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>정기 주주총회</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>기업 가치 구축</li><li>주주가치 제고</li><li>건전한 지배구조</li><li>사업 기회 및 위험 관리</li></ul></b-td>
+                                    <b-td rowspan="4">주주·투자자<br><b-img src="/images/2_2.svg" class="mt-2"></b-img></b-td><b-td>정기 주주총회</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>기업 가치 구축</li><li>주주가치 제고</li><li>건전한 지배구조</li><li>사업 기회 및 위험 관리</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>IR 미팅</b-td><b-td>수시</b-td>
@@ -58,7 +58,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">임직원<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
+                                    <b-td rowspan="3">임직원<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>사내 온라인 상담 채널(소나무 베이커리, 코러스)</b-td><b-td>수시</b-td>
@@ -68,7 +68,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">파트너 및 협력사<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>협력사 협의회(착한믿음 협의회)</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></ul></b-td>
+                                    <b-td rowspan="3">파트너 및 협력사<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>협력사 협의회(착한믿음 협의회)</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>협력사 온라인 상생포털</b-td><b-td>수시</b-td>
@@ -78,7 +78,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">지역사회<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>지역 협의회</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>사회공헌 및 지역사회 활동 참여</li><li>지역 내 일자리 창출</li><li>지속가능한 지역 발전</li></ul></b-td>
+                                    <b-td rowspan="3">지역사회<br><b-img src="/images/2_5.svg" class="mt-2"></b-img></b-td><b-td>지역 협의회</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>사회공헌 및 지역사회 활동 참여</li><li>지역 내 일자리 창출</li><li>지속가능한 지역 발전</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>NGO 미팅</b-td><b-td>수시</b-td>
@@ -88,7 +88,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="4">학계·언론<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>기업지배구조 보고서</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>투명한 정보공개</li><li>ESG 데이터 및 성과 커뮤니케이션</li></ul></b-td>
+                                    <b-td rowspan="4">학계·언론<br><b-img src="/images/2_6.svg" class="mt-2"></b-img></b-td><b-td>기업지배구조 보고서</b-td><b-td>연 1회</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>투명한 정보공개</li><li>ESG 데이터 및 성과 커뮤니케이션</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>사업보고서 등 정기공시</b-td><b-td>연5회 이상</b-td>
@@ -101,7 +101,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">정부<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td>금융감독원 공시</b-td><b-td>수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>조세납부 등 경제적 가치 분배</li><li>법규 준수 및 윤리경영</li></ul></b-td>
+                                    <b-td rowspan="3">정부<br><b-img src="/images/2_7.svg" class="mt-2"></b-img></b-td><b-td>금융감독원 공시</b-td><b-td>수시</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>조세납부 등 경제적 가치 분배</li><li>법규 준수 및 윤리경영</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>법/규제 준수</b-td><b-td>수시</b-td>
@@ -208,7 +208,7 @@
                         <b-table-simple responsive class="txt-table sustainability-table f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td rowspan="2" class="text-center">No</b-td><b-td rowspan="2" class="text-center">중요 주제</b-td><b-td rowspan="2" class="text-center">보고 주제</b-td><b-td colspan="3" class="border-bottom-0 text-center">사업적 영향</b-td><b-td rowspan="2" class="text-center">보고 페이지</b-td>
+                                    <b-td rowspan="2" class="text-center">No</b-td><b-td rowspan="2" class="text-center">중요 주제</b-td><b-td rowspan="2" class="text-center w-50">보고 주제</b-td><b-td colspan="3" class="border-bottom-0 text-center">사업적 영향</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-center">비용</b-td><b-td class="text-center">수익창출</b-td><b-td class="text-center">리스크</b-td>
@@ -216,34 +216,34 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-center">1</b-td><b-td class="parang8">고객 맞춤형 제품 및 서비스 개발</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">1</b-td><b-td class="parang8"><span class="fw-400">고객 맞춤형 제품 및 서비스 개발</span></b-td><b-td> <a href="/static_page/제품과-서비스의-혁신" target="_blank"> 제품과 서비스의 혁신 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">2</b-td><b-td class="parang8">제품 안전 및 신뢰성 강화</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">2</b-td><b-td class="parang8"><span class="fw-400">제품 안전 및 신뢰성 강화</span></b-td><b-td> <a href="/static_page/제품-책임" target="_blank"> 제품 책임 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">3</b-td><b-td class="parang8">정보보호</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">3</b-td><b-td class="parang8"><span class="fw-400">정보보호</span></b-td><b-td> <a href="/static_page/정보보안-및-개인정보보호" target="_blank"> 정보보안 및 개인정보보호 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">4</b-td><b-td class="parang6">R&amp;D를 통한 기술 경쟁력 확보</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">4</b-td><b-td class="parang6"><span class="fw-400">R&amp;D를 통한 기술 경쟁력 확보</span></b-td><b-td> <a href="/static_page/제품과-서비스의-혁신" target="_blank"> 제품과 서비스의 혁신 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">5</b-td><b-td class="parang6">임직원 역량개발 및 유지</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">5</b-td><b-td class="parang6"><span class="fw-400">임직원 역량개발 및 유지</span></b-td><b-td> <a href="/static_page/임직원-중심의-기업문화와-안전한-근무환경#착한성장을위한역량강화" target="_blank"> 임직원 중심의 기업문화와 안전한 근무환경 - 착한성장을 위한 역량 강화 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">6</b-td><b-td class="parang6">환경 친화적 제품 및 서비스 개발</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">6</b-td><b-td class="parang6"><span class="fw-400">환경 친화적 제품 및 서비스 개발</span></b-td><b-td> <a href="/static_page/친환경-제품-개발과-제품-생애주기-관리" target="_blank"> 친환경 제품 개발과 제품 생애주기 관리 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">7</b-td><b-td class="parang6">전략적 사회공헌 활동</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td></b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">7</b-td><b-td class="parang6"><span class="fw-400">전략적 사회공헌 활동</span></b-td><b-td> <a href="/static_page/지역사회" target="_blank"> 지역사회 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">8</b-td><b-td class="parang6">인권과 노동 관련 원칙 준수</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">8</b-td><b-td class="parang6"><span class="fw-400">인권과 노동 관련 원칙 준수</span></b-td><b-td> <a href="/static_page/인권-리포트" target="_blank"> 인권 리포트 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">9</b-td><b-td class="parang6">브랜드 신뢰도 강화</b-td><b-td></b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">9</b-td><b-td class="parang6"><span class="fw-400">브랜드 신뢰도 강화</span></b-td><b-td> <a href="/static_page/제품과-서비스의-혁신" target="_blank"> 제품과 서비스의 혁신 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="f-80 parang6 text-center">●</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-center">10</b-td><b-td class="parang6">자원순환 및 재활용</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td class="text-center"><b-button size="sm" variant="icon" class="p-0">바로가기</b-button></b-td>
+                                    <b-td class="text-center">10</b-td><b-td class="parang6"><span class="fw-400">자원순환 및 재활용</span></b-td><b-td> <a href="/static_page/친환경-제품-개발과-제품-생애주기-관리#자원효율성향상과순환경제지원" target="_blank"> 친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원 <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></a> </b-td><b-td class="f-80 parang6 text-center">●</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">●</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple> 

@@ -16,6 +16,13 @@
     padding: 2.3em 1.4em 1.9em;
 }
 
+.link-img {
+    transition: all ease-out 0.3s;
+}
+.link-img:hover{
+    transform: scale(1.05)
+}
+
 @media (max-width: 768px) {
     .page-top-img, .material-page-top-img {
         height: 100vh;

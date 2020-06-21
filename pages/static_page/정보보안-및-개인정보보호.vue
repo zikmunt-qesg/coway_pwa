@@ -40,7 +40,7 @@
                                     <h7 class="mb-45 f-120 w-100 blue7">Performance</h7>
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
-                                            <div class="mx-auto mb-3" style="height:52px"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                            <div class="mx-auto mb-3" style="height:63px"><b-img src="/images/114_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-500 font-noto word-break px-lg-4 px-xl-5 mt-m-2">3년 연속 정보보호 및 사이버보안 관련 위반</p>
                                             <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">0</span>건</p>
                                         </b-col>
@@ -101,8 +101,8 @@
                     <p class="mb-5">코웨이는 개인정보 수집, 보관 및 활용, 파기의 전 과정에서 정보를 안전하게 관리하기 위해 개인정보보호 라이프사이클 관리를 추진합니다. 또한, 라이프사이클 전반에서 더욱 강화된 정보보호를 위해 관리영역, 물리영역 및 기술영역에서 정보보호대책을 실행합니다. 관리 영역에서 정보 자산 분류에 따른 정보 핸들링과 함께 정보보호 교육을 통한 인적 보안을 추진하며, 물리적인 관리 한계를 넘어 전체 시스템 통제 및 회복력 확보를 위해 기술영역에서 IT 시스템 기반의 진단, 통제 및 사고 복구를 진행하고 있습니다.
                     </p>
                     <div class="d-md-flex mb-5 w-100">
-                        <div><hj-img src="/images/86_1.svg" fluid class="pr-md-3"></hj-img></div>
-                        <div><hj-img src="/images/87_1.svg" fluid class="pl-md-3"></hj-img></div>
+                        <div><h7 class="gray63 mb-3">개인정보보호 라이프사이클 관리 체계</h7><hj-img src="/images/86_1.svg" fluid class="pr-md-3"></hj-img></div>
+                        <div class="pl-md-3"><h7 class="gray63 mb-3">정보보호대책 상세 항목</h7><hj-img src="/images/87_1.svg" fluid ></hj-img></div>
                     </div>
                     <hr class="py-2">
                      
@@ -125,7 +125,7 @@
                                    <b-td>사고대응팀 구성</b-td><b-td><p class="indent mb-0">&#9312; 정보보호관리자 : CISO에게 최초 보고</p><p class="indent mb-0">&#9313; 관련부서 : 사고대응팀 인원 비상 배치</p><p class="indent mb-0">&#9314; 사고대응팀 : 사고대응 준비</p></b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>사고대응팀 대응<br><span class="f-90">(정보보호부서 각 담당자 수행)</span></b-td><b-td colspan="2"> 조치 프로세스 그림 </b-td>
+                                <b-td>사고대응팀 대응<br><span class="f-90">(정보보호부서 각 담당자 수행)</span></b-td><b-td colspan="2" class="text-right align-middle"> <b-img src="/images/116_1.svg" fluid ></b-img></b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>사고신고</b-td><b-td> 침해사고 대응기관 신고</b-td><b-td><p class="indent mb-0"> &#9312; 정보보호 부서: 보안사고 경중을 파악하여 '한국정보보호진흥원 인터젯 침해사고 대응지원센터' 118 또는 '국가 사이버안전센터' 111로 연락하여 신고 </p></b-td>
@@ -206,8 +206,8 @@
                     <h6-ancor :title="'2019년 정보보호 모니터링 주요활동 및 성과'" :activated="activated" class="blue5 mb-3 font-noto">2019년 정보보호 모니터링 주요활동 및 성과</h6-ancor>
                         <b-table-simple responsive class="sep-table f-95 fw-300 font-noto">
                             <b-tbody>
-                                <b-tr class="bg-blue7 fw-300 text-white">
-                                    <b-td>구분</b-td><b-td>내용</b-td><b-td>2019년 주요 활동 및 성과</b-td>
+                                <b-tr class="bg-blue5 fw-300 text-white">
+                                    <b-td class="py-0">구분</b-td><b-td class="py-0">내용</b-td><b-td class="py-0">2019년 주요 활동 및 성과</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>정보보호 관리체계 운영</b-td>

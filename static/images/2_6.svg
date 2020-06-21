@@ -1,0 +1,76 @@
+<svg id="구성_요소_68_1" data-name="구성 요소 68 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.42" height="27.089" viewBox="0 0 31.42 27.089">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #393c41;
+      }
+
+      .cls-4 {
+        stroke: #393c41;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_782" data-name="패스 782" class="cls-1" d="M0,0H31.42V-27.089H0Z"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_431" data-name="그룹 431" class="cls-2" transform="translate(0 27.089)">
+    <g id="그룹_425" data-name="그룹 425" transform="translate(30.92 -1.7)">
+      <path id="패스_776" data-name="패스 776" class="cls-3" d="M0,0A1.2,1.2,0,0,1-1.2,1.2H-27.72A1.2,1.2,0,0,1-28.92,0V-16.02a1.2,1.2,0,0,1,1.2-1.2H-1.2A1.2,1.2,0,0,1,0-16.02Z"/>
+    </g>
+    <g id="그룹_426" data-name="그룹 426" transform="translate(30.92 -1.7)">
+      <path id="패스_777" data-name="패스 777" class="cls-4" d="M0,0A1.2,1.2,0,0,1-1.2,1.2H-27.72A1.2,1.2,0,0,1-28.92,0V-16.02a1.2,1.2,0,0,1,1.2-1.2H-1.2A1.2,1.2,0,0,1,0-16.02Z"/>
+    </g>
+    <g id="그룹_427" data-name="그룹 427" transform="translate(3.55 -2.35)">
+      <path id="패스_778" data-name="패스 778" class="cls-3" d="M0,0V-18.63s7.21-4.5,12.86.45V.15S6.3-4.05,0,0"/>
+    </g>
+    <g id="그룹_428" data-name="그룹 428" transform="translate(3.55 -2.35)">
+      <path id="패스_779" data-name="패스 779" class="cls-4" d="M0,0V-18.63s7.21-4.5,12.86.45V.15S6.3-4.05,0,0Z"/>
+    </g>
+    <g id="그룹_429" data-name="그룹 429" transform="translate(16.41 -2.35)">
+      <path id="패스_780" data-name="패스 780" class="cls-3" d="M0,0V-18.63a11.6,11.6,0,0,1,12.86.45V.15S6.3-4.05,0,0"/>
+    </g>
+    <g id="그룹_430" data-name="그룹 430" transform="translate(16.41 -2.35)">
+      <path id="패스_781" data-name="패스 781" class="cls-4" d="M0,0V-18.63a11.6,11.6,0,0,1,12.86.45V.15S6.3-4.05,0,0Z"/>
+    </g>
+  </g>
+  <g id="그룹_432" data-name="그룹 432" transform="translate(6.16 9.369)">
+    <path id="패스_783" data-name="패스 783" class="cls-4" d="M0,0H7.7M0,2.65H7.7M0,5.3H7.7M12.79,0h7.7m-7.7,2.65h7.7M12.79,5.3h7.7"/>
+  </g>
+  <path id="패스_784" data-name="패스 784" class="cls-5" d="M22.236-22.762h2.835v-3.827H22.236Z" transform="translate(0 27.089)"/>
+  <g id="그룹_439" data-name="그룹 439" class="cls-2" transform="translate(0 27.089)">
+    <path id="패스_785" data-name="패스 785" class="cls-4" d="M22.236-22.762h2.835v-3.827H22.236Z"/>
+    <g id="그룹_433" data-name="그룹 433" transform="translate(29.42 -3.2)">
+      <path id="패스_786" data-name="패스 786" class="cls-5" d="M0,0A1.2,1.2,0,0,1-1.2,1.2H-27.72A1.2,1.2,0,0,1-28.92,0V-16.02a1.2,1.2,0,0,1,1.2-1.2H-1.2A1.2,1.2,0,0,1,0-16.02Z"/>
+    </g>
+    <g id="그룹_434" data-name="그룹 434" transform="translate(29.42 -3.2)">
+      <path id="패스_787" data-name="패스 787" class="cls-4" d="M0,0A1.2,1.2,0,0,1-1.2,1.2H-27.72A1.2,1.2,0,0,1-28.92,0V-16.02a1.2,1.2,0,0,1,1.2-1.2H-1.2A1.2,1.2,0,0,1,0-16.02Z"/>
+    </g>
+    <g id="그룹_435" data-name="그룹 435" transform="translate(2.05 -3.85)">
+      <path id="패스_788" data-name="패스 788" class="cls-5" d="M0,0V-18.63s7.21-4.5,12.86.45V.15S6.3-4.05,0,0"/>
+    </g>
+    <g id="그룹_436" data-name="그룹 436" transform="translate(2.05 -3.85)">
+      <path id="패스_789" data-name="패스 789" class="cls-4" d="M0,0V-18.63s7.21-4.5,12.86.45V.15S6.3-4.05,0,0Z"/>
+    </g>
+    <g id="그룹_437" data-name="그룹 437" transform="translate(14.91 -3.85)">
+      <path id="패스_790" data-name="패스 790" class="cls-5" d="M0,0V-18.63a11.6,11.6,0,0,1,12.86.45V.15S6.3-4.05,0,0"/>
+    </g>
+    <g id="그룹_438" data-name="그룹 438" transform="translate(14.91 -3.85)">
+      <path id="패스_791" data-name="패스 791" class="cls-4" d="M0,0V-18.63a11.6,11.6,0,0,1,12.86.45V.15S6.3-4.05,0,0Z"/>
+    </g>
+  </g>
+  <g id="그룹_440" data-name="그룹 440" transform="translate(4.66 7.869)">
+    <path id="패스_793" data-name="패스 793" class="cls-4" d="M0,0H7.7M0,2.65H7.7M0,5.3H7.7M12.79,0h7.7m-7.7,2.65h7.7M12.79,5.3h7.7"/>
+  </g>
+</svg>

@@ -64,7 +64,7 @@
                             <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <b-row>
                                 <b-col class="col-12 col-md-7 py-2 pr-sm-2 pr-xl-3 d-flex align-items-center">
-                                    <div class="mr-3" style="height:50px;"><b-img src="/images/65_1.svg" ></b-img> </div>
+                                    <div class="ml-2 ml-md-0 mr-3"><b-img src="/images/65_1.svg" ></b-img> </div>
                                     <div class="fw-500 mb-0"><span class="fw-600">2020</span> CES 혁신상 수상, 사계절 의류청정기 더블케어</div>
                                 </b-col>
                                 <b-col class="col-12 col-md-5 py-2 d-flex align-items-center">
@@ -80,7 +80,7 @@
                     <p class="mb-45 mb-md-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
                     </p>
                     <b-row class="mb-5">
-                        <b-col class="col-12 col-md-5 mb-45 mb-md-0 temp-img1 pr-0"><b-img src="/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
+                        <b-col class="col-12 col-md-5 mb-45 mb-md-0 pr-0" style="height: 286px;"><b-img src="/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
                         <b-col class="col-12 col-md-7 px-3 pl-md-4 px-xl-0"><h6-ancor :title="'혁신 기술의 집약, 한뼘 시루직수 정수기 개발 '" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
                             <p>코웨이는 끊임없는 기술 진화를 통해 2019년 ‘한뼘 시루직수 정수기’를 출시하였습니다. 한뼘 시루직수 정수기는 RO멤브레인 필터를 직수화 기술로 구현한 ‘시루직수 정수기’의 업그레이드 버전으로, 오염 물질 제거 성능과 풍부한 유량을 특징으로 합니다. 필터 기술력의 정점인 ‘CIROO 2.0 필터’를 탑재하여, 기존 필터보다 면적을 6배, 정수량을 30배 높인 직수 방식으로 구현하였으며, 물을 마실 때마다 유로에 남은 물을 배출하는 ‘유로 비움 모드’, 24시간 동안 사용하지 않으면 정수기 속 남은 물을 배출하는 ‘자동 배수 시스템’으로 위생성을 향상하였습니다. 또한, 기존 시루직수 정수기(CHP-7300R, CP-7300R) 대비 크기를 약 30% 줄여 공간 활용도를 높였고, 소형 냉각 시스템과 순간 온수 시스템을 적용하여 에너지소비효율을 1등급으로 높여 친환경적 측면도 개선하였습니다.
                             </p>
@@ -99,7 +99,7 @@
 
                     <b-table-simple responsive class="txt-table case-table f-95 mb-5">
                         <b-thead><b-tr>
-                            <b-td>컨셉</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2016 </span><br>복합기능</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2017 </span><br>IoT(사물인터넷)</b-td><b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2018</span><br>AI(인공지능)</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2019</span><br>원천기술의 혁신</b-td> <b-td class="text-center bg-blue15 fw-500" style="width:18%"><span class="fw-300">2020</span><br>미래 Home</b-td>
+                            <b-td>컨셉</b-td> <b-td class="text-center bg-blue15" style="width:18%">2016<br><span class="fw-500">복합기능</span></b-td> <b-td class="text-center bg-blue15" style="width:18%">2017<br><span class="fw-500">IoT(사물인터넷)</span></b-td><b-td class="text-center bg-blue15" style="width:18%">2018<br><span class="fw-500">AI(인공지능)</span></b-td> <b-td class="text-center bg-blue15" style="width:18%">2019<br><span class="fw-500">원천기술의 혁신</span></b-td> <b-td class="text-center bg-blue15" style="width:18%">2020<br><span class="fw-500">미래 Home</span></b-td>
                         </b-tr></b-thead>
                         <b-tbody>
                             <b-tr>
@@ -126,18 +126,42 @@
                 <h6-ancor :title="'고객 맞춤형 혁신 다각화'" :activated="activated" class="blue5 mb-3">고객 맞춤형 혁신 다각화 </h6-ancor>
                 <b-row class="mb-5">
                     <b-col class="col-12 col-sm-6">
-                        <p class="mb-3"> 코웨이는 다양한 생활환경에 맞는 맞춤형 제품을 개발하여 고객 라이프스타일을 혁신합니다. 2019년 코웨이는 공기청정기 제품군을 시작으로 맞춤형 제품을 개발하고 있습니다. 거주 공간에서의 삶의 질을 추구하는 소비자의 증가에 따라 각 주거 환경에 맞춰 사용 가능한 벽걸이 겸용 제품 (AP-1519B, AP3519A), 디자인 가구형 공기청정기(AP-1019D)를 개발하여 자신만의 공간 구축에 대한 고객의 니즈를 반영했습니다. 또한 최근 국내외 시장에서 비대면 서비스에 대한 니즈가 커지고 있다는 점에 착안해 필터교체 알림을 통해 사용자 스스로 필터 세척 및 교체를 손쉽게 할 수 있는 자가관리형 공기청정기 카트리지(AP-1019C)를 개발하였습니다.
-                        </p>
-                        <p class="mb-3">한편 말레이시아와 미주지역 중심 해외시장 경쟁력 강화 전략에 따라 시장 맞춤형 기술 개발을 추진하고 있습니다. 현지 환경에 맞는 정수기 기술 및 시스템 확보를 위해 워터맵(Water Map)을 구축하고 필터 수명 평가, 사용자 만족도 조사 등을 진행하고 있습니다. 또한, 비데 제품의 경우 사용자 상태에 맞춰 최적화된 세정을 제공하는 i-wave 수류 시스템을 개발하였습니다. 뿐만 아니라 어린이 맞춤 모드, 시각장애인용 점자 표기 등을 탑재하여 다양성 기반의 혁신적인 제품으로 해외 시장에서의 입지를 다져 나갈 계획입니다.
+                        <p class="mb-4 mb-sm-3"> 코웨이는 다양한 생활환경에 맞는 맞춤형 제품을 개발하여 고객 라이프스타일을 혁신합니다. 2019년 코웨이는 공기청정기 제품군을 시작으로 맞춤형 제품을 개발하고 있습니다. 거주 공간에서의 삶의 질을 추구하는 소비자의 증가에 따라 각 주거 환경에 맞춰 사용 가능한 벽걸이 겸용 제품 (AP-1519B, AP3519A), 디자인 가구형 공기청정기(AP-1019D)를 개발하여 자신만의 공간 구축에 대한 고객의 니즈를 반영했습니다. 또한 최근 국내외 시장에서 비대면 서비스에 대한 니즈가 커지고 있다는 점에 착안해 필터교체 알림을 통해 사용자 스스로 필터 세척 및 교체를 손쉽게 할 수 있는 자가관리형 공기청정기 카트리지(AP-1019C)를 개발하였습니다.
                         </p>
                     </b-col>
                     <b-col class="col-12 col-sm-6 line-height-low">
-                        <div class="w-100 mb-3"><hj-img src="/images/구성 요소21_1.svg" fluid class="w-100"></hj-img></div>
-                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                        <h7 class="gray63 font-noto">코웨이 고객만족도<sup>1)</sup></h7>
+                        <div class="f-80 gray6 mb-2">(단위: %)</div>
+                        <b-table-simple responsive class="num-table f-95 position-relative mb-2">
+                            <b-thead><b-tr>
+                                <b-td></b-td><b-td> 고객만족도 </b-td>
+                            </b-tr></b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-left py-1">2017</b-td> <b-td class="py-1" >76.0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left py-1">2018</b-td> <b-td class="py-1" >79.0</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left py-1">2019</b-td> <b-td class="py-1" >75.1</b-td>
+                                </b-tr> 
+                                <b-tr class="">
+                                    <b-td class="text-left py-1"><span class="fw-500"> 2020 목표</span></b-td> <b-td class="py-1"><span class="fw-500"> 80</span></b-td>
+                                </b-tr>                                
+                            </b-tbody>   
+                            <div class="position-absolute" style="z-index:-1; width:98%; height:25.7px; bottom:0.5px; left:0; background-color: #d3e9f3;">&nbsp;</div>
+
+                        </b-table-simple>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 mb-sm-4">
                             <li> NPS(순추천 지수 = 추천 고객비율 - 비추천 고객 비율)를 통해 고객만족도를 측정함
                             </li>
                             <li> 2019년도는 모바일로 조사방법을 변경함</li>
                         </ol>
+                    </b-col>
+                    <b-col class="col-12">
+                        <p class="mb-3">한편 말레이시아와 미주지역 중심 해외시장 경쟁력 강화 전략에 따라 시장 맞춤형 기술 개발을 추진하고 있습니다. 현지 환경에 맞는 정수기 기술 및 시스템 확보를 위해 워터맵(Water Map)을 구축하고 필터 수명 평가, 사용자 만족도 조사 등을 진행하고 있습니다. 또한, 비데 제품의 경우 사용자 상태에 맞춰 최적화된 세정을 제공하는 i-wave 수류 시스템을 개발하였습니다. 뿐만 아니라 어린이 맞춤 모드, 시각장애인용 점자 표기 등을 탑재하여 다양성 기반의 혁신적인 제품으로 해외 시장에서의 입지를 다져 나갈 계획입니다.
+                        </p>
                     </b-col>
                 </b-row>
                 <hr class="py-2">
@@ -160,10 +184,11 @@
                     </p>
                     <div class="d-flex justify-contents-between mb-5">
                         <div class="mr-2" style="width:18%"><b-img src="/images/36@2x.png" fluid class="w-100"></b-img></div>
-                        <div class="mr-2" style="width:17%"><b-img src="/images/39@2x.png" fluid class="w-100"></b-img></div>
+                        <div class="mr-2" style="width:18%"><b-img src="/images/39@2x.png" fluid class="w-100"></b-img></div>
                         <div class="mr-2" style="width:32%"><b-img src="/images/42@2x.png" fluid class="w-100"></b-img></div>
                         <div style="width:32%"><b-img src="/images/45@2x.png" fluid class="w-100"></b-img></div>
                     </div>
+                    <hr class="py-3">
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-4 mb-4 mb-sm-0"><b-img src="/images/48@3x.png" fluid class="w-100"></b-img></b-col>
                         <b-col class="col-12 col-sm-8"><h6-ancor :title="'모바일 서비스 강화, 안심 QR 서비스 시행'" :activated="activated" class="blue5 mb-3">모바일 서비스 강화, 안심 QR 서비스 시행</h6-ancor>
@@ -182,7 +207,10 @@
                     </p>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-6 mb-3 mb-sm-0"><b-img src="/images/27@3x.png" fluid class="w-100"></b-img> </b-col>
-                        <b-col class="col-12 col-sm-6"><b-img src="/images/30@3x.png" fluid class="w-100"></b-img> <div class="f-80 mt-2 gray6">http://water.coway.co.kr</div></b-col>
+                        <b-col class="col-12 col-sm-6">
+                            <div class="overflow-hidden"><a href="http://water.coway.co.kr"> <b-img src="/images/30@3x.png" fluid class="link-img"></b-img> </a></div>
+                            <p class="f-70 mt-2 gray6">http://water.coway.co.kr</p>
+                        </b-col>
                     </b-row>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-md-6 mb-3 mb-md-0">
@@ -196,7 +224,14 @@
                         </b-col>
                         <b-col class="col-12 col-md-6 d-flex flex-row flex-md-column align-items-center">
                             <div class="text-center d-none d-sm-block mb-md-4 px-md-5"><b-img src="/images/33@3x.png" fluid></b-img></div>
-                            <div class="text-center"><hj-img src="/images/9_1@3x.png" fluid class="w-100"></hj-img> </div>
+                            <div class="position-relative pt-md-4">
+                                <div class="position-absolute " style="margin-top: -1.75rem;">
+                                    <h7 class="mb-2">연구개발 투자 및 성과</h7>
+                                    <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:12px;" class="mr-1 bg-blue5"></div> 연구개발 비용 (단위: 백만 원)</div>
+                                    <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 매출액 대비 비용(단위: %)</div>
+                                </div>
+                                <hj-img src="/images/115_1.svg" fluid class="w-100"></hj-img> 
+                            </div>
                         </b-col>
                     </b-row>
                     <h7 class="mb-3 gray63"> 지식재산권 보유 현황 <span class="f-80 fw-300"> (단위: 건)</span></h7>
