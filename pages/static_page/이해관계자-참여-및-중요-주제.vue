@@ -124,7 +124,7 @@
                         <b-col class="col-12 col-sm-6">
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">글로벌 지속가능성 표준 및 이니셔티브</div>
                             <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
-                                <p class="parang6 fw-400 pt-2 pb-1"> 지속가능경영 보고 표준의 정보공개 요건, 글로벌 지속가능성 관련 표준 및 이니셔티브 주요 이슈 반영
+                                <p class="parang6 fw-400 pt-2 pb-1 line-height-low"> 지속가능경영 보고 표준의 정보공개 요건, 글로벌 지속가능성 관련 표준 및 이니셔티브 주요 이슈 반영
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90">
                                     <li>GRI (Global Reporting Initiative) Standards</li>
@@ -139,7 +139,7 @@
                             <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 20%;"></div>
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">미디어 및 커뮤니케이션 키워드 분석</div>
                             <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
-                                <p class="parang6 fw-400 pt-2 pb-1"> 미디어 리서치를 통한 코웨이 지속가능경영 이슈 노출도 및 긍정/부정 이슈 분석
+                                <p class="parang6 fw-400 pt-2 pb-1 line-height-low"> 미디어 리서치를 통한 코웨이 지속가능경영 이슈 노출도 및 긍정/부정 이슈 분석
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90 mb-3">
                                     <li>노출 기간: 2019.01.01~2019.12.31</li>
@@ -163,7 +163,7 @@
                         <b-col class="col-12 col-sm-6">
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">내부 연관성(Internal Relevance)</div>
                             <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
-                                <p class="parang6 fw-400 pt-2 pb-1"> 코웨이 지속가능경영 추진 전략, 정책 및 현황 분석 기반 내부 주요 이슈 도출
+                                <p class="parang6 fw-400 pt-2 pb-1 line-height-low"> 코웨이 지속가능경영 추진 전략, 정책 및 현황 분석 기반 내부 주요 이슈 도출
                                 </p>
                                 <ul class="custom-ul fw-300 f-90 mb-45">
                                     <li>전년도 지속가능경영 보고 주요 이슈 리뷰</li>
@@ -176,7 +176,7 @@
                             <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 20%;"></div>
                             <div class="py-3 px-3 parang8-box parang8 text-center fw-500">산업적 연관성(Industrial Relevance)</div>
                             <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
-                                <p class="parang6 fw-400 pt-2 pb-1"> 산업 내 동종기업 보고 이슈 및 맥락 심층 리뷰 및 글로벌 지속가능성 평가의 산업 특수 평가 지표 분석
+                                <p class="parang6 fw-400 pt-2 pb-1 line-height-low"> 산업 내 동종기업 보고 이슈 및 맥락 심층 리뷰 및 글로벌 지속가능성 평가의 산업 특수 평가 지표 분석
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90">
                                     <li>해외기업 2개사, 국내기업 3개사 보고 현황 및 이슈 심층 분석</li>
@@ -188,7 +188,7 @@
                     </b-row>
                     <div class="py-3 px-3 parang8-box parang8 text-center fw-500">영향력 분석 - 이해관계자 설문조사</div>
                     <div class="px-md-3 py-4 border-bottom-dark mb-5">
-                        <p class="parang6 fw-400 pys-1"> 각 이슈의 이해관계자에 대한 영향 수준, 중요성 및 대응 우선순위에 대한 평가를 위해 온라인 설문조사 실시
+                        <p class="parang6 fw-400 py-1 line-height-low"> 각 이슈의 이해관계자에 대한 영향 수준, 중요성 및 대응 우선순위에 대한 평가를 위해 온라인 설문조사 실시
                         </p>
                         <ul class="custom-ul line-height-low fw-300 f-90">
                             <li>대상: 7대 이해관계자(고객, 주주·투자자, 임직원, 파트너, 정부, 학계·언론, 지역사회)</li>
@@ -288,12 +288,12 @@
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
                             <div class="position-relative">
-                                <div class="fw-500 mr-2 position-absolute">
+                                <!-- <div class="fw-500 mr-2 position-absolute">
                                     <div class="line-height-low">연도별 검증 <br>진행 현황 </div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
                                     <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
                                     <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div>
                                 </div>
-                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img>
+                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img> -->
                             </div>
                         </b-col>
                     </b-row>      

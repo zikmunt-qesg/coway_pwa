@@ -14,7 +14,7 @@
                 :main_title="'깨끗한 물과 공기를 위한 환경경영'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#216a5a'"
+                :active_color="'#92bc49'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
