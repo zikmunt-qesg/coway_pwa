@@ -1,3 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
-  <path id="패스_8721" data-name="패스 8721" d="M15.328-304.475h9.717v-9.717H15.328Z" transform="translate(-15.187 314.333)" fill="none" stroke="#c6da97" stroke-width="0.283"/>
+<svg id="구성_요소_86_1" data-name="구성 요소 86 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9.716" height="9.717" viewBox="0 0 9.716 9.717">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="패스_8720" data-name="패스 8720" d="M15.328-304.474h9.716v-9.717H15.328Z" fill="none" stroke="#707070" stroke-width="0.283"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_8351" data-name="그룹 8351" transform="translate(-15.328 314.191)" clip-path="url(#clip-path)">
+    <g id="그룹_8323" data-name="그룹 8323" transform="translate(95.868 -415.083)">
+      <path id="패스_8692" data-name="패스 8692" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8324" data-name="그룹 8324" transform="translate(95.868 -398.91)">
+      <path id="패스_8693" data-name="패스 8693" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8325" data-name="그룹 8325" transform="translate(95.868 -382.737)">
+      <path id="패스_8694" data-name="패스 8694" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8326" data-name="그룹 8326" transform="translate(95.868 -406.996)">
+      <path id="패스_8695" data-name="패스 8695" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8327" data-name="그룹 8327" transform="translate(95.868 -366.563)">
+      <path id="패스_8696" data-name="패스 8696" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8328" data-name="그룹 8328" transform="translate(95.868 -390.823)">
+      <path id="패스_8697" data-name="패스 8697" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8329" data-name="그룹 8329" transform="translate(95.868 -350.39)">
+      <path id="패스_8698" data-name="패스 8698" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8330" data-name="그룹 8330" transform="translate(95.868 -374.65)">
+      <path id="패스_8699" data-name="패스 8699" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8331" data-name="그룹 8331" transform="translate(95.868 -334.216)">
+      <path id="패스_8700" data-name="패스 8700" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8332" data-name="그룹 8332" transform="translate(95.868 -358.476)">
+      <path id="패스_8701" data-name="패스 8701" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8333" data-name="그룹 8333" transform="translate(95.868 -318.043)">
+      <path id="패스_8702" data-name="패스 8702" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8334" data-name="그룹 8334" transform="translate(95.868 -342.303)">
+      <path id="패스_8703" data-name="패스 8703" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8335" data-name="그룹 8335" transform="translate(95.868 -326.13)">
+      <path id="패스_8704" data-name="패스 8704" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8336" data-name="그룹 8336" transform="translate(95.868 -309.956)">
+      <path id="패스_8705" data-name="패스 8705" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8337" data-name="그룹 8337" transform="translate(95.868 -411.04)">
+      <path id="패스_8706" data-name="패스 8706" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8338" data-name="그룹 8338" transform="translate(95.868 -394.866)">
+      <path id="패스_8707" data-name="패스 8707" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8339" data-name="그룹 8339" transform="translate(95.868 -378.693)">
+      <path id="패스_8708" data-name="패스 8708" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8340" data-name="그룹 8340" transform="translate(95.868 -402.953)">
+      <path id="패스_8709" data-name="패스 8709" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8341" data-name="그룹 8341" transform="translate(95.868 -362.52)">
+      <path id="패스_8710" data-name="패스 8710" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8342" data-name="그룹 8342" transform="translate(95.868 -386.78)">
+      <path id="패스_8711" data-name="패스 8711" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8343" data-name="그룹 8343" transform="translate(95.868 -346.346)">
+      <path id="패스_8712" data-name="패스 8712" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8344" data-name="그룹 8344" transform="translate(95.868 -370.606)">
+      <path id="패스_8713" data-name="패스 8713" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8345" data-name="그룹 8345" transform="translate(95.868 -330.173)">
+      <path id="패스_8714" data-name="패스 8714" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8346" data-name="그룹 8346" transform="translate(95.868 -354.433)">
+      <path id="패스_8715" data-name="패스 8715" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8347" data-name="그룹 8347" transform="translate(95.868 -314)">
+      <path id="패스_8716" data-name="패스 8716" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8348" data-name="그룹 8348" transform="translate(95.868 -338.26)">
+      <path id="패스_8717" data-name="패스 8717" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8349" data-name="그룹 8349" transform="translate(95.868 -322.086)">
+      <path id="패스_8718" data-name="패스 8718" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+    <g id="그룹_8350" data-name="그룹 8350" transform="translate(95.868 -305.913)">
+      <path id="패스_8719" data-name="패스 8719" d="M0,0-151.363,102.33" fill="none" stroke="#206a5a" stroke-width="1"/>
+    </g>
+  </g>
 </svg>
