@@ -124,7 +124,7 @@ export default {
             }
             setTimeout(() => {
               resolve(findEl(hash, ++x || 1))
-            }, 100)
+            }, 1000)
           })
       }
 
