@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg-m1 min-vh-100">  
     <logger title="제품과 서비스의 혁신"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:90.6%; top:1050px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:90.6%; top:1050px; z-index:0;"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -151,7 +151,7 @@
                                     <b-td class="text-left py-1"><span class="fw-500"> 2020 목표</span></b-td> <b-td class="py-1"><span class="fw-500"> 80</span></b-td>
                                 </b-tr>                                
                             </b-tbody>   
-                            <div class="position-absolute" style="z-index:-1; width:98%; height:25.7px; bottom:0.5px; left:0; background-color: #d3e9f3;">&nbsp;</div>
+                            <div class="position-absolute" style="z-index:3; width:98%; height:25.7px; bottom:0.5px; left:0; background-color: #d3e9f3;">&nbsp;</div>
 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 mb-sm-4">

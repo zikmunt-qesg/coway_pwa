@@ -3,7 +3,7 @@
     <logger title="경제적 가치 창출과 분배"></logger>
 
     <!-- <b-img src="/images/500.png" fluid class="page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:600px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:95%; top:600px; z-index:0"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
