@@ -11,7 +11,7 @@
             <transition name="slide-fade" mode="out-in">  
                 <div id="external-btns" v-if="is_opened==true" class="">             
                     <div class="d-flex flex-column justify-content-center">
-                        <a href="http://www.coway.co.kr/" target="_blank" class="py-2 text-center"><b-img src="/images/109_1.svg" class="external-link-btn pb-1 px-1" ></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="py-2 text-center"><b-img src="/images/109_1.svg" class="external-link-btn pb-1" ></b-img> </a>
                         <div class="short-divide-line"></div>
                         <a href="http://www.coway.co.kr/" target="_blank" class="py-2 text-center"><b-img src="/images/110_1.svg" class="external-link-btn py-1"></b-img> </a>
                         <div class="short-divide-line"></div>
@@ -108,9 +108,9 @@ export default {
 <style lang="scss">
 .short-divide-line{
     border-bottom: 1px solid #808083;
-    width: 38px;
+    width: 39px;
     height: 1px;
-    margin-left: 10px;
+    margin-left: 9px;
 }
 
 .slide-fade-enter-active {
@@ -137,6 +137,7 @@ export default {
   opacity: 0;
 }
 .external-link-btn, .go-to-top{
+    margin-left: -2px;
     transition: all ease-out .3s;
 }
 .external-link-btn:hover{

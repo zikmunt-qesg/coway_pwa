@@ -3,20 +3,31 @@
     <!-- <b-row no-gutters class="bg-blue3 mb-5">
         <b-col class="py-3 text-center text-white"><h2>Coway Sustainability News</h2></b-col>
     </b-row> -->
-    <b-container>
-        <div class="mb-3">
-            <h7> {{ title }}</h7>
-        </div>
-        <div class="mb-3">
-            {{ date }}
-        </div>
-        <div class="mb-3">
-            <b-img v-if="picture_file != null && picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
-        </div>
-        <div class="mb-3">
-          <div v-html="$md.render(contents)"></div>
-        </div>
-        <hr class='mb-5 space-p75'> 
+    <b-row no-gutters class="py-5">
+        <b-col class="py-3 text-center"><h2 class="fw-400">COWAY SUSTAINABILITY NEWS</h2></b-col>
+    </b-row>
+    <b-container class="">
+        <b-row>
+            <b-col class="col-0 col-lg-1"></b-col>
+            <b-col class="col-12 col-lg-10 px-md-4 px-lg-5">
+                <section class="bg-white px-3 px-md-4 px-lg-5">
+                    <div class="mb-3">
+                        <h7> {{ title }}</h7>
+                    </div>
+                    <div class="mb-3">
+                        {{ date }}
+                    </div>
+                    <div class="mb-3">
+                        <b-img v-if="picture_file != null && picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
+                    </div>
+                    <div class="mb-3">
+                    <div v-html="$md.render(contents)"></div>
+                    </div>
+                    <hr class='mb-5 space-p75'> 
+                </section>
+            </b-col>
+            <b-col class="col-0 col-lg-1"></b-col>
+        </b-row>        
     </b-container>
 </div>
 </template>
