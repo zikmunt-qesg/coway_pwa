@@ -83,7 +83,7 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'친환경 제품 개발과 제품 생애주기 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">친환경 제품 개발과 제품 생애주기 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'친환경 제품과 서비스, 비즈니스 설계'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">친환경 제품과 서비스, 비즈니스 설계</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> 코웨이는 친환경적 제품과 서비스, 비즈니스를 설계합니다. 제품개발 프로세스, 청정생산, 렌탈 서비스, 회수 및 재활용 절차에 이르는 전 과정에서 화학물질 안전성 확보, 에너지 고효율 달성 및 탄소배출 저감, 생활환경 개선, 자원사용 저감 및 재활용성 증가에 이르기까지 전 과정에서 부정적 영향을 감소시키고 긍정적 영향은 확대하기 위한 위한 다양한 활동을 전개하고 있습니다.
                     </p>
                     <hj-img src="/images/72_1.svg" fluid class="w-100"></hj-img>

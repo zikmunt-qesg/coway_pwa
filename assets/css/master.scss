@@ -33,6 +33,16 @@
 //     top: 0;
 // }
 
+.page-top-bg-env{
+    background-image: url( "/images/environment.jpg" );
+}
+.page-top-bg-sus{
+    background-image: url( "/images/sustainability.jpg" );
+    background-position: 25%;
+}
+.page-top-bg-so{
+    background-image: url( "/images/environment.jpg" );
+}
 
 .page-top-bg-m1{
     background-image: url( "/images/material_topics_1.png" );
@@ -43,11 +53,12 @@
 .page-top-bg-m3 {
     background-image: url( "/images/material_topics_3.png" );
 }
-.page-top-bg-m1, .page-top-bg-m2, .page-top-bg-m3 {
+.page-top-bg-m1, .page-top-bg-m2, .page-top-bg-m3,
+.page-top-bg-env, .page-top-bg-sus, .page-top-bg-so
+ {
     background-attachment:  fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    // position: absolute;
     z-index: -2;
     top: 0;
 }

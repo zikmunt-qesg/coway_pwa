@@ -5,14 +5,14 @@
             <b-navbar-brand class="my-3">
                 <nuxt-link to="/">
                     <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /> 
-                    <span class="f-90 align-self-center d-none d-md-inline"> Sustainability 2020</span>
+                    <span class="f-85 font-noto align-self-center d-none d-md-inline"> Sustainability 2020</span>
                 </nuxt-link>
             </b-navbar-brand>   
 
             <div class="d-lg-flex flex-lg-row-reverse justify-content-start jump-width" >
                 <div class="d-flex justify-content-end align-items-center jump-up">                
-                    <b-nav-item class="mr-1 mr-sm-2 pl-lg-2 pt-1 pb-1 f-90" style="list-style: none"> ENG </b-nav-item>
-                    <b-nav-item class="mr-1 mr-sm-2 pl-lg-1" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
+                    <b-nav-item class="pl-lg-2 pt-1 pb-1 f-85" style="list-style: none"> ENG </b-nav-item>
+                    <b-nav-item class="pl-lg-1" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
                     <b-nav-item class="d-none d-lg-block pl-lg-1" @click.stop="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2"></b-navbar-toggle>

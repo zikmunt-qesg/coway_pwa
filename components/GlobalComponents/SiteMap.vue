@@ -2,8 +2,9 @@
 <div class="position-relative">
     <b-container>
         <b-row class="py-4 font-noto d-flex flex-column flex-sm-row">
-            <b-col class="col-4 col-lg-1 f-85 gray5 cursor hover-underline pl-xl-0 pr-0 mb-3 mb-sm-0" @click.stop="$router.push('/')" style="height:50px;"> Coway Sustainability 2020</b-col>
-            <b-col class="col-4 col-lg-2" v-for="item in menu" :key="item.id">
+            <!-- <b-col class="col-0 col-lg-1"></b-col> -->
+            <!-- <b-col class="col-4 col-lg-1 f-80 gray5 cursor hover-underline px-xl-4 mb-3 mb-sm-0" @click.stop="$router.push('/')" style="height:50px;"> </b-col> -->
+            <b-col class="" v-for="item in menu" :key="item.id">
                 <div class="f-85 mb-3" @click.stop="toggleSiteMap">
                     <nuxt-link :to="`${item.link}`">{{ item.title }}</nuxt-link>
                 </div>
@@ -14,7 +15,8 @@
                     </div>
                 </div>
             </b-col>
-            <b-col class="col-0 col-lg-1" style="margin-top:-1.6rem;"><a href="#" @click.stop="toggleSiteMap" class="close-btn f-280 fw-300"></a></b-col>
+            <div style="margin-top:-1.75rem; margin-right: 1.25rem;"><a href="#" @click.stop="toggleSiteMap" class="close-btn f-280 fw-300"></a></div>
+            <!-- <b-col class="col-3 col-lg-1" style="margin-top:-1.6rem;"><a href="#" @click.stop="toggleSiteMap" class="close-btn f-280 fw-300"></a></b-col> -->
         </b-row>
     </b-container>
     <!-- <a href="#" @click.stop="toggleSiteMap" class="close-btn py-0 f-280 fw-300 position-absolute" style="top:0; right:1em"></a> -->

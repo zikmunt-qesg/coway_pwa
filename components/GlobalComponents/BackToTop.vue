@@ -40,7 +40,7 @@ export default {
     computed: {
         isVisible: {
             get(){
-                if(this.position.y <= 700 || this.position.y >= this.get_height-1400) return false
+                if(this.position.y <= 400 || this.position.y >= this.get_height-1400) return false
                 else return true
             }
         },
