@@ -1,11 +1,11 @@
-<svg id="구성_요소_37_1" data-name="구성 요소 37 – 1" xmlns="http://www.w3.org/2000/svg" width="796" height="467" viewBox="0 0 796 467">
+<svg id="구성_요소_82_1" data-name="구성 요소 82 – 1" xmlns="http://www.w3.org/2000/svg" width="796" height="467" viewBox="0 0 796 467">
   <defs>
     <style>
       .cls-1 {
         fill: #f5f7f7;
       }
 
-      .cls-10, .cls-16, .cls-17, .cls-2, .cls-7, .cls-8, .cls-9 {
+      .cls-10, .cls-2, .cls-7, .cls-8, .cls-9 {
         fill: none;
       }
 
@@ -33,7 +33,7 @@
         font-size: 15px;
       }
 
-      .cls-11, .cls-13, .cls-14, .cls-5 {
+      .cls-11, .cls-13, .cls-5 {
         font-family: NotoSansKR-Medium, Noto Sans KR;
         font-weight: 500;
       }
@@ -42,7 +42,7 @@
         letter-spacing: -0.019em;
       }
 
-      .cls-10, .cls-17, .cls-7 {
+      .cls-10, .cls-7 {
         stroke: #3e3a39;
       }
 
@@ -51,7 +51,7 @@
         stroke-width: 0.283px;
       }
 
-      .cls-16, .cls-9 {
+      .cls-9 {
         stroke: #78a5e2;
       }
 
@@ -69,19 +69,6 @@
 
       .cls-12 {
         letter-spacing: -0.02em;
-      }
-
-      .cls-14 {
-        fill: #4d4d4d;
-        font-size: 16px;
-      }
-
-      .cls-15 {
-        letter-spacing: -0.119em;
-      }
-
-      .cls-16, .cls-17 {
-        stroke-width: 2px;
       }
     </style>
   </defs>
@@ -129,9 +116,4 @@
   <path id="패스_37" data-name="패스 37" class="cls-10" d="M12686.011,1399.424h76.348l76.007-5.23,75.873-5.282,75.738-5.16,75.873-5.281,76.141,7.8,75.6-13.231,75.873-6.269,76.347,7.8" transform="translate(-12629.92 -1004.732)"/>
   <text id="_30_189" data-name="30,189" class="cls-11" transform="translate(675.205 106.32)"><tspan class="cls-6" x="0" y="0">30</tspan><tspan class="cls-12" y="0">,</tspan><tspan class="cls-6" y="0">18</tspan><tspan y="0">9</tspan></text>
   <text id="_4_583" data-name="4,583" class="cls-13" transform="translate(683.773 314.22)"><tspan class="cls-6" x="0" y="0">4</tspan><tspan class="cls-12" y="0">,</tspan><tspan class="cls-6" y="0">58</tspan><tspan y="0">3</tspan></text>
-  <text id="코웨이_매출_및_영업이익_추이_2010-2019_" data-name="코웨이 매출 및 영업이익 추이(2010-2019) " class="cls-14" transform="translate(20 34.082)"><tspan class="cls-12" x="0" y="0">코웨이</tspan><tspan class="cls-15" y="0"> </tspan><tspan class="cls-12" y="0">매출</tspan><tspan class="cls-15" y="0"> </tspan><tspan class="cls-12" y="0">및</tspan><tspan class="cls-15" y="0"> </tspan><tspan class="cls-12" y="0">영업이익</tspan><tspan class="cls-15" y="0"> </tspan><tspan class="cls-12" y="0">추이</tspan><tspan class="cls-6" y="0">(2010-2019</tspan><tspan y="0">) </tspan></text>
-  <text id="영업이익" class="cls-3" transform="translate(40.796 89.794)"><tspan class="cls-4" x="0" y="0">영업이</tspan><tspan y="0">익</tspan></text>
-  <text id="매출액" class="cls-3" transform="translate(40.796 66.4)"><tspan class="cls-4" x="0" y="0">매출</tspan><tspan y="0">액</tspan></text>
-  <line id="선_70" data-name="선 70" class="cls-16" x2="15.65" transform="translate(20 59.852)"/>
-  <line id="선_71" data-name="선 71" class="cls-17" x2="15.65" transform="translate(20 83.634)"/>
 </svg>

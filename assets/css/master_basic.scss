@@ -634,16 +634,7 @@ table, .table {
     background-color:  $parang7;
     color: white;
 }
-.btn-parang-text {
-    background-color: rgba(0,0,0,0);
-    color: $parang6;
-    text-decoration: underline;
-    text-underline-position: under;
-}
-.btn-parang-text:hover {
-    background-color:  rgba(0,0,0,0);
-    color: $parang7;
-}
+
 .btn-blue {
     background-color: $blue5;
     color: $gray1;
@@ -756,7 +747,9 @@ table, .table {
 .border-bottom-dotted {
     border-bottom: 1px dashed $gray4;
 }
-
+.border-left-dotted{
+    border-left: 1.3px dotted $gray3 ;
+}
 .border-bottom-blue7 {
     border-bottom: 1px solid $blue7;
 }
@@ -771,6 +764,20 @@ table, .table {
 }
 
 
+
+
+.parang-text {
+    background-color: rgba(0,0,0,0);
+    color: $parang6;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.parang-text:hover {
+    background-color:  rgba(0,0,0,0);
+    color: $parang7;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 
 /*card*/
 .card-body, .card-text, .card-title, .card-subtitle {

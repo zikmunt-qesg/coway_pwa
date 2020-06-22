@@ -4,9 +4,6 @@
       .cls-1 {
         fill: #656464;
         font-size: 12px;
-      }
-
-      .cls-1, .cls-19 {
         font-family: NotoSansKR-Light, Noto Sans KR;
         font-weight: 300;
       }
@@ -36,9 +33,6 @@
 
       .cls-7 {
         font-size: 17px;
-      }
-
-      .cls-18, .cls-7 {
         font-family: NotoSansKR-Medium, Noto Sans KR;
         font-weight: 500;
       }
@@ -65,7 +59,7 @@
         letter-spacing: -0.03em;
       }
 
-      .cls-12, .cls-18 {
+      .cls-12 {
         fill: #5171b1;
       }
 
@@ -84,17 +78,9 @@
       .cls-17 {
         fill: #fff;
       }
-
-      .cls-18 {
-        font-size: 18px;
-      }
-
-      .cls-19 {
-        font-size: 14px;
-      }
     </style>
   </defs>
-  <g id="구성_요소_39_1" data-name="구성 요소 39 – 1" transform="translate(0.158)">
+  <g id="구성_요소_85_1" data-name="구성 요소 85 – 1" transform="translate(0.158)">
     <text id="_2019_기준" data-name="* 2019 기준" class="cls-1" transform="translate(737.486 245.23)"><tspan class="cls-2" x="0" y="0">*</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-2" y="0">2019</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-2" y="0">기</tspan><tspan y="0">준</tspan></text>
     <line id="선_90" data-name="선 90" class="cls-4" x2="336.365" transform="translate(457.482 39.088)"/>
     <path id="패스_41" data-name="패스 41" class="cls-5" d="M13425.42,2216.943h0m-340.85,0h0" transform="translate(-12630.078 -2177.855)"/>
@@ -121,9 +107,5 @@
       <path id="패스_50" data-name="패스 50" class="cls-17" d="M13027.92,2415.514a103.881,103.881,0,1,0-103.881-103.881,103.88,103.88,0,0,0,103.881,103.881"/>
       <path id="패스_51" data-name="패스 51" class="cls-17" d="M13029.5,2339.694c12.442,0,22.527-9.151,22.527-20.439s-10.085-20.437-22.527-20.437-22.527,9.15-22.527,20.437,10.086,20.439,22.527,20.439"/>
     </g>
-    <text id="제품별_" data-name="제품별 " class="cls-18" transform="translate(373.362 112.958)"><tspan class="cls-8" x="0" y="0">제품</tspan><tspan y="0">별 </tspan></text>
-    <text id="_4" data-name=" " class="cls-18" transform="translate(426.642 112.958)"><tspan x="0" y="0"> </tspan></text>
-    <text id="수출비중" class="cls-18" transform="translate(365.262 141.956)"><tspan class="cls-8" x="0" y="0">수출비</tspan><tspan y="0">중</tspan></text>
-    <text id="_단위_" data-name="(단위 %)" class="cls-19" transform="translate(372.852 173.958)"><tspan class="cls-3" x="0" y="0">(</tspan><tspan class="cls-2" y="0">단</tspan><tspan class="cls-3" y="0">위 </tspan><tspan class="cls-2" y="0">%</tspan><tspan y="0">)</tspan></text>
   </g>
 </svg>

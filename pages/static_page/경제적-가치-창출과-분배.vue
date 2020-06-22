@@ -32,19 +32,38 @@
                     <p class="font-noto mb-5">고객 해약률 또한 1.01%로 장기적 감소추세에 있으며, 렌탈 자산폐기 또한 매출대비 2.5%로 손실을 최소화하고 있습니다. 
                     </p>
                     <hr class="py-1">
-                    <hj-img src="/images/89_1.svg" fluid alt="코웨이 매출 및 영업이익 추이(2010-2019)"></hj-img>
+                    <div class="position-relative"> <hj-img src="/images/89_1.svg" fluid alt="코웨이 매출 및 영업이익 추이(2010-2019)"></hj-img>
+                    <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
+                        <h7 class="mb-2 font-noto">코웨이 매출 및 영업이익 추이(2010-2019) </h7>
+                        <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> 매출액 (단위: 억원)</div>
+                        <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 영업이익 (단위: 억원)</div>
+                    </div></div>
                     <hr class="mb-3">
-                    <hj-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></hj-img>
+                    <div class="position-relative"> <hj-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></hj-img>
+                    <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
+                        <h7 class="mb-2 font-noto">렌탈 계정현황 </h7>
+                        <div class="fw-300 f-80 d-flex align-items-center mb-1"> (단위: 계정 수)</div>
+                    </div></div>
                     <hr class="mb-3">
 
                     <h6-ancor :title="'해외 사업의 꾸준한 확대'" :activated="activated" class="parang6 fw-500 mb-2">해외 사업의 꾸준한 확대</h6-ancor>
                     <p class="mb-45">2019년 해외사업 매출은 7,491억 원으로 전년대비 37.7% 성장하였습니다. 말레이시아 및 미국법인의 매출이 큰 폭으로 증가하며 해외법인은 고성장을 지속하고 있습니다. 주요 법인별로는 말레이시아 법인의 매출이 전년 3,534억 원 대비 48.9% 증가하여 5,263억 원을 달성하였으며, 관리계정은 2018년 97만 6,000계정에서 135만 4,000 계정으로 38.8% 증가하였습니다. 미국 또한 전년 805억 원 대비 20.9% 성장한 973억 원의 매출, 11만 4,000계정에서 4.7% 증가한 12만 계정을 달성하며 견조한 성장세를 유지하고 있습니다. 
                     </p>
 
-                    <hj-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></hj-img>
+                    <div class="position-relative"> <hj-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></hj-img>
+                    <div class="position-absolute text-center w-100 h-100" style="top:36%; left:0; width: 70px;">
+                        <h7 class="mb-2 font-noto parang7">제품별<br>수출비중 </h7>
+                        <div class="fw-300 f-80 mb-1"> (단위: %)</div>
+                    </div></div>
+
                     <hr class="mb-3">
 
-                    <hj-img src="/images/92_1.svg" fluid alt="해외법인 관리계정"></hj-img>
+                    <div class="position-relative"> <hj-img src="/images/92_1.svg" fluid alt="해외법인 관리계정"></hj-img>
+                    <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
+                        <h7 class="mb-2 font-noto">해외법인 관리계정 </h7>
+                        <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> 말레이시아</div>
+                        <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 미국</div>
+                    </div></div>
                     <hr class="mb-3">
 
                     <h6-ancor :title="'넷마블 인수에 따른 구독경제 시너지 확대'" :activated="activated" class="parang6 fw-500 mb-2">넷마블 인수에 따른 구독경제 시너지 확대</h6-ancor>
@@ -55,7 +74,13 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'경제적 가치 분배'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 분배</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 2019년 연결기준 3조 189억 원의 매출액과 기타수익 및 금융수익을 합해 총 3조 683억 원의 경제적 가치를 창출하였습니다. 창출된 가치 중 3조 7억 원을 기업의 미래가치와 투자 효율성을 고려하여 이해관계자들에게 합리적으로 배분하였으며, 모든 배분을 마치고 유보된 총 675억 원의 경제적 가치를 자본 총계로 가산하였습니다. 
                     </p>
-                    <hj-img src="/images/93_1.svg" fluid alt="해외법인 관리계정"></hj-img>
+                    <hj-img src="/images/93_1.svg" fluid ></hj-img>
+                    <p class="f-80 gray5 mb-0">협력회사: 상품 및 원재료의 사용(재료비), 외주용역, 소모품, 지급수수료, 감가상각비, 광고선전비 등 </p>
+                    <p class="f-80 gray5 mb-0">파트너: 판촉비, 판매수수료</p>
+                    <p class="f-80 gray5 mb-0">주주 및 투자자: 연차배당 및 중간배당</p>
+                    <p class="f-80 gray5 mb-0">임직원: 급여 및 상여, 퇴직급여, 복리후생비</p>
+                    <p class="f-80 gray5 mb-0">정부: 법인세 비용</p>
+                    <p class="f-80 gray5 mb-0">기타: 기타포괄손익 등</p>
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'조세 정책'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">조세 정책</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>

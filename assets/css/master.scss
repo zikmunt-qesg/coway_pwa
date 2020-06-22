@@ -273,7 +273,8 @@
 .sep-table > table {
     border-collapse: separate;
     border-spacing: 10px 0;
-    margin-left: -5px;
+    margin-left: -8px;
+    // width: 101%;
 }
 
 // .sep-table-body > table > tbody > tr > td{

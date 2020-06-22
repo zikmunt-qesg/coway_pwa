@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="796.864" height="438.559" viewBox="0 0 796.864 438.559">
+<svg xmlns="http://www.w3.org/2000/svg" width="796.864" height="346.189" viewBox="0 0 796.864 346.189">
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
@@ -44,12 +44,12 @@
         letter-spacing: -0.02em;
       }
 
-      .cls-22, .cls-25, .cls-9 {
+      .cls-9 {
         font-family: NotoSansKR-Medium, Noto Sans KR;
         font-weight: 500;
       }
 
-      .cls-10, .cls-20, .cls-25 {
+      .cls-10, .cls-20 {
         fill: #132e54;
       }
 
@@ -64,9 +64,6 @@
 
       .cls-12 {
         font-size: 13px;
-      }
-
-      .cls-12, .cls-23, .cls-26 {
         font-family: NotoSansKR-Light, Noto Sans KR;
         font-weight: 300;
       }
@@ -91,7 +88,7 @@
         fill: #d0eaf6;
       }
 
-      .cls-18, .cls-22 {
+      .cls-18 {
         fill: #5171b1;
       }
 
@@ -102,30 +99,9 @@
       .cls-21 {
         fill: #fff;
       }
-
-      .cls-22 {
-        font-size: 18px;
-      }
-
-      .cls-23 {
-        font-size: 14px;
-      }
-
-      .cls-24 {
-        letter-spacing: -0.015em;
-      }
-
-      .cls-25 {
-        font-size: 20px;
-      }
-
-      .cls-26 {
-        fill: #656464;
-        font-size: 12px;
-      }
     </style>
   </defs>
-  <g id="구성_요소_41_1" data-name="구성 요소 41 – 1" transform="translate(0 0.021)">
+  <g id="구성_요소_86_1" data-name="구성 요소 86 – 1" transform="translate(0 0.021)">
     <line id="선_93" data-name="선 93" class="cls-1" y1="46.289" x2="43.728" transform="translate(487.034 1.555)"/>
     <line id="선_94" data-name="선 94" class="cls-2" x2="259.226" transform="translate(534.775 0.479)"/>
     <path id="패스_52" data-name="패스 52" class="cls-3" d="M13425.42,3448.912h0m-263.722,0h0m-46.778,49.518h0" transform="translate(-12629.92 -3448.433)"/>
@@ -173,15 +149,5 @@
       <path id="패스_63" data-name="패스 63" class="cls-20" d="M13028.121,3582.139l88.433-100.167a133.219,133.219,0,0,0-188.323,11.6c-35.36,40.052-43.729,92.9-22.473,141.917Z"/>
       <path id="패스_64" data-name="패스 64" class="cls-21" d="M13027.92,3686.07a103.881,103.881,0,1,0-103.881-103.881,103.879,103.879,0,0,0,103.881,103.881"/>
     </g>
-    <text id="경제적_가치_분배" data-name="경제적 가치 분배" class="cls-22" transform="translate(336.44 114.958)"><tspan class="cls-8" x="0" y="0">경제적 가치 분</tspan><tspan y="0">배</tspan></text>
-    <text id="_단위:_천원_" data-name="(단위: %, 천원)" class="cls-23" transform="translate(396.862 146.958)"><tspan class="cls-24" x="-42.028" y="0">(</tspan><tspan class="cls-11" y="0">단</tspan><tspan class="cls-24" y="0">위</tspan><tspan class="cls-11" y="0">:</tspan><tspan class="cls-24" y="0" xml:space="preserve"> %, 천</tspan><tspan class="cls-11" y="0">원</tspan><tspan y="0">)</tspan></text>
-    <text id="_3조_7억_원" data-name="3조 7억 원" class="cls-25" transform="translate(354.581 182.244)"><tspan class="cls-13" x="0" y="0">3조</tspan><tspan class="cls-8" y="0"> </tspan><tspan class="cls-13" y="0">7</tspan><tspan class="cls-8" y="0">억 </tspan><tspan y="0">원</tspan></text>
-    <text id="협력회사:_상품_및_원재료의_사용_재료비_외주용역_소모품_지급수수료_감가상각비_광고선전비_등_" data-name="협력회사: 상품 및 원재료의 사용(재료비), 외주용역, 소모품, 지급수수료, 감가상각비, 광고선전비 등 " class="cls-26" transform="translate(0 354.557)"><tspan class="cls-11" x="0" y="0">협력회사: 상품 및 원재료의 사용(재료비), 외주용역, 소모품, 지급수수</tspan><tspan class="cls-24" y="0">료</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-24" y="0">감</tspan><tspan class="cls-11" y="0">가</tspan><tspan class="cls-24" y="0">상</tspan><tspan class="cls-11" y="0">각</tspan><tspan class="cls-24" y="0">비</tspan><tspan class="cls-11" y="0">, </tspan><tspan class="cls-24" y="0">광</tspan><tspan class="cls-11" y="0">고</tspan><tspan class="cls-24" y="0">선</tspan><tspan class="cls-11" y="0">전</tspan><tspan class="cls-24" y="0">비</tspan><tspan class="cls-11" y="0"> </tspan><tspan y="0">등 </tspan></text>
-    <text id="_7" data-name="	" class="cls-26" transform="translate(49.452 354.557)"><tspan x="0" y="0">	</tspan></text>
-    <text id="파트너:_판촉비_판매수수료" data-name="파트너: 판촉비, 판매수수료" class="cls-26" transform="translate(0 370.553)"><tspan class="cls-11" x="0" y="0">파트너: 판촉비, 판매수수</tspan><tspan y="0">료</tspan></text>
-    <text id="주주_및_투자자:_연차배당_및_중간배당" data-name="주주 및 투자자: 연차배당 및 중간배당" class="cls-26" transform="translate(0 386.549)"><tspan class="cls-11" x="0" y="0">주주 및 투자자: 연차배당 및 중간배</tspan><tspan y="0">당</tspan></text>
-    <text id="임직원:_급여_및_상여_퇴직급여_복리후생비" data-name="임직원: 급여 및 상여, 퇴직급여, 복리후생비" class="cls-26" transform="translate(0 402.545)"><tspan class="cls-11" x="0" y="0">임직원: 급여 및 상여, 퇴직급여, 복리후생</tspan><tspan y="0">비</tspan></text>
-    <text id="정부:_법인세_비용" data-name="정부: 법인세 비용" class="cls-26" transform="translate(0 418.542)"><tspan class="cls-11" x="0" y="0">정부: 법인세 비</tspan><tspan y="0">용</tspan></text>
-    <text id="기타:_기타포괄손익_등" data-name="기타: 기타포괄손익 등" class="cls-26" transform="translate(0 434.538)"><tspan class="cls-11" x="0" y="0">기타: 기타포괄손익 </tspan><tspan y="0">등</tspan></text>
   </g>
 </svg>

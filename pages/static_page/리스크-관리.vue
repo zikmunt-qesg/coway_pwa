@@ -31,20 +31,61 @@
 
                     <h7 class="mb-3 gray63">전사 리스크 대응 프로세스</h7>
                     <hj-img src="/images/69_2.svg" fluid></hj-img>
-                    <hr class="mb-3">
-                    <hj-img src="/images/73_1.svg" fluid></hj-img>
-                    <hr class="mb-45">
+                    <hr class="mb-5">
+
+
+                    <b-row no-gutters class="bg-blue-gray1 mb-5 py-4 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
+                        <b-col class="position-relative pt-2">
+                            <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3 " style="width: 48px;"><b-img src="/images/120_1.svg" fluid></b-img></div></div>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">리스크 인지 및 보고</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>각 부서에서 실시간 정보 수집, 위기평가 회의 준비</li></ul></p>
+                        </b-col> 
+                        <b-col class="position-relative pt-2">
+                            <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_2.svg" fluid></b-img></div></div>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">영향도 분석 및 대응 체계 수립</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
+                                <ul class="custom-ul"><li>리스크 정보 분석 및 영향 수준 평가, 위기경보 발령</li>
+                                <li>대응방향 및 주요 지침 결정, 대응방안 수립</li></ul>
+                            </p>
+                        </b-col> 
+                        <b-col class="position-relative pt-2">
+                            <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_3.svg" fluid></b-img></div></div>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">경영진 보고</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
+                                <ul class="custom-ul"><li>리스크 현안 보고 및 핵심 의사결정</li>
+                                <li>상호 협력 기반 리스크 대응 활동 수행</li></ul></p>
+                        </b-col> 
+                        <b-col class="position-relative pt-2">
+                            <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_4.svg" fluid></b-img></div></div>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">대응 활동 추진</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>상호 협력 기반 리스크 대응 활동 수행</li></ul></p>
+                        </b-col> 
+                        <b-col class="position-relative pt-2">
+                            <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_5.svg" fluid></b-img></div></div>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">리스크 대응 현황 모니터링</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>리스크 모니터링 및 감사</li></ul></p>
+                        </b-col> 
+                    </b-row>
+
+                    <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'잠재 리스크의 관리'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p>코웨이는 경영환경에서 중장기적으로 상당한 영향 요소가 있는 리스크를 분석하고 새롭게 부각되는 리스크를 인지하여 전략적 대응을 추진합니다. 정기적 리스크 모니터링을 기반으로 잠재 리스크를 선제적으로 파악하고 지속가능한 경영환경을 조성하여 새로운 기회를 창출해 나가고 있습니다. 2019년 코웨이의 핵심 잠재 리스크는 1) 정보보호 위협의 증가와 2) 온라인 가전 서비스 시장의 성장으로 도출됩니다. 
+                    <p class="mb-4">코웨이는 경영환경에서 중장기적으로 상당한 영향 요소가 있는 리스크를 분석하고 새롭게 부각되는 리스크를 인지하여 전략적 대응을 추진합니다. 정기적 리스크 모니터링을 기반으로 잠재 리스크를 선제적으로 파악하고 지속가능한 경영환경을 조성하여 새로운 기회를 창출해 나가고 있습니다. 2019년 코웨이의 핵심 잠재 리스크는 1) 정보보호 위협의 증가와 2) 온라인 가전 서비스 시장의 성장으로 도출됩니다. 
                     </p>
                     <b-table-simple responsive class="sep-table f-90 mb-1">
                         <b-tbody>
                             <b-tr class="bg-parang7 fw-300 text-white">
-                                <b-td style="width:20%;">잠재 리스크</b-td><b-td style="width:38%;">리스크 맥락 및 사업적 영향</b-td><b-td>리스크 대응 방안</b-td>
+                                <b-td style="width:20%;" class="py-0">잠재 리스크</b-td><b-td style="width:38%;" class="py-0">리스크 맥락 및 사업적 영향</b-td><b-td class="py-0">리스크 대응 방안</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="f-100">정보보안 및 개인정보 유출</b-td>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500">정보보안 및 개인정보 유출</div>
+                                 <b-img src="/images/121_1.svg"></b-img>
+                                </b-td>
                                 <b-td>
                                     <p>사람과 사람이 연결되는 시대를 넘어 사물과 사람, 사물과 사물이 연결되는 4차산업혁명의 도래에 따라 제품 및 서비스의 생산, 유통 및 사용 전 단계에서 데이터 및 정보는 전 산업의 기반 인프라로 자리하였습니다.
                                     </p>
@@ -58,11 +99,12 @@
                                     </p>
                                     <p>또한 글로벌 시장 진출 확대에 따라 유럽연합 개인정보보호 규정(GDPR) 등 개인정보보호 규제에 대한 효과적인 대응체계를 수립 및 추진하고 있습니다.
                                     </p>
-                                    <nuxt-link to="/static_page/데이터-및-개인정보보호"><b-button variant="parang-text" class="px-0 py-1 f-95 text-left">정보보안 및 개인정보보호 정책</b-button></nuxt-link>
+                                    <a href="/static_page/정보보안-및-개인정보보호" class="parang-text">'정보보안 및 개인정보보호' 상세내용 보기 <i class="fas fa-link ml-1 f-80"></i></a>
                                 </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="f-100">코로나 19 팬데믹</b-td>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500">코로나 19 팬데믹</div>
+                                <b-img src="/images/121_2.svg"></b-img></b-td>
                                 <b-td>
                                     <p>코로나19는 전 세계적으로 빠르게 확산되고 있습니다. 코웨이의 주 사업장이 위치한 한국은 적극적인 초기 방역 및 강력한 사회적 격리를 통해 확산 방지에 성공하고 있지만, 여전히 대인 접촉에 따른 추가 확산을 막기 위한 주의가 필요합니다.
                                     </p>
@@ -77,7 +119,8 @@
                                 </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="f-100"> 자원순환 관련 규제 증가</b-td>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500"> 자원순환 관련 규제 증가</div>
+                                <b-img src="/images/121_3.svg"></b-img></b-td>
                                 <b-td> 
                                     <p>폐기물 처리 및 방치가 심각한 글로벌 사회문제로 확산되며 국내외의 자원순환 관련 규제가 강화되고 있습니다.
                                     </p>
@@ -86,18 +129,19 @@
                                     <p>규제의 강화와 함께 구매 의사결정 시 제품 및 서비스의 사회 환경적 영향을 고려하는 윤리적 소비 주체가 증가함에 따라 자원순환에 대한 책임이 증가하고 있습니다.
                                     </p>
                                 </b-td>
-                                <b-td>
+                                <b-td class="">
                                     <p>코웨이는 제품 개발부터 판매, 회수 및 재활용에 이르는 제품 전과정에 걸쳐 자원 선순환구조 확립을 위한 노력을 지속하고 있습니다.
                                     </p>
                                     <p>2014년부터 필터, 정수기, 청정기, 비데, 연수기, 음식물 처리기 등의 제품 회수 및 재활용을 추진하였으며, 2016년에는 회수 폐기물의 고형 연료화를 진행하여 99% 이상의 재활용률을 유지하고 있습니다.
                                     </p>
                                     <p>2019년에는 기존 대비 자재사용량을 00% 줄인 ‘한뼘 시루 직수 정수기’를 개발하는 등 절대적인 자원사용량을 줄이기 위한 노력을 지속하였습니다. 또한, 제품에 함유된 유해물질 및 유해폐기물을 관리하기 위해 2018년 유해물질관리경영시스템(HSPM)을 운영하여 자원순환 및 폐기물 배출 관련 리스크를 최소화하고 있습니다. 
                                     </p>
-                                    <nuxt-link to="/static_page/깨끗한-물과-공기를-위한-환경경영#가치사슬전체의환경역량강화"><b-button variant="parang-text" class="px-0 py-1 f-95">가치사슬의 환경역량 강화</b-button></nuxt-link>
+                                    <a href="/static_page/깨끗한-물과-공기를-위한-환경경영#가치사슬전체의환경역량강화" class="parang-text">'가치사슬 전체의 환경역량 강화' 상세내용 보기 <i class="fas fa-link ml-1 f-80"></i></a>
                                 </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="f-100"> 환경가전 소비형태의 변화</b-td>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500"> 환경가전 소비형태의 변화</div>
+                                <b-img src="/images/121_4.svg"></b-img></b-td>
                                 <b-td>
                                     <p>이커머스 시장의 성장과 함께 환경가전 제품의 구매 형태 또한 다양해지고 있습니다. 통계청 조사 결과 2019년 9월 가전·전자·통신기기의 온라인 쇼핑 거래액은 전년 동월 대비 40.8%(3,211억원) 증가를 기록하였습니다. 뿐만 아니라 온라인 해외 직구를 통한 구매율 또한 최근 2017년 대비 약76%성장하는 등 온라인 기반의 소비 문화가 빠르게 확산하고 있습니다.
                                     </p>

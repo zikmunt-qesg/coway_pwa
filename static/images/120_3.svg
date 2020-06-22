@@ -1,0 +1,25 @@
+<svg id="구성_요소_53_1" data-name="구성 요소 53 – 1" xmlns="http://www.w3.org/2000/svg" width="48.932" height="47.769" viewBox="0 0 48.932 47.769">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #78a5e2;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.019em;
+      }
+    </style>
+  </defs>
+  <g id="그룹_27" data-name="그룹 27" transform="translate(-10427.502 -1576.243)">
+    <path id="패스_135" data-name="패스 135" d="M10476.434,1601.332a22.68,22.68,0,1,1-22.68-22.68,22.679,22.679,0,0,1,22.68,22.68"/>
+    <path id="패스_136" data-name="패스 136" class="cls-1" d="M10472.862,1598.923a22.68,22.68,0,1,1-22.681-22.68,22.681,22.681,0,0,1,22.681,22.68"/>
+  </g>
+  <text id="_03" data-name="03" class="cls-2" transform="translate(13.721 28.428)"><tspan class="cls-3" x="0" y="0">0</tspan><tspan y="0">3</tspan></text>
+</svg>

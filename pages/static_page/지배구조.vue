@@ -33,7 +33,7 @@
                     <b-table-simple responsive class="sep-table f-90">
                         <b-tbody>
                             <b-tr class="bg-parang7 fw-300 text-white">
-                                <b-td>성명</b-td><b-td>주요 역할</b-td><b-td>성별</b-td><b-td>주요 경력<sup>*</sup></b-td><b-td>최초 선임일</b-td>
+                                <b-td class="border-0 py-0">성명</b-td><b-td class="border-0 py-0">주요 역할</b-td><b-td class="border-0 py-0">성별</b-td><b-td class="border-0 py-0">주요 경력<sup>*</sup></b-td><b-td class="border-0 py-0">최초 선임일</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>방준혁</b-td>
@@ -141,48 +141,48 @@
                         <b-table-simple responsive class="txt-table parang-table font-noto fw-300 f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>회차</b-td><b-td>안건</b-td><b-td>구분</b-td><b-td>개최 일자</b-td><b-td>출석/총원</b-td>
+                                    <b-td>회차</b-td><b-td>안건</b-td><b-td>구분</b-td><b-td class="text-right">개최 일자</b-td><b-td class="text-right">출석/총원</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td>1차</b-td><b-td>2019년 연간 사업계획 및 예산의 수립 외 1건</b-td><b-td>임시</b-td><b-td>2019.01.23</b-td><b-td>7/7</b-td>
+                                    <b-td>1차</b-td><b-td>2019년 연간 사업계획 및 예산의 수립 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>2차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</b-td><b-td>임시</b-td><b-td>2019.01.31</b-td><b-td>7/7</b-td>
+                                    <b-td>2차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>3차</b-td><b-td>제30기 정기주주총회 소집의 건 외 6건</b-td><b-td>정기</b-td><b-td>2019.02.13</b-td><b-td>7/7</b-td>
+                                    <b-td>3차</b-td><b-td>제30기 정기주주총회 소집의 건 외 6건</b-td><b-td>정기</b-td><b-td class="text-right">2019.02.13</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>4차</b-td><b-td>2019년 1차 임시주주총회 소집의 건 외 4건</b-td><b-td>임시</b-td><b-td>2019.03.06</b-td><b-td>6/7</b-td>
+                                    <b-td>4차</b-td><b-td>2019년 1차 임시주주총회 소집의 건 외 4건</b-td><b-td>임시</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>5차</b-td><b-td>사외이사후보추천위원회 구성위원 선임의 건 외 2건</b-td><b-td>임시</b-td><b-td>2019.03.29</b-td><b-td>8/8</b-td>
+                                    <b-td>5차</b-td><b-td>사외이사후보추천위원회 구성위원 선임의 건 외 2건</b-td><b-td>임시</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
-                                    <b-td>6차</b-td><b-td>2019년 1분기 배당 결정의 건 외 6건</b-td><b-td>정기</b-td><b-td>2019.04.29</b-td><b-td>8/8</b-td>
+                                    <b-td>6차</b-td><b-td>2019년 1분기 배당 결정의 건 외 6건</b-td><b-td>정기</b-td><b-td class="text-right">2019.04.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>7차</b-td><b-td>㈜웅진과의 렌탈사업 영업양수도 계약 체결의 건 외 1건</b-td><b-td>임시</b-td><b-td>2019.05.17</b-td><b-td>7/8</b-td>
+                                    <b-td>7차</b-td><b-td>㈜웅진과의 렌탈사업 영업양수도 계약 체결의 건 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>8차</b-td><b-td>분기배당을 위한 주주명부 기준일 결정의 건</b-td><b-td>임시</b-td><b-td>2019.06.12</b-td><b-td>8/8</b-td>
+                                    <b-td>8차</b-td><b-td>분기배당을 위한 주주명부 기준일 결정의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
-                                    <b-td>9차</b-td><b-td>2019년 2분기 배당 결정의 건 외 5건</b-td><b-td>정기</b-td><b-td>2019.07.29</b-td><b-td>7/8</b-td>
+                                    <b-td>9차</b-td><b-td>2019년 2분기 배당 결정의 건 외 5건</b-td><b-td>정기</b-td><b-td class="text-right">2019.07.29</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>10차</b-td><b-td>신임 대표이사 선임의 건</b-td><b-td>임시</b-td><b-td>2019.08.12</b-td><b-td>8/8</b-td>
+                                    <b-td>10차</b-td><b-td>신임 대표이사 선임의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>11차</b-td><b-td>내부회계관리규정 개정 승인의 건 외 1건</b-td><b-td>임시</b-td><b-td>2019.09.19</b-td><b-td>7/8</b-td>
+                                    <b-td>11차</b-td><b-td>내부회계관리규정 개정 승인의 건 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>12차</b-td><b-td>2019년 3분기 배당 결정의 건 외 3건</b-td><b-td>정기</b-td><b-td>2019.10.28</b-td><b-td>8/8</b-td>
+                                    <b-td>12차</b-td><b-td>2019년 3분기 배당 결정의 건 외 3건</b-td><b-td>정기</b-td><b-td class="text-right">2019.10.28</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>  
                                 <b-tr>
-                                    <b-td>13차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건 외 2건</b-td><b-td>임시</b-td><b-td>2019.12.30</b-td><b-td>7/7</b-td>
+                                    <b-td>13차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건 외 2건</b-td><b-td>임시</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>                                                                                                                                                                                                                                                       
                             </b-tbody>
                         </b-table-simple>
@@ -229,7 +229,7 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="4">이해선</b-td><b-td>급여</b-td><b-td>411,364</b-td><b-td>직무 · 직급(대표이사), 근속기간, 리더십, 전문성, 회사기여도 등을 종합적으로 반영</b-td>
+                                    <b-td rowspan="4">이해선</b-td><b-td>급여</b-td><b-td style="width: 12%">411,364</b-td><b-td>직무 · 직급(대표이사), 근속기간, 리더십, 전문성, 회사기여도 등을 종합적으로 반영</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>상여</b-td><b-td>260,000</b-td><b-td>성장성, 수익성, 안정성 등으로 구성된 정량 KPI와 해당 년도 전략과제로 구성된 정성 KPI를 종합평가표에 의거하여 평가하여 종합점수를 산출함. 2018년은 당사 매출액이 연결기준 2017년 2조 5168억에서 2018년  2조 7073억으로 7.6% 증가한 점, 당기순이익이 2017년 3,256억에서 2017년 3,499억으로 7.4% 증가한 점 등을 고려함. 또한 신제품군 출시를 통한 성장 동력을 확보한 점, 해외사업 진출을 위한 기반을 마련한 점 등의 정성 및 전략 지표를 고려하여 총 급여의 65% 수준인 2.6억원을 산출·지급 하였음</b-td>
@@ -238,7 +238,7 @@
                                     <b-td>주식매수선택권 행사이익</b-td><b-td>2,460,285</b-td><b-td>주주총회 결의로 부여받은 주식매수선택권의 행사가격(92,640원)과 최대주주변경에 따른 주식매수선택권 부여계약서상 특칙에 의거하여 (주당) 경영권 변동거래의 매각가격(102,891원)과의 차이에 행사수량(240,000주)을 곱하여 2,460,285천원을 산출하였음</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>비고</b-td><b-td colspan="2">- 기타근로소득, 퇴직소득 및 기타소득 해당사항 없음</b-td>
+                                    <b-td>비고</b-td><b-td colspan="2" class="text-right">- 기타근로소득, 퇴직소득 및 기타소득 해당사항 없음</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td rowspan="3">안지용</b-td><b-td>급여</b-td><b-td>260,203</b-td><b-td>이사회 결의에 따라 직무 · 직급(본부장), 근속기간, 리더십, 전문성, 회사기여도 등을 종합적으로 반영하여 연간 급여총액을 245,440,000원으로 책정하고, 2019년 8월 승진 및 의사회 결의에 따라 직급(대표이사)를 고려해 연간 급여총액을 400,000,000원으로 인상 지급함. 본부장 직급기간 월 500,000원 및 복리후생 및 기타 세액반영액을 연간 6,518,156원을 지급함. 
@@ -249,7 +249,7 @@
                                     </b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>비고</b-td><b-td colspan="2">- 주식매수선택권 행사이익, 기타근로소득, 퇴직소득 및 기타소득 해당사항 없음</b-td>
+                                    <b-td>비고</b-td><b-td colspan="2" class="text-right">- 주식매수선택권 행사이익, 기타근로소득, 퇴직소득 및 기타소득 해당사항 없음</b-td>
                                 </b-tr>
 
                             </b-tbody>
@@ -259,21 +259,21 @@
                         <b-table-simple responsive class="num-table sustainability-table fw-300 font-noto f-95">
                             <b-thead>
                                 <b-tr>
-                                    <b-td class="text-left">부여 받은자</b-td><b-td class="text-left">관계</b-td><b-td class="text-left">부여일</b-td><b-td class="text-left">주식의 종류</b-td><b-td>부여</b-td><b-td>행사</b-td><b-td>취소</b-td><b-td>미행사수량</b-td><b-td>행사기간</b-td>
+                                    <b-td class="text-left">부여 받은자</b-td><b-td class="text-left">관계</b-td><b-td class="text-center">부여일</b-td><b-td class="text-center">주식의 종류</b-td><b-td>부여</b-td><b-td>행사</b-td><b-td>취소</b-td><b-td>미행사수량</b-td><b-td>행사기간</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-left">보통주</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
+                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">보통주</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-left">보통주</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
+                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">보통주</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">박재영 외 5명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-left">보통주</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
+                                    <b-td class="text-left">박재영 외 5명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">보통주</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">송현주 외 1명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2019.03</b-td><b-td class="text-left">보통주</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td>2021.03 ~ 2028.03</b-td>
+                                    <b-td class="text-left">송현주 외 1명</b-td><b-td class="text-left">미등기 임원</b-td><b-td class="text-center">2019.03</b-td><b-td class="text-center">보통주</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td>2021.03 ~ 2028.03</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
