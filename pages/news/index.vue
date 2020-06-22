@@ -1,34 +1,43 @@
 <template>
-<div class="position-relative min-vh-100">
-    <b-row no-gutters class="py-5 bg-blue3 mb-5">
-        <b-col class="py-5 my-3 my-md-4 text-center text-white"><h1>Coway Sustainability News</h1></b-col>
+<div class="position-relative page-top-bg-news min-vh-100">
+    <div class="w-100 position-absolute bg-white" style="height:95%; top:500px; z-index:-1"></div>
+
+    <b-row no-gutters class="py-5">
+        <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">COWAY SUSTAINABILITY NEWS</h2></b-col>
     </b-row>
     <b-container>
-        <h4 class="mb-4 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h4>
-        <b-table-simple responsive class="txt-table">
-            <b-thead>
-                <b-tr>
-                    <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td>
-                </b-tr>
-            </b-thead>
-            <b-tbody v-for="item in current_articles" :key="item.id">
-                <b-tr>
-                    <b-td class="py-3">{{ item.index }}</b-td> 
-                    <b-td class="py-3">
-                        <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button>
-                    </b-td>
-                    <b-td class="py-3">{{ item.date }}</b-td>                        
-                </b-tr>
-            </b-tbody>
-        </b-table-simple>
+        <b-row>
+            <b-col class="col-0 col-lg-1"></b-col>
+            <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5">
+                <section class="px-3 px-md-4 px-lg-5 py-4 py-lg-5">
+                    <h5 class="mb-4 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h5>
+                    <b-table-simple responsive class="txt-table f-90">
+                        <b-thead>
+                            <b-tr>
+                                <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td>
+                            </b-tr>
+                        </b-thead>
+                        <b-tbody v-for="item in current_articles" :key="item.id">
+                            <b-tr>
+                                <b-td class="py-2">{{ item.index }}</b-td> 
+                                <b-td class="py-2">
+                                    <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button>
+                                </b-td>
+                                <b-td class="py-2">{{ item.date }}</b-td>                        
+                            </b-tr>
+                        </b-tbody>
+                    </b-table-simple>
 
-        <b-pagination
-        v-model="current_page"
-        :total-rows="articles.length"
-        :per-page="per_page"
-        aria-controls="article-table"
-        ></b-pagination>
-                
+                    <b-pagination
+                    v-model="current_page"
+                    :total-rows="articles.length"
+                    :per-page="per_page"
+                    aria-controls="article-table"
+                    ></b-pagination>
+                </section>
+            </b-col>
+            <b-col class="col-0 col-lg-1"></b-col>
+        </b-row>                 
     </b-container>
     <hr class="space-p75">
 </div>
