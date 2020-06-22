@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="57.719" viewBox="0 0 40 57.719">
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="44.763" viewBox="0 0 31 44.763">
   <defs>
     <style>
       .cls-1 {
         fill: none;
-        stroke: #3e3a39;
+        stroke: #808083;
       }
 
       .cls-2 {
-        fill: #3e3a39;
-        font-size: 19px;
+        fill: #808083;
+        font-size: 15px;
         font-family: NotoSansKR-Regular, Noto Sans KR;
       }
 
@@ -21,9 +21,9 @@
       }
     </style>
   </defs>
-  <g id="구성_요소_12_1" data-name="구성 요소 12 – 1" transform="translate(0 0.705)">
-    <path id="패스_41" data-name="패스 41" class="cls-1" d="M1857.852,2517.375,1875,2500.35l17.148,17.025" transform="translate(-1855.183 -2493.435)"/>
-    <path id="패스_42" data-name="패스 42" class="cls-1" d="M1857.852,2510.459,1875,2493.435l17.148,17.024" transform="translate(-1855.183 -2493.435)"/>
-    <text id="TOP" class="cls-2" transform="translate(0 51.014)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan class="cls-4" y="0">O</tspan><tspan y="0">P</tspan></text>
+  <g id="구성_요소_36_2" data-name="구성 요소 36 – 2" transform="translate(0 0.705)">
+    <path id="패스_41" data-name="패스 41" class="cls-1" d="M1857.852,2512.428l12.165-12.078,12.166,12.078" transform="translate(-1854.352 -2495.444)"/>
+    <path id="패스_42" data-name="패스 42" class="cls-1" d="M1857.852,2505.512l12.165-12.077,12.166,12.077" transform="translate(-1854.352 -2493.435)"/>
+    <text id="TOP" class="cls-2" transform="translate(0 39.058)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan class="cls-4" y="0">O</tspan><tspan y="0">P</tspan></text>
   </g>
 </svg>

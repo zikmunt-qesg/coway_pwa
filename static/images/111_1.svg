@@ -1,34 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="67" height="80.926" viewBox="0 0 67 80.926">
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="68.918" viewBox="0 0 58 68.918">
   <defs>
     <style>
       .cls-1 {
         fill: none;
-        stroke: #3e3a39;
+        stroke: #808083;
       }
 
       .cls-2 {
-        fill: #3e3a39;
-        font-size: 14px;
+        fill: #808083;
+        font-size: 12px;
+      }
+
+      .cls-2, .cls-4 {
         font-family: NotoSansKR-Regular, Noto Sans KR;
       }
 
       .cls-3 {
         letter-spacing: -0.009em;
       }
+
+      .cls-4 {
+        fill: #3e3a39;
+        font-size: 14px;
+      }
     </style>
   </defs>
-  <g id="구성_요소_32_1" data-name="구성 요소 32 – 1" transform="translate(0 0.5)">
-    <g id="그룹_21505" data-name="그룹 21505" transform="translate(-1846.354 -2275.082)">
-      <g id="그룹_43" data-name="그룹 43" transform="translate(1855.354 2275.082)">
-        <path id="패스_43" data-name="패스 43" class="cls-1" d="M1897.665,2278.908v23.922a3.587,3.587,0,0,1-7.173,0v-23.922h-.262a1.241,1.241,0,0,1-1.245-1.235v-2.591h10.187v2.591a1.241,1.241,0,0,1-1.246,1.235h-3.848m-10.6,0v23.922a3.587,3.587,0,0,1-7.174,0v-23.922h-.261a1.241,1.241,0,0,1-1.246-1.235v-2.591h10.189v2.591a1.241,1.241,0,0,1-1.246,1.235h-3.849m-10.6,0v23.922a3.587,3.587,0,0,1-7.173,0v-23.922h-.261a1.24,1.24,0,0,1-1.246-1.235v-2.591h10.188v2.591a1.241,1.241,0,0,1-1.246,1.235H1865.7m35.294,5.357h3.43v22.762a3.677,3.677,0,0,1-3.694,3.66h-41.68a3.677,3.677,0,0,1-3.694-3.66v-22.762h3.43" transform="translate(-1855.354 -2275.082)"/>
+  <g id="구성_요소_37_2" data-name="구성 요소 37 – 2" transform="translate(0 0.5)">
+    <g id="그룹_21508" data-name="그룹 21508" transform="translate(-1777 -2158.989)">
+      <g id="그룹_43" data-name="그룹 43" transform="translate(1788 2158.989)">
+        <path id="패스_43" data-name="패스 43" class="cls-1" d="M1886.366,2277.886v17.534a2.629,2.629,0,0,1-5.257,0v-17.534h-.192a.91.91,0,0,1-.913-.905v-1.9h7.467v1.9a.91.91,0,0,1-.914.905h-2.82m-7.772,0v17.534a2.629,2.629,0,0,1-5.258,0v-17.534h-.191a.91.91,0,0,1-.914-.905v-1.9h7.468v1.9a.91.91,0,0,1-.914.905h-2.821m-7.772,0v17.534a2.629,2.629,0,0,1-5.257,0v-17.534h-.191a.909.909,0,0,1-.914-.905v-1.9h7.467v1.9a.91.91,0,0,1-.913.905h-2.82m25.869,3.927h2.514V2298.5a2.7,2.7,0,0,1-2.708,2.683h-30.55a2.7,2.7,0,0,1-2.707-2.683v-16.684h2.514" transform="translate(-1855.354 -2275.082)"/>
       </g>
-      <line id="선_19" data-name="선 19" class="cls-1" y1="13.252" transform="translate(1894.24 2288.536)"/>
-      <line id="선_20" data-name="선 20" class="cls-1" y1="13.252" transform="translate(1879.907 2288.536)"/>
-      <line id="선_21" data-name="선 21" class="cls-1" y1="13.252" transform="translate(1865.575 2288.536)"/>
+      <line id="선_19" data-name="선 19" class="cls-1" y1="10.14" transform="translate(1816.501 2168.593)"/>
+      <line id="선_20" data-name="선 20" class="cls-1" y1="10.14" transform="translate(1805.996 2168.593)"/>
+      <line id="선_21" data-name="선 21" class="cls-1" y1="10.14" transform="translate(1795.491 2168.593)"/>
     </g>
-    <text id="코웨이" class="cls-2" transform="translate(15 59.426)"><tspan class="cls-3" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
+    <text id="코웨이" class="cls-2" transform="translate(12 45.418)"><tspan class="cls-3" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
     <text id="_" data-name="
-" class="cls-2" transform="translate(34 59.426)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
-    <text id="물맛_연구소" data-name="물맛 연구소" class="cls-2" transform="translate(0 76.226)"><tspan class="cls-3" x="0" y="0">물맛 연구</tspan><tspan y="0">소</tspan></text>
+" class="cls-4" transform="translate(29 47.418)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
+    <text id="물맛_연구소" data-name="물맛 연구소" class="cls-2" transform="translate(0 62.218)"><tspan class="cls-3" x="0" y="0">물맛 연구</tspan><tspan y="0">소</tspan></text>
   </g>
 </svg>
