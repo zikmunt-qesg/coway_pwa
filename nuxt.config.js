@@ -137,7 +137,7 @@ export default {
             behavior: 'smooth'
           })
         } else {
-          return window.scrollTo(0, clientRect.top + window.pageYOffset - 150)
+          return window.scrollTo(0, clientRect.top + window.pageYOffset - 150 )
         }
       }
 
