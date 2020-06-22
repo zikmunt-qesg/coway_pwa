@@ -1,7 +1,7 @@
 <template>
 <div>
     <transition name="show-fade" mode="out-in">
-        <div v-if="isVisible" class="position-fixed text-center" style="right:10px; top:75px">
+        <div v-if="isVisible" class="position-fixed text-center" style="right:0.5rem; top:75px">
             
             <b-button variant="icon-gray" :aria-expanded="is_opened ? 'false' : 'true'" aria-controls="external-btns" @click="changeCollapse" style="width:58px;" class="py-0">           
                 <div v-if="is_opened==true" key="opened"><i class="fas fa-angle-double-right"></i></div>
@@ -11,7 +11,7 @@
             <transition name="slide-fade" mode="out-in">  
                 <div id="external-btns" v-if="is_opened==true" class="">             
                     <div class="d-flex flex-column justify-content-center">
-                        <a href="http://www.coway.co.kr/" target="_blank" class="py-2 text-center"><b-img src="/images/109_1.svg" class="external-link-btn pb-1"></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="py-2 text-center"><b-img src="/images/109_1.svg" class="external-link-btn pb-1 px-1" ></b-img> </a>
                         <div class="short-divide-line"></div>
                         <a href="http://www.coway.co.kr/" target="_blank" class="py-2 text-center"><b-img src="/images/110_1.svg" class="external-link-btn py-1"></b-img> </a>
                         <div class="short-divide-line"></div>

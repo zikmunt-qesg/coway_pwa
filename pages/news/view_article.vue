@@ -1,8 +1,8 @@
 <template>
-<div class="position-relative min-vh-100">
-    <b-row no-gutters class="bg-blue3 mb-5">
+<div class="position-relative page-top-bg-news min-vh-100">
+    <!-- <b-row no-gutters class="bg-blue3 mb-5">
         <b-col class="py-3 text-center text-white"><h2>Coway Sustainability News</h2></b-col>
-    </b-row>
+    </b-row> -->
     <b-container>
         <div class="mb-3">
             <h7> {{ title }}</h7>
