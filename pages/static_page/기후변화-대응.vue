@@ -14,7 +14,7 @@
                 :main_title="'기후변화 대응'"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#92bc49'"
+                :active_color="'#0b564a'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
@@ -87,13 +87,14 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 목표 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
                         </p>
-                        <div class="position-relative">
+                        <div class="position-relative pt-5">
                             <hj-img src="/images/44_1.svg" fluid></hj-img>
-                            <div class="position-absolute " style="top: 0;">
-                                <h7 class="mb-0 gray63">온실가스 배출량 재산정 결과 비교표</h7>
-                                <div class="fw-300 f-80 mb-2 gray6">(자사 기준 vs 국가 기준)</div>
+                            <div class="position-absolute " style="top: -0rem;">
+                                <h7 class="mb-3 gray63">온실가스 배출량 재산정 결과 비교표</h7>
                                 <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div>
                                 <div class="fw-300 f-80 mb-2 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 원단위 (단위: tCO<sub>2</sub>e/억원)</div>
+
+                                <div class="fw-300 f-80 d-flex align-items-center"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 원단위 (단위: tCO<sub>2</sub>e/억원)</div>
                             </div>
                         </div>
                         <hr class="mb-4">

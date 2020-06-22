@@ -23,7 +23,53 @@
     transform: scale(1.05)
 }
 
+// .page-top-bg{
+//     background-image: url( "/images/environment.jpg" );
+//     background-attachment:  fixed;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     position: absolute;
+//     z-index: -1;
+//     top: 0;
+// }
+
+.page-top-bg-env{
+    background-image: url( "/images/environment.jpg" );
+}
+.page-top-bg-sus{
+    background-image: url( "/images/sustainability.jpg" );
+    background-position-x: center;
+    background-position-y: 50%;
+}
+.page-top-bg-so{
+    background-image: url( "/images/environment.jpg" );
+}
+
+.page-top-bg-m1{
+    background-image: url( "/images/material_topics_1.png" );
+} 
+.page-top-bg-m2{
+    background-image: url( "/images/material_topics_2.png" );
+}
+.page-top-bg-m3 {
+    background-image: url( "/images/material_topics_3.png" );
+}
+.page-top-bg-m1, .page-top-bg-m2, .page-top-bg-m3,
+.page-top-bg-env, .page-top-bg-sus, .page-top-bg-so
+ {
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    top: 0;
+}
+
 @media (max-width: 768px) {
+    // .page-top-bg-m1, .page-top-bg-m2, .page-top-bg-m3 {
+    //     height: 100vh!important;
+    //     // overflow-x: hidden;
+    // }
+
     .page-top-img, .material-page-top-img {
         height: 100vh;
         overflow-x: hidden;
@@ -31,6 +77,7 @@
 }
 .page-top-img, .material-page-top-img{
     position: absolute;
+    background-attachment: fixed;
     z-index: -1;
     top: 0;
 }
