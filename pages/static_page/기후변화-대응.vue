@@ -87,16 +87,26 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 목표 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
                         </p>
-                        <div class="position-relative pt-5">
+                        <div class="position-relative pt-5 mb-4">
                             <hj-img src="/images/44_1.svg" fluid></hj-img>
-                            <div class="position-absolute " style="top: -0rem;">
+                            <div class="position-absolute" style="top: 0;">
                                 <h7 class="mb-3 gray63">온실가스 배출량 재산정 결과 비교표</h7>
-                                <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div>
-                                <div class="fw-300 f-80 mb-2 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 원단위 (단위: tCO<sub>2</sub>e/억원)</div>
-
-                                <div class="fw-300 f-80 d-flex align-items-center"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 원단위 (단위: tCO<sub>2</sub>e/억원)</div>
+                                <!-- <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div> -->
+                                <div class="fw-300 f-80 mb-2 d-flex align-items-center"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 원단위 (단위: tCO<sub>2</sub>e/억원)</div>
+                                <div class="fw-300 f-80 mb-2 d-flex align-items-center" >배출량 (단위: tCO<sub>2</sub>e)</div>
+                                <div class="fw-300 f-80 d-flex align-items-center"><b-img src="/images/scope1.svg"></b-img> <span class="ml-2">Scope1</span></div>
+                                <div class="fw-300 f-80 d-flex align-items-center"><b-img src="/images/scope2.svg"></b-img> <span class="ml-2">Scope2</span></div>
+                                <div class="fw-300 f-80 d-flex align-items-center"><b-img src="/images/scope3.svg"></b-img> <span class="ml-2">Scope3</span></div>
                             </div>
                         </div>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
+                            <li>2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
+                            </li>
+                            <li>2030년 목표는 매출 증가율과 에너지 사용 증가율이 년간 5% 증가하는 것으로 예상한 목표임
+                            </li>
+                            <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(17~19년 배출량 국가 기준으로 재검증)
+                            </li>
+                        </ol>    
                         <hr class="mb-4">
                         
                         <p class="mb-5">코웨이는 사업장의 온실가스 저감 활동과 기업 운영 효율화를 통해 에너지를 효율적으로 사용하고 있습니다. 또한 신∙재생에너지인 태양광 발전의 지속적인 도입으로 인한 효과도 있었습니다. 코웨이는 유구공장(49.5KWh 규모), 인천공장(39KWh), 포천공장(45KWh 규모) 및 물류센터(48.8KWh 규모)에 태양광 발전을 설치하여 운영하고 있습니다. 3공장 및 물류센터에서 2019년 약 237MW의 전력을 생산, 자체 소비하여 온실가스 약 110톤을 저감하는 효과가 있었습니다(검증 전, 추정 치). 또한 유구공장에 도입된 에너지저장장치(ESS, Energy Storage System)는 Peak 부하를 감소시키고, 에너지 사용량 분산에 기여하고 있습니다. 뿐만 아니라 에너지 비용 절감 효과가 있어 2019년 약 1.2억원의 비용을 절감하였습니다. 유구공장과 물류센터에 도입된 LED 조명은 작업장 근로환경(조도) 개선과 함께 물류센터 기준 2019년 약 0.65억원 이상의 에너지 비용이 절감되었으며, 온실가스 약 264톤[물류센터 기준]을 저감하는 효과가 있었습니다.

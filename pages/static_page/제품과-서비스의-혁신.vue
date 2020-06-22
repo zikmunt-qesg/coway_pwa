@@ -2,11 +2,11 @@
 <div class="position-relative page-top-bg-m1 min-vh-100">  
     <logger title="제품과 서비스의 혁신"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:93%; top:900px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:90.6%; top:1050px; z-index:-1"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
-            <h1 class="mt-5 mb-3 pt-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
+            <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
             <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
         </b-row>
         <b-row class="px-lg-3">
@@ -76,7 +76,7 @@
                         </b-col>
                     </b-row>
                 </section>
-                <hr class="py-3">
+                <hr class="mb-4">
                 <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'본질적 가치를 높이는 제품 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-45 mb-md-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
                     </p>

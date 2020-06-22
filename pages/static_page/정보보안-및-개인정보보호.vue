@@ -2,11 +2,11 @@
 <div class="position-relative page-top-bg-m3 min-vh-100">  
     <logger title="정보보안 및 개인정보보호"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img>  -->
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:700px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:95%; top:1075px; z-index:-1"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
-            <h1 class="mt-5 mb-3 pt-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
+            <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
             <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
         </b-row>
         <b-row class="px-lg-3">
@@ -74,9 +74,9 @@
                     </b-row>
                 </section>
                 <!-- End of DMA -->
-                <hr class="py-3">
+                <hr class="mb-4">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'정보보안 및 개인정보보호 원칙과 조직'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 및 개인정보보호 원칙과 조직</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="pb-3 mb-5">코웨이는 많은 고객의 개인정보를 수집하는 렌탈 비즈니스의 특성을 고려하여 전 사업 영역에서의 정보보호를 위해 정보보호 원칙과 개인정보보호 원칙을 수립 및 공유하고 있습니다. 코웨이는 정보보호 정책을 실무에 적용하기 쉽도록 정보보호 원칙과 지침으로 구성하였습니다. 2019년에는 정보통신망법, 개인정보보호법 등 법규 및 규제 변화에 따라 관련 내용을 추가하였으며, 중복 규정은 간소화하고 실행 가이드를 구체화하여 정보보호 규정을 개정하였습니다. 
+                    <p class="pb-3 mb-45">코웨이는 많은 고객의 개인정보를 수집하는 렌탈 비즈니스의 특성을 고려하여 전 사업 영역에서의 정보보호를 위해 정보보호 원칙과 개인정보보호 원칙을 수립 및 공유하고 있습니다. 코웨이는 정보보호 정책을 실무에 적용하기 쉽도록 정보보호 원칙과 지침으로 구성하였습니다. 2019년에는 정보통신망법, 개인정보보호법 등 법규 및 규제 변화에 따라 관련 내용을 추가하였으며, 중복 규정은 간소화하고 실행 가이드를 구체화하여 정보보호 규정을 개정하였습니다. 
                     </p>
                 
                     <h6-ancor :title="'정보보안 및 개인정보보호 원칙'" :activated="activated" class="blue5 mb-3">정보보호 및 개인정보보호 원칙</h6-ancor>

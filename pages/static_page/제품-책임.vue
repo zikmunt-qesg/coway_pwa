@@ -2,11 +2,11 @@
 <div class="position-relative page-top-bg-m2 min-vh-100">  
     <logger title="제품 책임"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:92.5%; top:900px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:88.5%; top:1080px; z-index:-1"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
-            <h1 class="mt-5 mb-3 pt-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
+            <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
             <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
         </b-row>
         <b-row class="px-lg-3">
@@ -75,7 +75,7 @@
                         </b-col>
                     </b-row>
                 </section>
-                <hr class="py-3">
+                <hr class="mb-4">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'제품 책임 거버넌스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 책임 거버넌스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 제품 책임 및 품질경영을 위해 CEO 직속 협의체인 ‘무한책임위원회’와 CEO 참석 전사 회의체 PIC 360를 운영하고 있습니다. 또한, 통합적 품질관리로 일관적이고 효율적인 품질 혁신 관리를 위해 통합 품질검증 조직인 TQA 센터를 운영하고 있습니다.
                     </p>
