@@ -4,7 +4,7 @@
         <site-header />
 
         <nuxt class="nuxt"/>
-        <back-to-top :key="$route.fullPath" class="d-none d-xl-block"></back-to-top>
+        <back-to-top :key="$route.fullPath"></back-to-top>
 
         <site-footer />
   </div>
