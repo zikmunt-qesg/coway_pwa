@@ -208,15 +208,13 @@ p {
     font-family: 'Noto Sans Kr';
     // text-align:justify;
 }
-p.word-break {
+p.word-break, .word-break {
     word-break: keep-all;
 }
-td.word-break{
+td.word-break, .no-word-break{
     word-break: normal;
 }
-.no-word-break{
-    word-break: normal;
-}
+
 
 sub{
     bottom: -0.15em;
@@ -534,6 +532,9 @@ hr {
 }
 .bg-green6{
     background-color: $green6;
+}
+.bg-green5{
+    background-color: $green5;
 }
 
 .bg-parang8{

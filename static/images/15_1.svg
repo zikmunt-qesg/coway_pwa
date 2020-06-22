@@ -1,4 +1,4 @@
-<svg id="구성_요소_15_1" data-name="구성 요소 15 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="252" viewBox="0 0 836 252">
+<svg id="구성_요소_54_1" data-name="구성 요소 54 – 1" xmlns="http://www.w3.org/2000/svg" width="836" height="252" viewBox="0 0 836 252">
   <defs>
     <style>
       .cls-1 {
@@ -48,39 +48,39 @@
       }
     </style>
   </defs>
-  <rect id="사각형_65" data-name="사각형 65" class="cls-1" width="836" height="252"/>
+  <rect id="사각형_111" data-name="사각형 111" class="cls-1" width="836" height="252"/>
   <line id="선_315" data-name="선 315" class="cls-2" y2="147.375" transform="translate(417.12 26.803)"/>
   <line id="선_316" data-name="선 316" class="cls-2" x1="138.16" transform="translate(279.182 105.331)"/>
   <path id="패스_212" data-name="패스 212" class="cls-2" d="M9002.343,3560.17v-21.458h-591.3v21.458" transform="translate(-8289.571 -3386.992)"/>
-  <rect id="사각형_66" data-name="사각형 66" class="cls-3" width="110.38" height="46.5" transform="translate(66.25 173.428)"/>
-  <rect id="사각형_67" data-name="사각형 67" class="cls-2" width="110.38" height="46.5" transform="translate(66.25 173.428)"/>
+  <rect id="사각형_112" data-name="사각형 112" class="cls-3" width="110.38" height="46.5" transform="translate(66.25 173.428)"/>
+  <rect id="사각형_113" data-name="사각형 113" class="cls-2" width="110.38" height="46.5" transform="translate(66.25 173.428)"/>
   <text id="R_D센터" data-name="R&amp;D센터" class="cls-4" transform="translate(97.488 193.898)"><tspan class="cls-5" x="0" y="0">R&amp;</tspan><tspan class="cls-6" y="0">D</tspan><tspan class="cls-6" y="0">센</tspan><tspan y="0">터</tspan></text>
   <text id="_" data-name="" class="cls-4" transform="translate(145.394 193.898)"><tspan x="0" y="0"></tspan></text>
   <text id="기술기획팀" class="cls-4" transform="translate(92.067 210.395)"><tspan class="cls-6" x="0" y="0">기술기획</tspan><tspan y="0">팀</tspan></text>
-  <rect id="사각형_68" data-name="사각형 68" class="cls-3" width="110.38" height="46.5" transform="translate(361.93 173.428)"/>
-  <rect id="사각형_69" data-name="사각형 69" class="cls-2" width="110.38" height="46.5" transform="translate(361.93 173.428)"/>
+  <rect id="사각형_114" data-name="사각형 114" class="cls-3" width="110.38" height="46.5" transform="translate(361.93 173.428)"/>
+  <rect id="사각형_115" data-name="사각형 115" class="cls-2" width="110.38" height="46.5" transform="translate(361.93 173.428)"/>
   <text id="유구공장" class="cls-4" transform="translate(393.591 193.898)"><tspan class="cls-6" x="0" y="0">유구공</tspan><tspan y="0">장</tspan></text>
   <text id="_2" data-name="" class="cls-4" transform="translate(440.65 193.898)"><tspan x="0" y="0"></tspan></text>
   <text id="공장관리팀" class="cls-4" transform="translate(387.74 210.395)"><tspan class="cls-6" x="0" y="0">공장관리</tspan><tspan y="0">팀</tspan></text>
-  <rect id="사각형_70" data-name="사각형 70" class="cls-3" width="110.38" height="46.5" transform="translate(657.609 173.428)"/>
-  <rect id="사각형_71" data-name="사각형 71" class="cls-2" width="110.38" height="46.5" transform="translate(657.609 173.428)"/>
+  <rect id="사각형_116" data-name="사각형 116" class="cls-3" width="110.38" height="46.5" transform="translate(657.609 173.428)"/>
+  <rect id="사각형_117" data-name="사각형 117" class="cls-2" width="110.38" height="46.5" transform="translate(657.609 173.428)"/>
   <text id="포천공장" class="cls-4" transform="translate(689.271 202.398)"><tspan class="cls-6" x="0" y="0">포천공</tspan><tspan y="0">장</tspan></text>
-  <rect id="사각형_72" data-name="사각형 72" class="cls-7" width="153.333" height="30" transform="translate(340.454 90.331)"/>
-  <rect id="사각형_73" data-name="사각형 73" class="cls-8" width="122" height="30" transform="translate(159.6 90.33)"/>
+  <rect id="사각형_118" data-name="사각형 118" class="cls-7" width="153.333" height="30" transform="translate(340.454 90.331)"/>
+  <rect id="사각형_119" data-name="사각형 119" class="cls-8" width="122" height="30" transform="translate(159.6 90.33)"/>
   <text id="동호회_봉사" data-name="동호회 봉사" class="cls-9" transform="translate(184.751 111.931)"><tspan class="cls-6" x="0" y="0">동호회 봉</tspan><tspan y="0">사</tspan></text>
   <text id="홍보팀" class="cls-9" transform="translate(398.605 111.931)"><tspan class="cls-6" x="0" y="0">홍</tspan><tspan class="cls-5" y="0">보</tspan><tspan y="0">팀</tspan></text>
   <line id="선_317" data-name="선 317" class="cls-2" y1="21.708" transform="translate(564.951 151.47)"/>
   <line id="선_318" data-name="선 318" class="cls-2" y1="22.708" transform="translate(269.291 151.47)"/>
-  <rect id="사각형_74" data-name="사각형 74" class="cls-3" width="110.38" height="46.5" transform="translate(214.09 173.428)"/>
-  <rect id="사각형_75" data-name="사각형 75" class="cls-2" width="110.38" height="46.5" transform="translate(214.09 173.428)"/>
+  <rect id="사각형_120" data-name="사각형 120" class="cls-3" width="110.38" height="46.5" transform="translate(214.09 173.428)"/>
+  <rect id="사각형_121" data-name="사각형 121" class="cls-2" width="110.38" height="46.5" transform="translate(214.09 173.428)"/>
   <text id="본사" class="cls-4" transform="translate(257.45 202.398)"><tspan class="cls-6" x="0" y="0">본</tspan><tspan y="0">사</tspan></text>
-  <rect id="사각형_76" data-name="사각형 76" class="cls-3" width="110.38" height="46.5" transform="translate(509.77 173.428)"/>
-  <rect id="사각형_77" data-name="사각형 77" class="cls-2" width="110.38" height="46.5" transform="translate(509.77 173.428)"/>
+  <rect id="사각형_122" data-name="사각형 122" class="cls-3" width="110.38" height="46.5" transform="translate(509.77 173.428)"/>
+  <rect id="사각형_123" data-name="사각형 123" class="cls-2" width="110.38" height="46.5" transform="translate(509.77 173.428)"/>
   <text id="인천공장" class="cls-4" transform="translate(541.431 193.898)"><tspan class="cls-6" x="0" y="0">인천공</tspan><tspan y="0">장</tspan></text>
   <text id="_3" data-name="" class="cls-4" transform="translate(588.49 193.898)"><tspan x="0" y="0"></tspan></text>
   <text id="공장관리팀-2" data-name="공장관리팀" class="cls-4" transform="translate(535.581 209.901)"><tspan class="cls-6" x="0" y="0">공장관리</tspan><tspan y="0">팀</tspan></text>
-  <rect id="사각형_78" data-name="사각형 78" class="cls-10" width="212.833" height="32.75" transform="translate(313.579 26.553)"/>
-  <rect id="사각형_79" data-name="사각형 79" class="cls-3" width="212.833" height="29.5" transform="translate(307.579 26.804)"/>
-  <rect id="사각형_80" data-name="사각형 80" class="cls-2" width="212.833" height="29.5" transform="translate(307.579 26.804)"/>
+  <rect id="사각형_124" data-name="사각형 124" class="cls-10" width="212.833" height="32.75" transform="translate(313.579 26.553)"/>
+  <rect id="사각형_125" data-name="사각형 125" class="cls-3" width="212.833" height="29.5" transform="translate(307.579 26.804)"/>
+  <rect id="사각형_126" data-name="사각형 126" class="cls-2" width="212.833" height="29.5" transform="translate(307.579 26.804)"/>
   <text id="단장_CEO" data-name="단장 CEO" class="cls-11" transform="translate(383.846 48.154)"><tspan class="cls-6" x="0" y="0">단</tspan><tspan class="cls-5" y="0">장</tspan><tspan class="cls-6" y="0" xml:space="preserve"> C</tspan><tspan class="cls-5" y="0">E</tspan><tspan y="0">O</tspan></text>
 </svg>

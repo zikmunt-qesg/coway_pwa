@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
                             <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 green7">
-                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/131_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
@@ -43,11 +43,11 @@
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-0 col-lg-1"></b-col>
                             <b-col class="col-6 col-lg-5 text-center mb-3 mb-sm-0">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="mx-auto mb-3" style="height: 70px;"><b-img src="/images/132_1.svg" fluid></b-img></div>
                                 <p class="fw-500 word-break pr-1 px-md-3 px-lg-4 mx-xl-3">기후변화 대응 중장기 목표치 재산정</p>
                             </b-col>
                             <b-col class="col-6 col-lg-5 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3" style="height: 70px;"><b-img src="/images/132_2.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break pl-1 px-md-3 px-lg-4 mx-xl-3">과학기반 감축 방법론 (SBT, Science Based Target) 추진</p>
                             </b-col>
                             <b-col class="col-0 col-lg-1"></b-col>
@@ -56,10 +56,10 @@
                             <b-col class="col-12 col-md-6 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-6 text-center mb-3 mb-sm-0"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-6 text-center mb-3 mb-sm-0"><div class="mx-auto mb-3" style="height: 65px;"><b-img src="/images/132_3.svg" fluid></b-img></div>
                                         <p class="fw-500 word-break pr-1 pr-md-2 px-xl-3">협력사 탄소 파트너십 강화</p>
                                     </b-col>
-                                    <b-col class="col-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-6 text-center"><div class="mx-auto mb-3" style="height: 65px;"><b-img src="/images/132_4.svg" fluid></b-img></div>
                                         <p class="fw-500 word-break pl-1">CDP(Carbon Disclosure Project)등 국제 이니셔티브 적극 참여</p>
                                     </b-col>
                                 </b-row>
@@ -70,10 +70,10 @@
                                 <b-row no-gutters class="align-items-center mb-3 pb-1">                                    
                                     <b-col class="col-6 text-center">                   
                                         <div class="f-330 fw-400 mb-3 mb-sm-1 pt-2">-50<span class="f-130 fw-500">%</span> </div>     
-                                        <p class="fw-500 word-break pr-1 px-md-2 font-noto">온실가스 원단위 배출량 감축 (2010년 대비) </p>       
+                                        <p class="fw-500 word-break pr-1 px-md-2 font-noto">온실가스 원단위 배출량 감축 (2010년 대비 2020년 목표) </p>       
                                     </b-col>
                                     <b-col class="col-6 text-center">
-                                        <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                        <div class="mx-auto mb-3 d-flex justify-content-center align-items-end" style="height: 60px;"><b-img src="/images/132_5.svg" fluid></b-img></div>
                                         <p class="fw-500 word-break pl-1 px-md-2 font-noto">물류센터 신재생에너지(태양광) 1차 구축 실행</p>
                                     </b-col>
                                 </b-row>
@@ -87,7 +87,15 @@
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 목표 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
                         </p>
-                        <b-img src="/images/44_1.svg" fluid></b-img>
+                        <div class="position-relative">
+                            <hj-img src="/images/44_1.svg" fluid></hj-img>
+                            <div class="position-absolute " style="top: 0;">
+                                <h7 class="mb-0 gray63">온실가스 배출량 재산정 결과 비교표</h7>
+                                <div class="fw-300 f-80 mb-2 gray6">(자사 기준 vs 국가 기준)</div>
+                                <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div>
+                                <div class="fw-300 f-80 mb-2 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 원단위 (단위: tCO<sub>2</sub>e/억원)</div>
+                            </div>
+                        </div>
                         <hr class="mb-4">
                         
                         <p class="mb-5">코웨이는 사업장의 온실가스 저감 활동과 기업 운영 효율화를 통해 에너지를 효율적으로 사용하고 있습니다. 또한 신∙재생에너지인 태양광 발전의 지속적인 도입으로 인한 효과도 있었습니다. 코웨이는 유구공장(49.5KWh 규모), 인천공장(39KWh), 포천공장(45KWh 규모) 및 물류센터(48.8KWh 규모)에 태양광 발전을 설치하여 운영하고 있습니다. 3공장 및 물류센터에서 2019년 약 237MW의 전력을 생산, 자체 소비하여 온실가스 약 110톤을 저감하는 효과가 있었습니다(검증 전, 추정 치). 또한 유구공장에 도입된 에너지저장장치(ESS, Energy Storage System)는 Peak 부하를 감소시키고, 에너지 사용량 분산에 기여하고 있습니다. 뿐만 아니라 에너지 비용 절감 효과가 있어 2019년 약 1.2억원의 비용을 절감하였습니다. 유구공장과 물류센터에 도입된 LED 조명은 작업장 근로환경(조도) 개선과 함께 물류센터 기준 2019년 약 0.65억원 이상의 에너지 비용이 절감되었으며, 온실가스 약 264톤[물류센터 기준]을 저감하는 효과가 있었습니다.
@@ -102,10 +110,10 @@
                         </p>
                     
                         <h6-ancor :title="'기후변화에 따른 잠재 위험 분석'" :activated="activated" class="green6 fw-500 mb-3">기후변화에 따른 잠재 위험 분석</h6-ancor>
-                        <b-table-simple responsive class="sep-table f-95 mb-5">
+                        <b-table-simple responsive class="sep-table f-90 mb-5">
                             <b-tbody>
                                 <b-tr class="bg-green7 text-white">
-                                    <b-td style="width:16%">위험 요인</b-td><b-td style="width:40%">설명</b-td><b-td>시점</b-td><b-td>추정 영향</b-td><b-td>관리 및 투자</b-td>
+                                    <b-td style="width:16%" class="py-0">위험 요인</b-td><b-td style="width:40%" class="py-0">설명</b-td><b-td class="py-0">시점</b-td><b-td class="py-0">추정 영향</b-td><b-td class="py-0">관리 및 투자</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>제품에 관한 정책 및 법적 규제 강화</b-td>
@@ -132,10 +140,10 @@
                         </b-table-simple>
                         <hr class="py-2">
                         <h6-ancor :title="'기후변화에 따른 잠재 기회 분석'" :activated="activated" class="green6 fw-500 mb-3">기후변화에 따른 잠재 기회 분석</h6-ancor>
-                        <b-table-simple responsive class="sep-table f-95 mb-5">
+                        <b-table-simple responsive class="sep-table f-90 mb-5">
                             <b-tbody>
                                 <b-tr class="bg-green7 text-white">
-                                    <b-td style="width:16%">기회 요인</b-td><b-td style="width:28%">설명</b-td><b-td>시점</b-td><b-td style="width:22%">추정 영향</b-td><b-td style="">관리 및 투자</b-td>
+                                    <b-td style="width:16%" class="py-0">기회 요인</b-td><b-td style="width:28%" class="py-0">설명</b-td><b-td class="py-0">시점</b-td><b-td style="width:22%" class="py-0">추정 영향</b-td><b-td style="" class="py-0">관리 및 투자</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>새로운 시장에의 접근</b-td>
@@ -159,7 +167,7 @@
                         </p> 
 
                         <h7 class="mb-3 gray63">탄소파트너 협력사 지원 현황</h7>
-                        <b-table-simple responsive class="txt-table env-table f-95">
+                        <b-table-simple responsive class="txt-table env-table f-95 mb-2">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">참여 협력사</b-td> <b-td class="text-left w-25">기간</b-td><b-td>주요 내용</b-td> 
                             </b-tr></b-thead>
@@ -169,7 +177,7 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5 font-noto">
+                        <p class="f-80 ml-1 mb-5 font-noto gray55">
                             * 2014년 6월 코웨이 협력사[㈜제성]에 29.7KWh 규모의 태양광발전 설치 지원<br>
                             * 2015년 7월 코웨이 협력사[아이디시스템㈜에 29.4KWh 규모의 태양광발전 설치 지원<br>
                             * 기업협력군 에너지동행사업은 2012년부터 2019년까지 지속적으로 참여하고 있으며, 8년간 참여 협력사는 39개사 입니다.
@@ -178,7 +186,7 @@
                     <hr class="py-4">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'온실가스 · 에너지 및 기타 환경 데이터'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 &middot; 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <h7 class="mb-3 gray63">온실가스 배출</h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
+                        <b-table-simple responsive class="num-table env-table f-95 mb-2">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2019 목표</b-td><b-td>2030 목표</b-td> 
                             </b-tr></b-thead>
@@ -200,7 +208,7 @@
                                 </b-tr>                                   
                             </b-tbody> 
                         </b-table-simple> 
-                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
                             <li>2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
                             </li>
                             <li>2030년 목표는 매출 증가율과 에너지 사용 증가율이 년간 5% 증가하는 것으로 예상한 목표
@@ -210,13 +218,13 @@
                         </ol>      
 
                         <h7 class="mb-3 gray63">사업장별 온실가스 배출</h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
+                        <b-table-simple responsive class="num-table env-table f-95 mb-2">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">유구공장</b-td><b-td class="text-left" rowspan="7">tCO<sub>2</sub>e</b-td><b-td>2,178</b-td><b-td>2,466</b-td><b-td>2,438</b-td>
+                                    <b-td class="text-left">유구공장</b-td><b-td class="text-left" rowspan="8">tCO<sub>2</sub>e</b-td><b-td>2,178</b-td><b-td>2,466</b-td><b-td>2,438</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">인천공장</b-td><b-td>609</b-td><b-td>663</b-td><b-td>707</b-td>
@@ -241,15 +249,15 @@
                                 </b-tr>                                
                             </b-tbody> 
                         </b-table-simple>       
-                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
                             <li>화장품연구소 폐쇄로 2019년 온실가스 배출량 0임
                             </li>
-                            <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(17~19년 배출량 국가 기준으로 재검증)
+                            <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(2017~2019년 배출량 국가 기준으로 재검증)
                             </li>
                         </ol>  
 
                         <h7 class="mb-3 gray63">냉매 사용에 따른 온실가스 배출</h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
+                        <b-table-simple responsive class="num-table env-table f-95 mb-2">
                             <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
@@ -262,13 +270,13 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto">
+                        <p class="f-80 ml-1 mb-5 font-noto gray55">
                             * 2018년 R-134a는 49,320 → 51,230 / R-600a, R-436B는 3,220 → 5,320kg으로 수정
                         </p>
 
                         
                         <h7 class="mb-3 gray63 font-noto">기타 간접 온실가스(Scope 3) 배출량</h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
+                        <b-table-simple responsive class="num-table env-table f-95 mb-2">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
@@ -278,13 +286,13 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto">
+                        <p class="f-80 ml-1 mb-5 font-noto gray55">
                             * 국내물류/운송은 자발적으로 위탁 협력기업에서 제공한 자료이며, 외부 검증은 진행하지 않음
                         </p>
 
 
                         <h7 class="mb-3 gray63">에너지 사용량</h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
+                        <b-table-simple responsive class="num-table env-table f-95 mb-2">
                             <b-thead><b-tr><b-td colspan="10"></b-td></b-tr></b-thead>
                             <b-thead>
                                 <b-tr>
@@ -327,7 +335,7 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
                             <li>2019년 목표는 매출(생산량) 증가에 따라 전년대비 에너지 사용이 5% 증가하는 것으로 예상함
                             </li>
                             <li>2030년 목표는 매출 증가율과 에너지 사용 증가율이 년간 5% 증가하는 것으로 예상한 목표
@@ -361,7 +369,7 @@
                         </b-table-simple>
 
                         <h7 class="mb-3 gray63">환경 투자액</h7>
-                        <b-table-simple responsive class="num-table env-table">
+                        <b-table-simple responsive class="num-table env-table mb-2">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td class="text-left">비고</b-td>
                             </b-tr></b-thead>
@@ -383,7 +391,7 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto">
+                        <p class="f-80 ml-1 mb-5 font-noto gray55">
                             1) 시설운영: 고효율 설비 교체, 신규 설비 투자 등을 지칭<br>
                             2) 시스템운영: IT구축 및 운영, 내부심사, 벤치카밍, 교육, 검증 등을 지칭<br>
                             3)	커뮤니케이션: 법규 대응, 국책과제, 홍보/이벤트/교육, 기부, 사회공헌 등<br>

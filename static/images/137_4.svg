@@ -1,0 +1,43 @@
+<svg id="구성_요소_114_1" data-name="구성 요소 114 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="47.769" viewBox="0 0 70 47.769">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #d6a803;
+      }
+
+      .cls-4 {
+        font-size: 16px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.019em;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_1231" data-name="패스 1231" class="cls-1" d="M0,0H70V-15.967H0Z"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_23056" data-name="그룹 23056" transform="translate(0 31.967)">
+    <path id="패스_1229" data-name="패스 1229" class="cls-1" d="M.141-.145H69.858V-15.828H.141Z"/>
+    <g id="그룹_836" data-name="그룹 836" class="cls-2">
+      <path id="패스_1230" data-name="패스 1230" class="cls-1" d="M.142-.145H69.859V-15.829H.142Z"/>
+    </g>
+  </g>
+  <g id="구성_요소_22_1" data-name="구성 요소 22 – 1" transform="translate(11)">
+    <g id="그룹_208" data-name="그룹 208" transform="translate(-1369.521 -5167.022)">
+      <path id="패스_562" data-name="패스 562" d="M1418.453,5192.11a22.68,22.68,0,1,1-22.68-22.679,22.68,22.68,0,0,1,22.68,22.679"/>
+      <path id="패스_563" data-name="패스 563" class="cls-3" d="M1414.881,5189.7a22.68,22.68,0,1,1-22.68-22.68,22.68,22.68,0,0,1,22.68,22.68"/>
+    </g>
+    <text id="_04" data-name="04" class="cls-4" transform="translate(13.72 28.428)"><tspan class="cls-5" x="0" y="0">0</tspan><tspan y="0">4</tspan></text>
+  </g>
+</svg>

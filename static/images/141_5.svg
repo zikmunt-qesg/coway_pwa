@@ -1,0 +1,141 @@
+<svg id="구성_요소_82_1" data-name="구성 요소 82 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88.9" height="63.947" viewBox="0 0 88.9 63.947">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #1e2323;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #1e2323;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_18674" data-name="패스 18674" class="cls-1" d="M0,0H88.9V-63.947H0Z"/>
+    </clipPath>
+  </defs>
+  <path id="패스_18668" data-name="패스 18668" class="cls-2" d="M1.917,0H25.3V-24.8H1.917Z" transform="translate(0 63.947)"/>
+  <g id="그룹_18246" data-name="그룹 18246" class="cls-3" transform="translate(0 63.947)">
+    <g id="그룹_18241" data-name="그룹 18241" transform="translate(22.738 -7.769)">
+      <path id="패스_18669" data-name="패스 18669" class="cls-2" d="M0,0V-40.25H38.737V-2.264s.51,10.625-8.786,10.008"/>
+    </g>
+    <g id="그룹_18242" data-name="그룹 18242" transform="translate(16.507 -9.133)">
+      <path id="패스_18670" data-name="패스 18670" class="cls-2" d="M0,0H31.456s.155,9.076,7.128,9.076H4.8S-1.085,5.264,0,0"/>
+    </g>
+    <g id="그룹_18243" data-name="그룹 18243" transform="translate(67.47 -18.441)">
+      <path id="패스_18671" data-name="패스 18671" class="cls-2" d="M0,0A21.259,21.259,0,0,0,21.429-21.086,21.26,21.26,0,0,0,0-42.172,21.26,21.26,0,0,0-21.429-21.086,21.259,21.259,0,0,0,0,0"/>
+    </g>
+    <g id="그룹_18244" data-name="그룹 18244" transform="translate(52.009 -40.219)">
+      <path id="패스_18672" data-name="패스 18672" class="cls-2" d="M0,0A5.4,5.4,0,0,0,5.467,5.324,5.4,5.4,0,0,0,10.935,0Z"/>
+    </g>
+    <g id="그룹_18245" data-name="그룹 18245" transform="translate(71.996 -40.219)">
+      <path id="패스_18673" data-name="패스 18673" class="cls-2" d="M0,0A5.4,5.4,0,0,0,5.467,5.324,5.4,5.4,0,0,0,10.935,0Z"/>
+    </g>
+  </g>
+  <g id="그룹_18247" data-name="그룹 18247" transform="translate(53.429 23.549)">
+    <path id="패스_18675" data-name="패스 18675" class="cls-2" d="M0,0,4.135-9.625H14.06"/>
+  </g>
+  <g id="그룹_18248" data-name="그룹 18248" transform="translate(81.511 23.549)">
+    <path id="패스_18676" data-name="패스 18676" class="cls-2" d="M0,0-4.135-9.625H-14.06"/>
+  </g>
+  <g id="그룹_18250" data-name="그룹 18250" class="cls-3" transform="translate(0 63.947)">
+    <g id="그룹_18249" data-name="그룹 18249" transform="translate(67.387 -47.82)">
+      <path id="패스_18677" data-name="패스 18677" class="cls-2" d="M0,0A2.076,2.076,0,0,0,2.056-2.1,2.079,2.079,0,0,0,0-4.2,2.079,2.079,0,0,0-2.056-2.1,2.076,2.076,0,0,0,0,0"/>
+    </g>
+  </g>
+  <path id="패스_18679" data-name="패스 18679" class="cls-2" d="M61.743-27.035h11.49v-2.976H61.743Z" transform="translate(0 63.947)"/>
+  <path id="패스_18680" data-name="패스 18680" class="cls-4" d="M.5-2.834H23.878v-24.8H.5Z" transform="translate(0 63.947)"/>
+  <g id="그룹_18258" data-name="그룹 18258" class="cls-3" transform="translate(0 63.947)">
+    <path id="패스_18681" data-name="패스 18681" class="cls-5" d="M.5-2.834H23.878v-24.8H.5Z"/>
+    <g id="그룹_18251" data-name="그룹 18251" transform="translate(0.777 -21.736)">
+      <path id="패스_18682" data-name="패스 18682" class="cls-5" d="M0,0H22.479"/>
+    </g>
+    <g id="그룹_18252" data-name="그룹 18252" transform="translate(0.777 -15.509)">
+      <path id="패스_18683" data-name="패스 18683" class="cls-5" d="M0,0H22.479"/>
+    </g>
+    <g id="그룹_18253" data-name="그룹 18253" transform="translate(0.777 -9.317)">
+      <path id="패스_18684" data-name="패스 18684" class="cls-5" d="M0,0H22.479"/>
+    </g>
+    <g id="그룹_18254" data-name="그룹 18254" transform="translate(21.32 -10.604)">
+      <path id="패스_18685" data-name="패스 18685" class="cls-4" d="M0,0V-40.25H38.737V-2.264s.51,10.625-8.786,10.008"/>
+    </g>
+    <g id="그룹_18255" data-name="그룹 18255" transform="translate(21.32 -10.604)">
+      <path id="패스_18686" data-name="패스 18686" class="cls-5" d="M0,0V-40.25H38.737V-2.264s.51,10.625-8.786,10.008"/>
+    </g>
+    <g id="그룹_18256" data-name="그룹 18256" transform="translate(15.09 -11.967)">
+      <path id="패스_18687" data-name="패스 18687" class="cls-4" d="M0,0H31.456s.155,9.076,7.128,9.076H4.8S-1.085,5.264,0,0"/>
+    </g>
+    <g id="그룹_18257" data-name="그룹 18257" transform="translate(15.09 -11.967)">
+      <path id="패스_18688" data-name="패스 18688" class="cls-5" d="M0,0H31.456s.155,9.076,7.128,9.076H4.8S-1.085,5.264,0,0Z"/>
+    </g>
+  </g>
+  <g id="그룹_18259" data-name="그룹 18259" transform="translate(26.497 21.576)">
+    <path id="패스_18690" data-name="패스 18690" class="cls-5" d="M0,0H9.571"/>
+  </g>
+  <g id="그룹_18260" data-name="그룹 18260" transform="translate(26.497 26.652)">
+    <path id="패스_18691" data-name="패스 18691" class="cls-5" d="M0,0H9.571"/>
+  </g>
+  <g id="그룹_18261" data-name="그룹 18261" transform="translate(26.497 31.73)">
+    <path id="패스_18692" data-name="패스 18692" class="cls-5" d="M0,0H9.571"/>
+  </g>
+  <g id="그룹_18262" data-name="그룹 18262" transform="translate(26.497 36.808)">
+    <path id="패스_18693" data-name="패스 18693" class="cls-5" d="M0,0H9.571"/>
+  </g>
+  <g id="그룹_18265" data-name="그룹 18265" class="cls-3" transform="translate(0 63.947)">
+    <g id="그룹_18263" data-name="그룹 18263" transform="translate(66.053 -21.275)">
+      <path id="패스_18694" data-name="패스 18694" class="cls-4" d="M0,0A21.259,21.259,0,0,0,21.429-21.086,21.26,21.26,0,0,0,0-42.172,21.26,21.26,0,0,0-21.429-21.086,21.259,21.259,0,0,0,0,0"/>
+    </g>
+    <g id="그룹_18264" data-name="그룹 18264" transform="translate(66.053 -21.275)">
+      <path id="패스_18695" data-name="패스 18695" class="cls-5" d="M0,0A21.259,21.259,0,0,0,21.429-21.086,21.26,21.26,0,0,0,0-42.172,21.26,21.26,0,0,0-21.429-21.086,21.259,21.259,0,0,0,0,0Z"/>
+    </g>
+  </g>
+  <g id="그룹_18266" data-name="그룹 18266" transform="translate(65.97 11.013)">
+    <path id="패스_18697" data-name="패스 18697" class="cls-5" d="M0,0V19.84"/>
+  </g>
+  <g id="그룹_18271" data-name="그룹 18271" class="cls-3" transform="translate(0 63.947)">
+    <g id="그룹_18267" data-name="그룹 18267" transform="translate(50.592 -43.051)">
+      <path id="패스_18698" data-name="패스 18698" class="cls-4" d="M0,0A5.4,5.4,0,0,0,5.467,5.324,5.4,5.4,0,0,0,10.935,0Z"/>
+    </g>
+    <g id="그룹_18268" data-name="그룹 18268" transform="translate(50.592 -43.051)">
+      <path id="패스_18699" data-name="패스 18699" class="cls-5" d="M0,0A5.4,5.4,0,0,0,5.467,5.324,5.4,5.4,0,0,0,10.935,0Z"/>
+    </g>
+    <g id="그룹_18269" data-name="그룹 18269" transform="translate(70.579 -43.051)">
+      <path id="패스_18700" data-name="패스 18700" class="cls-4" d="M0,0A5.4,5.4,0,0,0,5.467,5.324,5.4,5.4,0,0,0,10.935,0Z"/>
+    </g>
+    <g id="그룹_18270" data-name="그룹 18270" transform="translate(70.579 -43.051)">
+      <path id="패스_18701" data-name="패스 18701" class="cls-5" d="M0,0A5.4,5.4,0,0,0,5.467,5.324,5.4,5.4,0,0,0,10.935,0Z"/>
+    </g>
+  </g>
+  <g id="그룹_18272" data-name="그룹 18272" transform="translate(52.012 20.717)">
+    <path id="패스_18703" data-name="패스 18703" class="cls-5" d="M0,0,4.135-9.625H14.06"/>
+  </g>
+  <g id="그룹_18273" data-name="그룹 18273" transform="translate(56.193 11.006)">
+    <path id="패스_18704" data-name="패스 18704" class="cls-5" d="M0,0,3.961,9.719"/>
+  </g>
+  <g id="그룹_18274" data-name="그룹 18274" transform="translate(80.094 20.717)">
+    <path id="패스_18705" data-name="패스 18705" class="cls-5" d="M0,0-4.135-9.625H-14.06"/>
+  </g>
+  <g id="그룹_18275" data-name="그룹 18275" transform="translate(75.913 11.006)">
+    <path id="패스_18706" data-name="패스 18706" class="cls-5" d="M0,0-3.961,9.719"/>
+  </g>
+  <g id="그룹_18278" data-name="그룹 18278" class="cls-3" transform="translate(0 63.947)">
+    <g id="그룹_18276" data-name="그룹 18276" transform="translate(65.97 -50.652)">
+      <path id="패스_18707" data-name="패스 18707" class="cls-4" d="M0,0A2.076,2.076,0,0,0,2.056-2.1,2.079,2.079,0,0,0,0-4.2,2.079,2.079,0,0,0-2.056-2.1,2.076,2.076,0,0,0,0,0"/>
+    </g>
+    <g id="그룹_18277" data-name="그룹 18277" transform="translate(65.97 -50.652)">
+      <path id="패스_18708" data-name="패스 18708" class="cls-5" d="M0,0A2.076,2.076,0,0,0,2.056-2.1,2.079,2.079,0,0,0,0-4.2,2.079,2.079,0,0,0-2.056-2.1,2.076,2.076,0,0,0,0,0Z"/>
+    </g>
+  </g>
+  <path id="패스_18710" data-name="패스 18710" class="cls-6" d="M60.326-29.87h11.49v-2.976H60.326Z" transform="translate(0 63.947)"/>
+</svg>

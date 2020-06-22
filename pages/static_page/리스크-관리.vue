@@ -37,13 +37,13 @@
                     <b-row no-gutters class="bg-blue-gray1 mb-5 py-4 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3 " style="width: 48px;"><b-img src="/images/120_1.svg" fluid></b-img></div></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3 "><b-img src="/images/120_1.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">리스크 인지 및 보고</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>각 부서에서 실시간 정보 수집, 위기평가 회의 준비</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_2.svg" fluid></b-img></div></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_2.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">영향도 분석 및 대응 체계 수립</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
                                 <ul class="custom-ul"><li>리스크 정보 분석 및 영향 수준 평가, 위기경보 발령</li>
@@ -52,7 +52,7 @@
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_3.svg" fluid></b-img></div></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_3.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">경영진 보고</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
                                 <ul class="custom-ul"><li>리스크 현안 보고 및 핵심 의사결정</li>
@@ -60,13 +60,13 @@
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_4.svg" fluid></b-img></div></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_4.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">대응 활동 추진</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>상호 협력 기반 리스크 대응 활동 수행</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
-                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3" style="width: 48px;"><b-img src="/images/120_5.svg" fluid></b-img></div></div>
+                            <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_5.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">리스크 대응 현황 모니터링</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>리스크 모니터링 및 감사</li></ul></p>
                         </b-col> 

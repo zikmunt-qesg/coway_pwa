@@ -23,7 +23,7 @@
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-white px-4 py-4 mb-5">
+                <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'인권 리포트'" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">인권 리포트</h4-ancor>
 
@@ -44,7 +44,8 @@
                     </p>
                     <p class="mb-5"> 리스크 식별 단계에서는 인권위험과 영향 확인을 위한 자료를 조사하고, 협력회사, 고객, 지역단체를 포함한 이해관계자 조사를 실시하여 인권 위험을 식별합니다. 특히 2019년에는 코웨이 주요 협력사를 대상으로 온라인 기반 인권 조사를 진행하고, 주요 위험을 식별하였습니다. 인권 영향평가 결과 주요한 위험이 있을 경우 사업장 및 협력사를 대상으로 완화 행동계획 수립을 권고합니다. 완화 행동 실행과 조치 결과는 본 보고서에 포함되어 공개됩니다.
                     </p>
-                    <b-img src="/images/96_1.svg" fluid></b-img>
+                    <div class="position-relative"><hj-img src="/images/96_1.svg" fluid></hj-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem">코웨이 인권 리스크 식별 및 완화 프로세스</h7>
+                    </div>
                     <hr class="mb-4">
 
                     <h6-ancor :title="'핵심적 인권 요소에 대한 조치 결과'" :activated="activated" class="gold6 fw-500 mb-2">핵심적 인권 요소에 대한 조치 결과</h6-ancor>

@@ -23,7 +23,7 @@
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-white px-4 py-4 mb-5">
+                <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'협력사 CSR 리포트'" :activated="activated" class="gold8 mb-4 mb-sm-5">협력사 CSR 리포트</h4-ancor>
 
@@ -55,9 +55,9 @@
 
                         <h7 class="mb-1 gray63">협력사 CSR 리스크 평가 결과</h7>
                         <p class="f-80 gray6 mb-2"> (단위: %)</p>
-                        <div class="d-flex align-items-center"> <div style="width:16px; height:16px; background-color:#f0c560;" class="mr-2"></div><span class="f-95 fw-300">충족률</span></div>
+                        <div class="d-flex align-items-center"> <div style="width:16px; height:16px; background-color:#f0c560;" class="mr-2"></div><span class="f-90 fw-300">충족률</span></div>
                         <div class="d-sm-flex"> 
-                            <div class="d-flex align-items-end mb-3 mb-sm-0" style="padding-bottom:1.67rem"><b-img src="/images/94_1.svg" fluid></b-img></div>
+                            <div class="d-flex align-items-end mb-3 mb-sm-0" style="padding-bottom:1.7rem"><b-img src="/images/94_1.svg" fluid></b-img></div>
                             <div class="d-flex align-items-end"><b-img src="/images/95_1.svg" fluid></b-img></div>
                         </div>
                     <hr class="mb-4">
@@ -75,13 +75,13 @@
                             <b-thead><b-tr><b-td colspan="2"></b-td></b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td>2012-2013</b-td><b-td>&middot; 구매방침 및 제한 물질 리스트에 분쟁광물 사용 제한 항목 추가</b-td>
+                                    <b-td><span class="fw-400">2012-2013</span></b-td><b-td><span class="fw-400">&middot; 구매방침 및 제한 물질 리스트에 분쟁광물 사용 제한 항목 추가</span></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>2014-2016</b-td><b-td>&middot; 협력사 교육 및 시스템 구축<br>&middot; 분쟁광물 사용 현황 및 제련소 정보 조사 시행</b-td>
+                                    <b-td><span class="fw-400">2014-2016</span></b-td><b-td><span class="fw-400">&middot; 협력사 교육 및 시스템 구축<br>&middot; 분쟁광물 사용 현황 및 제련소 정보 조사 시행</span></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>2017-2018</b-td><b-td>&middot; 협력사 행동규범에 12조 책임 있는 광물 조달 제정<br>&middot; CSMS(화학물질관리시스템)내 분쟁광물 등록 시스템 통합 관리</b-td>
+                                    <b-td><span class="fw-400">2017-2018</span></b-td><b-td><span class="fw-400">&middot; 협력사 행동규범에 12조 책임 있는 광물 조달 제정<br>&middot; CSMS(화학물질관리시스템)내 분쟁광물 등록 시스템 통합 관리</span></b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -139,7 +139,7 @@
                         </b-table-simple>-->
 
                         <h7 class="mb-3 gray63">공급망 CSR 평가 현황(위험요인별)</h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
+                        <b-table-simple responsive class="num-table social-table f-95 mb-0">
                             <b-thead>
                                 <b-tr>
                                     <b-td colspan="4"></b-td>

@@ -28,8 +28,8 @@
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 pb-4 mb-2 mb-sm-0">  
-                            <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1 mb-3 mb-sm-0"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                            <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 gold7">
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/138_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
@@ -40,15 +40,15 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3"><b-img src="/images/139_1.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">파트너 기술 교육 및 서비스 교육</p>
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3"><b-img src="/images/139_2.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">현장 이슈 점검을 통한 전문성 향상</p>
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-2"><b-img src="/images/139_3.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">상생 커뮤니케이션</p>
                             </b-col>
                         </b-row>
@@ -56,23 +56,25 @@
                             <b-col class="col-12 col-md-7 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-3 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-4 text-center fw-500 px-lg-2"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-4 text-center fw-500 px-lg-2"><div class="mx-auto mb-2"><b-img src="/images/139_4.svg"></b-img></div>
                                         <p class="fw-500 word-break px-1 px-lg-2">대학 협력 아카데미 운영</p>
                                     </b-col>
-                                    <b-col class="col-4 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-4 text-center fw-500"><div class="mx-auto mb-3"><b-img src="/images/139_5.svg"></b-img></div>
                                         <p class="fw-500 word-break px-1 px-lg-2">파트너 서비스 툴백 (Tool bag) 제공</p>
                                     </b-col>
-                                    <b-col class="col-4 text-center fw-500"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="fw-500 word-break px-1 px-lg-2 font-noto">파트너 소통 3C* 간담회 실시</p>
+                                    <b-col class="col-4 text-center fw-500"><div class="mx-auto mb-3"><b-img src="/images/139_6.svg"></b-img></div>
+                                        <p class="fw-500 word-break pt-1 px-1 px-lg-2 font-noto">파트너 소통 3C* 간담회 실시</p>
                                     </b-col>
                                     <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, CS Dr., Call center</div>
                                 </b-row>
                             </b-col>
                             <b-col class="col-12 col-md-5 position-relative pl-md-4">
                                 <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                <h7 class="gold7 mb-45 w-100">Performance</h7>                                    
-                                    <p class="fw-500 line-height-low f-130 word-break font-noto">코로나19 특별재난지역 파트너 긴급생활비 지원</p>
-                                    <p class="fw-500 line-height-low f-130 word-break font-noto">3C 간담회 기반 9개 유형의 VOC 개선</p>
+                                <h7 class="gold7 mb-3 mb-md-5 w-100">Performance</h7> 
+                                <div class="d-flex justify-content-around mb-3 mb-md-0">                                   
+                                    <div class="fw-400 f-120 line-height-low letter-narrow word-break font-noto text-center">코로나19 특별재난지역 파트너 긴급생활비 지원</div>
+                                    <div class="fw-400 f-120 line-height-low letter-narrow word-break font-noto px-2 text-center">3C 간담회 기반 9개 유형의 VOC 개선</div>
+                                </div>
                             </b-col>                            
                         </b-row>
                     </div>

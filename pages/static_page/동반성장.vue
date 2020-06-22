@@ -27,9 +27,9 @@
                                 <h4-ancor :title="'동반성장'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">동반성장</h4-ancor>
                             </b-col>
                         </b-row>
-                        <b-row no-gutters class="px-3 pb-4 mb-5 mb-sm-0">  
-                            <b-col class="col-12 col-sm-4">
-                                <div class="temp-icon1"> <b-img src="/images/구성 요소8_1@2x.png" fluid class="h-100"></b-img> </div>
+                         <b-row no-gutters class="px-3 py-4">
+                            <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 gold7">
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/140_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
@@ -40,26 +40,26 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-sm-2">착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
+                                <div class="mx-auto mb-2"><b-img src="/images/141_1.svg" fluid ></b-img> </div>
+                                <p class="fw-500 word-break">착한믿음협의회 및 상생포털을 통한 협력사 소통</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3"><b-img src="/images/141_2.svg" fluid ></b-img> </div>
                                 <p class="fw-500 word-break px-sm-2">경영안정 기반 강화 지원</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3"><b-img src="/images/141_3.svg" fluid ></b-img> </div>
                                 <p class="fw-500 word-break px-sm-2">성장 인프라 지원</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-2"><b-img src="/images/141_4.svg" fluid ></b-img> </div>
                                 <p class="fw-500 word-break px-sm-2"><span class="fw-600">1</span>차 협력사의 <span class="fw-600">2</span>차 협력사 지원</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
-                                <div class="text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="text-center"><div class="mx-auto mb-3"><b-img src="/images/141_5.svg" fluid ></b-img></div>
                                     <p class="fw-500 word-break px-lg-3">공정거래 4대 가이드라인을 기반으로 투명한 거래 문화 조성</p>
                                 </div>
                             </b-col>
@@ -67,8 +67,18 @@
                                 <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
 
                                 <h7 class="gold7 mb-4 w-100">Performance</h7>
-                                    <p class="fw-400 line-height-low f-130 word-break">동반성장위원회 동반성장지수<br>2018까지 5년연속 최우수 등급 획득,<br> 2019년 우수 등급 획득</p>
-                                    <p class="fw-400 line-height-low f-130 word-break">1,2차 간 상생협력을 위한 협약 체결 64건 달성</p>
+                                <b-row>
+                                    <b-col class="col-7">
+                                        <p class="fw-500 line-height-low word-break text-center mb-3">동반성장위원회 동반성장지수</p>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p class="fw-400 gray63 word-break w-50 text-center px-2"> 2018까지 5년연속 최우수 등급 획득</p><p class="fw-400 gray63 word-break w-50 px-3 text-center">2019년 우수 등급 획득</p>
+                                        </div>
+                                    </b-col>
+                                    <b-col class="col-5">
+                                        <div class="text-center mt-m-3"><span class="f-330 fw-400 font-italic">64</span> 건</div>
+                                        <p class="fw-400 gray63 text-center word-break">1, 2차 간 상생협력을 위한 협약 체결</p>
+                                    </b-col>
+                                </b-row>
                             </b-col>                            
                         </b-row>
                     </div>
@@ -76,17 +86,17 @@
                 <hr class="py-2">
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사와의 소통을 통한 성장 지원'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사와의 소통을 통한 성장 지원</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사와의 소통을 통한 성장 지원'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사와의 소통을 통한 성장 지원</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">코웨이는 협력사와의 열린 소통을 기반으로 건전한 산업 생태계를 조성하기 위해 동반성장을 추진하고 있습니다. 코웨이의 동반성장 추진 전략은 1) 품질/원가/기술/생산성 경쟁력 확보, 2) 지속가능 경영기반 강화, 3) 경영안정성 확보를 기반으로 글로벌 경쟁력을 확보하는 것입니다. 이에 따라 코웨이는 협력사와의 열린 소통을 동반성장 전략 이행의 핵심 전략으로 추진하고 있습니다. 
                         </p>
-                        <b-img src="/images/67_1.svg" fluid class="w-100"></b-img>
+                        <hj-img src="/images/67_1.svg" fluid class="w-100"></hj-img>
                         <hr class="space-p25">
 
                         <p class="mb-3">코웨이는 정기적인 협의 채널인 착한믿음협의회를 운영하여 협력사와의 수평적 커뮤니케이션을 통해 산업 환경의 변화를 주도하고, 스마트한 커뮤니케이션을 위한 온라인 소통채널로 상생포털을 운영하고 있습니다. 간담회 위주의 정형화된 소통에서 벗어나 수평적이고 자율적인 협력사 소통을 위해 2011년부터 ‘착한믿음협의회’를 운영하고 있습니다. 착한믿음협의회는 코웨이의 주요 1차 및 2차 협력사가 참여하고 있습니다. 2019년 착한믿음협의회 참여기업은 67개사로, 생산성 혁신 활동 및 해외 우수기업 벤치마킹 등 기업 경쟁력 강화 활동을 진행하였습니다. 2019년 착한믿음협의회 활동 핵심 주제는 스마트팩토리(Smart Factory)와 생산성 향상으로, 교육 프로그램 ‘SMART DAY’를 4회 개최하였으며, 일본의 스마트팩토리 우수 도입 기업에 벤치마킹 연수를 실시하였습니다.
                         </p>
                         <p class="mb-45">온라인 동반성장 커뮤니티 ‘상생포털’은 산업 내 다양한 정보를 공유하고 동반성장 전략 및 혁신활동 등을 추진하는 기반 플랫폼으로 기능합니다. 2019년에는 6,541명의 협력사 임직원이 접속하여 12,636건의 댓글 소통을 진행하는 등 활발한 정보 공유의 장으로 활동을 이어 나가고 있습니다.
                         </p>
-                        <b-img src="/images/16_1.svg" fluid></b-img>
+                        <hj-img src="/images/16_1.svg" fluid></hj-img>
                         <hr class="space-p25">
                         <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" block>상생포털 바로가기</b-button></a>
 

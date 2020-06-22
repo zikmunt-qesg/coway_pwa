@@ -20,7 +20,7 @@
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-white px-4 py-4 mb-5">
+                <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'경제적 가치 창출과 분배'" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">경제적 가치 창출과 분배</h4-ancor>
 
@@ -50,11 +50,8 @@
                     <p class="mb-45">2019년 해외사업 매출은 7,491억 원으로 전년대비 37.7% 성장하였습니다. 말레이시아 및 미국법인의 매출이 큰 폭으로 증가하며 해외법인은 고성장을 지속하고 있습니다. 주요 법인별로는 말레이시아 법인의 매출이 전년 3,534억 원 대비 48.9% 증가하여 5,263억 원을 달성하였으며, 관리계정은 2018년 97만 6,000계정에서 135만 4,000 계정으로 38.8% 증가하였습니다. 미국 또한 전년 805억 원 대비 20.9% 성장한 973억 원의 매출, 11만 4,000계정에서 4.7% 증가한 12만 계정을 달성하며 견조한 성장세를 유지하고 있습니다. 
                     </p>
 
-                    <div class="position-relative"> <hj-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></hj-img>
-                    <div class="position-absolute text-center w-100 h-100" style="top:36%; left:0; width: 70px;">
-                        <h7 class="mb-2 font-noto parang7">제품별<br>수출비중 </h7>
-                        <div class="fw-300 f-80 mb-1"> (단위: %)</div>
-                    </div></div>
+                    <hj-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></hj-img>
+                   
 
                     <hr class="mb-3">
 
