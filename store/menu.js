@@ -143,15 +143,15 @@ export const state = () => ({
                         [
                             {
                                 title: '윤리강령',
-                                link: '/static_page/윤리경영#윤리강령'
+                                link: '/static_page/윤리경영#윤리강령CodeofConduct'
                             },
                             {
                                 title: '윤리진단',
-                                link: '/static_page/윤리경영#윤리진단'
+                                link: '/static_page/윤리경영#윤리진단ComplianceCheckOrganization'
                             },
                             {
                                 title: '윤리교육',
-                                link: '/static_page/윤리경영#윤리교육'
+                                link: '/static_page/윤리경영#윤리교육ConsensusbyEthicEducation'
                             }
                         ]
                 },
@@ -245,7 +245,7 @@ export const state = () => ({
                             },
                             {
                                 title: '온실가스 · 에너지 및 기타 환경 데이터',
-                                link: '/static_page/기후변화-대응#온실가스에너지및기타환경 데이터'
+                                link: '/static_page/기후변화-대응#온실가스에너지및기타환경데이터'
                             }
                         ]
                 }

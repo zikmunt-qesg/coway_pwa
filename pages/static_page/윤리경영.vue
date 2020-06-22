@@ -34,13 +34,13 @@
                     </p>
 
                     <a href="/documents/code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리헌장</b-button></a>
-                    <a href="/documents/code_of_conduct_guideline.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리규정</b-button></a>
-                    <a href="/documents/code_of_conduct/instruction.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3">윤리실천지침</b-button></a>
+                    <a href="/documents/code_of_conduct_guideline.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리규정</b-button></a>
+                    <a href="/documents/code_of_conduct_instruction.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3">윤리실천지침</b-button></a>
 
                     <p class="mb-3">코웨이는 홈페이지에 이해관계자가 제보하는 잘못된 관행이나 정책에 대한 개선사항을 접수 받는 윤리제보센터를 운영하고 있습니다. 코웨이는 우편, 팩스 및 온라인을 통해 제보를 접수받고 있습니다. 제보가 접수되면 윤리경영실에서 사안을 판단하여 조사를 진행하고 있으며, 제보된 사안과 동일 또는 유사한 사안이 재발하지 않도록 필요한 경우 사례공유 및 교육을 진행합니다. 코웨이는 제보자를 보호하기 위해 제보자 보호 및 포상 지침을 수립하여 적용하고 있습니다. 
                     </p>
 
-                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blink"><b-button variant="parang" size="sm" block>윤리 제보센터</b-button></a>
+                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" size="sm" block>윤리 제보센터</b-button></a>
                     <hr class="mb-2">
 
                     <hj-img src="/images/34_1.svg" fluid></hj-img>

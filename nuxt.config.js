@@ -111,8 +111,6 @@ export default {
     // 기본 스크롤 행동을 아래와 같이 바꾼다. 댓글링크를 클릭시 게시글내의 댓글을 찾아갈 수 있도록 도와준다. (기본 브라우저 기능과 동일하게 동작하게 만든다.)
     scrollBehavior: async (to, from, savedPosition) => {
       
-      
-      // 만약 새창이나 새 팝업에 앵커 링크를 연다면 다시 다른 링크를 눌러 동일 URL의 앵커만 다른 경우 이 코드때문에 제대로 스크롤되지 않고 기존 스크롤을 그대로 유지한다. 이상하게 한번 더 앵커링크를 누르면 그때야 움직인다.
       if (savedPosition) {
         console.log('nuxt.config.js router: schrollBehavior(0): savedPosition', savedPosition)
         return savedPosition

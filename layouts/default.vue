@@ -16,6 +16,7 @@ import siteHeader from '@/components/header.vue'
 import siteFooter from '@/components/footer.vue'
 
 export default {
+  
   components: {
     siteHeader,
     siteFooter
@@ -33,7 +34,7 @@ export default {
     if (this.is_articles_loaded != true) {
       this.readArticles()
     }
-  }
+  },
 }
 </script>
 <style>
