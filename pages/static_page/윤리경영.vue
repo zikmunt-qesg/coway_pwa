@@ -33,9 +33,9 @@
                     <p class="mb-3">코웨이는 책임있는 윤리 실천을 위해 ‘클린 코웨이(Clean Coway)’를 비전으로 윤리경영 문화를 조성하고 있습니다. 코웨이는 윤리헌장, 윤리규정, 윤리실천지침을 제정하여 임직원 및 이해관계자의 윤리적 행동 지침을 명확하게 규정하고 적용하고 있습니다. 윤리헌장은 클린 코웨이의 기본 원칙을 정립하며, 윤리규정을 통해 임직원 및 이해관계자의 윤리적 행동 및 가치판단의 기준을 명시합니다. 또한 윤리실천지침을 통해 구체적인 실천사항을 규정하여 다양한 윤리 이슈에 대응할 수 있는 지침을 마련하였습니다.
                     </p>
 
-                    <a href="http://sustainability18.coway.co.kr/download/20140624%EC%9C%A4%EB%A6%AC%ED%97%8C%EC%9E%A5.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리헌장</b-button></a>
-                    <a href="http://sustainability18.coway.co.kr/download/20130529%EC%9C%A4%EB%A6%AC%EA%B7%9C%EC%A0%95.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리규정</b-button></a>
-                    <a href="http://sustainability18.coway.co.kr/download/%EC%BD%94%EC%9B%A8%EC%9D%B4%20%EC%9C%A4%EB%A6%AC%EC%8B%A4%EC%B2%9C%EC%A7%80%EC%B9%A8.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3">윤리실천지침</b-button></a>
+                    <a href="/documents/code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리헌장</b-button></a>
+                    <a href="/documents/code_of_conduct_guideline.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리규정</b-button></a>
+                    <a href="/documents/code_of_conduct/instruction.pdf" target="_blink"><b-button variant="parang" size="sm" class="mb-45 px-md-3">윤리실천지침</b-button></a>
 
                     <p class="mb-3">코웨이는 홈페이지에 이해관계자가 제보하는 잘못된 관행이나 정책에 대한 개선사항을 접수 받는 윤리제보센터를 운영하고 있습니다. 코웨이는 우편, 팩스 및 온라인을 통해 제보를 접수받고 있습니다. 제보가 접수되면 윤리경영실에서 사안을 판단하여 조사를 진행하고 있으며, 제보된 사안과 동일 또는 유사한 사안이 재발하지 않도록 필요한 경우 사례공유 및 교육을 진행합니다. 코웨이는 제보자를 보호하기 위해 제보자 보호 및 포상 지침을 수립하여 적용하고 있습니다. 
                     </p>
