@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #85c16b;
+        fill: #92bc49;
       }
 
       .cls-2 {
@@ -22,16 +22,16 @@
       }
     </style>
   </defs>
-  <g id="구성_요소_12_1" data-name="구성 요소 12 – 1" transform="translate(0.5 0.5)">
-    <g id="그룹_30" data-name="그룹 30" transform="translate(-851.953 -1848.1)">
-      <path id="패스_94" data-name="패스 94" class="cls-1" d="M876.453,1892.554A19.954,19.954,0,1,0,856.5,1872.6a19.954,19.954,0,0,0,19.955,19.954"/>
+  <g id="구성_요소_11_1" data-name="구성 요소 11 – 1" transform="translate(0.5 0.5)">
+    <g id="그룹_149" data-name="그룹 149" transform="translate(-851.953 -1848.1)">
+      <path id="패스_359" data-name="패스 359" class="cls-1" d="M876.453,1892.554A19.954,19.954,0,1,0,856.5,1872.6a19.953,19.953,0,0,0,19.955,19.953"/>
     </g>
-    <text id="_2" data-name="2" class="cls-2" transform="translate(19.941 30.785)"><tspan x="0" y="0">2</tspan></text>
-    <line id="선_50" data-name="선 50" class="cls-3" x2="86.402" transform="translate(59.178 24.5)"/>
-    <line id="선_51" data-name="선 51" class="cls-3" y2="4.5" transform="translate(59.178 22.25)"/>
-    <g id="그룹_31" data-name="그룹 31" transform="translate(-851.953 -1848.1)">
-      <path id="패스_95" data-name="패스 95" class="cls-4" d="M876.453,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
+    <text id="_2" data-name="2" class="cls-2" transform="translate(19.941 30.786)"><tspan x="0" y="0">2</tspan></text>
+    <line id="선_989" data-name="선 989" class="cls-3" x2="86.402" transform="translate(59.178 24.5)"/>
+    <line id="선_990" data-name="선 990" class="cls-3" y2="4.5" transform="translate(59.178 22.25)"/>
+    <g id="그룹_150" data-name="그룹 150" transform="translate(-851.953 -1848.1)">
+      <path id="패스_360" data-name="패스 360" class="cls-4" d="M876.453,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
     </g>
-    <path id="패스_96" data-name="패스 96" class="cls-4" d="M888.164,1854.931l-1.221-4.768,4.844-.871" transform="translate(-851.953 -1848.1)"/>
+    <path id="패스_361" data-name="패스 361" class="cls-4" d="M888.164,1854.931l-1.221-4.768,4.844-.871" transform="translate(-851.953 -1848.1)"/>
   </g>
 </svg>

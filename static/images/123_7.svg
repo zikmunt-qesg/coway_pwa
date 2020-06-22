@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150.646" height="155.287" viewBox="0 0 150.646 155.287">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.05px;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #1e2323;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-3 {
+        font-size: 25px;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        font-size: 13px;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.014em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.015em;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_9_1" data-name="구성 요소 9 – 1" transform="translate(0.525)">
+    <g id="그룹_140" data-name="그룹 140" transform="translate(-1325.447 -1253.086)">
+      <path id="패스_332" data-name="패스 332" d="M1475.567,1336.21a71.925,71.925,0,1,1-72.163-71.687,71.926,71.926,0,0,1,72.163,71.687"/>
+      <path id="패스_333" data-name="패스 333" class="cls-1" d="M1391.938,1259.067q2.256-.15,4.549-.158a71.206,71.206,0,1,1-10.006.73"/>
+      <path id="패스_334" data-name="패스 334" class="cls-2" d="M1391.938,1259.067q2.256-.15,4.549-.158a71.2,71.2,0,1,1-12.255,1.091"/>
+    </g>
+    <path id="패스_335" data-name="패스 335" d="M1379.163,1269.91l-1.713-1.218,6.012-8.431-8.849-5.38,1.094-1.8,10.775,6.555Z" transform="translate(-1325.447 -1253.086)"/>
+    <text id="NET_" data-name="NET " class="cls-3" transform="translate(50.113 79.972)"><tspan class="cls-4" x="0" y="0">N</tspan><tspan class="cls-5" y="0">E</tspan><tspan y="0">T </tspan></text>
+    <text id="ZERO" class="cls-3" transform="translate(42.113 106.972)"><tspan class="cls-5" x="0" y="0">ZER</tspan><tspan y="0">O</tspan></text>
+    <text id="달성" class="cls-6" transform="translate(61.613 125.972)"><tspan class="cls-7" x="0" y="0">달</tspan><tspan y="0">성</tspan></text>
+    <text id="탄소_배출량" data-name="탄소 배출량" class="cls-6" transform="translate(42.243 45.582)"><tspan class="cls-7" x="0" y="0">탄</tspan><tspan class="cls-8" y="0">소</tspan><tspan class="cls-7" y="0" xml:space="preserve"> 배</tspan><tspan class="cls-8" y="0">출</tspan><tspan y="0">량</tspan></text>
+  </g>
+</svg>

@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
                             <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 green7">
-                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/구성 요소8_1@2x.png" fluid ></b-img> </div>
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/125_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
@@ -43,11 +43,11 @@
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-0 col-md-1"></b-col>
                             <b-col class="col-6 col-md-5 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/126_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">친환경 · 착한 브랜드 정립</p>
                             </b-col>
                             <b-col class="col-6 col-md-5 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/127_1.svg" fluid class="h-100"></b-img> </div>
                                 <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">전과정 친환경 경영을 통한 자원효율성 향상과 순환경제 구현</p>
                             </b-col>
                             <b-col class="col-0 col-md-1"></b-col>
@@ -55,7 +55,7 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
                             <b-col class="col-12 col-md-4 pr-md-4 mb-4 mb-md-0 text-center">
                                 <h7 class="green7 f-120 mb-4 w-100 text-left">Business Cases</h7>
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/128_1.svg" fluid class="h-100"></b-img></div>
                                 <p class="fw-500 word-break px-md-2 px-xl-4">냉매 회수 및 재활용, 리퍼브 판매 확대</p>                                   
                             </b-col>
                             <b-col class="col-12 col-md-8 position-relative pl-md-4">
@@ -63,10 +63,10 @@
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center mb-3 pb-1">                                    
                                     <b-col class="col-6 text-center">                   
-                                        <span class="f-330 fw-400">6,125</span><span class="f-130 fw-500">대</span>                
+                                        <span class="f-330 fw-400 font-italic">6,125</span><span class="f-130 fw-500"> 대</span>                
                                     </b-col>
                                     <b-col class="col-6 text-center">
-                                        <span class="f-330 fw-400">100</span><span class="f-130 fw-500">%</span>   
+                                        <span class="f-330 fw-400 font-italic">100</span><span class="f-130 fw-500"> %</span>   
                                     </b-col>
                                 </b-row>
                                 <b-row no-gutters class="align-items-start">                                    
@@ -95,7 +95,7 @@
                     <h6-ancor :title="'친환경 제품 인증 획득'" :activated="activated" class="fw-500 green5 mb-3 f-105">친환경 제품 인증 획득</h6-ancor>
                     <p class="mb-45">코웨이는 탄소성적표지, 환경마크 인증 제도 등을 통해 소비자에게 제품의 환경성 개선 정보를 지속적으로 제공하고 있습니다.
                     </p>
-                    <b-table-simple responsive class="txt-table env-table">
+                    <b-table-simple responsive class="txt-table env-table f-95">
                         <b-thead><b-tr>
                             <b-td class="text-left">인증</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                         </b-tr></b-thead>
@@ -122,7 +122,7 @@
                     </ol>
                     
                     <h7 class="mb-3 gray63">친환경제품 매출 현황 <span class="f-80 fw-300"> (단위: 억 원)</span></h7>
-                    <b-table-simple responsive class="txt-table env-table mb-5">
+                    <b-table-simple responsive class="txt-table env-table mb-5 f-95">
                         <b-thead><b-tr>
                             <b-td class="text-left">구분</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                         </b-tr></b-thead>
@@ -186,11 +186,15 @@
                     <h6-ancor :title="'자원효율성 KPI'" :activated="activated" class="fw-500 green5 mb-3 f-105">자원효율성 KPI</h6-ancor>
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
-                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative" style="max-width: 250px;"><hj-img src="/images/29_1.svg" fluid></hj-img></b-col>
-                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative" style="max-width: 250px;"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <hj-img src="/images/30_1.svg" fluid ></hj-img></b-col>
-                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative" style="max-width: 250px;"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <hj-img src="/images/31_1.svg" fluid ></hj-img></b-col>
+                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex">
+                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">2030년까지 폐기물 재활용율</p></div>
+                        </b-col>
+                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
+                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">2030년까지 사업장 폐기물 재자원화율</p></div>
+                        </b-col>
+                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
+                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">2<span class="f-160">만대</span></p><p class="word-break">2030년까지 리퍼브 제품 판매</p></div>
+                        </b-col>
                     </b-row>
                     <p class="mb-5">코웨이는 위기에 처한 환경을 보호하고 자원의 낭비를 막고자, 새로운 개념인 순환경제에 초점을 맞추어 활동을 펼치고 있습니다. 코웨이는 자원을 한 번만 쓰고 버리는 기존의 방식을 넘어, 제품이 사용된 후에도 회수와 물질 재활용을 통해 지속적으로 자원이 다시 사용될 수 있도록 많은 노력을 쏟고 있습니다. 리퍼브 제도 운영, 제·부품 물질 재활용, 매립 zero화, 전 과정에서 발생한 폐기물을 폐기물에너지화 하는 등 이러한 순환경제시스템을 통해 폐기물 소각으로 인해 발생하는 온실가스와 오염물질을 감소시키며, 매립으로 인한 토양 및 지하수 오염도 방지하고 있습니다.
                     </p>
@@ -203,8 +207,10 @@
                     </p>
                     <p class="mb-3"> 또한, 코웨이는 비즈니스 전 영역에서 발생하는 폐기물에 대한 정량화 관리를 통해 재활용 확대, 폐기물 제로화, 발생 비용을 최소화하기 위해 노력과 활동을 지속적으로 하고 있습니다. 특히 사업장, 서비스 폐기물은 99%이상 생활 폐기물에너지화(RDF, Refuse Derived Fuel)처리를 통해 폐기물 제로화를 추진하고 있습니다. 코웨이가 제조하는 생활환경가전은 음융, 흡입 등 고객의 안전과 건강에 밀접한 관련이 있어 현재는 재활용 원료를 적용하고 있지는 않지만, 향후에는 재생원료 사용이 가능한 부품을 검토하여 적용 예정입니다.
                     </p>
-                    <p class="mb-5"> 코웨이는 한 번 사용된 제품을 다시 재생하여 사용하여 순환경제에 이바지하고 있습니다. 2007년 렌탈 가전 업계 최초로 리퍼브 제도를 도입하여, 내부적으로는 렌탈 폐기 절감과 외부적으로는 가격 경쟁력 모델 운영 및 자원재활용을 통한 가치를 창출하고 있습니다. 리퍼브 제품은 정상가 대비 평균 렌탈료 기준 20% 할인된 가격으로 판매되며, 19에는 전체 판매량의 0.4% 차지합니다.  향후에는 리퍼브 제품군 판매 활성화 및 고객 인식 제고를 위해 자원재활용, 친환경, 착한소비 컨셉에 부합되는 메시지를 전달하여 고객과 커뮤니케이션을 추진할 계획입니다.
-                    </p>
+                    <p class="mb-45"> 코웨이는 한 번 사용된 제품을 다시 재생하여 사용하여 순환경제에 이바지하고 있습니다. 2007년 렌탈 가전 업계 최초로 리퍼브 제도를 도입하여, 내부적으로는 렌탈 폐기 절감과 외부적으로는 가격 경쟁력 모델 운영 및 자원재활용을 통한 가치를 창출하고 있습니다. 리퍼브 제품은 정상가 대비 평균 렌탈료 기준 20% 할인된 가격으로 판매되며, 19에는 전체 판매량의 0.4% 차지합니다.  향후에는 리퍼브 제품군 판매 활성화 및 고객 인식 제고를 위해 자원재활용, 친환경, 착한소비 컨셉에 부합되는 메시지를 전달하여 고객과 커뮤니케이션을 추진할 계획입니다.
+                    </p> 
+                    <div class="position-relative"> <hj-img src="/images/129_1.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">재활용 프로세스</h7></div>
+                    <hr class="space-25"> 
                     <h7 class="mb-3 gray63">유형별 폐기물 발생량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
@@ -236,7 +242,7 @@
                                     <b-td class="text-left">소계</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="8">사업장(제조공장)</b-td><b-td class="text-left" rowspan="4">일반</b-td><b-td class="text-left">소각</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
+                                    <b-td class="text-left" rowspan="8" style="width:13%;">사업장(제조공장)</b-td><b-td class="text-left" rowspan="4">일반</b-td><b-td class="text-left">소각</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
@@ -307,17 +313,25 @@
                     <h6-ancor :title="'리퍼브 제도'" :activated="activated" class="fw-500 green5 mb-3 f-105">리퍼브 제도</h6-ancor>
                     <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
                     </p>
-                    <b-img src="/images/33_1@3x.png" fluid class="w-100"></b-img>
-                    <hr class="mb-2">
-                    <b-row no-gutters>
-                        <b-col class="col-12 col-sm-7"><b-img src="/images/36_1.svg" fluid style="width: 88%;"></b-img></b-col>
-                        <b-col class="col-12 col-sm-5"><b-img src="/images/35_1.svg" fluid class="w-100"></b-img></b-col>
+                    <h7 class="mb-3 gray63 font-noto">리퍼브 프로세스</h7>
+                    <b-img src="/images/130_1.svg" fluid class="w-100"></b-img>
+                    <hr class="mb-4">
+                    <b-row no-gutters class="mb-5">
+                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 코웨이 리퍼프 제품 판매 목표</h7>
+                            <b-img src="/images/36_1.svg" fluid style="width: 88%;"></b-img>
+                        </b-col>
+                        <b-col class="col-12 col-sm-5 position-relative d-flex align-items-end">
+                            <div class="position-absolute" style='top:0;'><h7 class="mb-3 gray63 font-noto">2020년 목표 판매량</h7>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px;" class="mr-1 bg-green7"></div> 비데 </div>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#92bc49;" class="mr-1"></div> 청정기 </div>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#c6da98;" class="mr-1"></div> 정수기 </div>
+                            </div>
+                            <b-img src="/images/35_1.svg" fluid class="w-100"></b-img>
+                        </b-col>
                     </b-row>
-
-                    <hr class="mb-2">
-
+                    <hr class="py-2">
                     <h7 class="mb-3 gray63">리퍼브 제품 판매량 <span class="f-80 fw-300">(단위: 대)</span> </h7>
-                        <b-table-simple responsive class="num-table env-table f-95">
+                        <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
@@ -337,13 +351,13 @@
                             </b-tbody> 
                         </b-table-simple>
                     
-                    <hr class="mb-2">
+                    <hr class="py-3">
                     
                     <h6-ancor :title="'전과정 수자원 사용량 절감 '" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 수자원 사용량 절감 </h6-ancor>
                     <p class="mb-45"> 코웨이는 최종 조립 및 검사 공정의 비중이 높아 제품 생산 과정에서 수자원 사용량이 많지 않으며, 폐수 또한 배출하지 않습니다. 그러나 수자원 사용으로 인한 환경적 영향을 최소화 하기 위해 물 사용 공정을 지속적으로 개선하고, 물 대신 질소, 진공을 이용한 ‘워터리스’ 시스템을 도입하는 등 물 사용량을 관리하기 위해 지속적인 노력을 기울이고 있습니다.
                     </p>
 
-                    <h7 class="mb-3 gray63">워터리스 시스템을 통한 수자원 사용 절감량 <span class="f-80 fw-300"> (단위: 톤)</span> </h7>
+                    <h7 class="mb-2 gray63">워터리스 시스템을 통한 수자원 사용 절감량 <span class="f-80 fw-300"> (단위: 톤)</span> </h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
                                 <b-td class="text-left"></b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 

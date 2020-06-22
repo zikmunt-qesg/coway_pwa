@@ -29,7 +29,7 @@
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
                             <b-col class="col-12 col-sm-4 mb-5 mb-sm-0 fw-500 green7">
-                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/구성 요소8_1@2x.png" fluid ></b-img> </div>
+                                <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/122_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
@@ -39,19 +39,19 @@
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_1.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">친환경 · 착한 브랜드 정립</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_2.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">에코 비즈니스 (Eco-Business) 구축</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_3.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">친환경 가치사슬 구축 및 운영</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
-                                <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img> </div>
+                                <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_4.svg" fluid></b-img> </div>
                                 <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">친환경 소통과 참여 확대</p>
                             </b-col>
                         </b-row>
@@ -59,15 +59,15 @@
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-12 col-sm-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-4">Ecoway 협의체 부문 확대</p>
+                                    <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_5.svg" fluid ></b-img></div>
+                                        <p class="fw-500 word-break px-md-2 px-xl-3">Ecoway 협의체 부문 확대</p>
                                     </b-col>
-                                    <b-col class="col-12 col-sm-6 text-center"><div class="temp-icon2 mx-auto mb-3"><b-img src="/images/구성 요소10_1.svg" fluid class="h-100"></b-img></div>
+                                    <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_6.svg" fluid ></b-img></div>
                                         <p class="fw-500 word-break px-md-2 px-xl-4">전과정 수자원 절감</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
-                            <b-col class="col-12 col-md-7 position-relative pl-md-4">
+                            <b-col class="col-12 col-md-7 position-relative pl-md-5">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center">                                    
@@ -75,7 +75,7 @@
                                         <p class="fw-500 word-break">2050년까지 신재생에너지 RE100, 탄소 배출량 제로 NET ZERO 달성 </p>
                                         <p class="f-90 fw-300 word-break">(2030년 신재생 50%, 2040년 75%, 2050년 100%)</p>
                                     </b-col>
-                                    <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/구성 요소15_1.svg" fluid class="w-100"></b-img></div></b-col>
+                                    <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/123_7.svg" fluid class="w-100"></b-img></div></b-col>
                                 </b-row>
                             </b-col>
                         </b-row>
@@ -119,14 +119,15 @@
                         </div>
                         <div class="border-bottom-dark mb-5"></div>
                         <hr class="py-2">
-                    <h6-ancor :title="'환경경영 전략'" :activated="activated" class="green6 fw-500 mb-3">환경경영 전략</h6-ancor>
+                    <h6-ancor :title="'환경경영 전략'" :activated="activated" class="green5 fw-500 mb-3">환경경영 전략</h6-ancor>
                         <p> 코웨이는 고객에게 환경을 고려한 제품 및 서비스를 통해 친환경 가치를 제공하고자 노력하고 있습니다. 또한 인간과 자연(환경)을 존중하고 상호간의 밸런스를 유지하는 것을 최우선 가치로 인식하며 사회적 책임, 환경적 책임을 다하는 지속가능경영을 지속하고자 합니다. 
                         </p>
                         <p> 운영환경효율성 측면에서 코웨이의 중장기적 환경목표 핵심은 2050년까지 신재생에너지 100%와 탄소중립 달성, 2030년까지 폐기물 재활용률 100% 달성, 2050년까지 수자원 재활용률을 100% 달성하는 것입니다. 이러한 코웨이의 추진 목표의 중점은 지구 환경보전과 인간의 풍요로운 삶의 밸런스 유지, 친환경 기술과 제품, 서비스 제공을 통한 지속가능한 지구환경의 밸런스 유지 기여를 통해 지속가능한 발전 목표(SDGs, Sustainable Development Goals) 달성에 기여하는데 있습니다.
                         </p>
                 </section>
                 <section class="bg-blue-gray1 px-3 py-5 mb-5 text-center">
-                    <h4 class="fw-600 green7 mb-3">Green Up</h4>
+                    <hj-img src="/images/124_1.svg" fluid></hj-img>
+                    <!-- <h4 class="fw-600 green7 mb-3">Green Up</h4>
                     <h6 class="fw-600 green7 mb-3">환경을 건강하게 사람을 행복하게</h6>
                     <div class="mb-4 d-flex justify-content-between bg-white p-3 fw-500">
                         <div class="" style="color:#46776b;"> Cordial Life Care Science & Solution Company </div>
@@ -173,10 +174,10 @@
                             <p class="mb-1 green5 fw-500">COMMUNICATION</p>
                             <p class="mb-0 word-break">친환경 소통과 참여 확대 / Eco-DNA 내재화 </p>
                         </b-col>
-                    </b-row>
+                    </b-row> -->
                 </section>
                 <hr class="py-1">
-                <h6-ancor :title="'환경경영 추진 체계'" :activated="activated" class="mb-3 green6">환경경영 추진 체계</h6-ancor>
+                <h6-ancor :title="'환경경영 추진 체계'" :activated="activated" class="mb-3 green5">환경경영 추진 체계</h6-ancor>
                     <p> 코웨이는 전사 영역에서의 환경경영 실천을 위해 환경경영위원회를 운영하고 있습니다. 환경경영위원회는 TQA센터 본부장을 환경경영 최고 책임자로 임명하여 운영하고 있으며, 환경경영팀을 중심으로 환경 전략을 추진하고 있습니다. 전사적인 환경경영 내재화를 위해 각 부문에서 참여하는 협의체로 ‘Ecoway 협의체’를 구성하여 정기적으로 환경 관련 이슈를 논의하고 있습니다. 
                     </p>
                     <p> 2019년 Ecoway 협의체에서는 전사적인 환경경영과 관련한 주요 지표 4개 항목(기후변화, 자원순환, 친환경설계, 화학물질 안전성 평가)에 대한 운영활동 및 성과보고가 있었습니다. 첫째로 온실가스 대응 부문에서는 중장기 목표 수립 및 공개, 감축 투자안의 설정이 논의되었습니다(링크: 기후변화 대응). 자원순환 대응 부문에서는 전 사업 과정의 폐기물 발생 실적과 비용, 폐기물 개선 활동이 논의되었으며, 친환경 설계 부문에서는 냉매 전환, 에너지 소비효율 현황 및 분석이 주요 아젠다로 보고되었습니다. 마지막으로 제품환경 및 화학물질관리 안전성 평가 부문에서 제품화학물질관리시스템(CSMS)의 운영 개선 방안과 규제 네트워크 구축 활동 및 향후 계획이 보고되었습니다.

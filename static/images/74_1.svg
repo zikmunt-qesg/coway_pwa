@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #85c16b;
+        fill: #92bc49;
       }
 
       .cls-2 {
@@ -22,16 +22,16 @@
       }
     </style>
   </defs>
-  <g id="구성_요소_11_1" data-name="구성 요소 11 – 1" transform="translate(0.5 0.5)">
-    <g id="그룹_28" data-name="그룹 28" transform="translate(-679.473 -1848.1)">
-      <path id="패스_91" data-name="패스 91" class="cls-1" d="M703.973,1892.554a19.954,19.954,0,1,0-19.955-19.954,19.954,19.954,0,0,0,19.955,19.954"/>
+  <g id="구성_요소_10_1" data-name="구성 요소 10 – 1" transform="translate(0.5 0.5)">
+    <g id="그룹_147" data-name="그룹 147" transform="translate(-679.473 -1848.1)">
+      <path id="패스_356" data-name="패스 356" class="cls-1" d="M703.973,1892.554a19.954,19.954,0,1,0-19.955-19.953,19.953,19.953,0,0,0,19.955,19.953"/>
     </g>
-    <text id="_1" data-name="1" class="cls-2" transform="translate(19.941 30.785)"><tspan x="0" y="0">1</tspan></text>
-    <g id="그룹_29" data-name="그룹 29" transform="translate(-679.473 -1848.1)">
-      <path id="패스_92" data-name="패스 92" class="cls-3" d="M703.973,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
+    <text id="_1" data-name="1" class="cls-2" transform="translate(19.941 30.786)"><tspan x="0" y="0">1</tspan></text>
+    <g id="그룹_148" data-name="그룹 148" transform="translate(-679.473 -1848.1)">
+      <path id="패스_357" data-name="패스 357" class="cls-3" d="M703.973,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
     </g>
-    <path id="패스_93" data-name="패스 93" class="cls-3" d="M715.685,1854.931l-1.221-4.768,4.844-.871" transform="translate(-679.473 -1848.1)"/>
-    <line id="선_52" data-name="선 52" class="cls-4" x2="86.402" transform="translate(59.178 24.5)"/>
-    <line id="선_53" data-name="선 53" class="cls-4" y2="4.5" transform="translate(59.178 22.25)"/>
+    <path id="패스_358" data-name="패스 358" class="cls-3" d="M715.685,1854.931l-1.221-4.768,4.844-.871" transform="translate(-679.473 -1848.1)"/>
+    <line id="선_991" data-name="선 991" class="cls-4" x2="86.402" transform="translate(59.178 24.5)"/>
+    <line id="선_992" data-name="선 992" class="cls-4" y2="4.5" transform="translate(59.178 22.25)"/>
   </g>
 </svg>

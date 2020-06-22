@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #85c16b;
+        fill: #92bc49;
       }
 
       .cls-2 {
@@ -22,16 +22,16 @@
       }
     </style>
   </defs>
-  <g id="구성_요소_15_1" data-name="구성 요소 15 – 1" transform="translate(0.5 0.5)">
-    <g id="그룹_36" data-name="그룹 36" transform="translate(-1369.393 -1848.1)">
-      <path id="패스_103" data-name="패스 103" class="cls-1" d="M1393.894,1892.554a19.954,19.954,0,1,0-19.956-19.954,19.954,19.954,0,0,0,19.956,19.954"/>
+  <g id="구성_요소_14_1" data-name="구성 요소 14 – 1" transform="translate(0.5 0.5)">
+    <g id="그룹_155" data-name="그룹 155" transform="translate(-1369.393 -1848.1)">
+      <path id="패스_368" data-name="패스 368" class="cls-1" d="M1393.894,1892.554a19.954,19.954,0,1,0-19.956-19.953,19.953,19.953,0,0,0,19.956,19.953"/>
     </g>
-    <text id="_5" data-name="5" class="cls-2" transform="translate(19.941 30.785)"><tspan x="0" y="0">5</tspan></text>
-    <line id="선_58" data-name="선 58" class="cls-3" x2="86.402" transform="translate(59.178 24.5)"/>
-    <line id="선_59" data-name="선 59" class="cls-3" y2="4.5" transform="translate(59.178 22.25)"/>
-    <g id="그룹_37" data-name="그룹 37" transform="translate(-1369.393 -1848.1)">
-      <path id="패스_104" data-name="패스 104" class="cls-4" d="M1393.893,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
+    <text id="_5" data-name="5" class="cls-2" transform="translate(19.941 30.786)"><tspan x="0" y="0">5</tspan></text>
+    <line id="선_997" data-name="선 997" class="cls-3" x2="86.402" transform="translate(59.178 24.5)"/>
+    <line id="선_998" data-name="선 998" class="cls-3" y2="4.5" transform="translate(59.178 22.25)"/>
+    <g id="그룹_156" data-name="그룹 156" transform="translate(-1369.393 -1848.1)">
+      <path id="패스_369" data-name="패스 369" class="cls-4" d="M1393.893,1848.1a24.492,24.492,0,1,0,13.226,3.873"/>
     </g>
-    <path id="패스_105" data-name="패스 105" class="cls-4" d="M1405.6,1854.931l-1.221-4.768,4.844-.871" transform="translate(-1369.393 -1848.1)"/>
+    <path id="패스_370" data-name="패스 370" class="cls-4" d="M1405.6,1854.931l-1.221-4.768,4.844-.871" transform="translate(-1369.393 -1848.1)"/>
   </g>
 </svg>
