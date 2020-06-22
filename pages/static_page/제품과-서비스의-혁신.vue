@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg-m1 min-vh-100">  
     <logger title="제품과 서비스의 혁신"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:700px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:93%; top:900px; z-index:-1"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
