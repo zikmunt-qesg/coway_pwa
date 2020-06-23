@@ -149,7 +149,7 @@
                     <div class="gray6 mb-5 letter-narrow pr-xl-2"> 코웨이는 제품 개발 프로세스, 청정 생산, 렌탈 서비스, 회수 및 재활용에 이르는 전 과정에서 부정적 환경영향을 줄이는 친환경적 비즈니스를 설계합니다.  
                     </div>
                     <div class="d-flex justify-content-between align-items-center">            
-                        <div class="blue7"><h7 class="fw-600"> 매출액 </h7>
+                        <div class="blue7"><h7 class="fw-600 font-noto letter-narrow-lg"> 친환경 제품 매출액 </h7>
                             <div class="f-105" style="line-height:1;"><span class="main1-card-num fw-300 font-open">5,529</span>억원</div>
                         </div>
                         <div class="text-right" style="max-width: 92px"><b-img src="/images/106_1.svg" fluid></b-img></div>
