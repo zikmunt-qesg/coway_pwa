@@ -10,7 +10,7 @@
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5">
                 <section class="px-3 px-md-4 px-lg-5 py-4 py-lg-5">
-                    <h5 class="mb-4 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h5>
+                    <h5 class="mb-5 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h5>
                     <b-table-simple responsive class="txt-table f-95">
                         <b-thead>
                             <b-tr>
