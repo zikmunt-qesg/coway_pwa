@@ -1,8 +1,7 @@
 <template>
 <div class="position-relative page-top-bg-m3 min-vh-100">  
     <logger title="정보보안 및 개인정보보호"></logger>
-    <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img>  -->
-    <div class="w-100 position-absolute bg-white" style="height:91.2%; top:1075px; z-index:0"></div>
+    <div class="w-100 bg-white bg-white-cover-m3 position-absolute"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">

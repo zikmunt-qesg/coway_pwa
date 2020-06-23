@@ -1,7 +1,7 @@
 <template>
-<div class="position-relative page-top-bg min-vh-100"> 
+<div class="position-relative page-top-bg-so min-vh-100"> 
     <logger title="라이프케어 전문 파트너 양성"></logger>
-    <b-img src="/images/500.png" fluid class="page-top-img"></b-img>
+    <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">

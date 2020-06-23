@@ -80,8 +80,8 @@
             </b-row>
             <div class="col-12 bg-gray3 f-105 fw-600 py-2 px-3"> Economic Performance </div>
             <b-row class="my-4 py-md-3">
-                <b-col class="col-12 col-md-4">
-                    <h7 class="mb-45 blue7 fw-600 letter-narrow line-height-15 pr-xl-3"> 코웨이는 물과 공기를 깨끗하게 하는 ‘본질’에 집중하며, 고객 경험과 서비스의 가치를 향상하기 위한 끊임없는 혁신으로 지속성장해가고 있습니다. 
+                <b-col class="col-12 col-md-4 mb-4 mb-md-0">
+                    <h7 class="mb-md-4 blue7 fw-600 letter-narrow line-height-15 pr-xl-3"> 코웨이는 물과 공기를 깨끗하게 하는 ‘본질’에 집중하며, 고객 경험과 서비스의 가치를 향상하기 위한 끊임없는 혁신으로 지속성장해가고 있습니다. 
                     </h7>
                     <p class="blue7 fw-600 f-105 mb-1"> 매출액 </p>
                     <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4" style="height:18px; width:50%;"></div> 
@@ -94,69 +94,74 @@
                         <div class="position-absolute text-white" style="top:7px; left:5px;">2019</div><div class="ml-3 d-flex align-items-center"> <span class="f-140"> 30,189 </span> <span class="fw-300">억원</span> </div>
                     </div>
                 </b-col>
-                <b-col class="col-12 col-md-4 position-relative">
+                <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">                    
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
-                    <div class="temp-icon7 px-2 mb-5"><b-img src="/images/구성 요소2_1.png" fluid></b-img> </div>
-                    <div class="blue7 fw-600 pt-1 mb-2"> 제품과 서비스 혁신 </div>
+                    <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
+                    <div class="px-lg-2 mb-md-5 mb-xl-4 text-center pb-3 pt-1 py-md-0"><b-img src="/images/144_1.svg" fluid></b-img> </div>
+                    <div class="blue7 fw-600 pt-md-4 pt-lg-3 mb-2"> 제품과 서비스 혁신 </div>
                     <div class="blue7 fw-400 pr-xl-4 font-noto"> 본질적 가치를 높이는 제품과 서비스 혁신으로 CES에서 5년 연속 혁신상을 수상했습니다. 
                     </div>
                 </b-col>
-                <b-col class="col-12 col-md-4 position-relative">
+                <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
-                    <div class="d-flex justify-content-between align-items-start mb-45">
-                        <div class="blue7 main1-card-num fw-300 letter-narrow">5,688<span class="f-105"> 계정</span></div>
-                        <div class="text-right"><b-img src="/images/108_1.svg" fluid class="h-100"></b-img></div>
+                    <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
+                    <div class="d-flex justify-content-between align-items-start mb-md-5 mb-lg-4">
+                        <div class="blue7 main1-card-num fw-300 letter-narrow">5,688<span class="f-105">계정</span></div>
+                        <div class="text-right pl-3 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                     </div>
-                    <div class="my-3 gray6 fw-400 word-break pr-xl-3 font-noto"> 2019년 말 기준 국내 환경가전 렌탈 5,688 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
+                    <div class="gray6 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> 2019년 말 기준 국내 환경가전 렌탈 5,688 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
                     </div>
                 </b-col>
             </b-row>
             <div class="col-12 bg-gray3 f-105 fw-600 py-2 px-3"> Social Performance </div>
             <b-row class="my-4 py-md-3">
-                <b-col class="col-12 col-md-4 position-relative mb-5 mb-md-0">
-                    <div class="blue7 main1-card-num mb-4 fw-300 letter-narrow-lg">1,000,000<span class="f-105"> 천원</span></div>
+                <b-col class="col-12 col-md-4 position-relative mb-4 mb-md-0">
+                    <div class="blue7 main1-card-num mb-3 fw-300"><span style="letter-spacing:-0.1rem;">1,000,000</span><span class="f-105">천원</span></div>
                     <div class="d-flex justify-content-between align-items-end">
                         <div class="gray6 pr-4 fw-400 letter-narrow"> 코로나바이러스감염증-19로 많은 지원이 필요한 지역사회에 10억원을 기부했습니다. 이 성금은 방호 물품, 진단키트 등 의료 물품 부족에 직면한 전국 의료진에 대한 지원과 의료복지 시설 방역에 사용되었습니다. 
                         </div>
-                        <div class="temp-icon5"> <b-img src="/images/103_1.svg" fluid ></b-img></div>
+                        <div class="temp-icon5 d-block d-md-none d-lg-block"> <b-img src="/images/103_1.svg" fluid ></b-img></div>
                     </div>
                 </b-col>
-                <b-col class="col-12 col-md-4 blue7 mb-5 mb-md-0">
+                <b-col class="col-12 col-md-4 blue7 py-4 py-md-0">
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
-                    <h7 class="mb-45 fw-600 font-noto"> 물과 공기 나눔 <span class="f-80 fw-300">(2015~2019년 정수기 및 공기청정기 지원 누적)</span></h7>
+                    <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
+                    <h7 class="mb-4 mb-md-4 fw-600 font-noto line-height-low"> 물과 공기 나눔 <span class="f-80 fw-300">(2015~2019년 정수기 및 공기청정기 지원 누적)</span></h7>
                     <b-row>
-                        <b-col class="col-6 text-center">
-                            <div class="temp-icon5 mb-3"><b-img src="/images/104_1.svg" fluid class="h-100"></b-img></div>
-                            <h7 class="fw-600 f-105">생명의 물 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"><span class="main2-card-num fw-300 f-105">825</span>대</div>
+                        <b-col class="col-6 text-center px-md-1 px-lg-3 d-flex flex-row flex-md-column">
+                            <div class="temp-icon5 mb-2 mb-lg-3 pr-3 pr-sm-0 d-none d-sm-block"><b-img src="/images/104_1.svg" fluid class="h-100"></b-img></div>
+                            <div><h7 class="fw-600 f-105">생명의 물 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"><span class="main2-card-num fw-300 f-105">825</span>대</div></div>
                         </b-col>
-                        <b-col class="col-6 text-center">
-                            <div class="temp-icon5 mb-3"><b-img src="/images/105_1.svg" fluid class="h-100"></b-img></div>
-                            <h7 class="fw-600 f-105">청정한 공기 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"> <span class="main2-card-num fw-300 f-105">450</span>대</div>
+                        <b-col class="col-6 text-center px-md-1 px-lg-3 d-flex flex-row flex-md-column">
+                            <div class="temp-icon5 mb-2 mb-lg-3 pr-3 pr-sm-0 d-none d-sm-block"><b-img src="/images/105_1.svg" fluid class="h-100"></b-img></div>
+                            <div><h7 class="fw-600 f-105">청정한 공기 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"> <span class="main2-card-num fw-300 f-105">450</span>대</div></div>
                         </b-col>
                     </b-row>
                 </b-col>
-                <b-col class="col-12 col-md-4 position-relative">
+                <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
-                    <h7 class="blue7 mb-5 fw-600"> 협력사 상생 활동</h7>
+                    <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
+                    <h7 class="blue7 mb-4 mb-md-5 fw-600"> 협력사 상생 활동</h7>
                     <div class="gray6 pr-xl-4"> 코웨이는 협력사와의 긴밀한 협력과 상생활동을 추진하여 산업 내 건강한 거래문화를 견인하고자 합니다. 협력사와 열린 소통을 추진하여 경영안정 기반 강화, 성장 인프라 지원 등 다각적인 동반성장 활동을 추진합니다. 
                     </div>
                 </b-col>
             </b-row>
             <div class="col-12 bg-gray3 f-105 fw-600 py-2 px-3"> Environmental Performance </div>
             <b-row class="my-4 py-md-3">
-                <b-col class="col-12 col-md-4 position-relative mb-5 mb-md-0">
+                <b-col class="col-12 col-md-4 position-relative mb-4 mb-md-0">
                     <h7 class="blue7 fw-600 mb-2"> 친환경 제품 개발 </h7>
-                    <div class="gray6 mb-5 letter-narrow pr-xl-2"> 코웨이는 제품 개발 프로세스, 청정 생산, 렌탈 서비스, 회수 및 재활용에 이르는 전 과정에서 부정적 환경영향을 줄이는 친환경적 비즈니스를 설계합니다.  
+                    <div class="gray6 mb-3 mb-md-5 letter-narrow pr-xl-2"> 코웨이는 제품 개발 프로세스, 청정 생산, 렌탈 서비스, 회수 및 재활용에 이르는 전 과정에서 부정적 환경영향을 줄이는 친환경적 비즈니스를 설계합니다.  
                     </div>
                     <div class="d-flex justify-content-between align-items-center">            
-                        <div class="blue7"><h7 class="fw-600 font-noto letter-narrow-lg"> 친환경 제품 매출액 </h7>
-                            <div class="f-105" style="line-height:1;"><span class="main1-card-num fw-300 font-open">5,529</span>억원</div>
+                        <div class="blue7 d-flex flex-row flex-md-column"><h7 class="fw-600 font-noto letter-narrow-lg"> 친환경 제품 매출액 </h7>
+                            <div class="f-105 ml-3 ml-md-0" style="line-height:1;"><span class="main1-card-num fw-300 font-open">5,529</span>억원</div>
                         </div>
-                        <div class="text-right" style="max-width: 92px"><b-img src="/images/106_1.svg" fluid></b-img></div>
+                        <div class="text-right d-none d-sm-block" style="max-width: 92px"><b-img src="/images/106_1.svg" fluid></b-img></div>
                     </div>
                 </b-col>
-                <b-col class="col-12 col-md-4 position-relative mb-5 mb-md-0">
+                <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
+                    <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                     <div class="gray6 letter-narrow font-noto mb-45"> 2010년 온실가스 원단위 0.357 tCO<span class="f-60">2</span>e/억원 대비 2019년 원단위 0.234 tCO<span class="f-60">2</span>e/억원으로 매출 증가 대비 온실가스 배출량을 최대한 억제하여 기준년도 대비 약 70% 저감했습니다. 2020년에는 과학적 감축 목표 계획에 근거하여 2030년까지 중장기 목표를 수립하였습니다. 
                     </div>
                     <div class="d-flex justify-content-around align-items-end">                
@@ -177,14 +182,15 @@
                         </div>
                     </div>
                 </b-col>    
-                <b-col class="col-12 col-md-4 position-relative">
+                <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
-                    <div class="d-flex justify-content-between align-items-start mb-3">
-                        <div class="blue7 main1-card-num letter-narrow-lg mb-3 fw-300">99.1%</div>
-                        <div class="text-right mr-3" style="max-width: 109px"><b-img src="/images/107_1.svg" fluid ></b-img></div>
+                    <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
+                    <div class="d-flex justify-content-between align-items-start mb-md-5">
+                        <div class="blue7 main1-card-num letter-narrow-lg fw-300">99.1%</div>
+                        <div class="text-right pl-3 pb-2 pb-md-0" style="max-width: 109px"><b-img src="/images/107_1.svg" fluid ></b-img></div>
                         <!-- <div class="temp-icon6 mt-1"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
-                    <h7 class="blue7 fw-600 mb-2"> 폐기물 재활용률 </h7>
+                    <h7 class="blue7 fw-600 mb-2 pt-md-4 pt-lg-0"> 폐기물 재활용률 </h7>
                     <div class="gray6 letter-narrow pr-xl-3"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 
                     </div>
                 </b-col>                
@@ -328,6 +334,16 @@ export default {
     }
 }
 @media (min-width: 992px) {
+    .main1-card-num{
+        font-size: 3.4rem; 
+        margin-top: -0.3em;
+    }
+    .main2-card-num{
+        font-size: 3.0rem; 
+        margin-top: -0.3em;
+    }
+}
+@media (min-width: 1200px) {
     .main1-card-num{
         font-size: 4rem; 
         margin-top: -0.3em;

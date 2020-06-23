@@ -38,7 +38,7 @@
                 <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
                     <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
                         <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false">
-                            <div class="global-nav-2 lv2-text">
+                            <div class="global-nav-2 lv2-text f-95">
                                 {{ level2_item.title }}
                             </div>
                         </nuxt-link>
@@ -191,6 +191,7 @@ export default {
     // width: 10m;
     height: 100%;
     text-align: left;
+    padding-top: 0.2rem;
     // margin-right: 2.2em;
     // margin-bottom: 1.5em;
     border-top: 0.75px solid $gray3;

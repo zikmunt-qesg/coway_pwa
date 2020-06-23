@@ -1,8 +1,7 @@
 <template>
 <div class="position-relative page-top-bg-sus min-vh-100">   
     <logger title="CEO Message"></logger>
-    <!-- <b-img src="/images/500.png" fluid class="page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:93.3%; top:600px; z-index:0"></div>
+    <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -33,7 +32,7 @@
                         <div><b-img src="/images/CEO.png" fluid class="w-100"></b-img></div>
                     </div>
                 </section>
-                <section class="px-4 py-4">
+                <section class="px-4 py-4 bg-white">
                     <b-row>
                         <b-col class="col-12 col-md-7 pr-md-4">
                             <p class="f-105 text-justify">최근 신규 코로나 바이러스의 전 세계적인 확산으로 세계가 혼란을 겪고 있습니다. 처음 겪는 어려운 상황에도 자신의 자리에서 묵묵하게 최선을 다해서 함께 위기를 극복하고 있는 여러분 모두가 자랑스럽고 감사합니다. 코웨이도 그 동안 보여준 위기 극복의 저력으로 이번 위기를 슬기롭게 극복하고 더 큰 도약의 기회를 만들어 나가겠습니다.

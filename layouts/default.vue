@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <script src="https://kit.fontawesome.com/3f3ed23357.js" crossorigin="anonymous"></script>
 
     <site-header />
