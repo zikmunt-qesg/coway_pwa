@@ -1,6 +1,6 @@
 <template>
 <div class="position-relative page-top-bg-news min-vh-100">
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:500px; z-index:0"></div>
+    <div class="w-100 bg-white bg-white-cover-news position-absolute"></div>
 
     <b-row no-gutters class="py-5">
         <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">COWAY SUSTAINABILITY NEWS</h2></b-col>
@@ -11,7 +11,7 @@
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5">
                 <section class="px-3 px-md-4 px-lg-5 py-4 py-lg-5">
                     <h5 class="mb-4 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h5>
-                    <b-table-simple responsive class="txt-table f-90">
+                    <b-table-simple responsive class="txt-table f-95">
                         <b-thead>
                             <b-tr>
                                 <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td>
@@ -21,7 +21,7 @@
                             <b-tr>
                                 <b-td class="py-2">{{ item.index }}</b-td> 
                                 <b-td class="py-2">
-                                    <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button>
+                                    <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400 font-noto"> {{ item.title }} </b-button>
                                 </b-td>
                                 <b-td class="py-2">{{ item.date }}</b-td>                        
                             </b-tr>

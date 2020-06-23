@@ -53,6 +53,11 @@
     top: 1078px; 
     z-index:0;
 }
+.bg-white-cover-news{
+    height: calc(100% - 60vh);
+    top: 60vh; 
+    z-index:0;
+}
 @media (max-width: 540px) {
     .bg-white-cover, .bg-white-cover-m1, .bg-white-cover-m2, .bg-white-cover-m3{
         height:calc(100% - 100vh);
@@ -68,7 +73,7 @@
     background-image: url( "/images/environment.jpg" );
 }
 .page-top-bg-sus{
-    background-image: url( "/images/sustainability.jpg" );
+    background-image: url( "/images/847.jpg" );
     background-position-x: center;
     background-position-y: 50%;
 }
