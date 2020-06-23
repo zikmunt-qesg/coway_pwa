@@ -28,8 +28,7 @@ export default {
     },
     computed:{
         new_class() {
-            let temp_color = { color: this.active_color, 
-                            'font-weight': 500 }
+            let temp_color = { color: this.active_color }
             return temp_color
         },
         new_hover() {
