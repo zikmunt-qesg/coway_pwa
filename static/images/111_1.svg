@@ -25,8 +25,8 @@
     </style>
   </defs>
   <path id="패스_36454" data-name="패스 36454" class="cls-1" d="M0,0H80V82H0Z"/>
-  <g id="구성_요소_37_2" data-name="구성 요소 37 – 2" transform="translate(12 8.997)">
-    <g id="그룹_21508" data-name="그룹 21508" transform="translate(-1778 -2158.989)">
+  <g id="구성_요소_37_2" data-name="구성 요소 37 – 2" transform="translate(13 8.997)">
+    <g id="그룹_21508" data-name="그룹 21508" transform="translate(-1779 -2158.989)">
       <g id="그룹_43" data-name="그룹 43" transform="translate(1788 2158.989)">
         <path id="패스_43" data-name="패스 43" class="cls-2" d="M1886.366,2277.886v17.534a2.629,2.629,0,0,1-5.257,0v-17.534h-.192a.91.91,0,0,1-.913-.905v-1.9h7.467v1.9a.91.91,0,0,1-.914.905h-2.82m-7.772,0v17.534a2.629,2.629,0,0,1-5.258,0v-17.534h-.191a.91.91,0,0,1-.914-.905v-1.9h7.468v1.9a.91.91,0,0,1-.914.905h-2.821m-7.772,0v17.534a2.629,2.629,0,0,1-5.257,0v-17.534h-.191a.909.909,0,0,1-.914-.905v-1.9h7.467v1.9a.91.91,0,0,1-.913.905h-2.82m25.869,3.927h2.514V2298.5a2.7,2.7,0,0,1-2.708,2.683h-30.55a2.7,2.7,0,0,1-2.707-2.683v-16.684h2.514" transform="translate(-1855.354 -2275.082)"/>
       </g>
@@ -34,7 +34,7 @@
       <line id="선_20" data-name="선 20" class="cls-2" y1="10.14" transform="translate(1805.996 2168.593)"/>
       <line id="선_21" data-name="선 21" class="cls-2" y1="10.14" transform="translate(1795.491 2168.593)"/>
     </g>
-    <text id="코웨이" class="cls-3" transform="translate(11 45.418)"><tspan class="cls-4" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
-    <text id="물맛_연구소" data-name="물맛 연구소" class="cls-5" transform="translate(0 62.218)"><tspan x="0" y="0">물맛 연구소</tspan></text>
+    <text id="코웨이" class="cls-3" transform="translate(10 45.418)"><tspan class="cls-4" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
+    <text id="물맛연구소" class="cls-5" transform="translate(0 62.218)"><tspan x="0" y="0">물맛연구소</tspan></text>
   </g>
 </svg>
