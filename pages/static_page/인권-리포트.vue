@@ -27,7 +27,7 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'인권 리포트'" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">인권 리포트</h4-ancor>
 
-                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'인권 경영 원칙 및 가이드'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 경영 원칙 및 가이드</h6-ancor></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor :title="'인권 경영 원칙 및 가이드'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 경영 원칙 및 가이드</h6-ancor></div>
                     <p>전 세계적으로 차별 방지, 다양성 존중 등 인권에 대한 관심이 증대되고 인권 관련 규제 및 가이드라인도 점차 강화되고 있습니다. 많은 기업이 인권 경영을 지속가능성을 담보할 수 있는 기본 원칙으로 삼고 있으며, 코웨이 또한 우리가 하는 일이 더 나은 세상을 만드는 데 기여한다는 '착한믿음'의 경영정신을 바탕으로 인권경영 활동을 충실히 이행하고 있습니다. 나아가 코웨이는 사업을 영위하는 모든 국가와 지역의 노동, 인권 및 근로조건 기준을 준수합니다. 코웨이의 인권 정책은 임직원뿐만 아니라 고객, 협력사, 영업·서비스 파트너 및 지역사회 등 모든 이해관계자들에게도 적용됩니다. 
                     </p>
                     <p class="font-noto">유엔 기업과 인권 이행원칙(UN Guiding Principles on Business and Human Rights)은 기업과 이해관계자에게 사업 과정에서 인권 진작을 위한 명확한 프레임워크를 제시하고 있습니다. 그 원칙은 ‘보호(Protect)’, ‘존중(Respect)’, ‘구제(Remedy)’로, 기업이 인권을 존중하고 권리 침해를 예방하기 위해 노력을 기울이며, 부정적 인권 이슈를 제거할 것을 기대합니다. 코웨이의 트러스트 가이드라인은 1) 차별금지, 2) 아동노동 금지, 3) 강제노동 금지, 4) 근로시간 준수, 5) 인도적 대우, 6) 안전과 건강, 7) 소비자 안전 보건, 8) 책임 있는 마케팅, 9) 개인정보 보호, 10) 반부패, 11) 공정 경쟁, 12) 환경에 대한 책임, 13) 현지주민 인권 보호, 14) 공유가치 창출의 14개 항목으로 구성되어 있습니다. 
@@ -38,7 +38,7 @@
                     <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" block class="mb-5">코웨이 인권정책</b-button></a>
                     <hr class="py-3">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'인권 리스크 식별 및 완화 프로세스'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 리스크 식별 및 완화 프로세스</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'인권 리스크 식별 및 완화 프로세스'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 리스크 식별 및 완화 프로세스</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                     <h6-ancor :title="'리스크 식별 '" :activated="activated" class="gold6 fw-500 mb-2">리스크 식별 </h6-ancor>
                     <p> 코웨이는 인권 리스크 식별 및 완화 프로세스를 기반으로 인권 현황을 정기적으로 점검하여 인권 침해적 요소를 사전에 제거하고 인권 관련 리스크를 최소화하고 있습니다. 코웨이의 인권 리스크 식별 및 완화 프로세스는 1) 리스크 식별 및 평가, 2) 완화 조치 수립, 3) 조치 실행 및 결과 확인, 4) 커뮤니케이션의 4단계 과정을 통해 진행됩니다.
                     </p>

@@ -84,7 +84,7 @@
                 <!-- End of DMA -->
                 <hr class="py-2">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'환경경영을 통한 깨끗함의 가치 실현'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">환경경영을 통한 깨끗함의 가치 실현 </h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'환경경영을 통한 깨끗함의 가치 실현'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">환경경영을 통한 깨끗함의 가치 실현 </h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class=""> 코웨이의 환경경영은 ‘착한 믿음’의 경영정신에서 시작됩니다. 또한 코웨이는 UNGC 10대 원칙을 지지하고 실천하는 데 동참하고 있습니다. 코웨이가 만드는 제품과 서비스를 통해 환경을 건강하게 사람을 행복하게 하는 것을 기업의 핵심 가치로 인식하고 이를 적극 실천하고 있습니다.
                         </p>
                         <p class="mb-45"> 코웨이는 비즈니스 운영과정에서의 환경영향을 최소화하고자 2006년부터 환경경영을 선포하면서 미션과 비전, 환경방침, 환경목표를 설정하고 환경경영위원회와 전담부서를 설치하여 전사적인 친환경 경영을 실천해 왔습니다. 2019년에는 기존 환경경영 전략에 의한 기후변화, 자원순환, 제품 친환경 설계를 계획대로 실천하며 소비자의 니즈와 사회적 요구사항을 반영하며 제품 안전성 강화에 집중하고 있습니다.
@@ -184,7 +184,7 @@
                     </p>
                 <hr class="py-1 mb-5">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'가치사슬 전체의 환경역량 강화'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">가치사슬 전체의 환경역량 강화</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'가치사슬 전체의 환경역량 강화'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">가치사슬 전체의 환경역량 강화</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 지속 강화되어 가는 제품환경규제 및 안전성 대응을 위해 코웨이 전직원 및 협력사 대상으로 매년 오프라인 교육 프로그램을 제공 및 수시 온라인 지도, 지원을 실시하고 있습니다. “Global 환경규제 동향”, “기업의 환경규제 대응”, “환경규제 대응 방법론” 등 실질적이고 지속적인 도움을 제공함으로서 규제 대응력 강화 및 risk 제로 실행에 목표를 두고 있습니다. 2019년 사내 담당자 390명 및 협력사 77개사 담당자 대상으로 교육 실시를 완료하였습니다. 추가로 교육 내용 및 업무 활용에서 90%이상의 협력사로부터 우수하고 업무 적용 가능한 것으로 평가받았습니다.
                         </p>
                     <h7 class="mb-3 gray63">내/외부 교육 지원 현황</h7>

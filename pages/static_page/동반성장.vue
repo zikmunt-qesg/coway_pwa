@@ -86,7 +86,7 @@
                 <hr class="py-2">
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사와의 소통을 통한 성장 지원'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사와의 소통을 통한 성장 지원</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'협력사와의 소통을 통한 성장 지원'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사와의 소통을 통한 성장 지원</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">코웨이는 협력사와의 열린 소통을 기반으로 건전한 산업 생태계를 조성하기 위해 동반성장을 추진하고 있습니다. 코웨이의 동반성장 추진 전략은 1) 품질/원가/기술/생산성 경쟁력 확보, 2) 지속가능 경영기반 강화, 3) 경영안정성 확보를 기반으로 글로벌 경쟁력을 확보하는 것입니다. 이에 따라 코웨이는 협력사와의 열린 소통을 동반성장 전략 이행의 핵심 전략으로 추진하고 있습니다. 
                         </p>
                         <hj-img src="/images/67_1.svg" fluid class="w-100"></hj-img>
@@ -201,7 +201,7 @@
                                 </b-tbody>                                
                             </b-table-simple>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'공정거래 문화 조성'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">공정거래 문화 조성</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'공정거래 문화 조성'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">공정거래 문화 조성</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
                         <p class="mb-3">코웨이는 협력사의 권리와 이익을 정당하게 반영하고, 원청회사의 우월한 교섭력 남용을 방지하고자 상생협력을 위한 공정거래 4대 가이드라인을 운용하고 있습니다.  
                         </p>
                         <p class="mb-3">공정거래 4대 가이드라인은 1) 바람직한 계약 체결, 2) 협력사 선정운용의 공정성 및 투명성 보장, 3) 대·중소기업간 바람직한 계약체결 가이드라인의 준수, 4) 거래 심의위원회 설치 및 운용으로 구성되어 있으며, 이를 준수하기 위해 공정거래 담당자를 중심으로 가이드라인 준수 여부를 지속적으로 모니터링 및 문서화하여 관리하고 있습니다. 2019년에는 투명한 협력업체 선정을 위해 신규 입찰 시스템을 도입하고, 협력사에 시스템 이용 교육을 제공하였습니다.

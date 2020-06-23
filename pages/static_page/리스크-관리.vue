@@ -74,7 +74,7 @@
 
                     <hr class="py-3">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'잠재 리스크의 관리'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'잠재 리스크의 관리'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-4">코웨이는 경영환경에서 중장기적으로 상당한 영향 요소가 있는 리스크를 분석하고 새롭게 부각되는 리스크를 인지하여 전략적 대응을 추진합니다. 정기적 리스크 모니터링을 기반으로 잠재 리스크를 선제적으로 파악하고 지속가능한 경영환경을 조성하여 새로운 기회를 창출해 나가고 있습니다. 2019년 코웨이의 핵심 잠재 리스크는 1) 정보보호 위협의 증가와 2) 온라인 가전 서비스 시장의 성장으로 도출됩니다. 
                     </p>
                     <b-table-simple responsive class="sep-table f-90 mb-1">

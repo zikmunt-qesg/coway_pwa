@@ -113,7 +113,7 @@
                         </b-table-simple>
                     <hr class="py-3">
                     
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'중대성 평가'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 평가</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'중대성 평가'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 평가</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> 코웨이는 지속가능경영 측면의 중요 주제를 도출하기 위해 중대성 평가를 실시하고 있습니다. 코웨이가 중요 주제를 정의하는 방법은 대외 환경 변화 및 코웨이 전략 변화에 기반한 이슈 풀(Pool)을 구성하고, 사업적 연관성 및 이해관계자에의 영향력을 파악하여 우선순위 주제를 도출하는 과정으로 진행됩니다. 각 우선순위 주제는 코웨이의 사업적 가치 창출 측면에서의 영향 수준과 함께 중요 주제로 정의되며, 본 보고서 전반에 걸쳐 사업적 중요성 및 사회적 가치 창출 영향력, 경영 전략 및 목표, 활동 등에 대해 상세히 보고하고 있습니다. 
                     </p>
                     <hr class="py-1">
@@ -249,7 +249,7 @@
                         </b-table-simple> 
                     <hr class="py-3">
                     
-                    <div class="d-flex mb-4 position-relative"> <h6-ancor :title="'중대성 맥락과 중장기 목표'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 맥락과 중장기 목표</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-4 position-relative overflow-hidden"> <h6-ancor :title="'중대성 맥락과 중장기 목표'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 맥락과 중장기 목표</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
 
                     <h6-ancor :title="'고객 맞춤형 제품 및 서비스 개발'" :activated="activated" class="parang6 mb-3 pb-2">고객 맞춤형 제품 및 서비스 개발</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">

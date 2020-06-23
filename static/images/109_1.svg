@@ -1,37 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="44" height="65.241" viewBox="0 0 44 65.241">
+<svg id="구성_요소_43_1" data-name="구성 요소 43 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="82" viewBox="0 0 80 82">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-2 {
         fill: none;
-        stroke: #808083;
       }
 
       .cls-2 {
+        stroke: #808083;
+      }
+
+      .cls-3 {
         fill: #808083;
       }
 
-      .cls-2, .cls-4 {
+      .cls-3, .cls-5 {
         font-size: 12px;
         font-family: NotoSansKR-Regular, Noto Sans KR;
       }
 
-      .cls-3 {
+      .cls-4 {
         letter-spacing: -0.009em;
       }
 
-      .cls-4 {
+      .cls-5 {
         fill: #3e3a39;
       }
     </style>
   </defs>
-  <g id="구성_요소_39_2" data-name="구성 요소 39 – 2" transform="translate(0 0.658)">
+  <rect id="사각형_86" data-name="사각형 86" class="cls-1" width="80" height="82"/>
+  <g id="구성_요소_39_2" data-name="구성 요소 39 – 2" transform="translate(18 8.969)">
     <g id="그룹_21503" data-name="그룹 21503" transform="translate(-1851.848 -2033.859)">
-      <path id="패스_46" data-name="패스 46" class="cls-1" d="M1889.587,2053.053l-15.37-13.13-15.369,13.13" transform="translate(-1 -6.064)"/>
-      <path id="패스_47" data-name="패스 47" class="cls-1" d="M1864.828,2052.719v16H1885.5v-16" transform="translate(-1.949 -8.094)"/>
+      <path id="패스_46" data-name="패스 46" class="cls-2" d="M1889.587,2053.053l-15.37-13.13-15.369,13.13" transform="translate(-1 -6.064)"/>
+      <path id="패스_47" data-name="패스 47" class="cls-2" d="M1864.828,2052.719v16H1885.5v-16" transform="translate(-1.949 -8.094)"/>
     </g>
-    <text id="코웨이" class="cls-2" transform="translate(5 43.583)"><tspan class="cls-3" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
+    <text id="코웨이" class="cls-3" transform="translate(5 43.583)"><tspan class="cls-4" x="0" y="0">코웨</tspan><tspan y="0">이</tspan></text>
     <text id="_" data-name="
-" class="cls-4" transform="translate(22 43.583)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
-    <text id="홈페이지" class="cls-2" transform="translate(0 60.383)"><tspan class="cls-3" x="0" y="0">홈페이</tspan><tspan y="0">지</tspan></text>
+" class="cls-5" transform="translate(22 43.583)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
+    <text id="홈페이지" class="cls-3" transform="translate(0 60.383)"><tspan class="cls-4" x="0" y="0">홈페이</tspan><tspan y="0">지</tspan></text>
   </g>
 </svg>

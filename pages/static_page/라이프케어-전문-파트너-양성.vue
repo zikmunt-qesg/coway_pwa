@@ -81,7 +81,7 @@
                 </section> 
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'파트너 전문성 강화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">파트너 전문성 강화</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'파트너 전문성 강화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">파트너 전문성 강화</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">코웨이는 고객과 가장 가까운 현장에서 코웨이의 제품 및 서비스를 제공하는 파트너와의 상생 성장을 추구하고 있습니다. 파트너는 고객 접점에서 소통하며 브랜드 가치 및 만족도를 제고하는 중요한 역할을 하고 있습니다. 이에 코웨이는 영업·서비스 파트너가 현장에서 고객을 대상으로 원활한 서비스와 판매활동을 진행할 수 있도록 지원하고 있습니다.
                         </p>
                         <b-img src="/images/51_1.svg" fluid></b-img>
@@ -99,7 +99,7 @@
                         </p>
                     
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'파트너 상생 및 커뮤니케이션'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">파트너 상생 및 커뮤니케이션</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'파트너 상생 및 커뮤니케이션'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">파트너 상생 및 커뮤니케이션</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5">코웨이는 현장을 명확히 이해하기 위해 3C(Cody, CS Dr., Call center) 간담회를 실시하여 현장 VOC를 청취하여 전사적으로 공유하고 있습니다. 3C 간담회는 코웨이의 주요 고객 접점에서 활동하는 코디, CS 닥터, 콜센터의 실무자 대표로 구성된 정기 회의체로서, 상호 간 업무 현황과 상황을 이해하고 소통의 시너지를 확대하여 고객만족을 높이고 있습니다. 2019년 코웨이는 3C 간담회를 통해 제품, A/S, 교육 등 9개 유형별 VOC를 기반으로 과제를 도출하여 유관부서와 함께 개선 활동을 추진하였습니다. 
                         </p>
                     

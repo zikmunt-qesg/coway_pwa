@@ -84,7 +84,7 @@
                 <!-- End of DMA -->
                 <hr class="py-3">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5 font-noto"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020년 온실가스 원단위 배출량을 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356 tCO<sub>2</sub>e, 원단위 0.357 tCO<sub>2</sub>e/억원 대비 2019년 5,935 tCO<sub>2</sub>e, 원단위 0.234 tCO<sub>2</sub>e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 기준년도 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
                         </p>
                         <div class="position-relative pt-5 mb-4">
@@ -116,7 +116,7 @@
                         <p class="mb-5"> 코웨이는 2020년 이후, 신기후변화체제에 대응하기 위해 온실가스 감축 목표를 과학적 감축 목표 계획(SBT, Science Based Target)에 근거하여 2030년 및 2050년까지의 목표를 수립하고 있습니다. 에너지의 대부분을 전력에 의존하고 있어 신재생에너지의 지속 설치, 구매 및 감축량 구매 등, 실질적인 감축이 이루어질 수 있는 방향으로 목표를 수립 중에 있습니다. 이를 위해 온실가스 배출량 산정 기준을 자사 내부 기준에서 대한민국 에너지·온실가스 목표관리제 기준으로 산정 기준을 변경하여 최근 3년간 온실가스 배출량을 재산정 하였습니다. 최근 3년간 온실가스 배출량에 대한 외부 검증이 완료되는 시점에서 2030년 및 2050년 온실가스 감축 목표를 최종 확정하여 공개할 예정입니다. 
                         </p>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화의 위험과 기회 분석'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화의 위험과 기회 분석</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'기후변화의 위험과 기회 분석'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화의 위험과 기회 분석</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 TCFD(Taskforce on Climate Related Financial Disclosures)의 권고에 따라 세부적인 기후변화 위험과 기회를 분석하고 이를 공개하고 있습니다. 코웨이의 2019 기후변화 관련 위험과 기회 분석은 아래와 같습니다.  
                         </p>
                     
@@ -173,7 +173,7 @@
                             </b-tbody>
                         </b-table-simple>
                     <hr class="py-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사 탄소 파트너십'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 탄소 파트너십</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'협력사 탄소 파트너십'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 탄소 파트너십</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> 코웨이의 탄소 파트너 협력사들도 2010년 대비 2020년까지 온실가스 원단위 50% 저감이라는 목표를 가지고 감축 활동을 진행해 왔습니다. 코웨이는 탄소 파트너십 협력사들을 지속적으로 지원함으로써 협력사들의 매출 증가 대비 에너지 사용량을 최대한 억제하고 각 사의 탄소파트너 협력사들의 에너지 경쟁력을 강화하고 있으며, 이를 통해 기후변화와 관련한 협력사 리스크를 예방하기 위해 노력하고 있습니다. 2018년 기준 온실가스 원단위는 감축 목표 대비 110%, 배출량은 7.55% 감축하는 성과를 이미 달성 하였습니다. 2019년부터는 각 협력사의 자발적 관리로 전환하여 운영 중에 있으며, 2019년 온실가스 배출량 정보는 필요시, CDP 질의&amp;응답 및 탄소보고서를 통해 정보를 공개할 예정입니다.
                         </p> 
 
@@ -195,7 +195,7 @@
                         </p>
 
                     <hr class="py-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'온실가스 · 에너지 및 기타 환경 데이터'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 &middot; 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'온실가스 · 에너지 및 기타 환경 데이터'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 &middot; 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <h7 class="mb-3 gray63">온실가스 배출</h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-2">
                             <b-thead><b-tr>

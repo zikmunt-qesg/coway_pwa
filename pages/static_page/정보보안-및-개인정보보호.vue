@@ -74,7 +74,7 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'정보보안 및 개인정보보호 원칙과 조직'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 및 개인정보보호 원칙과 조직</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'정보보안 및 개인정보보호 원칙과 조직'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 및 개인정보보호 원칙과 조직</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-45">코웨이는 많은 고객의 개인정보를 수집하는 렌탈 비즈니스의 특성을 고려하여 전 사업 영역에서의 정보보호를 위해 정보보호 원칙과 개인정보보호 원칙을 수립 및 공유하고 있습니다. 코웨이는 정보보호 정책을 실무에 적용하기 쉽도록 정보보호 원칙과 지침으로 구성하였습니다. 2019년에는 정보통신망법, 개인정보보호법 등 법규 및 규제 변화에 따라 관련 내용을 추가하였으며, 중복 규정은 간소화하고 실행 가이드를 구체화하여 정보보호 규정을 개정하였습니다. 
                     </p>
                 
@@ -93,7 +93,7 @@
                     <b-img src="/images/85_1.svg" fluid></b-img>
                     <hr class="mb-45">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'정보보호 관리체계'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 관리체계</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'정보보호 관리체계'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 관리체계</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-5">철저한 데이터 보안 유지 및 고객 개인정보보호를 위해 코웨이는 다각적인 정보보호 활동을 추진하고 있습니다. 개인정보보호를 위해 정보 수집, 보관 및 활용, 파기에 이르는 라이프사이클 관리 체계를 도입하였으며, ISMS, ISO27001 등의 정보보호 관련 국제 인증을 기반으로 체계적 관리를 지속하고 있습니다. 또한, 글로벌 정보보호 규제에 대응하기 위해 유럽연합 데이터 보호 규칙(GDPR, General Data Protection Regulation)의 보호조치 준수를 위한 가이드를 마련하였습니다. 
                     </p>
                     
@@ -188,7 +188,7 @@
                             <li> 위/수탁사 교육 대상자 중 참여자 수의 비율. 위/수탁사 교육 대상의 범위는 내부에 상주하고 있으며 개인정보와 관련된 시스템에 접근이 가능한 위, 수탁사에 소속된 모든 인원을 정보보호 교육 대상자로 선정 </li>
                         </ol>
                     <hr class="py-3">              
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'모니터링 및 실사 프로세스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">모니터링 및 실사 프로세스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'모니터링 및 실사 프로세스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">모니터링 및 실사 프로세스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">정보보호 체계 실행을 위해 정기적인 데이터 보안 및 개인정보보호 모니터링을 진행합니다. 외부로부터의 사이버 공격 및 데이터 침해에 대응하기 위해 정보 암호화 및 보안 시스템을 운영할 뿐만 아니라 정기적인 연례 모의해킹 훈련을 수행합니다. 또한, 내부 데이터 관리의 안전 보장을 위해 개인정보 이상징후 탐지 시스템을 통해 리스크를 탐지하고, 고위험 영역에 대해서는 실사를 진행하여 리스크를 완화하고 있습니다.
                     </p>
 

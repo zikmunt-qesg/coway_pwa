@@ -1,27 +1,33 @@
-<svg id="구성_요소_35_2" data-name="구성 요소 35 – 2" xmlns="http://www.w3.org/2000/svg" width="44" height="51.823" viewBox="0 0 44 51.823">
+<svg id="구성_요소_46_1" data-name="구성 요소 46 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="69.926" viewBox="0 0 80 69.926">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
         fill: #808083;
         font-size: 12px;
         font-family: NotoSansKR-Regular, Noto Sans KR;
       }
 
-      .cls-2 {
+      .cls-3 {
         letter-spacing: -0.009em;
       }
 
-      .cls-3 {
-        fill: none;
+      .cls-4 {
         stroke: #808083;
         stroke-width: 1.259px;
       }
     </style>
   </defs>
-  <text id="다운로드" class="cls-1" transform="translate(0 47.823)"><tspan class="cls-2" x="0" y="0">다운로</tspan><tspan y="0">드</tspan></text>
-  <g id="그룹_21509" data-name="그룹 21509" transform="translate(-1860 -2400.714)">
-    <line id="선_23" data-name="선 23" class="cls-3" y2="21.076" transform="translate(1881.154 2400.714)"/>
-    <path id="패스_44" data-name="패스 44" class="cls-3" d="M1879.38,2416.662l-4.181,4.5-4.181-4.5" transform="translate(5.956 1.671)"/>
-    <path id="패스_45" data-name="패스 45" class="cls-3" d="M1858.6,2411.37v17.024h32.309V2411.37" transform="translate(6.396 0.896)"/>
+  <path id="패스_36456" data-name="패스 36456" class="cls-1" d="M0,0H80V69.926H0Z"/>
+  <g id="구성_요소_35_2" data-name="구성 요소 35 – 2" transform="translate(18 9.714)">
+    <text id="다운로드" class="cls-2" transform="translate(0 47.823)"><tspan class="cls-3" x="0" y="0">다운로</tspan><tspan y="0">드</tspan></text>
+    <g id="그룹_21509" data-name="그룹 21509" transform="translate(-1860 -2400.714)">
+      <line id="선_23" data-name="선 23" class="cls-4" y2="21.076" transform="translate(1881.154 2400.714)"/>
+      <path id="패스_44" data-name="패스 44" class="cls-4" d="M1879.38,2416.662l-4.181,4.5-4.181-4.5" transform="translate(5.956 1.671)"/>
+      <path id="패스_45" data-name="패스 45" class="cls-4" d="M1858.6,2411.37v17.024h32.309V2411.37" transform="translate(6.396 0.896)"/>
+    </g>
   </g>
 </svg>

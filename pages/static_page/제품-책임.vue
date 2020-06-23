@@ -75,7 +75,7 @@
                     </b-row>
                 </section>
                 <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'제품 책임 거버넌스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 책임 거버넌스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'제품 책임 거버넌스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 책임 거버넌스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 제품 책임 및 품질경영을 위해 CEO 직속 협의체인 ‘무한책임위원회’와 CEO 참석 전사 회의체 PIC 360를 운영하고 있습니다. 또한, 통합적 품질관리로 일관적이고 효율적인 품질 혁신 관리를 위해 통합 품질검증 조직인 TQA 센터를 운영하고 있습니다.
                     </p>
                 
@@ -110,7 +110,7 @@
                     </section>
 
                     <hr class="py-2">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'제품 신뢰성 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 신뢰성 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'제품 신뢰성 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 신뢰성 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-3">코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 또한 IoCare 제품 신뢰성 검증 향상을 위해 무선 기술 측정 장비를 확충하였으며, IAQ(Indoor Air Quality, 실내공기질) 센싱 기술 검증력을 확보해 IT 기술을 활용한 다양한 제품 개발에 대응할 수 있는 인프라를 확충하고 있습니다. 
                     </p>
 
@@ -200,7 +200,7 @@
                     </p>
                     <hr class="py-3">                    
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'안전 인증 확대 및 고객 안심'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전 인증 확대 및 고객 안심</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'안전 인증 확대 및 고객 안심'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전 인증 확대 및 고객 안심</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 적극적인 안전 인증 시험소 운영을 기반으로 안전 인증 취득 범위를 확대하고, 제품 안전성에 대한 신속한 사전 준비를 추진합니다. 안전 인증을 통해 고객에 믿을 수 있는 정보를 제공하며, 시장 경쟁에서의 민첩성을 확보하고 있습니다. 또한 고객에 종합적인 안전 및 위생 안심 서비스를 제공하여 사용단계에서의 제품 책임을 이행하고 있습니다.
                     </p>
 

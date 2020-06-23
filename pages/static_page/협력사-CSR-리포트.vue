@@ -27,7 +27,7 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'협력사 CSR 리포트'" :activated="activated" class="gold8 mb-4 mb-sm-5">협력사 CSR 리포트</h4-ancor>
 
-                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'협력사 행동 규범'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 행동 규범</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor :title="'협력사 행동 규범'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 행동 규범</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                     <p>코웨이는 우리가 하는 일이 더 나은 세상을 만드는데 기여한다는 ‘착한 믿음’의 경영정신을 바탕으로 협력사와 함께 동반성장해 나아가기 위해 노력하고 있습니다. 지속가능한 사회 구축을 위한 책임 경영도 그 일환으로, 본 코웨이 협력사 행동 규범을 수립하였습니다. 본 규범은 협력사 구성원의 노동환경 개선 및 인권 존중, 환경에 대한 책임과 윤리 경영 등 코웨이가 협력사에 요구하는 바를 제시하고 있습니다. 
                     </p>
 
@@ -35,7 +35,7 @@
                     <b-button variant="gold" size="sm" block class="mb-5">협력사 행동규범 다운로드</b-button>
 
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'협력사 지속가능성 평가'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 지속가능성 평가</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'협력사 지속가능성 평가'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 지속가능성 평가</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 거래규모, 대체불가능성, 핵심기술 여부, 비재무 리스크 발생 가능성 등을 종합적으로 고려하여 핵심 협력회사를 분류하여 관리하고 있습니다.
                     </p>
 
@@ -65,7 +65,7 @@
                     <p class="mb-5">코웨이는 협력사 평가 결과에 따라 개선이 필요한 협력사에 대해서는 시정조치 계획을 수립하고 리스크 요인(ESG 리스크 포함)을 개선하도록 요구하고 있습니다. 2019년 협력사 진단 및 평가결과에 따라 제재 조치를 받은 협력사는 총 XX 개였습니다. 
                     </p>
                     <hr class="py-3">
-                    <div class="d-flex mb-5 position-relative"> <h6-ancor :title="'분쟁광물'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">분쟁광물</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h6-ancor :title="'분쟁광물'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">분쟁광물</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                     <h6-ancor :title="'분쟁광물 사용 제한 선언'" :activated="activated" class="gold6 fw-500 mb-2">분쟁광물 사용 제한 선언</h6-ancor>
                     <p class="mb-45">코웨이는 인간의 존엄성을 최우선시하며 지속가능한 소비 및 생산을 유도하기 위하여 분쟁광물 사용을 제한합니다. 아울러 분쟁지역에서 생산된 합법적인 광물은 사용하여 콩고 및 인접국가에 경제적 피해가 초래되지 않도록 노력하겠습니다. 이를 위하여 분쟁광물 사용에 대한 지속적이고 철저한 조사를 시행하고 있으며, 분쟁광물 사용 금지 정책과 관리 시스템, 내외부 심사를 통해 분쟁광물 이슈를 지속적으로 관리해 나가겠습니다. 
                     </p>

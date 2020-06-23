@@ -98,7 +98,7 @@
                     </p>
                     <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="/images/68_1.svg" fluid class="h-100"></b-img></div>
                     <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="`'착한성장'을 위한 역량 강화`" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="`'착한성장'을 위한 역량 강화`" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 강화하고, 비즈니스 변화에 부합하는 직무 역량을 향상할 수 있도록 교육을 강화할 예정입니다. 
                         </p>
                         <hj-img src="/images/135_1.svg" fluid ></hj-img>
@@ -165,7 +165,7 @@
                         <p>디지털 업무 혁신을 통해 업무 효율성을 높이고자 2018년부터 회계, 분석 등 주요 업무에 로봇 프로세스 자동화(RPA, Robotic Process Automation) 시스템을 도입하였습니다. 로봇 프로세스 자동화는 반복적으로 실행하던 단순 업무를 로봇 소프트웨어가 자동으로 처리하는 시스템입니다. 이를 통해 임직원은 단순 업무에서 벗어나 부가가치가 높은 일에 집중하며 업무 효율을 증진시킬 수 있습니다. 현재 계정현황 모니터링, 판매실적 집계, 렌탈자산현황 정리, 요금 청구내역 조회 등 약 40여 개 업무에 RPA를 적용하였으며, 총 70개의 로봇을 운영하여 전체 업무처리 속도를 약 50% 이상 향상시켰습니다. 향후 업무영역 전반에 걸쳐 RPA 도입 가능성을 검토하고 순차적으로 확대 적용할 계획이며 이를 통해 임직원이 업무의 질적 수준을 높이고 일과 삶의 균형을 이룰 수 있도록 노력하겠습니다.
                         </p>
                     <hr class="space-p25 mb-4">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'커뮤니케이션 기반의 기업문화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">커뮤니케이션 기반의 기업문화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'커뮤니케이션 기반의 기업문화'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">커뮤니케이션 기반의 기업문화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-5"> 임직원 간의 소통을 강화하여 수평적인 기업문화를 만들기 위해 다양한 프로그램을 진행하고 있습니다. CEO의 적극적인 커뮤니케이션 참여를 기반으로 경영진과 임직원 간 상호 교류를 활성화하기 위한 다양한 소통 프로그램을 운영하고 있습니다. 또한, 적극적으로 임직원의 고충을 경청하고, 즉각적인 해결을 통해 업무 효율성 및 직업 만족도를 향상하기 위해 임직원 고충 상담 채널 및 사내 웹진(코러스)를 운영하고 있습니다. 2019년에는 총 28건의 임직원 고충을 접수하여 연내 100% 처리 및 개선 완료하였습니다.
                         </p>
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
@@ -476,7 +476,7 @@
                         <p class="f-80 ml-1 mb-0 gray55">* 의원면직</p>
                         <p class="f-80 ml-1 mb-45 gray55">** 사망, 정년퇴직, 해고</p>
                     <hr class="py-1 mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'안전하고 건강한 근무환경'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전하고 건강한 근무환경</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'안전하고 건강한 근무환경'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전하고 건강한 근무환경</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-45"> 코웨이는 근로자의 안전을 최우선으로 고려하며 사업장의 안전사고를 예방하고 건강한 근무환경을 조성하기 위해 다양한 안전보건 프로그램을 운영하고 있습니다. 특히 공장 및 R&D센터와 같이 안전사고가 발생할 수 있는 사업장에 대해 산업안전보건위원회를 운영하여 잠재적인 안전 리스크에 대해 선제적으로 대응하고 있습니다.
                         </p>
                     <h6-ancor :title="'산업안전보건위원회 운영'" :activated="activated" class="gold6 fw-500 mb-3">산업안전보건위원회 운영</h6-ancor>

@@ -76,7 +76,7 @@
                     </b-row>
                 </section>
                 <hr class="mb-4">
-                <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'본질적 가치를 높이는 제품 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'본질적 가치를 높이는 제품 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-45 mb-md-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
                     </p>
                     <b-row class="mb-5">
@@ -165,7 +165,7 @@
                     </b-col>
                 </b-row>
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'미래 기술 기반의 서비스 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">미래 기술 기반의 서비스 혁신</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'미래 기술 기반의 서비스 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">미래 기술 기반의 서비스 혁신</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">2019년 기준 국내 렌탈 서비스 569만명의 고객 계정을 보유하며 환경가전 업계를 선도하는 코웨이는 미래기술을 기반으로 고객에 새로운 서비스 경험을 제공합니다. 빅데이터를 이용하여 지역 수질에 맞는 정수기 제품을 추천하는 워터맵 서비스와, 가상 시뮬레이션을 통해 생활환경에 맞는 공기청정기를 체험해 볼 수 있는 공기주치의 서비스가 대표적입니다. 코웨이는 오랜 기간 연구해온 데이터를 기반으로 보다 정확하고 편리한 경험을 제공합니다.
                 </p>
                     <h6-ancor :title="'빅데이터 기반 제품 추천, 워터맵 서비스'" :activated="activated" class="blue5 mb-3">빅데이터 기반 제품 추천, 워터맵 서비스</h6-ancor>
@@ -197,7 +197,7 @@
                         </b-col>
                     </b-row>
                 <hr class="py-3">
-                <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'혁신을 위한 연구개발 역량 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">혁신을 위한 연구개발 역량 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'혁신을 위한 연구개발 역량 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">혁신을 위한 연구개발 역량 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">코웨이는 물과 공기에 대한 전문성과 책임감을 바탕으로 건강한 생활환경을 위한 신기술을 확보하고 혁신제품을 개발하기 위해 노력하고 있습니다. 코웨이는 기술 연구부터 제품 개발, 신뢰성 검증에 이르기까지 지속적으로 연구개발 투자를 확대하며, 미래 가치를 발굴하기 위해 선행기술과 디자인을 논의하는 전사 차원의 회의체인 NIC 365(New Technology and Product Innovation Committee 365)를 운영하여 전사차원의 혁신을 추진하고 있습니다. 물과 공기에 대한 기존 보유 기술을 강화하는 한편, 의류청정기, 매트리스 등 새로운 제품군에 신기술 접목에 힘쓰고 있습니다. 또한 오픈 이노베이션 및 기술제휴를 통해 신성장동력을 탐색하고 있습니다.
                 </p>
                 <h6-ancor :title="'깨끗하고 맛있는 물에 대한 연구, 물맛 연구소'" :activated="activated" class="blue5 mb-3">깨끗하고 맛있는 물에 대한 연구, 물맛 연구소</h6-ancor>

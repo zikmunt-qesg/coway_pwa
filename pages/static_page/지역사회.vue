@@ -78,7 +78,7 @@
                 </section> 
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'코웨이다운 사회공헌'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'코웨이다운 사회공헌'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
                         </p>
                         <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>코웨이 사회공헌 웹사이트 바로가기</b-button></a>
@@ -137,7 +137,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1. 가치 환산액: 시간당 평균 급여(추정치) X 봉사단 임직원 수 X 인당 봉사시간</p>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'깨끗한 물과 공기를 위한 코웨이의 약속'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">깨끗한 물과 공기를 위한 코웨이의 약속</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'깨끗한 물과 공기를 위한 코웨이의 약속'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">깨끗한 물과 공기를 위한 코웨이의 약속</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5">코웨이는 모든 지역사회에 깨끗한 물과 공기에 대한 접근성을 향상하고 위생이 보장된 생활환경을 제공하여 삶의 질을 향상하고자 물, 공기, 사람의 세 가지 약속을 주요 사회공헌 영역으로 추진합니다. 이에 따라 중점 추진 활동으로 국내외 취약계층에 정수기 및 공기청정기를 지원하여 깨끗함의 가치를 공유하는 한편, 청년 일자리 창출 및 산업 혁신을 위해 라이프스타일 분야 청년 창업자를 지원하고 있습니다.  
                         </p>
                         <div class="position-relative"><b-img src="/images/57_1.svg" fluid></b-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem;"> 물, 공기, 사람 핵심 성과</h7></div>
@@ -238,7 +238,7 @@
                     </b-table-simple>
                 </section>
                 <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'공공정책 참여'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">공공정책 참여</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'공공정책 참여'" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">공공정책 참여</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">코웨이는 정치자금법 제31조(기부의 제한)에 의거하여 정치 기부금을 출연하지 않습니다.
                         </p>
 

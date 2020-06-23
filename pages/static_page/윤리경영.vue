@@ -29,7 +29,7 @@
                     <hj-img src="/images/33_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'윤리강령(Code of Conduct)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리강령(Code of Conduct)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'윤리강령(Code of Conduct)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리강령(Code of Conduct)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-3">코웨이는 책임있는 윤리 실천을 위해 ‘클린 코웨이(Clean Coway)’를 비전으로 윤리경영 문화를 조성하고 있습니다. 코웨이는 윤리헌장, 윤리규정, 윤리실천지침을 제정하여 임직원 및 이해관계자의 윤리적 행동 지침을 명확하게 규정하고 적용하고 있습니다. 윤리헌장은 클린 코웨이의 기본 원칙을 정립하며, 윤리규정을 통해 임직원 및 이해관계자의 윤리적 행동 및 가치판단의 기준을 명시합니다. 또한 윤리실천지침을 통해 구체적인 실천사항을 규정하여 다양한 윤리 이슈에 대응할 수 있는 지침을 마련하였습니다.
                     </p>
 
@@ -62,7 +62,7 @@
                         </ol>
                     <hr class="mb-3">
                     
-                    <div class="d-flex mb-3 position-relative"><h6-ancor :title="'윤리진단(Compliance Check Organization)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리진단(Compliance Check Organization)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"><h6-ancor :title="'윤리진단(Compliance Check Organization)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리진단(Compliance Check Organization)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-45">코웨이는 윤리강령에 기반하여 윤리 리스크 예방을 위해 정기적으로 윤리 진단을 실시하고 있습니다.  2019년 총 12회의 진단을 시행하였으며, 관련 내용을 사업장에 정기적으로 공지하여 비윤리 행위를 예방하고 있습니다. 
                     </p>
 
@@ -86,7 +86,7 @@
                         </ol>                       
                     <hr class="mb-3">
 
-                    <div class="d-flex mb-3 position-relative"><h6-ancor :title="'윤리교육(Consensus by Ethic Education)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리교육(Consensus by Ethic Education)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"><h6-ancor :title="'윤리교육(Consensus by Ethic Education)'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리교육(Consensus by Ethic Education)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-45">코웨이는 내재화된 윤리 문화로서 ‘클린 코웨이’를 조성하기 위해 정기적으로 윤리교육을 실시하여 윤리경영에 대한 인식과 실천 의지를 제고하고 있습니다. 전사 임직원을 대상으로 격년제로 의무 교육을 시행함에 따라 2019년에는 내부통제 수행자 및 관리자, 임원, 감사위원회를 대상으로 내부회계관리제도 오프라인 교육을 실시하였습니다.  
                     </p>
 

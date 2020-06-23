@@ -25,7 +25,7 @@
                     <p class="mb-5">코웨이는 이사회를 중심으로 견제와 균형에 기반한 효율적 경영활동을 수행하는 독립적인 지배구조를 구축하여 이를 유지∙발전시켜 나가고 있습니다. 이사회는 안정적 경영활동과 이익 창출을 통한 주주환원의 실현 및 전략적 의사결정을 통한 성장전략 구현 등 장기 기업가치 향상을 목표로 투명성, 독립성, 다양성, 전문성, 효율성 제고를 지향합니다. 
                     </p>
 
-                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'이사회 중심의 책임경영 수행'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">이사회 중심의 책임경영 수행</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor :title="'이사회 중심의 책임경영 수행'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">이사회 중심의 책임경영 수행</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이 이사회는 법령과 정관에 따라 주주로부터 기업 경영에 관한 최고 의사결정권을 위임받아, 이해관계자와 다양한 이해관계를 조율하고 경영 의사결정을 승인하는 최고 기구로서의 책임과 역할을 지니고 있습니다. 코웨이의 이사회는 투자계획, 내부거래 등 이해관계 상충, 투명한 보상 등에 대한 심의, 승인과 함께 회사의 장기 리스크 관리 전반에 대한 검토 및 책임을 수행합니다. 
                     </p>
 
@@ -191,7 +191,7 @@
 
                     <hr class="py-3 mb-5">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'성과평가와 보수 지급'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">성과평가와 보수 지급</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'성과평가와 보수 지급'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">성과평가와 보수 지급</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p> 동종업계 보수 수준을 고려한 합리적인 보수를 지급하여 우수한 전문가를 사외이사로 선임하고, 적극적인 직무 활동을 할 수 있도록 보장하고 있습니다. 사내이사는 이사회 결의에 따라 직무 및 직급, 근속기간, 리더십, 전문성, 회사 기여도 등을 고려하여 기본 보수를 책정하고, 정량지표과제 및 정성지표 과제 평가에 따라 종합점수를 산출하여 달성률을 평가하여 인센티브(상여)를 지급하고 있습니다.
                     </p>
                     <p class="mb-5">코웨이는 2019년 제30기 정기주주총회를 통해 이사에게 지급할 연간 보수 총액을 40억으로 승인하였으며, 2020년 제31기 정기주주총회에서 연간 보수 총액을 50억으로 상향하여 승인하였습니다.
@@ -281,7 +281,7 @@
                             *표기기간: 2017년 1월 1일 ~ 2019년 12월 31일
                         </p>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'소유구조 및 의결권'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">소유구조 및 의결권</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'소유구조 및 의결권'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">소유구조 및 의결권</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p> 2019년 말 기준 코웨이의 주주는 웅진씽크빅 25.08%, 국민연금 8.08%, 자사주 2.14%, 외국인 58.87%, 기타 5.83%로 구성되어 있었으나, 2019년 12월 말 체결한 주식매매계약 등에 따라 2020년 2월 7일 웅진씽크빅이 소유하고 있던 18,511,446주(지분율 25.08%)를 ㈜넷마블에 매도하는 거래를 종결하였습니다. 이에 따라 2020년 2월 11일 이후 대주주가 넷마블㈜로 변경되었습니다. 
                     </p>
 

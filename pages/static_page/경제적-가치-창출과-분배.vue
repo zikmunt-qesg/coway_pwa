@@ -23,7 +23,7 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'경제적 가치 창출과 분배'" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">경제적 가치 창출과 분배</h4-ancor>
 
-                    <div class="d-flex mb-2 position-relative"> <h6-ancor :title="'경제적 가치 창출'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 창출</h6-ancor></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor :title="'경제적 가치 창출'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 창출</h6-ancor></div>
                     <p class="font-noto">지난 10년 간 한 해도 빠짐없이 꾸준한 성장을 이어온 코웨이는 2019년에도 지속적인 매출 성장세를 기록하며, 전년대비 11.5% 증가한 3조 189억 원의 사상최대 매출을 달성하였습니다. 국내 환경가전 사업 매출은 2조 1,112억 원으로, 세부 매출은 1. 렌탈 판매, 2. 일시불 판매, 3. 멤버십 프로그램으로 구성됩니다. 2019년 기준 총 관리계정은 628만으로 전년 590만 계정 대비 6.5% 증가하였습니다. 
                     </p>
                     <p class="font-noto">렌탈 판매량 또한 전년 145만 대에서 2019년 157만대로 전년대비 8.4% 증가하였으며, 기존제품 및 신규제품 판매 성장 영향으로 최대 판매를 달성하였습니다. 청정기의 판매 호조와 매트리스 등 신규 제품군의 판매가 확대되었습니다. 
@@ -67,7 +67,7 @@
                     </p>
                     <hr class="py-3">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'경제적 가치 분배'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 분배</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'경제적 가치 분배'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 분배</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 2019년 연결기준 3조 189억 원의 매출액과 기타수익 및 금융수익을 합해 총 3조 683억 원의 경제적 가치를 창출하였습니다. 창출된 가치 중 3조 7억 원을 기업의 미래가치와 투자 효율성을 고려하여 이해관계자들에게 합리적으로 배분하였으며, 모든 배분을 마치고 유보된 총 675억 원의 경제적 가치를 자본 총계로 가산하였습니다. 
                     </p>
                     <hj-img src="/images/93_1.svg" fluid ></hj-img>
@@ -79,7 +79,7 @@
                     <p class="f-80 gray5 mb-0">기타: 기타포괄손익 등</p>
                     <hr class="mb-45">
 
-                    <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'조세 정책'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">조세 정책</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'조세 정책'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">조세 정책</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-45">코웨이는 합리적 조세전략을 바탕으로 세무 신고 및 납부 의무를 성실히 이행하고 있습니다. 코웨이의 조세정보는 금융감독원 공시 시스템(http://dart.fss.or.kr/)내 정기 공시를 통해 투명하게 공개되고 있습니다. 감사보고서상 재무제표 및 주석사항에서는 법인세비용 산출 기준, 이연법인세 자산 및 부채, 법인세비용 구성내역 및 세율 등을 확인할 수 있으며 외부감사를 통해 그 투명성과 객관성을 확보하고 있습니다. 국내뿐 아니라 해외에서도 법인이 가지는 납세의무를 성실히 이행하며 정부의 세수 및 공공 서비스 증대 등 선순환 구조 창출에 기여하고 있습니다. 
                     </p>
 

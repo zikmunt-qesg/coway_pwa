@@ -168,21 +168,6 @@
                         <div class="px-1"><b-img src="/images/145_1.svg" fluid></b-img></div>      
                         <div class="px-1"><b-img src="/images/146_1.svg" fluid></b-img></div>  
                         <div class="px-1"><b-img src="/images/147_1.svg" fluid></b-img></div>  
-                        <!-- <div class="local-temp-circle rounded-circle bg-gray3 position-relative mt-3">
-                            <div class="position-absolute text-center w-100 ">
-                                <div class="gray5 fw-600 f-90 mb-4" style="margin-top:-1.5rem;">2017</div><div class="blue5 mb-m-2 f-190">0.253</div><div class="gray5 font-noto f-90 fw-300">tCO<span class="f-60">2</span>e/억원</div>
-                            </div>
-                        </div>
-                        <div class="local-temp-circle rounded-circle bg-gray3 position-relative mt-3">
-                            <div class="position-absolute text-center w-100 ">
-                                <div class="gray5 fw-600 f-90 mb-4" style="margin-top:-1.5rem;">2018</div><div class="blue5 mb-m-2 f-190">0.254</div><div class="gray5 font-noto f-90 fw-300">tCO<span class="f-60">2</span>e/억원</div>
-                            </div>
-                        </div>
-                        <div class="local-temp-circle rounded-circle position-relative mt-3 bg-blue5">
-                            <div class="position-absolute text-center w-100 ">
-                                <div class="gray5 fw-600 f-90 mb-4" style="margin-top:-1.5rem;">2019</div><div class="text-white mb-m-2 f-190">0.234</div><div class="text-white font-noto f-80 fw-300">tCO<span class="f-60">2</span>e/억원</div>
-                            </div>
-                        </div> -->
                     </div>
                 </b-col>    
                 <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
