@@ -6,8 +6,8 @@
                 <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /> 
             </b-col>
             <b-col class="col-8 col-md-9 mb-3">
-                <div class="row d-flex flex-column flex-md-row f-90">
-                    <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> About This Report</div>
+                <div class="row d-flex flex-column flex-md-row f-95">
+                    <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"><a href="/static_page/보고-범위-및-검증" class="footer-a">About This Report</a></div>
                     <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> Terms & Conditions</div>
                     <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> Further Website</div>
                     <div class="col d-flex d-md-block justify-content-end justify-content-md-start"> Contacts<br>
@@ -87,4 +87,12 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+a.footer-a {
+    color: $gray4;
+}
+a.footer-a:hover {
+    color: $gray2;
+}
 
+</style>

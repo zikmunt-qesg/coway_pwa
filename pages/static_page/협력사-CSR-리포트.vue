@@ -87,7 +87,7 @@
                         </b-table-simple>
                     <hr class="py-2">
 
-                    <h6-ancor :title="'코웨이 행동규범 제12조'" :activated="activated" class="gold6 fw-500 mb-2">코웨이 행동규범 제12조</h6-ancor>
+                    <h6-ancor :title="'코웨이 행동규범 제12조'" :activated="activated" class="gold6 fw-500 mb-2 font-noto">코웨이 행동규범 제12조</h6-ancor>
                     <p class="mb-5">협력사는 불법적이고 비윤리적인 방법을 통해 취득한 원자재(무장세력이 점거한 광산에서 채굴된 광물, 산림 보존 및 벌목 금지 지역에서 벌목된 목재 등)을 사용하지 않습니다. 원자재, 부품, 제품에 포함된 탄탈륨, 주석, 텅스텐, 금 등 콩고민주공화국이나 인접국가에서 심각한 인권을 유린하는 무장세력에게 직간접적으로 재원 또는 편익을 제공하며 생산된 광물은 사용하지 않습니다.
                     </p>
 
@@ -203,7 +203,7 @@
                                     <b-td class="text-left">정보보호</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">분쟁광물</b-td><b-td>3%</b-td>
+                                    <b-td class="text-left" colspan="2">분쟁광물</b-td><b-td>3.0%</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>

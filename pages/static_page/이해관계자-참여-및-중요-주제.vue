@@ -264,9 +264,32 @@
                         <b-col class="col-12 col-md-7 pl-md-4 position-relative">
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
-                            <div class="d-md-flex pt-2">
-                                <div class="fw-500 mr-3 mb-2 mb-md-0">고객만족도 <br> <span class="fw-300 f-80">(단위: 점수)</span></div>
-                                <div><b-img src="/images/17_1.svg" fluid class="w-100"></b-img></div>
+                            <div class="pt-2">
+                                <h7 class="gray63 font-noto">코웨이 고객만족도<sup>1)</sup> <span class="f-80 fw-300 gray6 mb-2">(단위: %)</span></h7>                                    
+                                <b-table-simple responsive class="txt-table f-95 mb-2">
+                                    <b-thead><b-tr>
+                                        <b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td class="text-right"><span class="fw-500">2020 목표</span></b-td>
+                                    </b-tr></b-thead>
+                                    <b-tbody>
+                                        <b-tr>
+                                            <b-td>76.0</b-td> <b-td class="" >79.0</b-td> <b-td class="" >75.1</b-td> <b-td class="text-right" ><span class="fw-500">77.0</span></b-td>
+                                        </b-tr>
+                                        <!-- <b-tr>
+                                            <b-td class="text-left ">2018</b-td> <b-td class="" >79.0</b-td>
+                                        </b-tr>
+                                        <b-tr>
+                                            <b-td class="text-left ">2019</b-td> <b-td class="" >75.1</b-td>
+                                        </b-tr> 
+                                        <b-tr class="">
+                                            <b-td class="text-left "><span class="fw-500"> 2020 목표</span></b-td> <b-td class=""><span class="fw-500"> 80</span></b-td>
+                                        </b-tr>                                 -->
+                                    </b-tbody>   
+                                </b-table-simple>
+                                <ol type="1" class="f-80 fw-300 footnote-ol line-height-low ">
+                                    <li> NPS(순추천 지수 = 추천 고객비율 - 비추천 고객 비율)를 통해 고객만족도를 측정함
+                                    </li>
+                                    <li> 2019년도는 모바일로 조사방법을 변경함</li>
+                                </ol>
                             </div>
                         </b-col>
                     </b-row>                   

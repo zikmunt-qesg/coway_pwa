@@ -9,7 +9,7 @@
         fill: #f5f6f7;
       }
 
-      .cls-16, .cls-22, .cls-3 {
+      .cls-16, .cls-23, .cls-3 {
         fill: #fff;
       }
 
@@ -17,11 +17,11 @@
         fill: #1e2323;
       }
 
-      .cls-11, .cls-16, .cls-22, .cls-4 {
+      .cls-11, .cls-16, .cls-23, .cls-4 {
         font-size: 16px;
       }
 
-      .cls-11, .cls-16, .cls-17, .cls-22, .cls-4 {
+      .cls-11, .cls-16, .cls-17, .cls-23, .cls-4 {
         font-family: NotoSansKR-Medium, Noto Sans KR;
         font-weight: 500;
       }
@@ -30,7 +30,7 @@
         letter-spacing: -0.019em;
       }
 
-      .cls-22, .cls-6 {
+      .cls-20, .cls-23, .cls-6 {
         letter-spacing: -0.02em;
       }
 
@@ -83,20 +83,20 @@
         font-size: 15px;
       }
 
-      .cls-18, .cls-19 {
+      .cls-18, .cls-19, .cls-20 {
         fill: #685239;
         font-family: NotoSansKR-Regular, Noto Sans KR;
       }
 
-      .cls-19 {
+      .cls-19, .cls-20 {
         font-size: 43px;
       }
 
-      .cls-20 {
+      .cls-21 {
         clip-path: url(#clip-path);
       }
 
-      .cls-21 {
+      .cls-22 {
         fill: #2b2e34;
       }
     </style>
@@ -164,12 +164,12 @@
   <text id="_" data-name=" " class="cls-12" transform="translate(373.922 642.783)"><tspan x="0" y="0"> </tspan></text>
   <text id="정수기_지원_" data-name="정수기 지원 " class="cls-17" transform="translate(50 569.783)"><tspan class="cls-6" x="0" y="0">정수기 지</tspan><tspan y="0">원 </tspan></text>
   <text id="누적_4" data-name="누적 " class="cls-18" transform="translate(50 616.778)"><tspan class="cls-6" x="0" y="0">누적</tspan><tspan y="0"> </tspan></text>
-  <text id="_825" data-name="825" class="cls-19" transform="translate(80.9 616.783)"><tspan class="cls-6" x="0" y="0">82</tspan><tspan y="0">5</tspan></text>
-  <text id="_대_2" data-name=" 대 " class="cls-18" transform="translate(149.914 616.783)"><tspan class="cls-6" x="0" y="0"> </tspan><tspan y="0">대 </tspan></text>
+  <text id="_1_300" data-name="1,300" class="cls-20" transform="translate(80.9 616.783)"><tspan x="0" y="0">1,300</tspan></text>
+  <text id="_대_2" data-name=" 대 " class="cls-18" transform="translate(182.914 616.783)"><tspan class="cls-6" x="0" y="0"> </tspan><tspan y="0">대 </tspan></text>
   <text id="by_2025_2" data-name="by 2025 " class="cls-12" transform="translate(50 642.783)"><tspan class="cls-14" x="0" y="0">b</tspan><tspan class="cls-13" y="0">y</tspan><tspan class="cls-14" y="0"> </tspan><tspan class="cls-13" y="0">202</tspan><tspan y="0">5 </tspan></text>
   <text id="정수기_지원_대수_" data-name="정수기 지원 대수 " class="cls-17" transform="translate(50 335.921)"><tspan class="cls-6" x="0" y="0">정수기 지원 대</tspan><tspan y="0">수 </tspan></text>
   <text id="누적_5" data-name="누적 " class="cls-18" transform="translate(50 382.916)"><tspan class="cls-6" x="0" y="0">누적</tspan><tspan y="0"> </tspan></text>
-  <text id="_825-2" data-name="825" class="cls-19" transform="translate(80.9 382.921)"><tspan class="cls-6" x="0" y="0">82</tspan><tspan y="0">5</tspan></text>
+  <text id="_825" data-name="825" class="cls-19" transform="translate(80.9 382.921)"><tspan class="cls-6" x="0" y="0">82</tspan><tspan y="0">5</tspan></text>
   <text id="_대_3" data-name=" 대 " class="cls-18" transform="translate(149.914 382.921)"><tspan class="cls-6" x="0" y="0"> </tspan><tspan y="0">대 </tspan></text>
   <text id="_2015년_1월_2019년_12월" data-name="2015년 1월 ~ 2019년 12월" class="cls-12" transform="translate(50 408.921)"><tspan class="cls-13" x="0" y="0">2015년 1월 ~</tspan><tspan class="cls-14" y="0"> </tspan><tspan class="cls-13" y="0">2019년</tspan><tspan class="cls-14" y="0"> </tspan><tspan class="cls-13" y="0">12</tspan><tspan y="0">월</tspan></text>
   <text id="공기청정기_지원_대수_2" data-name="공기청정기 지원 대수 " class="cls-17" transform="translate(326 335.921)"><tspan class="cls-6" x="0" y="0">공기</tspan><tspan class="cls-5" y="0">청</tspan><tspan class="cls-6" y="0">정기 </tspan><tspan class="cls-5" y="0">지</tspan><tspan class="cls-6" y="0">원 대</tspan><tspan y="0">수 </tspan></text>
@@ -180,14 +180,14 @@
   <text id="월_2019년_12월_" data-name="월 ~ 2019년 12월 " class="cls-12" transform="translate(378.78 408.921)"><tspan class="cls-14" x="0" y="0">월</tspan><tspan class="cls-13" y="0" xml:space="preserve"> ~</tspan><tspan class="cls-14" y="0"> </tspan><tspan class="cls-13" y="0">2019년</tspan><tspan class="cls-14" y="0"> </tspan><tspan class="cls-13" y="0">12</tspan><tspan y="0">월 </tspan></text>
   <line id="선_356" data-name="선 356" class="cls-7" x2="796" transform="translate(20 676.418)"/>
   <g id="그룹_23040" data-name="그룹 23040" transform="translate(394.56 150.891)">
-    <g id="그룹_23039" data-name="그룹 23039" class="cls-20">
+    <g id="그룹_23039" data-name="그룹 23039" class="cls-21">
       <g id="그룹_23037" data-name="그룹 23037" transform="translate(48.931 -22.68)">
-        <path id="패스_23507" data-name="패스 23507" class="cls-21" d="M0,0A22.68,22.68,0,0,1-22.68,22.68,22.68,22.68,0,0,1-45.36,0,22.68,22.68,0,0,1-22.68-22.68,22.68,22.68,0,0,1,0,0"/>
+        <path id="패스_23507" data-name="패스 23507" class="cls-22" d="M0,0A22.68,22.68,0,0,1-22.68,22.68,22.68,22.68,0,0,1-45.36,0,22.68,22.68,0,0,1-22.68-22.68,22.68,22.68,0,0,1,0,0"/>
       </g>
       <g id="그룹_23038" data-name="그룹 23038" transform="translate(45.36 -25.089)">
         <path id="패스_23508" data-name="패스 23508" class="cls-15" d="M0,0A22.68,22.68,0,0,1-22.68,22.68,22.68,22.68,0,0,1-45.36,0,22.68,22.68,0,0,1-22.68-22.68,22.68,22.68,0,0,1,0,0"/>
       </g>
-      <text id="_02" data-name="02" class="cls-22" transform="translate(13.72 -19.341)"><tspan x="0" y="0">02</tspan></text>
+      <text id="_02" data-name="02" class="cls-23" transform="translate(13.72 -19.341)"><tspan x="0" y="0">02</tspan></text>
     </g>
   </g>
 </svg>

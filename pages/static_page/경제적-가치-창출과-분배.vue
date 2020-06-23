@@ -42,8 +42,8 @@
                     <hr class="mb-3">
                     <div class="position-relative"> <hj-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></hj-img>
                     <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
-                        <h7 class="mb-2 font-noto">렌탈 계정현황 </h7>
-                        <div class="fw-300 f-80 d-flex align-items-center mb-1"> (단위: 계정 수)</div>
+                        <h7 class="mb-2 font-noto">국내 환경가전 렌탈 계정현황 </h7>
+                        <div class="fw-300 f-80 d-flex align-items-center mb-1"> (단위: 천 계정)</div>
                     </div></div>
                     <hr class="mb-3">
 

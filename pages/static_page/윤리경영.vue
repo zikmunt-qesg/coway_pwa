@@ -25,7 +25,7 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor :title="'윤리경영'" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">윤리경영</h4-ancor>
 
-                    <p class="mb-5">코웨이는 윤리경영 방식인 3C(Code of Conduct, Compliance Check Organization, Consensus by Ethic Education)을 바탕으로 ‘클린 코웨이’를 추구 및 구현하고 있습니다. 
+                    <p class="mb-5">코웨이는 윤리경영 방식인 3C(Code of Conduct, Compliance Check Organization, Consensus by Ethic Education)를 바탕으로 ‘클린 코웨이’를 추구 및 구현하고 있습니다. 
                     </p>
                     <hj-img src="/images/33_1.svg" fluid></hj-img>
                     <hr class="mb-4">
@@ -107,7 +107,7 @@
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45">
                             <li>전체 직원(4,988명) 대비 참여율</li>
-                            <li>2019년부터 윤리교육을 격년제로 전환하여 교육 참여율이 감소 함</li>
+                            <li>2019년부터 윤리교육을 격년제로 전환하여 교육 참여율이 감소함</li>
                         </ol>
                 </section> 
                 <!-- End of DMA-->

@@ -133,7 +133,7 @@
                     <b-col class="col-12 col-sm-6 line-height-low">
                         <h7 class="gray63 font-noto">코웨이 고객만족도<sup>1)</sup></h7>
                         <div class="f-80 gray6 mb-2">(단위: %)</div>
-                        <b-table-simple responsive class="num-table f-95 position-relative mb-2">
+                        <b-table-simple responsive class="num-table f-95 position-relative mb-2" >
                             <b-thead><b-tr>
                                 <b-td></b-td><b-td> 고객만족도 </b-td>
                             </b-tr></b-thead>
@@ -148,10 +148,10 @@
                                     <b-td class="text-left py-1">2019</b-td> <b-td class="py-1" >75.1</b-td>
                                 </b-tr> 
                                 <b-tr class="">
-                                    <b-td class="text-left py-1"><span class="fw-500"> 2020 목표</span></b-td> <b-td class="py-1"><span class="fw-500"> 80</span></b-td>
+                                    <b-td class="text-left py-1"><span class="fw-500"> 2020 목표</span></b-td> <b-td class="py-1"><span class="fw-500">77.0</span></b-td>
                                 </b-tr>                                
                             </b-tbody>   
-                            <div class="position-absolute" style="z-index:3; width:98%; height:25.7px; bottom:0.5px; left:0; background-color: #d3e9f3;">&nbsp;</div>
+                            <!-- <div class="position-absolute" style="z-index:2; width:98%; height:25.7px; bottom:0.5px; left:0; background-color: #d3e9f3;">&nbsp;</div> -->
 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 mb-sm-4">

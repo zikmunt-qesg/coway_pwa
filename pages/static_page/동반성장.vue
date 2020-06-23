@@ -53,7 +53,7 @@
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="mx-auto mb-2"><b-img src="/images/141_4.svg" fluid ></b-img> </div>
-                                <p class="fw-500 word-break px-sm-2"><span class="fw-600">1</span>차 협력사의 <span class="fw-600">2</span>차 협력사 지원</p>
+                                <p class="fw-500 word-break px-sm-2 font-noto">1차 협력사의 2차 협력사 지원</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">

@@ -57,7 +57,7 @@
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-6 text-center mb-3 mb-sm-0"><div class="mx-auto mb-3" style="height: 65px;"><b-img src="/images/132_3.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break pr-1 pr-md-2 px-xl-3">협력사 탄소 파트너십 강화</p>
+                                        <p class="fw-500 word-break pr-1 pr-md-2 px-xl-3">협력사 공급망의 자발적 탄소 감축</p>
                                     </b-col>
                                     <b-col class="col-6 text-center"><div class="mx-auto mb-3" style="height: 65px;"><b-img src="/images/132_4.svg" fluid></b-img></div>
                                         <p class="fw-500 word-break pl-1">CDP(Carbon Disclosure Project)등 국제 이니셔티브 적극 참여</p>
@@ -70,8 +70,8 @@
                                 <b-row no-gutters class="align-items-center mb-3 pb-1">                                    
                                     <b-col class="col-6 text-center">                   
                                         <div class="f-330 fw-400 mb-3 mb-sm-1 pt-2">-50<span class="f-130 fw-500">%</span> </div>     
-                                        <p class="fw-500 word-break pr-1 px-md-2 font-noto">온실가스 원단위 배출량 감축 (2010년 대비 2020년 목표) </p>       
-                                    </b-col>
+                                        <p class="fw-500 word-break pr-1 px-md-2 font-noto">온실가스 원단위 배출량 감축 목표 (2010년 대비 2020년) </p>       
+                                    </b-col> 
                                     <b-col class="col-6 text-center">
                                         <div class="mx-auto mb-3 d-flex justify-content-center align-items-end" style="height: 60px;"><b-img src="/images/132_5.svg" fluid></b-img></div>
                                         <p class="fw-500 word-break pl-1 px-md-2 font-noto">물류센터 신재생에너지(태양광) 1차 구축 실행</p>
@@ -85,7 +85,7 @@
                 <hr class="py-3">
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화 목표 및 시나리오 관리'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화 목표 및 시나리오 관리</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-5"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 목표 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
+                        <p class="mb-5"> 코웨이는 기후변화와 지구환경의 변화가 기업의 경영활동에 중요한 영향을 미친다는 것을 인식하고 2006년 환경경영을 선포하였습니다. 코웨이는 2009년 온실가스 인벤토리 구축을 시작으로 2010년대비 2020까지의 온실가스 배출량 원단위(배출량/매출액)를 50%까지 저감하는 중장기 목표를 수립하여 감축 활동을 진행해 왔습니다. 2010년 온실가스 배출량 5,356톤CO2e, 원단위 0.357톤CO2e/억원 대비 2019년 5,935톤CO2e, 원단위 0.234톤CO2e/억원으로 온실가스 배출량은 10.81% 증가하였으나, 매출 증가 대비 온실가스 배출량을 최대한 억제하여 원단위는 기준년도 대비 약 70% 저감하는 효과가 있었습니다(2010년과 동일하게 내부 배출량 산정 기준 적용 시, 온실가스 배출량 4.13% 증가, 원단위 약 77% 저감).
                         </p>
                         <div class="position-relative pt-5 mb-4">
                             <hj-img src="/images/44_1.svg" fluid></hj-img>
@@ -107,13 +107,13 @@
                             <li>이전 년도 보고서와의 데이터 차이는 온실가스 관리 범위와 기준을 자사 (내부)기준에서 국가 기준[온실가스·에너지목표관리제]으로 관리 기준 변경에 따른 것임(17~19년 배출량 국가 기준으로 재검증)
                             </li>
                         </ol>    
-                        <hr class="mb-4">
+                        <hr class="py-2">
                         
-                        <p class="mb-5">코웨이는 사업장의 온실가스 저감 활동과 기업 운영 효율화를 통해 에너지를 효율적으로 사용하고 있습니다. 또한 신∙재생에너지인 태양광 발전의 지속적인 도입으로 인한 효과도 있었습니다. 코웨이는 유구공장(49.5KWh 규모), 인천공장(39KWh), 포천공장(45KWh 규모) 및 물류센터(48.8KWh 규모)에 태양광 발전을 설치하여 운영하고 있습니다. 3공장 및 물류센터에서 2019년 약 237MW의 전력을 생산, 자체 소비하여 온실가스 약 110톤을 저감하는 효과가 있었습니다(검증 전, 추정 치). 또한 유구공장에 도입된 에너지저장장치(ESS, Energy Storage System)는 Peak 부하를 감소시키고, 에너지 사용량 분산에 기여하고 있습니다. 뿐만 아니라 에너지 비용 절감 효과가 있어 2019년 약 1.2억원의 비용을 절감하였습니다. 유구공장과 물류센터에 도입된 LED 조명은 작업장 근로환경(조도) 개선과 함께 물류센터 기준 2019년 약 0.65억원 이상의 에너지 비용이 절감되었으며, 온실가스 약 264톤[물류센터 기준]을 저감하는 효과가 있었습니다.
+                        <p class="mb-5">코웨이는 사업장의 온실가스 저감 활동과 기업 운영 효율화를 통해 에너지를 효율적으로 사용하고 있습니다. 또한 신∙재생에너지인 태양광 발전의 지속적인 도입으로 인한 효과도 있었습니다. 코웨이는 유구공장(49.5KWh 규모), 인천공장(39KWh), 포천공장(45KWh 규모) 및 물류센터(48.8KWh 규모)에 태양광 발전을 설치하여 운영하고 있습니다. 3공장 및 물류센터에서 2019년 약 237MW의 전력을 생산, 자체 소비하여 온실가스 약 110톤을 저감하는 효과가 있었습니다(검증 전, 추정 치). 또한 유구공장에 도입된 에너지저장장치(ESS, Energy Storage System)는 Peak 부하를 감소시키고, 에너지 사용량 분산에 기여하고 있습니다. 뿐만 아니라 에너지 비용 절감 효과가 있어 2019년 약 1.2억원의 비용을 절감하였습니다. 유구공장과 물류센터에 도입된 LED 조명은 작업장 근로환경(조도) 개선과 함께 물류센터 기준 2019년 약 0.65억원 이상의 에너지 비용이 절감되었으며, 물류센터 기준 온실가스 약 264톤을 저감하는 효과가 있었습니다.
                         </p>
 
                     <h6-ancor :title="'과학적 감축 목표(Science based Target)계획 도입'" :activated="activated" class="green6 fw-500 mb-2">과학적 감축 목표(Science based Target)계획 도입</h6-ancor>
-                        <p class="mb-5"> 코웨이는 2020년 이후, 신기후변화체제에 대응하기 위해 온실가스 감축 목표를 과학적 감축 목표 계획 [SBT, Science Based Target]에 근거하여 2030년, 및 2050년까지의 목표를 수립하고 있습니다. 에너지의 대부분을 전력에 의존하고 있어 신·재생에너지의 지속 설치, 구매 및 감축량 구매 등, 실질적인 감축이 이루어질 수 있는 방향으로 목표를 수립 중에 있습니다. 이를 위해 온실가스 배출량 산정 기준을 자사 내부 기준에서 대한민국 에너지·온실가스 목표관리제 기준으로 산정 기준을 변경하여 최근 3년간 온실가스 배출량을 재산정 하였습니다. 최근 3년간 온실가스 배출량에 대한 외부 검증이 완료되는 시점에서 2030년 및 2050년 온실가스 감축 목표를 최종 확정하여 공개할 예정입니다. 
+                        <p class="mb-5"> 코웨이는 2020년 이후, 신기후변화체제에 대응하기 위해 온실가스 감축 목표를 과학적 감축 목표 계획(SBT, Science Based Target)에 근거하여 2030년, 및 2050년까지의 목표를 수립하고 있습니다. 에너지의 대부분을 전력에 의존하고 있어 신재생에너지의 지속 설치, 구매 및 감축량 구매 등, 실질적인 감축이 이루어질 수 있는 방향으로 목표를 수립 중에 있습니다. 이를 위해 온실가스 배출량 산정 기준을 자사 내부 기준에서 대한민국 에너지·온실가스 목표관리제 기준으로 산정 기준을 변경하여 최근 3년간 온실가스 배출량을 재산정 하였습니다. 최근 3년간 온실가스 배출량에 대한 외부 검증이 완료되는 시점에서 2030년 및 2050년 온실가스 감축 목표를 최종 확정하여 공개할 예정입니다. 
                         </p>
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative"> <h6-ancor :title="'기후변화의 위험과 기회 분석'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">기후변화의 위험과 기회 분석</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
