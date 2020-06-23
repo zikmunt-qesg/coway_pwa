@@ -1,0 +1,61 @@
+<svg id="구성_요소_42_1" data-name="구성 요소 42 – 1" xmlns="http://www.w3.org/2000/svg" width="102.646" height="127.054" viewBox="0 0 102.646 127.054">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1393d1;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 28px;
+        font-family: OpenSans, Open Sans;
+        letter-spacing: -0.015em;
+      }
+
+      .cls-3, .cls-4, .cls-6, .cls-7 {
+        font-size: 14px;
+      }
+
+      .cls-3 {
+        font-family: NotoSansKR-Bold, Noto Sans KR;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.047em;
+      }
+
+      .cls-5 {
+        font-size: 8px;
+      }
+
+      .cls-6, .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-7 {
+        fill: #787b7b;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <path id="패스_17147" data-name="패스 17147" class="cls-1" d="M0,0A51.323,51.323,0,0,1-51.323,51.323,51.323,51.323,0,0,1-102.646,0,51.323,51.323,0,0,1-51.323-51.323,51.323,51.323,0,0,1,0,0" transform="translate(102.646 75.731)"/>
+  <text id="_0.233" data-name="0.233" class="cls-2" transform="translate(16.812 80.777)"><tspan x="0" y="0">0.233</tspan></text>
+  <text id="_" data-name="" class="cls-3" transform="translate(85.834 80.777)"><tspan x="0" y="0"></tspan></text>
+  <g id="그룹" transform="translate(-646.017 141.33)">
+    <text id="t" class="cls-4" transform="translate(665.288 -40.656)"><tspan x="0" y="0">t</tspan></text>
+    <text id="CO" class="cls-4" transform="translate(669.883 -40.656)"><tspan x="0" y="0">CO</tspan></text>
+  </g>
+  <text id="_2" data-name="2" class="cls-5" transform="translate(41.667 100.958)"><tspan x="0" y="0">2</tspan></text>
+  <text id="e_억원" data-name="e/억원" class="cls-6" transform="translate(45.823 100.675)"><tspan x="0" y="0">e/</tspan><tspan y="0">억원</tspan></text>
+  <text id="_2019" data-name="2019" class="cls-7" transform="translate(35.954 16)"><tspan x="0" y="0">2019</tspan></text>
+</svg>

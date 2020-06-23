@@ -164,8 +164,11 @@
                     <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                     <div class="gray6 letter-narrow font-noto mb-45"> 2010년 온실가스 원단위 0.357 tCO<span class="f-60">2</span>e/억원 대비 2019년 원단위 0.234 tCO<span class="f-60">2</span>e/억원으로 매출 증가 대비 온실가스 배출량을 최대한 억제하여 기준년도 대비 약 70% 저감했습니다. 2020년에는 과학적 감축 목표 계획에 근거하여 2030년까지 중장기 목표를 수립하였습니다. 
                     </div>
-                    <div class="d-flex justify-content-around align-items-end">                
-                        <div class="local-temp-circle rounded-circle bg-gray3 position-relative mt-3">
+                    <div class="d-flex justify-content-around align-items-end"> 
+                        <div class="px-1"><b-img src="/images/145_1.svg" fluid></b-img></div>      
+                        <div class="px-1"><b-img src="/images/146_1.svg" fluid></b-img></div>  
+                        <div class="px-1"><b-img src="/images/147_1.svg" fluid></b-img></div>  
+                        <!-- <div class="local-temp-circle rounded-circle bg-gray3 position-relative mt-3">
                             <div class="position-absolute text-center w-100 ">
                                 <div class="gray5 fw-600 f-90 mb-4" style="margin-top:-1.5rem;">2017</div><div class="blue5 mb-m-2 f-190">0.253</div><div class="gray5 font-noto f-90 fw-300">tCO<span class="f-60">2</span>e/억원</div>
                             </div>
@@ -179,7 +182,7 @@
                             <div class="position-absolute text-center w-100 ">
                                 <div class="gray5 fw-600 f-90 mb-4" style="margin-top:-1.5rem;">2019</div><div class="text-white mb-m-2 f-190">0.234</div><div class="text-white font-noto f-80 fw-300">tCO<span class="f-60">2</span>e/억원</div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </b-col>    
                 <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">

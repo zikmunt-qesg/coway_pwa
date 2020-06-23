@@ -1,0 +1,56 @@
+<svg id="구성_요소_40_1" data-name="구성 요소 40 – 1" xmlns="http://www.w3.org/2000/svg" width="102.646" height="127.054" viewBox="0 0 102.646 127.054">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e2e6e6;
+      }
+
+      .cls-2 {
+        fill: #1393d1;
+        font-size: 28px;
+        font-family: OpenSans, Open Sans;
+        letter-spacing: -0.015em;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #6f7175;
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.047em;
+      }
+
+      .cls-4 {
+        font-size: 8px;
+      }
+
+      .cls-5, .cls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        fill: #787b7b;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="그룹_2244" data-name="그룹 2244" transform="translate(102.646 75.731)">
+    <path id="패스_17145" data-name="패스 17145" class="cls-1" d="M0,0A51.323,51.323,0,0,1-51.323,51.323,51.323,51.323,0,0,1-102.646,0,51.323,51.323,0,0,1-51.323-51.323,51.323,51.323,0,0,1,0,0"/>
+  </g>
+  <text id="_0.232" data-name="0.232" class="cls-2" transform="translate(16.812 77.199)"><tspan x="0" y="0">0.232</tspan></text>
+  <g id="그룹" transform="translate(-424.847 141.33)">
+    <text id="t" class="cls-3" transform="translate(444.117 -44.234)"><tspan x="0" y="0">t</tspan></text>
+    <text id="CO" class="cls-3" transform="translate(448.713 -44.234)"><tspan x="0" y="0">CO</tspan></text>
+  </g>
+  <text id="_2" data-name="2" class="cls-4" transform="translate(41.667 97.38)"><tspan x="0" y="0">2</tspan></text>
+  <text id="e_억원" data-name="e/억원" class="cls-5" transform="translate(45.823 97.096)"><tspan x="0" y="0">e/</tspan><tspan y="0">억원</tspan></text>
+  <text id="_2017" data-name="2017" class="cls-6" transform="translate(35.959 16)"><tspan x="0" y="0">2017</tspan></text>
+  <text id="_" data-name="" class="cls-6" transform="translate(66.688 16)"><tspan x="0" y="0"></tspan></text>
+</svg>
