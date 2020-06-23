@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg-sus min-vh-100">   
    <logger title="이해관계자 참여 및 중요 주제"></logger>
    <!-- <b-img src="/images/500.png" fluid class="page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:600px; z-index:0"></div>
+    <div class="w-100 position-absolute bg-white" style="height:93.8%; top:600px; z-index:0"></div>
     <b-container class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>

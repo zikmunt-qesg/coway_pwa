@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg-m2 min-vh-100">  
     <logger title="제품 책임"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:88.5%; top:1080px; z-index:0"></div>
+    <div class="w-100 position-absolute bg-white" style="height:88.9%; top:1080px; z-index:0"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">

@@ -1,31 +1,30 @@
 <template>
-<div class="py-5 bg-gray6">
+<div class="py-5 bg-gray6 position-relative" style="z-index:1">
     <b-container class="gray4">
         <b-row>
-            <b-col class="col-3">
+            <b-col class="col-4 col-md-3">
                 <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /> 
             </b-col>
-            <b-col class="col-9">
-                <div class="row">
-                    <div class="col"> About This Report</div>
-                    <div class="col"> Term & Conditions</div>
-                    <div class="col"> Further Website</div>
-                    <div class="col"> Contacts<br>
-                        <p class="mt-3 f-85">E-mail</p>
-                        <p class="f-85">Social Media</p>
-                        Icons
+            <b-col class="col-8 col-md-9 mb-3">
+                <div class="row d-flex flex-column flex-md-row f-90">
+                    <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> About This Report</div>
+                    <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> Terms & Conditions</div>
+                    <div class="col mb-2 mb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> Further Website</div>
+                    <div class="col d-flex d-md-block justify-content-end justify-content-md-start"> Contacts<br>
+                        <p class="ml-3 ml-md-0 mt-0 mt-md-2 mb-0 f-80">E-mail</p>
+                        <p class="ml-3 ml-md-0 mt-0 mt-md-2 mb-0 f-80">Social Media</p>
                     </div>
                 </div>
             </b-col>
         </b-row>
-        <hr class="space-lined">
-        <div class="text-center f-80">
-            <p class="mb-4"> 고객센터 1588-5200 (상담시간) 평일 오전 09:00 ~ 오후 06:00, 토요일 오전 09:00 ~ 오후 02:00, 국공휴일 오전 09:00 ~ 오후 04:00
+        <hr class="space-lined pb-3">
+        <div class="text-center px-sm-5 px-md-0">
+            <p class="mb-4 f-80"> 고객센터 1588-5200 (상담시간) 평일 오전 09:00 ~ 오후 06:00, 토요일 오전 09:00 ~ 오후 02:00, 국공휴일 오전 09:00 ~ 오후 04:00
             <br> (본사) 서울특별시 중구 서소문로 88 중앙일보빌딩 11층~17층 (사업소재지) 충남 공주시 유구읍 유구마곡사로 136-23
             <br>대표이사 이해선 사업자등록번호 307-81-06054 통신판매번호 제 2005-21호
             </p>
 
-            <p> COPYRIGHT COWAY CO., LTD. ALL RIGHTS RESERVED.
+            <p class="f-80"> COPYRIGHT COWAY CO., LTD. ALL RIGHTS RESERVED.
             </p>
         </div>
     </b-container>

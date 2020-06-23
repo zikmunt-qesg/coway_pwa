@@ -1,6 +1,6 @@
 <template>
 <div class="position-relative page-top-bg-news min-vh-100">
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:500px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:95%; top:500px; z-index:0"></div>
 
     <b-row no-gutters class="py-5">
         <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">COWAY SUSTAINABILITY NEWS</h2></b-col>

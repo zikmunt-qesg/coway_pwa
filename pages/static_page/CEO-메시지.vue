@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg-sus min-vh-100">   
     <logger title="CEO Message"></logger>
     <!-- <b-img src="/images/500.png" fluid class="page-top-img"></b-img> -->
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:600px; z-index:0"></div>
+    <div class="w-100 position-absolute bg-white" style="height:93.3%; top:600px; z-index:0"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">

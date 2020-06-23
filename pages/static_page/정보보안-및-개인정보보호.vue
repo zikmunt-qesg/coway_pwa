@@ -2,7 +2,7 @@
 <div class="position-relative page-top-bg-m3 min-vh-100">  
     <logger title="정보보안 및 개인정보보호"></logger>
     <!-- <b-img src="/images/사각형 8.png" fluid class="material-page-top-img"></b-img>  -->
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:1075px; z-index:0"></div>
+    <div class="w-100 position-absolute bg-white" style="height:91.2%; top:1075px; z-index:0"></div>
 
     <b-container class="">
         <b-row class="pt-md-5 px-3">
@@ -102,7 +102,7 @@
                     <p class="mb-5">코웨이는 개인정보 수집, 보관 및 활용, 파기의 전 과정에서 정보를 안전하게 관리하기 위해 개인정보보호 라이프사이클 관리를 추진합니다. 또한, 라이프사이클 전반에서 더욱 강화된 정보보호를 위해 관리영역, 물리영역 및 기술영역에서 정보보호대책을 실행합니다. 관리 영역에서 정보 자산 분류에 따른 정보 핸들링과 함께 정보보호 교육을 통한 인적 보안을 추진하며, 물리적인 관리 한계를 넘어 전체 시스템 통제 및 회복력 확보를 위해 기술영역에서 IT 시스템 기반의 진단, 통제 및 사고 복구를 진행하고 있습니다.
                     </p>
                     <div class="d-md-flex mb-5 w-100">
-                        <div><h7 class="gray63 mb-3">개인정보보호 라이프사이클 관리 체계</h7><hj-img src="/images/86_1.svg" fluid class="pr-md-3"></hj-img></div>
+                        <div class="mb-4 mb-md-0"><h7 class="gray63 mb-3">개인정보보호 라이프사이클 관리 체계</h7><hj-img src="/images/86_1.svg" fluid class="pr-md-3"></hj-img></div>
                         <div class="pl-md-3"><h7 class="gray63 mb-3">정보보호대책 상세 항목</h7><hj-img src="/images/87_1.svg" fluid ></hj-img></div>
                     </div>
                     <hr class="py-2">

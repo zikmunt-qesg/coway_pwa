@@ -1,6 +1,6 @@
 <template>
 <div class="position-relative page-top-bg-news min-vh-100">
-    <div class="w-100 position-absolute bg-white" style="height:95%; top:500px; z-index:-1"></div>
+    <div class="w-100 position-absolute bg-white" style="height:80%; top:500px; z-index:0"></div>
 
     <b-row no-gutters class="py-5">
         <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">COWAY SUSTAINABILITY NEWS</h2></b-col>
@@ -10,14 +10,15 @@
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5">
                 <section class="px-3 px-md-4 px-lg-5 py-4 py-lg-5">
-                    <div class="mb-1 blue3 f-80 fw-600"> {{ date }} </div>
+                    <div class="mb-1 blue3 f-90 fw-600"> {{ date }} </div>
                     <div class="mb-5 f-140 fw-500 font-noto"> {{ title }} </div>
-                    <div class="pt-2 mb-5 border-bottom-gray-bold"></div>
-                    <p class="mb-5 f-140 parang8 font-noto"> {{ description }} </p>
+                    <div class="mb-3 border-bottom-gray-bold"></div>
+                    <!-- <p class="mb-5 f-140 parang8 font-noto"> {{ description }} </p> -->
                     <div class="mb-3">
                         <b-img v-if="picture_file != null && picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
                     </div>
                     <div class="mb-3"> <div v-html="$md.render(contents)"></div> </div>
+                    <div class="pt-4 mb-3 border-bottom-gray-bold"></div>
                     <hr class='mb-5 space-p75'> 
                 </section>
             </b-col>
