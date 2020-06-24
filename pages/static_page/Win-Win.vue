@@ -233,16 +233,7 @@ export default {
     },
     data(){
         return {
-            title: '동반성장',
-            activated: [],
-            sub_titles: [
-                { 
-                    title: '협력사와의 소통을 통한 성장지원' 
-                },
-                { 
-                    title: '공정거래 문화 조성' 
-                }
-            ],
+            activated: []
         }
     },
     computed:{

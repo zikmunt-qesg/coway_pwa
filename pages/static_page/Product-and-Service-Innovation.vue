@@ -295,8 +295,8 @@ export default {
                 { 
                     title: this.is_ENG? 'Product Innovation for Enhancing its Intrinsic Value':'본질적 가치를 높이는 제품 혁신', hash: 's1',
                     child: [
-                        { title: this.is_ENG? 'HANDSPAN CIROO Tankless Purifier integration of Innovative technology': '혁신 기술의 집약, 한뼘 시루직수 정수기 개발', hash: 's1-2' }, 
-                        { title: this.is_ENG? 'Diversification of Customized Innovation':'고객 맞춤형 혁신 다각화', hash: 's1-3' }, 
+                        { title: this.is_ENG? 'HANDSPAN CIROO Tankless Purifier integration of Innovative technology': '혁신 기술의 집약, 한뼘 시루직수 정수기 개발', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Diversification of Customized Innovation':'고객 맞춤형 혁신 다각화', hash: 's1-2' }, 
                     ]
                 },
                 { 
