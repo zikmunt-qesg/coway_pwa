@@ -21,24 +21,23 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '깨끗한 물과 공기를 위한 환경경영',
             activated: [],
-            sub_titles: [
-                { 
-                    title: '환경경영을 통한 깨끗함의 가치 실현', 
-                    child: [
-                        { title: '코웨이 환경경영 방침' }, 
-                        { title: '환경경영 전략' }, 
-                        { title: '환경경영 추진 체계' }, 
-                    ]
-                },
-                { 
-                    title: '가치사슬 전체의 환경역량 강화' 
-                }
-            ],
         }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Reporting Frameworks' : '보고 프레임워크 인덱스'
+        },
     },
     methods:{
         safeHash(target){

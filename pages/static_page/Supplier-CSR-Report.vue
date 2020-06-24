@@ -227,30 +227,45 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '협력사 CSR 리포트',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Supplier CSR Report' : '협력사 CSR 리포트'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '협력사 행동규범', 
+                    title: this.is_ENG? 'Supplier Code of Conduct': '협력사 행동규범', hash: 's1' 
                 },
                 { 
-                    title: '협력사 지속가능성 평가',
+                    title: this.is_ENG? 'Supplier Sustainability Assessment': '협력사 지속가능성 평가', hash: 's2',
                     child: [
-                        { title: '공급망 지속가능성 사전 스크리닝' },
-                        { title: '협력사 리스크 평가'},
-                        { title: '시정 조치'},                        
+                        { title: this.is_ENG? 'Preliminary Screening on Supply Chain Sustainability': '공급망 지속가능성 사전 스크리닝', hash: 's2-1' },
+                        { title: this.is_ENG? 'Supplier Risk Assessment': '협력사 리스크 평가', hash: 's2-2' },
+                        { title: this.is_ENG? 'Corrective Action':'시정 조치', hash: 's2-3' },                        
                     ]
                 },
                 {
-                    title: '분쟁광물',
+                    title: this.is_ENG? 'Conflict Minerals': '분쟁광물', hash: 's3',
                     child: [
-                        { title: '분쟁광물 사용 제한 선언' },
-                        { title: '코웨이 행동규범 제 12조'}
+                        { title: this.is_ENG? 'Declaration of Restriction on the Use of Conflict Minerals': '분쟁광물 사용 제한 선언', hash: 's3-1' },
+                        { title: this.is_ENG? 'Coway Code of Conduct Article 12': '코웨이 행동규범 제 12조', hash: 's3-2'}
                     ]
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

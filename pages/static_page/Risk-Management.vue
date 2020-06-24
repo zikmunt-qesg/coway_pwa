@@ -181,18 +181,33 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '리스크 관리',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Risk Management' : '리스크 관리'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '전사적 리스크 관리 체계'
+                    title: this.is_ENG? 'Company Wide Risk Management System': '전사적 리스크 관리 체계', hash: 's1'
                 },
                 { 
-                    title: '잠재 리스크의 관리' 
+                    title: this.is_ENG? 'Company Wide Risk Management System': '잠재 리스크의 관리', hash: 's2'
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{
