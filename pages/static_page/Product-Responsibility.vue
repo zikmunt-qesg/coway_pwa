@@ -11,7 +11,7 @@
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'제품 책임'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#1394d1'"
@@ -22,7 +22,7 @@
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
                         <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue7">
-                            <h4-ancor :title="'제품 책임'" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품 책임</h4-ancor>
+                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품 책임</h4-ancor>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
@@ -75,18 +75,18 @@
                     </b-row>
                 </section>
                 <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'제품 책임 거버넌스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 책임 거버넌스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 책임 거버넌스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 제품 책임 및 품질경영을 위해 CEO 직속 협의체인 ‘무한책임위원회’와 CEO 참석 전사 회의체 PIC 360를 운영하고 있습니다. 또한, 통합적 품질관리로 일관적이고 효율적인 품질 혁신 관리를 위해 통합 품질검증 조직인 TQA 센터를 운영하고 있습니다.
                     </p>
                 
-                    <h6-ancor :title="'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360'" :activated="activated" class="blue5 mb-3 font-noto">전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360</h6-ancor>
+                    <h6-ancor hash="s1-1" :activated="activated" class="blue5 mb-3 font-noto">전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC 360</h6-ancor>
                     <p>코웨이는 제품 책임을 다하여 고객 신뢰를 강화하고자 ‘무한책임위원회’를 운영하고 있습니다. 고객에게 좋은 품질의 제품을 제공하기 위해 제품 품질, 안전성, 고객 신뢰 이슈 등을 포괄적으로 검토하고, 관련 사항을 선제적으로 점검 및 개선하고 있습니다. 무한책임위원회는 CEO 직속 협의체로서 신속한 의사결정을 내리기 위해 매월 1회 본부장급 임원으로 구성된 책임위원들이 모여 안건을 공유하며, 논의된 사항은 전사 프로세스에 접목해 실행하면서 문제를 신속히 해결하고 궁극적으로는 고객 신뢰를 강화하고 있습니다. 
                     </p>
 
                     <p class="mb-5">또한 2018년 8월부터 연구개발회의와 품질회의를 통합하여 전사 회의체 PIC 360(Product Immersion Committee 360)를 신설하였습니다. 매월 1회 대표이사, 관련 부문 임원, 실무 팀장까지 참석하여, 상품 기획단계부터 출시 이후 전 과정에 대한 전방위적(360도) 관점에서 제품 책임을 논의하고 실행력을 강화하고 있습니다. 
                     </p>
 
-                    <h6-ancor :title="'TQA 센터(Trust & Quality Assurance Center)'" :activated="activated" class="blue5 mb-3">TQA 센터(Trust &amp; Quality Assurance Center)</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="blue5 mb-3">TQA 센터(Trust &amp; Quality Assurance Center)</h6-ancor>
                     <p class="mb-5">고객신뢰 회복과 고객 안심 구현을 위한 품질 혁신 추진체로 TQA센터 (Trust & Quality Assurance Center)를 운영하고 있습니다. TQA센터는 환경기술연구소와 생산운영본부로 분사되어 있던 품질 검증 부서를 통합한 독립적인 조직으로, 품질관련 전략과 기능을 통합하고 역량 및 실행력을 강화하여 잠재된 품질 이슈를 사전에 발굴하고 선제적으로 대응하기 위해 노력하고 있습니다. 
                     </p>
 
@@ -110,7 +110,7 @@
                     </section>
 
                     <hr class="py-2">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'제품 신뢰성 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 신뢰성 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">제품 신뢰성 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-3">코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 또한 IoCare 제품 신뢰성 검증 향상을 위해 무선 기술 측정 장비를 확충하였으며, IAQ(Indoor Air Quality, 실내공기질) 센싱 기술 검증력을 확보해 IT 기술을 활용한 다양한 제품 개발에 대응할 수 있는 인프라를 확충하고 있습니다. 
                     </p>
 
@@ -135,7 +135,7 @@
                     </b-row>
                 
                     <hr class="py-2">
-                    <h6-ancor :title="'신뢰성 시험 표준 개발'" :activated="activated" class="blue5 mb-3">신뢰성 시험 표준 개발</h6-ancor>
+                    <h6-ancor hash="s2-1" :activated="activated" class="blue5 mb-3">신뢰성 시험 표준 개발</h6-ancor>
                     <p class="mb-45">글로벌 스탠다드를 충족하는 제품·부품 신뢰성 시험 역량을 보유하기 위해 국내외 선진 6개사, 국제 표준(IEC, ISO), 국가 표준(KS, MIL, JIS, BS) 및 관련 단체 규격(JEDEC, EIAJ) 등을 검토하여, 자사 제품에 적합한 시험 표준을 개발하는 등 외부 규격을 적극 도입하고 있습니다. 매년 필드 실패사례 및 고객 사용환경에 따른 신뢰성 시험법을 지속적으로 제/개정하여, 환경의 변화와 기술 발전, 사업 범위와 영역의 확대 등에 신속하게 대응하고 있습니다. 
                     </p>
 
@@ -174,7 +174,7 @@
                             </b-table-simple>
 
                     <hr class="py-2">                    
-                    <h6-ancor :title="'신뢰성 검증 역량 강화'" :activated="activated" class="blue5 mb-3">신뢰성 검증 역량 강화</h6-ancor>
+                    <h6-ancor hash="s2-2" :activated="activated" class="blue5 mb-3">신뢰성 검증 역량 강화</h6-ancor>
                     <p class="mb-45"> 제품 고장을 사전 예측하고 분석하는 프로세스를 기반으로 설계 완성도를 높이고 불량 및 고장을 예방하여, 제품 신뢰성을 향상하고 있습니다.
                     </p>
 
@@ -200,11 +200,11 @@
                     </p>
                     <hr class="py-3">                    
 
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'안전 인증 확대 및 고객 안심'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전 인증 확대 및 고객 안심</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전 인증 확대 및 고객 안심</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 적극적인 안전 인증 시험소 운영을 기반으로 안전 인증 취득 범위를 확대하고, 제품 안전성에 대한 신속한 사전 준비를 추진합니다. 안전 인증을 통해 고객에 믿을 수 있는 정보를 제공하며, 시장 경쟁에서의 민첩성을 확보하고 있습니다. 또한 고객에 종합적인 안전 및 위생 안심 서비스를 제공하여 사용단계에서의 제품 책임을 이행하고 있습니다.
                     </p>
 
-                    <h6-ancor :title="'제품 안전 인증 확대'" :activated="activated" class="blue5 mb-3">제품 안전 인증 확대</h6-ancor>
+                    <h6-ancor hash="s3-1" :activated="activated" class="blue5 mb-3">제품 안전 인증 확대</h6-ancor>
                     <p class="mb-45 pb-2">코웨이 TQA 센터는 13개의 제품 안전 관련 공인 시험소를 운영하며 빠르게 변화하는 국내외 안전성 트랜드 및 인증 규제에 신속히 대응하고 있습니다. 2019년에는 유럽 공인 시험기관인 NEMKO(전기 장비 제조 안전 테스트 감독 기관)와 공동으로 운영하고 있는 CTF(Customer’s Testing Facility) 시험소를 갱신하며 해외에 수출하는 전기전자제품의 안전 인증인 ENEC 와 CB 인증의 취득 관리를 더욱 효율적으로 수행할 수 있도록 협력을 강화하였습니다. 또한, 2019년 내부 NEMKO ICSE(International Certified Safety Engineer) 자격증 취득 인원을 4명으로 확대하여 전문성 기반의 안전 인증을 취득하였습니다.
                     </p>
 
@@ -212,7 +212,7 @@
                         <hj-img src="/images/83_1.svg" fluid></hj-img>
                         <hr class="mb-5 py-2">                    
                     
-                    <h6-ancor :title="'안전 및 위생 안심 서비스'" :activated="activated" class="blue5 mb-3">안전 및 위생 안심 서비스</h6-ancor>
+                    <h6-ancor hash="s3-2" :activated="activated" class="blue5 mb-3">안전 및 위생 안심 서비스</h6-ancor>
                     <p class="mb-45">코웨이는 제품의 위생과 안전성을 확보하기 위해 제품 설계부터 소재 선택, 관리 서비스까지 통합적 관리를 추진하고 있습니다. 제품 설계 과정에서 부품 교체 및 청소 등 위생적인 유지 보수 및 자동화된 위생 관리 시스템을 적용합니다. 먹는 물의 위생 관리가 핵심적인 정수기의 경우 정수기 사용 시 유로에 남은 잔수를 자동으로 배출하는 ‘유로 비움 모드’를 적용하고, 24시간 미사용 시 정수기 내 장수를 자동으로 배출하는 자동 배수 시스템을 도입하였습니다. 또한 안전한 소재를 사용하기 위해 모든 부품에 대한 화학물질 함유량을 확인하며, 더욱 안전성이 높은 소재로 대체하기 위한 신소재 개발을 지속하고 있습니다. 또한 고객 사용 단계에서의 안전 및 위생 관리를 위해 1) 제품별 전문 위생관리 도구 제공, 2) 위생 부품 전면 교체 스페셜 케어 서비스, 3) 위생 모니터링 및 경고 알람 제공, 4) IoT 기술 기반 제품 상태 정보 제공 등의 복합 서비스를 제공하고 있습니다. 
                     </p>     
                         <hj-img src="/images/84_1.svg" fluid></hj-img>
