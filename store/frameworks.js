@@ -33,7 +33,7 @@ export const state = () => ({
           classification: '조직프로필',
           code: '102-5',
           indicators: '소유 구조 및 법적 형태',
-          link: [{'to':'/static_page/지배구조#소유구조및의결권','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s3','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -54,16 +54,16 @@ export const state = () => ({
           classification: '조직프로필',
           code: '102-8',
           indicators: '임직원 및 근로자에 대한 정보',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-9',
           indicators: '조직의 공급망',
-          link: [{'to':'/static_page/라이프케어-전문-파트너-양성','name': '라이프케어 전문 파트너 양성', 'icon':'fas fa-link' },
-                 {'to':'/static_page/동반성장','name': '동반성장', 'icon':'fas fa-link' }, 
-                 {'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Train-Lifecare-Professional-Partners','name': '라이프케어 전문 파트너 양성', 'icon':'fas fa-link' },
+                 {'to':'/static_page/Win-Win','name': '동반성장', 'icon':'fas fa-link' }, 
+                 {'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -84,126 +84,126 @@ export const state = () => ({
           classification: '조직프로필',
           code: '102-12',
           indicators: '외부이니셔티브',
-          link: [{'to':'/static_page/정책-및-이니셔티브','name': '정책 및 이니셔티브', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Policies-and-Initiatives','name': '정책 및 이니셔티브', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-13',
           indicators: '협회 멤버십',
-          link: [{'to':'/static_page/지역사회#공공정책참여','name': '지역사회 - 공공정책참여', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community#s3','name': '지역사회 - 공공정책참여', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-14',
           indicators: '최고 의사 결정권자 성명서',
-          link: [{'to':'/static_page/CEO-메시지','name': 'CEO 메시지', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/CEO-Message','name': 'CEO 메시지', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-15',
           indicators: '주요 영향, 위기 그리고 기회',
-          link: [{'to':'/static_page/리스크-관리','name': '리스크 관리', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Risk-Management','name': '리스크 관리', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-16',
           indicators: '가치, 원칙, 표준, 행동강령',
-          link: [{'to':'/static_page/정책-및-이니셔티브', 'name': '정책 및 이니셔티브', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Policies-and-Initiatives', 'name': '정책 및 이니셔티브', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-17',
           indicators: '윤리 관련 안내 및 고충처리 메커니즘',
-          link: [{'to':'/static_page/윤리경영#윤리강령CodeofConduct','name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethics-Management#s1','name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-18',
           indicators: '지배구조',
-          link: [{'to':'/static_page/지배구조','name': '지배구조', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance','name': '지배구조', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-22',
           indicators: '최고의사결정기구와 산하 위원회의 구성',
-          link: [{'to':'/static_page/지배구조#이사회산하위원회운영','name': '지배구조 - 이사회 산하 위원회 운영', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s1-3','name': '지배구조 - 이사회 산하 위원회 운영', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-23',
           indicators: '최고의사결정기구의 의장',
-          link: [{'to':'/static_page/지배구조#이사회구성현황','name': '지배구조 - 이사회 구성 현황', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s1-1','name': '지배구조 - 이사회 구성 현황', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-24',
           indicators: '최고의사결정기구 추천 및 선정',
-          link: [{'to':'/static_page/지배구조#이사회의독립성및전문성','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s1-2','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-25',
           indicators: '이해관계 상충',
-          link: [{'to':'/static_page/지배구조#이사회의독립성및전문성','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s1-2','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-27',
           indicators: '최고의사결정기구의 집단지식',
-          link: [{'to':'/static_page/지배구조#이사회의독립성및전문성','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s1-2','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-35',
           indicators: '보상정책',
-          link: [{'to':'/static_page/지배구조#성과평가와보수지급','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#s2','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-40',
           indicators: '조직과 관련 있는 이해관계자 집단 리스트',
-          link: [{'to':'/static_page/이해관계자-참여-및-중요-주제','name': '이해관계자 참여 및 중요 주제', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues','name': '이해관계자 참여 및 중요 주제', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-41',
           indicators: '단체협약',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#노사협의회기반의커뮤니케이션','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-1','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-42',
           indicators: '이해관계자 파악 및 선정',
-          link: [{'to':'/static_page/이해관계자-참여-및-중요-주제#중대성평가','name': '이해관계자 참여 및 중요 주제 - 중대성 평가', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#s2','name': '이해관계자 참여 및 중요 주제 - 중대성 평가', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-43',
           indicators: '이해관계자 참여 방식',
-          link: [{'to':'/static_page/이해관계자-참여-및-중요-주제#이해관계자참여','name': '이해관계자 참여 및 중요 주제 - 이해관계자 참여', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#s1','name': '이해관계자 참여 및 중요 주제 - 이해관계자 참여', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-44',
           indicators: '이해관계자 참여를 통해 제기된 핵심 주제와 관심사',
-          link: [{'to':'/static_page/이해관계자-참여-및-중요-주제#중대성맥락과중장기목표','name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#s3','name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -218,14 +218,14 @@ export const state = () => ({
           classification: '조직프로필',
           code: '102-46',
           indicators: '보고 내용 및 토픽의 경계 정의',
-          link: [{'to':'/static_page/보고-범위-및-검증','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '102-47',
           indicators: 'Material Topic 리스트',
-          link: [{'to':'/static_page/이해관계자-참여-및-중요-주제#Step3-중요주제보고','name': '이해관계자 참여 및 중요 주제 - 중요 주제 보고', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#s2-3','name': '이해관계자 참여 및 중요 주제 - 중요 주제 보고', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -288,14 +288,14 @@ export const state = () => ({
           classification: '조직프로필',
           code: '102-56',
           indicators: '외부검증',
-          link: [{'to':'/static_page/보고-범위-및-검증','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '조직프로필',
           code: '103-1',
           indicators: 'Material Topic과 그 경계에 대한 설명',
-          link: [{'to':'/static_page/이해관계자-참여-및-중요-주제#중대성맥락과중장기목표','name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#s3','name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -318,21 +318,21 @@ export const state = () => ({
           classification: '경제성과',
           code: 'MA',
           indicators: '경제성과 경영접근방식',
-          link: [{'to':'/static_page/경제적-가치-창출과-분배','name': '경제적 가치 창출과 분배', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Economic-Value-Creation-and-Distribution','name': '경제적 가치 창출과 분배', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '경제성과',
           code: '201-1',
           indicators: '직접적인 경제적 가치의 창출과 배분',
-          link: [{'to':'/static_page/경제적-가치-창출과-분배','name': '경제적 가치 창출과 분배', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Economic-Value-Creation-and-Distribution','name': '경제적 가치 창출과 분배', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '경제성과',
           code: '201-2',
           indicators: '기후변화의 재무적 영향과 사업활동에 대한 위험과 기회',
-          link: [{'to':'/static_page/기후변화-대응#기후변화의위험과기회분석','name': '기후변화 대응 - 기후변화의 위험과 기회 분석', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change#s2','name': '기후변화 대응 - 기후변화의 위험과 기회 분석', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -353,49 +353,49 @@ export const state = () => ({
           classification: '시장지위',
           code: '202-1',
           indicators: '사업장의 현지 법정최저임금 대비 신입사원 임금 비율',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '시장지위',
           code: '202-2',
           indicators: '주요 사업장의 현지 출신 고위 관리자 비율',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '간접경제효과',
           code: '203-1',
           indicators: '공익을 위한 인프라 투자 및 서비스 지원 활동',
-          link: [{'to':'/static_page/지역사회#코웨이다운사회공헌','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community#s1','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '간접경제효과',
           code: '203-2',
           indicators: '중요한 간접적 경제 파급효과 및 영향',
-          link: [{'to':'/static_page/경제적-가치-창출과-분배','name': '경제적 가치 창출과 분배', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Economic-Value-Creation-and-Distribution','name': '경제적 가치 창출과 분배', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '반부패',
           code: '205-1',
           indicators: '사업장 부패 위험 평가',
-          link: [{'to':'/static_page/윤리경영#윤리진단ComplianceCheckOrganization','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethics-Management#s2','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '반부패',
           code: '205-2',
           indicators: '반부패 정책 및 절차에 관한 공지와 훈련',
-          link: [{'to':'/static_page/윤리경영#윤리교육ConsensusbyEthicEducation','name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethics-Management#s3','name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '반부패',
           code: '205-3',
           indicators: '확인된 부패 사례와 이에 대한 조치',
-          link: [{'to':'/static_page/윤리경영#윤리진단ComplianceCheckOrganization','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethics-Management#s2','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -412,140 +412,140 @@ export const state = () => ({
           classification: '원재료',
           code: '301-1',
           indicators: '사용된 원료의 중량과 부피',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#자원효율성향상과순환경제지원','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '원재료',
           code: '301-2',
           indicators: '사용된 원료 중 재생 원료의 투입',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#자원효율성향상과순환경제지원','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '원재료',
           code: '301-3',
           indicators: '제품 및 포장재 재생 원료',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#자원효율성향상과순환경제지원','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '에너지',
           code: 'MA',
           indicators: '에너지 경영 접근',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '에너지',
           code: '302-1',
           indicators: '조직 내부 에너지 소비',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '에너지',
           code: '302-2',
           indicators: '조직 외부 에너지 소비',
-          link: [{'to':'/static_page/기후변화-대응#협력사탄소파트너십','name': '기후변화 대응 - 협력사 탄소 파트너십', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change#s3','name': '기후변화 대응 - 협력사 탄소 파트너십', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '에너지',
           code: '302-3',
           indicators: '에너지 집약도',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '에너지',
           code: '302-4',
           indicators: '에너지 소비 절감',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '용수',
           code: '303-1',
           indicators: '공급원별 취수량',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#전과정수자원사용량절감','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-4','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '용수',
           code: '303-2',
           indicators: '취수로부터 큰 영향을 받는 용수 공급원',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#전과정수자원사용량절감','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-4','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '용수',
           code: '303-3',
           indicators: '용수 재활용 및 재사용',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#전과정수자원사용량절감','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-4','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-1',
           indicators: '직접 온실가스 배출량(Scope 1)',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-2',
           indicators: '간접 온실가스 배출량(Scope 2)',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-3',
           indicators: '기타 간접 온실가스 배출량(Scope 3)',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-4',
           indicators: '온실가스 배출 집약도',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-5',
           indicators: '온실가스 배출 감축',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-6',
           indicators: '오존층 파괴 물질의 배출',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#냉매회수및재활용','name': '친환경 제품 개발과 제품 생애주기 관리 - 냉매 회수 및 재활용', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-2','name': '친환경 제품 개발과 제품 생애주기 관리 - 냉매 회수 및 재활용', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '배출',
           code: '305-7',
           indicators: '질소산화물, 황산화물 그리고 다른 주요 대기 배출물',
-          link: [{'to':'/static_page/기후변화-대응','name': '기후변화 대응', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change','name': '기후변화 대응', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '폐수 및 폐기물',
           code: 'MA',
           indicators: '폐수 및 폐기물 경영 접근',
-          link: [{'to':'/static_page/깨끗한-물과-공기를-위한-환경경영#코웨이환경경영방침','name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Environmental-Management-for-Clean-Water-and-Air#s1-1','name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '폐수 및 폐기물',
           code: '306-2',
           indicators: '유형과 처리방법에 따른 폐기물',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#자원효율성향상과순환경제지원','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -566,14 +566,14 @@ export const state = () => ({
           classification: '폐수 및 폐기물',
           code: '306-1',
           indicators: '수질 및 목적지에 따른 폐수 배출',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#전과정수자원사용량절감','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-4','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: '모든 수자원은 유틸리티 용수로 사용 후 하수처리장으로 배출합니다'
         },
         {
           classification: '폐수 및 폐기물',
           code: '301-5',
           indicators: '폐수 배출로 인해 영향을 받은 수역',
-          link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#전과정수자원사용량절감','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-4','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: '모든 수자원은 유틸리티 용수로 사용 후 하수처리장으로 배출하여 주의가 필요한 영향 수역이 존재하지 않습니다.'
         },
         {
@@ -587,7 +587,7 @@ export const state = () => ({
           classification: '공급업체 환경평가',
           code: '308-1',
           indicators: '환경 기준 심사를 거친 신규 공급업체 비율',
-          link: [{'to':'/static_page/협력사-CSR-리포트#협력사리스크평가','name': '협력사 CSR 리포트 - 협력사 리스크 평가', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report#s2-2','name': '협력사 CSR 리포트 - 협력사 리스크 평가', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -595,7 +595,7 @@ export const state = () => ({
           code: '308-2',
           indicators:
             '공급망 내 실질적이거나 잠재적으로 중대한 부정적 환경영향 및 이에 대한 조치',
-          link: [{'to':'/static_page/협력사-CSR-리포트#시정조치','name': '협력사 CSR 리포트 - 시정조치', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report#s2-3','name': '협력사 CSR 리포트 - 시정조치', 'icon':'fas fa-link' }],
           Note: ''
         }
     ],
@@ -604,7 +604,7 @@ export const state = () => ({
           classification: '고용',
           code: '401-1',
           indicators: '신규채용과 이직',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -612,56 +612,56 @@ export const state = () => ({
           code: '401-2',
           indicators:
             '비정규 직원 혹은 파트타임 직원에게는 제공되지 않는 정규직 직원 대상의 보상',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#일과삶의균형을통한임직원만족도제고','name': '임직원 중심의 기업문화와 안전한 근무환경 - 일과 삶의 균형을 통한 임직원 만족도 제고', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-2','name': '임직원 중심의 기업문화와 안전한 근무환경 - 일과 삶의 균형을 통한 임직원 만족도 제고', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '고용',
           code: '401-3',
           indicators: '육아휴직',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '노사관계',
           code: '402-1',
           indicators: '운영상의 변화와 관련한 최소 공지기간',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#노사협의회기반의커뮤니케이션','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-1','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '산업안전보건',
           code: '403-1',
           indicators: '노사공동 보건안전위원회가 대표하는 전체 근로자의 비율',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#산업안전보건위원회운영','name': '임직원 중심의 기업문화와 안전한 근무환경 - 산업안전보건위원회 운영', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s3-1','name': '임직원 중심의 기업문화와 안전한 근무환경 - 산업안전보건위원회 운영', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '산업안전보건',
           code: '403-3',
           indicators: '업무상 질병 발생률 또는 발생 위험이 높은 근로자',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '산업안전보건',
           code: '403-4',
           indicators: '노동조합과의 정식 협약 대상인 안전보건 사항',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '훈련 및 교육',
           code: '404-1',
           indicators: '임직원 1인당 평균 교육시간',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#직무교육','name': '임직원 중심의 기업문화와 안전한 근무환경 - 직무 교육', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s1-2','name': '임직원 중심의 기업문화와 안전한 근무환경 - 직무 교육', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '훈련 및 교육',
           code: '404-2',
           indicators: '임직원 역량 강화 및 전환 지원을 위한 프로그램',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#착한성장을위한역량강화','name': '임직원 중심의 기업문화와 안전한 근무환경 - 착한성장을 위한 역량 강화', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s1','name': '임직원 중심의 기업문화와 안전한 근무환경 - 착한성장을 위한 역량 강화', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -675,21 +675,21 @@ export const state = () => ({
           classification: '다양성과 기회균등',
           code: '405-1',
           indicators: '거버넌스 기구 및 임직원 다양성',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '다양성과 기회균등',
           code: '405-2',
           indicators: '남성 대비 여성의 기본급 및 보상 비율',
-          link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '차별금지',
           code: '406-1',
           indicators: '차별 사건 및 이에 대한 시정조치',
-          link: [{'to':'/static_page/인권-리포트#핵심적인권요소에대한조치결과','name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report#s2-2','name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -697,21 +697,21 @@ export const state = () => ({
           code: '407-1',
           indicators:
             '근로자의 결사 및 단체 교섭의 자유가 심각하게 침해될 소지가 있다고 판단된 사업장 및 협력회사',
-          link: [{'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '아동노동',
           code: '408-1',
           indicators: '아동 노동 발생 위험이 높은 사업장 및 협력회사',
-          link: [{'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '강제노동',
           code: '409-1',
           indicators: '강제 노동 발생 위험이 높은 사업장 및 협력회사',
-          link: [{'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -733,14 +733,14 @@ export const state = () => ({
           classification: '인권평가',
           code: '412-1',
           indicators: '인권 영향평가 혹은 인권 검토 대상 사업장',
-          link: [{'to':'/static_page/인권-리포트#리스크식별','name': '인권 리포트 - 리스크 식별', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report#s2-1','name': '인권 리포트 - 리스크 식별', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '인권평가',
           code: '412-2',
           indicators: '사업과 관련된 인권 정책 및 절차에 관한 임직원 교육',
-          link: [{'to':'/static_page/인권-리포트','name': '인권 리포트', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report','name': '인권 리포트', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -755,7 +755,7 @@ export const state = () => ({
           classification: '지역사회',
           code: '413-1',
           indicators: '지역사회 참여, 영향 평가 그리고 발전프로그램 운영 비율',
-          link: [{'to':'/static_page/지역사회','name': '지역사회', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community','name': '지역사회', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -770,7 +770,7 @@ export const state = () => ({
           classification: '공급망 관리',
           code: '414-1',
           indicators: '사회적 영향평가를 통해 스크리닝된 신규 협력회사',
-          link: [{'to':'/static_page/협력사-CSR-리포트#공급망지속가능성사전스크리닝','name': '협력사 CSR 리포트 - 공급망 지속가능성 사전 스크리닝', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report#s2-1','name': '협력사 CSR 리포트 - 공급망 지속가능성 사전 스크리닝', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -778,42 +778,42 @@ export const state = () => ({
           code: '414-2',
           indicators:
             '공급망 내 주요한 부정적인 사회 영향과 이에 대한 시행 조치',
-          link: [{'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '공공정책',
           code: '415-1',
           indicators: '정치적 기부',
-          link: [{'to':'/static_page/지역사회#공공정책참여','name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community#s3','name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '고객 안전보건',
           code: 'MA',
           indicators: '고객 안전보건 경영 접근',
-          link: [{'to':'/static_page/제품-책임','name': '제품 책임', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility','name': '제품 책임', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '고객 안전보건',
           code: '416-1',
           indicators: '제품 및 서비스군의 안전보건 영향 평가',
-          link: [{'to':'/static_page/제품-책임#안전인증확대및고객안심','name': '제품 책임 - 안전 인증 확대 및 고객 안심', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility#s3','name': '제품 책임 - 안전 인증 확대 및 고객 안심', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '고객 안전보건',
           code: '416-2',
           indicators: '제품 및 서비스의 안전보건 영향에 관한 규정 위반 사건',
-          link: [{'to':'/static_page/제품-책임#제품신뢰성강화','name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility#s2','name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
           classification: '마케팅 및 라벨링',
           code: '417-1',
           indicators: '제품 및 서비스 정보와 라벨링',
-          link: [{'to':'/static_page/제품-책임#제품신뢰성강화','name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility#s2','name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -836,7 +836,7 @@ export const state = () => ({
           code: '418-1',
           indicators:
             '고객 개인정보보호 위반 및 고객정보 분실 사실이 입증된 불만 건수',
-          link: [{'to':'/static_page/정보보안-및-개인정보보호#모니터링및실사프로세스','name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s3','name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -861,7 +861,7 @@ export const state = () => ({
             classification: '제품 안전', 
             code: 'CG-AM-250a.2', 
             indicators: '제품 안전 리스크의 식별과 관리를 위한 절차', 
-            link: [{'to':'/static_page/제품-책임#제품신뢰성강화','name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Product-Responsibility#s2','name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
@@ -875,21 +875,21 @@ export const state = () => ({
             classification: '제품 생애주기 환경영향', 
             code: 'CG-AM-410a.1', 
             indicators: '에너지스타 프로그램 인증을 받은 제품 비율', 
-            link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#친환경제품인증획득','name': '친환경 제품 개발과 제품 생애주기 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s1-2','name': '친환경 제품 개발과 제품 생애주기 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
             Note: '당사는 에너지스타 프로그램 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
         { 
             classification: '제품 안전', 
             code: 'CG-AM-410a.2', 
             indicators: '가전제품 지속가능성 표준(AHAM) 인증을 받은 제품 비율', 
-            link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#친환경제품인증획득','name': '친환경 제품 개발과 제품 생애주기 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s1-2','name': '친환경 제품 개발과 제품 생애주기 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
             Note: '당사는 가전제품 지속가능성 표준(AHAM) 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
         { 
             classification: '제품 안전', 
             code: 'CG-AM-410a.3', 
             indicators: '제품 폐기로 인한 영향을 관리하기 위한 노력', 
-            link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#리퍼브제도','name': '친환경 제품 개발과 제품 생애주기 관리 - 리퍼브 제도', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-3','name': '친환경 제품 개발과 제품 생애주기 관리 - 리퍼브 제도', 'icon':'fas fa-link' }], 
             Note: '' 
         }
     ],
@@ -907,56 +907,56 @@ export const state = () => ({
             classification: '정보 보안', 
             code: 'SV-PS-230a.1', 
             indicators: '정보 보안 리스크의 식별과 관리를 위한 절차', 
-            link: [{'to':'/static_page/정보보안-및-개인정보보호','name': '정보보안 및 개인정보보호', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection','name': '정보보안 및 개인정보보호', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '정보 보안', 
             code: 'SV-PS-230a.2', 
             indicators: '고객 정보 수집, 사용, 보유에 관한 정책과 사례', 
-            link: [{'to':'/static_page/정보보안-및-개인정보보호#개인정보보호라이프사이클관리','name': '정보보안 및 개인정보보호 - 개인정보보호 라이프사이클 관리', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s2-1','name': '정보보안 및 개인정보보호 - 개인정보보호 라이프사이클 관리', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '정보 보안', 
             code: 'SV-PS-230a.3', 
             indicators: '(1)정보 유출 사고, (2)개인 식별정보 또는 고객 비밀정보의 수집 비율, (3)영향을 받은 고객 수', 
-            link: [{'to':'/static_page/정보보안-및-개인정보보호#모니터링및실사프로세스','name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s3','name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }], 
             Note: '보고기간 중 외부 이해관계자 및 규제기관의 고충제기가 존재하지 않습니다.' 
         },
         { 
             classification: '임직원 다양성 및 참여', 
             code: 'SV-PS-330a.1', 
             indicators: '(1)임원 및 (2)임직원의 성별 및 인종 다양성 비율', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '임직원 다양성 및 참여', 
             code: 'SV-PS-330a.2', 
             indicators: '(1)자발적 및 (2)비자발적 이직률', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '임직원 다양성 및 참여', 
             code: 'SV-PS-300a.3', 
             indicators: '임직원 참여도', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#일과삶의균형을통한임직원만족도제고','name': '임직원 중심의 기업문화와 안전한 근무환경 - 일과 삶의 균형을 통한 임직원 만족도 제고', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-2','name': '임직원 중심의 기업문화와 안전한 근무환경 - 일과 삶의 균형을 통한 임직원 만족도 제고', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '직업 윤리', 
             code: 'SV-PS-510a.1', 
             indicators: '직업 윤리 확보를 위한 접근', 
-            link: [{'to':'/static_page/윤리경영#윤리교육ConsensusbyEthicEducation','name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethics-Management#s3','name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '직업 윤리', 
             code: 'SV-PS-510a.2', 
             indicators: '직업 윤리 위반 관련 법적 철차로 인한 금전적 손실액', 
-            link: [{'to':'/static_page/윤리경영#윤리진단ComplianceCheckOrganization','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethics-Management#s2','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
             Note: '' 
         }
     ],
@@ -965,7 +965,7 @@ export const state = () => ({
             classification: '활동 지표', 
             code: 'SV-PS-000.A', 
             indicators: '(1)정규직, (2)임시직, (3)계약 임직원의 수', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
@@ -982,70 +982,70 @@ export const state = () => ({
             classification: '거버넌스', 
             code: '1.1.1', 
             indicators: '이사회 구조', 
-            link: [{'to':'/static_page/지배구조','name': '지배구조', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance','name': '지배구조', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '거버넌스', 
             code: '1.1.2', 
             indicators: '비상임 의장/선임 이사', 
-            link: [{'to':'/static_page/지배구조#이사회구성현황','name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s1-1','name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
             Note: '' 
         },
         { 
             classification: '거버넌스', 
             code: '1.1.3', 
             indicators: '이사회 다양성 정책', 
-            link: [{'to':'/static_page/지배구조#이사회의독립성및전문성','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s1-2','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }], 
             Note: '' 
         },   
         { 
             classification: '거버넌스', 
             code: '1.1.4', 
             indicators: '이사회 성별 다양성', 
-            link: [{'to':'/static_page/지배구조#이사회구성현황','name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s1-1','name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.5', 
             indicators: '이사회 효율성', 
-            link: [{'to':'/static_page/지배구조','name': '지배구조', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance','name': '지배구조', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.6', 
             indicators: '이사회 평균 임기', 
-            link: [{'to':'/static_page/지배구조#이사회구성현황','name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s1-1','name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.7', 
             indicators: '이사회 산업 경험 및 전문성', 
-            link: [{'to':'/static_page/지배구조#이사회의독립성및전문성','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s1-2','name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.8', 
             indicators: '임원 보수 - 성공지표', 
-            link: [{'to':'/static_page/지배구조#성과평가와보수지급','name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s2','name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.9', 
             indicators: '임원 보수 - 장기 성과 연동', 
-            link: [{'to':'/static_page/지배구조#성과평가와보수지급','name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s2','name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.10', 
             indicators: '임원 주식소유', 
-            link: [{'to':'/static_page/지배구조#소유구조및의결권','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s3','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
@@ -1059,266 +1059,266 @@ export const state = () => ({
             classification: '거버넌스', 
             code: '1.1.12', 
             indicators: '정부 주식소유', 
-            link: [{'to':'/static_page/지배구조#소유구조및의결권','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s3','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.13', 
             indicators: '창립자 및 창립자 가족 주식소유', 
-            link: [{'to':'/static_page/지배구조#소유구조및의결권','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Corporate-Governance#s3','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }],
             Note: ''     
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.14', 
             indicators: '차등의결권', 
-            link: [{'to':'/static_page/지배구조#소유구조및의결권','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s3','name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '거버넌스', 
             code: '1.1.15', 
             indicators: 'CEO 및 임직원간 평균-중앙 보수 격차', 
-            link: [{'to':'/static_page/지배구조#성과평가와보수지급','name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#s2','name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '중요성', 
             code: '1.2.2', 
             indicators: '중요 주제 공시', 
-            link: [{'to':'/static_page/이해관계자-참여-및-중요-주제#Step3-중요주제보고','name': '이해관계자 참여 및 중요 주제 - Step3. 중요 주제 보고', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#s2-3','name': '이해관계자 참여 및 중요 주제 - Step3. 중요 주제 보고', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '리스크 관리', 
             code: '1.3.3', 
             indicators: '잠재 리스크(Emerging Risk)', 
-            link: [{'to':'/static_page/리스크-관리#잠재리스크의관리','name': '리스크 관리 - 잠재 리스크의 관리', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Risk-Management#s2','name': '리스크 관리 - 잠재 리스크의 관리', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '윤리경영', 
             code: '1.4.1', 
             indicators: '윤리강령', 
-            link: [{'to':'/static_page/윤리경영#윤리강령CodeofConduct','name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethics-Management#s1','name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '윤리경영', 
             code: '1.4.3', 
             indicators: '반부패', 
-            link: [{'to':'/static_page/윤리경영#윤리진단ComplianceCheckOrganization','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethics-Management#s2','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '윤리경영', 
             code: '1.4.7', 
             indicators: '윤리강령 위반', 
-            link: [{'to':'/static_page/윤리경영#윤리진단ComplianceCheckOrganization','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethics-Management#s2','name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '고객관계관리', 
             code: '1.5.2', 
             indicators: '고객 만족 관리', 
-            link: [{'to':'/static_page/제품과-서비스의-혁신#고객맞춤형혁신다각화','name': '제품과 서비스의 혁신 - 고객 맞춤형 혁신 다각화', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Product-and-Service-Innovation#s1-2','name': '제품과 서비스의 혁신 - 고객 맞춤형 혁신 다각화', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '정책 영향', 
             code: '1.6.1', 
             indicators: '정책 공헌 및 지출', 
-            link: [{'to':'/static_page/지역사회#공공정책참여','name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Local-Community#s3','name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '정책 영향', 
             code: '1.6.2', 
             indicators: '정책 공헌 및 지출 내역', 
-            link: [{'to':'/static_page/지역사회#공공정책참여','name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Local-Community#s3','name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '공급망 관리', 
             code: '1.7.1', 
             indicators: '공급망 정책', 
-            link: [{'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],             
+            link: [{'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }],             
             Note: '' 
         },            
         { 
             classification: '공급망 관리', 
             code: '1.7.6', 
             indicators: '투명성 및 보고', 
-            link: [{'to':'/static_page/협력사-CSR-리포트','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Supplier-CSR-Report','name': '협력사 CSR 리포트', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '조세정책', 
             code: '1.9.1', 
             indicators: '조세 정책', 
-            link: [{'to':'/static_page/경제적-가치-창출과-분배#조세정책','name': '경제적 가치 창출과 분배 - 조세 정책', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Economic-Value-Creation-and-Distribution#s3','name': '경제적 가치 창출과 분배 - 조세 정책', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '조세정책', 
             code: '1.9.2', 
             indicators: '조세 보고', 
-            link: [{'to':'/static_page/경제적-가치-창출과-분배#조세납부현황및유효세율보고','name': '경제적 가치 창출과 분배 - 조세 납부 현황 및 유효세율 보고', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Economic-Value-Creation-and-Distribution#s3-1','name': '경제적 가치 창출과 분배 - 조세 납부 현황 및 유효세율 보고', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '조세정책', 
             code: '1.9.3', 
             indicators: '유효세율', 
-            link: [{'to':'/static_page/경제적-가치-창출과-분배#조세납부현황및유효세율보고','name': '경제적 가치 창출과 분배 - 조세 납부 현황 및 유효세율 보고', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Economic-Value-Creation-and-Distribution#s3-1','name': '경제적 가치 창출과 분배 - 조세 납부 현황 및 유효세율 보고', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '정보 보안', 
             code: '1.10.1', 
             indicators: '정보 보안 거버넌스', 
-            link: [{'to':'/static_page/정보보안-및-개인정보보호#정보보호조직','name': '정보보안 및 개인정보보호 - 정보보호 조직', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s1-2','name': '정보보안 및 개인정보보호 - 정보보호 조직', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '프라이버시 보호', 
             code: '1.12.1', 
             indicators: '프라이버시 정책 및 절차', 
-            link:  [{'to':'/static_page/정보보안-및-개인정보보호#정보보안및개인정보보호원칙','name': '정보보안 및 개인정보보호 - 정보보안 및 개인정보보호 원칙', 'icon':'fas fa-link' }], 
+            link:  [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s1-1','name': '정보보안 및 개인정보보호 - 정보보안 및 개인정보보호 원칙', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '프라이버시 보호', 
             code: '1.12.2', 
             indicators: '고객 정보', 
-            link: [{'to':'/static_page/정보보안-및-개인정보보호#개인정보보호라이프사이클관리','name': '정보보안 및 개인정보보호 - 개인정보보호 라이프사이클 관리', 'icon':'fas fa-link' }],  
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s2-1','name': '정보보안 및 개인정보보호 - 개인정보보호 라이프사이클 관리', 'icon':'fas fa-link' }],  
             Note: '' 
         },            
         { 
             classification: '프라이버시 보호', 
             code: '1.12.3', 
             indicators: '프라이버시 보호 위반', 
-            link: [{'to':'/static_page/정보보안-및-개인정보보호#2019년정보보호모니터링주요활동및성과','name': '정보보안 및 개인정보보호 - 2019년 정보보호 모니터링 주요활동 및 성과', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#s3-2','name': '정보보안 및 개인정보보호 - 2019년 정보보호 모니터링 주요활동 및 성과', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '환경 보고',
             code: '2.1.1', 
             indicators: '환경 보고 - 범위', 
-            link: [{'to':'/static_page/보고-범위-및-검증','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '환경 보고', 
             code: '2.1.2', 
             indicators: '환경 보고 - 검증', 
-            link: [{'to':'/static_page/보고-범위-및-검증','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '환경관리시스템', 
             code: '2.2.1', 
             indicators: '환경 정책 및 가이드라인', 
-            link: [{'to':'/static_page/깨끗한-물과-공기를-위한-환경경영#코웨이환경경영방침','name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Environmental-Management-for-Clean-Water-and-Air#s1-1','name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '환경관리시스템', 
             code: '2.2.3', 
             indicators: '환경 투자 ROI', 
-            link: [{'to':'/static_page/기후변화-대응#온실가스·에너지및기타환경데이터','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Responses-to-Climate-Change#s4','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '환경관리시스템', 
             code: '2.2.4', 
             indicators: '환경 법규 위반', 
-            link: [{'to':'/static_page/기후변화-대응#온실가스·에너지및기타환경데이터','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Responses-to-Climate-Change#s4','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '운영환경효율성', 
             code: '2.3.1', 
             indicators: '직접 온실가스 배출(Scope 1)', 
-            link: [{'to':'/static_page/기후변화-대응#온실가스·에너지및기타환경데이터','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }],  
+            link: [{'to':'/static_page/Responses-to-Climate-Change#s4','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }],  
             Note: '' 
         },            
         { 
             classification: '운영환경효율성', 
             code: '2.3.2', 
             indicators: '간접 온실가스 배출(Scope 2)', 
-            link: [{'to':'/static_page/기후변화-대응#온실가스·에너지및기타환경데이터','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }],  
+            link: [{'to':'/static_page/Responses-to-Climate-Change#s4','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }],  
             Note: '' 
         },            
         { 
             classification: '운영환경효율성', 
             code: '2.3.3', 
             indicators: '에너지 사용', 
-            link: [{'to':'/static_page/기후변화-대응#온실가스·에너지및기타환경데이터','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Responses-to-Climate-Change#s4','name': '기후변화 대응 - 온실가스 · 에너지 및 기타 환경 데이터', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '운영환경효율성', 
             code: '2.3.4', 
             indicators: '물 사용', 
-            link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#전과정수자원사용량절감','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],  
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-4','name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],  
             Note: '' 
         },            
         { 
             classification: '운영환경효율성', 
             code: '2.3.5', 
             indicators: '폐기물', 
-            link: [{'to':'/static_page/친환경-제품-개발과-제품-생애주기-관리#자원효율성KPI','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 KPI', 'icon':'fas fa-link' }],   
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#s2-1','name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 KPI', 'icon':'fas fa-link' }],   
             Note: '' 
         },            
         { 
             classification: '사회보고', 
             code: '3.1.1', 
             indicators: '사회 보고 - 범위', 
-            link: [{'to':'/static_page/보고-범위-및-검증','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '사회보고', 
             code: '3.1.2', 
             indicators: '사회 보고 - 검증', 
-            link:  [{'to':'/static_page/보고-범위-및-검증','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+            link:  [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '노동지표', 
             code: '3.2.1', 
             indicators: '임직원 다양성', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '노동지표', 
             code: '3.2.2', 
             indicators: '동등 보수', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#임직원현황데이터','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 임직원 현황 데이터', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '노동지표', 
             code: '3.2.3', 
             indicators: '결사의 자유', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#노사협의회기반의커뮤니케이션','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s2-1','name': '임직원 중심의 기업문화와 안전한 근무환경 - 노사협의회 기반의 커뮤니케이션', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '인권', 
             code: '3.3.1', 
             indicators: '인권 정책', 
-            link: [{'to':'/static_page/인권-리포트#인권경영원칙및가이드','name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Human-Rights-Report#s2','name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '인권', 
             code: '3.3.4', 
             indicators: '인권 공시', 
-            link: [{'to':'/static_page/인권-리포트','name': '인권 리포트', 'icon':'fas fa-link' }],  
+            link: [{'to':'/static_page/Human-Rights-Report','name': '인권 리포트', 'icon':'fas fa-link' }],  
             Note: '' 
         },            
         { 
@@ -1332,42 +1332,42 @@ export const state = () => ({
             classification: '사회공헌', 
             code: '3.6.1', 
             indicators: '사회공헌 전략', 
-            link: [{'to':'/static_page/지역사회#코웨이다운사회공헌','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
+            link: [{'to':'/static_page/Local-Community#s1','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
             Note: '' 
         },            
         { 
             classification: '사회공헌', 
             code: '3.6.2', 
             indicators: '사회공헌 활동 내역', 
-            link: [{'to':'/static_page/지역사회#깨끗한물과공기를위한코웨이의약속','name': '지역사회 - 깨끗한 물과 공기를 위한 코웨이의 약속', 'icon':'fas fa-link' }],   
+            link: [{'to':'/static_page/Local-Community#s2','name': '지역사회 - 깨끗한 물과 공기를 위한 코웨이의 약속', 'icon':'fas fa-link' }],   
             Note: '' 
         },            
         { 
             classification: '사회공헌', 
             code: '3.6.3', 
             indicators: '사회공헌 투입', 
-            link: [{'to':'/static_page/지역사회#코웨이다운사회공헌','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
+            link: [{'to':'/static_page/Local-Community#s1','name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
             Note: '' 
         },            
         { 
             classification: '안전 및 보건', 
             code: '3.7.1', 
             indicators: '건강 및 웰빙', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '안전 및 보건', 
             code: '3.7.3', 
             indicators: '근로손실재해율(LTIFR) - 임직원', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
             classification: '안전 및 보건', 
             code: '3.7.4', 
             indicators: '근로손실재해율(LTIFR) - 계약자', 
-            link: [{'to':'/static_page/임직원-중심의-기업문화와-안전한-근무환경#안전하고건강한근무환경','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#s3','name': '임직원 중심의 기업문화와 안전한 근무환경 - 안전하고 건강한 근무환경', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
