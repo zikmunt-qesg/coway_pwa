@@ -124,25 +124,40 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '라이프케어 전문 파트너 양성',
-            activated: [],
-            sub_titles: [
+            activated: []
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Train Lifecare Professional Partners' : '라이프케어 전문 파트너 양성'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '파트너 전문성 강화', 
+                    title: this.is_ENG? 'Partner Expertise Enhancement': '파트너 전문성 강화', hash: 's1',
                     child: [
-                        { title: '파트너 전문성 향상을 위한 교육 지원' }, 
-                        { title: '현장 이슈에 기반한 파트너 지원' }, 
+                        { title: this.is_ENG? 'Provide Training for Partners Expertise Improvement': '파트너 전문성 향상을 위한 교육 지원', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Provide Real Life Workplace Issues Training for Partners':'현장 이슈에 기반한 파트너 지원', hash: 's1-2' }, 
                     ]
                 },
                 { 
-                    title: '파트너 상생 및 커뮤니케이션',
+                    title: this.is_ENG? 'Partner Win Win and Communication': '파트너 상생 및 커뮤니케이션', hash: 's2',
                     child: [
-                        { title: '코로나19 특별재난지역에 파트너 긴급생활비 지원' }
+                        { title: this.is_ENG? 'Provide Emergency Relief for Partners in COVID 19 Special Disaster Areas':'코로나19 특별재난지역에 파트너 긴급생활비 지원', hash: 's2-1' }
                     ] 
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

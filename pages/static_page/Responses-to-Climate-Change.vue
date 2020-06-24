@@ -442,31 +442,46 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '기후변화 대응',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Responses to Climate Change' : '기후변화 대응'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '기후변화 목표 및 시나리오 관리', 
+                    title: this.is_ENG? 'Climate Change Goals and Scenario Management':'기후변화 목표 및 시나리오 관리', hash: 's1',
                     child: [
-                        { title: '과학적 감축 목표(Science based Target)계획 도입' }, 
+                        { title: this.is_ENG? 'Implementation of Science Based Target Plan':'과학적 감축 목표(Science based Target)계획 도입', hash: 's1-1' }, 
                     ]
                 },
                 { 
-                    title: '기후변화의 위험과 기회 분석', 
+                    title: this.is_ENG? 'Analyzing the Risks and Opportunities of Climate Change':'기후변화의 위험과 기회 분석', hash: 's2',
                     child: [
-                        { title: '기후변화에 따른 잠재 위험 분석' }, 
-                        { title: '기후변화에 따른 잠재 기회 분석' }, 
+                        { title: this.is_ENG? 'Analysis of Potential Risks from Climate Change': '기후변화에 따른 잠재 위험 분석', hash: 's2-1' }, 
+                        { title: this.is_ENG? 'Analysis of Potential Opportunity from Climate Change': '기후변화에 따른 잠재 기회 분석', hash: 's2-2' }, 
                     ]
                 }, 
                 { 
-                    title: '협력사 탄소 파트너십'
+                    title: this.is_ENG? 'Carbon Partnership with Supplier':'협력사 탄소 파트너십', hash: 's3'
                 },
                 { 
-                    title: '온실가스 · 에너지 및 기타 환경 데이터'
+                    title: this.is_ENG? 'Greenhouse GasEnergy and Other Environment Data':'온실가스 · 에너지 및 기타 환경 데이터', hash: 's4'
                 },
             ]
+            return temp            
         }
     },
     methods:{

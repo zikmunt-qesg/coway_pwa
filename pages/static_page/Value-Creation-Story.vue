@@ -141,18 +141,33 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '가치창출 스토리',
-            activated: [],
-            sub_titles: [
+            activated: []
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Value Creation Story' : '가치창출 스토리'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '비즈니스 모델'
+                    title: this.is_ENG? 'Business Model': '비즈니스 모델', hash: 's1'
                 },
                 { 
-                    title: '비즈니스 밸류체인' 
+                    title: this.is_ENG? 'Business Model': '비즈니스 밸류체인', hash: 's2' 
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

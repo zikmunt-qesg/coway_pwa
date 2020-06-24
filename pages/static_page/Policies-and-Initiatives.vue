@@ -102,6 +102,9 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 export default {
     layout: 'StaticPage',
     async asyncData({ query }) {
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
         if (query.p != null) {
             return { show_page: query.p }
         }
@@ -111,10 +114,17 @@ export default {
     },
     data(){
         return {
-            title: '정책 및 이니셔티브',
             activated: [],
             sub_titles: [],
         }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Policies and Initiatives' : '지역사회'
+        },
     },
     methods:{
         safeHash(target){

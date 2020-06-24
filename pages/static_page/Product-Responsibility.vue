@@ -245,35 +245,50 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '제품 책임',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Product Responsibility' : '제품 책임'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '제품 책임 거버넌스', 
+                    title: this.is_ENG? 'Product Responsibility Governance': '제품 책임 거버넌스', hash: 's1',
                     child: [
-                        { title: '전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC360' }, 
-                        { title: 'TQA센터(Trust & Quality Assurance Center)' }, 
+                        { title: this.is_ENG? 'Company wide Product Responsibility and Quality Management Governance Infinite Responsibility Committee PIC 360':'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC360', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'TQA Center Trust and Quality Assurance Center': 'TQA센터(Trust & Quality Assurance Center)', hash: 's1-2' }, 
                     ]
                 },
                 { 
-                    title: '제품 신뢰성 강화',
+                    title: this.is_ENG? 'Product Reliability Reinforcement':'제품 신뢰성 강화', hash: 's2',
                     child: [
-                        { title: '신뢰성 시험 표준 개발'},
-                        { title: '신뢰성 검증 역량 강화'}
+                        { title: this.is_ENG? 'Development of Reliability Test Standards': '신뢰성 시험 표준 개발', hash: 's2-1'},
+                        { title: this.is_ENG? 'Enhancement of reliability verification capacity':'신뢰성 검증 역량 강화', hash: 's2-2'}
                     ] 
                 },
                 {
-                    title: '안전 인증 확대 및 고객 안심',
+                    title: this.is_ENG? 'Expansion of Safety Certification and Customer Satisfaction': '안전 인증 확대 및 고객 안심', hash: 's3',
                     child: [
-                        { title: '제품 안전 인증 확대'},
-                        { title: '안전 및 위생 안심 서비스'}
+                        { title: this.is_ENG? 'Expansion of Safety Certification': '제품 안전 인증 확대', hash: 's3-1'},
+                        { title: this.is_ENG? 'Safety and Hygiene Satisfaction Service': '안전 및 위생 안심 서비스', hash: 's3-2'}
                     ]
                 }
-            ],
+            ]
+            return temp            
         }
-    },
+    },    
     methods:{
         safeHash(target){
             return ih.safeHash(target)

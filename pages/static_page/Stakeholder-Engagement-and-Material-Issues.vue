@@ -364,31 +364,46 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '이해관계자 참여 및 중요 주제',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Stakeholder Engagement and Material Issues' : '이해관계자 참여 및 중요 주제'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '이해관계자 참여'
+                    title: this.is_ENG? 'Stakeholder Engagement':'이해관계자 참여', hash: 's1'
                 },
                 { 
-                    title: '중대성 평가',
+                    title: this.is_ENG? 'Materiality Test': '중대성 평가', hash: 's2',
                     child: [
-                        { title: 'Step 1. 이슈 풀(Pool) 구성' }, 
-                        { title: 'Step 2. 중대성 평가 실시' }, 
-                        { title: 'Step 3. 중요 주제 보고' }, 
+                        { title: this.is_ENG? 'Step 1. Organize an Issue Pool': 'Step 1. 이슈 풀(Pool) 구성', hash: 's2-1' }, 
+                        { title: this.is_ENG? 'Step 2. Conduct Materiality Test': 'Step 2. 중대성 평가 실시', hash: 's2-2' }, 
+                        { title: this.is_ENG? 'Step 3. Report Material Issues': 'Step 3. 중요 주제 보고', hash: 's2-3' }, 
                     ] 
                 },
                 { 
-                    title: '중대성 맥락과 중장기 목표',
+                    title: this.is_ENG? 'Materiality Context and Medium and Long Term Goals': '중대성 맥락과 중장기 목표', hash: 's3',
                     child: [
-                        { title: '고객 맞춤형 제품 및 서비스 개발' }, 
-                        { title: '제품 안전 및 신뢰성 강화' }, 
-                        { title: '정보보호' }, 
+                        { title: this.is_ENG? 'Development of Customized Products and Services': '고객 맞춤형 제품 및 서비스 개발', hash: 's3-1' }, 
+                        { title: this.is_ENG? 'Enhancement of Product Safety and Reliability': '제품 안전 및 신뢰성 강화', hash: 's3-2' }, 
+                        { title: this.is_ENG? 'Information Protection': '정보보호', hash: 's3-3' }, 
                     ] 
                 },                
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

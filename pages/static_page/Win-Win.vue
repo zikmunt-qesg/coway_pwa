@@ -226,6 +226,11 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
             title: '동반성장',
@@ -238,6 +243,25 @@ export default {
                     title: '공정거래 문화 조성' 
                 }
             ],
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Win Win' : '동반성장'
+        },
+        sub_titles(){
+            let temp = [
+                { 
+                    title: this.is_ENG? 'Support for Growth through Communication with Suppliers': '협력사와의 소통을 통한 성장지원', hash: 's1' 
+                },
+                { 
+                    title: this.is_ENG? 'Support for Growth through Communication with Suppliers': '공정거래 문화 조성', hash: 's2'
+                }
+            ]
+            return temp            
         }
     },
     methods:{

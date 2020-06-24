@@ -273,34 +273,49 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '제품과 서비스의 혁신',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Product and Service Innovation' : '제품과 서비스의 혁신'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '본질적 가치를 높이는 제품 혁신', 
+                    title: this.is_ENG? 'Product Innovation for Enhancing its Intrinsic Value':'본질적 가치를 높이는 제품 혁신', hash: 's1',
                     child: [
-                        { title: '혁신 기술의 집약, 한뼘 시루직수 정수기 개발' }, 
-                        { title: '고객 맞춤형 혁신 다각화' }, 
+                        { title: this.is_ENG? 'HANDSPAN CIROO Tankless Purifier integration of Innovative technology': '혁신 기술의 집약, 한뼘 시루직수 정수기 개발', hash: 's1-2' }, 
+                        { title: this.is_ENG? 'Diversification of Customized Innovation':'고객 맞춤형 혁신 다각화', hash: 's1-3' }, 
                     ]
                 },
                 { 
-                    title: '미래 기술 기반의 서비스 혁신',
+                    title: this.is_ENG? 'Service Innovation based on Future Technology': '미래 기술 기반의 서비스 혁신', hash: 's2',
                     child: [
-                        { title: '빅데이터 기반 제품 추천, 워터맵 서비스' }, 
-                        { title: '시뮬레이션 체험, 공기 주치의 서비스' }, 
-                        { title: '모바일 서비스 강화, 안심 QR 서비스 시행' }
+                        { title: this.is_ENG? 'Water Map Service Big Data based Product Recommendation':'빅데이터 기반 제품 추천, 워터맵 서비스', hash: 's2-1' }, 
+                        { title: this.is_ENG? 'Air Doctor Service Simulation Experience': '시뮬레이션 체험, 공기 주치의 서비스', hash: 's2-2' }, 
+                        { title: this.is_ENG? 'Mobile Service Enhancement Implementation of Reliable QR Service':'모바일 서비스 강화, 안심 QR 서비스 시행', hash: 's2-3' }
                     ]
                 },
                 { 
-                    title: '혁신을 위한 연구개발 역량 강화',
+                    title: this.is_ENG? 'Research Capacity Improvement for Innovation':'혁신을 위한 연구개발 역량 강화', hash: 's3',
                     child: [
-                        { title: '깨끗하고 맛있는 물에 대한 연구, 물맛 연구소' }, 
-                        { title: '오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입' }
+                        { title: this.is_ENG? 'Water Taste Laboratory research on  Clean and Tasteful Water':'깨끗하고 맛있는 물에 대한 연구, 물맛 연구소', hash: 's3-1' }, 
+                        { title: this.is_ENG? 'Open Innovation Introduction of  IoT Technology through Cooperation with Amazon':'오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입', hash: 's3-2' }
                     ]
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{
