@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'경제적 가치 창출과 분배'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#5171b1'"

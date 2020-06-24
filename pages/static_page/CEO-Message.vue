@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'CEO Message'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#132e54'"
@@ -21,7 +21,7 @@
             <b-container class="px-0">
                 <section class="px-4 py-4" style="background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0.6) 100%);">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor :title="'CEO Message'" :activated="activated" class="parang8">CEO Message</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="parang8">CEO Message</h4-ancor>
                     <div class="d-flex justify-content-between mt-m-3 font-noto">
                         <div>
                             <hr class="mb-5 space-p75">
