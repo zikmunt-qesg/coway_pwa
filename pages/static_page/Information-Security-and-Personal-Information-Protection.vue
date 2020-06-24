@@ -11,7 +11,7 @@
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'정보보안 및 개인정보보호'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#1394d1'"
@@ -22,7 +22,7 @@
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
                         <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue7">
-                            <h4-ancor :title="'정보보안 및 개인정보보호'" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">정보보안 및 개인정보보호</h4-ancor>
+                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">정보보안 및 개인정보보호</h4-ancor>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
@@ -74,11 +74,11 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'정보보안 및 개인정보보호 원칙과 조직'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 및 개인정보보호 원칙과 조직</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 및 개인정보보호 원칙과 조직</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-45">코웨이는 많은 고객의 개인정보를 수집하는 렌탈 비즈니스의 특성을 고려하여 전 사업 영역에서의 정보보호를 위해 정보보호 원칙과 개인정보보호 원칙을 수립 및 공유하고 있습니다. 코웨이는 정보보호 정책을 실무에 적용하기 쉽도록 정보보호 원칙과 지침으로 구성하였습니다. 2019년에는 정보통신망법, 개인정보보호법 등 법규 및 규제 변화에 따라 관련 내용을 추가하였으며, 중복 규정은 간소화하고 실행 가이드를 구체화하여 정보보호 규정을 개정하였습니다. 
                     </p>
                 
-                    <h6-ancor :title="'정보보안 및 개인정보보호 원칙'" :activated="activated" class="blue5 mb-3">정보보호 및 개인정보보호 원칙</h6-ancor>
+                    <h6-ancor hash="s1-1" :activated="activated" class="blue5 mb-3">정보보호 및 개인정보보호 원칙</h6-ancor>
                     <p>정보보호 원칙은 전 임직원에 적용되며 내부 데이터 관리 및 사이버 보안 준수 원칙, 정보위반 관련 사건 발생 시 대처 방안 및 보고 체계, 원칙 위반 시 발생사항 등을 포함하고 있습니다.  
                     </p>
 
@@ -86,18 +86,18 @@
                     </p>
                     <a href="https://help.coway.co.kr/member/coway_new/member/policy.aspx"><b-button variant="blue" size="sm" class="mb-5 px-3">코웨이 개인정보처리방침</b-button></a>
 
-                    <h6-ancor :title="'정보보호 조직'" :activated="activated" class="blue5 mb-3">정보보호 조직</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="blue5 mb-3">정보보호 조직</h6-ancor>
                     <p class="mb-45">코웨이는 정보보호위원회를 중심으로 정보보호 조직을 운영하고 있습니다. 정보보호위원회는 IT 센터장을 중심으로 운영되는 임원급 위원회로, 각 사업부문별 부문장이 정보보호 위원으로 참여합니다. 정보보호위원회는 정보보안 및 개인정보 보호 영역의 통합관리체계를 구축하여 관리의 효율성을 높이고 있습니다. 정보보호 실무는 보안팀을 중심으로 추진하고 있으며, 조직 내 개인정보보호 관리자를 두어 명확한 업무 분담 하에 전 임직원이 자율적이고 능동적으로 정보보호체계에 참여할 수 있도록 노력하고 있습니다.  
                     </p>
 
                     <b-img src="/images/85_1.svg" fluid></b-img>
                     <hr class="mb-45">
 
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'정보보호 관리체계'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 관리체계</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 관리체계</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-5">철저한 데이터 보안 유지 및 고객 개인정보보호를 위해 코웨이는 다각적인 정보보호 활동을 추진하고 있습니다. 개인정보보호를 위해 정보 수집, 보관 및 활용, 파기에 이르는 라이프사이클 관리 체계를 도입하였으며, ISMS, ISO27001 등의 정보보호 관련 국제 인증을 기반으로 체계적 관리를 지속하고 있습니다. 또한, 글로벌 정보보호 규제에 대응하기 위해 유럽연합 데이터 보호 규칙(GDPR, General Data Protection Regulation)의 보호조치 준수를 위한 가이드를 마련하였습니다. 
                     </p>
                     
-                    <h6-ancor :title="'개인정보보호 라이프사이클 관리'" :activated="activated" class="blue5 mb-3">개인정보보호 라이프사이클 관리</h6-ancor>
+                    <h6-ancor hash="s2-1" :activated="activated" class="blue5 mb-3">개인정보보호 라이프사이클 관리</h6-ancor>
                     <p class="mb-5">코웨이는 개인정보 수집, 보관 및 활용, 파기의 전 과정에서 정보를 안전하게 관리하기 위해 개인정보보호 라이프사이클 관리를 추진합니다. 또한, 라이프사이클 전반에서 더욱 강화된 정보보호를 위해 관리영역, 물리영역 및 기술영역에서 정보보호대책을 실행합니다. 관리 영역에서 정보 자산 분류에 따른 정보 핸들링과 함께 정보보호 교육을 통한 인적 보안을 추진하며, 물리적인 관리 한계를 넘어 전체 시스템 통제 및 회복력 확보를 위해 기술영역에서 IT 시스템 기반의 진단, 통제 및 사고 복구를 진행하고 있습니다.
                     </p>
                     <div class="d-md-flex mb-5 w-100">
@@ -141,7 +141,7 @@
 
                     <hr class="py-2">
                     
-                    <h6-ancor :title="'글로벌 정보보호 규제 대응'" :activated="activated" class="blue5 mb-3">글로벌 정보보호 규제 대응</h6-ancor>
+                    <h6-ancor hash="s2-2" :activated="activated" class="blue5 mb-3">글로벌 정보보호 규제 대응</h6-ancor>
                     <p class="font-noto">빅데이터, IoT 기술 등을 활용한 새로운 제품 및 서비스의 도입이 확대되고 있는 반면, 유럽연합을 필두로 글로벌 시장에서의 개인정보 보호 규제가 강화되고 있습니다. 이에 코웨이는 GDPR<sup>*</sup> 등 글로벌 개인정보 보호 규제에 대응하기 위해 대응방안을 수립하였습니다. 코웨이는 2019년 유럽지역에 아이오케어(IoCare) 서비스를 출시를 앞두고 GDPR 요구사항 이행을 위해 개인정보 보호 관련 규정, 약관, 프로세스 등을 점검하였습니다. 개인정보 처리 현황 분석결과에 대해 IoCare 앱을 통해 고지하였으며, 협력사 계약 시 유럽 개인정보 처리에 대한 표준 프로세스 계약 항목을 반영하였습니다. 또한 향후 수집된 데이터를 기초로 분석서비스를 제공할 경우를 대비하여 GDPR 보호조치 준수를 위한 가이드를 마련했습니다.
                     </p>
                     <p class="mb-3">글로벌 데이터 보호 관련 법 규제 강화에 대비하여 해외 개인정보보호 규제 대응을 위한 체계를 수립하였습니다. 진출 국가별 개인정보 보호 요구사항을 검토하여 통합 체크리스트를 마련, 글로벌 확장 가능성에 대비하였습니다. 
@@ -162,7 +162,7 @@
                         </p>
                     </section>
                     <hr class="py-2">
-                    <h6-ancor :title="'교육을 통한 정보보호 내재화'" :activated="activated" class="blue5 mb-3">교육을 통한 정보보호 내재화</h6-ancor>
+                    <h6-ancor hash="s2-3" :activated="activated" class="blue5 mb-3">교육을 통한 정보보호 내재화</h6-ancor>
                     <p class="mb-5 font-noto">코웨이는 임직원 및 수탁사를 대상으로 정보보호 교육을 실시하여 정보보호 의식을 고취하며 역량을 강화하고 있습니다. 2013년부터 매년 전 임직원을 대상으로 필수 과정인 정보보안 이러닝 과정을 진행하고 있으며, 2018년부터 현장에서 고객의 정보를 처리하는 파트너 약 15,000명을 대상으로 개인정보보호의 중요성에 대한 교육을 진행하고 있습니다. 2019년에는 전체 임직원을 대상으로 온라인 정보보호 교육은 물론 신규 입사자를 대상으로 오프라인 교육도 실시했습니다. 코웨이는 임직원뿐만 아니라 수탁자의 정보보호 인식을 제고하는 교육 방법 및 콘텐츠 개발을 위하여 노력하고 있습니다.
                     </p>
 
@@ -188,11 +188,11 @@
                             <li> 위/수탁사 교육 대상자 중 참여자 수의 비율. 위/수탁사 교육 대상의 범위는 내부에 상주하고 있으며 개인정보와 관련된 시스템에 접근이 가능한 위, 수탁사에 소속된 모든 인원을 정보보호 교육 대상자로 선정 </li>
                         </ol>
                     <hr class="py-3">              
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'모니터링 및 실사 프로세스'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">모니터링 및 실사 프로세스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">모니터링 및 실사 프로세스</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">정보보호 체계 실행을 위해 정기적인 데이터 보안 및 개인정보보호 모니터링을 진행합니다. 외부로부터의 사이버 공격 및 데이터 침해에 대응하기 위해 정보 암호화 및 보안 시스템을 운영할 뿐만 아니라 정기적인 연례 모의해킹 훈련을 수행합니다. 또한, 내부 데이터 관리의 안전 보장을 위해 개인정보 이상징후 탐지 시스템을 통해 리스크를 탐지하고, 고위험 영역에 대해서는 실사를 진행하여 리스크를 완화하고 있습니다.
                     </p>
 
-                    <h6-ancor :title="'시스템 기반 위험 점검 및 실사'" :activated="activated" class="blue5 mb-3">시스템 기반 위험점검 및 실사</h6-ancor>
+                    <h6-ancor hash="s3-1" :activated="activated" class="blue5 mb-3">시스템 기반 위험점검 및 실사</h6-ancor>
                     <hj-img src="/images/88_1.svg" fluid></hj-img>
                     <hr class="py-4">              
                     
@@ -203,7 +203,7 @@
                         <p class="mb-5">코웨이는 주요 영업 지점 및 영업 현장 PC내 개인정보검출 솔루션의 운영을 하고 있습니다. 개인정보가 포함된 파일을 PC에 기준치 이상 보관하는 경우 개인정보검출솔루션(PII)이 정기적인 검사를 통해 개인정보 보유 내역을 검출하여 PC알림창으로 사용자에게 알리고 격리, 삭제, 암호화 등 적절한 조치를 권고하고 있습니다. 
                         </p>
 
-                    <h6-ancor :title="'2019년 정보보호 모니터링 주요활동 및 성과'" :activated="activated" class="blue5 mb-3 font-noto">2019년 정보보호 모니터링 주요활동 및 성과</h6-ancor>
+                    <h6-ancor hash="s3-2" :activated="activated" class="blue5 mb-3 font-noto">2019년 정보보호 모니터링 주요활동 및 성과</h6-ancor>
                         <b-table-simple responsive class="sep-table f-95 fw-300 font-noto">
                             <b-tbody>
                                 <b-tr class="bg-blue5 fw-300 text-white">

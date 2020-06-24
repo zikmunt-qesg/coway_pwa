@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'깨끗한 물과 공기를 위한 환경경영'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#0b564a'"
@@ -24,7 +24,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor :title="'깨끗한 물과 공기를 위한 환경경영'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">깨끗한 물과 공기를 위한 환경경영</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">깨끗한 물과 공기를 위한 환경경영</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -84,12 +84,12 @@
                 <!-- End of DMA -->
                 <hr class="py-2">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'환경경영을 통한 깨끗함의 가치 실현'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">환경경영을 통한 깨끗함의 가치 실현 </h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">환경경영을 통한 깨끗함의 가치 실현 </h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class=""> 코웨이의 환경경영은 ‘착한 믿음’의 경영정신에서 시작됩니다. 또한 코웨이는 UNGC 10대 원칙을 지지하고 실천하는 데 동참하고 있습니다. 코웨이가 만드는 제품과 서비스를 통해 환경을 건강하게 사람을 행복하게 하는 것을 기업의 핵심 가치로 인식하고 이를 적극 실천하고 있습니다.
                         </p>
                         <p class="mb-45"> 코웨이는 비즈니스 운영과정에서의 환경영향을 최소화하고자 2006년부터 환경경영을 선포하면서 미션과 비전, 환경방침, 환경목표를 설정하고 환경경영위원회와 전담부서를 설치하여 전사적인 친환경 경영을 실천해 왔습니다. 2019년에는 기존 환경경영 전략에 의한 기후변화, 자원순환, 제품 친환경 설계를 계획대로 실천하며 소비자의 니즈와 사회적 요구사항을 반영하며 제품 안전성 강화에 집중하고 있습니다.
                         </p>
-                    <h6-ancor :title="'코웨이 환경경영 방침'" :activated="activated" class="fw-500 gray65 mb-3 f-105">코웨이 환경경영 방침</h6-ancor>
+                    <h6-ancor hash="s1-1" :activated="activated" class="fw-500 gray65 mb-3 f-105">코웨이 환경경영 방침</h6-ancor>
                         <div class="row force-deflex mb-2">
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/74_1.svg" fluid class="h-100"></b-img></div>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="border-bottom-dark mb-5"></div>
                         <hr class="py-2">
-                    <h6-ancor :title="'환경경영 전략'" :activated="activated" class="green5 fw-500 mb-3">환경경영 전략</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="green5 fw-500 mb-3">환경경영 전략</h6-ancor>
                         <p> 코웨이는 고객에게 환경을 고려한 제품 및 서비스를 통해 친환경 가치를 제공하고자 노력하고 있습니다. 또한 인간과 자연(환경)을 존중하고 상호간의 밸런스를 유지하는 것을 최우선 가치로 인식하며 사회적 책임, 환경적 책임을 다하는 지속가능경영을 지속하고자 합니다. 
                         </p>
                         <p> 운영환경효율성 측면에서 코웨이의 중장기적 환경목표 핵심은 2050년까지 신재생에너지 100%와 탄소중립 달성, 2030년까지 폐기물 재활용률 100% 달성, 2050년까지 수자원 재활용률을 100% 달성하는 것입니다. 이러한 코웨이의 추진 목표의 중점은 지구 환경보전과 인간의 풍요로운 삶의 밸런스 유지, 친환경 기술과 제품, 서비스 제공을 통한 지속가능한 지구환경의 밸런스 유지 기여를 통해 지속가능한 발전 목표(SDGs, Sustainable Development Goals) 달성에 기여하는데 있습니다.
@@ -177,14 +177,14 @@
                     </b-row> -->
                 </section>
                 <hr class="py-1">
-                <h6-ancor :title="'환경경영 추진 체계'" :activated="activated" class="mb-3 green5">환경경영 추진 체계</h6-ancor>
+                <h6-ancor hash="s1-3" :activated="activated" class="mb-3 green5">환경경영 추진 체계</h6-ancor>
                     <p> 코웨이는 전사 영역에서의 환경경영 실천을 위해 환경경영위원회를 운영하고 있습니다. 환경경영위원회는 TQA센터 본부장을 환경경영 최고 책임자로 임명하여 운영하고 있으며, 환경경영팀을 중심으로 환경 전략을 추진하고 있습니다. 전사적인 환경경영 내재화를 위해 각 부문에서 참여하는 협의체로 ‘Ecoway 협의체’를 구성하여 정기적으로 환경 관련 이슈를 논의하고 있습니다. 
                     </p>
                     <p> 2019년 Ecoway 협의체에서는 전사적인 환경경영과 관련한 주요 지표 4개 항목(기후변화, 자원순환, 친환경설계, 화학물질 안전성 평가)에 대한 운영활동 및 성과보고가 있었습니다. 첫째로 온실가스 대응 부문에서는 중장기 목표 수립 및 공개, 감축 투자안의 설정이 논의되었습니다(링크: 기후변화 대응). 자원순환 대응 부문에서는 전 사업 과정의 폐기물 발생 실적과 비용, 폐기물 개선 활동이 논의되었으며, 친환경 설계 부문에서는 냉매 전환, 에너지 소비효율 현황 및 분석이 주요 아젠다로 보고되었습니다. 마지막으로 제품환경 및 화학물질관리 안전성 평가 부문에서 제품화학물질관리시스템(CSMS)의 운영 개선 방안과 규제 네트워크 구축 활동 및 향후 계획이 보고되었습니다.
                     </p>
                 <hr class="py-1 mb-5">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'가치사슬 전체의 환경역량 강화'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">가치사슬 전체의 환경역량 강화</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">가치사슬 전체의 환경역량 강화</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 지속 강화되어 가는 제품환경규제 및 안전성 대응을 위해 코웨이 전직원 및 협력사 대상으로 매년 오프라인 교육 프로그램을 제공 및 수시 온라인 지도, 지원을 실시하고 있습니다. “Global 환경규제 동향”, “기업의 환경규제 대응”, “환경규제 대응 방법론” 등 실질적이고 지속적인 도움을 제공함으로서 규제 대응력 강화 및 risk 제로 실행에 목표를 두고 있습니다. 2019년 사내 담당자 390명 및 협력사 77개사 담당자 대상으로 교육 실시를 완료하였습니다. 추가로 교육 내용 및 업무 활용에서 90%이상의 협력사로부터 우수하고 업무 적용 가능한 것으로 평가받았습니다.
                         </p>
                     <h7 class="mb-3 gray63">내/외부 교육 지원 현황</h7>

@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'리스크 관리'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#5171b1'"
@@ -21,9 +21,9 @@
             <b-container class="px-0">
                 <section class="bg-white px-4 py-4 mb-5">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor :title="'리스크관리'" :activated="activated" class="parang8 mb-4 mb-sm-5">리스크 관리</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">리스크 관리</h4-ancor>
 
-                    <h6-ancor :title="'전사적 리스크 관리 체계'" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">전사적 리스크 관리 체계</h6-ancor>
+                    <h6-ancor hash="s1" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">전사적 리스크 관리 체계</h6-ancor>
                     <p>코웨이는 경영활동 중에 발생할 수 있는 리스크를 선제적으로 관리하기 위해 위기관리위원회를 운영하고 있습니다. 위기관리위원회는 주요 경영 이슈별 의사결정 과정에서 리스크 수준을 진단하고 관련 리스크에 대한 회사의 노출 범위, 대응 전략 등에 대한 의사결정을 수행합니다. 전사 리스크 관리 및 운영은 위기관리위원회를 중심으로 이루어집니다. 위기관리위원회는 리스크 이슈 수집, 영향도 분석, 대응방안 수립, 리스크 인지와 전파, 담당 부서와의 협조를 통한 리스크 대응 실행을 총괄합니다. 위기관리위원회는 긴급 및 중요 리스크 발생 시 이사회 내 위원회인 경영위원회 및 CEO에 보고하고, 전사 리스크 대응 조직으로서 위기평가회의를 소집할 권한을 가집니다.  
                     </p>
                     <p class="mb-5">코웨이의 리스크 관리 범위는 시장, 신용, 유동성 등의 재무 리스크, 준법 및 규제, 정책 등의 비재무 리스크를 포괄합니다. 각 사업본부는 경영활동과 관련된 주요 리스크를 선제적으로 관리하기 위해 리스크 관리 정책을 기반으로 위기상황 발생시 명확한 대응 및 보고를 진행하며, 리스크 완화를 위해 부서간 긴밀한 상호 협력을 추진합니다.  
@@ -74,7 +74,7 @@
 
                     <hr class="py-3">
 
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'잠재 리스크의 관리'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">잠재 리스크의 관리</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-4">코웨이는 경영환경에서 중장기적으로 상당한 영향 요소가 있는 리스크를 분석하고 새롭게 부각되는 리스크를 인지하여 전략적 대응을 추진합니다. 정기적 리스크 모니터링을 기반으로 잠재 리스크를 선제적으로 파악하고 지속가능한 경영환경을 조성하여 새로운 기회를 창출해 나가고 있습니다. 2019년 코웨이의 핵심 잠재 리스크는 1) 정보보호 위협의 증가와 2) 온라인 가전 서비스 시장의 성장으로 도출됩니다. 
                     </p>
                     <b-table-simple responsive class="sep-table f-90 mb-1">

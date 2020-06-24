@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'이해관계자 참여 및 중요 주제'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#5171b1'"
@@ -22,9 +22,9 @@
                 <section class="bg-white px-4 py-4 mb-5">
 
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor :title="'이해관계자 참여 및 중요 주제'" :activated="activated" class="parang8 mb-4 mb-sm-5">이해관계자 참여 및 중요 주제</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">이해관계자 참여 및 중요 주제</h4-ancor>
 
-                    <h6-ancor :title="'이해관계자 참여'" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">이해관계자 참여</h6-ancor>
+                    <h6-ancor hash="s1" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">이해관계자 참여</h6-ancor>
                     <p class="mb-5">코웨이는 기업 활동에 대해 영향을 주고받는 조직 내·외부의 주체를 이해관계자로 정의하고 이를 7개 그룹으로 나누어 관리하고 있습니다. 이해관계자 그룹 별 다양한 커뮤니케이션 채널을 운영하여 경영의 투명성을 제고하고 신뢰성 있는 관계를 구축해 나가고 있습니다. 코웨이의 이해관계자별 커뮤니케이션 채널은 각 담당부서에서 운영되며 주요 이슈는 경영위원회를 통해 검토됩니다. 
                     </p>
 
@@ -113,11 +113,11 @@
                         </b-table-simple>
                     <hr class="py-3">
                     
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'중대성 평가'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 평가</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 평가</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> 코웨이는 지속가능경영 측면의 중요 주제를 도출하기 위해 중대성 평가를 실시하고 있습니다. 코웨이가 중요 주제를 정의하는 방법은 대외 환경 변화 및 코웨이 전략 변화에 기반한 이슈 풀(Pool)을 구성하고, 사업적 연관성 및 이해관계자에의 영향력을 파악하여 우선순위 주제를 도출하는 과정으로 진행됩니다. 각 우선순위 주제는 코웨이의 사업적 가치 창출 측면에서의 영향 수준과 함께 중요 주제로 정의되며, 본 보고서 전반에 걸쳐 사업적 중요성 및 사회적 가치 창출 영향력, 경영 전략 및 목표, 활동 등에 대해 상세히 보고하고 있습니다. 
                     </p>
                     <hr class="py-1">
-                    <h6-ancor :title="'Step 1. 이슈 풀(Pool)구성'" :activated="activated" class="parang6 mb-3 font-noto">Step 1. 이슈 풀(Pool)구성</h6-ancor>
+                    <h6-ancor hash="s2-1" :activated="activated" class="parang6 mb-3 font-noto">Step 1. 이슈 풀(Pool)구성</h6-ancor>
                     <p class="mb-45">코웨이는 산업 및 기업환경의 변화를 반영하고 지속가능경영 측면의 핵심 화두를 반영한 중요 주제를 도출하기 위해 다양한 지표를 분석하여 이슈 풀(Pool)을 도출하고 있습니다. 글로벌 지속가능성 표준 및 이니셔티브 분석을 통해 최신 트랜드 및 거시적인 산업 환경의 변화를 파악하며, 코웨이의 변화를 밀접하게 반영하는 미디어 및 커뮤니케이션 키워드를 분석하여 핵심 이슈를 도출합니다. 이를 통해 2019년 코웨이의 이슈 풀(Pool)은 26개로 도출되었습니다.
                     </p>
                     <b-row class="mb-5">
@@ -154,7 +154,7 @@
                         </b-col>
                     </b-row>
                     <hr class="py-2">
-                    <h6-ancor :title="'Step 2. 중대성 평가 실시'" :activated="activated" class="parang6 mb-3 font-noto">Step 2. 중대성 평가 실시</h6-ancor>
+                    <h6-ancor hash="s2-2" :activated="activated" class="parang6 mb-3 font-noto">Step 2. 중대성 평가 실시</h6-ancor>
                     <p class="mb-45">26개 이슈 풀(Pool) 중 사업적 연관성과 이해관계자에의 영향력을 파악하여 중점 관리 이슈에 대한 우선순위를 도출하였습니다. 사업적 연관성 도출을 위해 코웨이 지속가능경영의 내부적 현안 분석과 산업 내 이슈 밀접성을 종합적으로 적용하였습니다. 각 이슈의 이해관계자 영향 수준을 파악하기 위해 온라인 설문조사를 통해 7대 이해관계자별 이슈 우선순위를 분석하였습니다. 또한, 연관성 및 영향력 분석을 통해 도출된 우선순위 이슈에 대해 해당 이슈가 코웨이의 사업적 가치 창출에 어떠한 영향을 미칠지에 대해 1) 비용(Cost), 수익창출(Revenue), 리스크(Risk)의 세 가지 측면에서 평가하였습니다. 
                     </p>
 
@@ -199,7 +199,7 @@
                     </div>
                     <hr class="py-2">
 
-                    <h6-ancor :title="'Step 3. 중요 주제 보고'" :activated="activated" class="parang6 mb-3 font-noto">Step 3. 중요 주제 보고</h6-ancor>
+                    <h6-ancor hash="s2-3" :activated="activated" class="parang6 mb-3 font-noto">Step 3. 중요 주제 보고</h6-ancor>
                     <p class="mb-45">중대성 평가로 도출된 코웨이의 중요 주제는 총 10개로 도출되었습니다. 코웨이는 각 중요 주제의 사업적-사회적 배경과 핵심 KPI에 대해 보고하고 있으며, 상세 전략 및 활동, 성과와 비즈니스 케이스에 대해 본 지속가능경영 웹 리포트 전반에 걸쳐 보고하고 있습니다.
                     </p>
                     <hj-img src="/images/14_1.svg" fluid></hj-img>
@@ -249,9 +249,9 @@
                         </b-table-simple> 
                     <hr class="py-3">
                     
-                    <div class="d-flex mb-4 position-relative overflow-hidden"> <h6-ancor :title="'중대성 맥락과 중장기 목표'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 맥락과 중장기 목표</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-4 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">중대성 맥락과 중장기 목표</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
 
-                    <h6-ancor :title="'고객 맞춤형 제품 및 서비스 개발'" :activated="activated" class="parang6 mb-3 pb-2">고객 맞춤형 제품 및 서비스 개발</h6-ancor>
+                    <h6-ancor hash="s3-1" :activated="activated" class="parang6 mb-3 pb-2">고객 맞춤형 제품 및 서비스 개발</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
                         <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
@@ -297,7 +297,7 @@
                     <p class="mb-5">코웨이의 비즈니스 모델은 고객의 접점에서 제품과 서비스를 제공함으로써 고객 만족을 통해 신뢰를 얻고 고객과 함께 발전하고 있습니다. 제품과 서비스의 혁신을 통해 고객에게 새로운 경험을 제공하고, 생활의 가치를 높임으로써 코웨이는 고객과 더불어 성장합니다. 이에 따라 물과 공기에 대한 전문성을 기반으로 깨끗함의 본질적 가치를 높이기 위한 제품 혁신을 지속한 결과 2019년에는 5년 연속 CES 혁신상을 수상하였습니다. 또한 고객 라이프스타일의 변화를 파악하고 서비스에 선제적으로 반영하여 미래 기술 기반의 서비스를 선보이기 위해 노력하고 있습니다. 2019년에는 빅데이터 기반의 제품 추천 서비스인 ‘워터맵 서비스’과 가상 시뮬레이션을 통해 개인 생활환경에 맞는 공기청정기를 체험할 수 있는 ‘공기주치의 서비스’ 등을 선보였습니다. 코웨이는 고객에 대한 끊임없는 연구를 통해 고객 생활의 전반에서 맞춤형 케어를 제공함으로써 고객 만족도를 제고하고 있습니다. 이를 기반으로 단기적으로는 2020년 고객만족도 77점 달성, 장기적으로 2030년 고객만족도 87점 달성을 목표로 수립하여 고객 가치를 높여 나갈 예정입니다.
                     </p>
 
-                    <h6-ancor :title="'제품 안전 및 신뢰성 강화'" :activated="activated" class="parang6 mb-3">제품 안전 및 신뢰성 강화</h6-ancor>
+                    <h6-ancor hash="s3-2" :activated="activated" class="parang6 mb-3">제품 안전 및 신뢰성 강화</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3 pt-1">
                         <b-col class="col-12 col-md-4 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
@@ -324,7 +324,7 @@
                     <p class="mb-5">라이프스타일의 변화에 따라 생활 필수 가전제품이 다양화되며, 가정에 및 생활환경에서 사용하는 환경가전 제품의 수도 점차 증가하고 있습니다. 이에 따라 환경가전 제품의 안전성 및 품질 관리의 중요성이 더욱 부각되고 있습니다. 이에 대헤 코웨이는 2019년 한국신뢰성대상 ‘제조업 부문 대상’ 수상 및 ‘서비스 품질 우수상’ 국무총리 표창 수상 등을 통해 제품 책임의 우수성을 증명하였습니다. 코웨이는 전사적 제품 책임 거버넌스로서 CEO 직속 협의체인 무한책임위원회를 운영하며, 품질경영 전사 회의체인 PIC 360(Product Immersion Committee 360)을 운영하여 실행력을 강화하고 있습니다. 또한, TQA센터를 중심으로 제품 신뢰성 시험 표준 개발 및 검증 역량을 강화하고, 제품 안전 인증 공인 시험소를 운영하여 안전 인증 범위를 확대하고 있습니다. 코웨이는 체계적인 제품책임 및 품질경영 시스템을 통해 고객 신뢰를 높이기 위해 지속적으로 노력하겠습니다.
                     </p>
 
-                    <h6-ancor :title="'정보보호'" :activated="activated" class="parang6 mb-3">정보보호</h6-ancor>
+                    <h6-ancor hash="s3-3" :activated="activated" class="parang6 mb-3">정보보호</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
                         <b-col class="col-12 col-md-4 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>

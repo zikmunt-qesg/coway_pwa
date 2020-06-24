@@ -11,7 +11,7 @@
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'제품과 서비스의 혁신'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#1394d1'"
@@ -22,7 +22,7 @@
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
                         <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue7">
-                            <h4-ancor :title="'제품과 서비스의 혁신'" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품과 서비스의 혁신</h4-ancor>
+                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품과 서비스의 혁신</h4-ancor>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
@@ -76,12 +76,12 @@
                     </b-row>
                 </section>
                 <hr class="mb-4">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'본질적 가치를 높이는 제품 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">본질적 가치를 높이는 제품 혁신 </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-45 mb-md-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
                     </p>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-md-5 mb-45 mb-md-0 pr-0" style="height: 286px;"><b-img src="/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
-                        <b-col class="col-12 col-md-7 px-3 pl-md-4 px-xl-0"><h6-ancor :title="'혁신 기술의 집약, 한뼘 시루직수 정수기 개발 '" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
+                        <b-col class="col-12 col-md-7 px-3 pl-md-4 px-xl-0"><h6-ancor hash="s1-1" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
                             <p>코웨이는 끊임없는 기술 진화를 통해 2019년 ‘한뼘 시루직수 정수기’를 출시하였습니다. 한뼘 시루직수 정수기는 RO멤브레인 필터를 직수화 기술로 구현한 ‘시루직수 정수기’의 업그레이드 버전으로, 오염 물질 제거 성능과 풍부한 유량을 특징으로 합니다. 필터 기술력의 정점인 ‘CIROO 2.0 필터’를 탑재하여, 기존 필터보다 면적을 6배, 정수량을 30배 높인 직수 방식으로 구현하였으며, 물을 마실 때마다 유로에 남은 물을 배출하는 ‘유로 비움 모드’, 24시간 동안 사용하지 않으면 정수기 속 남은 물을 배출하는 ‘자동 배수 시스템’으로 위생성을 향상하였습니다. 또한, 기존 시루직수 정수기(CHP-7300R, CP-7300R) 대비 크기를 약 30% 줄여 공간 활용도를 높였고, 소형 냉각 시스템과 순간 온수 시스템을 적용하여 에너지소비효율을 1등급으로 높여 친환경적 측면도 개선하였습니다.
                             </p>
                         </b-col>
@@ -123,7 +123,7 @@
                     </b-row>
                 </section>
                 <hr class="py-2">
-                <h6-ancor :title="'고객 맞춤형 혁신 다각화'" :activated="activated" class="blue5 mb-3">고객 맞춤형 혁신 다각화 </h6-ancor>
+                <h6-ancor hash="s1-2" :activated="activated" class="blue5 mb-3">고객 맞춤형 혁신 다각화 </h6-ancor>
                 <b-row class="mb-5">
                     <b-col class="col-12 col-sm-6">
                         <p class="mb-4 mb-sm-3"> 코웨이는 다양한 생활환경에 맞는 맞춤형 제품을 개발하여 고객 라이프스타일을 혁신합니다. 2019년 코웨이는 공기청정기 제품군을 시작으로 맞춤형 제품을 개발하고 있습니다. 거주 공간에서의 삶의 질을 추구하는 소비자의 증가에 따라 각 주거 환경에 맞춰 사용 가능한 벽걸이 겸용 제품 (AP-1519B, AP3519A), 디자인 가구형 공기청정기(AP-1019D)를 개발하여 자신만의 공간 구축에 대한 고객의 니즈를 반영했습니다. 또한 최근 국내외 시장에서 비대면 서비스에 대한 니즈가 커지고 있다는 점에 착안해 필터교체 알림을 통해 사용자 스스로 필터 세척 및 교체를 손쉽게 할 수 있는 자가관리형 공기청정기 카트리지(AP-1019C)를 개발하였습니다.
@@ -165,10 +165,10 @@
                     </b-col>
                 </b-row>
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'미래 기술 기반의 서비스 혁신'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">미래 기술 기반의 서비스 혁신</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">미래 기술 기반의 서비스 혁신</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">2019년 기준 국내 렌탈 서비스 569만명의 고객 계정을 보유하며 환경가전 업계를 선도하는 코웨이는 미래기술을 기반으로 고객에 새로운 서비스 경험을 제공합니다. 빅데이터를 이용하여 지역 수질에 맞는 정수기 제품을 추천하는 워터맵 서비스와, 가상 시뮬레이션을 통해 생활환경에 맞는 공기청정기를 체험해 볼 수 있는 공기주치의 서비스가 대표적입니다. 코웨이는 오랜 기간 연구해온 데이터를 기반으로 보다 정확하고 편리한 경험을 제공합니다.
                 </p>
-                    <h6-ancor :title="'빅데이터 기반 제품 추천, 워터맵 서비스'" :activated="activated" class="blue5 mb-3">빅데이터 기반 제품 추천, 워터맵 서비스</h6-ancor>
+                    <h6-ancor hash="s2-1" :activated="activated" class="blue5 mb-3">빅데이터 기반 제품 추천, 워터맵 서비스</h6-ancor>
                     <p class="mb-45"> 워터맵 서비스는 국내외 각지의 물을 채취·분석해 수질 데이터베이스를 구축한 뒤 이를 기반으로 고객 수질 환경에 따른 맞춤 필터를 파악하고, 고객의 다양한 상황을 고려해 최종적으로 적합한 제품을 추천해주는 서비스입니다. 빅데이터 분석* 기반의 추천 서비스를 통해 고객이 속한 지역적 특성에 맞는 필터 및 제품을 사용할 수 있도록 차별화된 가치를 제공하고 있습니다.
                     </p>
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">                    
@@ -179,7 +179,7 @@
                     <p class="f-80">* 빅데이터 분석 항목 : 먹는 물 수질 기준 항목인 탁도, TDS(Total Dissolved Solid), pH를 비롯해 양이온 17종, 음이온 4종 등 </p>
                 </section>
                 <hr class="py-2">
-                <h6-ancor :title="'시뮬레이션 체험, 공기 주치의 서비스 '" :activated="activated" class="blue5 mb-3">시뮬레이션 체험, 공기 주치의 서비스</h6-ancor>
+                <h6-ancor hash="s2-2" :activated="activated" class="blue5 mb-3">시뮬레이션 체험, 공기 주치의 서비스</h6-ancor>
                     <p class="mb-45"> 코웨이는 ‘에어 시뮬레이션 시스템’을 활용하여 공간의 구조, 가구, 사람 수 등에 따라 다른 사용 환경에 공간별로 공기 청정 성능이 어떻게 다른지 직접 보여주고, 알맞은 제품 종류 및 최적의 배치 장소를 제안하는 맞춤형 ‘공기주치의 서비스’를 제공합니다. 에어 시뮬레이션 시스템은 약 1,960억 개의 공기질 빅데이터를 활용한 컴퓨터 시뮬레이션을 통해 공기나 물의 움직임을 예측하는 시스템으로, 설치한 공기청정기를 통해 시간 단위로 공기가 정화되는 효과를 확인할 수 있습니다. 고객은 가상 시뮬레이션을 통해 시각적으로 제품을 체험할 수 있으며 생활 환경에 최적화된 제품을 구매하여 높은 만족도를 얻을 수 있습니다.
                     </p>
                     <div class="d-flex justify-contents-between mb-5">
@@ -191,16 +191,16 @@
                     <hr class="py-3">
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-4 mb-4 mb-sm-0"><b-img src="/images/48@3x.png" fluid class="w-100"></b-img></b-col>
-                        <b-col class="col-12 col-sm-8"><h6-ancor :title="'모바일 서비스 강화, 안심 QR 서비스 시행'" :activated="activated" class="blue5 mb-3">모바일 서비스 강화, 안심 QR 서비스 시행</h6-ancor>
+                        <b-col class="col-12 col-sm-8"><h6-ancor hash="s2-3" :activated="activated" class="blue5 mb-3">모바일 서비스 강화, 안심 QR 서비스 시행</h6-ancor>
                             <p>코웨이는 고객의 불편사항을 빠르고 정확하게 해결하여 고객과 긴밀하게 소통하고자 24시간 모바일 안심서비스를 시행하고 있습니다. 이를 통해 고객은 시간과 공간의 제약 없이 언제 어디서나 모바일로 제품 점검 일정, 점검 이력, 사용설명서 등의 정보를 조회할 수 있고, 카카오 상담톡을 통해 제품 상담뿐만 아니라 A/S 신청도 간단하게 신청할 수 있습니다. 특히, 별도의 어플리케이션 설치와 회원가입, 인증 절차가 없어 서비스의 접근성과 편의성을 높였습니다. 또한 제품에 붙어있는 QR을 통해 접속할 수 있도록 하였고, 고객 사용성 확대를 위해 지속적인 개선을 진행하고 있습니다.
                             </p>
                         </b-col>
                     </b-row>
                 <hr class="py-3">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'혁신을 위한 연구개발 역량 강화'" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">혁신을 위한 연구개발 역량 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">혁신을 위한 연구개발 역량 강화</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">코웨이는 물과 공기에 대한 전문성과 책임감을 바탕으로 건강한 생활환경을 위한 신기술을 확보하고 혁신제품을 개발하기 위해 노력하고 있습니다. 코웨이는 기술 연구부터 제품 개발, 신뢰성 검증에 이르기까지 지속적으로 연구개발 투자를 확대하며, 미래 가치를 발굴하기 위해 선행기술과 디자인을 논의하는 전사 차원의 회의체인 NIC 365(New Technology and Product Innovation Committee 365)를 운영하여 전사차원의 혁신을 추진하고 있습니다. 물과 공기에 대한 기존 보유 기술을 강화하는 한편, 의류청정기, 매트리스 등 새로운 제품군에 신기술 접목에 힘쓰고 있습니다. 또한 오픈 이노베이션 및 기술제휴를 통해 신성장동력을 탐색하고 있습니다.
                 </p>
-                <h6-ancor :title="'깨끗하고 맛있는 물에 대한 연구, 물맛 연구소'" :activated="activated" class="blue5 mb-3">깨끗하고 맛있는 물에 대한 연구, 물맛 연구소</h6-ancor>
+                <h6-ancor hash="s3-1" :activated="activated" class="blue5 mb-3">깨끗하고 맛있는 물에 대한 연구, 물맛 연구소</h6-ancor>
                     <p class="mb-3"> 코웨이는 ‘깨끗하고 맛있는 물’에 대해 연구하고 정수기 물맛의 기준을 정립하기 위하여 R&D센터에 '물맛 연구소'를 개소했습니다. 물맛 연구소에는 한국국제소믈리에협회, 한국수자원공사 공인 워터소믈리에 28명과미국수질협회(WQA) 공인 물 전문가(CWS, Certified Water Specialist) 23명, 물 관련 전문 기술을 보유한 코웨이 연구원 45명 등이 소속되어 활동하고 있습니다.
                     </p>
                     <p class="mb-45"> 코웨이는 물맛 연구를 위해 2009년부터 테스크포스팀을 구성해 연구를 시작하였으며, 2011년에는 글로벌 연구를 바탕으로 물맛의 방향성을 수립했으며 2017년부터 코웨이만의 깐깐한 물맛 기준인 'GPT(Good Pure Tasty water) 지수'를 수립해 제품 평가에 활용하고 있습니다. 또한 ‘물맛 관능 평가실’ 및 ‘관능 평가 전문 통계 프로그램’을 도입하고, 물맛 전문 패널을 양성하는 등 물맛 연구에 대한 수준을 지속적으로 높이고 있습니다. 향후 코웨이는 물맛 연구소를 중심으로 1) 정수기 물맛 속성 정의, 2) 정수기 필터 성능에 따른 물맛의 연관성 과학적 입증, 3) 정수기만의 맛있는 물맛 기준 수립 등의 연구활동을 진행할 계획입니다.
@@ -214,7 +214,7 @@
                     </b-row>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-md-6 mb-3 mb-md-0">
-                        <h6-ancor :title="'오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입'" :activated="activated" class="blue5 mb-3">오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입</h6-ancor>
+                        <h6-ancor hash="s3-2" :activated="activated" class="blue5 mb-3">오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입</h6-ancor>
                             <p class="mb-3"> 코웨이는 미국의 전자 상업회사 아마존(Amazon)과의 협업을 통해 고객의 제품 사용 환경을 강화하였습니다. 사용환경에서 알맞은 시기에 필터를 교체하는 것이 필수적인 공기청정기 제품에 아마존의 인공지능 플랫폼 알렉사(Alexa)를 도입하여 고객 편의성을 극대화하였습니다. 2017년 코웨이 공기청정기 에어메가(Airmega)에 아마존의 알렉사(Alexa)를 처음 도입하였으며, 2018년에는 아마존 소모품 자동 배송 시스템인 DRS(Dash Replenishment Through Alexa)를 적용하였습니다. 이를 기반으로 2019년 미주 시장에서의 코웨이 제품 판매량은 2017년 대비 약 267% 성장한 12만대를 기록하였습니다.
                             </p>
                             <p class="mb-3"> 2020년 5월 현재 코웨이와 아마존은 DRS의 3세대 버전인 DART 서비스가 적용된 공기청정기 기술을 적용하여 필터 수명 및 제품상태 확인, 음성명령을 통한 필터 주문을 구현하고 있습니다. 또한 2020년 내 코웨이의 정수기 제품 아쿠아메가(Aquamega)에도 알렉사를 적용하여 사용성을 제고할 계획입니다.
