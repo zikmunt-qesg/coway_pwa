@@ -119,7 +119,7 @@ export default {
             activated: [],
             sub_titles: [
                 { 
-                    title: ''
+                    hash: ''
                 }
             ],
         }
