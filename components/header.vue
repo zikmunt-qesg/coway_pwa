@@ -148,7 +148,7 @@ export default {
 #global-nav.lv2-show{
     margin-top: 0;
     z-index: 9;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-out;
 }
 #global-nav.lv2-hide{
     margin-top: -100%;
@@ -159,15 +159,14 @@ export default {
 .global-nav-lv1{
     font-weight: 400;
     color: $gray6;
-    letter-spacing: 0.196px;
+    //letter-spacing: 0.196px;
     line-height: 1.4;
     cursor:pointer;
 }
 .global-nav-lv1:hover,
 .global-nav-lv2:hover,
 .nav-active{
-    font-weight: 500;
-    color: $gray7;
+    color: black;
     text-decoration: none;
     letter-spacing: 0;    
 }
@@ -205,7 +204,7 @@ export default {
 }
 .global-nav-2:hover {
     border-top: 0.75px solid white;
-    margin-top: -0.7em;
+    margin-top: -0.3em;
 }
 .global-nav-2:hover > .lv2-text{
     color: white;

@@ -57,17 +57,23 @@ export default {
 }
 
 .g-nav-lv2{
-    color: $gray7;
+    color: $gray67;
 }
 .g-nav-lv2:hover{
-    font-weight: 500;
+    color: black; 
+    text-decoration: underline;
+    text-underline-position: under;
+    //font-weight: 500;
 }
 
 .g-nav-lv3{
     color: $gray5;
 }
 .g-nav-lv3:hover{
-    font-weight: 500;
+    color: $gray63;
+    text-decoration: underline;
+    text-underline-position: under;
+    //font-weight: 500;
 }
 
 

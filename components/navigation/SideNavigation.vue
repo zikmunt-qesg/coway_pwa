@@ -6,7 +6,11 @@
     <div v-for="item in sub_titles" :key="item.id" class="mb-3 f-90 fw-400 line-height-low">
         <nuxt-link :to="'#' + safeHash(item.title)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(item.title)) ? new_class : '' ">{{item.title}}</nuxt-link>
         <div v-for="child_item in item.child" :key="child_item.id" class="mt-2 f-85 fw-400 line-height-low">
-           <ul class="custom-ul"><li class="mb-0"><nuxt-link :to="'#' + safeHash(child_item.title)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(child_item.title)) ? new_class : '' " > {{ child_item.title}}</nuxt-link></li></ul>
+           <ul class="custom-ul"><li class="mb-0 mr-0">
+               <nuxt-link :to="'#' + safeHash(child_item.title)" :class="[active_color!='' ? new_hover:'', '']" :style="isActive(safeHash(child_item.title)) ? new_class : '' " > 
+                   <span class="side-nav-link-3">{{child_item.title}}</span>
+                </nuxt-link>
+            </li></ul>
         </div>
     </div>
 </div>
@@ -75,8 +79,8 @@ export default {
 }
 .side-nav-link-2:hover {
     margin-top: 0em;
-    // text-decoration: underline;
-    // text-underline-position: under;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .side-nav-link-3{
@@ -85,8 +89,8 @@ export default {
 }
 .side-nav-link-3:hover {
     color: $gray7;
-    // text-decoration: underline;
-    // text-underline-position: under;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .nav-link-color:hover{

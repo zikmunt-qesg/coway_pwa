@@ -367,7 +367,8 @@
 .custom-ul li:before{
     content: "•";
     font-size: 0.6rem;
-    padding-right: 4px;
+    // padding-right: 6px;
+    margin-right: 5px!important;
     margin-left: -9px;
     color: $gray7;
 }
