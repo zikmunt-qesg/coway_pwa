@@ -371,34 +371,49 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '정보보안 및 개인정보보호',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Information Security and Personal Information Protection' : '정보보안 및 개인정보보호'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '정보보안 및 개인정보보호 원칙과 조직', 
+                    title: this.is_ENG? 'Information Security and Personal Information Protection Principle and Organization':'정보보안 및 개인정보보호 원칙과 조직', hash: 's1',
                     child: [
-                        { title: '정보보안 및 개인정보보호 원칙' }, 
-                        { title: '정보보호 조직' }, 
+                        { title: this.is_ENG? 'Information Security and Personal Information Protection Principle': '정보보안 및 개인정보보호 원칙', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Information Protection Organization': '정보보호 조직', hash: 's1-2' }, 
                     ]
                 },
                 { 
-                    title: '정보보호 관리체계',
+                    title: this.is_ENG? 'Information Security Management System': '정보보호 관리체계', hash: 's2',
                     child: [
-                        { title: '개인정보보호 라이프사이클 관리' }, 
-                        { title: '글로벌 정보보호 규제 대응' }, 
-                        { title: '교육을 통한 정보보호 내재화'}
+                        { title: this.is_ENG? 'Personal Information Protection Life Cycle Management':'개인정보보호 라이프사이클 관리', hash: 's2-1'  }, 
+                        { title: this.is_ENG? 'Response to Global Information Protection Regulations':'글로벌 정보보호 규제 대응', hash: 's2-2' }, 
+                        { title: this.is_ENG? 'Internalization of Information Protection through Training': '교육을 통한 정보보호 내재화', hash: 's2-3'}
                     ]
                 },
                 {
-                    title: '모니터링 및 실사 프로세스',
+                    title: this.is_ENG? 'Monitoring and Due Diligence Process': '모니터링 및 실사 프로세스', hash: 's3',
                     child: [
-                        { title: '시스템 기반 위험 점검 및 실사'},
-                        { title: '2019년 정보보호 모니터링 주요활동 및 성과'}
+                        { title: this.is_ENG? 'System based Risk Inspection and Due Diligence': '시스템 기반 위험 점검 및 실사', hash: 's3-1'},
+                        { title: this.is_ENG? 'Major Activities and Performances of Information Security Monitoring in 2019': '2019년 정보보호 모니터링 주요활동 및 성과', hash: 's3-2'}
                     ]
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

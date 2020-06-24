@@ -221,26 +221,38 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '깨끗한 물과 공기를 위한 환경경영',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Environmental Management for Clean Water and Air' : '깨끗한 물과 공기를 위한 환경경영'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '환경경영을 통한 깨끗함의 가치 실현', 
+                    title: this.is_ENG? 'Realization of Cleanness Value with Environmental Management': '환경경영을 통한 깨끗함의 가치 실현', hash: 's1', 
                     child: [
-                        { title: '코웨이 환경경영 방침' }, 
-                        { title: '환경경영 전략' }, 
-                        { title: '환경경영 추진 체계' }, 
+                        { title: this.is_ENG? 'Coway Environmental Management Policy': '코웨이 환경경영 방침', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Environmental Management Strategy': '환경경영 전략', hash: 's1-2' }, 
+                        { title: this.is_ENG? 'Environmental Management Promotion System':'환경경영 추진 체계', hash: 's1-3' }, 
                     ]
                 },
                 { 
-                    title: '가치사슬 전체의 환경역량 강화' 
+                    title: this.is_ENG? 'Enhancement of the Environmental Competence of the Entire  Value Chain': '가치사슬 전체의 환경역량 강화', hash: 's2'
                 }
-            ],
-            // active_color:{
-            //     color: '#2d9155'
-            // }
+            ]
+            return temp            
         }
     },
     methods:{

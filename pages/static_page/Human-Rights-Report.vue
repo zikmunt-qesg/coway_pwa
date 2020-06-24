@@ -144,23 +144,37 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '인권 리포트',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Human Rights Report' : '인권 리포트'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '인권 경영 원칙 및 가이드'
+                    title: this.is_ENG? 'Human Rights Management Principles and Guide': '인권 경영 원칙 및 가이드', hash: 's1'
                 },
                 {
-                    title: '인권 리스크 식별 및 완화 프로세스',
+                    title: this.is_ENG? 'Human Rights Risk Identification and Mitigation Process':'인권 리스크 식별 및 완화 프로세스', hash: 's2',
                     child: [
-                        { title: '리스크 식별' }, 
-                        { title: '핵심적 인권 요소에 대한 조치 결과' }
+                        { title: this.is_ENG? 'Risk Identification':'리스크 식별', hash: 's2-1' }, 
+                        { title: this.is_ENG? 'Results of Measures on Key Human Rights Factors':'핵심적 인권 요소에 대한 조치 결과', hash: 's2-2' }
                     ]
                 },
-                
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

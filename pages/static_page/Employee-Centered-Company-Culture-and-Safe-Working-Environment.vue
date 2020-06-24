@@ -606,33 +606,43 @@ export default {
     },
     data(){
         return {
-            title: '임직원 중심의 기업문화와 안전한 근무환경',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Employee Centered Company Culture and Safe Working Environment' : '임직원 중심의 기업문화와 안전한 근무환경'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: `'착한성장'을 위한 역량 강화`, 
+                    title: this.is_ENG? `'Capacity Enhancement' for Good Growth`:`'착한성장'을 위한 역량 강화`, hash: 's1',  
                     child: [
-                        { title: '리더십 교육' }, 
-                        { title: '직무 교육' }, 
-                        { title: '디지털 기반의 업무혁신' }, 
+                        { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Leadership Training': '직무 교육', hash: 's1-2' }, 
+                        { title: this.is_ENG? 'Leadership Training': '디지털 기반의 업무혁신', hash: 's1-3' }, 
                     ]
                 },
                 { 
-                    title: '커뮤니케이션 기반의 기업문화' ,
+                    title: '커뮤니케이션 기반의 기업문화' , hash: 's2',
                     child: [
-                        { title: '노사협의회 기반의 커뮤니케이션' }, 
-                        { title: '일과 삶의 균형을 통한 임직원 만족도 제고' }, 
-                        { title: '임직원 현황 데이터' }, 
+                        { title: this.is_ENG? 'Leadership Training': '노사협의회 기반의 커뮤니케이션', hash: 's2-1' }, 
+                        { title: this.is_ENG? 'Leadership Training': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 's2-2' }, 
+                        { title: this.is_ENG? 'Leadership Training': '임직원 현황 데이터', hash: 's2-3' }, 
                     ]
                 },
                 { 
-                    title: '안전하고 건강한 근무환경' ,
+                    title: this.is_ENG? 'Safe and Healthy Work Environment':'안전하고 건강한 근무환경' , hash: 's3',
                     child: [
-                        { title: '산업안전보건위원회 운영' }, 
-                        { title: '안전보건 경영 및 안전문화 구축' }, 
+                        { title: this.is_ENG? 'Operate Occupational Safety and Health Committee ': '산업안전보건위원회 운영', hash: 's3-1' }, 
+                        { title: this.is_ENG? 'Establish Safety and Health Management and Safety Culture': '안전보건 경영 및 안전문화 구축', hash: 's3-2' }, 
                     ]
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

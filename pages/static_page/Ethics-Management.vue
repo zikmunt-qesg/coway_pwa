@@ -127,21 +127,36 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '윤리경영',
-            activated: [],
-            sub_titles: [
+            activated: []
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Ethics Management' : '윤리경영'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '윤리강령(Code of Conduct)', 
+                    title: this.is_ENG? 'Code of Conduct':'윤리강령(Code of Conduct)', hash: 's1'
                 },
                 { 
-                    title: '윤리진단(Compliance Check Organization)' 
+                    title: this.is_ENG? 'Code of Conduct':'윤리진단(Compliance Check Organization)', hash: 's2'
                 },
                 { 
-                    title: '윤리교육(Consensus by Ethic Education)' 
+                    title: this.is_ENG? 'Code of Conduct':'윤리교육(Consensus by Ethic Education)', hash: 's3'
                 },                
-            ],
+            ]
+            return temp            
         }
     },
     methods:{
