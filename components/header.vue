@@ -194,7 +194,7 @@ export default {
     // margin-right: 2.2em;
     // margin-bottom: 1.5em;
     border-top: 0.75px solid $gray3;
-    transition: margin-top 0.3s ease;
+    transition: margin-top 0.1s ease;
 }
 .lv2-text {
     color: $gray3;
@@ -204,7 +204,7 @@ export default {
 }
 .global-nav-2:hover {
     border-top: 0.75px solid white;
-    margin-top: -0.3em;
+    margin-top: -0.2em;
 }
 .global-nav-2:hover > .lv2-text{
     color: white;
