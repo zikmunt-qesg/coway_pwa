@@ -1,12 +1,12 @@
 <template>
-    <h4 :id="safeHash(title)" v-view="viewHandler">{{ title }}</h4>
+    <h4 :id="safeHash(hash)" v-view="viewHandler"><slot></slot></h4>
 </template>
 <script>
 import * as ih from '@/components/util'
 
 export default {
     props:{
-        title: { type: String },
+        hash: { type: String },
         activated: { tyep: Array }
     },
     methods: {

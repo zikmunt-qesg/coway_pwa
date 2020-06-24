@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'친환경 제품 개발과 제품 생애주기 관리'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#0b564a'"
@@ -24,7 +24,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor :title="'친환경 제품 개발과 제품 생애주기 관리'" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">친환경 제품 개발과 제품 생애주기 관리</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">친환경 제품 개발과 제품 생애주기 관리</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -83,16 +83,16 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'친환경 제품과 서비스, 비즈니스 설계'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">친환경 제품과 서비스, 비즈니스 설계</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">친환경 제품과 서비스, 비즈니스 설계</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> 코웨이는 친환경적 제품과 서비스, 비즈니스를 설계합니다. 제품개발 프로세스, 청정생산, 렌탈 서비스, 회수 및 재활용 절차에 이르는 전 과정에서 화학물질 안전성 확보, 에너지 고효율 달성 및 탄소배출 저감, 생활환경 개선, 자원사용 저감 및 재활용성 증가에 이르기까지 전 과정에서 부정적 영향을 감소시키고 긍정적 영향은 확대하기 위한 위한 다양한 활동을 전개하고 있습니다.
                     </p>
                     <hj-img src="/images/72_1.svg" fluid class="w-100"></hj-img>
                     <hr class="mb-3">
 
-                    <h6-ancor :title="'전과정 평가와 제품 책임'" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 평가와 제품 책임</h6-ancor>
+                    <h6-ancor hash="s1-1" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 평가와 제품 책임</h6-ancor>
                     <p class="mb-5"> 코웨이는 제품이 환경에 미치는 영향을 정량적으로 평가하고 제품 개발에 반영하기 위하여 전 과정평가를 시행합니다. ISO14040 표준에 따른 전과정평가 중 간략 LCA(Simplified LCA) 기법을 이용하고 있습니다. 이전에는 탄소발자국과 같은 한정된 분야에서만 LCA가 진행되었으나, 2020년부터는 정수기, 공기 청정기 제품에 대하여 1개 모델을 선정하여 자원발자국, 탄소발자국, 오존층영향, 산성비, 부영향화, 광화학적 스모그, 물발자국의 7대 영향 범주를 반영한 전과정평가를 실시할 예정입니다.
                     </p>
-                    <h6-ancor :title="'친환경 제품 인증 획득'" :activated="activated" class="fw-500 green5 mb-3 f-105">친환경 제품 인증 획득</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="fw-500 green5 mb-3 f-105">친환경 제품 인증 획득</h6-ancor>
                     <p class="mb-45">코웨이는 탄소성적표지, 환경마크 인증 제도 등을 통해 소비자에게 제품의 환경성 개선 정보를 지속적으로 제공하고 있습니다.
                     </p>
                     <b-table-simple responsive class="txt-table env-table f-95">
@@ -132,7 +132,7 @@
                             </b-tr>
                         </b-tbody>
                     </b-table-simple>
-                    <h6-ancor :title="'화학물질 관리 체계 강화'" :activated="activated" class="fw-500 green5 mb-3 f-105">화학물질 관리 체계 강화</h6-ancor>
+                    <h6-ancor hash="s1-3" :activated="activated" class="fw-500 green5 mb-3 f-105">화학물질 관리 체계 강화</h6-ancor>
                     <p class="mb-3"> 코웨이는 글로벌 품질, 환경경영시스템의 기본 구조와 개념을 도입하였으며, 인증을 취득하여 계획, 실행, 검토, 지속적 개선의 사이클을 통해 화학물질 관리를 강화하고 있습니다. 화학물질 사전 규제 모니터링 체계 구축을 통해 사전 모니터링 및 분석된 규제 정보를 화학물질관리시스템(CSMS)과 연계하여 제품 기획 단계부터 반영 및 규제 대응이 완료된 제·부품이 개발될 수 있도록 대응력을 강화하였습니다.
                     </p>
                     <p class="mb-5">사전 규제 대응 체계 강화로 RoHSⅡ 프탈레이트 규제에 대해 규제 시행 전 사전 대응 완료를 진행하였으며 지속 관리하고 있는 식품 접촉 물질에 대한 ‘식품용 기구 및 용기포장 기준’ 및 항균/살균 부품/물질에 대한 국내·외 살생물제법 기준에 맞춰 관리 및 검증을 강화하였습니다.
@@ -181,9 +181,9 @@
                     <hj-img src="/images/28_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-5 py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor :title="'자원효율성 향상과 순환경제 지원'" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 지원</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 지원</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     
-                    <h6-ancor :title="'자원효율성 KPI'" :activated="activated" class="fw-500 green5 mb-3 f-105">자원효율성 KPI</h6-ancor>
+                    <h6-ancor hash="s2-1" :activated="activated" class="fw-500 green5 mb-3 f-105">자원효율성 KPI</h6-ancor>
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
                         <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex">
@@ -292,7 +292,7 @@
                         </ol>
 
                     <hr class="py-3">
-                    <h6-ancor :title="'냉매 회수 및 재활용'" :activated="activated" class="fw-500 green5 mb-3 f-105">냉매 회수 및 재활용</h6-ancor>
+                    <h6-ancor hash="s2-2" :activated="activated" class="fw-500 green5 mb-3 f-105">냉매 회수 및 재활용</h6-ancor>
                     <p class="mb-5"> 코웨이는 냉매로 인한 환경오염을 최소화하고자 제품에 사용되는 냉매를 친환경 냉매로 전환하고 있습니다. 아울러 기존 제품에 사용된 냉매(R-134a)를 제품 폐기시 회수하여 환경부가 지정한 업체를 통해 안전하게 처리하고 있습니다. 코웨이는 2018년이후 냉매·오일 회수 및 재활용을 1곳에서 2곳으로 확대하여 운영하였으며, 재활용사업자가 정수기 및 제습기 냉매·오일 회수 및 재활용 진행시 적법한 관리 및 운영에 대해 지속적으로 모니터링을 진행하고 있습니다. 2019년에는 약 6.1톤의 냉매를 회수하여 재활용하였습니다.
                     </p>
 
@@ -310,7 +310,7 @@
                         <p class="f-80 ml-1 mb-5">* 냉매 회수량은 전량 재활용되고 있음</p>
 
                     <hr class="py-3">
-                    <h6-ancor :title="'리퍼브 제도'" :activated="activated" class="fw-500 green5 mb-3 f-105">리퍼브 제도</h6-ancor>
+                    <h6-ancor hash="s2-3" :activated="activated" class="fw-500 green5 mb-3 f-105">리퍼브 제도</h6-ancor>
                     <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
                     </p>
                     <h7 class="mb-3 gray63 font-noto">리퍼브 프로세스</h7>
@@ -353,7 +353,7 @@
                     
                     <hr class="py-3">
                     
-                    <h6-ancor :title="'전과정 수자원 사용량 절감 '" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 수자원 사용량 절감 </h6-ancor>
+                    <h6-ancor hash="s2-4" :activated="activated" class="fw-500 green5 mb-3 f-105">전과정 수자원 사용량 절감 </h6-ancor>
                     <p class="mb-45"> 코웨이는 최종 조립 및 검사 공정의 비중이 높아 제품 생산 과정에서 수자원 사용량이 많지 않으며, 폐수 또한 배출하지 않습니다. 그러나 수자원 사용으로 인한 환경적 영향을 최소화 하기 위해 물 사용 공정을 지속적으로 개선하고, 물 대신 질소, 진공을 이용한 ‘워터리스’ 시스템을 도입하는 등 물 사용량을 관리하기 위해 지속적인 노력을 기울이고 있습니다.
                     </p>
 
@@ -438,29 +438,67 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '친환경 제품 개발과 제품 생애주기 관리',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Eco Friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 생애주기 관리'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '친환경 제품과 서비스, 비즈니스 설계', 
+                    title: this.is_ENG? 'Eco Friendly Product Service and Business Design' :'친환경 제품과 서비스, 비즈니스 설계', 
+                    hash: 's1', 
                     child: [
-                        { title: '전과정 평가와 제품 책임' }, 
-                        { title: '친환경 제품 인증 획득' }, 
-                        { title: '화학물질 관리 체계 강화' }, 
+                        { 
+                            title: this.is_ENG? 'Life Cycle Assessment and Product Responsibility' : '전과정 평가와 제품 책임', 
+                            hash: 's1-1' 
+                        }, 
+                        { 
+                            title: this.is_ENG? 'Eco Friendly Product Certification':'친환경 제품 인증 획득', 
+                            hash: 's1-2' 
+                        }, 
+                        { 
+                            title: this.is_ENG? 'Enhancement of the Chemical Management System':'화학물질 관리 체계 강화', 
+                            hash: 's1-3' 
+                        }, 
                     ]
                 },
                 { 
-                    title: '자원효율성 향상과 순환경제 지원',
+                    title: this.is_ENG? 'Improvement of Resource Efficiency and Support Circular  Economy':'자원효율성 향상과 순환경제 지원', 
+                    hash: 's2',
                     child: [
-                        { title: '자원효율성 KPI' }, 
-                        { title: '냉매 회수 및 재활용' }, 
-                        { title: '리퍼브 제도' }, 
-                        { title: '전과정 수자원 사용량 절감' }, 
+                        { 
+                            title: this.is_ENG? 'Resource Efficiency KPI':'자원효율성 KPI', 
+                            hash: 's2-1' 
+                        }, 
+                        { 
+                            title: this.is_ENG? 'Recovery and Recycling Refrigerant':'냉매 회수 및 재활용', 
+                            hash: 's2-2' 
+                        }, 
+                        { 
+                            title: this.is_ENG? 'Refurbished Product Policy':'리퍼브 제도', 
+                            hash: 's2-3' 
+                        }, 
+                        { 
+                            title: this.is_ENG? 'Reduction of Water Resource Consumption throughout the Entire Process': '전과정 수자원 사용량 절감', 
+                            hash: 's2-4' 
+                        }, 
                     ]
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{

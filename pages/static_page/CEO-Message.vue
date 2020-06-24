@@ -109,9 +109,13 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: 'CEO Message',
             activated: [],
             sub_titles: [
                 { 
@@ -119,6 +123,14 @@ export default {
                 }
             ],
         }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'CEO Message' : 'CEO 메시지'
+        },
     },
     methods:{
         safeHash(target){

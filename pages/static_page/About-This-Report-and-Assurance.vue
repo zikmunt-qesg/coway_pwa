@@ -82,12 +82,17 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 export default {
     layout: 'StaticPage',
     async asyncData({ query }) {
+        let return_data = {}
         if (query.p != null) {
-            return { show_page: query.p }
+            return_data.show_page = query.p
         }
         else{
-            return { show_page: 'About-This-Report'}
+            return_data.show_page = 'About-This-Report'
         }
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+        return return_data        
     },
     data(){
         return {
@@ -95,6 +100,14 @@ export default {
             activated: [],
             sub_titles: [],
         }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'About This Report and Assurance' : '이 보고서에 대하여'
+        },
     },
     methods:{
         safeHash(target){
