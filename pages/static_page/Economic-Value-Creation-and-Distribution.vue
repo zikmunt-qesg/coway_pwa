@@ -11,7 +11,7 @@
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
                 <side-navigation 
-                :main_title="'경제적 가치 창출과 분배'"
+                :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
                 :active_color="'#5171b1'"
@@ -21,9 +21,9 @@
             <b-container class="px-0">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor :title="'경제적 가치 창출과 분배'" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">경제적 가치 창출과 분배</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">경제적 가치 창출과 분배</h4-ancor>
 
-                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor :title="'경제적 가치 창출'" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 창출</h6-ancor></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 창출</h6-ancor></div>
                     <p class="font-noto">지난 10년 간 한 해도 빠짐없이 꾸준한 성장을 이어온 코웨이는 2019년에도 지속적인 매출 성장세를 기록하며, 전년대비 11.5% 증가한 3조 189억 원의 사상최대 매출을 달성하였습니다. 국내 환경가전 사업 매출은 2조 1,112억 원으로, 세부 매출은 1. 렌탈 판매, 2. 일시불 판매, 3. 멤버십 프로그램으로 구성됩니다. 2019년 기준 총 관리계정은 628만으로 전년 590만 계정 대비 6.5% 증가하였습니다. 
                     </p>
                     <p class="font-noto">렌탈 판매량 또한 전년 145만 대에서 2019년 157만대로 전년대비 8.4% 증가하였으며, 기존제품 및 신규제품 판매 성장 영향으로 최대 판매를 달성하였습니다. 청정기의 판매 호조와 매트리스 등 신규 제품군의 판매가 확대되었습니다. 
@@ -179,28 +179,43 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '경제적 가치 창출과 분배',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Economic Value Creation and Distribution' : '경제적 가치 창출과 분배'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '경제적 가치 창출', 
+                    title: this.is_ENG? 'Economic Value Creation':'경제적 가치 창출', hash: 's1', 
                     child: [
-                        { title: '해외 사업의 꾸준한 확대' }, 
-                        { title: '넷마블 인수에 따른 구독경제 시너지 확대' }
+                        { title: this.is_ENG? 'Economic Value Creation':'해외 사업의 꾸준한 확대', hash:'s1-1' }, 
+                        { title: this.is_ENG? 'Synergy of Subscription Economy Expanded with Netmarble Acquisition':'넷마블 인수에 따른 구독경제 시너지 확대', hash:'s1-2' }
                     ]
                 },
                 { 
-                    title: '경제적 가치 분배' 
+                    title: this.is_ENG? 'Economic Value Distribution': '경제적 가치 분배', hash: 's2' 
                 },
                 { 
-                    title: '조세 정책',
+                    title: this.is_ENG? 'Tax Policy':'조세 정책', hash: 's3',
                     child: [
-                        { title: '조세 납부 현황 및 유효세율 보고' }
+                        { title: this.is_ENG? 'Report on Tax Payment Status and Effective Tax Rate': '조세 납부 현황 및 유효세율 보고', hash: 's3-1' }
                     ]
                 }
-            ],
+            ] 
+            return temp            
         }
     },
     methods:{
