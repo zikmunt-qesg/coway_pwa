@@ -1,7 +1,8 @@
 <template>
 <div>
+    <no-ssr>
     <transition name="show-fade" mode="out-in">
-        <div v-if="isVisible" class="position-fixed text-center" style="right:0; top: calc(50vh - 200px)">
+        <div v-if="isVisible" class="position-fixed text-center" style="right:0; top: calc(50vh - 200px);">
             
             <b-button variant="icon-gray" :aria-expanded="is_opened ? 'false' : 'true'" aria-controls="external-btns" @click="changeCollapse" style="width:78px;" class="py-0">           
                 <div v-if="is_opened==true" key="opened"><i class="fas fa-angle-double-right"></i></div>
@@ -25,6 +26,7 @@
             </transition>
         </div>
     </transition>
+    </no-ssr>
 </div>
 </template>
 <script>

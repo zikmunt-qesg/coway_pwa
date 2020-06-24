@@ -45,9 +45,18 @@
                     <b-td><template v-if="$route.hash == safeHash(`#djsi_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
                     <b-td>{{ row_item.Note }} <br v-if="row_item.Note">
                         <span v-if="row_item.link.length != 0">
-                            <a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to['to']" target="_blank" class="mr-3">
-                                {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
-                            </a>
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3" target="_blank">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="link_to['to']" class="mr-3">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
                         </span>
                     </b-td>
                     </b-tr>
