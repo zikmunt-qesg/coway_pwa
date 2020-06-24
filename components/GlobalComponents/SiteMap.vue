@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative">
     <b-container>
-        <b-row class="py-4 font-noto d-flex flex-column flex-sm-row">
+        <b-row class="pt-4 pb-3 font-noto d-flex flex-column flex-sm-row">
             <!-- <b-col class="col-0 col-lg-1"></b-col> -->
             <!-- <b-col class="col-4 col-lg-1 f-80 gray5 cursor hover-underline px-xl-4 mb-3 mb-sm-0" @click.stop="$router.push('/')" style="height:50px;"> </b-col> -->
             <b-col class="" v-for="item in menu" :key="item.id">
@@ -9,8 +9,8 @@
                     <nuxt-link :to="`${item.link}`">{{ item.title }}</nuxt-link>
                 </div>
                 <div v-for="level2_item in item.child" :key="level2_item.id" class="mb-4 g-nav">
-                    <div class="pb-1 mb-2" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2 letter-narrow"> {{ level2_item.title }}</nuxt-link></div>
-                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" class="mb-1" @click.stop="toggleSiteMap">
+                    <div style="margin-bottom:0.6rem;" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2 letter-narrow"> {{ level2_item.title }}</nuxt-link></div>
+                    <div v-for="level3_item in level2_item.child" :key="level3_item.id" style="margin-bottom:0.4rem;" @click.stop="toggleSiteMap">
                         <nuxt-link :to="`${level3_item.link}`" class="f-80 g-nav-lv3 letter-narrow"> {{ level3_item.title }}</nuxt-link>
                     </div>
                 </div>

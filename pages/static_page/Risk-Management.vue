@@ -99,7 +99,7 @@
                                     </p>
                                     <p>또한 글로벌 시장 진출 확대에 따라 유럽연합 개인정보보호 규정(GDPR) 등 개인정보보호 규제에 대한 효과적인 대응체계를 수립 및 추진하고 있습니다.
                                     </p>
-                                    <a href="/static_page/정보보안-및-개인정보보호" class="parang-text">'정보보안 및 개인정보보호' 상세내용 보기 <i class="fas fa-link ml-1 f-80"></i></a>
+                                    <nuxt-link to="/static_page/Information-Security-and-Personal-Information-Protection" class="parang-text">'정보보안 및 개인정보보호' 상세내용 보기 <i class="fas fa-link ml-1 f-80"></i></nuxt-link>
                                 </b-td>
                             </b-tr>
                             <b-tr>
@@ -136,7 +136,7 @@
                                     </p>
                                     <p>2019년에는 기존 대비 자재사용량을 00% 줄인 ‘한뼘 시루 직수 정수기’를 개발하는 등 절대적인 자원사용량을 줄이기 위한 노력을 지속하였습니다. 또한, 제품에 함유된 유해물질 및 유해폐기물을 관리하기 위해 2018년 유해물질관리경영시스템(HSPM)을 운영하여 자원순환 및 폐기물 배출 관련 리스크를 최소화하고 있습니다. 
                                     </p>
-                                    <a href="/static_page/깨끗한-물과-공기를-위한-환경경영#가치사슬전체의환경역량강화" class="parang-text">'가치사슬 전체의 환경역량 강화' 상세내용 보기 <i class="fas fa-link ml-1 f-80"></i></a>
+                                    <nuxt-link to="/static_page/Environmental-Management-for-Clean-Water-and-Air#s2" class="parang-text">'가치사슬 전체의 환경역량 강화' 상세내용 보기 <i class="fas fa-link ml-1 f-80"></i></nuxt-link>
                                 </b-td>
                             </b-tr>
                             <b-tr>

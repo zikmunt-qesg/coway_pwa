@@ -278,7 +278,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">
-                            *표기기간: 2017년 1월 1일 ~ 2019년 12월 31일
+                            *기간: 2017년 1월 1일 ~ 2019년 12월 31일
                         </p>
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">소유구조 및 의결권</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>

@@ -420,7 +420,7 @@
                             </b-tbody> 
                         </b-table-simple>
                         <p class="f-80 ml-1">* 2020년 수자원 데이터 검증범위 확대에 따라 2018년 포천공장 데이터가 전년도 보고 데이터와 상이함 <br>
-                        <a href="#" class="green-a">검증의견서 확인</a></p>
+                        <nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">검증의견서 확인</nuxt-link></p>
                         
 
             </b-container>
