@@ -1,29 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31" height="44.763" viewBox="0 0 31 44.763">
+<svg id="구성_요소_47_1" data-name="구성 요소 47 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="62.371" viewBox="0 0 80 62.371">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-2 {
         fill: none;
-        stroke: #808083;
       }
 
       .cls-2 {
-        fill: #808083;
-        font-size: 15px;
-        font-family: NotoSansKR-Regular, Noto Sans KR;
+        stroke: #808083;
       }
 
       .cls-3 {
-        letter-spacing: 0.043em;
-      }
-
-      .cls-4 {
-        letter-spacing: 0.07em;
+        fill: #808083;
       }
     </style>
   </defs>
-  <g id="구성_요소_36_2" data-name="구성 요소 36 – 2" transform="translate(0 0.705)">
-    <path id="패스_41" data-name="패스 41" class="cls-1" d="M1857.852,2512.428l12.165-12.078,12.166,12.078" transform="translate(-1854.352 -2495.444)"/>
-    <path id="패스_42" data-name="패스 42" class="cls-1" d="M1857.852,2505.512l12.165-12.077,12.166,12.077" transform="translate(-1854.352 -2493.435)"/>
-    <text id="TOP" class="cls-2" transform="translate(0 39.058)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan class="cls-4" y="0">O</tspan><tspan y="0">P</tspan></text>
+  <path id="패스_36457" data-name="패스 36457" class="cls-1" d="M0,0H80V62.371H0Z"/>
+  <g id="구성_요소_36_2" data-name="구성 요소 36 – 2" transform="translate(24.465 10.121)">
+    <path id="패스_41" data-name="패스 41" class="cls-2" d="M1857.852,2512.428l12.165-12.078,12.166,12.078" transform="translate(-1854.817 -2495.444)"/>
+    <path id="패스_42" data-name="패스 42" class="cls-2" d="M1857.852,2505.512l12.165-12.077,12.166,12.077" transform="translate(-1854.817 -2493.435)"/>
+    <path id="패스_36465" data-name="패스 36465" class="cls-3" d="M3.795,0H5.19V-9.825H8.52v-1.17H.465v1.17h3.33Zm11,.2c2.76,0,4.695-2.2,4.695-5.73S17.55-11.2,14.79-11.2s-4.7,2.145-4.7,5.67S12.03.2,14.79.2Zm0-1.215c-1.98,0-3.27-1.77-3.27-4.515,0-2.76,1.29-4.455,3.27-4.455,1.965,0,3.27,1.695,3.27,4.455C18.06-2.79,16.755-1.02,14.79-1.02ZM22.905,0h1.4V-4.365h1.815c2.4,0,4.05-1.08,4.05-3.4,0-2.4-1.65-3.225-4.125-3.225H22.905Zm1.4-5.49V-9.87h1.575c1.935,0,2.91.51,2.91,2.1,0,1.575-.915,2.28-2.85,2.28Z" transform="translate(-0.465 39.058)"/>
   </g>
 </svg>

@@ -170,7 +170,7 @@
                         </b-col>
                         <b-col class="custom-ul-li position-relative pr-md-0">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
-                            <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_1.svg" fluid class="h-100"></b-img></div>
+                            <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_2.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
                                 <li class="no-word-break">화학물질 사전 규제 모니터링 체계 구축에 따라 사전 규제 대응력 강화</li>
                                 <li class="no-word-break">전 제·부품에 대한 RoHSⅡ프탈레이트 규제 사전 대응 및 적합성 검증</li>

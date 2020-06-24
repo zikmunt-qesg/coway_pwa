@@ -1,7 +1,7 @@
 <svg id="구성_요소_103_1" data-name="구성 요소 103 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="47.769" viewBox="0 0 70 47.769">
   <defs>
     <style>
-      .cls-1, .cls-4 {
+      .cls-1 {
         fill: #fff;
       }
 
@@ -11,16 +11,6 @@
 
       .cls-3 {
         fill: #d6a803;
-      }
-
-      .cls-4 {
-        font-size: 16px;
-        font-family: NotoSansKR-Medium, Noto Sans KR;
-        font-weight: 500;
-      }
-
-      .cls-5 {
-        letter-spacing: -0.019em;
       }
     </style>
     <clipPath id="clip-path">
@@ -38,6 +28,6 @@
       <path id="패스_582" data-name="패스 582" d="M834.491,4027.048a22.68,22.68,0,1,1-22.68-22.679,22.68,22.68,0,0,1,22.68,22.679"/>
       <path id="패스_583" data-name="패스 583" class="cls-3" d="M830.919,4024.64a22.68,22.68,0,1,1-22.68-22.68,22.68,22.68,0,0,1,22.68,22.68"/>
     </g>
-    <text id="_01" data-name="01" class="cls-4" transform="translate(13.72 28.428)"><tspan class="cls-5" x="0" y="0">0</tspan><tspan y="0">1</tspan></text>
+    <path id="패스_23605" data-name="패스 23605" class="cls-1" d="M4.56.208c2.3,0,3.808-2.048,3.808-6.144C8.368-10,6.864-12,4.56-12,2.24-12,.752-10.016.752-5.936.752-1.84,2.24.208,4.56.208Zm0-1.456c-1.2,0-2.048-1.28-2.048-4.688,0-3.376.848-4.608,2.048-4.608S6.608-9.312,6.608-5.936C6.608-2.528,5.76-1.248,4.56-1.248ZM10.192,0h6.72V-1.52h-2.3V-11.776H13.216a7.234,7.234,0,0,1-2.56.9v1.168h2.112V-1.52H10.192Z" transform="translate(13.72 28.428)"/>
   </g>
 </svg>
