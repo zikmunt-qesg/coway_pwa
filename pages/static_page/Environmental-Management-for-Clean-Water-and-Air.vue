@@ -1,5 +1,5 @@
 <template>
-<div class="position-relative page-top-bg-so min-vh-100">
+<div class="position-relative page-top-bg-env min-vh-100">
     <logger title="깨끗한 물과 공기를 위한 환경경영"></logger>
     <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 

@@ -1,5 +1,5 @@
 <template>
-<div class="position-relative page-top-bg-so min-vh-100">   
+<div class="position-relative page-top-bg-env min-vh-100">   
     <logger title="친환경 제품 개발과 제품 생애주기 관리"></logger>
     <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 

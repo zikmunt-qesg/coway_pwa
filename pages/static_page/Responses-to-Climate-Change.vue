@@ -1,5 +1,5 @@
 <template>
-<div class="position-relative page-top-bg-so min-vh-100">
+<div class="position-relative page-top-bg-env min-vh-100">
     <logger title="기후변화 대응"></logger>
     <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 
