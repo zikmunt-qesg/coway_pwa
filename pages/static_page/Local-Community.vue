@@ -298,29 +298,44 @@ import h4Ancor from '@/components/navigation/h4Anchor'
 
 export default {
     layout: 'StaticPage',
+    asyncData({query, store}){
+        if(query.l && query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
+    },
     data(){
         return {
-            title: '지역사회',
             activated: [],
-            sub_titles: [
+        }
+    },
+    computed:{
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
+        title(){
+            return this.is_ENG? 'Local Community' : '지역사회'
+        },
+        sub_titles(){
+            let temp = [
                 { 
-                    title: '코웨이다운 사회공헌', 
+                    title: this.is_ENG? 'Coway Like Social Contribution':'코웨이다운 사회공헌', hash: 's1',
                     child: [
-                        { title: '임직원과 함께하는 나눔 실천' }
+                        { title: this.is_ENG? 'Practice Sharing with All Employees':'임직원과 함께하는 나눔 실천', hash: 's1-1' }
                     ]
                 },
                 { 
-                    title: '깨끗한 물과 공기를 위한 코웨이의 약속',
+                    title: this.is_ENG? 'Coways Vows for Clean Water and Air':'깨끗한 물과 공기를 위한 코웨이의 약속', hash: 's2',
                     child: [
-                        { title: '약속 1. 물 - 지역사회 깨끗한 물 지원' },
-                        { title: '약속 2. 공기 - 취약계층 환경개선 지원 '},
-                        { title: '약속 3. 사람 - 청년 창업 지원'}
+                        { title: this.is_ENG? 'Vow 1. Water–Support Clean Water to Local Community': '약속 1. 물 - 지역사회 깨끗한 물 지원', hash: 's2-1' },
+                        { title: this.is_ENG? 'Vow 2. Air–Support Environment Improvement for Vulnerable Social Group': '약속 2. 공기 - 취약계층 환경개선 지원', hash: 's2-2'},
+                        { title: this.is_ENG? 'Vow 3. People–Support Youth Start Ups': '약속 3. 사람 - 청년 창업 지원', hash: 's2-3'}
                     ]
                 },
                 { 
-                    title: '공공정책 참여',
+                    title: this.is_ENG? 'Public Policy Participation': '공공정책 참여', hash: 's3'
                 }
-            ],
+            ]
+            return temp            
         }
     },
     methods:{
