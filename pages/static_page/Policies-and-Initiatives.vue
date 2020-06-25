@@ -103,7 +103,7 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
-    async asyncData({ query }) {
+    async asyncData({ query, store }) {
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')
         }

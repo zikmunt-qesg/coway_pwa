@@ -11,7 +11,7 @@
 
             <div class="d-lg-flex flex-lg-row-reverse justify-content-start jump-width" >
                 <div class="d-flex justify-content-end align-items-center jump-up">                
-                    <b-nav-item class="pl-lg-2 pt-1 pb-1 f-85" style="list-style: none"> ENG </b-nav-item>
+                    <b-nav-item class="pl-lg-2 pt-1 pb-1 f-85" style="list-style: none" @click.stop="toggleLang()"> {{ is_ENG==true? 'KOR' : 'ENG' }} </b-nav-item>
                     <b-nav-item class="pl-lg-1" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
                     <b-nav-item class="d-none d-lg-block pl-lg-1" @click.stop="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
 
@@ -62,7 +62,7 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions, mapMutations } from 'vuex'
 import SiteMap from '@/components/GlobalComponents/SiteMap'
 import SearchForm from '@/components/search/SearchForm'
 
@@ -83,11 +83,12 @@ export default {
         ...mapState('menu', {
             menu: state => state.menu
         }),
-        pages() {
-            return this.$store.state.pages
-        }
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        })
     },
     methods: {
+        ...mapMutations(['setLang']),
         showSubMenu(menu_item) {
             if (menu_item.child != undefined) {
                 this.show_sub_menu = true
@@ -109,11 +110,61 @@ export default {
         },
         routerGo(target){
             this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
-            this.$router.push(this.toLink(target))
+            this.$router.push(this.linkLib(target))
         },
-        toLink(target){
-            let eng = this.is_ENG? '?l=ENG' : ''
-            return eng + target
+        toggleLang(){
+            if(this.is_ENG==true){
+                this.setLang('KOR')
+                let q = { ...this.$route.query }
+                q.l = 'KOR'
+                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
+            }
+            else{
+                this.setLang('ENG')
+                let q = { ...this.$route.query }
+                q.l = 'ENG'
+                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
+            }
+        },
+        linkLib(address){
+            //1) ?가 있는지 체크
+            let path = ''
+            let query = ''
+            let hash = ''
+            let tok = address.split('?')
+            if(tok.length > 1){ // 쿼리있음
+                path = tok[0]
+                let tok2 = tok[1].split('#')
+                if(tok2.length > 1){ // 쿼리, 해쉬가 또 있음
+                    query = tok2[0]
+                    hash = '#'+tok2[1]
+                }
+                else{
+                    query = tok[1]
+                    hash = ''
+                }
+            }
+            else{ //쿼리없음
+                let tok2 = address.split('#')
+                if(tok2.length > 1){ // 해쉬 있음
+                    path = tok2[0]
+                    query = ''
+                    hash = '#'+tok2[1]
+                }
+                else{ //해쉬도 없음
+                    path = address
+                }
+            }
+    
+            if(this.$store.state.is_ENG==true){
+                if(query=='') {
+                    query = '?l=ENG'
+                }
+                else{
+                    query += '&l=ENG'
+                }
+            }
+            return path + query + hash
         }
     },
     components:{
