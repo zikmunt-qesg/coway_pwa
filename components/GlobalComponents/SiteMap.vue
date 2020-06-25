@@ -11,7 +11,7 @@
                 <div v-for="level2_item in item.child" :key="level2_item.id" class="mb-4 g-nav">
                     <div style="margin-bottom:0.6rem;" @click.stop="toggleSiteMap"><nuxt-link :to="`${level2_item.link}`" class="f-85 g-nav-lv2 letter-narrow"> {{ level2_item.title }}</nuxt-link></div>
                     <div v-for="level3_item in level2_item.child" :key="level3_item.id" style="margin-bottom:0.4rem;" @click.stop="toggleSiteMap">
-                        <nuxt-link :to="`${level3_item.link}`" class="f-80 g-nav-lv3 letter-narrow"> {{ level3_item.title }}</nuxt-link>
+                        <nuxt-link :to="{ path: level3_item.link, query: { l: is_ENG? 'ENG' : 'KOR' } }" class="f-80 g-nav-lv3 letter-narrow"> {{ level3_item.title }}</nuxt-link>
                     </div>
                 </div>
             </b-col>
@@ -35,11 +35,11 @@ export default {
     },
     computed: {
         ...mapState('menu', {
-        menu: state => state.menu
+            menu: state => state.menu
         }),
-        pages() {
-        return this.$store.state.pages
-        }
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        })
     },
     methods: {
         toggleSiteMap(){
