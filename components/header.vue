@@ -117,13 +117,13 @@ export default {
                 this.setLang('KOR')
                 let q = { ...this.$route.query }
                 q.l = 'KOR'
-                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
+                //this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
             }
             else{
                 this.setLang('ENG')
                 let q = { ...this.$route.query }
                 q.l = 'ENG'
-                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
+                //this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
             }
         },
         linkLib(address){
