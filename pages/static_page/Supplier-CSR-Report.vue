@@ -27,7 +27,7 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5">협력사 CSR 리포트</h4-ancor>
 
-                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 행동 규범</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="v1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 행동 규범</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                     <p>코웨이는 우리가 하는 일이 더 나은 세상을 만드는데 기여한다는 ‘착한 믿음’의 경영정신을 바탕으로 협력사와 함께 동반성장해 나아가기 위해 노력하고 있습니다. 지속가능한 사회 구축을 위한 책임 경영도 그 일환으로, 본 코웨이 협력사 행동 규범을 수립하였습니다. 본 규범은 협력사 구성원의 노동환경 개선 및 인권 존중, 환경에 대한 책임과 윤리 경영 등 코웨이가 협력사에 요구하는 바를 제시하고 있습니다. 
                     </p>
 
@@ -35,15 +35,15 @@
                     <b-button variant="gold" size="sm" block class="mb-5">협력사 행동규범 다운로드</b-button>
 
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 지속가능성 평가</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="v2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 지속가능성 평가</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">코웨이는 거래규모, 대체불가능성, 핵심기술 여부, 비재무 리스크 발생 가능성 등을 종합적으로 고려하여 핵심 협력회사를 분류하여 관리하고 있습니다.
                     </p>
 
-                    <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-2">공급망 지속가능성 사전 스크리닝</h6-ancor>
+                    <h6-ancor hash="v2-1" :activated="activated" class="gold6 fw-500 mb-2">공급망 지속가능성 사전 스크리닝</h6-ancor>
                     <p class="mb-5">코웨이는 공급망의 지속가능성을 포괄적으로 관리하기 위하여 모든 협력사를 대상으로 협력사 사전 평가에서 협력사 행동규범을 준수하도록 요구하고 있으며, 평가항목상 일정한 기준을 충족하지 못한 경우 코웨이의 협력사 등록에서 제외하고 있습니다. 사전평가를 통해 협력회사 등록단게에서부터 잠재적인 지속가능성 리스크를 관리하고 있습니다. 
                     </p>
 
-                    <h6-ancor hash="s2-2" :activated="activated" class="gold6 fw-500 mb-2">협력사 리스크 평가</h6-ancor>
+                    <h6-ancor hash="v2-2" :activated="activated" class="gold6 fw-500 mb-2">협력사 리스크 평가</h6-ancor>
                     <p>코웨이는 협력사의 실태, 실적, 경영 안정성을 평가하며 혁신활동 및 커뮤니케이션이 우수한 협력사에게 가점을 부여합니다. 평가 결과에 따라 협력사를 A에서 D등급으로 나누고 A와 B등급을 획득한 우수 협력사에게는 발주 물량 확대, 협의회 임원단 자격을 부여합니다. 반면 C와 D등급을 받은 취약 협력사에게는 개발 제한, 물량 축소 등의 페널티를 부여하는 것은 물론 2년 연속 D등급을 받을 경우 거래를 중단하고 있습니다.
                     </p>
 
@@ -58,12 +58,12 @@
                         <div class="d-flex align-items-center"> <div style="width:16px; height:16px; background-color:#f0c560;" class="mr-2"></div><span class="f-90 fw-300">충족률</span></div>
                         <hj-img src="/images/94_1.svg" fluid></hj-img>
                     <hr class="mb-4">
-                    <h6-ancor hash="s2-3" :activated="activated" class="gold6 fw-500 mb-2">시정 조치</h6-ancor>
+                    <h6-ancor hash="v2-3" :activated="activated" class="gold6 fw-500 mb-2">시정 조치</h6-ancor>
                     <p class="mb-5">코웨이는 협력사 평가 결과에 따라 개선이 필요한 협력사에 대해서는 시정조치 계획을 수립하고 리스크 요인(ESG 리스크 포함)을 개선하도록 요구하고 있습니다. 2019년 협력사 진단 및 평가결과에 따라 제재 조치를 받은 협력사는 총 XX 개였습니다. 
                     </p>
                     <hr class="py-3">
-                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">분쟁광물</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                    <h6-ancor hash="s3-1" :activated="activated" class="gold6 fw-500 mb-2">분쟁광물 사용 제한 선언</h6-ancor>
+                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h6-ancor hash="v3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">분쟁광물</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <h6-ancor hash="v3-1" :activated="activated" class="gold6 fw-500 mb-2">분쟁광물 사용 제한 선언</h6-ancor>
                     <p class="mb-45">코웨이는 인간의 존엄성을 최우선시하며 지속가능한 소비 및 생산을 유도하기 위하여 분쟁광물 사용을 제한합니다. 아울러 분쟁지역에서 생산된 합법적인 광물은 사용하여 콩고 및 인접국가에 경제적 피해가 초래되지 않도록 노력하겠습니다. 이를 위하여 분쟁광물 사용에 대한 지속적이고 철저한 조사를 시행하고 있으며, 분쟁광물 사용 금지 정책과 관리 시스템, 내외부 심사를 통해 분쟁광물 이슈를 지속적으로 관리해 나가겠습니다. 
                     </p>
 
@@ -84,7 +84,7 @@
                         </b-table-simple>
                     <hr class="py-2">
 
-                    <h6-ancor hash="s3-2" :activated="activated" class="gold6 fw-500 mb-2 font-noto">코웨이 행동규범 제12조</h6-ancor>
+                    <h6-ancor hash="v3-2" :activated="activated" class="gold6 fw-500 mb-2 font-noto">코웨이 행동규범 제12조</h6-ancor>
                     <p class="mb-5">협력사는 불법적이고 비윤리적인 방법을 통해 취득한 원자재(무장세력이 점거한 광산에서 채굴된 광물, 산림 보존 및 벌목 금지 지역에서 벌목된 목재 등)을 사용하지 않습니다. 원자재, 부품, 제품에 포함된 탄탈륨, 주석, 텅스텐, 금 등 콩고민주공화국이나 인접국가에서 심각한 인권을 유린하는 무장세력에게 직간접적으로 재원 또는 편익을 제공하며 생산된 광물은 사용하지 않습니다.
                     </p>
 
@@ -246,21 +246,21 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Supplier Code of Conduct': '협력사 행동규범', hash: 's1' 
+                    title: this.is_ENG? 'Supplier Code of Conduct': '협력사 행동규범', hash: 'v1' 
                 },
                 { 
-                    title: this.is_ENG? 'Supplier Sustainability Assessment': '협력사 지속가능성 평가', hash: 's2',
+                    title: this.is_ENG? 'Supplier Sustainability Assessment': '협력사 지속가능성 평가', hash: 'v2',
                     child: [
-                        { title: this.is_ENG? 'Preliminary Screening on Supply Chain Sustainability': '공급망 지속가능성 사전 스크리닝', hash: 's2-1' },
-                        { title: this.is_ENG? 'Supplier Risk Assessment': '협력사 리스크 평가', hash: 's2-2' },
-                        { title: this.is_ENG? 'Corrective Action':'시정 조치', hash: 's2-3' },                        
+                        { title: this.is_ENG? 'Preliminary Screening on Supply Chain Sustainability': '공급망 지속가능성 사전 스크리닝', hash: 'v2-1' },
+                        { title: this.is_ENG? 'Supplier Risk Assessment': '협력사 리스크 평가', hash: 'v2-2' },
+                        { title: this.is_ENG? 'Corrective Action':'시정 조치', hash: 'v2-3' },                        
                     ]
                 },
                 {
-                    title: this.is_ENG? 'Conflict Minerals': '분쟁광물', hash: 's3',
+                    title: this.is_ENG? 'Conflict Minerals': '분쟁광물', hash: 'v3',
                     child: [
-                        { title: this.is_ENG? 'Declaration of Restriction on the Use of Conflict Minerals': '분쟁광물 사용 제한 선언', hash: 's3-1' },
-                        { title: this.is_ENG? 'Coway Code of Conduct Article 12': '코웨이 행동규범 제 12조', hash: 's3-2'}
+                        { title: this.is_ENG? 'Declaration of Restriction on the Use of Conflict Minerals': '분쟁광물 사용 제한 선언', hash: 'v3-1' },
+                        { title: this.is_ENG? 'Coway Code of Conduct Article 12': '코웨이 행동규범 제 12조', hash: 'v3-2'}
                     ]
                 }
             ]
