@@ -63,21 +63,21 @@
                     <div class="d-flex mb-4 position-relative overflow-hidden"> <h6 class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">글로벌 이니셔티브 참여</h6><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     <div class="d-flex justify-content-around align-items-center px-md-3 px-lg-5 mb-5">
                         <div class="px-3"><b-img src="/images/148_1@3x.jpg" fluid></b-img></div>
-                        <div class="px-3"><b-img src="/images/148_2@3x.jpg" fluid></b-img></div>
                         <div class="px-3"><b-img src="/images/148_3@3x.jpg" fluid></b-img></div>
+                        <div class="px-3"><b-img src="/images/148_2@3x.jpg" fluid></b-img></div>                        
                         <div class="px-3"><b-img src="/images/148_4@3x.jpg" fluid></b-img></div>
                         <div class="px-3 w-75"><b-img src="/images/148_5@3x.jpg" fluid></b-img></div>
-                        <div class="px-3"><b-img src="/images/148_6@3x.jpg" fluid></b-img></div>
+                        <!-- <div class="px-3"><b-img src="/images/148_6@3x.jpg" fluid></b-img></div> -->
                     </div>
                     <h7 class="mb-2"> UNGC </h7>
                     <p class="mb-45">코웨이는 2006년 6월 UNGC(United Nations Global Compact: 유엔 글로벌 컴팩트)에 가입하여 인권, 노동, 환경, 그리고 반부패에 관한 10가지 원칙을 준수하고 이를 실천함으로써 성장의 추구와 함께 사회적인 책임을 다하는 기업 시민으로서의 역할을 다하고 있습니다. 본 지속가능경영보고서는 코웨이의 현재와 미래에대한 스스로의 평가이자 다짐입니다. 
                     </p>
-                    <h7 class="mb-2"> CDP(탄소정보공개프로젝트) </h7>
-                    <p class="mb-45"> 코웨이는 비영리단체인 탄소정보공개프로젝트(CDP)’ 한국위원회로부터 기후변화 대응의 우수함을 인정받아 선택소비재 부문‘탄소경영 섹터 아너스(Honors)’에 10년 연속 우수기업으로 선정되었습니다.
-                    </p>
                     <h7 class="mb-2"> SDGs(Sustainable Development Goals) </h7>
                     <p class="mb-45"> 코웨이는 2016년 UN 회원국간 공동 성명에 의해 수립된 국제사회가 달성해야 할 지속가능한 발전목표(SDGs, Sustainable Development Goals)에 따라 SDGs달성을 위한 솔루션을 개발하고 이행함으로써 새로운 성장기회를 발견하고 지속가능한 성장을 추진합니다.
                     </p>
+                    <h7 class="mb-2"> CDP(탄소정보공개프로젝트) </h7>
+                    <p class="mb-45"> 코웨이는 비영리단체인 탄소정보공개프로젝트(CDP)’ 한국위원회로부터 기후변화 대응의 우수함을 인정받아 선택소비재 부문‘탄소경영 섹터 아너스(Honors)’에 10년 연속 우수기업으로 선정되었습니다.
+                    </p>                    
                     <h7 class="mb-2"> 유엔기후변화협약 당사국총회(COP21) 글로벌 기후변화 협약 지지 </h7>
                     <p class="mb-45"> 코웨이는 2015년 12월 세계 195개국이 프랑스 파리 에서 타결한 유엔기후변화협약 당사국총회(COP21) 의 ‘글로벌 기후변화협약’에 지지선언을 하고 자발적 탄소 감축계획을 수립하고 있습니다. 
                     </p>

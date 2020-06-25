@@ -98,15 +98,15 @@
                     </p>
                     <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="/images/68_1.svg" fluid class="h-100"></b-img></div>
                     <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 강화하고, 비즈니스 변화에 부합하는 직무 역량을 향상할 수 있도록 교육을 강화할 예정입니다. 
                         </p>
                         <hj-img src="/images/135_1.svg" fluid ></hj-img>
                     <hr class="space-p25 mb-2">
-                    <h6-ancor hash="s1-1" :activated="activated" class="gold6 fw-500 mb-2">리더십 교육</h6-ancor>
+                    <h6-ancor hash="r1-1" :activated="activated" class="gold6 fw-500 mb-2">리더십 교육</h6-ancor>
                         <p class="mb-45"> 미래를 선도하는 리더를 육성하고 직책에 맞는 역량을 개발하기 위해 리더십 교육을 진행하고 있습니다. 임원 및 팀장을 대상으로 맞춤 교육과 온라인 컨텐츠 교육을 정기적으로 제공하며, 신임직책자를 대상으로 신임리더 교육을 지원합니다. 또한 pre-leadership 교육으로 승진자 교육 및 직급별 3년차 교육을 실시하여 개인의 성장을 점검하고 필요한 역량을 개발하도록 지원하고 있습니다.
                         </p>
-                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">직무 교육</h6-ancor>
+                    <h6-ancor hash="r1-2" :activated="activated" class="gold6 fw-500 mb-3">직무 교육</h6-ancor>
                         <p class="mb-45"> 직무 교육은 직무 수행에 필요한 전문성을 강화하기 위한 공통역량 교육, 본부맞춤 교육, 외부위탁 교육, 글로벌 어학 지원, 명사 특강으로 프로그램이 구성되며, 임직원 개인이 자율적으로 이러닝을 들을 수 있도록 상시 학습환경을 구축했습니다. 특히 공통역량 교육은 기획, 재무회계, OA 등 다양한 분야의 전문가 강의와  코웨이의 제품과 기술력을 학습하고 서비스를 실습하는 사내 강의로 구성되어 있습니다. 김난도 서울대 교수, 유현준 건축가 등 저명한 강사를 초청하는 명사특강(착한교육)은 2013년부터 꾸준히 이어와 임직원들에게 다양한 주제로 인사이트를 제시하고 있습니다. 
                         </p>
                         <h7 class="mb-3 gray63">교육훈련 투자</h7>
@@ -131,7 +131,7 @@
                             </b-table-simple>
                             <p class="f-80 ml-1">* 총 교육 비용 및 1인당 교육비용은 2020년도 사업보고서에 공시된 전체 임직원을 기준으로 집계한 수치입니다. <br> ** 총 교육시간 및 1인당 교육시간은 영업직 제외 기준입니다.</p>
                     <hr class="space-p25">
-                    <h6-ancor hash="s1-3" :activated="activated" class="gold6 fw-500 mb-3">디지털 기반의 업무혁신</h6-ancor>
+                    <h6-ancor hash="r1-3" :activated="activated" class="gold6 fw-500 mb-3">디지털 기반의 업무혁신</h6-ancor>
                         <p class="mb-45"> 코웨이는 불필요한 업무 과정 및 관행을 최소화하고 업무 생산성을 향상하기 위해 Work Smart 캠페인을 시행하고 있습니다. Work Smart 캠페인은 공간, 시간, 성과, 지식, 방식의 5대 영역을 개선하기 위한 활동으로, 합리적인 근무문화를 조성하고 업무 공간과 시간을 유연하게 활용하여 임직원 만족도를 높이고 있습니다. 특히 근무시간 내 업무 효율을 최대화함으로써 주 40시간 이상의 초과근무를 방지하고 일과 삶의 균형을 맞출 수 있도록 최선의 노력을 다하고 있습니다.
                         </p>
                         <hr class="mb-4">
@@ -165,7 +165,7 @@
                         <p>디지털 업무 혁신을 통해 업무 효율성을 높이고자 2018년부터 회계, 분석 등 주요 업무에 로봇 프로세스 자동화(RPA, Robotic Process Automation) 시스템을 도입하였습니다. 로봇 프로세스 자동화는 반복적으로 실행하던 단순 업무를 로봇 소프트웨어가 자동으로 처리하는 시스템입니다. 이를 통해 임직원은 단순 업무에서 벗어나 부가가치가 높은 일에 집중하며 업무 효율을 증진시킬 수 있습니다. 현재 계정현황 모니터링, 판매실적 집계, 렌탈자산현황 정리, 요금 청구내역 조회 등 약 40여 개 업무에 RPA를 적용하였으며, 총 70개의 로봇을 운영하여 전체 업무처리 속도를 약 50% 이상 향상시켰습니다. 향후 업무영역 전반에 걸쳐 RPA 도입 가능성을 검토하고 순차적으로 확대 적용할 계획이며 이를 통해 임직원이 업무의 질적 수준을 높이고 일과 삶의 균형을 이룰 수 있도록 노력하겠습니다.
                         </p>
                     <hr class="space-p25 mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">커뮤니케이션 기반의 기업문화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">커뮤니케이션 기반의 기업문화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-5"> 임직원 간의 소통을 강화하여 수평적인 기업문화를 만들기 위해 다양한 프로그램을 진행하고 있습니다. CEO의 적극적인 커뮤니케이션 참여를 기반으로 경영진과 임직원 간 상호 교류를 활성화하기 위한 다양한 소통 프로그램을 운영하고 있습니다. 또한, 적극적으로 임직원의 고충을 경청하고, 즉각적인 해결을 통해 업무 효율성 및 직업 만족도를 향상하기 위해 임직원 고충 상담 채널 및 사내 웹진(코러스)를 운영하고 있습니다. 2019년에는 총 28건의 임직원 고충을 접수하여 연내 100% 처리 및 개선 완료하였습니다.
                         </p>
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
@@ -203,7 +203,7 @@
                             </b-tbody>                                
                         </b-table-simple>
                     <hr class="space-p25">
-                    <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-3">노사협의회 기반의 커뮤니케이션</h6-ancor>
+                    <h6-ancor hash="r2-1" :activated="activated" class="gold6 fw-500 mb-3">노사협의회 기반의 커뮤니케이션</h6-ancor>
                         <p class="mb-45"> 코웨이는 전 임직원을 대표하는 근로자 대표와의 정기적인 노사협의회를 통해 기업 경영과 관련된 중요한 의사결정 및 변동사항에 대하여 소통하고 있습니다. 회사에 중요한 사업변동이 발생한 경우 이를 사전에 투명하게 공유하고 있으며, 2019년에는 총 4회의 노사협의회를 통해 평가위원회 운영 및 승진, 연봉 책정, 연말 인센티브 지급, 기업문화 및 교육 제도 개선 등 7개 안건에 대해 협의하였습니다.
                         </p>
                         <h7 class="mb-3 gray63">노사협의회 개최 및 협의 안건 수</h7>
@@ -224,7 +224,7 @@
                             </b-tbody>                                
                         </b-table-simple>
                     <hr class="space-p25">
-                    <h6-ancor hash="s2-2" :activated="activated" class="gold6 fw-500 mb-3">일과 삶의 균형을 통한 임직원 만족도 제고</h6-ancor>
+                    <h6-ancor hash="r2-2" :activated="activated" class="gold6 fw-500 mb-3">일과 삶의 균형을 통한 임직원 만족도 제고</h6-ancor>
                         <p class="mb-45"> 코웨이는 다양한 프로그램을 통해 가족 친화적 기업문화를 조성하며 일과 삶의 균형을 추구하고 있습니다. 일 가정 양립을 위해 정시 출퇴근을 장려하는 PC-Off 제도를 도입하였으며, 패밀리데이를 운영하여 임직원이 가족과 함께하는 시간을 확보할 수 있도록 노력하고 있습니다. 또한 가족 참여 활동 및 행사를 통해 코웨이의 가족으로서 임직원과 가족들이 함께 행복한 시간을 보낼 수 있는 프로그램을 운영하고 있습니다. 이에 따라 코웨이는 2012년 가족친화 우수기업 첫 인증을 받았으며, 2017년 재인증을 받았습니다.
                         </p>
                         <h7 class="pb-2 mb-5 gray63">일 가정 양립을 위한 지원 제도</h7>
@@ -291,7 +291,7 @@
                             </b-tr></b-tbody>                                
                         </b-table-simple>
                         <p class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</p>-->
-                    <h6-ancor hash="s2-3" :activated="activated" class="gold6 fw-500 mb-3">임직원 현황 데이터</h6-ancor>
+                    <h6-ancor hash="r2-3" :activated="activated" class="gold6 fw-500 mb-3">임직원 현황 데이터</h6-ancor>
                         <h7 class="mb-3 gray63">국내 임직원 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-2">
                             <b-thead><b-tr>
@@ -476,13 +476,13 @@
                         <p class="f-80 ml-1 mb-0 gray55">* 의원면직</p>
                         <p class="f-80 ml-1 mb-45 gray55">** 사망, 정년퇴직, 해고</p>
                     <hr class="py-1 mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전하고 건강한 근무환경</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전하고 건강한 근무환경</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-45"> 코웨이는 근로자의 안전을 최우선으로 고려하며 사업장의 안전사고를 예방하고 건강한 근무환경을 조성하기 위해 다양한 안전보건 프로그램을 운영하고 있습니다. 특히 공장 및 R&D센터와 같이 안전사고가 발생할 수 있는 사업장에 대해 산업안전보건위원회를 운영하여 잠재적인 안전 리스크에 대해 선제적으로 대응하고 있습니다.
                         </p>
-                    <h6-ancor hash="s3-1" :activated="activated" class="gold6 fw-500 mb-3">산업안전보건위원회 운영</h6-ancor>
+                    <h6-ancor hash="r3-1" :activated="activated" class="gold6 fw-500 mb-3">산업안전보건위원회 운영</h6-ancor>
                         <p class="mb-5"> 산업안전보건위원회는 안전보건위생에 대한 전반적인 협의 및 합의를 위해 2005년부터 운영되었으며, 사측대표 6인과 근로자 대표 6인의 노사 동수로 구성하여 합리적이고 민첩한 안전 이슈 대응을 추진하고 있습니다. 위원회는 분기별 산업재해 예방 계획을 수립하고 안전보건 관리 규정의 작성 및 변경, 근로자의 안전·보건교육 등을 논의, 의결하고 있습니다. 2019년 총 4회의 위원회 개최를 기반으로 근로자의 건강증진과 작업환경 측정을 통한 소음 개선, 근골격계질환 개선에 대한 사항을 중점적으로 논의하였으며, 그 결과 포장 공정의 자동화를 시행하여 재해요소를 제거하였습니다. 
                         </p>
-                    <h6-ancor hash="s3-2" :activated="activated" class="gold6 fw-500 mb-3">안전보건 경영 및 안전문화 구축</h6-ancor>
+                    <h6-ancor hash="r3-2" :activated="activated" class="gold6 fw-500 mb-3">안전보건 경영 및 안전문화 구축</h6-ancor>
                         <p class="mb-45"> 코웨이는 안전보건경영시스템(OHSAS18001 및 KOSHA 18001)인증을 보유하며, 이를 기반으로 국내 전 공장(유구, 인천, 포천)의 안전보건 시스템을 통합 운영하고 있습니다. 또한, 매년 협력사와 합동으로 안전실태를 점검하고 평가하여 공급망 전체에서의 안전 확보를 위해 노력하고 있습니다. 2019년 협력사 합동 안전실태 평가 결과 총 133건의 위험 요인을 발견하였으며, 산업안전보건위원회 논의를 통해 2019년 말까지 100%에 대해 개선하였습니다. 2020년에는 지난해 도출 및 개선 완료된 사항에 대한 후속 모니터링과 함께 실태 점검을 지속할 계획입니다. 
                         </p>
                         <h7 class="mb-3 gray63">안전보건경영 인증 비율</h7>
@@ -621,26 +621,26 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? `'Capacity Enhancement' for Good Growth`:`'착한성장'을 위한 역량 강화`, hash: 's1',  
+                    title: this.is_ENG? `'Capacity Enhancement' for Good Growth`:`'착한성장'을 위한 역량 강화`, hash: 'r1',  
                     child: [
-                        { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 's1-1' }, 
-                        { title: this.is_ENG? 'Leadership Training': '직무 교육', hash: 's1-2' }, 
-                        { title: this.is_ENG? 'Leadership Training': '디지털 기반의 업무혁신', hash: 's1-3' }, 
+                        { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 'r1-1' }, 
+                        { title: this.is_ENG? 'Leadership Training': '직무 교육', hash: 'r1-2' }, 
+                        { title: this.is_ENG? 'Leadership Training': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
                     ]
                 },
                 { 
-                    title: '커뮤니케이션 기반의 기업문화' , hash: 's2',
+                    title: '커뮤니케이션 기반의 기업문화' , hash: 'r2',
                     child: [
-                        { title: this.is_ENG? 'Leadership Training': '노사협의회 기반의 커뮤니케이션', hash: 's2-1' }, 
-                        { title: this.is_ENG? 'Leadership Training': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 's2-2' }, 
-                        { title: this.is_ENG? 'Leadership Training': '임직원 현황 데이터', hash: 's2-3' }, 
+                        { title: this.is_ENG? 'Leadership Training': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
+                        { title: this.is_ENG? 'Leadership Training': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
+                        { title: this.is_ENG? 'Leadership Training': '임직원 현황 데이터', hash: 'r2-3' }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Safe and Healthy Work Environment':'안전하고 건강한 근무환경' , hash: 's3',
+                    title: this.is_ENG? 'Safe and Healthy Work Environment':'안전하고 건강한 근무환경' , hash: 'r3',
                     child: [
-                        { title: this.is_ENG? 'Operate Occupational Safety and Health Committee ': '산업안전보건위원회 운영', hash: 's3-1' }, 
-                        { title: this.is_ENG? 'Establish Safety and Health Management and Safety Culture': '안전보건 경영 및 안전문화 구축', hash: 's3-2' }, 
+                        { title: this.is_ENG? 'Operate Occupational Safety and Health Committee ': '산업안전보건위원회 운영', hash: 'r3-1' }, 
+                        { title: this.is_ENG? 'Establish Safety and Health Management and Safety Culture': '안전보건 경영 및 안전문화 구축', hash: 'r3-2' }, 
                     ]
                 }
             ]
