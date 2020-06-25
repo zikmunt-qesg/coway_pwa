@@ -1,13 +1,13 @@
 <template>
 <div class="sticky-top side-nav bg-white line-height-low font-noto" style="z-index:5; top:5.5rem;">
     <h7 class="mb-3">
-        <nuxt-link :to="'#T'" :class="[active_color!='' ? new_hover:'', 'side-nav-link-2']" :style="isActive('T') ? new_class : '' "> {{ main_title }}</nuxt-link>
+        <nuxt-link :to="toLink('T')" :class="[active_color!='' ? new_hover:'', 'side-nav-link-2']" :style="isActive('T') ? new_class : '' "> {{ main_title }}</nuxt-link>
     </h7>
     <div v-for="item in sub_titles" :key="item.id" class="mb-3 f-90 fw-400 line-height-low">
-        <nuxt-link :to="'#' + safeHash(item.hash)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(item.hash)) ? new_class : '' ">{{item.title}}</nuxt-link>
+        <nuxt-link :to="toLink(item.hash)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(item.hash)) ? new_class : '' ">{{item.title}}</nuxt-link>
         <div v-for="child_item in item.child" :key="child_item.id" class="mt-2 f-85 fw-400 line-height-low">
            <ul class="custom-ul"><li class="mb-0 mr-0">
-               <nuxt-link :to="'#' + safeHash(child_item.hash)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(child_item.hash)) ? new_class : '' " > 
+               <nuxt-link :to="toLink(child_item.hash)" :class="[active_color!='' ? new_hover:'', 'side-nav-link-3']" :style="isActive(safeHash(child_item.hash)) ? new_class : '' " > 
                    <span class="text-underline-hover">{{child_item.title}}</span>
                 </nuxt-link>
             </li></ul>
@@ -39,16 +39,9 @@ export default {
             let temp_color = { 'nav-link-color:hover': this.new_class }
             return temp_color
         },
-        // setActiveColor(){
-        //     let active_colors = [
-        //         '#2d9155',  //green6
-        //         '#419af9'   //blue5
-        //     ]
-        //     if (this.active_color != ''){
-        //         let idx = active_colors.findIndex((item) => item = this.active_color)
-        //         return { color: active_colors[idx]}
-        //     }            
-        // }
+        is_ENG(){
+            return this.$store.state.is_ENG
+        }
     },
     methods:{
         isActive(target){
@@ -63,6 +56,11 @@ export default {
         safeHash(target){
             return ih.safeHash(target)
         },
+        toLink(target){
+            let hash = '#' + this.safeHash(target)
+            let eng = this.is_ENG? '?l=ENG' : ''
+            return eng + hash
+        }
     },
     created(){
         

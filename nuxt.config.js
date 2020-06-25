@@ -109,6 +109,7 @@ export default {
   },
   router: {
     // 기본 스크롤 행동을 아래와 같이 바꾼다. 댓글링크를 클릭시 게시글내의 댓글을 찾아갈 수 있도록 도와준다. (기본 브라우저 기능과 동일하게 동작하게 만든다.)
+    //middleware: 'lang',
     scrollBehavior: async (to, from, savedPosition) => {
       
       if (savedPosition) {

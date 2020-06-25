@@ -109,7 +109,11 @@ export default {
         },
         routerGo(target){
             this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
-            this.$router.push(target)
+            this.$router.push(this.toLink(target))
+        },
+        toLink(target){
+            let eng = this.is_ENG? '?l=ENG' : ''
+            return eng + target
         }
     },
     components:{

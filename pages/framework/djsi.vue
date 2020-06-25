@@ -70,8 +70,10 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import SearchForm from '@/components/search/SearchForm'
+import LocaleMixin from '@/components/locale'
 
 export default {
+  mixins: [LocaleMixin],
   components: {
     SearchForm
   },

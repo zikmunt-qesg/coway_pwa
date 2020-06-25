@@ -216,8 +216,10 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import * as ih from '@/components/util'
+import LocaleMixin from '@/components/locale'
 
 export default {
+    mixins: [LocaleMixin],
     data() {
         return {
             news_img_overlay: false
