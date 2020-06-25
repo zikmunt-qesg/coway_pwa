@@ -31,7 +31,7 @@
                 </div>           
         </b-navbar>
 
-        <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute']">
+        <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
             <b-container>
             <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
                 <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">{{ menu_text }}</b-col>

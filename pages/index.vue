@@ -1,5 +1,7 @@
 <template>
 <div class="position-relative min-vh-100">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
     <logger title="메인"></logger>
     <b-row no-gutters class="py-5 bg-blue3 mb-5">
         <b-col class="py-5 my-5"><div style="height:20vw;"></div></b-col>
@@ -174,7 +176,7 @@
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                     <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                     <div class="d-flex justify-content-between align-items-start mb-md-5">
-                        <div class="blue7 main1-card-num letter-narrow-lg fw-300">99.1%</div>
+                        <div class="blue7 main1-card-num letter-narrow-lg fw-300">{{ number_e3 }} %</div>
                         <div class="text-right pl-3 pb-2 pb-md-0" style="max-width: 109px"><b-img src="/images/107_1.svg" fluid ></b-img></div>
                         <!-- <div class="temp-icon6 mt-1"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
@@ -212,7 +214,6 @@
     </b-container>    
 </div>
 </template>
-
 <script>
 import { mapState, mapActions } from 'vuex'
 import * as ih from '@/components/util'
@@ -220,69 +221,98 @@ import * as ih from '@/components/util'
 export default {
     data() {
         return {
-            news_img_overlay: false
+            news_img_overlay: false,
+            position: {x:0, y:0},
+            
+            number_e3: 99.1,
+            tweenedNumber: 0
         }
     },
-  transition(to, from) {
-    if (!from) {
-      return "slide-left";
-    }
-    return "slide-right";
-  },
-  components: {},
-  async asyncData({ store }) {
-    if (store.state.articles.is_articles_loaded != true) {
-      let articles = await store.dispatch('articles/readArticles')
-     
-      return {
-          main_articles: ih.deepCopy(articles.slice(0,3))
-      }
-    }
-    else {
+    transition(to, from) {
+        if (!from) {
+        return "slide-left";
+        }
+        return "slide-right";
+    },
+    components: {},
+    async asyncData({ store }) {
+        if (store.state.articles.is_articles_loaded != true) {
+        let articles = await store.dispatch('articles/readArticles')
+        
         return {
-            main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))
+            main_articles: ih.deepCopy(articles.slice(0,3))
+        }
+        }
+        else {
+            return {
+                main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))
+            }
+        }
+    },
+    head() {
+        return {
+            script: [
+                { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+            ]
+        };
+    },
+    computed: {
+        ...mapState('articles', {
+            articles: state => state.articles,
+            is_articles_loaded: state => state.is_articles_loaded
+        }),
+        blog_posts() {
+        return this.$store.state.blog_posts;
+        },
+        animatedNumber: function() {
+            return this.tweenedNumber.toFixed(0);
+        }
+    },
+    methods: {
+        ...mapActions('articles', ['loadPicture']),
+        showImgOverlay(){
+            this.news_img_overlay =true
+        },
+        hideImgOverlay(){
+            this.news_img_overlay =false
+        }
+    },
+    created(){
+        if (!this.$isServer) {
+            this._scrollListener = () => {
+                // window.pageX/YOffset is equivalent to window.scrollX/Y, but works in IE
+                // We round values because high-DPI devies can provide some really nasty subpixel values
+                this.position = {
+                    x: Math.round(window.pageXOffset),
+                    y: Math.round(window.pageYOffset)
+                }
+            }
+            // Call listener once to detect initial position
+            this._scrollListener()
+
+            // When scrolling, update the position
+            window.addEventListener('scroll', this._scrollListener)
+        }
+    },
+    mounted() {
+        this.main_articles.forEach(item => {
+            if(!item.picture_file){
+                this.loadPicture({ id: item.id, thumb: true })
+                .then( picture_file => {
+                    this.$set(item, 'picture_file', picture_file)
+                    this.$set(item, 'picture_file_url', URL.createObjectURL(picture_file))
+                })
+                .catch( error=>{
+                    console.log(error)
+                })
+            }
+        })
+    },
+    watch:{
+        number_e3: function(newValue) {
+            TweenLite.to(this.$data, 0.5, { tweenedNumber: newValue });
         }
     }
-  },
-  head() {
-    return {
-      script: [
-        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
-      ]
-    };
-  },
-  computed: {
-    ...mapState('articles', {
-        articles: state => state.articles,
-        is_articles_loaded: state => state.is_articles_loaded
-    }),
-    blog_posts() {
-      return this.$store.state.blog_posts;
-    },
-  },
-  methods: {
-    ...mapActions('articles', ['loadPicture']),
-    showImgOverlay(){
-        this.news_img_overlay =true
-    },
-    hideImgOverlay(){
-        this.news_img_overlay =false
-    }
-  },
-  mounted() {
-    this.main_articles.forEach(item => {
-        if(!item.picture_file){
-            this.loadPicture({ id: item.id, thumb: true })
-            .then( picture_file => {
-                this.$set(item, 'picture_file', picture_file)
-                this.$set(item, 'picture_file_url', URL.createObjectURL(picture_file))
-            })
-            .catch( error=>{
-                console.log(error)
-            })
-        }
-    })
-  }
 };
 </script>
 

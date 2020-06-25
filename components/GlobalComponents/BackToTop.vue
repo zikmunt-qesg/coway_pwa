@@ -66,21 +66,21 @@ export default {
         }
     },
     created(){
-            if (!this.$isServer) {
-            this._scrollListener = () => {
-                // window.pageX/YOffset is equivalent to window.scrollX/Y, but works in IE
-                // We round values because high-DPI devies can provide some really nasty subpixel values
-                this.position = {
-                    x: Math.round(window.pageXOffset),
-                    y: Math.round(window.pageYOffset)
-                }
+        if (!this.$isServer) {
+        this._scrollListener = () => {
+            // window.pageX/YOffset is equivalent to window.scrollX/Y, but works in IE
+            // We round values because high-DPI devies can provide some really nasty subpixel values
+            this.position = {
+                x: Math.round(window.pageXOffset),
+                y: Math.round(window.pageYOffset)
             }
- 
-            // Call listener once to detect initial position
-            this._scrollListener()
+        }
 
-            // When scrolling, update the position
-            window.addEventListener('scroll', this._scrollListener)
+        // Call listener once to detect initial position
+        this._scrollListener()
+
+        // When scrolling, update the position
+        window.addEventListener('scroll', this._scrollListener)
         }
     },
     mounted() {

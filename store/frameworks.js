@@ -288,7 +288,7 @@ export const state = () => ({
           classification: '조직프로필',
           code: '102-56',
           indicators: '외부검증',
-          link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -1206,14 +1206,14 @@ export const state = () => ({
             classification: '환경 보고',
             code: '2.1.1', 
             indicators: '환경 보고 - 범위', 
-            link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
             classification: '환경 보고', 
             code: '2.1.2', 
             indicators: '환경 보고 - 검증', 
-            link: [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고-범위-및-검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
@@ -1283,7 +1283,7 @@ export const state = () => ({
             classification: '사회보고', 
             code: '3.1.2', 
             indicators: '사회 보고 - 검증', 
-            link:  [{'to':'/static_page/About-This-Report-and-Assurance','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+            link:  [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report','name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
