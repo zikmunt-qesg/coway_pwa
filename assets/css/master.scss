@@ -289,7 +289,7 @@
 .num-table > table, 
 .txt-table > table {
     border-collapse: separate;
-    border-spacing: 7px 0;
+    border-spacing: 7px 1px;
     margin-left: -4px;
     font-family: 'Noto Sans Kr';
 }
@@ -312,7 +312,7 @@
 .txt-table > table > tbody > tr > td,
 .sep-table > table > tbody > tr > td {
     border-top: 0;
-    border-bottom: 0.5px solid $gray3;
+    border-bottom: 1px solid $gray3;
     font-weight: 300;
 }
 .num-table > table > thead > tr > td, 
@@ -384,13 +384,13 @@
 }
 
 
-.footnote-ol{
+.footnote-ol, .footnote-ul{
     padding-left: 1rem;
     margin: 0;
     counter-reset: list;
     font-family: 'Noto Sans Kr';
 }
-.footnote-ol li {
+.footnote-ol li, .footnote-ul li{
     margin-bottom: 0.25rem;
     color: #656464;
     list-style: none;
@@ -402,7 +402,11 @@
     position: absolute;
     left: -0.9rem;
 }
-
+.footnote-ul li:before{
+    content: "-";
+    position: absolute;
+    left: -0.75rem;
+}
 
 
 

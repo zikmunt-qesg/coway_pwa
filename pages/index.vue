@@ -180,7 +180,7 @@
                     </div>
                     <h7 class="blue7 fw-600 mb-2 pt-md-4 pt-lg-0"> 폐기물 재활용률 </h7>
                     <div class="gray6 letter-narrow pr-xl-3"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 
-                    </div>
+                    </div><p class="f-80 gray5 mb-0">*99.1%: 제품 및 서비스, 사업장에서 발생한 폐기물 중 재활용한 폐기물 총량의 비율</p>
                 </b-col>                
             </b-row>
         </section>

@@ -272,11 +272,15 @@
                                     <b-td class="text-left" colspan="3">폐기물 재활용량</b-td><b-td>24,376</b-td><b-td>23,383</b-td><b-td>23,432</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="3">폐기물 재활용률(%)</b-td><b-td>99.3</b-td><b-td>99.3</b-td><b-td>99.1</b-td>
+                                    <b-td class="text-left" colspan="3">폐기물 재활용률(%)<sup>1)</sup></b-td><b-td>99.3</b-td><b-td>99.3</b-td><b-td>99.1</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
-                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
+                            <li> 재활용률: 제품 및 서비스, 사업장에서 발생한 폐기물 중 재활용한 폐기물 총량의 비율
+                            </li>  
+                        </ol>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
                             <li> 환경가전기준의 폐기물 발생량 (화장품, 매트리스 제외)
                             </li>
                             <li> 2016년부터 서비스폐기물은 전량 고형화 연료. 사업장폐기물은 일부만 제외하고 고형화 연료화 진행 → 폐기물발생량 중 99%이상 재활용 진행
@@ -287,9 +291,8 @@
                             </li>
                             <li> 생산량 증가에 따른 사업장, 서비스폐기물 증가
                             </li>
-                            <li> 재활용율: 제품, 서비스, 사업장 재활용량 /제품, 서비스, 사업장 발생량
-                            </li>
-                        </ol>
+                        </ul>
+                        
 
                     <hr class="py-2">
 
@@ -316,7 +319,7 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
-                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
                             <li> 필터(정수기 및 비데 필터), 5대 제품군(정수기, 공기청정기, 비데, 연수기, 음식물 처리기) 
                             </li>
                             <li> 이론치 중량 적용
@@ -325,9 +328,11 @@
                             </li>
                             <li> 2019년부터 수입 제·부품 발생량 추가 관리  
                             </li>
+                        </ol>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
                             <li> 코웨이가 제조하는 생활환경가전은 음용, 흡입 등 고객의 안전과 건강에 밀접한 관련이 있어 현재는 재활용 원료를 적용하고 있지는 않지만 향후 재생원료 사용이 가능한 부품을 검토하여 적용할 예정임
                             </li>
-                        </ol>
+                        </ul>
                     <hr class="py-3">
 
                     <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">냉매 회수 및 재활용</h6-ancor>
@@ -345,7 +350,10 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">* 냉매 회수량은 전량 재활용되고 있음</p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li> 냉매 회수량은 전량 재활용되고 있음
+                            </li>
+                        </ul>
 
                     <hr class="py-3">
                     <h6-ancor hash="m2-3" :activated="activated" class="fw-500 green5 mb-3">리퍼브 제도</h6-ancor>
@@ -457,8 +465,11 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
-                        <p class="f-80 ml-1">* 2020년 수자원 데이터 검증범위 확대에 따라 2018년 포천공장 데이터가 전년도 보고 데이터와 상이함 <br>
-                        <nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">검증의견서 확인</nuxt-link></p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low">
+                            <li> 2020년 수자원 데이터 검증범위 확대에 따라 2018년 포천공장 데이터가 전년도 보고 데이터와 상이함 <span><nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">검증의견서 확인</nuxt-link> </span>
+                            </li>
+                        </ul>
+                       
                         
 
             </b-container>

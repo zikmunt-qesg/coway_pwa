@@ -1,8 +1,7 @@
 <template>
 <span v-view="viewHandler">
     <script src="https://cdn.jsdelivr.net/npm/tween.js@16.3.4"></script>
-    {{comma? numberWithCommas(tweeningValue):tweeningValue}}
-    </span>
+    {{comma? numberWithCommas(tweeningValue):tweeningValue}}</span> 
 </template>
 
 <script>

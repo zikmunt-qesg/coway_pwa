@@ -99,19 +99,24 @@
                     <h6-ancor hash="j3-1" :activated="activated" class="parang6 fw-500 mb-3">조세 납부 현황 및 유효세율 보고</h6-ancor>
 
                         <h7 class="mb-3 gray63">지역별 조세 납부 <span class="fw-300 f-80"> (단위: 천 원)</span></h7>
-                        <b-table-simple responsive class="num-table f-95 mb-5">
+                        <b-table-simple responsive class="num-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">아시아</b-td><b-td>9,815,520</b-td><b-td></b-td>
+                                    <b-td class="text-left">아시아<sup>1)</sup></b-td><b-td>9,815,520</b-td><b-td>21,562,805</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">미주</b-td><b-td>222,997</b-td><b-td></b-td>
+                                    <b-td class="text-left">미주<sup>2)</sup></b-td><b-td>222,997</b-td><b-td>-2,617,299</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
+                        <p class="mb-1 f-80 gray6">* 지역별 해외 법인 법인세 비용으로, 현지 납부액에 대해 2019년 연평균 환율을 적용하여 산출함</p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li> 말레이시아 법인, 태국 법인, 인도네시아 법인, 중국 법인 </li>
+                            <li> 미국 법인 </li>
+                        </ol>
 
                         <h7 class="mb-3 gray63">법인세 비용의 주요 구성 내역 <span class="fw-300 f-80"> (단위: 천 원)</span></h7>
                         <b-table-simple responsive class="num-table f-95">

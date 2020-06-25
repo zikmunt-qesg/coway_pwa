@@ -98,7 +98,6 @@ export default {
     },
     data(){
         return {
-            title: '보고 범위 및 검증',
             activated: [],
             sub_titles: [],
         }

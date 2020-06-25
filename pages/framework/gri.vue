@@ -28,9 +28,9 @@
             <b-table-simple class="txt-table f-95" responsive>
             <b-thead>
                 <b-tr>
-                <b-td style="width:18%;">구분</b-td>
-                <b-td style="width:8%;">GRI 번호</b-td>
-                <b-td style="width:36%;" >지표명</b-td>
+                <b-td style="width:16%;">구분</b-td>
+                <b-td style="width:7%;">GRI 번호</b-td>
+                <b-td style="width:34%;" >지표명</b-td>
                 <b-td>Contents</b-td>
                 </b-tr>
             </b-thead>
@@ -48,12 +48,12 @@
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
                                     <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                     </a>
                                 </template>
                                 <template v-else>
                                     <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -69,9 +69,9 @@
             <b-table-simple class="txt-table f-95" responsive>
             <b-thead>
                 <b-tr>
-                <b-td style="width:18%;">구분</b-td>
-                <b-td style="width:8%;">GRI 번호</b-td>
-                <b-td style="width:36%;" >지표명</b-td>
+                <b-td style="width:16%;">구분</b-td>
+                <b-td style="width:7%;">GRI 번호</b-td>
+                <b-td style="width:34%;" >지표명</b-td>
                 <b-td>Contents</b-td>
                 </b-tr>
             </b-thead>
@@ -89,12 +89,12 @@
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
                                 <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </a>
                             </template>
                             <template v-else>
                                 <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -111,9 +111,9 @@
             <b-table-simple class="txt-table f-95" responsive>
             <b-thead>
                 <b-tr>
-                <b-td style="width:18%;">구분</b-td>
-                <b-td style="width:8%;">GRI 번호</b-td>
-                <b-td style="width:36%;" >지표명</b-td>
+                <b-td style="width:16%;">구분</b-td>
+                <b-td style="width:7%;">GRI 번호</b-td>
+                <b-td style="width:34%;" >지표명</b-td>
                 <b-td>Contents</b-td>
                 </b-tr>
             </b-thead>
@@ -131,12 +131,12 @@
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
                                 <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </a>
                             </template>
                             <template v-else>
                                 <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -153,9 +153,9 @@
             <b-table-simple class="txt-table f-95" responsive>
             <b-thead>
                 <b-tr>
-                <b-td style="width:18%;">구분</b-td>
-                <b-td style="width:8%;">GRI 번호</b-td>
-                <b-td style="width:36%;" >지표명</b-td>
+                <b-td style="width:16%;">구분</b-td>
+                <b-td style="width:7%;">GRI 번호</b-td>
+                <b-td style="width:34%;" >지표명</b-td>
                 <b-td>Contents</b-td>
                 </b-tr>
             </b-thead>
@@ -173,12 +173,12 @@
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
                                 <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </a>
                             </template>
                             <template v-else>
                                 <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
                         </span>

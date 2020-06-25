@@ -329,14 +329,17 @@
                                         <b-td class="text-left">여성</b-td> <b-td>3,208<br>(67.1%)</b-td> <b-td>3,183<br>(66.7%)</b-td> <b-td>3,194<br>(65.5%)</b-td> <b-td>3,154<br>(64.0%)</b-td> <b-td>3,179<br>(63.7%)</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">소수그룹<sup>*</sup></b-td> <b-td class="text-left">외국인</b-td> <b-td>-</b-td> <b-td>6</b-td> <b-td>5</b-td> <b-td>5</b-td> <b-td>5</b-td>
+                                    <b-td class="text-left" rowspan="2">소수그룹<sup>1)</sup></b-td> <b-td class="text-left">외국인</b-td> <b-td>-</b-td> <b-td>6</b-td> <b-td>5</b-td> <b-td>5</b-td> <b-td>5</b-td>
                                 </b-tr>
                                 <b-tr>
-                                        <b-td class="text-left">장애인<sup>*</sup></b-td> <b-td>-</b-td> <b-td>44</b-td> <b-td>51</b-td> <b-td>49</b-td> <b-td>51</b-td>
+                                        <b-td class="text-left">장애인</b-td> <b-td>-</b-td> <b-td>44</b-td> <b-td>51</b-td> <b-td>49</b-td> <b-td>51</b-td>
                                 </b-tr>
                             </b-tbody>                                
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 gray55">* 2016년부터 데이터를 체계적으로 관리 및 보고함</p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li> 2016년부터 데이터를 체계적으로 관리 및 보고함 
+                            </li>
+                        </ol>
                     
                         <h7 class="mb-3 gray63">연령별 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
@@ -396,19 +399,23 @@
                         </b-table-simple>
 
                         <h7 class="mb-3 gray63">여성관리자 비율</h7>
-                        <b-table-simple responsive class="num-table social-table f-95 mb-5">
+                        <b-table-simple responsive class="num-table social-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="2" class="text-left">여성관리자</b-td><b-td class="text-left">실무 관리자</b-td><b-td>54.9%</b-td><b-td>51.2%</b-td>
+                                    <b-td rowspan="2" class="text-left">여성관리자<sup> 1)</sup></b-td><b-td class="text-left">실무 관리자</b-td><b-td>54.9%</b-td><b-td>51.2%</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">관리자</b-td><b-td>37.3%</b-td><b-td>38.5%</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
+                            <li> 여성관리자의 범위: 사무직 및 연구직의 경우 팀장 이상, 영업직의 경우 총국장 이상 
+                            </li>
+                        </ol>
 
                         <h7 class="mb-3 gray63">공정한 보수</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-2">
@@ -424,7 +431,10 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 gray55">* 2019년부터 기본급 및 성과급을 포함한 보수 총액 기준으로 보고</p>
+                        <ul type="1" class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li> 2019년부터 기본급 및 성과급을 포함한 보수 총액 기준으로 보고
+                            </li>
+                        </ul>
                     
                         <h7 class="mb-3 gray63">육아휴직 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
@@ -451,7 +461,7 @@
                         </b-table-simple>
 
                         <h7 class="mb-3 gray63">신규 채용, 퇴직 및 근속년수 현황</h7>
-                        <b-table-simple responsive class="num-table social-table f-95 mb-2">
+                        <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
@@ -463,18 +473,20 @@
                                     <b-td class="text-left">퇴직률(%)</b-td><b-td>14.1</b-td><b-td>11.8</b-td><b-td>12.6</b-td><b-td>10.7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">- 자발적 이직<sup>*</sup></b-td><b-td>96.5</b-td><b-td>97.6</b-td><b-td>99.5</b-td><b-td>95.6</b-td>
+                                    <b-td class="text-left">- 자발적 이직<sup> 1)</sup></b-td><b-td>96.5</b-td><b-td>97.6</b-td><b-td>99.5</b-td><b-td>95.6</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">- 비자발적 이직<sup>**</sup></b-td><b-td>3.5</b-td><b-td>2.4</b-td><b-td>0.5</b-td><b-td>4.4</b-td>
+                                    <b-td class="text-left">- 비자발적 이직<sup> 2)</sup></b-td><b-td>3.5</b-td><b-td>2.4</b-td><b-td>0.5</b-td><b-td>4.4</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">평균 근속년수(년)</b-td><b-td>6.8</b-td><b-td>7.2</b-td><b-td>7.5</b-td><b-td>8.1</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-0 gray55">* 의원면직</p>
-                        <p class="f-80 ml-1 mb-45 gray55">** 사망, 정년퇴직, 해고</p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
+                            <li> 의원면직</li>
+                            <li> 사망, 정년퇴직, 해고</li>
+                        </ol>
                     <hr class="py-1 mb-5">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">안전하고 건강한 근무환경</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-45"> 코웨이는 근로자의 안전을 최우선으로 고려하며 사업장의 안전사고를 예방하고 건강한 근무환경을 조성하기 위해 다양한 안전보건 프로그램을 운영하고 있습니다. 특히 공장 및 R&D센터와 같이 안전사고가 발생할 수 있는 사업장에 대해 산업안전보건위원회를 운영하여 잠재적인 안전 리스크에 대해 선제적으로 대응하고 있습니다.
@@ -564,7 +576,9 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">1) 재해율 = 재해자 수 / 근로자 수 X 100 </p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
+                            <li> 재해율 = 재해자 수 / 근로자 수 X 100 </li>
+                        </ol>
 
                         <h7 class="mb-3 gray63">근로손실재해율(LTIFR)<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table social-table f-95">
@@ -580,8 +594,9 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">1) 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </p>
-
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
+                            <li> 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </li>
+                        </ol>
                        
                 </section>
             </b-container>
