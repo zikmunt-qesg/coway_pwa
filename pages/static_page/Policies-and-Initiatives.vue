@@ -98,10 +98,12 @@ import * as ih from '@/components/util'
 import SideNavigation from '@/components/navigation/SideNavigation'
 import h6Ancor from '@/components/navigation/h6Ancor'
 import h4Ancor from '@/components/navigation/h4Anchor'
+import LocaleMixin from '@/components/locale'
 
 export default {
     layout: 'StaticPage',
-    async asyncData({ query }) {
+    mixins: [LocaleMixin],
+    async asyncData({ query, store }) {
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')
         }

@@ -84,7 +84,7 @@ export default {
         }
     },
     mounted() {
-        console.log(document.body.scrollHeight);
+        //console.log(document.body.scrollHeight);
         this.interval = setInterval(() => {
             this.temp_scrollHeight = document.body.scrollHeight;
         }, 100);

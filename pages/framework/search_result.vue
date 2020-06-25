@@ -22,8 +22,10 @@
 <script>
 import SearchForm from '@/components/search/SearchForm'
 import { mapState } from 'vuex'
+import LocaleMixin from '@/components/locale'
 
 export default {
+  mixins: [LocaleMixin],
   components: {
     SearchForm
   },

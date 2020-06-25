@@ -52,7 +52,7 @@
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3">
+                                    <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
                                         {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                                     </nuxt-link>
                                 </template>
@@ -93,7 +93,7 @@
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="link_to['to']" class="mr-3">
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
                                     {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
@@ -135,7 +135,7 @@
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="link_to['to']" class="mr-3">
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
                                     {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
@@ -177,7 +177,7 @@
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="link_to['to']" class="mr-3">
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
                                     {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
@@ -197,8 +197,10 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import SearchForm from '@/components/search/SearchForm'
+import LocaleMixin from '@/components/locale'
 
 export default {
+  mixins: [LocaleMixin],
   components: {
     SearchForm
   },
@@ -237,7 +239,7 @@ export default {
     },
     safeHash(target){
       return target.replace(/\./g,'-').replace(/\s/g,'')
-    }
+    },
   },
 }
 </script>
