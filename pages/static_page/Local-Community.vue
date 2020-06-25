@@ -111,7 +111,7 @@
                         </p>
                     </section>
                     <hr class="py-3">
-                    <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3 f-110">임직원과 함께하는 나눔 실천</h6-ancor>
+                    <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3">임직원과 함께하는 나눔 실천</h6-ancor>
                         <p>코웨이는 임직원 참여 사회공헌 활동을 통해 나눔을 실천합니다. CEO를 단장으로 하는 임직원 봉사단을 운영하여 본사뿐만 아니라 R&amp;D센터 및 공장 등 전사 임직원의 적극적인 참여를 기반으로 하고 있습니다.
                         </p>
                         <p class="mb-45">스마트 영업조직인 블루버드는 소아암재단과 협약을 맺고 정기적인 봉사활동을 실천하고 있습니다. 2019년에는 소아암 백혈병 치료를 마친 150명의 환아들을 격려하고 축하하기 위해 치료종결 축하행사를 진행했습니다.
@@ -145,7 +145,7 @@
 
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">
                     <div class="d-flex justify-content-between mb-3 mt-2">
-                        <h6-ancor hash="u2-1" :activated="activated" class="gold8 fw-500 mb-3 f-110 font-noto">'약속 1.물 - 지역사회 깨끗한 물 지원'</h6-ancor>
+                        <h6-ancor hash="u2-1" :activated="activated" class="gold8 fw-500 mb-3 font-noto">'약속 1.물 - 지역사회 깨끗한 물 지원'</h6-ancor>
                         <b-img src="/images/13_1.svg" fluid></b-img>
                     </div>
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 6 – 깨끗한 물과 위생</div>
@@ -182,7 +182,7 @@
                         </b-table-simple>
                     <hr class="py-2">
                     <div class="d-flex justify-content-between mb-3 mt-2">
-                        <h6-ancor hash="u2-2" :activated="activated" class="gold8 fw-500 mb-3 f-110 font-noto">'약속 2.공기 - 취약계층 환경개선 지원'</h6-ancor>
+                        <h6-ancor hash="u2-2" :activated="activated" class="gold8 fw-500 mb-3 font-noto">'약속 2.공기 - 취약계층 환경개선 지원'</h6-ancor>
                         <b-img src="/images/12_1.svg" fluid></b-img>
                     </div> 
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 3 – 건강과 웰빙</div>
@@ -209,7 +209,7 @@
                         </b-table-simple>
                     <hr class="py-2">
                     <div class="d-flex justify-content-between mb-3 mt-2">
-                        <h6-ancor hash="u2-3" :activated="activated" class="gold8 fw-500 mb-3 f-110 font-noto">'약속 3.사람 - 청년 창업 지원'</h6-ancor>
+                        <h6-ancor hash="u2-3" :activated="activated" class="gold8 fw-500 mb-3 font-noto">'약속 3.사람 - 청년 창업 지원'</h6-ancor>
                         <b-img src="/images/11_1.svg" fluid></b-img>
                     </div> 
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 8 – 양질의 일자리와 경제 성장</div>
