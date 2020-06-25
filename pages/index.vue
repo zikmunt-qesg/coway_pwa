@@ -1,7 +1,5 @@
 <template>
 <div class="position-relative min-vh-100">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-
     <logger title="메인"></logger>
     <b-row no-gutters class="py-5 bg-blue3 mb-5">
         <b-col class="py-5 my-5"><div style="height:20vw;"></div></b-col>
@@ -108,7 +106,7 @@
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                     <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                     <div class="d-flex justify-content-between align-items-start mb-md-5 mb-lg-4">
-                        <div class="blue7 main1-card-num fw-300 letter-narrow">5,688<span class="f-105">계정</span></div>
+                        <div class="blue7 main1-card-num fw-300 letter-narrow"><animated-number :value="5688" :comma="true" :fixed="0"></animated-number><span class="f-105">계정</span></div>
                         <div class="text-right pl-3 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                     </div>
                     <div class="gray6 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> 2019년 말 기준 국내 환경가전 렌탈 5,688 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
@@ -118,7 +116,7 @@
             <div class="col-12 bg-gray3 f-105 fw-600 py-2 px-3"> Social Performance </div>
             <b-row class="my-4 py-md-3">
                 <b-col class="col-12 col-md-4 position-relative mb-4 mb-md-0">
-                    <div class="blue7 main1-card-num mb-3 fw-300"><span style="letter-spacing:-0.1rem;">1,000,000</span><span class="f-105">천원</span></div>
+                    <div class="blue7 main1-card-num mb-3 fw-300"><span style="letter-spacing:-0.1rem;"><animated-number :value="1000000" :comma="true" :fixed="0"></animated-number></span><span class="f-105">천원</span></div>
                     <div class="d-flex justify-content-between align-items-end">
                         <div class="gray6 pr-4 fw-400 letter-narrow"> 코로나바이러스감염증-19로 많은 지원이 필요한 지역사회에 10억원을 기부했습니다. 이 성금은 방호 물품, 진단키트 등 의료 물품 부족에 직면한 전국 의료진에 대한 지원과 의료복지 시설 방역에 사용되었습니다. 
                         </div>
@@ -132,11 +130,11 @@
                     <b-row>
                         <b-col class="col-6 text-center px-md-1 px-lg-3 d-flex flex-row flex-md-column">
                             <div class="temp-icon5 mb-2 mb-lg-3 pr-3 pr-sm-0 d-none d-sm-block"><b-img src="/images/104_1.svg" fluid class="h-100"></b-img></div>
-                            <div><h7 class="fw-600 f-105">생명의 물 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"><span class="main2-card-num fw-300 f-105">825</span>대</div></div>
+                            <div><h7 class="fw-600 f-105">생명의 물 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"><span class="main2-card-num fw-300 f-105"><animated-number :value="825" :comma="true" :fixed="0"></animated-number></span>대</div></div>
                         </b-col>
                         <b-col class="col-6 text-center px-md-1 px-lg-3 d-flex flex-row flex-md-column">
                             <div class="temp-icon5 mb-2 mb-lg-3 pr-3 pr-sm-0 d-none d-sm-block"><b-img src="/images/105_1.svg" fluid class="h-100"></b-img></div>
-                            <div><h7 class="fw-600 f-105">청정한 공기 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"> <span class="main2-card-num fw-300 f-105">450</span>대</div></div>
+                            <div><h7 class="fw-600 f-105">청정한 공기 나눔</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"> <span class="main2-card-num fw-300 f-105"><animated-number :value="450" :comma="true" :fixed="0"></animated-number></span>대</div></div>
                         </b-col>
                     </b-row>
                 </b-col>
@@ -156,7 +154,7 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center">            
                         <div class="blue7 d-flex flex-row flex-md-column"><h7 class="fw-600 font-noto letter-narrow-lg"> 친환경 제품 매출액 </h7>
-                            <div class="f-105 ml-3 ml-md-0" style="line-height:1;"><span class="main1-card-num fw-300 font-open">5,529</span>억원</div>
+                            <div class="f-105 ml-3 ml-md-0" style="line-height:1;"><span class="main1-card-num fw-300 font-open"><animated-number :value="5529" :comma="true" :fixed="0"></animated-number></span>억원</div>
                         </div>
                         <div class="text-right d-none d-sm-block" style="max-width: 92px"><b-img src="/images/106_1.svg" fluid></b-img></div>
                     </div>
@@ -176,7 +174,7 @@
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                     <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                     <div class="d-flex justify-content-between align-items-start mb-md-5">
-                        <div class="blue7 main1-card-num letter-narrow-lg fw-300">{{ number_e3 }} %</div>
+                        <div class="blue7 main1-card-num letter-narrow-lg fw-300"><animated-number :value="99.1"></animated-number>%</div>
                         <div class="text-right pl-3 pb-2 pb-md-0" style="max-width: 109px"><b-img src="/images/107_1.svg" fluid ></b-img></div>
                         <!-- <div class="temp-icon6 mt-1"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
@@ -218,16 +216,17 @@
 import { mapState, mapActions } from 'vuex'
 import * as ih from '@/components/util'
 import LocaleMixin from '@/components/locale'
+import AnimatedNumber from '@/components/main/AnimatedNumber'
 
 export default {
+    components:{
+        AnimatedNumber
+    },
     mixins: [LocaleMixin],
     data() {
         return {
-            news_img_overlay: false,
-            position: {x:0, y:0},
-            
-            number_e3: 99.1,
-            tweenedNumber: 0
+            news_img_overlay: false,       
+
         }
     },
     transition(to, from) {
@@ -236,7 +235,6 @@ export default {
         }
         return "slide-right";
     },
-    components: {},
     async asyncData({ store }) {
         if (store.state.articles.is_articles_loaded != true) {
         let articles = await store.dispatch('articles/readArticles')
@@ -310,11 +308,7 @@ export default {
             }
         })
     },
-    watch:{
-        number_e3: function(newValue) {
-            TweenLite.to(this.$data, 0.5, { tweenedNumber: newValue });
-        }
-    }
+
 };
 </script>
 
