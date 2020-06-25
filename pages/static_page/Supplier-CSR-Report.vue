@@ -56,10 +56,7 @@
                         <h7 class="mb-1 gray63">협력사 CSR 리스크 평가 결과</h7>
                         <p class="f-80 gray6 mb-2"> (단위: %)</p>
                         <div class="d-flex align-items-center"> <div style="width:16px; height:16px; background-color:#f0c560;" class="mr-2"></div><span class="f-90 fw-300">충족률</span></div>
-                        <div class="d-sm-flex"> 
-                            <div class="d-flex align-items-end mb-3 mb-sm-0" style="padding-bottom:1.7rem"><b-img src="/images/94_1.svg" fluid></b-img></div>
-                            <div class="d-flex align-items-end"><b-img src="/images/95_1.svg" fluid></b-img></div>
-                        </div>
+                        <hj-img src="/images/94_1.svg" fluid></hj-img>
                     <hr class="mb-4">
                     <h6-ancor hash="s2-3" :activated="activated" class="gold6 fw-500 mb-2">시정 조치</h6-ancor>
                     <p class="mb-5">코웨이는 협력사 평가 결과에 따라 개선이 필요한 협력사에 대해서는 시정조치 계획을 수립하고 리스크 요인(ESG 리스크 포함)을 개선하도록 요구하고 있습니다. 2019년 협력사 진단 및 평가결과에 따라 제재 조치를 받은 협력사는 총 XX 개였습니다. 
