@@ -6,7 +6,7 @@
     </b-row>
     <b-container>
         <hr class="mb-4">
-        <h1 class="text-center mb-3 fw-300 font-noto"> SUSTAINABILITY ISSUES 2019</h1>
+        <h1 class="text-center mb-3 fw-300 font-noto"> SUSTAINABILITY ISSUES 2020</h1>
         <section>
             <b-row class="mb-4">
                 <b-col class="col-0 col-md-1"></b-col>
@@ -57,7 +57,7 @@
                         <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
                         <div class="position-absolute w-100 pr-5" style="top:10%">
                             <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
-                            <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">데이터 및 개인정보 보호</div></div>
+                            <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">정보보안 및 개인정보 보호</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
                                 <b-img src="/images/사각형40.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
                                 <div class="card-plus"  @click="$router.push('/static_page/Information-Security-and-Personal-Information-Protection')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
@@ -84,13 +84,13 @@
                     <h7 class="mb-md-4 blue7 fw-600 letter-narrow line-height-15 pr-xl-3"> 코웨이는 물과 공기를 깨끗하게 하는 ‘본질’에 집중하며, 고객 경험과 서비스의 가치를 향상하기 위한 끊임없는 혁신으로 지속성장해가고 있습니다. 
                     </h7>
                     <p class="blue7 fw-600 f-105 mb-1"> 매출액 </p>
-                    <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4" style="height:18px; width:50%;"></div> 
+                    <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4 tans-bar-x" style="height:18px; width:50%;"></div> 
                         <div class="position-absolute text-white" style="top:3px; left:5px;">2017</div><div class="ml-3 d-flex align-items-center"> <span class="f-110"> 23,205 </span> <span class="fw-300">억원</span> </div>
                     </div>
-                    <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4" style="height:18px; width:60%;"></div> 
+                    <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4 tans-bar-x" style="height:18px; width:60%;"></div> 
                         <div class="position-absolute text-white" style="top:3px; left:5px;">2018</div><div class="ml-3 d-flex align-items-center"> <span class="f-110"> 27,073 </span> <span class="fw-300">억원</span> </div>
                     </div>
-                    <div class="d-flex align-items-center f-80 position-relative"><div style="height:18px; width:70%; background-color:#1494d4;"></div> 
+                    <div class="d-flex align-items-center f-80 position-relative"><div class="tans-bar-x" style="height:18px; width:70%; background-color:#1494d4;"></div> 
                         <div class="position-absolute text-white" style="top:7px; left:5px;">2019</div><div class="ml-3 d-flex align-items-center"> <span class="f-140"> 30,189 </span> <span class="fw-300">억원</span> </div>
                     </div>
                 </b-col>
@@ -106,10 +106,10 @@
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                     <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                     <div class="d-flex justify-content-between align-items-start mb-md-5 mb-lg-4">
-                        <div class="blue7 main1-card-num fw-300 letter-narrow"><animated-number :value="5688" :comma="true" :fixed="0"></animated-number><span class="f-105">계정</span></div>
+                        <div class="blue7 f-105 fw-300 letter-narrow mt-m-3">국내<span class="main2-card-num"><animated-number :value="5688" :comma="true" :fixed="0"></animated-number></span>천 계정</div>
                         <div class="text-right pl-3 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                     </div>
-                    <div class="gray6 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> 2019년 말 기준 국내 환경가전 렌탈 5,688 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
+                    <div class="gray6 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> 2019년 말 기준 국내 환경가전 렌탈 568만 8천 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
                     </div>
                 </b-col>
             </b-row>
@@ -150,7 +150,7 @@
             <b-row class="my-4 py-md-3">
                 <b-col class="col-12 col-md-4 position-relative mb-4 mb-md-0">
                     <h7 class="blue7 fw-600 mb-2"> 친환경 제품 개발 </h7>
-                    <div class="gray6 mb-3 mb-md-5 letter-narrow pr-xl-2"> 코웨이는 제품 개발 프로세스, 청정 생산, 렌탈 서비스, 회수 및 재활용에 이르는 전 과정에서 부정적 환경영향을 줄이는 친환경적 비즈니스를 설계합니다.  
+                    <div class="gray6 mb-3 mb-md-5 pb-xl-2 letter-narrow pr-xl-2"> 코웨이는 제품 개발 프로세스, 청정 생산, 렌탈 서비스, 회수 및 재활용에 이르는 전 과정에서 부정적 환경영향을 줄이는 친환경적 비즈니스를 설계합니다.  
                     </div>
                     <div class="d-flex justify-content-between align-items-center">            
                         <div class="blue7 d-flex flex-row flex-md-column"><h7 class="fw-600 font-noto letter-narrow-lg"> 친환경 제품 매출액 </h7>
@@ -173,14 +173,15 @@
                 <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                     <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                     <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
-                    <div class="d-flex justify-content-between align-items-start mb-md-5">
+                    <div class="d-flex justify-content-between align-items-start mb-md-4">
                         <div class="blue7 main1-card-num letter-narrow-lg fw-300"><animated-number :value="99.1"></animated-number>%</div>
                         <div class="text-right pl-3 pb-2 pb-md-0" style="max-width: 109px"><b-img src="/images/107_1.svg" fluid ></b-img></div>
                         <!-- <div class="temp-icon6 mt-1"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
                     <h7 class="blue7 fw-600 mb-2 pt-md-4 pt-lg-0"> 폐기물 재활용률 </h7>
                     <div class="gray6 letter-narrow pr-xl-3"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 
-                    </div><p class="f-80 gray5 mb-0">*99.1%: 제품 및 서비스, 사업장에서 발생한 폐기물 중 재활용한 폐기물 총량의 비율</p>
+                    </div>
+                    <p class="f-80 gray5 mb-0">*99.1%: 제품 및 서비스, 사업장에서 발생한 폐기물 중 재활용한 폐기물 총량의 비율</p>
                 </b-col>                
             </b-row>
         </section>
@@ -205,7 +206,7 @@
             </b-col>
         </b-row>
         <div class="w-100 text-center d-flex justify-content-center align-items-center pt-3" style="height: 100px;">
-            <div class="card-plus-news"  @click="$router.push('/news')"> <div class="bar-news horizontal"></div> <div class="bar-news vertical"></div> </div>
+            <div class="card-plus-news" @click="$router.push('/news')"> <div class="bar-news horizontal"></div> <div class="bar-news vertical"></div> </div>
         </div>
         <hr class="mb-5 space-p75">
         <!-- <back-to-top></back-to-top> -->
@@ -452,4 +453,6 @@ export default {
     transform: scale(1.05)
     // height: 110%;
 }
+
+
 </style>

@@ -250,6 +250,42 @@ h1, h2, h3, h4, h5, h6, .h7 {
     line-height: 1.6;
 }
 
+.eng-font-scale {
+    font-size: 90%;
+    line-height: 1.4
+}
+.eng-font-scale  p{
+    font-size: 0.9rem;
+}
+
+
+.eng-font-scale h1{
+    font-size: calc(2.3rem * 0.95);
+}
+.eng-font-scale h2{
+    font-size: calc(2rem * 0.95);
+}
+.eng-font-scale h3{
+    font-size: calc(1.75rem * 0.95);
+}
+.eng-font-scale h4{
+    font-size: calc(1.5rem * 0.95);
+}
+.eng-font-scale h5{
+    font-size: calc(1.25rem * 0.95);
+}
+.eng-font-scale h6 {
+    font-size: calc(1.15rem * 0.95);
+}
+.eng-font-scale .h7 {
+    font-size: calc(1.07rem * 0.95);
+}
+.eng-font-scale h1, h2, h3, h4, h5, h6, .h7 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
 hr {
     border: 0;
     margin: 0;

@@ -3,7 +3,7 @@
    <logger title="이해관계자 참여 및 중요 주제"></logger>
     <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 
-    <b-container class="">
+    <b-container v-if="this.$store.state.is_ENG==false" class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
             <h7 class="mb-5 text-center w-100 fw-400">더 나은 세상을 향한 착한 믿음의 실천, 코웨이 지속가능경영 비전</h7>
@@ -145,7 +145,7 @@
                                     <li>노출 기간: 2019.01.01~2019.12.31</li>
                                     <li>매체: 전국 14개 주요 일간지 포함 132개 언론사</li>
                                 </ul>
-                                <p class="parang6 fw-400"> 대외 커뮤니케이션 자료 주요 키워드 분석
+                                <p class="parang6 fw-400 line-height-low"> 대외 커뮤니케이션 자료 주요 키워드 분석
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90">
                                     <li>IR자료 및 실적발표자료 등</li>
@@ -345,6 +345,358 @@
                     </b-row> 
 
                     <p >데이터 및 정보 인프라가 사회 전반의 필수 자산으로 자리함에 따라 생활 전반의 영역에서 정보보호 및 개인정보보호의 중요성이 증가하고 있습니다. 4차 산업혁명에 따라 데이터의 활용도가 급격히 증가하고, ICT의 영역이 특정 디바이스를 넘어 환경가전 제품의 영역까지 연결되는 사물 인터넷이 보편화 됨에 따라 정보보안에 대한 철저한 관리가 필요한 시점입니다. 또한 코웨이는 렌탈 비즈니스의 특성상 많은 고객의 개인정보를 수집 및 활용하여 안전한 개인정보의 수집, 활용 및 폐기는 고객 신뢰에 중요한 영향을 미칩니다. 이에 따라 코웨이는 정보보호 및 개인정보보호 원칙을 기반으로 강력한 정보보안 체계를 운영하고 있습니다. 2019년 코웨이는 유럽연합 데이터 보호법(GDPR) 등 글로벌 정보보호 규제에 대응하기 위한 가이드를 수립하였습니다. 또한 정기적 모의해킹, 취약점 진단 등을 통해 위험 요소를 진단 및 완화하고 있으며, 시스템 기반의 개인정보 리스크 점검 및 실사를 진행하여 철저한 관리를 지속하고 있습니다. 
+                    </p>                                               
+                </section>
+            </b-container> 
+            <!-- End of Contents Container -->
+            </b-col>
+        </b-row>
+        <hr class="mb-5 space-p75">
+    </b-container>
+    
+
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->    
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+
+
+
+    <b-container v-else class="eng-font-scale">
+        <b-row class="pt-md-5 px-3">
+            <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
+            <h7 class="mb-5 text-center w-100 fw-400">더 나은 세상을 향한 착한 믿음의 실천, 코웨이 지속가능경영 비전</h7>
+        </b-row>
+        <b-row>
+            <b-col class="d-none d-lg-inline col-lg-3 position-relative">
+                <side-navigation 
+                :main_title="title"
+                :sub_titles="sub_titles"
+                :activated="activated"
+                :active_color="'#5171b1'"
+                ></side-navigation>
+            </b-col>
+            <b-col class="col-auto col-lg-9 pl-lg-4">
+            <b-container class="px-0">
+                <section class="bg-white px-4 py-4 mb-5">
+
+                    <div class="border-top-dark pb-2 mb-5"></div>
+                    <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">Stakeholder Engagement and Material Topics</h4-ancor>
+
+                    <h6-ancor hash="e1" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">Stakeholder Engagement</h6-ancor>
+                    <p class="mb-5">Coway defines stakeholders as the internal and external entities that influence corporate activities and classifies them into 7 groups. By operating various communication channels for each stakeholder group, we are enhancing management transparency and establishing reliable relationships. Coway's communication channels for each stakeholder are operated by each department, and major issues are reviewed through the management committee.
+                    </p>
+
+                    <!-- <hr class=""> -->
+                        <h7 class="mb-3 gray63">Stakeholder Communication Channels</h7>
+                        <b-table-simple responsive class="sep-table f-90 mb-5">
+                            <b-tbody><b-tr class="bg-parang7 fw-300 text-white">
+                                <b-td class="border-0 py-0" style="width: 15%">Stakeholder</b-td><b-td class="border-0 py-0" style="width: 38%">Communication Channel</b-td><b-td class="border-0 py-0" style="width: 17%">Communication Frequency</b-td><b-td class="border-0 py-0">Major Interest</b-td>
+                            </b-tr>
+                                <b-tr>
+                                    <b-td rowspan="3" style="width: 15%">Customers<br><b-img src="/images/2_1.svg" class="mt-2"></b-img></b-td><b-td style="width: 38%">Company Website</b-td><b-td style="width: 17%">Frequently</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Product safety and quality responsibility</li><li>Thorough privacy protection</li><li>Product and service experience and experience</li><li>Immediate resolution of customer complaints</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Media and News</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr class="border-bottom">
+                                    <b-td>VOC/ Call Center</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                            
+                                <b-tr>
+                                    <b-td rowspan="4">Shareholders and Investors<br><b-img src="/images/2_2.svg" class="mt-2"></b-img></b-td><b-td>Regular General shareholders’ meeting</b-td><b-td>Once a year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Building corporate value</li><li>Increase shareholder value</li><li>Sound governance</li><li>Business opportunity and risk management</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>IR Meeting</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Investors/Analysist Conference Call</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>IR webzine</b-td><b-td>Once a month</b-td>
+                                </b-tr>
+
+                                <b-tr>
+                                    <b-td rowspan="3">Employees<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>Labor Management Council </b-td><b-td>Once a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Fair performance evaluation and compensation</li><li>Competency development</li><li>Work-life balance</li><li>Diversity-based corporate culture</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>In-house online consultation channel (Pine Tree bakery, chorus)</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Idea Proposal System (Imagination Ocean)</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+
+                                <b-tr>
+                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier committee (Good Faith Council)</b-td><b-td>4 times a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Supplier Online Win-Win portal</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Partner Meeting</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+
+                                <b-tr>
+                                    <b-td rowspan="3">Local community<br><b-img src="/images/2_5.svg" class="mt-2"></b-img></b-td><b-td>Local committee</b-td><b-td>4 times a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Participate in social contribution and community activities</li><li>Job creation in the region</li><li>Sustainable regional development</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>NGO meeting</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Social Contribution Business and Projects</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+
+                                <b-tr>
+                                    <b-td rowspan="4">Academia and Media<br><b-img src="/images/2_6.svg" class="mt-2"></b-img></b-td><b-td>Corporate Governance Report</b-td><b-td>Once a year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Transparent information disclosure</li><li>ESG data and performance communication</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Regular disclosures such as business reports</b-td><b-td>5 times or more a year</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Participation in global ESG evaluation</b-td><b-td>6 times or more a year</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Participation in Sustainability Initiatives</b-td><b-td>4 times or more a year</b-td>
+                                </b-tr>
+
+                                <b-tr>
+                                    <b-td rowspan="3">Government<br><b-img src="/images/2_7.svg" class="mt-2"></b-img></b-td><b-td>Financial Supervisory Service Disclosure</b-td><b-td>Frequently</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Distribution of economic value such as tax payment</li><li>Compliance and ethical management</li></ul></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Legal/regulatory compliance</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td>Public-private partnership business projects</b-td><b-td>Frequently</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple>
+                    <hr class="py-3">
+                    
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="e2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Materiality Assessment</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <p class="mb-5"> Coway conducts Materiality Assessment to identify material topics of sustainability management. Coway defines important topics by organizing an issue pool based on changes in the external environment and Coway's strategy, deriving priority topics by identifying business relevance and influence on stakeholders. Each priority topic is defined as an important topic along with the level of impact on Coway's business value creation aspect. Throughout this report, business importance and social value creation impact, management strategies and goals, and activities are reported in detail.
+                    </p>
+                    <hr class="py-1">
+                    <h6-ancor hash="e2-1" :activated="activated" class="parang6 mb-3 font-noto">Step 1. Configuring the Issue Pool </h6-ancor>
+                    <p class="mb-45">Coway configures an issue pool by analyzing various indicators to derive important topics that reflect changes in the industrial and corporate environment and reflect key issues in terms of sustainability management. Through the analysis of global sustainability standards and initiatives, we identify the latest trends and changes in the macro-industrial environment and analyze media and communication keywords that closely reflect changes in Coway to draw key issues. Through this, the number of issue pools for Coway was 26 in 2019.
+                    </p>
+                    <b-row class="mb-5">
+                        <b-col class="col-12 col-sm-6">
+                            <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Global Sustainability Standards and Initiatives</div>
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
+                                <p class="parang6 fw-400 pt-2 pb-1 line-height-low"> Information disclosure requirements of sustainability management reporting standards, reflect global sustainability standards and initiatives major issues
+                                </p>
+                                <ul class="custom-ul line-height-low fw-300 f-90">
+                                    <li>GRI (Global Reporting Initiative) Standards</li>
+                                    <li>SASB (Sustainability Accounting Standards Board)</li>
+                                    <li>UN SDGs (UN Sustainable Development Goals)</li>
+                                    <li>ISO26000</li>
+                                    <li class="mb-1">DJSI (Dow Jones Sustainability Indices)</li>
+                                </ul>
+                            </div>
+                        </b-col>
+                        <b-col class="col-12 col-sm-6 position-relative">
+                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 20%;"></div>
+                            <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Media and Communication Key word Analysis</div>
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
+                                <p class="parang6 fw-400 pt-2 line-height-low"> Analysis of Coway's sustainability management issues and positive/negative issues through media research
+                                </p>
+                                <ul class="custom-ul line-height-low fw-300 f-90 mb-3">
+                                    <li>Exposure period: 2019.01.01~2019.12.31</li>
+                                    <li>Media : 132 press including 14 major daily newspapers nationwide</li>
+                                </ul>
+                                <p class="parang6 fw-400 line-height-low"> Main keyword analysis of external communication materials
+                                </p>
+                                <ul class="custom-ul line-height-low fw-300 f-90">
+                                    <li>IR data and performance announcement data</li>
+                                </ul>
+                            </div>
+                        </b-col>
+                    </b-row>
+                    <hr class="py-2">
+                    <h6-ancor hash="e2-2" :activated="activated" class="parang6 mb-3 font-noto">Step 2. Analyze &amp; Assessment</h6-ancor>
+                    <p class="mb-45">Identifying business relevance and impact on stakeholders among the 26 issue pools, we drew priority management issues. To derive business relevance, we applied an internal analysis of Coway's sustainable management and closeness of issues within the industry. To identify the level of stakeholder impact on each issue, we analyzed the priority of issues by seven major stakeholders through an online survey. In addition, we evaluated how the priority issues derived through the analysis of relevance and impact will affect Coway's business value creation in three categories: (1) Cost, (2) Revenue, and (3) Risk.
+                    </p>
+
+                    <h7 class="mb-3 gray63">Relevance Analysis – Corporate Internal &amp; Industrial Context</h7>
+                    <b-row class="mb-3">
+                        <b-col class="col-12 col-sm-6">
+                            <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Internal Relevance</div>
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
+                                <p class="parang6 fw-400 pt-1 pb-1 line-height-low"> Identify internal major issues based on Coway's sustainability management strategy, policy and status analysis
+                                </p>
+                                <ul class="custom-ul fw-300 f-90 mb-45">
+                                    <li>Review Last year's report on sustainability management</li>
+                                    <li>Check the strategy and policy documents related to sustainability management</li>
+                                    <li>Mid- to long-term sustainable management goal and performance analysis for sustainable management</li>
+                                </ul>
+                            </div>
+                        </b-col>
+                        <b-col class="col-12 col-sm-6 position-relative">
+                            <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 76%; top: 17%;"></div>
+                            <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Industrial Relevance</div>
+                            <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
+                                <p class="parang6 fw-400 pt-1 pb-1 line-height-low"> 
+                                    In-depth issues and context review of corporate reports of other companies in same industry and analysis of industry-specific evaluation indicators for global sustainability assessment
+                                </p>
+                                <ul class="custom-ul line-height-low fw-300 f-90 mb-3">
+                                    <li>In-depth analysis of the report status and issues of 2 overseas companies and 3 domestic companies </li>
+                                    <li>DJSI (Dow Jones Sustainability Indices) Household Durables industry evaluation requirements analysis </li>                            
+                                    <li>MSCI Household Durables industry evaluation requirements analysis, etc.</li>
+                                </ul>
+                            </div>
+                        </b-col>
+                    </b-row>
+                    <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Impact Analysis – Stakeholder Survey</div>
+                    <div class="px-md-3 py-4 border-bottom-dark mb-5">
+                        <p class="parang6 fw-400 py-1 line-height-low"> Conduct online surveys to assess the level of impact, importance and response priorities for stakeholders on each issue
+                        </p>
+                        <ul class="custom-ul line-height-low fw-300 f-90">
+                            <li>Target: 7 major stakeholders (customers, shareholders and investors, employees, partners, government, academia and media, and local communities)</li>
+                            <li>Period: 2020.03.16~2020.03.23</li>                            
+                            <li>Survey Method: Online Survey</li>
+                            <li>Questionnaire: Selection of material topics, evaluation of priority of issues, context investigation of issue selection</li>
+                        </ul>
+                    </div>
+                    <hr class="py-2">
+
+                    <h6-ancor hash="e2-3" :activated="activated" class="parang6 mb-3 font-noto">Step 3. Reporting</h6-ancor>
+                    <p class="mb-45">Based on the results of Materiality Assessment, there are total 10 material topics in Coway. Coway reports on the business-social background and key KPIs of each important topic, and reports on the overall strategy and activity, performance, and business case throughout this Sustainability Web Report. 
+                    </p>
+                    <hj-img src="/images/14_1.svg" fluid></hj-img>
+                    <hr class="space-p25">
+                    <div style="border-bottom: 1.2px solid #6095dd;"> </div>
+                        <b-table-simple responsive class="txt-table sustainability-table f-85 mb-5">
+                            <b-thead>
+                                <b-tr>
+                                    <b-td rowspan="2" class="text-center">No</b-td><b-td rowspan="2" class="text-center">Material Topics</b-td><b-td rowspan="2" class="text-center w-50">Report topic</b-td><b-td colspan="3" class="border-bottom-0 text-center">Business impact</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">Cost</b-td><b-td class="text-center">Revenue</b-td><b-td class="text-center">Risk</b-td>
+                                </b-tr>
+                            </b-thead>
+                            <b-tbody>
+                                <b-tr>
+                                    <b-td class="text-center">1</b-td><b-td class="parang8"><span class="fw-400">Development of customized products and services</span></b-td><b-td> <nuxt-link to="/static_page/Product-and-Service-Innovation" target="_blank"> Product and Service Innovation <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">2</b-td><b-td class="parang8"><span class="fw-400">Reinforcement of product safety and reliability</span></b-td><b-td> <nuxt-link to="/static_page/Product-Responsibility" target="_blank"> Product Responsibility<i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">3</b-td><b-td class="parang8"><span class="fw-400">Information Protection </span></b-td><b-td> <nuxt-link to="/static_page/Information-Security-and-Personal-Information-Protection" target="_blank"> Information Security and Personal Information Protection <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">4</b-td><b-td class="parang6"><span class="fw-400">Securing technical competitiveness by strengthening R&amp;D</span></b-td><b-td> <nuxt-link to="/static_page/Product-and-Service-Innovation" target="_blank"> Product and Service Innovation <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">5</b-td><b-td class="parang6"><span class="fw-400">Employee competency development and maintenance</span></b-td><b-td> <nuxt-link to="/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1" target="_blank"> Employee Centered Company Culture and Safe Working Environment - Capacity Enhancement for Good Growth <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">6</b-td><b-td class="parang6"><span class="fw-400">Development of eco-friendly products and services</span></b-td><b-td> <nuxt-link to="/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management" target="_blank"> Eco Friendly Product Development and Product Life Cycle Management <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">7</b-td><b-td class="parang6"><span class="fw-400">Strategic social contribution activity</span></b-td><b-td> <nuxt-link to="/static_page/Local-Community" target="_blank"> Local Community <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td><b-td></b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">8</b-td><b-td class="parang6"><span class="fw-400">Compliance with human rights and labor principles</span></b-td><b-td> <nuxt-link to="/static_page/Human-Rights-Report" target="_blank"> Human Rights Report <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">9</b-td><b-td class="parang6"><span class="fw-400">Reinforcement of brand trust</span></b-td><b-td> <nuxt-link to="/static_page/Product-and-Service-Innovation" target="_blank"> Product and Service Innovation <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td></b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-center">10</b-td><b-td class="parang6"><span class="fw-400">Resource circulation and recycling</span></b-td><b-td> <nuxt-link to="/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2" target="_blank"> Eco Friendly Product Development and Product Life Cycle Management - Improvement of Resource Efficiency and Support Circular Economy <i class="fas fa-link fw-300 ml-2 f-80 gray4"></i></nuxt-link> </b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td><b-td></b-td><b-td class="f-80 parang6 text-center">&bigcirc;</b-td>
+                                </b-tr>
+                            </b-tbody>
+                        </b-table-simple> 
+                    <hr class="py-3">
+                    
+                    <div class="d-flex mb-4 position-relative overflow-hidden"> <h6-ancor hash="e3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Materiality Context and Long-Term Target</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+
+                    <h6-ancor hash="e3-1" :activated="activated" class="parang6 mb-3 pb-2">Development of customized products and services</h6-ancor>
+                    <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
+                        <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
+                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
+                            <ul class="custom-ul f-90 pt-2 fw-300">
+                                <li>Develop innovative products and services based on customer needs and lifestyle</li>
+                                <li>Provide innovative services based on future technologies such as big data and virtual simulation</li>
+                                <li>Reinforce customer value innovation capabilities through R&amp;D and open innovation</li>
+                            </ul>
+                        </b-col>
+                        <b-col class="col-12 col-md-7 pl-md-4 position-relative">
+                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
+                            <div class="pt-2">
+                                <div class="gray63 mb-3 font-noto">Coway Customer Satisfaction<sup>1)</sup> <span class="f-80 fw-300 gray6 mb-2">(Unit: %)</span></div>                                    
+                                <b-table-simple responsive class="txt-table f-85 mb-2">
+                                    <b-thead><b-tr>
+                                        <b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td class="text-right"><span class="fw-500">2020 Target</span></b-td>
+                                    </b-tr></b-thead>
+                                    <b-tbody>
+                                        <b-tr>
+                                            <b-td>76.0</b-td> <b-td class="" >79.0</b-td> <b-td class="" >75.1</b-td> <b-td class="text-right" ><span class="fw-500">77.0</span></b-td>
+                                        </b-tr>
+                                    </b-tbody>   
+                                </b-table-simple>
+                                <ol type="1" class="f-80 fw-300 footnote-ol line-height-low ">
+                                    <li> Customer satisfaction is measured through NPS (net recommendation index = recommended customer ratio-non-recommended customer ratio)
+                                    </li>
+                                    <li> In 2019, the survey method was changed to mobile.</li>
+                                </ol>
+                            </div>
+                        </b-col>
+                    </b-row>                   
+                    <p>Coway’s business model continues to gain trust from customer satisfaction through providing products and services at the customer’s level, evolving with customers continuously. Coway grows together with customers by providing new experiences and enhancing the value of life through the innovation of products and services. As a result, we continued to innovate our products to increase the essential value of cleanliness based on our expertise in water and air that we were awarded the CES Innovation Award for the fifth consecutive year in 2019. Moreover, we undertake efforts to show future technology-based services by recognizing changes in customer lifestyles and proactively reflecting them in services. In 2019, we introduced “Water Map Service”, a big data-based product recommendation service, and “Air care service,” which allows you to experience an air purifier suitable for your personal living environment through virtual simulation.
+                    </p>
+                    <p class="mb-5">Coway continues to improve customer satisfaction by providing customized care for the daily life of customers through continuous research on customers. Based on the effort, we plan to increase customer value by establishing the goal to achieve 77 points of customer satisfaction in 2020 in the short term and 87 points of customer satisfaction in 2030 in the long term.
+                    </p>
+
+                    <h6-ancor hash="e3-2" :activated="activated" class="parang6 mb-3">Enhance product safety and reliability</h6-ancor>
+                    <b-row no-gutters class="mb-4 border-bottom-dark pb-3 pt-1">
+                        <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
+                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
+                            <ul class="custom-ul f-90 pt-2 fw-300">
+                                <li>Product Responsibility Governance-Infinite Responsibility Committee, PIC 360, TQA Center </li>
+                                <li>Reliability test standard development and verification capability enhancement </li>
+                                <li>Increased safety certification and customer safety service</li>
+                            </ul>
+                        </b-col>
+                        <b-col class="col-12 col-md-7 pl-md-4 position-relative">
+                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                            <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
+                            <div class="position-relative">
+                                <!-- <div class="fw-500 mr-2 position-absolute">
+                                    <div class="line-height-low">연도별 검증 <br>진행 현황 </div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
+                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
+                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div>
+                                </div>
+                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img> -->
+                            </div>
+                        </b-col>
+                    </b-row>      
+
+                    <p class="mb-5">As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, “Manufacturing Sector Grand Prize” and “Service Quality Excellence Award” by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification. Coway will continuously strive to increase customer trust through systematic product responsibility and quality management systems.
+                    </p>
+
+                    <h6-ancor hash="e3-3" :activated="activated" class="parang6 mb-3">Information Protection</h6-ancor>
+                    <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
+                        <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
+                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
+                            <ul class="custom-ul f-90 pt-2 fw-300">
+                                <li>Thorough management based on information protection and personal information protection principles</li>
+                                <li>Respond to global information protection regulations</li>
+                                <li>System-based monitoring and due diligence</li>
+                            </ul>
+                        </b-col>
+                        <b-col class="col-12 col-md-7 pl-md-4 position-relative">
+                        <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
+                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
+                            <div class="pt-2">
+                                <div class="fw-500 mb-3">Employee Information Protection Training Participation Rate</div>
+                                <div><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
+                            </div>
+                        </b-col>
+                    </b-row> 
+
+                    <p>As data and information infrastructure become an essential asset for society as a whole, the importance of information protection and personal information protection is rising in all areas of life. With the 4th industrial revolution, the utilization of data is rapidly increasing, and as the Internet of Things, which connects ICT domains beyond specific devices to the area of environmental home appliances, is becoming more common, now is time to thoroughly manage information security. Furthermore, due to the nature of the rental business, the collection and use of personal information from a large number of customers have a significant impact on customer trust. Thus, Coway operates a strong information security system based on the principles of information protection and personal information protection. In 2019, Coway established a guide to respond to global data protection regulations such as the European Union Data Protection Act (GDPR). In addition, risk factors are diagnosed and mitigated through regular mock hacking and vulnerability diagnosis, and system-based personal information risk inspection and due diligence are conducted for maintaining thorough management.
                     </p>                                               
                 </section>
             </b-container> 
