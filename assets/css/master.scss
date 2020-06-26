@@ -23,19 +23,9 @@
     transform: scale(1.05)
 }
 
-// .page-top-bg{
-//     background-image: url( "/images/environment.jpg" );
-//     background-attachment:  fixed;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     position: absolute;
-//     z-index: -1;
-//     top: 0;
-// }
-
 .bg-white-cover {
-    height: calc(100% - 100vh);
-    top: 100vh; 
+    height: calc(100% - 725px);
+    top: 725px; 
     z-index:0;
 }
 .bg-white-cover-m1{
