@@ -14,7 +14,7 @@
                 :main_title="title"
                 :sub_titles="sub_titles"
                 :activated="activated"
-                :active_color="'#0b564a'"
+                :active_color="'#0f7a5a'"
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
