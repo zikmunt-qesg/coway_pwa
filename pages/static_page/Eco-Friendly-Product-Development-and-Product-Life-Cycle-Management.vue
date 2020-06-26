@@ -248,10 +248,10 @@
                                     <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">재활용</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>699</b-td>
+                                    <b-td class="text-left">재활용</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>753</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">소계</b-td><b-td>1,431</b-td><b-td>851</b-td><b-td>916</b-td>
+                                    <b-td class="text-left">소계</b-td><b-td>1,431</b-td><b-td>851</b-td><b-td>970</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" rowspan="4">지정</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
@@ -266,10 +266,10 @@
                                     <b-td class="text-left">소계</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="3">폐기물 발생량 총계</b-td><b-td>24,536</b-td><b-td>23,540</b-td><b-td>23,649</b-td>
+                                    <b-td class="text-left" colspan="3">폐기물 발생량 총계</b-td><b-td>24,536</b-td><b-td>23,540</b-td><b-td>23,703</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="3">폐기물 재활용량</b-td><b-td>24,376</b-td><b-td>23,383</b-td><b-td>23,432</b-td>
+                                    <b-td class="text-left" colspan="3">폐기물 재활용량</b-td><b-td>24,376</b-td><b-td>23,383</b-td><b-td>23,486</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="3">폐기물 재활용률(%)<sup>1)</sup></b-td><b-td>99.3</b-td><b-td>99.3</b-td><b-td>99.1</b-td>

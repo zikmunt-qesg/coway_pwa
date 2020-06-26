@@ -58,7 +58,7 @@
                             </b-tr>
                             <b-tr>
                                 <b-td>김진배</b-td>
-                                <b-td>대표이사</b-td>
+                                <b-td>사외이사(독립)</b-td>
                                 <b-td>남</b-td>
                                 <b-td class="custom-ul-li table-li"><ul><li>2001 ~ 현재 고려대학교 경영대학 교수</li><li>1997 ~ 2001 보스톤대학교 조교수</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
@@ -86,9 +86,10 @@
                             </b-tr>
                         </b-tbody>
                     </b-table-simple>
-                    <p class="f-80 ml-1 mb-5">
-                        *표기기간: 2017년 1월 1일 ~ 2019년 12월 31일
-                    </p>
+                    <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                        <li> 2020년 6월 기준 </li>
+                    </ul>
+                    
                     <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">이사회의 독립성 및 전문성</h6-ancor>
                     <p>코웨이의 사외이사 비중은 57.1%로 국내 대기업 평균(51.3%, 2019년 12월 공정거래위원회 발표) 대비 높은 수준을 유지하고 있습니다. 코웨이는 사외이사의 독립성 판단 기준에 대해 국내 상법, 공정거래법 및 기타 법령에 준하여 이사회 정관에 명시하고 있습니다.
                     </p>

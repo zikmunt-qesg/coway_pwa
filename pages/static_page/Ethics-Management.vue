@@ -63,7 +63,7 @@
                     <hr class="mb-3">
                     
                     <div class="d-flex mb-3 position-relative overflow-hidden"><h6-ancor hash="g2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">윤리진단(Compliance Check Organization)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-45">코웨이는 윤리강령에 기반하여 윤리 리스크 예방을 위해 정기적으로 윤리 진단을 실시하고 있습니다.  2019년 총 12회의 진단을 시행하였으며, 관련 내용을 사업장에 정기적으로 공지하여 비윤리 행위를 예방하고 있습니다. 
+                    <p class="mb-45">코웨이는 윤리강령에 기반하여 윤리 리스크 예방을 위해 정기 및 수시 진단(업무 프로세스 및 제도 개선 등)을 실시하고 있습니다.  2019년 총 12회의 진단을 시행하였습니다. 
                     </p>
 
                     <h7 class="mb-3 gray63">반부패 진단 및 조치 현황</h7>

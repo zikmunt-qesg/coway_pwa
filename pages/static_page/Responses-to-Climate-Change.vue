@@ -337,7 +337,7 @@
                                     <b-td colspan="2" class="text-left">간접 Total</b-td><b-td>106,275</b-td><b-td>110,142</b-td><b-td>107,564</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">총 에너지 사용량</b-td><b-td>117,290</b-td><b-td>121,943</b-td><b-td>118,627</b-td><b-td>124,557</b-td><b-td>5,931</b-td>
+                                    <b-td colspan="2" class="text-left">총 에너지 사용량</b-td><b-td>117,289</b-td><b-td>121,943</b-td><b-td>118,627</b-td><b-td>124,557</b-td><b-td>5,931</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td colspan="2" class="text-left">총 에너지 원단위 사용량</b-td><b-td class="text-left">GJ/매출액</b-td><b-td>5.055</b-td><b-td>5.091</b-td><b-td>4.687</b-td><b-td>4,921</b-td><b-td>0.137</b-td>

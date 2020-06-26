@@ -128,10 +128,10 @@
                                 <b-td>사고대응팀 대응<br><span class="f-90">(정보보호부서 각 담당자 수행)</span></b-td><b-td colspan="2" class="text-right align-middle"> <b-img src="/images/116_1.svg" fluid ></b-img></b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>사고신고</b-td><b-td> 침해사고 대응기관 신고</b-td><b-td><p class="indent mb-0"> &#9312; 정보보호 부서: 보안사고 경중을 파악하여 '한국정보보호진흥원 인터젯 침해사고 대응지원센터' 118 또는 '국가 사이버안전센터' 111로 연락하여 신고 </p></b-td>
+                                <b-td>사고신고</b-td><b-td> 침해사고 대응기관 신고</b-td><b-td><p class="indent mb-0"> &#9312; 정보보호 부서: 보안사고 경중을 파악하여 '한국정보보호진흥원 인터넷 침해사고 대응지원센터' 118 또는 '국가 사이버안전센터' 111로 연락하여 신고 </p></b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td rowspan="2">사후관리</b-td><b-td>재발방지 대책수립</b-td><b-td><p class="indent mb-0"> &#9312; 사고대응팀 : 사고 원인벼로 재발방지 대책과 대책에 따른 적용계획을 수립</p></b-td>
+                                <b-td rowspan="2">사후관리</b-td><b-td>재발방지 대책수립</b-td><b-td><p class="indent mb-0"> &#9312; 사고대응팀 : 사고 원인별로 재발방지 대책과 대책에 따른 적용계획을 수립</p></b-td>
                             </b-tr>
                             <b-tr>
                                    <b-td>대책적용 모니터링</b-td><b-td><p class="indent mb-0"> &#9312; 사고대응팀 : 재발방지 대책 이행여부 집중 모니터링 및 주기적으로 보고</p></b-td>
