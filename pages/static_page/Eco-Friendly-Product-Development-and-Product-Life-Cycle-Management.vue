@@ -24,7 +24,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">친환경 제품 개발과 제품 생애주기 관리</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">친환경 제품 개발과 제품 전 과정 관리</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -48,7 +48,7 @@
                             </b-col>
                             <b-col class="col-6 col-md-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/127_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">전과정 친환경 경영을 통한 자원효율성 향상과 순환경제 구현</p>
+                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">전 과정 환경경영을 통한 자원효율성 향상과 순환경제 구현</p>
                             </b-col>
                             <b-col class="col-0 col-md-1"></b-col>
                         </b-row>
@@ -90,7 +90,7 @@
                     <hr class="mb-3">
 
                     <h6-ancor hash="m1-1" :activated="activated" class="fw-500 green5 mb-3">전과정 평가와 제품 책임</h6-ancor>
-                    <p class="mb-5"> 코웨이는 제품이 환경에 미치는 영향을 정량적으로 평가하고 제품 개발에 반영하기 위하여 전 과정평가를 시행합니다. ISO14040 표준에 따른 전과정평가 중 간략 LCA(Simplified LCA) 기법을 이용하고 있습니다. 이전에는 탄소발자국과 같은 한정된 분야에서만 LCA가 진행되었으나, 2020년부터는 정수기, 공기 청정기 제품에 대하여 1개 모델을 선정하여 자원발자국, 탄소발자국, 오존층영향, 산성비, 부영향화, 광화학적 스모그, 물발자국의 7대 영향 범주를 반영한 전과정평가를 실시할 예정입니다.
+                    <p class="mb-5"> 코웨이는 제품이 환경에 미치는 영향을 정량적으로 평가하고 제품 개발에 반영하기 위하여 전 과정평가를 시행합니다. ISO14040 표준에 따른 전과정평가 중 간략 LCA(Simplified LCA) 기법을 이용하고 있습니다. 코웨이는 전 과정평가를 통해서 원자재 사용량을 정량화하고 생산과정을 최적화하는 한편, 사용 및 폐기단계에서 환경 부하를 저감하여 후손에게 지속가능한 지구를 물려주는 제품 스튜어드십(product Stewardship)을 적극 이행하겠습니다.
                     </p>
                     <h6-ancor hash="m1-2" :activated="activated" class="fw-500 green5 mb-3">친환경 제품 인증 획득</h6-ancor>
                     <p class="mb-45">코웨이는 탄소성적표지, 환경마크 인증 제도 등을 통해 소비자에게 제품의 환경성 개선 정보를 지속적으로 제공하고 있습니다.
@@ -133,16 +133,16 @@
                         </b-tbody>
                     </b-table-simple>
                     <h6-ancor hash="m1-3" :activated="activated" class="fw-500 green5 mb-3">화학물질 관리 체계 강화</h6-ancor>
-                    <p class="mb-3"> 코웨이는 글로벌 품질, 환경경영시스템의 기본 구조와 개념을 도입하였으며, 인증을 취득하여 계획, 실행, 검토, 지속적 개선의 사이클을 통해 화학물질 관리를 강화하고 있습니다. 화학물질 사전 규제 모니터링 체계 구축을 통해 사전 모니터링 및 분석된 규제 정보를 화학물질관리시스템(CSMS)과 연계하여 제품 기획 단계부터 반영 및 규제 대응이 완료된 제·부품이 개발될 수 있도록 대응력을 강화하였습니다.
+                    <p class="mb-3"> 코웨이는 글로벌 품질, 환경경영시스템의 기본 구조와 개념을 도입하여 계획, 실행, 검토, 지속적 개선의 사이클을 통해 화학물질 관리를 강화하고 있습니다. 또한 화학물질 사전 규제 모니터링 체계 구축을 통해 사전 모니터링 및 분석된 규제 정보를 화학물질관리시스템(CSMS)과 연계하여 제품 기획 단계부터 반영 및 규제 대응이 완료된 제·부품이 개발될 수 있도록 대응력을 강화하였습니다.
                     </p>
-                    <p class="mb-5">사전 규제 대응 체계 강화로 RoHSⅡ 프탈레이트 규제에 대해 규제 시행 전 사전 대응 완료를 진행하였으며 지속 관리하고 있는 식품 접촉 물질에 대한 ‘식품용 기구 및 용기포장 기준’ 및 항균/살균 부품/물질에 대한 국내·외 살생물제법 기준에 맞춰 관리 및 검증을 강화하였습니다.
+                    <p class="mb-5">사전 규제 대응 체계 강화로 RoHS II 규제 시행 전 사전 대응 완료를 진행하였으며 지속 관리하고 있는 식품 접촉 물질에 대한 ‘식품용 기구 및 용기포장 기준’ 및 항균/살균 부품/물질에 대한 국내·외 살생물제법 기준에 맞춰 관리 및 검증을 강화하였습니다.
                     </p>
                     <div class="row d-flex flex-column flex-md-row pb-3 border-bottom-dark mx-1">
                         <b-col class="custom-ul-li pl-md-0">
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">모든 부품에 대해 EU·X-RoHS 기준을 적용하여 적합성을 검증</li>
-                                <li>전 제품의 적합성을 내부적으로 검증하기 위해 K-RoHS 대응을 확대하여 서비스 부품 코드 100% 등록</li>
+                                <li class="no-word-break">모든 부품에 대해 EU RoHS & 자원순환법 기준을 적용하여 적합성을 검증</li>
+                                <li>전 제품의 적합성을 내부적으로 검증하기 위해 자원순환법 대응을 확대하여 서비스 부품 코드 100% 등록</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
@@ -173,7 +173,7 @@
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_2.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
                                 <li class="no-word-break">화학물질 사전 규제 모니터링 체계 구축에 따라 사전 규제 대응력 강화</li>
-                                <li class="no-word-break">전 제·부품에 대한 RoHSⅡ프탈레이트 규제 사전 대응 및 적합성 검증</li>
+                                <li class="no-word-break">전 제·부품에 대한 RoHS II 규제 사전 대응 및 적합성 검증</li>
                             </ul>
                         </b-col>
                     </div>
@@ -181,7 +181,7 @@
                     <hj-img src="/images/28_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-5 py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 지원</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 구축</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     
                     <h6-ancor hash="m2-1" :activated="activated" class="fw-500 green5 mb-3">자원효율성 KPI</h6-ancor>
 
@@ -207,7 +207,7 @@
                     </p>
                     <p class="mb-3"> 또한, 코웨이는 비즈니스 전 영역에서 발생하는 폐기물에 대한 정량화 관리를 통해 재활용 확대, 폐기물 제로화, 발생 비용을 최소화하기 위해 노력과 활동을 지속적으로 하고 있습니다. 특히 사업장, 서비스 폐기물은 99%이상 생활 폐기물에너지화(RDF, Refuse Derived Fuel)처리를 통해 폐기물 제로화를 추진하고 있습니다. 코웨이가 제조하는 생활환경가전은 음융, 흡입 등 고객의 안전과 건강에 밀접한 관련이 있어 현재는 재활용 원료를 적용하고 있지는 않지만, 향후에는 재생원료 사용이 가능한 부품을 검토하여 적용 예정입니다.
                     </p>
-                    <p class="mb-45"> 코웨이는 한 번 사용된 제품을 다시 재생하여 사용하여 순환경제에 이바지하고 있습니다. 2007년 렌탈 가전 업계 최초로 리퍼브 제도를 도입하여, 내부적으로는 렌탈 폐기 절감과 외부적으로는 가격 경쟁력 모델 운영 및 자원재활용을 통한 가치를 창출하고 있습니다. 리퍼브 제품은 정상가 대비 평균 렌탈료 기준 20% 할인된 가격으로 판매되며, 19에는 전체 판매량의 0.4% 차지합니다.  향후에는 리퍼브 제품군 판매 활성화 및 고객 인식 제고를 위해 자원재활용, 친환경, 착한소비 컨셉에 부합되는 메시지를 전달하여 고객과 커뮤니케이션을 추진할 계획입니다.
+                    <p class="mb-45"> 코웨이는 한 번 사용된 제품을 다시 재생하여 사용하여 순환경제에 이바지하고 있습니다. 2007년 렌탈 가전 업계 최초로 리퍼브 제도를 도입하여, 내부적으로는 렌탈 폐기 절감과 외부적으로는 가격 경쟁력 모델 운영 및 자원재활용을 통한 가치를 창출하고 있습니다. 리퍼브 제품은 정상가 대비 평균 렌탈료 기준 20% 할인된 가격으로 판매되며, 2019년에는 전체 판매량의 0.4% 차지합니다. 향후에는 리퍼브 제품군 판매 활성화 및 고객 인식 제고를 위해 자원재활용, 친환경, 착한소비 컨셉에 부합되는 메시지를 전달하여 고객과 커뮤니케이션을 추진할 계획입니다.
                     </p> 
                     <div class="position-relative"> <hj-img src="/images/129_1.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">재활용 프로세스</h7></div>
                     <hr class="space-25"> 
@@ -289,7 +289,7 @@
                             </li>
                             <li> 2018년 포천공장 재활용업 반납으로 인해 사업장 폐기물 감소
                             </li>
-                            <li> 생산량 증가에 따른 사업장, 서비스폐기물 증가
+                            <li> 2019년 생산량 증가에 따른 사업장, 서비스폐기물 증가
                             </li>
                         </ul>
                         
@@ -504,7 +504,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Eco Friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 생애주기 관리'
+            return this.is_ENG? 'Eco Friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
         },
         sub_titles(){
             let temp = [
@@ -527,7 +527,7 @@ export default {
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Improvement of Resource Efficiency and Support Circular  Economy':'자원효율성 향상과 순환경제 지원', 
+                    title: this.is_ENG? 'Improvement of Resource Efficiency and Support Circular  Economy':'자원효율성 향상과 순환경제 구축', 
                     hash: 'm2',
                     child: [
                         { 

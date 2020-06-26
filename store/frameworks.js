@@ -145,7 +145,7 @@ export const state = () => ({
           indicators: '가치, 원칙, 표준, 행동강령',
           indicaotrs_e: '',
           link: [{'to':'http://www.coway.co.kr/Company/Company/ValueSystem', 'name_e':'', 'name': '코웨이 가치체계', 'icon':'fas fa-external-link-alt'},
-                 {'to':'/static_page/Ethics-Management', 'name_e':'', 'name': '윤리경영', 'icon':'fas fa-link' }],
+                 {'to':'/static_page/Ethical-Management', 'name_e':'', 'name': '윤리경영', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -154,7 +154,7 @@ export const state = () => ({
           code: '102-17',
           indicators: '윤리 관련 안내 및 고충처리 메커니즘',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Ethics-Management#g1', 'name_e':'', 'name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethical-Management#g1', 'name_e':'', 'name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -491,7 +491,7 @@ export const state = () => ({
           code: '205-1',
           indicators: '사업장 부패 위험 평가',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Ethics-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethical-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -500,7 +500,7 @@ export const state = () => ({
           code: '205-2',
           indicators: '반부패 정책 및 절차에 관한 공지와 훈련',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Ethics-Management#g3', 'name_e':'', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethical-Management#g3', 'name_e':'', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -509,7 +509,7 @@ export const state = () => ({
           code: '205-3',
           indicators: '확인된 부패 사례와 이에 대한 조치',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Ethics-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethical-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -530,7 +530,7 @@ export const state = () => ({
           code: '301-1',
           indicators: '사용된 원료의 중량과 부피',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -539,7 +539,7 @@ export const state = () => ({
           code: '301-2',
           indicators: '사용된 원료 중 재생 원료의 투입',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -548,7 +548,7 @@ export const state = () => ({
           code: '301-3',
           indicators: '제품 및 포장재 재생 원료',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -602,7 +602,7 @@ export const state = () => ({
           code: '303-1',
           indicators: '공급원별 취수량',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -611,7 +611,7 @@ export const state = () => ({
           code: '303-2',
           indicators: '취수로부터 큰 영향을 받는 용수 공급원',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -620,7 +620,7 @@ export const state = () => ({
           code: '303-3',
           indicators: '용수 재활용 및 재사용',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -674,7 +674,7 @@ export const state = () => ({
           code: '305-6',
           indicators: '오존층 파괴 물질의 배출',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 냉매 회수 및 재활용', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 냉매 회수 및 재활용', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -701,7 +701,7 @@ export const state = () => ({
           code: '306-2',
           indicators: '유형과 처리방법에 따른 폐기물',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 향상과 순환경제 지원', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -728,7 +728,7 @@ export const state = () => ({
           code: '306-1',
           indicators: '수질 및 목적지에 따른 폐수 배출',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: '모든 수자원은 유틸리티 용수로 사용 후 하수처리장으로 배출합니다'
         },
         {
@@ -737,7 +737,7 @@ export const state = () => ({
           code: '301-5',
           indicators: '폐수 배출로 인해 영향을 받은 수역',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
           Note: '모든 수자원은 유틸리티 용수로 사용 후 하수처리장으로 배출하여 주의가 필요한 영향 수역이 존재하지 않습니다.'
         },
         {
@@ -849,7 +849,7 @@ export const state = () => ({
           code: '404-2',
           indicators: '임직원 역량 강화 및 전환 지원을 위한 프로그램',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1', 'name_e':'', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 착한성장을 위한 역량 강화', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1', 'name_e':'', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 체계적인 역량 강화', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -1116,7 +1116,7 @@ export const state = () => ({
             code: 'CG-AM-410a.1', 
             indicators: '에너지스타 프로그램 인증을 받은 제품 비율', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
             Note: '당사는 에너지스타 프로그램 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
         { 
@@ -1125,7 +1125,7 @@ export const state = () => ({
             code: 'CG-AM-410a.2', 
             indicators: '가전제품 지속가능성 표준(AHAM) 인증을 받은 제품 비율', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
             Note: '당사는 가전제품 지속가능성 표준(AHAM) 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
         { 
@@ -1134,7 +1134,7 @@ export const state = () => ({
             code: 'CG-AM-410a.3', 
             indicators: '제품 폐기로 인한 영향을 관리하기 위한 노력', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-3', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 리퍼브 제도', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-3', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 리퍼브 제도', 'icon':'fas fa-link' }], 
             Note: '' 
         }
     ],
@@ -1210,7 +1210,7 @@ export const state = () => ({
             code: 'SV-PS-510a.1', 
             indicators: '직업 윤리 확보를 위한 접근', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Ethics-Management#g3', 'name_e':'', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethical-Management#g3', 'name_e':'', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
@@ -1219,7 +1219,7 @@ export const state = () => ({
             code: 'SV-PS-510a.2', 
             indicators: '직업 윤리 위반 관련 법적 철차로 인한 금전적 손실액', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Ethics-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethical-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
             Note: '' 
         }
     ],
@@ -1404,7 +1404,7 @@ export const state = () => ({
             code: '1.4.1', 
             indicators: '윤리강령', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Ethics-Management#g1', 'name_e':'', 'name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethical-Management#g1', 'name_e':'', 'name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
@@ -1413,7 +1413,7 @@ export const state = () => ({
             code: '1.4.3', 
             indicators: '반부패', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Ethics-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethical-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
@@ -1422,7 +1422,7 @@ export const state = () => ({
             code: '1.4.7', 
             indicators: '윤리강령 위반', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Ethics-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethical-Management#g2', 'name_e':'', 'name': '윤리경영 - 윤리진단', 'icon':'fas fa-link' }], 
             Note: '' 
         },            
         { 
@@ -1611,7 +1611,7 @@ export const state = () => ({
             code: '2.3.4', 
             indicators: '물 사용', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],  
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],  
             Note: '' 
         },            
         { 
@@ -1620,7 +1620,7 @@ export const state = () => ({
             code: '2.3.5', 
             indicators: '폐기물', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-1', 'name_e':'', 'name': '친환경 제품 개발과 제품 생애주기 관리 - 자원효율성 KPI', 'icon':'fas fa-link' }],   
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-1', 'name_e':'', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 KPI', 'icon':'fas fa-link' }],   
             Note: '' 
         },            
         { 

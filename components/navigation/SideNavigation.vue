@@ -95,7 +95,7 @@ export default {
   transition: all 0.5s ease;
 }
 .text-underline-effect:hover::after{
-    width:96%;
+    width:100%;
 }
 
 

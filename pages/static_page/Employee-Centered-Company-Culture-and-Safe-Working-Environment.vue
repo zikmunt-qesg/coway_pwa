@@ -33,9 +33,7 @@
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance & Approach</h7>
-                                <p>임직원이 자유롭게 역량을 발휘할 수 있는 기업문화는 기업 경쟁력을 유지하기 위해 매우 중요한 요소입니다. 코웨이는 투명하고 공정한 채용 과정을 통해 우수 인재를 선발하고, 체계화된 교육 프로그램을 운영하여 임직원이 자발적으로 역량을 개발할 수 있도록 지원합니다. 또한 임직원과의 적극적인 커뮤니케이션을 기반으로 수평적으로 소통하는 기업문화를 조성하여 자율적인 업무역량 발휘는 물론 일과 삶의 균형을 추구하는 인재 경영을 실천하고 있습니다. 
-                                </p>
-                                <p>또한, 사람 중심의 기업문화에 기반하여 안전한 업무 환경을 조성하고 근로자의 질병 및 재해를 최소화하기 위해 안전보건 경영을 추진합니다. 산업안전보건위원회를 기반으로 안전보건 시스템을 마련하고, 국내 전 공장에 통합적인 안전보건 시스템을 운영하고 있습니다.
+                                <p>임직원이 자유롭게 역량을 발휘할 수 있는 기업문화는 기업 경쟁력을 유지하기 위해 매우 중요한 요소입니다. 코웨이는 투명하고 공정한 채용 과정을 통해 인재상에 부합하는 우수 인재를 선발합니다. 또한 체계화된 교육 프로그램을 운영하여 역량을 개발할 수 있도록 지원하며, 수평적이고 소통하는 기업 문화를 조성하여 자율적인 업무역량 발휘는 물론 일과 삶의 균형을 추구하는 인재 경영을 실천하고 있습니다.
                                 </p>
                             </b-col>
                         </b-row>
@@ -98,8 +96,8 @@
                     </p>
                     <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="/images/68_1.svg" fluid class="h-100"></b-img></div>
                     <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">'착한성장'을 위한 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 강화하고, 비즈니스 변화에 부합하는 직무 역량을 향상할 수 있도록 교육을 강화할 예정입니다. 
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">체계적인 역량 강화 </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-45"> 코웨이는 STEP(Self Teaching & Education Plan) 제도를 기반으로 임직원의 성장을 지원합니다. STEP은 임직원 필수 교육제도로 수료 여부를 승진 평가에 반영할 정도로 엄격하게 관리하고 있습니다. STEP 제도는 리더십 교육, 직무 교육, 온보딩 교육, 법정필수 교육으로 구성되어 있습니다. 2020년에는 임직원의 리더십 역량을 향상시키고, 비즈니스 변화에 부합하는 직무 역량을 향상시킬 수 있도록 교육을 강화할 예정입니다.
                         </p>
                         <hj-img src="/images/135_1.svg" fluid ></hj-img>
                     <hr class="space-p25 mb-2">
@@ -225,14 +223,14 @@
                         </b-table-simple>
                     <hr class="space-p25">
                     <h6-ancor hash="r2-2" :activated="activated" class="gold6 fw-500 mb-3">일과 삶의 균형을 통한 임직원 만족도 제고</h6-ancor>
-                        <p class="mb-45"> 코웨이는 다양한 프로그램을 통해 가족 친화적 기업문화를 조성하며 일과 삶의 균형을 추구하고 있습니다. 일 가정 양립을 위해 정시 출퇴근을 장려하는 PC-Off 제도를 도입하였으며, 패밀리데이를 운영하여 임직원이 가족과 함께하는 시간을 확보할 수 있도록 노력하고 있습니다. 또한 가족 참여 활동 및 행사를 통해 코웨이의 가족으로서 임직원과 가족들이 함께 행복한 시간을 보낼 수 있는 프로그램을 운영하고 있습니다. 이에 따라 코웨이는 2012년 가족친화 우수기업 첫 인증을 받았으며, 2017년 재인증을 받았습니다.
+                        <p class="mb-45"> 코웨이는 다양한 프로그램을 통해 가족 친화적 기업문화를 조성하며 일과 삶의 균형을 추구하고 있습니다. 일 가정 양립을 위해 정시 출퇴근을 장려하는 PC-Off 제도를 도입하였습니다. 또한 가족 참여 활동 및 행사를 통해 코웨이의 가족으로서 임직원과 가족들이 함께 행복한 시간을 보낼 수 있는 프로그램을 운영하고 있습니다. 이에 따라 코웨이는 2012년 가족친화 우수기업 첫 인증을 받았으며, 2017년 재인증을 받았습니다.
                         </p>
                         <h7 class="pb-2 mb-5 gray63">일 가정 양립을 위한 지원 제도</h7>
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center border-bottom-gray-bold">
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">패밀리 데이 및 정시 출퇴근제도</p><p class="px-2 f-90 mb-md-0 line-height-low">정시 출퇴근을 장려하는 PC-Off 제도, 패밀리 데이 운영 등으로 가족과 함께 시간을 보낼 수 있도록 지원</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">정시 출퇴근제도</p><p class="px-2 f-90 mb-md-0 line-height-low">정시 출퇴근을 장려하는 PC-Off 제도 운영 등으로 가족과 함께 시간을 보낼 수 있도록 지원</p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
@@ -305,19 +303,19 @@
                                     <b-td class="text-left" rowspan="5">업무영역별</b-td> <b-td class="text-left">생산직</b-td> <b-td>250</b-td> <b-td>249</b-td> <b-td>264</b-td> <b-td>300</b-td> <b-td>321</b-td>
                                 </b-tr>
                                 <b-tr>
-                                       <b-td class="text-left">영업직</b-td> <b-td>3,331</b-td> <b-td>3,358</b-td> <b-td>3,397</b-td> <b-td>3,406</b-td> <b-td>810</b-td>
+                                       <b-td class="text-left">영업직</b-td> <b-td>3,331</b-td> <b-td>3,358</b-td> <b-td>3,397</b-td> <b-td>3,406</b-td> <b-td>3,402</b-td>
                                 </b-tr>
                                 <b-tr>
                                        <b-td class="text-left">연구직</b-td> <b-td>368</b-td> <b-td>358</b-td> <b-td>361</b-td> <b-td>355</b-td> <b-td>366</b-td>
                                 </b-tr>
                                 <b-tr>
-                                       <b-td class="text-left">사무직</b-td> <b-td>805</b-td> <b-td>779</b-td> <b-td>830</b-td> <b-td>835</b-td> <b-td>862</b-td>
+                                       <b-td class="text-left">사무직</b-td> <b-td>805</b-td> <b-td>779</b-td> <b-td>830</b-td> <b-td>835</b-td> <b-td>868</b-td>
                                 </b-tr>
                                 <b-tr>
                                        <b-td class="text-left">기타</b-td> <b-td>26</b-td> <b-td>27</b-td> <b-td>27</b-td> <b-td>31</b-td> <b-td>31</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">고용형태별</b-td> <b-td class="text-left">정규직</b-td> <b-td>3,936</b-td> <b-td>3,936</b-td> <b-td>4,007</b-td> <b-td>4,627</b-td> <b-td>4,733</b-td>
+                                    <b-td class="text-left" rowspan="2">고용형태별</b-td> <b-td class="text-left">정규직</b-td> <b-td>3,936</b-td> <b-td>3,920</b-td> <b-td>4,007</b-td> <b-td>4,627</b-td> <b-td>4,733</b-td>
                                 </b-tr>
                                 <b-tr>
                                         <b-td class="text-left">비정규직</b-td> <b-td>844</b-td> <b-td>851</b-td> <b-td>872</b-td> <b-td>300</b-td> <b-td>255</b-td>
@@ -405,15 +403,17 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="2" class="text-left">여성관리자<sup> 1)</sup></b-td><b-td class="text-left">실무 관리자</b-td><b-td>54.9%</b-td><b-td>51.2%</b-td>
+                                    <b-td rowspan="2" class="text-left">여성관리자</b-td><b-td class="text-left">실무 관리자<sup> 1)</sup></b-td><b-td>54.9%</b-td><b-td>51.2%</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">관리자</b-td><b-td>37.3%</b-td><b-td>38.5%</b-td>
+                                    <b-td class="text-left">관리자<sup> 2)</sup></b-td><b-td>37.3%</b-td><b-td>38.5%</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
-                            <li> 여성관리자의 범위: 사무직 및 연구직의 경우 팀장 이상, 영업직의 경우 총국장 이상 
+                            <li> 실무관리자 : 사무/연구직 과장 이상, 영업직 지국장 이상
+                            </li>
+                            <li> 관리자 : 사무/연구직 팀장직책 이상, 영업직 총국장 이상
                             </li>
                         </ol>
 
@@ -439,23 +439,23 @@
                         <h7 class="mb-3 gray63">육아휴직 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">남성 육아휴직 사용자 수(명)</b-td><b-td>2</b-td><b-td>7</b-td><b-td>16</b-td><b-td>15</b-td>
+                                    <b-td class="text-left">남성 육아휴직 사용자 수</b-td><b-td class="text-left">명</b-td><b-td>2</b-td><b-td>7</b-td><b-td>16</b-td><b-td>15</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">여성 육아휴직 사용자 수(명)</b-td><b-td>127</b-td><b-td>108</b-td><b-td>136</b-td><b-td>146</b-td>
+                                    <b-td class="text-left">여성 육아휴직 사용자 수</b-td><b-td class="text-left">명</b-td><b-td>127</b-td><b-td>108</b-td><b-td>136</b-td><b-td>146</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">총 육아휴직 사용자 수(명)</b-td><b-td>129</b-td><b-td>115</b-td><b-td>152</b-td><b-td>161</b-td>
+                                    <b-td class="text-left">총 육아휴직 사용자 수</b-td><b-td class="text-left">명</b-td><b-td>129</b-td><b-td>115</b-td><b-td>152</b-td><b-td>161</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">육아휴직 사용 후 업무 복귀율(%)</b-td><b-td>95</b-td><b-td>97</b-td><b-td>99</b-td><b-td>96</b-td>
+                                    <b-td class="text-left">육아휴직 사용 후 업무 복귀율</b-td><b-td class="text-left">%</b-td><b-td>95</b-td><b-td>97</b-td><b-td>99</b-td><b-td>96</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">육아휴직 복귀 후 12개월 유지율(%)</b-td><b-td>85</b-td><b-td>78</b-td><b-td>78</b-td><b-td>87</b-td>
+                                    <b-td class="text-left">육아휴직 복귀 후 12개월 유지율</b-td><b-td class="text-left">%</b-td><b-td>85</b-td><b-td>78</b-td><b-td>78</b-td><b-td>87</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -463,23 +463,23 @@
                         <h7 class="mb-3 gray63">신규 채용, 퇴직 및 근속년수 현황</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left" colspan="2">구분</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">신규 채용(명)</b-td><b-td>668</b-td><b-td>683</b-td><b-td>666</b-td><b-td>595</b-td>
+                                    <b-td class="text-left" colspan="2">신규 채용</b-td><b-td class="text-left">명</b-td><b-td>668</b-td><b-td>683</b-td><b-td>666</b-td><b-td>595</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">퇴직률(%)</b-td><b-td>14.1</b-td><b-td>11.8</b-td><b-td>12.6</b-td><b-td>10.7</b-td>
+                                    <b-td class="text-left" rowspan="3">퇴직률</b-td><b-td></b-td><b-td class="text-left">%</b-td><b-td>14.1</b-td><b-td>11.8</b-td><b-td>12.6</b-td><b-td>10.7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">- 자발적 이직<sup> 1)</sup></b-td><b-td>96.5</b-td><b-td>97.6</b-td><b-td>99.5</b-td><b-td>95.6</b-td>
+                                      <b-td class="text-left">- 자발적 이직률 <sup> 1)</sup></b-td><b-td class="text-left">%</b-td><b-td>96.5</b-td><b-td>97.6</b-td><b-td>99.5</b-td><b-td>95.6</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">- 비자발적 이직<sup> 2)</sup></b-td><b-td>3.5</b-td><b-td>2.4</b-td><b-td>0.5</b-td><b-td>4.4</b-td>
+                                      <b-td class="text-left">- 비자발적 이직률<sup> 2)</sup></b-td><b-td class="text-left">%</b-td><b-td>3.5</b-td><b-td>2.4</b-td><b-td>0.5</b-td><b-td>4.4</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">평균 근속년수(년)</b-td><b-td>6.8</b-td><b-td>7.2</b-td><b-td>7.5</b-td><b-td>8.1</b-td>
+                                    <b-td class="text-left" colspan="2">평균 근속년수</b-td><b-td class="text-left">년</b-td><b-td>6.8</b-td><b-td>7.2</b-td><b-td>7.5</b-td><b-td>8.1</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -636,7 +636,7 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? `'Capacity Enhancement' for Good Growth`:`'착한성장'을 위한 역량 강화`, hash: 'r1',  
+                    title: this.is_ENG? `'Capacity Enhancement' for Growth`:`체계적인 역량 강화`, hash: 'r1',  
                     child: [
                         { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 'r1-1' }, 
                         { title: this.is_ENG? 'Leadership Training': '직무 교육', hash: 'r1-2' }, 

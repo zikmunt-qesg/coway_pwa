@@ -130,20 +130,20 @@ export const state = () => ({
                 },
                 {
                     title: '윤리경영',
-                    link: '/static_page/Ethics-Management',
+                    link: '/static_page/Ethical-Management',
                     child:
                         [
                             {
                                 title: '윤리강령',
-                                link: '/static_page/Ethics-Management#g1'
+                                link: '/static_page/Ethical-Management#g1'
                             },
                             {
                                 title: '윤리진단',
-                                link: '/static_page/Ethics-Management#g2'
+                                link: '/static_page/Ethical-Management#g2'
                             },
                             {
                                 title: '윤리교육',
-                                link: '/static_page/Ethics-Management#g3'
+                                link: '/static_page/Ethical-Management#g3'
                             }
                         ]
                 },
@@ -204,7 +204,7 @@ export const state = () => ({
                         ]
                 },
                 {
-                    title: '친환경 제품 개발과 제품 생애주기 관리',
+                    title: '친환경 제품 개발과 제품 전 과정 관리',
                     link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management',
                     child:
                         [
@@ -213,7 +213,7 @@ export const state = () => ({
                                 link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1'
                             },
                             {
-                                title: '자원효율성 향상과 순환경제 지원',
+                                title: '자원효율성 향상과 순환경제 구축',
                                 link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2'
                             }
                         ]

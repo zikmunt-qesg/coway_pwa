@@ -144,7 +144,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Ethics Management' : '윤리경영'
+            return this.is_ENG? 'Ethical Management' : '윤리경영'
         },
         sub_titles(){
             let temp = [
