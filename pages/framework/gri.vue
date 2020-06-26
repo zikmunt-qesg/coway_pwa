@@ -7,7 +7,7 @@
     </b-row>
     <b-container fluid class="bg-white px-0 mx-0">
 
-        <b-card class="border-0 bg-transparent-gray-50 sticky-top" style="top:67.5px; z-index:888;">
+        <b-card class="border-0 bg-transparent-gray-50 sticky-top pt-lg-1" style="top:64.75px; z-index:888;">
             <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form></b-container>
         </b-card>
     
