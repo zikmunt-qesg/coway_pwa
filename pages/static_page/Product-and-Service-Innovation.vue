@@ -80,7 +80,7 @@
                     <p class="mb-45 mb-md-5"> 코웨이는 깨끗함을 기반으로 고객에게 새로운 가치를 제공하는 대한민국 대표 물 · 공기 기업으로서 본질에 집중하여 위생성을 강화한 ‘한뼘 시루직수 정수기’를 개발하였습니다. 한뼘 시루직수 정수기는 혁신 기술의 집약체로서, 제품의 위생성, 효율성뿐만 아니라 환경적 영향을 최소화하기 위한 코웨이의 노력이 담긴 제품입니다. 또한, 고객 경험을 기반으로 하는 렌탈 비즈니스의 본질적 가치 향상을 위해 고객 맞춤형 제품 및 서비스를 제공하고 있습니다.
                     </p>
                     <b-row class="mb-5">
-                        <b-col class="col-12 col-md-5 mb-45 mb-md-0 pr-0" style="height: 286px;"><b-img src="/images/사각형 15@3x.png" fluid class="h-100"></b-img></b-col>
+                        <b-col class="col-12 col-md-5 mb-45 mb-md-0 pr-0" style="height: 286px;"><b-img src="/images/149@3x.png" fluid class="h-100"></b-img></b-col>
                         <b-col class="col-12 col-md-7 px-3 pl-md-4 px-xl-0"><h6-ancor hash="a1-1" :activated="activated" class="blue5 mb-3">혁신 기술의 집약, 한뼘 시루직수 정수기 개발</h6-ancor>
                             <p>코웨이는 끊임없는 기술 진화를 통해 2019년 ‘한뼘 시루직수 정수기’를 출시하였습니다. 한뼘 시루직수 정수기는 RO멤브레인 필터를 직수화 기술로 구현한 ‘시루직수 정수기’의 업그레이드 버전으로, 오염 물질 제거 성능과 풍부한 유량을 특징으로 합니다. 필터 기술력의 정점인 ‘CIROO 2.0 필터’를 탑재하여, 기존 필터보다 면적을 6배, 정수량을 30배 높인 직수 방식으로 구현하였으며, 물을 마실 때마다 유로에 남은 물을 배출하는 ‘유로 비움 모드’, 24시간 동안 사용하지 않으면 정수기 속 남은 물을 배출하는 ‘자동 배수 시스템’으로 위생성을 향상하였습니다. 또한, 기존 시루직수 정수기(CHP-7300R, CP-7300R) 대비 크기를 약 30% 줄여 공간 활용도를 높였고, 소형 냉각 시스템과 순간 온수 시스템을 적용하여 에너지소비효율을 1등급으로 높여 친환경적 측면도 개선하였습니다.
                             </p>
@@ -114,10 +114,10 @@
                         </b-tbody>                                
                     </b-table-simple>
                     <b-row class="">
-                        <b-col class="col-12 col-sm-6 mb-5 mb-md-0"><b-img src="/images/사각형 66@2x.png" fluid></b-img>
+                        <b-col class="col-12 col-sm-6 mb-5 mb-md-0"><b-img src="/images/150@2x.png" fluid></b-img>
                             <p class="f-80 mt-2">사계절 의류청정기 더블케어 FAD-01S</p>
                         </b-col>
-                        <b-col class="col-12 col-sm-6 "><b-img src="/images/사각형 69@2x.png" fluid></b-img>
+                        <b-col class="col-12 col-sm-6 "><b-img src="/images/151@2x.png" fluid></b-img>
                             <p class="f-80 mt-2">2020 CES</p>
                         </b-col>
                     </b-row>

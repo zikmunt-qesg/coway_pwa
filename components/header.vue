@@ -10,12 +10,12 @@
 
             <div class="d-lg-flex flex-lg-row-reverse justify-content-end justify-content-lg-start jump-width" >
                 <div class="d-flex justify-content-end align-items-center jump-up">                
-                    <b-nav-item class="pl-lg-2 pt-1 pb-1 px-0" style="list-style: none"><b-button-group class="d-flex align-items-center">
+                    <b-nav-item class="pl-lg-3 pt-1 pb-1 px-0 handle-px1" style="list-style: none"><b-button-group class="d-flex align-items-center">
                         <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button><span class="f-85">|</span>
                         <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
                     </b-button-group></b-nav-item>
-                    <b-nav-item class="pl-lg-1 px-0" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
-                    <b-nav-item class="d-none d-lg-block pl-lg-1 color-for-nav" @click.stop="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
+                    <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
+                    <b-nav-item class="d-none d-lg-block color-for-nav" @click.stop="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2" @click="sm_opend = !sm_opend"></b-navbar-toggle>
                 </div>
@@ -233,8 +233,14 @@ export default {
 .color-for-nav,
 .color-for-nav > a{
     transition: color 0.3s ease-in;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+}
+.handle-px1 a {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+.handle-px2 a {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }
 
 .global-nav-lv1:hover,
@@ -301,7 +307,7 @@ export default {
     }
     .jump-up {
         position: absolute;
-        top: 1rem;
+        top: 0.75rem;
         right: 3rem;
     }
     .jump-up li a{

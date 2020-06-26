@@ -27,7 +27,7 @@
                             <div class="my-3 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
                             <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">제품과 서비스의 혁신</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
-                                <b-img src="/images/사각형33.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img> 
+                                <b-img src="/images/153.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img> 
                                 <div class="card-plus" @click="$router.push('/static_page/Product-and-Service-Innovation')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                             <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
                             <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">제품 책임</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
-                                <b-img src="/images/사각형37.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
+                                <b-img src="/images/154.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
                                 <div class="card-plus" @click="$router.push('/static_page/Product-Responsibility')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                             <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
                             <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">정보보안 및 개인정보 보호</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
-                                <b-img src="/images/사각형40.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
+                                <b-img src="/images/155.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
                                 <div class="card-plus"  @click="$router.push('/static_page/Information-Security-and-Personal-Information-Protection')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                             </div>
                         </div>

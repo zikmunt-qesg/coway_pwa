@@ -73,22 +73,26 @@ export default {
 .side-nav-link-2{
     color: $gray7;
     margin-top: 0.2em;
-    transition: all 0.1s ease;
+    transition: all 0.5s ease;
 }
+.side-nav-link-3{
+    color: $gray6;
+    transition: all 0.5s ease;
+}
+.text-underline-hover{
+    transition: all 0.5s ease;
+}
+
 .side-nav-link-2:hover {
     margin-top: 0em;
     text-decoration: underline;
     text-underline-position: under;
 }
-
-.side-nav-link-3{
-    color: $gray6;
-    transition: all 0.1s ease;
-}
 .side-nav-link-3:hover {
     color: $gray7;
+    text-decoration: underline;
+    text-underline-position: under;
 }
-
 .text-underline-hover:hover{
     text-decoration: underline;
     text-underline-position: under;
