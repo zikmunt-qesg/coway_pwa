@@ -362,7 +362,7 @@
 
 
 
-    <b-container v-else class="eng-font-scale">
+    <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
             <h7 class="mb-5 text-center w-100 fw-400">더 나은 세상을 향한 착한 믿음의 실천, 코웨이 지속가능경영 비전</h7>
@@ -377,7 +377,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4 mb-5">
 
                     <div class="border-top-dark pb-2 mb-5"></div>

@@ -366,7 +366,7 @@
     <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->    
     <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
 
-    <b-container v-else class="eng-font-scale">
+    <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
             <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
@@ -381,7 +381,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pr-lg-0">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
                         <b-col class="col-12 col-sm-7 mb-2 mb-sm-0 blue7">
@@ -476,7 +476,7 @@
                     <h7 class="mb-2 gray63">Response system in case of personal information infringement</h7>
                     <p class="mb-5">In the case of a personal information infringement, we have established an accident response system to minimize damage through prompt initial response and to prevent further damage and regularly distributed and trained in relevant departments. First of all, we report the suspected security incident to the information protection department (information operation team) and information protection manager (CISO) immediately after the accident and form an accident response team. Next, we initiate a four-step incident response process: first initial action, second cause analysis, third problem resolution, and fourth follow-up, and report the status to the appropriate authorities. Finally, after establishing and applying preventive measures against recurrence, follow-up management is conducted.
                     </p>
-                    <b-table-simple responsive class="txt-table f-95 fw-300 mb-5">
+                    <b-table-simple responsive class="txt-table f-85 fw-300 mb-5">
                         <b-thead><b-tr>
                             <b-td style="width:22%">Steps</b-td><b-td style="width:20%">Process</b-td><b-td>Action Plan</b-td>
                         </b-tr></b-thead>
@@ -530,7 +530,7 @@
                     </p>
 
                         <h7 class="mb-2 gray63">Information security training participation status<sup>1)</sup></h7>
-                        <b-table-simple responsive class="num-table f-95">
+                        <b-table-simple responsive class="num-table f-85">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2020 목표</b-td>
                             </b-tr></b-thead>
@@ -568,7 +568,7 @@
                         </p>
 
                     <h6-ancor hash="c3-2" :activated="activated" class="blue5 mb-3 font-noto">Major Activities and Performances of Information Security Monitoring in 2019 </h6-ancor>
-                        <b-table-simple responsive class="sep-table f-95 fw-300 font-noto">
+                        <b-table-simple responsive class="sep-table f-85 fw-300 font-noto">
                             <b-tbody>
                                 <b-tr class="bg-blue5 fw-300 text-white">
                                     <b-td class="py-0">Category</b-td><b-td class="py-0">Content</b-td><b-td class="py-0">Major Activities and Performances in 2019</b-td>
@@ -656,25 +656,25 @@
                         </ol>
 
                         <h7 class="mb-3 gray63 font-noto">2019 Personal Information Protection Principle Investigation</h7>
-                        <b-table-simple responsive class="txt-table f-95 font-noto fw-300">
+                        <b-table-simple responsive class="txt-table f-85 font-noto fw-300">
                             <b-thead><b-tr>
-                                <b-td style="width:22%">Category</b-td><b-td>Diagnosis Range</b-td><b-td style="width:20%">Number of anomalies</b-td><b-td style="width:20%">Number of cases with action taken<sup>1)</sup></b-td><b-td>Number of cases with due diligences<sup>2)</sup> conducted</b-td><b-td>Response rate for taking actions after conducting due diligence(%)</b-td>
+                                <b-td style="">Category</b-td><b-td>Diagnosis Range</b-td><b-td style="">Number of anomalies</b-td><b-td style="">Number of cases with action taken<sup>1)</sup></b-td><b-td>Number of cases with due diligences<sup>2)</sup> conducted</b-td><b-td>Response rate for taking actions after conducting due diligence(%)</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
                                     <b-td>Risk examination based on personal information anomaly detection system</b-td>
                                     <b-td>100% <br>(Corporate-wide)</b-td>
                                     <b-td>
-                                        60건 <br>(Basic Information:20, Sensitive Information:20, Information Output:20)
+                                        60 <br>(Basic Information:20, Sensitive Information:20, Information Output:20)
                                     </b-td> 
                                     <b-td>
-                                        14건 <br>(Basic Information:5, Sensitive Information:5,  Information Output:4)
+                                        14 <br>(Basic Information:5, Sensitive Information:5,  Information Output:4)
                                     </b-td>
                                     <b-td>
-                                        28건 실사<br>(10 stations)
+                                        28<br>(10 stations)
                                     </b-td>
                                     <b-td>
-                                        14건/28건 <br>(50% response complete)
+                                        14/28 <br>(50% response complete)
                                     </b-td>
                                 </b-tr>
                             </b-tbody>
@@ -685,7 +685,7 @@
                         </ol>
 
                         <h7 class="mb-3 gray63">Violation of Information Protection Related Laws/Regulations</h7>
-                        <b-table-simple responsive class="num-table f-95 mb-5">
+                        <b-table-simple responsive class="num-table f-85 mb-5">
                             <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
@@ -706,7 +706,7 @@
                         </b-table-simple>
 
                         <h7 class="mb-3 gray63 font-noto">2019 personal information related complaints</h7>
-                        <b-table-simple responsive class="num-table f-95">
+                        <b-table-simple responsive class="num-table f-85">
                             <b-thead><b-tr>
                                 <b-td class="text-left">Subjects of Complaints</b-td><b-td>Number of complaints</b-td><b-td>Number of confirmed complaints</b-td><b-td>Number of handled complaints</b-td>
                             </b-tr></b-thead>

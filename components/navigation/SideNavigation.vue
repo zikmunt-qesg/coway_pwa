@@ -1,6 +1,6 @@
 <template>
-<div class="sticky-top side-nav bg-white line-height-low font-noto" style="z-index:5; top:5.5rem;">
-    <h7 class="mb-3">
+<div class="sticky-top side-nav bg-white font-noto" style="z-index:5; top:5.5rem;">
+    <h7 :class="[this.$store.state.is_ENG==false? 'line-height-low':'line-height-min', 'mb-3']">
         <nuxt-link :to="toLink('T')" :class="[active_color!='' ? new_hover:'', 'side-nav-link-2']" :style="isActive('T') ? new_class : '' "> {{ main_title }}</nuxt-link>
     </h7>
     <div v-for="item in sub_titles" :key="item.id" class="mb-3 f-90 fw-400 line-height-low">
