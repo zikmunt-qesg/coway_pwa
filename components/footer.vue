@@ -108,6 +108,7 @@ export default {
 <style lang="scss">
 a.footer-a {
     color: $gray4;
+    transition: all 0.2s ease;
 }
 a.footer-a:hover {
     color: $gray2;

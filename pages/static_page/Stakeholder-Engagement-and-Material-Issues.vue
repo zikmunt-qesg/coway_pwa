@@ -311,17 +311,17 @@
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
                             <div class="position-relative">
-                                <!-- <div class="fw-500 mr-2 position-absolute">
-                                    <div class="line-height-low">연도별 검증 <br>진행 현황 </div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
-                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
-                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div>
+                                <div class="fw-500 mr-2 position-absolute">
+                                    <div class="line-height-low">제/부품 안전/성능인증 적합성 평가</div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
+                                    <!-- <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
+                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div> -->
                                 </div>
-                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img> -->
+                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img>
                             </div>
                         </b-col>
                     </b-row>      
 
-                    <p class="mb-5">라이프스타일의 변화에 따라 생활 필수 가전제품이 다양화되며, 가정에 및 생활환경에서 사용하는 환경가전 제품의 수도 점차 증가하고 있습니다. 이에 따라 환경가전 제품의 안전성 및 품질 관리의 중요성이 더욱 부각되고 있습니다. 이에 대헤 코웨이는 2019년 한국신뢰성대상 ‘제조업 부문 대상’ 수상 및 ‘서비스 품질 우수상’ 국무총리 표창 수상 등을 통해 제품 책임의 우수성을 증명하였습니다. 코웨이는 전사적 제품 책임 거버넌스로서 CEO 직속 협의체인 무한책임위원회를 운영하며, 품질경영 전사 회의체인 PIC 360(Product Immersion Committee 360)을 운영하여 실행력을 강화하고 있습니다. 또한, TQA센터를 중심으로 제품 신뢰성 시험 표준 개발 및 검증 역량을 강화하고, 제품 안전 인증 공인 시험소를 운영하여 안전 인증 범위를 확대하고 있습니다. 코웨이는 체계적인 제품책임 및 품질경영 시스템을 통해 고객 신뢰를 높이기 위해 지속적으로 노력하겠습니다.
+                    <p class="mb-5"> 코웨이는 고객 신뢰와 안전성 확보를 위해 최초 개발 당시의 규격 안전성 및 성능 유효성이 지속되고 있는지를 평가하고 있습니다. 완제품 단위의 안전 / 성능인증 적합성 평가를 매년 증가시켜, 2018년에는 57건의 안전 성능에 대한 검증을 진행하였고, 2019년에는 인프라를 확대하여 제 / 부품의 인증 및 성능에 대해 약 350건을 평가, 양산품에 대한 관리 수준을 대폭 증가시켰습니다. 2020년에는 400여건 이상의 평가 계획을 수립하여 사회적 이슈 발생 예방은 물론 제품 안전성 강화를 위해 더욱 노력할 것이며, 이를 바탕으로 고객이 안심하고 사용할 수 있는 제품의 제공을 위해 더욱 힘쓰겠습니다.
                     </p>
 
                     <h6-ancor hash="e3-3" :activated="activated" class="parang6 mb-3">정보보호</h6-ancor>

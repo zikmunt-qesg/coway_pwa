@@ -277,7 +277,7 @@
                             </b-tbody> 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
-                            <li> 재활용률: 제품 및 서비스, 사업장에서 발생한 폐기물 중 재활용한 폐기물 총량의 비율
+                            <li> 재활용률: 제품, 서비스, 사업장 폐기물 중 재활용한 폐기물의 비율 ( 재활용한 폐기물 총량 / 입고된 폐기물 총량 x 100 )     
                             </li>  
                         </ol>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
