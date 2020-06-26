@@ -25,22 +25,22 @@ export default {
     backend_host: process.env.BACKEND_HOST || 'http://backend.dataflare.net/api'
   },
   generate: {
-    routes: function () {
-      const fs = require('fs')
-      let blog_route = fs.readdirSync('./assets/content/blog').map(file => {
-        return {
-          route: `/blog/${file.slice(0, -5)}`,
-          payload: require(`./assets/content/blog/${file}`)
-        }
-      })
-      let page_route = fs.readdirSync('./assets/content/page').map(file => {
-        return {
-          route: `/page/${file.slice(0, -5)}`,
-          payload: require(`./assets/content/page/${file}`)
-        }
-      })
-      return blog_route.concat(page_route)
-    }
+    // routes: function () {
+    //   const fs = require('fs')
+    //   let blog_route = fs.readdirSync('./assets/content/blog').map(file => {
+    //     return {
+    //       route: `/blog/${file.slice(0, -5)}`,
+    //       payload: require(`./assets/content/blog/${file}`)
+    //     }
+    //   })
+    //   let page_route = fs.readdirSync('./assets/content/page').map(file => {
+    //     return {
+    //       route: `/page/${file.slice(0, -5)}`,
+    //       payload: require(`./assets/content/page/${file}`)
+    //     }
+    //   })
+    //   return blog_route.concat(page_route)
+    // }
   },
   /*
    ** Customize the progress-bar color
