@@ -19,7 +19,7 @@
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
             <b-container class="px-0">
-                <section class="bg-white px-4 py-4 mb-5">
+                <section class="bg-white px-4 py-4">
 
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">이해관계자 참여 및 중요 주제</h4-ancor>
@@ -299,7 +299,7 @@
 
                     <h6-ancor hash="e3-2" :activated="activated" class="parang6 mb-3">제품 안전 및 신뢰성 강화</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3 pt-1">
-                        <b-col class="col-12 col-md-4 pr-md-3 mb-3 mb-md-0">
+                        <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
                             <ul class="custom-ul f-95 pt-2 fw-300">
                                 <li>제품 책임 거버넌스 – 무한책임위원회, PIC 360, TQA 센터</li>
@@ -307,14 +307,12 @@
                                 <li>안전인증 확대 및 고객 안심 서비스</li>
                             </ul>
                         </b-col>
-                        <b-col class="col-12 col-md-8 pl-md-4 position-relative">
+                        <b-col class="col-12 col-md-7 pl-md-4 position-relative">
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
                             <div class="position-relative">
-                                <div class="fw-500 mr-2 position-absolute">
+                                <div class="col-6 col-sm-4 col-md-6 fw-500 mr-2 position-absolute">
                                     <div class="line-height-low">제/부품 안전/성능인증 적합성 평가</div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
-                                    <!-- <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
-                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div> -->
                                 </div>
                                 <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img>
                             </div>
@@ -326,20 +324,20 @@
 
                     <h6-ancor hash="e3-3" :activated="activated" class="parang6 mb-3">정보보호</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
-                        <b-col class="col-12 col-md-4 pr-md-3 mb-3 mb-md-0">
-                            <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
+                        <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
+                            <div class="parang8-box py-1 fw-500 text-center mb-2 mb-md-3" style="width:156px">Actvities</div>
                             <ul class="custom-ul f-95 pt-2 fw-300">
                                 <li>정보보호 및 개인정보보호 원칙 기반의 철저한 관리</li>
                                 <li>글로벌 정보보호 규제 대응</li>
                                 <li>시스템 기반 모니터링 및 실사</li>
                             </ul>
                         </b-col>
-                        <b-col class="col-12 col-md-8 pl-md-4 position-relative">
+                        <b-col class="col-12 col-md-7 pl-md-4 position-relative">
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
-                            <div class="d-md-flex pt-2">
-                                <div class="fw-500 mr-3 mb-3 mb-md-0">임직원 정보보호 교육 참여율</div>
-                                <div><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
+                            <div class="d-lg-flex pt-2">
+                                <div class="fw-500 mb-3">임직원 정보보호 교육 참여율</div>
+                                <div class="text-right" ><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
                             </div>
                         </b-col>
                     </b-row> 

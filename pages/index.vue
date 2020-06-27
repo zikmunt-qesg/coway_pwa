@@ -1,9 +1,84 @@
 <template>
 <div class="position-relative min-vh-100">
     <logger title="메인"></logger>
-    <b-row no-gutters class="py-5 bg-blue3 mb-5">
+
+    <!-- <b-row no-gutters class="py-5 bg-blue3 mb-5">
         <b-col class="py-5 my-5"><div style="height:20vw;"></div></b-col>
-    </b-row>
+    </b-row> -->
+    <b-carousel id="intro-carousel" v-view="viewHandler" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+        <b-carousel-slide><template v-slot:img>
+            <div class="bg-i-img i1_bg" >
+                <div class="position-relative carousel-height overflow-hidden">
+                    <div class="position-absolute d-none d-md-block pr-lg-5 mr-xl-5 mr-md-m-5" style="top:0; right:0; height: 87%; max-width: 65%;">
+                        <transition name="tran-1"> <b-img src="/images/i1_1.png" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
+                    </div>
+                    <div class="position-absolute d-none d-lg-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
+                        <transition name="tran-4"> <b-img src="/images/i1_4.png" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
+                    </div>
+                    <div class="position-absolute row d-none d-lg-flex w-100" style="top: 33%; left: 0; height: 29%;">
+                        <div class="col-lg-2 col-xl-3">&nbsp;</div>
+                        <div class="col-lg-10 col-xl-9 h-100"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="h-100"></b-img> </transition></div>
+                    </div>
+                    <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 54%;">
+                        <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 pl-lg-5 ml-lg-2 ml-xl-5"></b-img> </transition>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-7 col-xl-6 mt-5 text-right text-md-center position-absolute d-flex">
+                        <div class="col-3 col-md-1 col-xl-2"></div>
+                        <transition name="tran-txt"> <div v-if="slide==0 && visible" class="col-9 col-md-11 col-xl-10 fw-300 letter-narrow carousel-title">코웨이는 빅데이터, 인공지능, IoT 등 디지털 기반의 혁신을 통해 변화를 선도하고 고객 경험의 가치를 극대화합니다.</div> </transition>
+                    </div>
+                </div>
+            </div>
+        </template></b-carousel-slide>
+        <b-carousel-slide><template v-slot:img>
+            <div class="bg-i-img i2_bg">
+                <div class="position-relative carousel-height overflow-hidden"> 
+                    <div class="position-absolute row" style="top: 29%; left: 0; height: 31%; width:92%">
+                        <div class="col-lg-4 col-xl-5">&nbsp;</div>
+                        <div class="col-lg-8 col-xl-7 h-100"><transition name="ran-1"> <b-img src="/images/i2_1.png" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
+                    </div>
+                    <div class="position-absolute d-none d-lg-block pl-lg-2 ml-xl-5" style="bottom: 27%; left: 0; height: 35%;">
+                        <transition name="ran-2"> <b-img src="/images/i2_2.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
+                    </div>
+                    <div class="position-absolute row w-100 pl-xl-4" style="top:21%; left: 0; height: 17%;">
+                        <div class="col-lg-2 col-xl-3">&nbsp;</div>
+                        <div class="col-lg-10 col-xl-9 h-100"><transition name="ran-3"> <b-img src="/images/i2_3.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                    </div>
+                    <div class="position-absolute row w-100" style="bottom: 1.4%; left: 0; height: 37%;">
+                        <div class="col-lg-2 col-xl-2">&nbsp;</div>
+                        <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/i2_4.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                    </div>
+                    <div class="position-absolute ml-xl-2 row w-100" style="bottom: 22%; left: 0; height:15%;">
+                        <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
+                    </div>
+                    <div class="mt-5 pt-2 pt-xl-3 row w-100">
+                        <div class="col-md-2 col-lg-5 col-xl-6"></div>
+                        <div class="col-12 text-right text-lg-left col-md-10 col-lg-7 col-xl-6 pl-xl-5"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow carousel-title pl-xl-2">코웨이는 물과 공기의 본질을 연구하는 전문기업으로,</div> </transition></div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-0 col-lg-6 col-xl-7"></div> 
+                        <div class="col-12 text-right text-lg-left col-lg-6 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow carousel-title">혁신적이고 안정한 제품을 끊임없이 개발합니다.</div> </transition></div>
+                    </div>
+                </div>
+            </div>
+        </template></b-carousel-slide>
+        <b-carousel-slide><template v-slot:img>
+            <div class="bg-i-img i3_bg">
+                <div class="position-relative carousel-height">
+                    
+                </div>
+            </div>
+        </template></b-carousel-slide>
+    </b-carousel>
+
+
+    <!-- intro 영역 경계 -->
+    <!-- intro 영역 경계 -->
+    <!-- intro 영역 경계 -->
+    <!-- intro 영역 경계 -->
+    <!-- intro 영역 경계 -->
+    <!-- intro 영역 경계 -->
+
+
     <b-container>
         <hr class="mb-4">
         <h1 class="text-center mb-3 fw-300 font-noto"> SUSTAINABILITY ISSUES 2020</h1>
@@ -68,6 +143,12 @@
             </b-row>
         </section>
         <hr class="mb-5 py-5">
+
+        <!-- KEY FIGURES 2019 -->
+        <!-- KEY FIGURES 2019 -->
+        <!-- KEY FIGURES 2019 -->
+
+
         <h1 class="text-center mb-3 fw-300 font-noto"> KEY FIGURES 2019</h1>
         <section>
             <b-row class="mb-4">
@@ -176,7 +257,6 @@
                     <div class="d-flex justify-content-between align-items-start mb-md-4">
                         <div class="blue7 main1-card-num letter-narrow-lg fw-300"><animated-number :value="99.1"></animated-number>%</div>
                         <div class="text-right pl-3 pb-2 pb-md-0" style="max-width: 109px"><b-img src="/images/107_1.svg" fluid ></b-img></div>
-                        <!-- <div class="temp-icon6 mt-1"><b-img src="/images/구성 요소3_1.png" fluid class="h-100"></b-img></div> -->
                     </div>
                     <h7 class="blue7 fw-600 mb-2 pt-md-4 pt-lg-0"> 폐기물 재활용률 </h7>
                     <div class="gray6 letter-narrow pr-xl-3"> 코웨이는 제품 생산 및 사용 후 폐기 과정에서 발생하는 폐기물과 폐제품을 재활용하여 순환경제 구축에 기여하고 있습니다. 
@@ -209,7 +289,6 @@
             <div class="card-plus-news" @click="$router.push('/news')"> <div class="bar-news horizontal"></div> <div class="bar-news vertical"></div> </div>
         </div>
         <hr class="mb-5 space-p75">
-        <!-- <back-to-top></back-to-top> -->
     </b-container>    
 </div>
 </template>
@@ -227,7 +306,9 @@ export default {
     data() {
         return {
             news_img_overlay: false,       
-
+            slide: 0,
+            sliding: null,
+            visible: false
         }
     },
     transition(to, from) {
@@ -239,22 +320,15 @@ export default {
     async asyncData({ store }) {
         if (store.state.articles.is_articles_loaded != true) {
         let articles = await store.dispatch('articles/readArticles')
-        
-        return {
-            main_articles: ih.deepCopy(articles.slice(0,3))
-        }
+            return { main_articles: ih.deepCopy(articles.slice(0,3)) }
         }
         else {
-            return {
-                main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))
-            }
+            return { main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))}
         }
     },
     head() {
         return {
-            script: [
-                { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
-            ]
+            script: [{ src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }]
         };
     },
     computed: {
@@ -276,7 +350,23 @@ export default {
         },
         hideImgOverlay(){
             this.news_img_overlay =false
-        }
+        },
+        onSlideStart(slide) {
+            this.sliding = true
+        },
+        onSlideEnd(slide) {
+            this.sliding = false
+        },
+        viewHandler(event){
+            if(event.type == 'progress' ){
+                if( event.percentCenter >= 0 && event.percentCenter <= 0.6 ) { 
+                    this.visible = true
+                }else this.visible =false
+            }
+            if(event.type == 'exit'){
+                this.visible = false
+            }
+        },
     },
     created(){
         if (!this.$isServer) {
@@ -308,6 +398,7 @@ export default {
                 })
             }
         })
+        this.visible = true
     },
 
 };

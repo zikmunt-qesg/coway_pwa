@@ -25,7 +25,7 @@
 
             <hr class="space-p25">
             <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Universal Standards (GRI 100) </div>
-            <b-table-simple class="txt-table f-95" responsive>
+            <b-table-simple class="txt-table f-95" responsive hover>
             <b-thead>
                 <b-tr>
                 <b-td style="width:16%;">구분</b-td>
@@ -66,7 +66,7 @@
             <hr class="space-p25">
             <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Econimic (GRI 200) </div>
 
-            <b-table-simple class="txt-table f-95" responsive>
+            <b-table-simple class="txt-table f-95" responsive hover>
             <b-thead>
                 <b-tr>
                 <b-td style="width:16%;">구분</b-td>
@@ -108,7 +108,7 @@
             <hr class="space-p25">
 
             <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Environmental (GRI 300) </div>
-            <b-table-simple class="txt-table f-95" responsive>
+            <b-table-simple class="txt-table f-95" responsive hover>
             <b-thead>
                 <b-tr>
                 <b-td style="width:16%;">구분</b-td>
@@ -150,7 +150,7 @@
             <hr class="space-p25">
             <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Social (GRI 400) </div>
 
-            <b-table-simple class="txt-table f-95" responsive>
+            <b-table-simple class="txt-table f-95" responsive hover>
             <b-thead>
                 <b-tr>
                 <b-td style="width:16%;">구분</b-td>

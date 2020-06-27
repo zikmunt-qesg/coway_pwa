@@ -1,0 +1,33 @@
+<svg id="구성_요소_13_1" data-name="구성 요소 13 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="197.206" height="103.83" viewBox="0 0 197.206 103.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.2;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #1c6376;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_84" data-name="사각형 84" class="cls-1" width="197.206" height="103.83" transform="translate(109.397 2070.11)"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_109" data-name="그룹 109" class="cls-2" transform="translate(-109.397 -2070.11)">
+    <g id="그룹_108" data-name="그룹 108">
+      <g id="그룹_107" data-name="그룹 107" class="cls-3">
+        <rect id="사각형_83" data-name="사각형 83" class="cls-4" width="179.207" height="95.831" transform="translate(118.397 2077.112)"/>
+      </g>
+    </g>
+  </g>
+</svg>

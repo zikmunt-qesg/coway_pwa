@@ -90,7 +90,7 @@
                     <p class="mb-45">코웨이는 정보보호위원회를 중심으로 정보보호 조직을 운영하고 있습니다. 정보보호위원회는 IT 센터장을 중심으로 운영되는 임원급 위원회로, 각 사업부문별 부문장이 정보보호 위원으로 참여합니다. 정보보호위원회는 정보보안 및 개인정보 보호 영역의 통합관리체계를 구축하여 관리의 효율성을 높이고 있습니다. 정보보호 실무는 인프라보안팀을 중심으로 추진하고 있으며, 조직 내 개인정보보호 관리자를 두어 명확한 업무 분담 하에 전 임직원이 자율적이고 능동적으로 정보보호체계에 참여할 수 있도록 노력하고 있습니다.  
                     </p>
 
-                    <b-img src="/images/85_1.svg" fluid></b-img>
+                    <hj-img src="/images/85_1.svg" fluid></hj-img>
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">정보보호 관리체계</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>

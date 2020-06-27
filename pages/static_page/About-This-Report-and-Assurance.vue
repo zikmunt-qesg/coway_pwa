@@ -47,22 +47,22 @@
                     </p>
 
                     <h7 class="parang7 f-120 fw-500 bg-white">문의처</h7>
-                    <b-table-simple responsive class="txt-table f-95">
-                                    <b-thead><b-tr>
-                                        <b-td class="text-left"></b-td><b-td></b-td>
-                                    </b-tr></b-thead>
-                                    <b-tr>
-                                        <b-td>주소</b-td>
-                                        <b-td>서울특별시 중구 서소문로 88 중앙일보빌딩 11층 ~ 17층</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>담당</b-td>
-                                        <b-td>CSV팀</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <b-td>이메일</b-td>
-                                        <b-td>shh@coway.co.kr</b-td>
-                                    </b-tr>
+                    <b-table-simple responsive hover class="txt-table f-95">
+                            <b-thead><b-tr>
+                                <b-td class="text-left"></b-td><b-td></b-td>
+                            </b-tr></b-thead>
+                            <b-tbody><b-tr>
+                                <b-td>주소</b-td>
+                                <b-td>서울특별시 중구 서소문로 88 중앙일보빌딩 11층 ~ 17층</b-td>
+                            </b-tr>
+                            <b-tr>
+                                <b-td>담당</b-td>
+                                <b-td>CSV팀</b-td>
+                            </b-tr>
+                            <b-tr>
+                                <b-td>이메일</b-td>
+                                <b-td>sustainability@coway.co.kr</b-td>
+                            </b-tr></b-tbody>
                     </b-table-simple> 
                 </b-card>
             </b-col>
