@@ -559,13 +559,13 @@
     top:0;
 }
 .i1_bg {
-    background-image: url( "/images/i1_bg.svg" );
+    background-image: url( "/images/i1_bg.png" );
 }
 .i2_bg {
-    background-image: url( "/images/i2_bg.svg" );
+    background-image: url( "/images/i2_bg.png" );
 }
 .i3_bg {
-    background-image: url( "/images/i3_bg.svg" );
+    background-image: url( "/images/i3_bg.png" );
 }
 .carousel-height{
     height: 72vh;
@@ -621,16 +621,16 @@
 }
 
 .tran-1-enter-active, .tran-1-leave-active {
-    transition: all 0.6s ease-in 0.2s;
+    transition: all 0.8s ease-in 0.2s;
 }
 .tran-4-enter-active, .tran-4-leave-active {
-    transition: all 0.4s ease 1s;
+    transition: all 0.6s ease 1s;
 }
 .tran-2-enter-active, .tran-2-leave-active {
-    transition: all 0.6s ease 0.5s;
+    transition: all 0.8s ease 0.5s;
 }
 .tran-3-enter-active, .tran-3-leave-active {
-    transition: all 0.4s ease 0.8s;
+    transition: all 0.6s ease 0.8s;
 }
 
 .tran-txt0-enter, .tran-txt0-leave-to, 
@@ -638,7 +638,7 @@
     opacity: 0;
 }
 .tran-txt0-enter-active, .tran-txt0-leave-active {
-    transition: all 0.7s ease 1.4s;
+    transition: all 0.8s ease 1.4s;
 }
 .tran-txt1-enter-active, .tran-txt1-leave-active {
     transition: all 0.8s ease 1.7s;

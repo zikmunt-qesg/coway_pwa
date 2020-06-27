@@ -87,11 +87,11 @@
                     </div>
                     <div class="mt-4 pt-3 row w-100">
                         <div class="col-lg-1"></div> 
-                        <div class="text-right text-md-left col-lg-6 col-xl-6 pl-xl-5 ml-xl-5"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 letter-narrow carousel-title">코웨이는 미래세대를 위해 깨끗한 물과 공기를 순환하여 </div> </transition></div>
+                        <div class="text-right text-md-left col-lg-6 col-xl-6 pl-xl-5 ml-xl-5"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow carousel-title">코웨이는 미래세대를 위해 깨끗한 물과 공기를 순환하여 </div> </transition></div>
                     </div>  
                     <div class="row w-100">
                         <div class="col-md-1 col-lg-2 col-xl-2"></div> 
-                        <div class="col-md-11 text-right text-md-left col-lg-6 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==2 && visible" class="gray65 letter-narrow carousel-title"> 환경영향을 최소화하고 지속가능한 미래를 구현합니다.</div> </transition></div>
+                        <div class="col-md-11 text-right text-md-left col-lg-6 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow carousel-title"> 환경영향을 최소화하고 지속가능한 미래를 구현합니다.</div> </transition></div>
                     </div>                                        
                 </div>
             </div>
