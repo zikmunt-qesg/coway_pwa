@@ -9,7 +9,7 @@
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
-                    <div class="position-absolute d-none d-md-block pr-lg-5 mr-xl-5 mr-md-m-5" style="top:0; right:0; height: 87%; max-width: 65%;">
+                    <div class="position-absolute d-md-block pr-lg-5 mr-xl-5 mr-md-m-5" style="top:0; right:0; height: 87%; max-width: 65%;">
                         <transition name="tran-1"> <b-img src="/images/i1_1.png" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
                     </div>
                     <div class="position-absolute d-none d-lg-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
@@ -22,9 +22,13 @@
                     <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 54%;">
                         <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 pl-lg-5 ml-lg-2 ml-xl-5"></b-img> </transition>
                     </div>
-                    <div class="col-12 col-md-8 col-lg-7 col-xl-6 mt-5 text-right text-md-center position-absolute d-flex">
-                        <div class="col-3 col-md-1 col-xl-2"></div>
-                        <transition name="tran-txt"> <div v-if="slide==0 && visible" class="col-9 col-md-11 col-xl-10 fw-300 letter-narrow carousel-title">코웨이는 빅데이터, 인공지능, IoT 등 디지털 기반의 혁신을 통해 변화를 선도하고 고객 경험의 가치를 극대화합니다.</div> </transition>
+                    <div class="mt-5 text-left text-lg-center row w-100">
+                        <div class="col-0 col-lg-1 col-xl-1"></div>
+                        <div class="col-11 col-sm-9 col-md-12 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-6"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow carousel-title">코웨이는 빅데이터, 인공지능, IoT 등 디지털 기반의 혁신을 통해</div> </transition></div> 
+                    </div>
+                    <div class="text-left text-lg-center row w-100">
+                        <div class="col-0 col-lg-1 col-xl-1"></div>
+                        <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-6"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow carousel-title">변화를 선도하고 고객 경험의 가치를 극대화합니다.</div> </transition></div> 
                     </div>
                 </div>
             </div>
@@ -32,38 +36,44 @@
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i2_bg">
                 <div class="position-relative carousel-height overflow-hidden"> 
-                    <div class="position-absolute row" style="top: 29%; left: 0; height: 31%; width:92%">
-                        <div class="col-lg-4 col-xl-5">&nbsp;</div>
-                        <div class="col-lg-8 col-xl-7 h-100"><transition name="ran-1"> <b-img src="/images/i2_1.png" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
+                    <div class="position-absolute row w-100" style="top: 29%; left: 0; height: 31%; width:92%">
+                        <div class="col-sm-1 col-md-3 col-lg-4 col-xl-5">&nbsp;</div>
+                        <div class="col-sm-10 mt-2 mt-md-0 col-md-7 col-lg-8 col-xl-7 h-100"><transition name="ran-1"> <b-img src="/images/i2_1.png" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute d-none d-lg-block pl-lg-2 ml-xl-5" style="bottom: 27%; left: 0; height: 35%;">
+                    <div class="position-absolute d-none d-lg-block pl-md-2 ml-xl-5" style="bottom: 27%; left: 0; height: 35%;">
                         <transition name="ran-2"> <b-img src="/images/i2_2.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="position-absolute row w-100 pl-xl-4" style="top:21%; left: 0; height: 17%;">
-                        <div class="col-lg-2 col-xl-3">&nbsp;</div>
-                        <div class="col-lg-10 col-xl-9 h-100"><transition name="ran-3"> <b-img src="/images/i2_3.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                        <div class="col-md-2 col-lg-2 col-xl-3">&nbsp;</div>
+                        <div class="col-md-8 col-lg-10 col-xl-9 h-100"><transition name="ran-3"> <b-img src="/images/i2_3.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute row w-100" style="bottom: 1.4%; left: 0; height: 37%;">
                         <div class="col-lg-2 col-xl-2">&nbsp;</div>
                         <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/i2_4.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute ml-xl-2 row w-100" style="bottom: 22%; left: 0; height:15%;">
+                    <div class="position-absolute ml-lg-2 row w-100" style="bottom: 22%; left: 0; height:15%;">
                         <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="mt-5 pt-2 pt-xl-3 row w-100">
-                        <div class="col-md-2 col-lg-5 col-xl-6"></div>
-                        <div class="col-12 text-right text-lg-left col-md-10 col-lg-7 col-xl-6 pl-xl-5"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow carousel-title pl-xl-2">코웨이는 물과 공기의 본질을 연구하는 전문기업으로,</div> </transition></div>
+                        <div class="col-0 col-sm-2 col-md-2 col-lg-5 col-xl-6"></div>
+                        <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-7 col-xl-6 pl-5 pl-sm-4 pl-xl-5"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow carousel-title pl-xl-2">코웨이는 물과 공기의 본질을 연구하는 전문기업으로,</div> </transition></div>
                     </div>
                     <div class="row w-100">
-                        <div class="col-0 col-lg-6 col-xl-7"></div> 
-                        <div class="col-12 text-right text-lg-left col-lg-6 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow carousel-title">혁신적이고 안정한 제품을 끊임없이 개발합니다.</div> </transition></div>
+                        <div class="col-0 col-sm-2 col-md-1 col-lg-6 col-xl-7"></div> 
+                        <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-6 pl-5 pl-sm-4 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow carousel-title">혁신적이고 안정한 제품을 끊임없이 개발합니다.</div> </transition></div>
                     </div>
                 </div>
             </div>
         </template></b-carousel-slide>
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i3_bg">
-                <div class="position-relative carousel-height">
+                <div class="position-relative carousel-height overflow-hidden">
+                    <div class="position-absolute" style="top:32%; right:0; height: 54%; max-width: 65%;">
+                        <transition name="tran-1"> <b-img src="/images/i3_1.png" v-if="slide==2 && visible" fluid class="" style="max-height: 100%;"></b-img> </transition>
+                    </div>
+                    <!-- <div class="position-absolute d-none d-lg-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
+                        <transition name="tran-4"> <b-img src="/images/i1_4.png" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
+                    </div> -->
                     
                 </div>
             </div>

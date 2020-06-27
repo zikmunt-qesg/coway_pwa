@@ -559,13 +559,13 @@
     top:0;
 }
 .i1_bg {
-    background-image: url( "/images/i1_bg@3x.png" );
+    background-image: url( "/images/i1_bg.svg" );
 }
 .i2_bg {
     background-image: url( "/images/i2_bg.svg" );
 }
 .i3_bg {
-    background-image: url( "/images/i3_bg@3x.png" );
+    background-image: url( "/images/i3_bg.svg" );
 }
 .carousel-height{
     height: 72vh;
@@ -611,30 +611,35 @@
     opacity: 0;
     transform: translateX(20px);
 }
-.tran-2-enter, .tran-2-leave-to,
-.tran-3-enter, .tran-3-leave-to {
+.tran-2-enter, .tran-2-leave-to{
     opacity: 0;
     transform: translateX(-20px);
 }
-
+.tran-3-enter, .tran-3-leave-to {
+    opacity: 0;
+    transform: translateX(-40px);
+}
 .tran-1-enter-active, .tran-1-leave-active {
-    transition: all 1s ease 0.6s;
+    transition: all 0.8s ease 0.2s;
 }
 .tran-4-enter-active, .tran-4-leave-active {
-    transition: all 1s ease 0.8s;
+    transition: all 1s ease 0.5s;
 }
 .tran-2-enter-active, .tran-2-leave-active {
-    transition: all 0.4s ease 0.6s;
+    transition: all 0.8s ease 0.2s;
 }
 .tran-3-enter-active, .tran-3-leave-active {
-    transition: all 1s ease 1.2s;
+    transition: all 1s ease 0.5s;
 }
 
-.tran-txt-enter, .tran-txt-leave-to {
+.tran-txt0-enter, .tran-txt0-leave-to, 
+.tran-txt1-enter, .tran-txt1-leave-to{
     opacity: 0;
-    transform: translateY(10px);
 }
-.tran-txt-enter-active, .tran-txt-leave-active {
+.tran-txt0-enter-active, .tran-txt0-leave-active {
+    transition: all 1s ease 1s;
+}
+.tran-txt1-enter-active, .tran-txt1-leave-active {
     transition: all 1s ease 1.5s;
 }
 
