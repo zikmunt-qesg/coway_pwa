@@ -606,30 +606,31 @@
 }
 
 // 첫번재 carousel
-.tran-1-enter, .tran-1-leave-to,
-.tran-4-enter, .tran-4-leave-to {
+.tran-1-enter, .tran-1-leave-to {
     opacity: 0;
-    transform: translateX(20px);
+    transform: translateX(40px);
 }
 .tran-2-enter, .tran-2-leave-to{
     opacity: 0;
-    transform: translateX(-20px);
+    transform: translateX(-15px);
 }
-.tran-3-enter, .tran-3-leave-to {
+.tran-3-enter, .tran-3-leave-to,
+.tran-4-enter, .tran-4-leave-to {
     opacity: 0;
-    transform: translateX(-40px);
+    // transform: translateX(-40px);
 }
+
 .tran-1-enter-active, .tran-1-leave-active {
-    transition: all 0.8s ease 0.2s;
+    transition: all 0.6s ease-in 0.2s;
 }
 .tran-4-enter-active, .tran-4-leave-active {
-    transition: all 1s ease 0.5s;
+    transition: all 0.4s ease 1s;
 }
 .tran-2-enter-active, .tran-2-leave-active {
-    transition: all 0.8s ease 0.2s;
+    transition: all 0.6s ease 0.5s;
 }
 .tran-3-enter-active, .tran-3-leave-active {
-    transition: all 1s ease 0.5s;
+    transition: all 0.4s ease 0.8s;
 }
 
 .tran-txt0-enter, .tran-txt0-leave-to, 
@@ -637,10 +638,10 @@
     opacity: 0;
 }
 .tran-txt0-enter-active, .tran-txt0-leave-active {
-    transition: all 1s ease 1s;
+    transition: all 0.7s ease 1.4s;
 }
 .tran-txt1-enter-active, .tran-txt1-leave-active {
-    transition: all 1s ease 1.5s;
+    transition: all 0.8s ease 1.7s;
 }
 
 // 두번째 carousel
@@ -658,6 +659,7 @@
 .ran-3-enter-active, .ran-3-leave-active {
     transition: all 1.5s ease 0.7s;
 }
+
 .tran-txt2-enter, .tran-txt2-leave-to {
     opacity: 0;
     transform: translateX(-20px);
@@ -672,3 +674,5 @@
 .tran-txt3-enter-active, .tran-txt3-leave-active {
     transition: all 1s ease 1.7s;
 }
+
+// 세번째 carousel
