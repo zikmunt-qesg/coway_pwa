@@ -3,7 +3,7 @@
     <logger title="메인"></logger>
 
 
-    <b-carousel id="intro-carousel" v-view="viewHandler" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+    <b-carousel id="intro-carousel" v-view="viewHandler" v-model="slide" :interval="4000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
@@ -96,14 +96,12 @@
         </template></b-carousel-slide>
     </b-carousel>
 
-
     <!-- intro 영역 경계 -->
     <!-- intro 영역 경계 -->
     <!-- intro 영역 경계 -->
     <!-- intro 영역 경계 -->
     <!-- intro 영역 경계 -->
     <!-- intro 영역 경계 -->
-
 
     <b-container>
         <hr class="mb-4">
@@ -128,8 +126,8 @@
                             <div class="my-3 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
                             <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">제품과 서비스의 혁신</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
-                                <b-img src="/images/153.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img> 
-                                <div class="card-plus" @click="$router.push('/static_page/Product-and-Service-Innovation')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
+                                <b-img src="/images/153.png" rounded="circle" class="main1-card-img mt-2 mb-3 d-md-none d-lg-block"></b-img> 
+                                <div class="card-plus mt-md-4 mt-lg-0" @click="$router.push('/static_page/Product-and-Service-Innovation')"><div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                             </div>
                         </div>
                     </b-card>
@@ -144,8 +142,8 @@
                             <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
                             <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">제품 책임</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
-                                <b-img src="/images/154.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
-                                <div class="card-plus" @click="$router.push('/static_page/Product-Responsibility')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
+                                <b-img src="/images/154.png" rounded="circle" class="main1-card-img mt-2 mb-3 d-md-none d-lg-block"></b-img>
+                                <div class="card-plus mt-md-4 mt-lg-0" @click="$router.push('/static_page/Product-Responsibility')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                             </div>
                         </div>
                     </b-card>
@@ -160,8 +158,8 @@
                             <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
                             <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">정보보안 및 개인정보 보호</div></div>
                             <div class="d-flex justify-content-between align-items-center"> 
-                                <b-img src="/images/155.png" rounded="circle" class="main1-card-img mt-2 mb-3"></b-img>
-                                <div class="card-plus"  @click="$router.push('/static_page/Information-Security-and-Personal-Information-Protection')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
+                                <b-img src="/images/155.png" rounded="circle" class="main1-card-img mt-2 mb-3 d-md-none d-lg-block"></b-img>
+                                <div class="card-plus mt-md-4 mt-lg-0"  @click="$router.push('/static_page/Information-Security-and-Personal-Information-Protection')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
                             </div>
                         </div>
                     </b-card>
@@ -510,7 +508,7 @@ export default {
 
 .card-plus {
     width: 3em; height: 3em; position: relative; 
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 .card-plus:hover {
