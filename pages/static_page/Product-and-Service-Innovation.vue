@@ -223,9 +223,9 @@
                             </p>
                         </b-col>
                         <b-col class="col-12 col-md-6 d-flex flex-row flex-md-column align-items-center">
-                            <div class="text-center d-none d-sm-block mb-md-4 px-md-5"  style="max-width:330px;"><b-img src="/images/33@3x.png" fluid></b-img></div>
+                            <div :class="isIE ? 'd-none' :'text-center d-none d-sm-block mb-md-4 px-md-5'" style="max-width:330px;"><b-img src="/images/33@3x.png" fluid></b-img></div>
                             <div class="position-relative pt-md-4">
-                                <div class="position-absolute " style="margin-top: -1.75rem;">
+                                <div class="position-absolute" style="margin-top: -1.75rem;">
                                     <h7 class="mb-2 pt-3 pt-sm-0">연구개발 투자 및 성과</h7>
                                     <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:12px;" class="mr-1 bg-blue5"></div> 연구개발 비용 (단위: 백만 원)</div>
                                     <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 매출액 대비 비용(단위: %)</div>
@@ -318,6 +318,16 @@ export default {
                 }
             ]
             return temp            
+        },
+        isIE() {
+            if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) )
+                {
+                    return true
+                }
+            else
+                { 
+                    return false
+                }
         }
     },
     methods:{
