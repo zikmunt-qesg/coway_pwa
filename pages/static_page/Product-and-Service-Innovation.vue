@@ -213,7 +213,7 @@
                         </b-col>
                     </b-row>
                     <b-row class="mb-5">
-                        <b-col class="col-12 col-md-6 mb-3 mb-md-0">
+                        <b-col class="col-12 col-md-6 mb-4 mb-md-0">
                         <h6-ancor hash="a3-2" :activated="activated" class="blue5 mb-3">오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입</h6-ancor>
                             <p class="mb-3"> 코웨이는 미국의 전자 상업회사 아마존(Amazon)과의 협업을 통해 고객의 제품 사용 환경을 강화하였습니다. 사용환경에서 알맞은 시기에 필터를 교체하는 것이 필수적인 공기청정기 제품에 아마존의 인공지능 플랫폼 알렉사(Alexa)를 도입하여 고객 편의성을 극대화하였습니다. 2017년 코웨이 공기청정기 에어메가(Airmega)에 아마존의 알렉사(Alexa)를 처음 도입하였으며, 2018년에는 아마존 소모품 자동 배송 시스템인 DRS(Dash Replenishment Through Alexa)를 적용하였습니다. 이를 기반으로 2019년 미주 시장에서의 코웨이 제품 판매량은 2017년 대비 약 267% 성장한 12만대를 기록하였습니다.
                             </p>
@@ -223,10 +223,10 @@
                             </p>
                         </b-col>
                         <b-col class="col-12 col-md-6 d-flex flex-row flex-md-column align-items-center">
-                            <div class="text-center d-none d-sm-block mb-md-4 px-md-5"><b-img src="/images/33@3x.png" fluid></b-img></div>
+                            <div class="text-center d-none d-sm-block mb-md-4 px-md-5"  style="max-width:330px;"><b-img src="/images/33@3x.png" fluid></b-img></div>
                             <div class="position-relative pt-md-4">
                                 <div class="position-absolute " style="margin-top: -1.75rem;">
-                                    <h7 class="mb-2">연구개발 투자 및 성과</h7>
+                                    <h7 class="mb-2 pt-3 pt-sm-0">연구개발 투자 및 성과</h7>
                                     <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:12px;" class="mr-1 bg-blue5"></div> 연구개발 비용 (단위: 백만 원)</div>
                                     <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 매출액 대비 비용(단위: %)</div>
                                 </div>
