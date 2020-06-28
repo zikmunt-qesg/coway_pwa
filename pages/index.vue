@@ -68,30 +68,33 @@
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i3_bg">
                 <div class="position-relative carousel-height overflow-hidden">
-                    <div class="position-absolute row w-100" style="top:28%; right:0; height: 46%;">
+                    <div class="position-absolute row w-100" style="top:32%; right:0; height: 46%;">
                         <div class="col-lg-6 col-xl-7">&nbsp;</div>
-                        <div class="col-lg-6 col-xl-5 h-100"><transition name="an-1"> <b-img src="/images/i3_2.svg" v-if="slide==2 && visible" fluid class="h-100"></b-img> </transition> </div>
+                        <div class="col-lg-6 col-xl-5 h-100 d-none d-lg-block"><transition name="an-1"> <b-img src="/images/i3_2.svg" v-if="slide==2 && visible" fluid class="h-100"></b-img> </transition> </div>
                     </div>
-                    <div class="position-absolute" style="bottom:5%; right:0; height: 58%; max-width: 65%;">
+                    <div class="position-absolute d-none d-md-block m-r-6" style="bottom:5%; height: 60%; max-width: 75%;">
                         <transition name="an-2"> <b-img src="/images/i3_1.png" v-if="slide==2 && visible" fluid class="" style="max-height: 100%;"></b-img> </transition>
                     </div>
-                    <div class="position-absolute row w-100 pl-xl-5 ml-xl-5" style="top:31%; left: 0; height: 21%;">
-                        <transition name="an-3"> <b-img src="/images/i3_3.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
+                    <div class="position-absolute row w-100 mt-5 mt-sm-0 d-flex justify-content-end justify-content-md-start" style="top:31%; left: 0; height: 21%;">
+                        <transition name="an-3"> <b-img src="/images/i3_3.svg" v-if="slide==2 && visible" fluid class="h-100 mt-5 mt-sm-0 pl-md-5 ml-xl-5"></b-img> </transition>
                     </div>
-                    <div class="position-absolute row w-100" style="top:53%; left: 0; height: 33%;">
+                    <!-- <div class="position-absolute row w-100 mt-5 mt-sm-0 pl-5 ml-5 pl-md-0 ml-md-0 pl-xl-5 ml-xl-5" style="top:31%; left: 0; height: 21%;">
+                        <transition name="an-3"> <b-img src="/images/i3_3.svg" v-if="slide==2 && visible" fluid class="h-100 mt-5 mt-sm-0 pl-5 pl-sm-0 pl-md-5 ml-xl-5"></b-img> </transition>
+                    </div> -->
+                    <div class="position-absolute row w-100 mt-4 mt-md-0 " style="top:53%; left: 0; height: 33%;">
                         <div class="col-md-1 col-lg-2">&nbsp;</div>
                         <div class="col-md-11 col-lg-10 h-100"><transition name="an-3"> <b-img src="/images/i3_4.png" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-4"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute row w-100 pl-xl-5" style="top:47%; left: 0; height: 16%;">
+                    <div class="position-absolute row w-100 pl-xl-5 d-none d-lg-block" style="top:47%; left: 0; height: 16%;">
                         <transition name="an-3"> <b-img src="/images/i3_5.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="mt-4 pt-3 row w-100">
-                        <div class="col-lg-1"></div> 
-                        <div class="text-right text-md-left col-lg-6 col-xl-6 pl-xl-5 ml-xl-5"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow carousel-title">코웨이는 미래세대를 위해 깨끗한 물과 공기를 순환하여 </div> </transition></div>
+                        <div class="col-sm-1 col-lg-1 col-xl-2"></div> 
+                        <div class="col-10 col-sm-10 col-lg-8 col-xl-6 pl-5 pl-sm-0 pl-xl-5 ml-xl-2"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow carousel-title">코웨이는 미래세대를 위해 깨끗한 물과 공기를 순환하여 </div> </transition></div>
                     </div>  
                     <div class="row w-100">
-                        <div class="col-md-1 col-lg-2 col-xl-2"></div> 
-                        <div class="col-md-11 text-right text-md-left col-lg-6 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow carousel-title"> 환경영향을 최소화하고 지속가능한 미래를 구현합니다.</div> </transition></div>
+                        <div class="col-sm-1 col-lg-2 col-xl-3"></div> 
+                        <div class="col-10 col-sm-10 col-lg-10 col-xl-6 pl-5 pl-sm-0"><transition name="tran-txt3"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow carousel-title"> 환경영향을 최소화하고 지속가능한 미래를 구현합니다.</div> </transition></div>
                     </div>                                        
                 </div>
             </div>
