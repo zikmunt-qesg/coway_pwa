@@ -186,13 +186,13 @@
                     <h6-ancor hash="m2-1" :activated="activated" class="fw-500 green5 mb-3">자원효율성 KPI</h6-ancor>
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
-                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex">
+                        <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']">
                             <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">2030년까지 폐기물 재활용율</p></div>
                         </b-col>
-                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
+                        <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
                             <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">2030년까지 사업장 폐기물 재자원화율</p></div>
                         </b-col>
-                        <b-col class="col-12 col-sm-4 px-sm-3 position-relative d-flex"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
+                        <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
                             <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">2<span class="f-160">만대</span></p><p class="word-break">2030년까지 리퍼브 제품 판매</p></div>
                         </b-col>
                     </b-row>
@@ -550,6 +550,16 @@ export default {
                 }
             ]
             return temp            
+        },
+        isIE() {
+            if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) )
+                {
+                    return true
+                }
+            else
+                { 
+                    return false
+                }
         }
     },
     methods:{

@@ -6,12 +6,12 @@
         <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">REPORTING FRAMEWORKS</h2></b-col>
     </b-row>
     <b-container fluid class="bg-white px-0 mx-0">
-        <b-card class="border-0 bg-transparent-gray-50 sticky-top" style="top:67.5px; z-index:888;">
+        <b-card class="border-0 bg-transparent-gray-50 sticky-top" style="top:64.75px; z-index:888;">
             <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='SASB' :defined_query="defined_query"></search-form></b-container>
         </b-card>
     
         <b-container class="pt-5 position-relative">    
-                <b-nav tabs class="mb-5">
+                <b-nav tabs class="my-5">
                     <b-nav-item @click.stop.prevent="$router.push('/framework/gri')" class="f-110 fw-400"> GRI </b-nav-item>
                     <b-nav-item active class="f-110 fw-400"> SASB </b-nav-item>
                     <b-nav-item @click.stop.prevent="$router.push('/framework/djsi')" class="f-110 fw-400"> DJSI Public </b-nav-item>
