@@ -3,7 +3,7 @@
     <logger title="메인"></logger>
 
 
-    <b-carousel id="intro-carousel" v-view="viewHandler" v-model="slide" :interval="4000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="4000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
@@ -185,18 +185,23 @@
             </b-row>
             <div class="col-12 bg-gray3 f-105 fw-600 py-2 px-3"> Economic Performance </div>
             <b-row class="my-4 py-md-3">
-                <b-col class="col-12 col-md-4 mb-4 mb-md-0">
+                <b-col class="col-12 col-md-4 mb-4 mb-md-0" v-view="viewHandlerGraph">
                     <h7 class="mb-md-4 blue7 fw-600 letter-narrow line-height-15 pr-xl-3"> 코웨이는 물과 공기를 깨끗하게 하는 ‘본질’에 집중하며, 고객 경험과 서비스의 가치를 향상하기 위한 끊임없는 혁신으로 지속성장해가고 있습니다. 
                     </h7>
                     <p class="blue7 fw-600 f-105 mb-1"> 매출액 </p>
-                    <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4 tans-bar-x" style="height:18px; width:50%;"></div> 
-                        <div class="position-absolute text-white" style="top:3px; left:5px;">2017</div><div class="ml-3 d-flex align-items-center"> <span class="f-110"> 23,205 </span> <span class="fw-300">억원</span> </div>
-                    </div>
-                    <div class="d-flex align-items-center gray5 f-80 position-relative"><div class="bg-gray4 tans-bar-x" style="height:18px; width:60%;"></div> 
-                        <div class="position-absolute text-white" style="top:3px; left:5px;">2018</div><div class="ml-3 d-flex align-items-center"> <span class="f-110"> 27,073 </span> <span class="fw-300">억원</span> </div>
-                    </div>
-                    <div class="d-flex align-items-center f-80 position-relative"><div class="tans-bar-x" style="height:18px; width:70%; background-color:#1494d4;"></div> 
-                        <div class="position-absolute text-white" style="top:7px; left:5px;">2019</div><div class="ml-3 d-flex align-items-center"> <span class="f-140"> 30,189 </span> <span class="fw-300">억원</span> </div>
+                    <div class="overflow-hidden">
+                        <div class="d-flex d-md-inline d-lg-flex align-items-center f-80">
+                            <transition name="graph-1"> <div v-if="raising" class="bg-gray4 tans-bar-x gray5 pl-2" style="height:18px; width:50%; line-height:1.5;">2017</div> </transition>
+                            <div class="ml-3 letter-narrow"> <span class="f-110"> 23,205</span><span class="fw-300">억원</span> </div>
+                        </div>
+                        <div class="d-flex d-md-inline d-lg-flex align-items-center f-80">
+                            <transition name="graph-2"> <div v-if="raising" class="bg-gray4 tans-bar-x gray5 pl-2" style="height:18px; width:60%; line-height:1.5;">2018</div> </transition>
+                            <div class="ml-3 letter-narrow"> <span class="f-110"> 27,073</span><span class="fw-300">억원</span> </div>
+                        </div>
+                        <div class="d-flex d-md-inline d-lg-flex align-items-center f-80">
+                            <transition name="graph-2"> <div v-if="raising" class="tans-bar-x text-white pl-2" style="height:18px; width:70%; background-color:#1494d4; line-height:1.5;">2019</div> </transition>
+                            <div class="ml-3 letter-narrow"> <span class="f-140"> 30,189</span><span class="fw-300">억원</span> </div>
+                        </div>
                     </div>
                 </b-col>
                 <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">                    
@@ -332,7 +337,8 @@ export default {
             news_img_overlay: false,       
             slide: 0,
             sliding: null,
-            visible: false
+            visible: false,
+            raising: false
         }
     },
     transition(to, from) {
@@ -381,7 +387,7 @@ export default {
         onSlideEnd(slide) {
             this.sliding = false
         },
-        viewHandler(event){
+        viewHandlerIntro(event){
             if(event.type == 'progress' ){
                 if( event.percentCenter >= 0 && event.percentCenter <= 0.6 ) { 
                     this.visible = true
@@ -389,6 +395,16 @@ export default {
             }
             if(event.type == 'exit'){
                 this.visible = false
+            }
+        },
+        viewHandlerGraph(event){
+            if(event.type == 'progress' ){
+                if( (event.percentCenter > 0.7 && event.percentCenter < 0.9) || (event.percentCenter > 0.1 && event.percentCenter < 0.3) ) { 
+                    this.raising = true
+                }
+            }
+            if(event.type == 'exit'){
+                this.raising = false
             }
         },
     },

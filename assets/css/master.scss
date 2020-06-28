@@ -702,15 +702,33 @@
     transform: translateY(15px);
 }
 .an-1-enter-active, .an-1-leave-active {
-    transition: all 0.6s ease ;
+    transition: all 0.6s ease 0.3s;
 }
 .an-2-enter-active, .an-2-leave-active {
-    transition: all 1s ease 0.3s;
+    transition: all 1s ease 0.5s;
 }
 .an-3-enter-active, .an-3-leave-active {
-    transition: all 1.2s ease 0.5s;
+    transition: all 1.2s ease 0.8s;
 }
 .an-4-enter-active, .an-4-leave-active,
 .an-5-enter-active, .an-5-leave-active {
     transition: all 1s ease 0.8s;
+}
+
+
+// intro 그래프 애니메이션
+.graph-1-enter, .graph-1-leave-to,
+.graph-2-enter, .graph-2-leave-to,
+.graph-3-enter, .graph-3-leave-to {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+.graph-1-enter-active, .graph-1-leave-active {
+    transition: all 0.6s ease 0.2s;
+}
+.graph-2-enter-active, .graph-2-leave-active {
+    transition: all 0.6s ease 0.4s;
+}
+.graph-3-enter-active, .graph-3-leave-active {
+    transition: all 0.9s ease 0.7s;
 }
