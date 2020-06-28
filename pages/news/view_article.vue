@@ -18,11 +18,11 @@
                         <b-img v-if="picture_file != null && picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
                     </div>
                     <div class="mb-3"> <div v-html="$md.render(contents)"></div> </div>
-                    <div class="pt-4 mb-3 border-bottom-gray-bold"></div>
-                    <b-button-group class="w-100">
-                        <b-button @click="move('previous')" v-if="idx < articles.length-1">이전</b-button>
-                        <b-button @click="$router.push('/news')">목록으로</b-button>
-                        <b-button @click="move('next')" v-if="idx>0">다음</b-button>
+                    <div class="pt-4 mb-4 border-bottom-gray-bold"></div>
+                    <b-button-group class="w-100 border-top-gray border-bottom-gray py-2">
+                        <b-button variant="icon-gray" @click="move('previous')" v-if="idx < articles.length-1"> <i class="fas fa-chevron-left mr-3"></i> 이전</b-button>
+                        <b-button variant="icon-gray" @click="$router.push('/news')" class="">목록으로</b-button>
+                        <b-button variant="icon-gray" @click="move('next')" v-if="idx>0">다음 <i class="fas fa-chevron-right ml-3"></i></b-button>
                     </b-button-group>
                     <hr class='mb-5 space-p75'> 
                 </section>
@@ -130,3 +130,8 @@ export default {
     }
 }
 </script>
+<style scoped lang="scss">
+button:focus{
+    outline: 0px;
+}
+</style>
