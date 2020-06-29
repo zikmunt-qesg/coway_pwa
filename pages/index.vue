@@ -3,22 +3,21 @@
     <logger title="메인"></logger>
 
 
-    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="4000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="10000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
                     <div class="position-absolute d-md-block pr-lg-5 mr-xl-5 m-r-5" style="top:0; right:0; height: 87%; max-width: 80%;">
                         <transition name="tran-1"> <b-img src="/images/i1_1.png" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
                     </div>
-                    <div class="position-absolute d-none d-lg-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
+                    <div class="position-absolute d-none d-xl-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
                         <transition name="tran-4"> <b-img src="/images/i1_4.png" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
                     </div>
-                    <div class="position-absolute row d-none d-lg-flex w-100" style="top: 33%; left: 0; height: 29%;">
-                        <div class="col-lg-2 col-xl-3">&nbsp;</div>
-                        <div class="col-lg-10 col-xl-9 h-100"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="h-100"></b-img> </transition></div>
+                    <div class="position-absolute row d-none d-xl-block w-100" style="top: 28%; left: 0; height: 27%;">
+                        <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="h-100"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 54%;">
-                        <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 pl-lg-5 ml-lg-2 ml-xl-5"></b-img> </transition>
+                        <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-2 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="mt-5 text-left text-lg-center row w-100">
                         <div class="col-0 col-lg-1 col-xl-1"></div>
@@ -584,6 +583,11 @@ export default {
     transform: scale(1.05)
     // height: 110%;
 }
-
+#intro-carousel___BV_indicator_1_:focus,
+#intro-carousel___BV_indicator_2_:focus,
+#intro-carousel___BV_indicator_3_:focus{
+   outline: none !important;
+   box-shadow: none;
+}
 
 </style>

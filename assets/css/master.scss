@@ -570,7 +570,7 @@
     top:0;
 }
 .i1_bg {
-    background-image: url( "/images/i1_bg.png" );
+    background-image: url( "/images/i1_bg@2x.png" );
 }
 .i2_bg {
     background-image: url( "/images/i2_bg.png" );
@@ -620,11 +620,11 @@
 // 첫번재 carousel
 .tran-1-enter, .tran-1-leave-to {
     opacity: 0;
-    transform: translateX(40px);
+    // transform: translateX(40px);
 }
 .tran-2-enter, .tran-2-leave-to{
     opacity: 0;
-    transform: translateX(-15px);
+    // transform: translateX(-15px);
 }
 .tran-3-enter, .tran-3-leave-to,
 .tran-4-enter, .tran-4-leave-to {
@@ -636,24 +636,28 @@
     transition: all 0.8s ease-in 0.2s;
 }
 .tran-4-enter-active, .tran-4-leave-active {
-    transition: all 0.6s ease 1s;
+    transition: all 0.6s ease 0.8s;
 }
 .tran-2-enter-active, .tran-2-leave-active {
-    transition: all 0.8s ease 0.5s;
+    transition: all 0.8s ease 0.2s;
 }
 .tran-3-enter-active, .tran-3-leave-active {
     transition: all 0.6s ease 0.8s;
 }
 
-.tran-txt0-enter, .tran-txt0-leave-to, 
+.tran-txt0-enter, .tran-txt0-leave-to{
+    opacity: 0;
+    transform: translateX(-20px);
+}
 .tran-txt1-enter, .tran-txt1-leave-to{
     opacity: 0;
+    transform: translateX(20px);
 }
 .tran-txt0-enter-active, .tran-txt0-leave-active {
-    transition: all 0.8s ease 1.4s;
+    transition: all 1s ease 1.5s;
 }
 .tran-txt1-enter-active, .tran-txt1-leave-active {
-    transition: all 0.8s ease 1.7s;
+    transition: all 1.2s ease 1.9s;
 }
 
 // 두번째 carousel
@@ -677,7 +681,7 @@
     transform: translateX(-20px);
 }
 .tran-txt2-enter-active, .tran-txt2-leave-active {
-    transition: all 0.8s ease 1.3s;
+    transition: all 1s ease 1.3s;
 }
 .tran-txt3-enter, .tran-txt3-leave-to {
     opacity: 0;
