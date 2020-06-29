@@ -158,28 +158,30 @@
                 <b-card v-else-if="show_page=='GHG-Assurance-Statement'" class="border-0 px-4 py-5 fw-400">
                     <div class="px-md-2 px-lg-4 atr-content">
                         <div class="d-flex mb-4 position-relative overflow-hidden"><h4 class="parang7 bg-white pr-4 letter-narrow" style="z-index:10"> 온실가스 &middot; 태양광 &middot; 물 검증의견서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    
+                        <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
+                            <b-row no-gutters >
+                                <b-col md="6" class="main-report p-3">
+                                    <b-card-img src="/images/2019kor.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
+                                </b-col>
+                                <b-col md="6" class="d-flex align-items-center">
+                                    <b-card-body class="clearfix">
+                                        <div class="font-noto mb-3">2019 (6/29 수정 예정)</div>
+                                        <b-button-group class="mb-3">
+                                            <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">(6/29 수정 예정)</b-button>
+                                            <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                                        </b-button-group> (6/30 수정 예정)<br>
+                                        <b-button-group block>
+                                            <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">(6/29 수정 예정)</b-button>
+                                            <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                                        </b-button-group> (7/8 수정 예정)
+                                    </b-card-body>
+                                </b-col>
+                            </b-row>   
+                        </b-card>
                     </div>
                 </b-card>
-                <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
-                    <b-row no-gutters >
-                        <b-col md="6" class="main-report p-3">
-                            <b-card-img src="/images/2019kor.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
-                        </b-col>
-                        <b-col md="6" class="d-flex align-items-center">
-                            <b-card-body class="clearfix">
-                                <div class="font-noto mb-3">2019 (6/29 수정 예정)</div>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">(6/29 수정 예정)</b-button>
-                                    <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
-                                </b-button-group> (6/30 수정 예정)<br>
-                                <b-button-group block>
-                                    <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">(6/29 수정 예정)</b-button>
-                                    <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
-                                </b-button-group> (7/8 수정 예정)
-                            </b-card-body>
-                        </b-col>
-                    </b-row>   
-                </b-card>  
+                
 
             </b-col>
             <b-col class="col-0 col-lg-1"></b-col>
