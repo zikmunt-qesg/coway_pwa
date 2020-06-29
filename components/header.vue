@@ -36,7 +36,7 @@
         <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
             <b-container>
             <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
-                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">{{ menu_text }}</b-col>
+                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300 letter-narrow" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">{{ menu_text }}</b-col>
                 <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
                     <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
                         <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false">
@@ -273,8 +273,8 @@ export default {
     padding-top: 0.2rem;
     // margin-right: 2.2em;
     // margin-bottom: 1.5em;
-    border-top: 0.75px solid $gray3;
-    transition: margin-top 0.4s ease-out;
+    border-top: 0.75px solid $gray4;
+    transition: all 0.4s ease-out;
 }
 .lv2-text {
     color: $gray3;
@@ -282,14 +282,33 @@ export default {
     font-weight: 300;
     line-height: 1.5;
 }
-.global-nav-2:hover {
-    border-top: 0.75px solid white;
-    margin-top: -0.3em;
+// .global-nav-2:hover {
+//     border-top: 0.75px solid white;
+// }
+.global-nav-2::before{
+    content:"";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+    left:0;
+    top:0;
 }
-.global-nav-2:hover > .lv2-text{
+.global-nav-2:hover::before {
+    left:0;
+    top:0;
+    width: 100%;
+}
+
+// .global-nav-2:hover::before {
+//   border-top-color: #0eb7da;
+//   transition: width 0.25s ease-out
+// }
+
+.lv2-text:hover{
     color: white;
     text-decoration: none;
-    font-weight: 400;
 }
 
 

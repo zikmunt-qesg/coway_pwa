@@ -203,19 +203,19 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="4">tCO<sub>2</sub>e</b-td><b-td>630</b-td><b-td>676</b-td><b-td>640</b-td><b-td>672</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">Scope1</b-td><b-td class="text-left" rowspan="4">tCO<sub>2</sub>e</b-td><b-td>630</b-td><b-td>676</b-td><b-td>640</b-td><b-td>710</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Scope2</b-td><b-td>5,162</b-td><b-td>5,349</b-td><b-td>5,224</b-td><b-td>5,485</b-td><b-td>-</b-td>
+                                    <b-td class="text-left">Scope2</b-td><b-td>5,162</b-td><b-td>5,349</b-td><b-td>5,224</b-td><b-td>5,616</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Scope3</b-td><b-td>71</b-td><b-td>71</b-td><b-td>70</b-td><b-td>71</b-td><b-td>-</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td class="text-left">Total</b-td><b-td>5,863</b-td><b-td>6,096</b-td><b-td>5,935</b-td><b-td>6,157</b-td><b-td>298</b-td>
+                                    <b-td class="text-left">Total</b-td><b-td>5,863</b-td><b-td>6,096</b-td><b-td>5,935</b-td><b-td>6,397</b-td><b-td>2,982</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">원단위</b-td><b-td class="text-left">tCO<sub>2</sub>e/억원</b-td><b-td>0.253</b-td><b-td>0.254</b-td><b-td>0.234</b-td><b-td>0.243</b-td><b-td>0.007</b-td>
+                                    <b-td class="text-left">원단위</b-td><b-td class="text-left">tCO<sub>2</sub>e/억원</b-td><b-td>0.253</b-td><b-td>0.254</b-td><b-td>0.234</b-td><b-td>0.253</b-td><b-td>0.069</b-td>
                                 </b-tr>                                   
                             </b-tbody> 
                         </b-table-simple> 
@@ -328,19 +328,19 @@
                                     <b-td class="text-left">프로판</b-td><b-td>5,294</b-td><b-td>5,908</b-td><b-td>5,163</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">직접 Total</b-td><b-td>11,014</b-td><b-td>11,801</b-td><b-td>11,062</b-td><b-td>11,615</b-td><b-td>-</b-td>
+                                    <b-td colspan="2" class="text-left">직접 Total</b-td><b-td>11,014</b-td><b-td>11,801</b-td><b-td>11,062</b-td><b-td>12,391</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">간접</b-td><b-td class="text-left">전력</b-td><b-td>106,275</b-td><b-td>110,142</b-td><b-td>107,564</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">간접 Total</b-td><b-td>106,275</b-td><b-td>110,142</b-td><b-td>107,564</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td colspan="2" class="text-left">간접 Total</b-td><b-td>106,275</b-td><b-td>110,142</b-td><b-td>107,564</b-td><b-td>115,649</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">총 에너지 사용량</b-td><b-td>117,289</b-td><b-td>121,943</b-td><b-td>118,627</b-td><b-td>124,557</b-td><b-td>5,931</b-td>
+                                    <b-td colspan="2" class="text-left">총 에너지 사용량</b-td><b-td>117,289</b-td><b-td>121,943</b-td><b-td>118,627</b-td><b-td>128,040</b-td><b-td>64,020</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td colspan="2" class="text-left">총 에너지 원단위 사용량</b-td><b-td class="text-left">GJ/매출액</b-td><b-td>5.055</b-td><b-td>5.091</b-td><b-td>4.687</b-td><b-td>4,921</b-td><b-td>0.137</b-td>
+                                    <b-td colspan="2" class="text-left">총 에너지 원단위 사용량</b-td><b-td class="text-left">GJ/매출액</b-td><b-td>5.055</b-td><b-td>5.091</b-td><b-td>4.687</b-td><b-td>5.059</b-td><b-td>1.479</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
