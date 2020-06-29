@@ -3,7 +3,7 @@
     <div class="w-100 bg-white bg-white-cover-news position-absolute"></div>
 
      <b-row no-gutters class="py-5">
-        <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">Download Reports</h2></b-col>
+        <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">DOWNLOAD REPORTS</h2></b-col>
     </b-row>
     <b-container>
         <b-row>
