@@ -3,7 +3,7 @@
     <logger title="메인"></logger>
 
 
-    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="10000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
@@ -17,7 +17,7 @@
                         <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="h-100"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 54%;">
-                        <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-2 ml-xl-5"></b-img> </transition>
+                        <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
                     </div>
                     <div class="mt-5 text-left text-lg-center row w-100">
                         <div class="col-0 col-lg-1 col-xl-1"></div>
