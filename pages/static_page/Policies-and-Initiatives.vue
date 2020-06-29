@@ -20,6 +20,27 @@
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">              
                 <div v-if="show_page=='Policies'">
+
+                    <!-- <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
+                        <b-row no-gutters >
+                            <b-col md="6" class="main-report p-3">
+                                <b-card-img src="/images/trust-guide1.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
+                            </b-col>
+                            <b-col md="6" class="d-flex align-items-center">
+                                <b-card-body class="clearfix">
+                                    <div class="font-noto mb-3">지속가능성 정책 - 코웨이 트러스트 가이드라인</div>
+                                    <b-button-group class="mb-3">
+                                        <b-button href="/documents/Coway_coway_trust_guideline_kor.pdf" target="_blank">국문 바로보기</b-button>
+                                        <b-button href="/documents/Coway_coway_trust_guideline_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
+                                    </b-button-group> (6/30 수정 예정)<br>
+                                    <b-button-group block>
+                                        <b-button href="/documents/Coway_coway_trust_guideline_eng.pdf" target="_blank">영문 바로보기</b-button>
+                                        <b-button href="/documents/Coway_coway_trust_guideline_eng.pdf" download><i class="fas fa-file-download"></i> </b-button>
+                                    </b-button-group> (7/8 수정 예정)
+                                </b-card-body>
+                            </b-col>
+                        </b-row>   
+                    </b-card>        -->
                     <b-card header="지속가능성 정책">
                         <b-card-body class="p-0">
                             <a href="/documents/Coway_coway_trust_guideline_kor.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(국문)</li></a>
