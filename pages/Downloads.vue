@@ -19,12 +19,11 @@
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">  
                 <div class="d-flex mb-4 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4 font-noto" style="z-index:10">2019 지속가능경영보고서</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                <!-- <h7 class="border-bottom-gray pb-1 mb-4 font-noto"> 2019 지속가능경영보고서 </h7> -->
                 
                     <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
                         <b-row no-gutters >
                             <b-col md="6" class="main-report p-3">
-                                <b-card-img src="/images/2019kor.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
+                                <b-card-img src="/images/2019_kor.jpg" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
                             </b-col>
                             <b-col md="6" class="d-flex align-items-center">
                                 <b-card-body class="clearfix">
@@ -43,7 +42,6 @@
                     </b-card>       
                     <hr class="mb-2">
                 <hr>
-                <!-- <h7 class="border-bottom-gray pb-1 mb-4"> 이전 보고서 </h7> -->
                 <div class="d-flex mb-4 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4 font-noto" style="z-index:10">과거 보고서 (2010-2018)</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
 
                 <b-row>

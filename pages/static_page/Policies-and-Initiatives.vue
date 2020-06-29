@@ -22,25 +22,25 @@
                 <div v-if="show_page=='Policies'">
                     <b-card header="지속가능성 정책">
                         <b-card-body class="p-0">
-                            <a href="/documents/coway_trust_guideline_kor.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(국문)</li></a>
-                            <a href="/documents/coway_trust_guideline_eng.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(영문)</li></a>
+                            <a href="/documents/Coway_coway_trust_guideline_kor.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(국문)</li></a>
+                            <a href="/documents/Coway_coway_trust_guideline_eng.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(영문)</li></a>
                         </b-card-body>
                     </b-card>       
                     <hr class="mb-2">
 
                     <b-card header="윤리경영">
                         <b-card-body class="p-0">
-                            <a href="/documents/code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
-                            <a href="/documents/code_of_conduct_guideline.pdf" download><li class="py-2">윤리규정(국문)</li></a>
-                            <a href="/documents/code_of_conduct_instruction.pdf" download><li class="py-2">윤리실천지침(국문)</li></a>
+                            <a href="/documents/Coway_code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
+                            <a href="/documents/Coway_code_of_conduct_guideline.pdf" download><li class="py-2">윤리규정(국문)</li></a>
+                            <a href="/documents/Coway_code_of_conduct_instruction.pdf" download><li class="py-2">윤리실천지침(국문)</li></a>
                         </b-card-body>
                     </b-card>  
                     <hr class="mb-2">
 
                     <b-card header="협력회사 CSR">
                         <b-card-body class="p-0">
-                            <a href="/documents/supplier_code_of_conduct_kor.pdf" download><li class="py-2">협력사 행동규범(국문)</li></a>
-                            <a href="/documents/supplier_code_of_conduct_eng.pdf" download><li class="py-2">협력사 행동규범(영문)</li></a>
+                            <a href="/documents/Coway_supplier_code_of_conduct_kor.pdf" download><li class="py-2">협력사 행동규범(국문)</li></a>
+                            <a href="/documents/Coway_supplier_code_of_conduct_eng.pdf" download><li class="py-2">협력사 행동규범(영문)</li></a>
                         </b-card-body>
                     </b-card>
                     <hr class="mb-2">
