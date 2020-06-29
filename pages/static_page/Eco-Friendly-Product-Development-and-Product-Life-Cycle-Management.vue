@@ -552,7 +552,7 @@ export default {
             return temp            
         },
         isIE() {
-            if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) )
+            if ( process.client && ((navigator && navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1)) )
                 {
                     return true
                 }
