@@ -390,11 +390,11 @@ export default {
             if(event.type == 'progress' ){
                 if( event.percentCenter >= 0 && event.percentCenter <= 0.6 ) { 
                     this.visible = true
-                }else this.visible =false
+                }
             }
-            if(event.type == 'exit'){
-                this.visible = false
-            }
+            // if(event.type == 'exit'){
+            //     this.visible = false
+            // }
         },
         viewHandlerGraph(event){
             if(event.type == 'progress' ){
