@@ -681,14 +681,14 @@
     transform: translateX(-20px);
 }
 .tran-txt2-enter-active, .tran-txt2-leave-active {
-    transition: all 1s ease 1.3s;
+    transition: all 1s ease 1.5s;
 }
 .tran-txt3-enter, .tran-txt3-leave-to {
     opacity: 0;
     transform: translateX(20px);
 }
 .tran-txt3-enter-active, .tran-txt3-leave-active {
-    transition: all 0.8s ease 1.6s;
+    transition: all 1.2s ease 1.8s;
 }
 
 // 세번째 carousel
