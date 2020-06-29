@@ -225,7 +225,7 @@
                         <b-table-simple responsive class="txt-table sustainability-table fw-300 font-noto f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>이름</b-td><b-td>총액(천원)</b-td><b-td colspan="2">산정기준 및 방법</b-td>
+                                    <b-td>이름</b-td><b-td>구분</b-td><b-td>총액(천원)</b-td><b-td>산정기준 및 방법</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
@@ -522,7 +522,7 @@
                     <hr class="py-3 mb-5">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">성과평가와 보수 지급</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p> 동종업계 보수 수준을 고려한 합리적인 보수를 지급하여 우수한 전문가를 사외이사로 선임하고, 적극적인 직무 활동을 할 수 있도록 보장하고 있습니다. 사내이사는 이사회 결의에 따라 직무 및 직급, 근속기간, 리더십, 전문성, 회사 기여도 등을 고려하여 기본 보수를 책정하고, 정량지표과제 및 정성지표 과제 평가에 따라 종합점수를 산출하여 달성률을 평가하여 인센티브(상여)를 지급하고 있습니다.
+                    <p> 동종업계 보수 수준을 고려한 합리적인 보수를 지급하여 우수한 전문가를 사외이사로 선임하고, 적극적인 직무 활동을 할 수 있도록 보장하고 있습니다. 사내이사는 직무 및 직급, 근속기간, 리더십, 전문성, 회사 기여도 등을 고려하여 기본 보수를 책정하고, 정량지표과제 및 정성지표 과제 평가에 따라 종합점수를 산출하여 달성률을 평가하여 인센티브(상여)를 지급하고 있습니다.
                     </p>
                     <p class="mb-5">코웨이는 2019년 제30기 정기주주총회를 통해 이사에게 지급할 연간 보수 총액을 40억으로 승인하였으며, 2020년 제31기 정기주주총회에서 연간 보수 총액을 50억으로 상향하여 승인하였습니다.
                     </p>
@@ -554,7 +554,7 @@
                         <b-table-simple responsive class="txt-table sustainability-table fw-300 font-noto f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>이름</b-td><b-td>총액(천원)</b-td><b-td colspan="2">산정기준 및 방법</b-td>
+                                    <b-td>이름</b-td><b-td>구분</b-td><b-td>총액(천원)</b-td><b-td>산정기준 및 방법</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
