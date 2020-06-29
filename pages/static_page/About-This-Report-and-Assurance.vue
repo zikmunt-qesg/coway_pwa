@@ -76,7 +76,7 @@
 
                 <b-card v-else-if="show_page=='Independent-Assurance-Statement'" class="border-0 px-4 py-5 fw-400">
                     <div class="px-md-2 px-lg-4 atr-content">
-                        <div class="d-flex mb-4 position-relative overflow-hidden font-noto"><h4 class="parang7 bg-white pr-4 letter-narrow" style="z-index:10"> 독립된 검증인의 제3자 검증 보고서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                        <div class="d-flex mb-4 position-relative overflow-hidden font-noto"><h4 class="parang7 bg-white pr-4 letter-narrow-lg" style="z-index:10"> 독립된 검증인의 제3자 검증 보고서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                         <h7 class="parang6 f-110 fw-500">주식회사 코웨이 이해관계자 귀중</h7>
                         <p>퀀티파이드이에스지(이하 ‘검증인’)는 주식회사 코웨이(이하 ‘보고 기관’)가 발행한 ‘2019 코웨이 지속가능성 웹보고서(이하 ‘보고서’)에 대하여 제한적 검증(limited assurance engagement)을 수행하였으며, 다음과 같이 검증성명서(이하 ‘검증 의견’)를 제출합니다.
                         </p>
@@ -157,7 +157,7 @@
 
                 <b-card v-else-if="show_page=='GHG-Assurance-Statement'" class="border-0 px-4 py-5 fw-400">
                     <div class="px-md-2 px-lg-4 atr-content">
-                        <div class="d-flex mb-4 position-relative overflow-hidden"><h4 class="parang7 bg-white pr-4 letter-narrow" style="z-index:10"> 온실가스 &middot; 태양광 &middot; 물 검증의견서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                        <div class="d-flex mb-4 position-relative overflow-hidden"><h4 class="parang7 bg-white pr-4 letter-narrow-lg" style="z-index:10"> 온실가스 &middot; 태양광 &middot; 물 검증의견서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     
                         <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
                             <b-row no-gutters >
