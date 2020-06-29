@@ -639,16 +639,16 @@ export default {
                     title: this.is_ENG? `'Capacity Enhancement' for Growth`:`체계적인 역량 강화`, hash: 'r1',  
                     child: [
                         { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 'r1-1' }, 
-                        { title: this.is_ENG? 'Leadership Training': '직무 교육', hash: 'r1-2' }, 
-                        { title: this.is_ENG? 'Leadership Training': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
+                        { title: this.is_ENG? 'Job Training': '직무 교육', hash: 'r1-2' }, 
+                        { title: this.is_ENG? 'Digital based Work Innovation': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
                     ]
                 },
                 { 
-                    title: '커뮤니케이션 기반의 기업문화' , hash: 'r2',
+                    title: this.is_ENG? `Communication based Company Culture`:`커뮤니케이션 기반의 기업문화`, hash: 'r2',
                     child: [
-                        { title: this.is_ENG? 'Leadership Training': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
-                        { title: this.is_ENG? 'Leadership Training': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
-                        { title: this.is_ENG? 'Leadership Training': '임직원 현황 데이터', hash: 'r2-3' }, 
+                        { title: this.is_ENG? 'Communication based on a Joint Labor Management  Conference': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
+                        { title: this.is_ENG? 'Enhancement of Employee Satisfaction through Work Life Balance': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
+                        { title: this.is_ENG? 'Current Employee Data': '임직원 현황 데이터', hash: 'r2-3' }, 
                     ]
                 },
                 { 
