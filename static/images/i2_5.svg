@@ -1,14 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.574" height="91.15" viewBox="0 0 141.574 91.15">
+<svg id="구성_요소_38_1" data-name="구성 요소 38 – 1" xmlns="http://www.w3.org/2000/svg" width="123.574" height="83.147" viewBox="0 0 123.574 83.147">
   <defs>
-    <clipPath id="clip-path">
-      <rect id="사각형_60" data-name="사각형 60" width="141.574" height="91.15" transform="translate(109.123 1362)" fill="none"/>
-    </clipPath>
+    <style>
+      .cls-1 {
+        fill: #a1c0c6;
+        opacity: 0.5;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+    </style>
   </defs>
-  <g id="그룹_71" data-name="그룹 71" transform="translate(-109.123 -1362)" opacity="0.25">
-    <g id="그룹_70" data-name="그룹 70">
-      <g id="그룹_69" data-name="그룹 69" clip-path="url(#clip-path)">
-        <rect id="사각형_59" data-name="사각형 59" width="123.574" height="83.147" transform="translate(118.123 1369)" fill="#5dc2d4"/>
-      </g>
-    </g>
-  </g>
+  <rect id="사각형_48" data-name="사각형 48" class="cls-1" width="123.574" height="83.147"/>
 </svg>

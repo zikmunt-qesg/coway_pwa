@@ -1,31 +1,18 @@
-<svg id="구성_요소_15_1" data-name="구성 요소 15 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="395.84" height="340.84" viewBox="0 0 395.84 340.84">
+<svg id="구성_요소_40_1" data-name="구성 요소 40 – 1" xmlns="http://www.w3.org/2000/svg" width="377.837" height="332.836" viewBox="0 0 377.837 332.836">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
-      }
-
-      .cls-2 {
         opacity: 0.35;
       }
 
-      .cls-3 {
-        clip-path: url(#clip-path);
-      }
-
-      .cls-4 {
+      .cls-2 {
         fill: #fbfbfb;
       }
     </style>
-    <clipPath id="clip-path">
-      <rect id="사각형_72" data-name="사각형 72" class="cls-1" width="395.84" height="340.84" transform="translate(1115 1943)"/>
-    </clipPath>
   </defs>
-  <g id="그룹_87" data-name="그룹 87" class="cls-2" transform="translate(-1115 -1943)">
-    <g id="그룹_86" data-name="그룹 86">
-      <g id="그룹_85" data-name="그룹 85" class="cls-3">
-        <rect id="사각형_71" data-name="사각형 71" class="cls-4" width="377.837" height="332.836" transform="translate(1124 1950)"/>
-      </g>
+  <g id="그룹_78" data-name="그룹 78" class="cls-1" transform="translate(-1124 -1950)">
+    <g id="그룹_77" data-name="그룹 77">
+      <rect id="사각형_57" data-name="사각형 57" class="cls-2" width="377.837" height="332.836" transform="translate(1124 1950)"/>
     </g>
   </g>
 </svg>
