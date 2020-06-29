@@ -17,15 +17,32 @@
         </b-row>
         <b-row>
             <b-col class="col-0 col-lg-1"></b-col>
-            <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">              
-                    <b-card img-src="">                        
-                            <b-button-group>
+            <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">   
+                <h7 class="border-bottom-gray pb-1 mb-4 font-noto"> 2019 지속가능경영보고서 </h7>
+                
+                    <b-card no-body class="overflow-hidden">
+                        <b-row no-gutters>
+                            <b-col md="6">
+                                <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0"></b-card-img>
+                            </b-col>
+                            <b-col md="6">
+                                <b-card-body>
+                                    2019 지속가능경영보고서<br>
+                                    <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">바로보기</b-button>
+                                    <b-button href="/documents/2018_coway_sr_kor.pdf" download> 다운로드 <i class="fas fa-file-download"></i> </b-button>
+                                </b-card-body>
+                            </b-col>
+                        </b-row>   
+                        <!-- <b-card-body class="p-0">                    
+                            <b-button-group block>
                                 <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">2019 지속가능경영보고서</b-button>
                                 <b-button href="/documents/2018_coway_sr_kor.pdf" download> <i class="fas fa-file-download"></i> </b-button>
                             </b-button-group>
+                        </b-card-body> -->
                     </b-card>       
                     <hr class="mb-2">
-
+                <hr>
+                <h7 class="border-bottom-gray pb-1 mb-4"> 이전 보고서 </h7>
                     <b-card header="2018 지속가능경영보고서">
                         <b-card-body class="p-0">
                             <a href="/documents/code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
