@@ -23,7 +23,7 @@
                     <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
                         <b-row no-gutters >
                             <b-col md="6" class="main-report p-3">
-                                <b-card-img src="/images/2018kor.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
+                                <b-card-img src="/images/2019kor.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
                             </b-col>
                             <b-col md="6" class="d-flex align-items-center">
                                 <b-card-body class="clearfix">
