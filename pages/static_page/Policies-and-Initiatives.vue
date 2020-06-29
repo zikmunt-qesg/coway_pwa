@@ -60,16 +60,16 @@
                     <hr class="mb-2">
                 </div>
                 <div v-if="show_page=='Initiatives'" class="font-noto">
-                    <div class="d-flex mb-4 position-relative overflow-hidden"> <h6 class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">글로벌 이니셔티브 참여</h6><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4" style="z-index:10">글로벌 이니셔티브 참여 및 인지도</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
                     <div class="d-flex justify-content-around align-items-center px-md-3 px-lg-5 mb-5">
-                        <div class="px-3"><b-img src="/images/148_1@3x.jpg" fluid></b-img></div>
-                        <div class="px-3"><b-img src="/images/148_3@3x.jpg" fluid></b-img></div>
-                        <div class="px-3"><b-img src="/images/148_2@3x.jpg" fluid></b-img></div>                        
-                        <div class="px-3"><b-img src="/images/148_4@3x.jpg" fluid></b-img></div>
-                        <div class="px-3 w-75"><b-img src="/images/148_5@3x.jpg" fluid></b-img></div>
+                        <div class="px-3"><b-img src="/images/148_1.png" fluid style="max-height: 56px;"></b-img></div>
+                        <div class="px-3"><b-img src="/images/148_2.png" fluid style="max-height: 68px;"></b-img></div>
+                        <div class="px-3"><b-img src="/images/148_3.jpg" fluid style="max-height: 64px;"></b-img></div>                        
+                        <div class="px-3"><b-img src="/images/148_4.png" fluid style="max-height: 75px;"></b-img></div>
+                        <div class="px-3"><b-img src="/images/djsi.jpg" fluid style="max-height: 80px;"></b-img></div>
                         <!-- <div class="px-3"><b-img src="/images/148_6@3x.jpg" fluid></b-img></div> -->
                     </div>
-                    <h7 class="mb-2"> UNGC </h7>
+                    <h7 class="mb-2 pt-4"> UNGC </h7>
                     <p class="mb-45">코웨이는 2006년 6월 UNGC(United Nations Global Compact: 유엔 글로벌 컴팩트)에 가입하여 인권, 노동, 환경, 그리고 반부패에 관한 10가지 원칙을 준수하고 이를 실천함으로써 성장의 추구와 함께 사회적인 책임을 다하는 기업 시민으로서의 역할을 다하고 있습니다. 본 지속가능경영보고서는 코웨이의 현재와 미래에대한 스스로의 평가이자 다짐입니다. 
                     </p>
                     <h7 class="mb-2"> SDGs(Sustainable Development Goals) </h7>
@@ -81,8 +81,8 @@
                     <h7 class="mb-2"> 유엔기후변화협약 당사국총회(COP21) 글로벌 기후변화 협약 지지 </h7>
                     <p class="mb-45"> 코웨이는 2015년 12월 세계 195개국이 프랑스 파리 에서 타결한 유엔기후변화협약 당사국총회(COP21) 의 ‘글로벌 기후변화협약’에 지지선언을 하고 자발적 탄소 감축계획을 수립하고 있습니다. 
                     </p>
-                    <h7 class="mb-2"> C4C(Caring for Climate) </h7>
-                    <p> 코웨이는 2010년 C4C(Caring for Climate)와 수자원관리책무(CEO Water Mandate)에 가입한 이후 지속적으로 기후변화관련 활동을 추진하고 있습니다.
+                    <h7 class="mb-2"> DJSI(다우존스 지속가능경영지수) </h7>
+                    <p> 코웨이의 지속가능경영은 대외적으로 인정받아 2016년부터 4년 연속 다우존스 지속가능경영지수(DJSI, Dow Jones Sustainability Indicies) 월드 지수에 편입되었습니다.
                     </p>
                 </div>
             </b-col>

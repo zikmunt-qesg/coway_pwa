@@ -11,8 +11,9 @@
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5">
                 <section class="px-3 px-md-4 px-lg-5 py-4 py-lg-5">
-                    <h5 class="mb-5 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h5>
-                    <b-table-simple responsive class="txt-table f-95">
+                    <div class="d-flex mb-45 position-relative overflow-hidden"> <h4 class="parang7 fw-500 bg-white pr-4" style="z-index:10">지속가능경영 뉴스</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+
+                    <b-table-simple responsive class="txt-table  sustainability-table f-95">
                         <b-thead>
                             <b-tr>
                                 <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td>
@@ -22,19 +23,21 @@
                             <b-tr>
                                 <b-td class="py-2">{{ item.index }}</b-td> 
                                 <b-td class="py-2">
-                                    <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400 font-noto"> {{ item.title }} </b-button>
+                                    <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="see-article p-0 text-left fw-400 font-noto"> {{ item.title }} </b-button>
                                 </b-td>
                                 <b-td class="py-2">{{ item.date }}</b-td>                        
                             </b-tr>
                         </b-tbody>
                     </b-table-simple>
 
-                    <b-pagination
-                    v-model="current_page"
-                    :total-rows="articles.length"
-                    :per-page="per_page"
-                    aria-controls="article-table"
-                    ></b-pagination>
+                    <div class="d-flex justify-content-center news-indi">
+                        <b-pagination
+                        v-model="current_page"
+                        :total-rows="articles.length"
+                        :per-page="per_page"
+                        aria-controls="article-table"
+                        ></b-pagination>
+                    </div>
                 </section>
             </b-col>
             <b-col class="col-0 col-lg-1"></b-col>
@@ -74,4 +77,29 @@ export default {
     }
 }
 </script>
--
+<style lang="scss">
+.news-indi > ul > li.active button.page-link {
+    background-color: $gray4!important;
+    border-color: $gray4!important;
+    color: #fff!important;
+    font-weight: 500;
+}
+.news-indi > ul > li > span, 
+.news-indi > ul > li > button{
+    border:0;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.news-indi > ul > li > span{
+    color: $gray4!important;
+}
+.news-indi > ul > li > button{
+    color: $gray6!important;
+}
+button.page-link:focus,
+button.see-article:focus {
+    outline: none;
+    box-shadow: none;
+}
+</style>

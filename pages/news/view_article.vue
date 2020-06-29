@@ -21,9 +21,9 @@
                     <div class="mb-3"> <div v-html="$md.render(contents)"></div> </div>
                     <div class="pt-4 mb-4 border-bottom-gray-bold"></div>
                     <b-button-group class="w-100 border-top-gray border-bottom-gray py-2">
-                        <b-button variant="icon-gray" @click="move('previous')" v-if="idx < articles.length-1"> <i class="fas fa-chevron-left mr-3"></i> 이전</b-button>
-                        <b-button variant="icon-gray" @click="$router.push('/news')" class="">목록으로</b-button>
-                        <b-button variant="icon-gray" @click="move('next')" v-if="idx>0">다음 <i class="fas fa-chevron-right ml-3"></i></b-button>
+                        <b-button variant="icon-rev" class="see-article" @click="move('previous')" v-if="idx < articles.length-1"> <i class="fas fa-chevron-left mr-3"></i> 이전</b-button>
+                        <b-button variant="icon-rev" class="see-article" @click="$router.push('/news')" >목록으로</b-button>
+                        <b-button variant="icon-rev" class="see-article" @click="move('next')" v-if="idx>0">다음 <i class="fas fa-chevron-right ml-3"></i></b-button>
                     </b-button-group>
                     <hr class='mb-5 space-p75'> 
                 </section>
