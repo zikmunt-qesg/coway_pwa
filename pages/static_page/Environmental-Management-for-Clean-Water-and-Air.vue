@@ -72,7 +72,7 @@
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center">                                    
                                     <b-col class="col-12 col-sm-7 pr-xl-2">
-                                        <p class="fw-500 word-break">2050년까지 신재생에너지 RE100, 탄소 배출량 제로 NET ZERO 달성 </p>
+                                        <p class="fw-500 word-break">2050년까지 신재생에너지 RE100, 탄소 배출량 NET ZERO 달성 </p>
                                         <p class="f-90 fw-300 word-break">(2030년 신재생 50%, 2040년 75%, 2050년 100%)</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/123_7.svg" fluid class="w-100"></b-img></div></b-col>
