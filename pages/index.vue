@@ -8,16 +8,16 @@
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
                     <div class="position-absolute d-md-block pr-lg-5 mr-xl-5 m-r-5" style="top:0; right:0; height: 87%; max-width: 80%;">
-                        <transition name="tran-1"> <b-img src="/images/i1_1.png" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
+                        <transition name="tran-1"> <b-img src="/images/i1_1.svg" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
                     </div>
                     <div class="position-absolute d-none d-xl-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
-                        <transition name="tran-4"> <b-img src="/images/i1_4.png" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
+                        <transition name="tran-4"> <b-img src="/images/i1_4.svg" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
                     </div>
                     <div class="position-absolute row d-none d-xl-block w-100 pl-xl-5 ml-xl-5" style="top: 28%; left: 0; height: 27%; ">
-                        <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="pl-xl-5 ml-xl-5 h-100"></b-img> </transition></div>
+                        <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.svg" v-if="slide==0 && visible" fluid class="pl-xl-5 ml-xl-5 h-100"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 54%;">
-                        <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
+                        <transition name="tran-2"> <b-img src="/images/i1_2.svg" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
                     </div>
                     <div class="mt-5 text-left text-lg-center row w-100">
                         <div class="col-0 col-lg-1 col-xl-1"></div>
@@ -33,23 +33,23 @@
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i2_bg">
                 <div class="position-relative carousel-height overflow-hidden"> 
-                    <div class="position-absolute row w-100 mt-4 mt-sm-0 " style="top: 29%; left: 0; height: 31%; width:92%">
+                    <div class="position-absolute row w-100 mt-4 mt-sm-0 " style="top: 29%; left: 0; height: 29%; width:92%">
                         <div class="col-sm-1 col-md-3 col-lg-4 col-xl-5">&nbsp;</div>
-                        <div class="col-sm-10 mt-2 mt-md-0 col-md-7 col-lg-8 col-xl-7 h-100 pr-5 pr-md-0 "><transition name="ran-1"> <b-img src="/images/i2_1.png" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
+                        <div class="col-sm-10 mt-2 mt-md-0 col-md-7 col-lg-8 col-xl-7 h-100 pr-5 pr-md-0 "><transition name="ran-1"> <b-img src="/images/i2_1.svg" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute d-none d-lg-block pl-md-2 ml-xl-5" style="bottom: 27%; left: 0; height: 35%;">
+                    <div class="position-absolute d-none d-lg-block pl-md-4 ml-xl-5" style="bottom: 25%; left: 0; height: 33%;">
                         <transition name="ran-2"> <b-img src="/images/i2_2.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                     </div>
-                    <div class="position-absolute row w-100 pl-xl-4 mt-4 mt-sm-0" style="top:21%; left: 0; height: 17%;">
+                    <div class="position-absolute row w-100 pl-xl-5 ml-xl-5 mt-4 mt-sm-0" style="top:21%; left: 0; height: 14%;">
                         <div class="col-sm-2 col-lg-2 col-xl-3">&nbsp;</div>
-                        <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-flex justify-content-end justify-content-md-start"><transition name="ran-3"> <b-img src="/images/i2_3.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                        <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-flex justify-content-end justify-content-md-start pl-xl-5"><transition name="ran-3"> <b-img src="/images/i2_3.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute row w-100" style="bottom: 1.4%; left: 0; height: 37%;">
+                    <div class="position-absolute row w-100" style="bottom: 1.4%; left: 0; height: 35%;">
                         <div class="col-0 col-lg-2 col-xl-2">&nbsp;</div>
                         <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/i2_4.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute ml-lg-2 row w-100 d-none d-md-block" style="bottom: 22%; left: 0; height:15%;">
-                        <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
+                    <div class="position-absolute ml-lg-2 row w-100 d-none d-lg-block" style="bottom: 20%; left: 0; height:13%;">
+                        <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-3"></b-img> </transition>
                     </div>
                     <div class="mt-5 pt-2 pt-xl-3 row w-100">
                         <div class="col-0 col-sm-2 col-md-2 col-lg-5 col-xl-6"></div>
@@ -70,14 +70,14 @@
                         <div class="col-lg-6 col-xl-5 h-100 d-none d-lg-block"><transition name="an-1"> <b-img src="/images/i3_2.svg" v-if="slide==2 && visible" fluid class="h-100"></b-img> </transition> </div>
                     </div>
                     <div class="position-absolute d-none d-md-block m-r-6" style="bottom:5%; height: 60%; max-width: 75%;">
-                        <transition name="an-2"> <b-img src="/images/i3_1.png" v-if="slide==2 && visible" fluid class="" style="max-height: 100%;"></b-img> </transition>
+                        <transition name="an-2"> <b-img src="/images/i3_1.svg" v-if="slide==2 && visible" fluid class="" style="max-height: 100%;"></b-img> </transition>
                     </div>
                     <div class="position-absolute row w-100 mt-5 mt-sm-0 pl-lg-5 ml-xl-5 d-flex justify-content-end justify-content-md-start" style="top:31%; left: 0; height: 21%;">
                         <transition name="an-3"> <b-img src="/images/i3_3.svg" v-if="slide==2 && visible" fluid class="h-100 mt-5 mt-sm-0 pl-md-5 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="position-absolute row w-100 mt-4 mt-md-0 " style="top:53%; left: 0; height: 33%;">
                         <div class="col-md-1 col-lg-2">&nbsp;</div>
-                        <div class="col-md-11 col-lg-10 h-100"><transition name="an-4"> <b-img src="/images/i3_4.png" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-4"></b-img> </transition></div>
+                        <div class="col-md-11 col-lg-10 h-100"><transition name="an-4"> <b-img src="/images/i3_4.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-4"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute row w-100 pl-xl-5 d-none d-lg-block" style="top:47%; left: 0; height: 16%;">
                         <transition name="an-5"> <b-img src="/images/i3_5.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>

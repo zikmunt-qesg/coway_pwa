@@ -1,20 +1,7 @@
 <svg id="구성_요소_39_1" data-name="구성 요소 39 – 1" xmlns="http://www.w3.org/2000/svg" width="179.207" height="95.831" viewBox="0 0 179.207 95.831">
-  <defs>
-    <style>
-      .cls-1 {
-        opacity: 0.2;
-        mix-blend-mode: multiply;
-        isolation: isolate;
-      }
-
-      .cls-2 {
-        fill: #1c6376;
-      }
-    </style>
-  </defs>
-  <g id="그룹_98" data-name="그룹 98" class="cls-1" transform="translate(-118.397 -2077.112)">
+  <g id="그룹_98" data-name="그룹 98" transform="translate(-118.397 -2077.112)" opacity="0.2" style="mix-blend-mode: multiply;isolation: isolate">
     <g id="그룹_97" data-name="그룹 97">
-      <rect id="사각형_67" data-name="사각형 67" class="cls-2" width="179.207" height="95.831" transform="translate(118.397 2077.112)"/>
+      <rect id="사각형_67" data-name="사각형 67" width="179.207" height="95.831" transform="translate(118.397 2077.112)" fill="#1c6376"/>
     </g>
   </g>
 </svg>
