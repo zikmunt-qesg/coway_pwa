@@ -108,7 +108,7 @@
                                     <b-td class="text-left" colspan="2">에너지 사용량</b-td><b-td class="text-left">Gj</b-td><b-td>118,020</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">온실가스 배출량 원단위</b-td><b-td class="text-left">tCO2eq/매출액(억원)</b-td><b-td>0.224</b-td>
+                                    <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">에너지 배출량 원단위</b-td><b-td class="text-left">tCO2eq/매출액(억원)</b-td><b-td>0.223</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2">폐기물 재활용량</b-td><b-td class="text-left">ton</b-td><b-td>23,432</b-td>

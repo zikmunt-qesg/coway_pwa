@@ -61,14 +61,14 @@
                                     <b-td rowspan="3">임직원<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>사내 온라인 상담 채널</b-td><b-td>수시</b-td>
+                                    <b-td>사내 온라인 상담 채널(소나무 베이커리, 코러스)</b-td><b-td>수시</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>아이디어 제안 제도(상상오션)</b-td><b-td>수시</b-td>
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">파트너 및 협력사<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>협력사 협의회</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></ul></b-td>
+                                    <b-td rowspan="3">파트너 및 협력사<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>협력사 협의회(착한믿음 협의회)</b-td><b-td>연 4회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>협력사 상생협력</li><li>협력사 지속가능성 개발 지원</li><li>건강한 근무환경 조성</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>협력사 온라인 상생포털</b-td><b-td>수시</b-td>
@@ -319,8 +319,7 @@
                         </b-col>
                     </b-row>      
 
-                    <p class="mb-5"> 
-                        라이프스타일의 변화에 따라 생활 필수 가전제품이 다양화되며, 가정에 및 생활환경에서 사용하는 환경가전 제품의 수도 점차 증가하고 있습니다. 이에 따라 환경가전 제품의 안전성 및 품질 관리의 중요성이 더욱 부각되고 있습니다. 이에 대헤 코웨이는 2019년 한국신뢰성대상 ‘제조업 부문 대상’ 수상 및 ‘서비스 품질 우수상’ 국무총리 표창 수상 등을 통해 제품 책임의 우수성을 증명하였습니다. 코웨이는 전사적 제품 책임 거버넌스로서 CEO 직속 협의체인 무한책임위원회를 운영하며, 품질경영 전사 회의체인 PIC 360(Product Immersion Committee 360)을 운영하여 실행력을 강화하고 있습니다. 또한, TQA센터를 중심으로 제품 신뢰성 시험 표준 개발 및 검증 역량을 강화하고, 제품 안전 인증 공인 시험소를 운영하여 안전 인증 범위를 확대하고 있습니다. 코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 코웨이는 고객 신뢰와 안전성 확보를 위해 최초 개발 당시의 규격 안전성 및 성능 유효성이 지속되고 있는지를 평가하고 있습니다. 완제품 단위의 안전 / 성능인증 적합성 평가를 매년 증가시켜, 2018년에는 57건의 안전 성능에 대한 검증을 진행하였고, 2019년에는 인프라를 확대하여 제 / 부품의 인증 및 성능에 대해 약 350건을 평가, 양산품에 대한 관리 수준을 대폭 증가시켰습니다. 2020년에는 400여건 이상의 평가 계획을 수립하여 사회적 이슈 발생 예방은 물론 제품 안전성 강화를 위해 더욱 노력할 것이며, 이를 바탕으로 고객이 안심하고 사용할 수 있는 제품의 제공을 위해 더욱 힘쓰겠습니다.
+                    <p class="mb-5"> 코웨이는 고객 신뢰와 안전성 확보를 위해 최초 개발 당시의 규격 안전성 및 성능 유효성이 지속되고 있는지를 평가하고 있습니다. 완제품 단위의 안전 / 성능인증 적합성 평가를 매년 증가시켜, 2018년에는 57건의 안전 성능에 대한 검증을 진행하였고, 2019년에는 인프라를 확대하여 제 / 부품의 인증 및 성능에 대해 약 350건을 평가, 양산품에 대한 관리 수준을 대폭 증가시켰습니다. 2020년에는 400여건 이상의 평가 계획을 수립하여 사회적 이슈 발생 예방은 물론 제품 안전성 강화를 위해 더욱 노력할 것이며, 이를 바탕으로 고객이 안심하고 사용할 수 있는 제품의 제공을 위해 더욱 힘쓰겠습니다.
                     </p>
 
                     <h6-ancor hash="e3-3" :activated="activated" class="parang6 mb-3">정보보호</h6-ancor>
@@ -340,9 +339,6 @@
                                 <div class="fw-500 mb-3">임직원 정보보호 교육 참여율</div>
                                 <div class="text-right" ><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
                             </div>
-                            <p class="f-80 fw-300 mt-2">
-                                    *2020년 목표: 100%
-                            </p>
                         </b-col>
                     </b-row> 
 
@@ -422,14 +418,14 @@
                                     <b-td rowspan="3">Employees<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>Labor Management Council </b-td><b-td>Once a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Fair performance evaluation and compensation</li><li>Competency development</li><li>Work-life balance</li><li>Diversity-based corporate culture</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>In-house online consultation channel</b-td><b-td>Frequently</b-td>
+                                    <b-td>In-house online consultation channel (Pine Tree bakery, chorus)</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Idea Proposal System (Imagination Ocean)</b-td><b-td>Frequently</b-td>
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier committee</b-td><b-td>4 times a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
+                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier committee (Good Faith Council)</b-td><b-td>4 times a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Supplier Online Win-Win portal</b-td><b-td>Frequently</b-td>
@@ -675,9 +671,7 @@
                         </b-col>
                     </b-row>      
 
-                    <p class="mb-5">
-                        As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, “Manufacturing Sector Grand Prize” and “Service Quality Excellence Award” by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification.
-                        코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 코웨이는 고객 신뢰와 안전성 확보를 위해 최초 개발 당시의 규격 안전성 및 성능 유효성이 지속되고 있는지를 평가하고 있습니다. 완제품 단위의 안전 / 성능인증 적합성 평가를 매년 증가시켜, 2018년에는 57건의 안전 성능에 대한 검증을 진행하였고, 2019년에는 인프라를 확대하여 제 / 부품의 인증 및 성능에 대해 약 350건을 평가, 양산품에 대한 관리 수준을 대폭 증가시켰습니다. 2020년에는 400여건 이상의 평가 계획을 수립하여 사회적 이슈 발생 예방은 물론 제품 안전성 강화를 위해 더욱 노력할 것이며, 이를 바탕으로 고객이 안심하고 사용할 수 있는 제품의 제공을 위해 더욱 힘쓰겠습니다.
+                    <p class="mb-5">As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, “Manufacturing Sector Grand Prize” and “Service Quality Excellence Award” by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification. Coway will continuously strive to increase customer trust through systematic product responsibility and quality management systems.
                     </p>
 
                     <h6-ancor hash="e3-3" :activated="activated" class="parang6 mb-3">Information Protection</h6-ancor>
@@ -697,9 +691,6 @@
                                 <div class="fw-500 mb-3">Employee Information Protection Training Participation Rate</div>
                                 <div><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
                             </div>
-                            <p class="f-80 fw-300 mt-2">
-                                    *2020 Target: 100%
-                            </p>
                         </b-col>
                     </b-row> 
 

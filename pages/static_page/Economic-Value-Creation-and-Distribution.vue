@@ -33,17 +33,17 @@
                     <hr class="py-1">
                     <div class="position-relative"> <hj-img src="/images/89_1.svg" fluid alt="코웨이 매출 및 영업이익 추이(2010-2019)"></hj-img>
                     <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
-                        <h7 class="mb-2 font-noto">매출 및 영업이익 추이(2010-2019) </h7>
+                        <h7 class="mb-2 font-noto">코웨이 매출 및 영업이익 추이(2010-2019) </h7>
                         <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> 매출액 (단위: 억원)</div>
                         <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 영업이익 (단위: 억원)</div>
                     </div></div>
                     <hr class="mb-3">
-                    <!--<div class="position-relative"> <hj-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></hj-img>
+                    <div class="position-relative"> <hj-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></hj-img>
                     <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
                         <h7 class="mb-2 font-noto">국내 환경가전 렌탈 계정현황 </h7>
                         <div class="fw-300 f-80 d-flex align-items-center mb-1"> (단위: 천 계정)</div>
                     </div></div>
-                    <hr class="mb-3">-->
+                    <hr class="mb-3">
 
                     <h6-ancor hash="j1-1" :activated="activated" class="parang6 fw-500 mb-2">해외 사업의 꾸준한 확대</h6-ancor>
                     <p class="mb-45">2019년 해외사업 매출은 7,491억 원으로 전년대비 37.7% 성장하였습니다. 말레이시아 및 미국법인의 매출이 큰 폭으로 증가하며 해외법인은 고성장을 지속하고 있습니다. 주요 법인별로는 말레이시아 법인의 매출이 전년 3,534억 원 대비 48.9% 증가하여 5,263억 원을 달성하였으며, 관리계정은 2018년 97만 6,000계정에서 135만 4,000 계정으로 38.8% 증가하였습니다. 미국 또한 전년 805억 원 대비 20.9% 성장한 973억 원의 매출, 11만 4,000계정에서 4.7% 증가한 12만 계정을 달성하며 견조한 성장세를 유지하고 있습니다. 
@@ -101,7 +101,7 @@
                         <h7 class="mb-3 gray63">지역별 조세 납부 <span class="fw-300 f-80"> (단위: 천 원)</span></h7>
                         <b-table-simple responsive class="num-table f-95 mb-2">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
@@ -121,7 +121,7 @@
                         <h7 class="mb-3 gray63">법인세 비용의 주요 구성 내역 <span class="fw-300 f-80"> (단위: 천 원)</span></h7>
                         <b-table-simple responsive class="num-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>

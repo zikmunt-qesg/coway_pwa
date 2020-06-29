@@ -1,6 +1,5 @@
 <template>
 <div class="position-relative page-top-bg-news min-vh-100">
-    <logger title="이 보고서에 대하여"></logger>
     <div class="w-100 bg-white bg-white-cover-news position-absolute"></div>
 
     <b-row no-gutters class="py-5">
