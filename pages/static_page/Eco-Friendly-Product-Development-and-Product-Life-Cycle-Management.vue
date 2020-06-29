@@ -177,7 +177,7 @@
                             </ul>
                         </b-col>
                     </div>
-                    <hr class="mb-5">
+                    <hr class="mb-4">
                     <hj-img src="/images/28_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-5 py-3">

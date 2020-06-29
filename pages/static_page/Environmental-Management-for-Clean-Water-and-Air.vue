@@ -125,7 +125,6 @@
                         <p> 운영환경효율성 측면에서 코웨이의 중장기적 환경목표 핵심은 2050년까지 신재생에너지 100%와 탄소중립 달성, 2030년까지 폐기물 재활용률 100% 달성, 2050년까지 수자원 재활용률을 100% 달성하는 것입니다. 이러한 코웨이의 추진 목표의 중점은 지구 환경보전과 인간의 풍요로운 삶의 밸런스 유지, 친환경 기술과 제품, 서비스 제공을 통한 지속가능한 지구환경의 밸런스 유지 기여를 통해 지속가능한 발전 목표(SDGs, Sustainable Development Goals) 달성에 기여하는데 있습니다.
                         </p>
                 </section>
-                <section class="bg-blue-gray1 px-3 py-5 mb-5 text-center">
                     <hj-img src="/images/124_1.svg" fluid></hj-img>
                     <!-- <h4 class="fw-600 green7 mb-3">Green Up</h4>
                     <h6 class="fw-600 green7 mb-3">환경을 건강하게 사람을 행복하게</h6>
@@ -175,8 +174,7 @@
                             <p class="mb-0 word-break">친환경 소통과 참여 확대 / Eco-DNA 내재화 </p>
                         </b-col>
                     </b-row> -->
-                </section>
-                <hr class="py-1">
+                <hr class="mb-3">
                 <h6-ancor hash="k1-3" :activated="activated" class="mb-3 green5">환경경영 추진 체계</h6-ancor>
                     <p> 코웨이는 전사 영역에서의 환경경영 실천을 위해 환경경영위원회를 운영하고 있습니다. 환경경영위원회는 TQA센터 본부장을 환경경영 최고 책임자로 임명하여 운영하고 있으며, 환경경영팀을 중심으로 환경 전략을 추진하고 있습니다. 전사적인 환경경영 내재화를 위해 각 부문에서 참여하는 협의체로 ‘Ecoway 협의체’를 구성하여 정기적으로 환경 관련 이슈를 논의하고 있습니다. 
                     </p>
