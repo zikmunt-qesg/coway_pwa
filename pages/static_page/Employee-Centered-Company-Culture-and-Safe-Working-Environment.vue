@@ -33,7 +33,8 @@
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance & Approach</h7>
-                                <p>임직원이 자유롭게 역량을 발휘할 수 있는 기업문화는 기업 경쟁력을 유지하기 위해 매우 중요한 요소입니다. 코웨이는 투명하고 공정한 채용 과정을 통해 인재상에 부합하는 우수 인재를 선발합니다. 또한 체계화된 교육 프로그램을 운영하여 역량을 개발할 수 있도록 지원하며, 수평적이고 소통하는 기업 문화를 조성하여 자율적인 업무역량 발휘는 물론 일과 삶의 균형을 추구하는 인재 경영을 실천하고 있습니다.
+                                <p>임직원이 자유롭게 역량을 발휘할 수 있는 기업문화는 기업 경쟁력을 유지하기 위해 매우 중요한 요소입니다. 코웨이는 투명하고 공정한 채용 과정을 통해 인재상에 부합하는 우수 인재를 선발합니다. 또한 체계화된 교육 프로그램을 운영하여 역량을 개발할 수 있도록 지원하며, 수평적이고 소통하는 기업 문화를 조성하여 자율적인 업무역량 발휘는 물론 일과 삶의 균형을 추구하는 인재 경영을 실천하고 있습니다. 
+                                또한 안전한 업무 환경을 조성하고 근로자의 질병 및 재해를 최소화하기 위해 안전보건 경영을 추진합니다. 산업안전보건위원회를 기반으로 안전보건 시스템을 마련하고, 국내 전 공장에 통합적인 안전보건 시스템을 운영하고 있습니다. 
                                 </p>
                             </b-col>
                         </b-row>
@@ -259,7 +260,7 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">가족초청 코웨이데이</p><p class="px-2 f-90 mb-md-0 line-height-low">신입사원의 입사 100일을 기념하고 소속감을 강화하기 위해 가족들을 초청하여 업무 공간 견학 등의 행사 진행</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">신입사원 코웨이데이</p><p class="px-2 f-90 mb-md-0 line-height-low">신입사원의 입사 100일을 기념하고 소속감을 강화하기 위해 가족들을 초청하여 업무 공간 견학 등의 행사 진행</p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>

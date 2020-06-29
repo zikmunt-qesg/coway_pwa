@@ -371,9 +371,6 @@
                                 <b-tr>
                                     <b-td class="text-left">품질경영시스템(ISO9001)</b-td><b-td class="text-left">100%</b-td>
                                 </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">유해물질관리경영시스템(QC8000 HSPM)</b-td><b-td class="text-left">100%</b-td>
-                                </b-tr>
                             </b-tbody>
                         </b-table-simple>
 

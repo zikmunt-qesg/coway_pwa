@@ -24,6 +24,11 @@
                 </b-input-group>        
             </b-col>
         </b-row>
+        <b-row>
+            <b-col>
+              <b-alert variant="danger" class="mt-2 py-1 f-90" :show="show_alert==true">*두 글자 이상 검색어를 입력해야 합니다 </b-alert>
+            </b-col>
+        </b-row>
     </div>
 </template>
 <script>
@@ -40,7 +45,8 @@ export default {
       selected_mode: ['integrated'], // 'integrated' or 'indicator',
       form_placeholder: '검색할 내용을 입력해 주세요',
       search_query: '',
-      searchable_input_key: 0
+      searchable_input_key: 0,
+      show_alert: false
     }
   },
   props:{
@@ -88,6 +94,12 @@ export default {
     },
     handleOK() {
       if (this.selected_mode == 'integrated'){
+        this.show_alert = false
+        
+        if( this.search_query.length < 2 ){
+          this.show_alert = true
+          return false
+        }
         this.searchPages({ q: this.search_query })
         .then( () => {
           this.$router.push({ path: '/framework/search_result', query: { defined_query: this.search_query} })
