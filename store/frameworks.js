@@ -372,7 +372,7 @@ export const state = () => ({
           code: '102-56',
           indicators: '외부검증',
           indicaotrs_e: '',
-          link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report', 'name_e':'', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Statement', 'name_e':'', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
           Note: ''
         },
         {
@@ -1548,7 +1548,7 @@ export const state = () => ({
             code: '2.1.2', 
             indicators: '환경 보고 - 검증', 
             indicaotrs_e: '',
-            link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report', 'name_e':'', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/About-This-Report-and-Assurance?p=GHG-Assurance-Statement', 'name_e':'', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 
@@ -1638,7 +1638,7 @@ export const state = () => ({
             code: '3.1.2', 
             indicators: '사회 보고 - 검증', 
             indicaotrs_e: '',
-            link:  [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report', 'name_e':'', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+            link:  [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Statement', 'name_e':'', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
             Note: '' 
         },            
         { 

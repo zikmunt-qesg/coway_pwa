@@ -399,12 +399,12 @@ export const state = () => ({
                                 link: '/static_page/About-This-Report-and-Assurance'
                             },
                             {
-                                title: '제3자 검증 의견서',
-                                link: '/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Report'
+                                title: '제3자 검증의견서',
+                                link: '/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Statement'
                             },
                             {
-                                title: '온실가스 검증 의견서',
-                                link: '/static_page/About-This-Report-and-Assurance?p=GHG-Assurance-Report'
+                                title: '온실가스 검증의견서',
+                                link: '/static_page/About-This-Report-and-Assurance?p=GHG-Assurance-Statement'
                             }
                         ]
                     },
