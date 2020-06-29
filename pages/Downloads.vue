@@ -20,30 +20,105 @@
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">   
                 <h7 class="border-bottom-gray pb-1 mb-4 font-noto"> 2019 지속가능경영보고서 </h7>
                 
-                    <b-card no-body class="overflow-hidden">
-                        <b-row no-gutters>
-                            <b-col md="6">
-                                <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0"></b-card-img>
+                    <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
+                        <b-row no-gutters >
+                            <b-col md="6" class="main-report p-3">
+                                <b-card-img src="/images/2018kor.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
                             </b-col>
-                            <b-col md="6">
-                                <b-card-body>
-                                    2019 지속가능경영보고서<br>
-                                    <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">바로보기</b-button>
-                                    <b-button href="/documents/2018_coway_sr_kor.pdf" download> 다운로드 <i class="fas fa-file-download"></i> </b-button>
+                            <b-col md="6" class="d-flex align-items-center">
+                                <b-card-body class="clearfix">
+                                    <div class="font-noto mb-3">2019 지속가능경영보고서</div>
+                                    <b-button-group class="mb-3">
+                                        <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">국문 바로보기</b-button>
+                                        <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                                    </b-button-group><br>
+                                    <b-button-group block>
+                                        <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">영문 바로보기</b-button>
+                                        <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                                    </b-button-group>
                                 </b-card-body>
                             </b-col>
                         </b-row>   
-                        <!-- <b-card-body class="p-0">                    
-                            <b-button-group block>
-                                <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank">2019 지속가능경영보고서</b-button>
-                                <b-button href="/documents/2018_coway_sr_kor.pdf" download> <i class="fas fa-file-download"></i> </b-button>
-                            </b-button-group>
-                        </b-card-body> -->
                     </b-card>       
                     <hr class="mb-2">
                 <hr>
                 <h7 class="border-bottom-gray pb-1 mb-4"> 이전 보고서 </h7>
-                    <b-card header="2018 지속가능경영보고서">
+
+                <b-row>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2018kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2018_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2018 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2017kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2017_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2017 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2017_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2016kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2016_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2016 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2016_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2015kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2015_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2015 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2015_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2014kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2014_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2014 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2014_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2014kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2014_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2014 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2014_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2012kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2012_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2012 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2012_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2011kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2011_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2011 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2011_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                    <b-col class="col-6 col-md-4 mb-45">
+                        <b-card no-body img-src="/images/2010kor.png">
+                            <b-button-group class="w-100">
+                                <b-button href="/documents/2010_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2010 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2010_coway_sr_kor.pdf" download><i class="fas fa-file-download ml-2"></i> </b-button>
+                            </b-button-group>
+                        </b-card>
+                    </b-col>
+                </b-row>
+                    <!-- <b-card header="2018 지속가능경영보고서">
                         <b-card-body class="p-0">
                             <a href="/documents/code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
                             <a href="/documents/code_of_conduct_guideline.pdf" download><li class="py-2">윤리규정(국문)</li></a>
@@ -71,7 +146,7 @@
                         <b-card-body class="p-0">
                             <a href="/documents/governance_report_2019.pdf" download><li class="py-2">거버넌스 리포트 2019(국문)</li></a>
                         </b-card-body>
-                    </b-card>
+                    </b-card> -->
                     <hr class="mb-2">
             </b-col>
             <b-col class="col-0 col-lg-1"></b-col>
@@ -121,4 +196,8 @@ export default {
 .nav-tabs .nav-link.active{
     border:0;
 }
+// .main-report .card-img{
+//     width: auto;
+//     height:100%;
+// }
 </style>
