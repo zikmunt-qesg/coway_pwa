@@ -121,7 +121,7 @@
                             <b-img src="/images/82_1.svg" fluid></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-6">
-                            <h7 class="gray63 mb-0">코웨이 신뢰성 인프라 보유현황</h7>
+                            <h7 class="gray63 mb-0">신뢰성 인프라 보유현황</h7>
                             <div class="f-80 gray6 mb-2">(단위: 건)</div>
                             <b-table-simple responsive class="txt-table f-95">
                                 <b-thead><b-tr>
