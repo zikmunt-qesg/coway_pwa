@@ -3,7 +3,7 @@
     <logger title="메인"></logger>
 
 
-    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+    <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="10000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
         <b-carousel-slide><template v-slot:img>
             <div class="bg-i-img i1_bg" >
                 <div class="position-relative carousel-height overflow-hidden">
@@ -13,8 +13,8 @@
                     <div class="position-absolute d-none d-xl-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
                         <transition name="tran-4"> <b-img src="/images/i1_4.png" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
                     </div>
-                    <div class="position-absolute row d-none d-xl-block w-100" style="top: 28%; left: 0; height: 27%;">
-                        <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="h-100"></b-img> </transition></div>
+                    <div class="position-absolute row d-none d-xl-block w-100 pl-xl-5 ml-xl-5" style="top: 28%; left: 0; height: 27%; ">
+                        <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.png" v-if="slide==0 && visible" fluid class="pl-xl-5 ml-xl-5 h-100"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 54%;">
                         <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
@@ -38,7 +38,7 @@
                         <div class="col-sm-10 mt-2 mt-md-0 col-md-7 col-lg-8 col-xl-7 h-100 pr-5 pr-md-0 "><transition name="ran-1"> <b-img src="/images/i2_1.png" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute d-none d-lg-block pl-md-2 ml-xl-5" style="bottom: 27%; left: 0; height: 35%;">
-                        <transition name="ran-2"> <b-img src="/images/i2_2.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
+                        <transition name="ran-2"> <b-img src="/images/i2_2.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="position-absolute row w-100 pl-xl-4 mt-4 mt-sm-0" style="top:21%; left: 0; height: 17%;">
                         <div class="col-sm-2 col-lg-2 col-xl-3">&nbsp;</div>
@@ -390,11 +390,11 @@ export default {
             if(event.type == 'progress' ){
                 if( event.percentCenter >= 0 && event.percentCenter <= 0.6 ) { 
                     this.visible = true
-                }else this.visible =false
+                }
             }
-            if(event.type == 'exit'){
-                this.visible = false
-            }
+            // if(event.type == 'exit'){
+            //     this.visible = false
+            // }
         },
         viewHandlerGraph(event){
             if(event.type == 'progress' ){
