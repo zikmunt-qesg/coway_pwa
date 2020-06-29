@@ -409,8 +409,12 @@ export const state = () => ({
                         ]
                     },
                     {
-                        title: 'Sustainability News',
+                        title: '코웨이 지속가능경영 뉴스',
                         link: '/news'
+                    },
+                    {
+                        title: '보고서 다운로드',
+                        link: '/downloads'
                     }
                 ]
         }

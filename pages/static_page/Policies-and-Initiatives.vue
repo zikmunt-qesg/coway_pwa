@@ -143,6 +143,11 @@ export default {
     }
 }
 </script>
-<style scoped>
-
+<style scoped lang="scss">
+.nav-tabs{
+    border:0;
+}
+.nav-link.active{
+    border-color: white;
+}
 </style>
