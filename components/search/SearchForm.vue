@@ -24,11 +24,9 @@
                 </b-input-group>        
             </b-col>
         </b-row>
-        <b-row>
-            <b-col>
-              <b-alert variant="danger" class="mt-2 py-1 f-90" :show="show_alert==true">*두 글자 이상 검색어를 입력해야 합니다 </b-alert>
-            </b-col>
-        </b-row>
+        
+        <b-alert variant="danger" class="mt-3 mb-2 py-1 f-90" :show="show_alert==true">검색어를 두 글자 이상 입력하여 주십시오. </b-alert>
+        
     </div>
 </template>
 <script>

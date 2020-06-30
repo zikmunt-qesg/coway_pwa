@@ -16,7 +16,8 @@
                         <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button> -->
                     </b-button-group></b-nav-item>
                     <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
-                    <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap"><b-img src="/images/201_1.svg"></b-img></b-nav-item>
+                    <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap">
+                        <transition name="map-icon"><b-img v-if="show_site_map!=true" src="/images/201_1.svg"></b-img> <b-img v-else src="/images/200.svg"></b-img></transition> </b-nav-item>
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2" @click="sm_opend = !sm_opend"></b-navbar-toggle>
                 </div>
@@ -50,7 +51,7 @@
             </b-row>
             </b-container>
         </div>
-        <div id="sitemap-modal" :class="[show_site_map?'open':'d-none','position-absolute w-100']" style="max-height:100vh; z-index:999;">
+        <div id="sitemap-modal" :class="[show_site_map==true?'open-sitemap':'','position-absolute w-100']" style="max-height:100vh; z-index:9;">
             <site-map @show_site_map="toggleSiteMap"></site-map>            
         </div>
         <!-- <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            
@@ -243,9 +244,12 @@ export default {
     padding: 0;
     transition: all .3s ease;
 }
-.sitemap > a > img:hover {
-    transform: rotate( -90deg );
+.sitemap > a {
+    padding-bottom: 0.6rem;;
 }
+// .sitemap > a > img:hover {
+//     transform: rotate( -90deg );
+// }
 .handle-px1 a {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
@@ -387,6 +391,14 @@ button:focus{
     color: black!important;
     opacity: 1!important;
 }
+#sitemap-modal{
+    margin-top:-100%;
+    transition: all 0.5s ease-out;
+}
+#sitemap-modal.open-sitemap {
+    margin-top:0;
+}
+
 
 </style>
 <style lang="scss">

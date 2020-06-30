@@ -21,16 +21,17 @@
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-right text-md-left"> Contacts<br>
-                        <p class="ml-3 ml-md-0 mt-0 mt-md-2 mb-0 f-80"> E-mail 
-                            <a href="mailto:sustainability@coway.co.kr" target="_blank" class="footer-a f-120 ml-2"><i class="fas fa-envelope-square"></i></a>
+                        <p class="ml-3 ml-md-0 mt-0 mt-md-2 mb-0 f-80"> 
+                            <a href="mailto:sustainability@coway.co.kr" target="_blank" class="footer-a"><i class="fas fa-external-link-square-alt pr-2"></i>E-mail </a>
                         </p>
                         <!-- <p class="ml-3 ml-md-0 mt-0 mt-md-2 mb-0 f-80">
                             E-mail : <a href="mailto:sustainability@coway.co.kr" target="_blank" class="footer-a"> sustainability@coway.co.kr </a>
                         </p> -->
                         <p class="ml-3 ml-md-0 mb-0 f-80">Social Media
-                            <a href="https://www.facebook.com/cowaystory" target="_blank" class="footer-a f-120 ml-2"> <i class="fab fa-facebook-square"></i></a>
-                            <a href="https://www.youtube.com/user/Cowaystory" target="_blank" class="footer-a f-120 ml-2"> <i class="fab fa-youtube-square"></i></a>
+                            <a href="https://www.facebook.com/cowaystory" target="_blank" class="footer-a f-120 ml-2" style="padding-bottom:2px;"> <i class="fab fa-facebook-square"></i> </a>
+                            <a href="https://www.youtube.com/user/Cowaystory" target="_blank" class="footer-a ml-1" style="font-size:1.254rem;"> <i class="fab fa-youtube-square" ></i></a>
                         </p>
+                        <!-- <b-img src="/images/203_1.svg" style="width:20px;"></b-img> -->
                     </div>
                 </div>
             </b-col>

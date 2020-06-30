@@ -1,10 +1,13 @@
 <template>
   <div>
     <b-container class="min-vh-100">
-        <search-form class="mt-3" prop_mode='integrated' prop_framework='GRI' :defined_query="defined_query"></search-form>
-        <hr class="py-2 space-lined">
+        <search-form class="sticky-top bg-white shadow-sm w-100 py-3 px-3 px-lg-4 mb-5" 
+            prop_mode='integrated' prop_framework='GRI' 
+            :defined_query="defined_query" style="top:50.76px; z-index:888;"
+        >
+        </search-form>        
         <template v-if="search_results.length != 0">
-            <b-card class="my-2 border-0 bg-blue-gray1" v-for="item in search_results" :key="item.link">
+            <b-card class="my-3 border-0 bg-blue-gray1 result-box" v-for="item in search_results" :key="item.link">
                 <b-card-title> <nuxt-link :to="item.link"> {{ item.title }} </nuxt-link> </b-card-title>
                 <b-card-text> <nuxt-link :to="item.link"> <div v-html="item.contents"> </div></nuxt-link></b-card-text>
             </b-card>
@@ -39,3 +42,14 @@ export default {
   }
 }
 </script>
+<style scoped lang="scss">
+.result-box > div > h4 > a,
+.result-box > div > p > a {
+    transition: all 0.2s ease-out;
+}
+.result-box:hover > div > h4 > a,
+.result-box:hover > div > p > a {
+    color: black!important;
+    // background-color: $blue4;
+}
+</style>

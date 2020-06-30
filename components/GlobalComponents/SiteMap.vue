@@ -1,5 +1,5 @@
 <template>
-<div class="position-relative d-none d-lg-block" style="background-color: rgba(225,225,225,0.9)">
+<div class="position-relative d-none d-lg-block" style="background-color: rgba(245,245,245,0.95)">
     <b-container>
         <b-row class="pt-3 pb-3 font-noto d-flex flex-column flex-md-row">
             <!-- <b-col class="col-0 col-lg-1"></b-col> -->

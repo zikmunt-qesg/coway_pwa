@@ -3,12 +3,12 @@
     <style>
       .cls-1 {
         fill: none;
-        stroke: #5e6366;
+        stroke: #101010;
         stroke-width: 2px;
       }
     </style>
   </defs>
-  <g id="구성_요소_15_1" data-name="구성 요소 15 – 1" transform="translate(0 1)">
+  <g id="구성_요소_51_1" data-name="구성 요소 51 – 1" transform="translate(0 1)">
     <line id="선_1" data-name="선 1" class="cls-1" x2="26"/>
     <line id="선_2" data-name="선 2" class="cls-1" x2="26" transform="translate(0 6.714)"/>
     <line id="선_3" data-name="선 3" class="cls-1" x2="26" transform="translate(0 13.428)"/>
