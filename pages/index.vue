@@ -218,7 +218,7 @@
                         <div class="blue7 f-105 fw-300 letter-narrow mt-m-3"><span class="main2-card-num"><animated-number :value="779" :comma="true" :fixed="0"></animated-number></span>만 계정</div>
                         <div class="text-right pl-3 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                     </div>
-                    <div class="gray6 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> 2019년 말 기준 국내외 렌탈 779만 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
+                    <div class="gray6 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> 2019년 말 기준 국내외 779만 고객 계정을 보유한 코웨이는 오랜 기간 연구해온 데이터를 미래 기술과 접목하여 고객에게 보다 정확하고 편리한 새로운 서비스 경험을 제공합니다. 
                     </div>
                 </b-col>
             </b-row>
