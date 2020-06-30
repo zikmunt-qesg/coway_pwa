@@ -736,3 +736,58 @@
 .graph-3-enter-active, .graph-3-leave-active {
     transition: all 0.9s ease 0.7s;
 }
+
+
+
+
+.btn-reports-up{
+    background-color: $gray5;
+    color:$gray2;
+    border:0;
+}
+.btn-reports-up:hover{
+    // background-color: $gray63;
+    color: white;
+}
+.btn-reports-up::after {
+    background: $gray63;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.btn-reports-up::after {
+    height: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}  
+.btn-reports-up:hover:after {
+    height: 100%;
+}
+
+.btn-reports{
+    background-color: $gray5;
+    color:$gray2;
+    border:0;
+}
+.btn-reports:hover{
+    // background-color: $gray63;
+    color: white;
+}
+.btn-reports::after {
+    background: $gray63;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.btn-reports::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+}  
+.btn-reports:hover:after {
+    height: 100%;
+}
