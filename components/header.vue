@@ -4,15 +4,16 @@
         <b-navbar class="px-3 px-sm-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" :class="sm_opend==true ? 'shadow-sm-lg-none':''" toggleable="lg" variant="light" style="z-index:10">
             <b-navbar-brand class="my-2">
                 <nuxt-link to="/">
-                    <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability 2020</span>
+                    <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability</span>
                 </nuxt-link>
             </b-navbar-brand>   
 
             <div class="d-lg-flex flex-lg-row-reverse justify-content-end justify-content-lg-start jump-width" >
                 <div class="d-flex justify-content-end align-items-center jump-up">                
                     <b-nav-item class="pl-lg-3 pt-1 pb-1 px-0 handle-px1" style="list-style: none"><b-button-group class="d-flex align-items-center">
-                        <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button><span class="f-85">|</span>
-                        <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
+                        <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button>
+                        <!-- <span class="f-85">|</span>
+                        <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button> -->
                     </b-button-group></b-nav-item>
                     <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
                     <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap"><b-img src="/images/201_1.svg"></b-img></b-nav-item>
