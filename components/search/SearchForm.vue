@@ -167,6 +167,11 @@ export default {
 .selectable div label {
     cursor: pointer!important;
 }
+.selectable div .custom-control-input:checked,
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $blue5!important;
+    border-color: $blue5!important;
+}
 
 .form-control {
     height: auto
