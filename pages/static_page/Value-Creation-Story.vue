@@ -105,13 +105,13 @@
                                     <b-td class="text-left" colspan="2">원자재 사용량</b-td><b-td class="text-left">Ton</b-td><b-td>17,670</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">에너지 사용량</b-td><b-td class="text-left">Gj</b-td><b-td>118,627</b-td>
+                                    <b-td class="text-left" colspan="2">에너지 사용량</b-td><b-td class="text-left">GJ</b-td><b-td>118,627</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">온실가스 배출량 원단위</b-td><b-td class="text-left">tCO2eq/매출액(억원)</b-td><b-td>0.234</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">폐기물 재활용량</b-td><b-td class="text-left">ton</b-td><b-td>23,432</b-td>
+                                    <b-td class="text-left" colspan="2">폐기물 재활용량</b-td><b-td class="text-left">ton</b-td><b-td>23,486</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>

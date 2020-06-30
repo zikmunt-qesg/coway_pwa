@@ -253,7 +253,7 @@
                                 <b-td class="text-left">디자인</b-td> <b-td>641</b-td> <b-td>668</b-td> <b-td>785</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="text-left">합계</b-td> <b-td>4,267</b-td> <b-td>4,456</b-td> <b-td>5,206</b-td>
+                                <b-td class="text-left">합계</b-td> <b-td>4,267</b-td> <b-td>4,456</b-td> <b-td>5,026</b-td>
                             </b-tr>                         
                         </b-tbody>                                
                     </b-table-simple>                    

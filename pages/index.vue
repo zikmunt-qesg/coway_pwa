@@ -103,7 +103,7 @@
     <!-- intro 영역 경계 -->
 
     <b-container>
-        <hr class="mb-4">
+        <hr class="mb-45">
         <h1 class="text-center mb-3 fw-300 font-noto"> SUSTAINABILITY ISSUES 2020</h1>
         <section>
             <b-row class="mb-4">

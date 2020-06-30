@@ -1,10 +1,10 @@
 <template>
   <div>
     <b-container class="min-vh-100">
-        <search-form class="my-3" prop_mode='integrated' prop_framework='GRI' :defined_query="defined_query"></search-form>
-
+        <search-form class="mt-3" prop_mode='integrated' prop_framework='GRI' :defined_query="defined_query"></search-form>
+        <hr class="py-2 space-lined">
         <template v-if="search_results.length != 0">
-            <b-card class="my-2 border-0" v-for="item in search_results" :key="item.link">
+            <b-card class="my-2 border-0 bg-blue-gray1" v-for="item in search_results" :key="item.link">
                 <b-card-title> <nuxt-link :to="item.link"> {{ item.title }} </nuxt-link> </b-card-title>
                 <b-card-text> <nuxt-link :to="item.link"> <div v-html="item.contents"> </div></nuxt-link></b-card-text>
             </b-card>
