@@ -245,7 +245,7 @@ export default {
     transition: all .3s ease;
 }
 .sitemap > a {
-    padding-bottom: 0.6rem;;
+    padding-bottom: 0.64rem;
 }
 // .sitemap > a > img:hover {
 //     transform: rotate( -90deg );
@@ -300,12 +300,12 @@ export default {
 .global-nav-2::before{
     content:"";
     width: 0;
-    height: 1px;
+    height: 0.75px;
     position: absolute;
     transition: all 0.2s linear;
     background: #fff;
     left:0;
-    top:0;
+    top: 0px;
 }
 .global-nav-2:hover::before {
     left:0;
