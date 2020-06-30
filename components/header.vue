@@ -15,7 +15,7 @@
                         <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
                     </b-button-group></b-nav-item>
                     <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
-                    <b-nav-item class="d-none d-lg-block color-for-nav" @click.stop="toggleSiteMap"><i class="fas fa-map-signs"></i></b-nav-item>
+                    <b-nav-item class="d-none d-lg-block" @click.stop="toggleSiteMap" style="max-width:"><b-img src="/images/201_1.svg"></b-img></b-nav-item>
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2" @click="sm_opend = !sm_opend"></b-navbar-toggle>
                 </div>

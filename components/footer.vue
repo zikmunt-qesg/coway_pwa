@@ -8,7 +8,7 @@
             <b-col class="col-8 col-lg-9 mb-3">
                 <div class="row d-flex flex-column flex-md-row f-95">
                     <div class="col-md-6 col-lg-3 mb-3 pb-1 pb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"><nuxt-link to="/static_page/About-This-Report-and-Assurance" class="footer-a">About This Report</nuxt-link></div>
-                    <div class="col-md-6 col-lg-3 mb-3 pb-1 pb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"> Terms & Conditions</div>
+                    <div class="col-md-6 col-lg-3 mb-3 pb-1 pb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"><nuxt-link to="/framework/gri" class="footer-a">GRI Disclosure</nuxt-link></div>
                     <div class="col-md-6 col-lg-3 mb-3 pb-1 pb-md-0 line-height-low text-right text-md-left"> Further Website<br>
                         <p class="ml-3 ml-md-0 mt-2 mb-0 f-80">
                             <a href="http://www.coway.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>코웨이 홈페이지 </a>

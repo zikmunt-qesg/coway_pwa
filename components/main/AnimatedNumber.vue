@@ -45,6 +45,9 @@ export default {
         numberWithCommas(x) {
             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
         }
+    },
+    created(){
+        this.tweeningValue = this.value
     }
 }
 </script>

@@ -38,13 +38,13 @@
                         <div class="col-sm-10 mt-2 mt-md-0 col-md-7 col-lg-8 col-xl-7 h-100 pr-5 pr-md-0 "><transition name="ran-1"> <b-img src="/images/i2_1.svg" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
                     </div>
                     <div class="position-absolute d-none d-lg-block pl-md-4 ml-xl-5" style="bottom: 25%; left: 0; height: 33%;">
-                        <transition name="ran-2"> <b-img src="/images/i2_2.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
+                        <transition name="ran-2"> <b-img src="/images/i2_2.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                     </div>
                     <div class="position-absolute row w-100 pl-xl-5 ml-xl-5 mt-4 mt-sm-0" style="top:21%; left: 0; height: 14%;">
                         <div class="col-sm-2 col-lg-2 col-xl-3">&nbsp;</div>
                         <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-flex justify-content-end justify-content-md-start pl-xl-5"><transition name="ran-3"> <b-img src="/images/i2_3.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                     </div>
-                    <div class="position-absolute row w-100" style="bottom: 1.4%; left: 0; height: 35%;">
+                    <div class="position-absolute row w-100" style="bottom: 3%; left: 0; height: 33%;">
                         <div class="col-0 col-lg-2 col-xl-2">&nbsp;</div>
                         <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/i2_4.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                     </div>

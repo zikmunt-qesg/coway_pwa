@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="22.142" viewBox="0 0 26 22.142">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #838484;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_21_1" data-name="구성 요소 21 – 1" transform="translate(0 1)">
+    <line id="선_1" data-name="선 1" class="cls-1" x2="26"/>
+    <line id="선_2" data-name="선 2" class="cls-1" x2="26" transform="translate(0 6.714)"/>
+    <line id="선_3" data-name="선 3" class="cls-1" x2="26" transform="translate(0 13.428)"/>
+    <line id="선_4" data-name="선 4" class="cls-1" x2="26" transform="translate(0 20.142)"/>
+  </g>
+</svg>
