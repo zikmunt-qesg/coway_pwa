@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.614" height="23.613" viewBox="0 0 23.614 23.613">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #5e6366;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_52_1" data-name="구성 요소 52 – 1" transform="translate(0.707 0.707)">
+    <line id="선_98" data-name="선 98" class="cls-1" x2="31.394" transform="translate(0 22.199) rotate(-45)"/>
+    <line id="선_97" data-name="선 97" class="cls-1" x2="31.394" transform="translate(0 0) rotate(45)"/>
+  </g>
+</svg>
