@@ -15,7 +15,7 @@
                         <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
                     </b-button-group></b-nav-item>
                     <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
-                    <b-nav-item class="d-none d-lg-block" @click.stop="toggleSiteMap" style="max-width:"><b-img src="/images/201_1.svg"></b-img></b-nav-item>
+                    <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap"><b-img src="/images/201_1.svg"></b-img></b-nav-item>
 
                     <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2" @click="sm_opend = !sm_opend"></b-navbar-toggle>
                 </div>
@@ -227,12 +227,21 @@ export default {
     //letter-spacing: 0.196px;
     line-height: 1.4;
     cursor:pointer;
-    transition: color 0.3s ease-in;
+    transition: color 0.3s ease;
 }
 
 .color-for-nav,
 .color-for-nav > a{
-    transition: color 0.3s ease-in;
+    transition: color 0.3s ease;
+}
+.sitemap > a > img{
+    width: 22.5px;
+    height: 22.5px;
+    padding: 0;
+    transition: all .3s ease;
+}
+.sitemap > a > img:hover {
+    transform: rotate( -90deg );
 }
 .handle-px1 a {
     padding-left: 0.2rem;
@@ -271,8 +280,6 @@ export default {
     height: 100%;
     text-align: left;
     padding-top: 0.2rem;
-    // margin-right: 2.2em;
-    // margin-bottom: 1.5em;
     border-top: 0.75px solid $gray4;
     transition: all 0.4s ease-out;
 }
@@ -282,9 +289,7 @@ export default {
     font-weight: 300;
     line-height: 1.5;
 }
-// .global-nav-2:hover {
-//     border-top: 0.75px solid white;
-// }
+
 .global-nav-2::before{
     content:"";
     width: 0;
@@ -301,10 +306,6 @@ export default {
     width: 100%;
 }
 
-// .global-nav-2:hover::before {
-//   border-top-color: #0eb7da;
-//   transition: width 0.25s ease-out
-// }
 
 .lv2-text:hover{
     color: white;
@@ -387,6 +388,10 @@ button:focus{
 </style>
 <style lang="scss">
 .navbar-light .navbar-toggler-icon {
+    background-image: url('/images/201_1.svg')!important;
+    transition: all 0.3s ease;
+}
+.navbar-light .navbar-toggler-icon:hover {
     background-image: url('/images/200.svg')!important;
 }
 .navbar-toggler-icon{
