@@ -1,5 +1,5 @@
 <template>
-<div class="position-relative page-top-bg-sus min-vh-100">   
+<div class="position-relative page-top-bg-sus w-100 min-vh-100">   
     <logger title="CEO Message"></logger>
     <div class="w-100 bg-white bg-white-cover position-absolute"></div>
 
