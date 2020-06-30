@@ -118,35 +118,6 @@
                         </b-card>
                     </b-col>
                 </b-row>
-                    <!-- <b-card header="2018 지속가능경영보고서">
-                        <b-card-body class="p-0">
-                            <a href="/documents/code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
-                            <a href="/documents/code_of_conduct_guideline.pdf" download><li class="py-2">윤리규정(국문)</li></a>
-                            <a href="/documents/code_of_conduct_instruction.pdf" download><li class="py-2">윤리실천지침(국문)</li></a>
-                        </b-card-body>
-                    </b-card>  
-                    <hr class="mb-2">
-
-                    <b-card header="2017 지속가능경영보고서">
-                        <b-card-body class="p-0">
-                            <a href="/documents/supplier_code_of_conduct_kor.pdf" download><li class="py-2">협력사 행동규범(국문)</li></a>
-                            <a href="/documents/supplier_code_of_conduct_eng.pdf" download><li class="py-2">협력사 행동규범(영문)</li></a>
-                        </b-card-body>
-                    </b-card>
-                    <hr class="mb-2">
-
-                    <b-card header="2016 지속가능경영보고서">
-                        <b-card-body class="p-0">
-                            <a href="/documents/carbon_report_2018.pdf" download><li class="py-2">Carbon Report 2018(국문)</li></a>
-                        </b-card-body>
-                    </b-card>  
-                    <hr class="mb-2">
-
-                    <b-card header="2015 지속가능경영보고서">
-                        <b-card-body class="p-0">
-                            <a href="/documents/governance_report_2019.pdf" download><li class="py-2">거버넌스 리포트 2019(국문)</li></a>
-                        </b-card-body>
-                    </b-card> -->
                     <hr class="mb-2">
             </b-col>
             <b-col class="col-0 col-lg-1"></b-col>
