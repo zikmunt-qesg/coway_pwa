@@ -49,7 +49,7 @@
             </b-row>
             </b-container>
         </div>
-        <div id="sitemap-modal" :class="[show_site_map?'':'d-none','position-absolute w-100']" style="max-height:100vh; z-index:999;">
+        <div id="sitemap-modal" :class="[show_site_map?'open':'d-none','position-absolute w-100']" style="max-height:100vh; z-index:999;">
             <site-map @show_site_map="toggleSiteMap"></site-map>            
         </div>
         <!-- <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            

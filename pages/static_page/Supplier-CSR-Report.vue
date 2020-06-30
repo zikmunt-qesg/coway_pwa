@@ -59,7 +59,7 @@
                         <hj-img src="/images/94_1.svg" fluid></hj-img>
                     <hr class="mb-4">
                     <h6-ancor hash="v2-3" :activated="activated" class="gold6 fw-500 mb-2">시정 조치</h6-ancor>
-                    <p class="mb-5">코웨이는 협력사 평가 결과에 따라 개선이 필요한 협력사에 대해서는 시정조치 계획을 수립하고 리스크 요인(ESG 리스크 포함)을 개선하도록 요구하고 있습니다. 2019년 협력사 진단 및 평가결과에 따라 제재 조치를 받은 협력사는 총 XX 개였습니다. 
+                    <p class="mb-5">코웨이는 협력사 평가 결과에 따라 개선이 필요한 협력사에 대해서는 시정조치 계획을 수립하고 리스크 요인(ESG 리스크 포함)을 개선하도록 요구하고 있습니다. 
                     </p>
                     <hr class="py-3">
                     <div class="d-flex mb-5 position-relative overflow-hidden"> <h6-ancor hash="v3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">분쟁광물</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>

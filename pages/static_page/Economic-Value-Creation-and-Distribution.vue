@@ -24,7 +24,7 @@
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">경제적 가치 창출과 분배</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="j1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">경제적 가치 창출</h6-ancor></div>
-                    <p class="font-noto">지난 10년 간 한 해도 빠짐없이 꾸준한 성장을 이어온 코웨이는 2019년에도 지속적인 매출 성장세를 기록하며, 전년대비 11.5% 증가한 3조 189억 원의 사상최대 매출을 달성하였습니다. 국내 환경가전 사업 매출은 2조 1,112억 원으로, 세부 매출은 1. 렌탈 판매, 2. 일시불 판매, 3. 멤버십 프로그램으로 구성됩니다. 2019년 기준 총 관리계정은 628만으로 전년 590만 계정 대비 6.5% 증가하였습니다. 
+                    <p class="font-noto">지난 10년 간 한 해도 빠짐없이 꾸준한 성장을 이어온 코웨이는 2019년에도 지속적인 매출 성장세를 기록하며, 전년대비 11.5% 증가한 3조 189억 원의 사상최대 매출을 달성하였습니다. 국내 환경가전 사업 매출은 2조 1,112억 원으로, 세부 매출은 1. 렌탈 판매, 2. 일시불 판매, 3. 멤버십 프로그램으로 구성됩니다. 2019년 기준 총 관리계정은 779만(국내 628만, 해외 151만) 계정입니다. 
                     </p>
                     <p class="font-noto">렌탈 판매량 또한 전년 145만 대에서 2019년 157만대로 전년대비 8.4% 증가하였으며, 기존제품 및 신규제품 판매 성장 영향으로 최대 판매를 달성하였습니다. 청정기의 판매 호조와 매트리스 등 신규 제품군의 판매가 확대되었습니다. 
                     </p>
@@ -56,7 +56,7 @@
 
                     <div class="position-relative"> <hj-img src="/images/92_1.svg" fluid alt="해외법인 관리계정"></hj-img>
                     <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
-                        <h7 class="mb-2 font-noto">해외법인 관리계정 </h7>
+                        <h7 class="mb-2 font-noto">해외법인 관리계정 <span class="fw-300 f-80 gray6"> (단위: 천 계정)</span></h7>
                         <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> 말레이시아</div>
                         <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> 미국</div>
                     </div></div>
@@ -88,7 +88,7 @@
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 사업장이 위치한 국가의 세법 및 규제를 준수하며,</p></div>
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 조세관할권이 낮은 지역으로의 가치 이전을 금지하며,</p></div>
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 조세회피를 위한 조세구조 사용을 지양하며,</p></div>
-                        <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 이전 가격을 비롯해 비밀관할권, ”조세피난처”를 사용하지 않는다.</p></div>
+                        <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 이전 가격을 비롯해 비밀관할권, "조세피난처"를 사용하지 않는다.</p></div>
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 이사회는 외환위험, 이자율위험, 신용위험, 파생금융상품과 비파생금융상품의 이용 및 유동성을 초과하는 투자 등 특정 분야에 관한 문서화된 정책뿐 아니라, 전반적인 리스크 관리를 위한 문서화된 정책을 제공한다.</p></div>
                         <div class="py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> 법인세 관련 정보는 금융감독원의 전자공시시스템에 공시되는 감사보고서와 지속가능경영 보고서를 통해 공개한다.</p></div>
                     </div>
