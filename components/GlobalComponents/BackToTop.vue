@@ -18,7 +18,7 @@
                         <div class="short-divide-line"></div>
                         <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/111_1.svg" class="external-link-btn py-1"></b-img> </a>
                         <div class="short-divide-line"></div>
-                        <a href="#" target="_blank" class="text-center"><b-img src="/images/112_1.svg" class="external-link-btn" style="padding-top:0.1rem; padding-bottom:0.15rem;"></b-img> </a>
+                        <nuxt-link to="/downloads" class="text-center"><b-img src="/images/112_1.svg" class="external-link-btn" style="padding-top:0.1rem; padding-bottom:0.15rem;"></b-img> </nuxt-link>
                         <div class="short-divide-line"></div>
                         <div @click="backToTop" class="text-center cursor go-to-top pt-2"><b-img src="/images/113_1.svg" style="padding-top:0.15rem;"></b-img> </div>
                     </div>            
