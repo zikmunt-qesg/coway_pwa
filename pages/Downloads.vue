@@ -29,8 +29,8 @@
                                 <b-card-body class="clearfix">
                                     <div class="font-noto mb-3">2019 지속가능경영보고서</div>
                                     <b-button-group class="mb-3">
-                                        <b-button variant="reports-up" href="/documents/2018_coway_sr_kor.pdf" target="_blank">국문 바로보기</b-button>
-                                        <b-button variant="reports" href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
+                                        <b-button variant="reports-up" href="/documents/2019_coway_sr_kor.pdf" target="_blank">국문 바로보기</b-button>
+                                        <b-button variant="reports" href="/documents/2019_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
                                     </b-button-group> (6/30 수정 예정)<br>
                                     <b-button-group block>
                                         <b-button variant="reports-up" href="/documents/2018_coway_sr_kor.pdf" target="_blank">영문 바로보기</b-button>
