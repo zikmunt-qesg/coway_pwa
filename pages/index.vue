@@ -346,7 +346,10 @@ export default {
         }
         return "slide-right";
     },
-    async asyncData({ store }) {
+    async asyncData({ store, query }) {
+        if(query.l && query.l=='ENG'){
+            store.commit('setLang', 'ENG')
+        }
         if (store.state.articles.is_articles_loaded != true) {
         let articles = await store.dispatch('articles/readArticles')
             return { main_articles: ih.deepCopy(articles.slice(0,3)) }
