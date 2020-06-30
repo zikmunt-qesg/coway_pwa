@@ -56,8 +56,8 @@
                             </b-button-group> 
                             <hr class="py-1">
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" class="see-policy" target="_blank">협력사 행동규범 (영문) </b-button>
-                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_eng.pdf" class="see-policy" target="_blank">협력사 행동규범 (영문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_eng.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group>
                         <hr>
                             <h7 class="f-110 fw-500">환경</h7>  

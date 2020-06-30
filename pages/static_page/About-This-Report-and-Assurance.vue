@@ -157,39 +157,35 @@
 
                 <b-card v-else-if="show_page=='GHG-Assurance-Statement'" class="border-0 px-4 py-5 fw-400">
                     <div class="px-md-2 px-lg-4 atr-content">
-                        <div class="d-flex mb-4 position-relative overflow-hidden"><h4 class="parang7 bg-white pr-4 letter-narrow-lg" style="z-index:10"> 온실가스 &middot; 태양광 &middot; 물 검증의견서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                        <div class="d-flex mb-45 position-relative overflow-hidden"><h4 class="parang7 bg-white pr-4 letter-narrow-lg" style="z-index:10"> 온실가스 &middot; 태양광 &middot; 물 검증의견서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     
-                        <b-card no-body class="overflow-hidden bg-blue-gray1 border-0 py-5 px-5">
-                            <h7 class="parang6 f-110 fw-500 border-bottom-parang mb-4">온실가스 &middot; 태양광 검증 의견서</h7>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2019_KOR.pdf" target="_blank" class="fw-300 font-noto">온실가스 태양광 검증의견서 2019년</b-button>
-                                    <b-button href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2019_KOR.pdf" download class="fw-300"> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
+                            <h7 class="f-110 mb-3">온실가스 &middot; 태양광 검증 의견서</h7>
+                                <b-button-group class="mb-3 w-100">
+                                    <b-button variant="light" href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2019_KOR.pdf" target="_blank" class=" font-noto see-policy">온실가스 태양광 검증의견서 2019년</b-button>
+                                    <b-button variant="light" href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2019_KOR.pdf" download class=""> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
                                 </b-button-group>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2018_KOR.pdf" target="_blank" class="fw-300 font-noto">온실가스 태양광 검증의견서 2018년</b-button>
-                                    <b-button href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2018_KOR.pdf" download class="fw-300"> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
+                                <b-button-group class="mb-3 w-100">
+                                    <b-button variant="light" href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2018_KOR.pdf" target="_blank" class=" font-noto see-policy">온실가스 태양광 검증의견서 2018년</b-button>
+                                    <b-button variant="light" href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2018_KOR.pdf" download class=""> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
                                 </b-button-group>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2017_KOR.pdf" target="_blank" class="fw-300 font-noto">온실가스 태양광 검증의견서 2017년</b-button>
-                                    <b-button href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2017_KOR.pdf" download class="fw-300"> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
+                                <b-button-group class="mb-3 w-100">
+                                    <b-button variant="light" href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2017_KOR.pdf" target="_blank" class=" font-noto see-policy">온실가스 태양광 검증의견서 2017년</b-button>
+                                    <b-button variant="light" href="/documents/[KMR]GHG,_Solar_Verification_Statement_Coway_CY2017_KOR.pdf" download class=""> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
                                 </b-button-group>                                    
-                        </b-card>
-
-                        <b-card no-body class="overflow-hidden bg-blue-gray1 border-0 py-5 px-5">
-                            <h7 class="parang6 f-110 fw-500 border-bottom-parang mb-4">물 사용량 검증의견서</h7>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/[KMR]Water_Verification_Statement_Coway_CY2019_KOR.pdf" target="_blank" class="fw-300 font-noto">물 사용량 검증의견서 2019년</b-button>
-                                    <b-button href="/documents/[KMR]Water_Verification_Statement_Coway_CY2019_KOR.pdf" download class="fw-300"> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
+                            <hr>
+                            <h7 class="f-110 mb-3">물 사용량 검증의견서</h7>
+                                <b-button-group class="mb-3 w-100">
+                                    <b-button variant="light" href="/documents/[KMR]Water_Verification_Statement_Coway_CY2019_KOR.pdf" target="_blank" class=" font-noto see-policy">물 사용량 검증의견서 2019년</b-button>
+                                    <b-button variant="light" href="/documents/[KMR]Water_Verification_Statement_Coway_CY2019_KOR.pdf" download class=""> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
                                 </b-button-group>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/[KMR]Water_Verification_Statement_Coway_CY2018_KOR.pdf" target="_blank" class="fw-300 font-noto">물 사용량 검증의견서 2018년</b-button>
-                                    <b-button href="/documents/[KMR]Water_Verification_Statement_Coway_CY2018_KOR.pdf" download class="fw-300"> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
+                                <b-button-group class="mb-3 w-100">
+                                    <b-button variant="light" href="/documents/[KMR]Water_Verification_Statement_Coway_CY2018_KOR.pdf" target="_blank" class=" font-noto see-policy">물 사용량 검증의견서 2018년</b-button>
+                                    <b-button variant="light" href="/documents/[KMR]Water_Verification_Statement_Coway_CY2018_KOR.pdf" download class=""> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
                                 </b-button-group>
-                                <b-button-group class="mb-3">
-                                    <b-button href="/documents/[KMR]Water_Verification_Statement_Coway_CY2017_KOR.pdf" target="_blank" class="fw-300 font-noto">물 사용량 검증의견서 2017년</b-button>
-                                    <b-button href="/documents/[KMR]Water_Verification_Statement_Coway_CY2017_KOR.pdf" download class="fw-300"> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
+                                <b-button-group class="mb-3 w-100">
+                                    <b-button variant="light" href="/documents/[KMR]Water_Verification_Statement_Coway_CY2017_KOR.pdf" target="_blank" class=" font-noto see-policy">물 사용량 검증의견서 2017년</b-button>
+                                    <b-button variant="light" href="/documents/[KMR]Water_Verification_Statement_Coway_CY2017_KOR.pdf" download class=""> 다운로드<i class="fas fa-file-download ml-2"></i> </b-button>
                                 </b-button-group>                                    
-                        </b-card>
                     </div>
                 </b-card>
                 
@@ -266,5 +262,9 @@ export default {
 .atr-content p {
     font-size: 1.02rem;
     letter-spacing: -0.26px;
+}
+.see-policy{
+    width:64%;
+    text-align: left;
 }
 </style>

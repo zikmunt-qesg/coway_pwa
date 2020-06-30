@@ -2,7 +2,7 @@
   <header class="sticky-top" @mouseleave="show_sub_menu=false">
     <div class="position-relative">
         <b-navbar class="px-3 px-sm-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" :class="sm_opend==true ? 'shadow-sm-lg-none':''" toggleable="lg" variant="light" style="z-index:10">
-            <b-navbar-brand class="my-3">
+            <b-navbar-brand class="my-2">
                 <nuxt-link to="/">
                     <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability 2020</span>
                 </nuxt-link>
@@ -21,8 +21,8 @@
                 </div>
                 <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto" :class="sm_opend==true ? 'pb-if-show':''">
                     <b-navbar-nav class="ml-lg-3 align-self-center" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
-                        <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-0 py-2 f-85 global-nav-lv1']"  >
-                            <span @click.stop="showSubMenu(item)" class="d-none d-lg-inline-block f-85">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
+                        <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-0 py-2 f-85 global-nav-lv1']" :style="show_site_map!=true ?'cursor:pointer':''" >
+                            <span @click.stop="showSubMenu(item)" :class="show_site_map!=true ? 'd-none d-lg-inline-block f-85' : 'text-white'">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
                         </div>
                             <ul v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 custom-ul" >
                                <li @click.stop="routerGo(level2_item.link)"> {{ level2_item.title }}</li>
@@ -33,7 +33,7 @@
             </div>           
         </b-navbar>
 
-        <div id="global-nav" :class="[show_sub_menu==true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
+        <div id="global-nav" :class="[show_sub_menu==true &&show_site_map!=true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
             <b-container>
             <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
                 <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300 letter-narrow" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">{{ menu_text }}</b-col>
@@ -49,9 +49,12 @@
             </b-row>
             </b-container>
         </div>
-        <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            
+        <div id="sitemap-modal" :class="[show_site_map?'':'d-none','position-absolute w-100']" style="max-height:100vh; z-index:999;">
+            <site-map @show_site_map="toggleSiteMap"></site-map>            
+        </div>
+        <!-- <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            
                 <site-map @show_site_map="toggleSiteMap"></site-map>            
-        </b-modal>
+        </b-modal> -->
         <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="">       
             <div class="py-3 px-4 px-xl-5">
                 <search-form @hide-finder="toggleSearchForm"></search-form>
@@ -198,14 +201,14 @@ export default {
 .navbar-collapse {
     flex-grow: 0;
 }
-#global-site-map {
-    margin-top: -100%;
-}
-#global-site-map.sitemap-show {
-    z-index: 100;
-    margin-top: 0;
-    transition: all 0.5s ease-in; 
-}
+// #global-site-map {
+//     margin-top: -100%;
+// }
+// #global-site-map.sitemap-show {
+//     z-index: 100;
+//     margin-top: 0;
+//     transition: all 0.5s ease-in; 
+// }
 
 #global-nav {
     overflow: hidden;
@@ -226,7 +229,6 @@ export default {
     color: $gray5;
     //letter-spacing: 0.196px;
     line-height: 1.4;
-    cursor:pointer;
     transition: color 0.3s ease;
 }
 
@@ -327,7 +329,7 @@ export default {
     }
     .jump-up {
         position: absolute;
-        top: 0.75rem;
+        top: 0.25rem;
         right: 3rem;
     }
     .jump-up li a{
@@ -349,7 +351,7 @@ export default {
 @media (max-width: 540px) {
     .jump-up {
         position: absolute;
-        top: 1rem;
+        top: 0.25rem;
         right: 1.5rem;
     }
 }
