@@ -358,11 +358,6 @@ export default {
             return { main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))}
         }
     },
-    head() {
-        return {
-            script: [{ src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }]
-        };
-    },
     computed: {
         ...mapState('articles', {
             articles: state => state.articles,
