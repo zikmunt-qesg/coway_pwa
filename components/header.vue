@@ -244,6 +244,9 @@ export default {
     padding: 0;
     transition: all .3s ease;
 }
+.sitemap > a {
+    padding-bottom: 0.6rem;;
+}
 // .sitemap > a > img:hover {
 //     transform: rotate( -90deg );
 // }

@@ -94,13 +94,13 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">현금 기부</b-td><b-td>403,757,567</b-td><b-td>485,218,807</b-td><b-td>10,572,045</b-td>
+                                    <b-td class="text-left">현금 기부</b-td><b-td>403,758</b-td><b-td>485,219</b-td><b-td>10,572</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">현물 기부</b-td><b-td>95,278,076</b-td><b-td>212,726,724</b-td><b-td>662,125,605</b-td>
+                                    <b-td class="text-left">현물 기부</b-td><b-td>95,278</b-td><b-td>212,727</b-td><b-td>662,126</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">사회공헌성 비용</b-td><b-td>558,692,653</b-td><b-td>137,790,578</b-td><b-td>211,578,500</b-td>
+                                    <b-td class="text-left">사회공헌성 비용</b-td><b-td>558,693</b-td><b-td>137,791</b-td><b-td>211,579</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
