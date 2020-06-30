@@ -88,8 +88,8 @@
                     <b-col class="col-6 col-md-4 mb-45">
                         <b-card no-body img-src="/images/2014kor.png">
                             <b-button-group class="w-100">
-                                <b-button href="/documents/2014_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2014 지속가능경영보고서</b-button>
-                                <b-button href="/documents/2014_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
+                                <b-button href="/documents/2013_coway_sr_kor.pdf" target="_blank" class="f-90 pt-2 line-height-low">2013 지속가능경영보고서</b-button>
+                                <b-button href="/documents/2013_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
                             </b-button-group>
                         </b-card>
                     </b-col>
