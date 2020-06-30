@@ -19,66 +19,59 @@
         <b-row>
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">              
-                <div v-if="show_page=='Policies'">
+                <div v-if="show_page=='Policies'" class="px-md-2 px-lg-4 atr-content">
+                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4" style="z-index:10">정책 보기 및 다운로드</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
 
-                    <!-- <b-card no-body class="overflow-hidden bg-blue-gray1 border-0">
-                        <b-row no-gutters >
-                            <b-col md="6" class="main-report p-3">
-                                <b-card-img src="/images/trust-guide1.png" alt="Image" class="rounded-0 shadow-sm" ></b-card-img>
-                            </b-col>
-                            <b-col md="6" class="d-flex align-items-center">
-                                <b-card-body class="clearfix">
-                                    <div class="font-noto mb-3">지속가능성 정책 - 코웨이 트러스트 가이드라인</div>
-                                    <b-button-group class="mb-3">
-                                        <b-button href="/documents/Coway_coway_trust_guideline_kor.pdf" target="_blank">국문 바로보기</b-button>
-                                        <b-button href="/documents/Coway_coway_trust_guideline_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
-                                    </b-button-group> (6/30 수정 예정)<br>
-                                    <b-button-group block>
-                                        <b-button href="/documents/Coway_coway_trust_guideline_eng.pdf" target="_blank">영문 바로보기</b-button>
-                                        <b-button href="/documents/Coway_coway_trust_guideline_eng.pdf" download><i class="fas fa-file-download"></i> </b-button>
-                                    </b-button-group> (7/8 수정 예정)
-                                </b-card-body>
-                            </b-col>
-                        </b-row>   
-                    </b-card>        -->
-                    <b-card header="지속가능성 정책">
-                        <b-card-body class="p-0">
-                            <a href="/documents/Coway_coway_trust_guideline_kor.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(국문)</li></a>
-                            <a href="/documents/Coway_coway_trust_guideline_eng.pdf" download><li class="py-2">코웨이 트러스트 가이드라인(영문)</li></a>
-                        </b-card-body>
-                    </b-card>       
-                    <hr class="mb-2">
-
-                    <b-card header="윤리경영">
-                        <b-card-body class="p-0">
-                            <a href="/documents/Coway_code_of_conduct.pdf" download><li class="py-2">윤리헌장(국문)</li></a>
-                            <a href="/documents/Coway_code_of_conduct_guideline.pdf" download><li class="py-2">윤리규정(국문)</li></a>
-                            <a href="/documents/Coway_code_of_conduct_instruction.pdf" download><li class="py-2">윤리실천지침(국문)</li></a>
-                        </b-card-body>
-                    </b-card>  
-                    <hr class="mb-2">
-
-                    <b-card header="협력회사 CSR">
-                        <b-card-body class="p-0">
-                            <a href="/documents/Coway_supplier_code_of_conduct_kor.pdf" download><li class="py-2">협력사 행동규범(국문)</li></a>
-                            <a href="/documents/Coway_supplier_code_of_conduct_eng.pdf" download><li class="py-2">협력사 행동규범(영문)</li></a>
-                        </b-card-body>
-                    </b-card>
-                    <hr class="mb-2">
-
-                    <b-card header="환경">
-                        <b-card-body class="p-0">
-                            <a href="/documents/carbon_report_2018.pdf" download><li class="py-2">Carbon Report 2018(국문)</li></a>
-                        </b-card-body>
-                    </b-card>  
-                    <hr class="mb-2">
-
-                    <b-card header="지배구조">
-                        <b-card-body class="p-0">
-                            <a href="/documents/governance_report_2019.pdf" download><li class="py-2">거버넌스 리포트 2019(국문)</li></a>
-                        </b-card-body>
-                    </b-card>
-                    <hr class="mb-2">
+                            <h7 class="f-110 fw-500">지속가능성 정책</h7>    
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_kor.pdf" class="see-policy" target="_blank">코웨이 트러스트 가이드라인 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_kor.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_eng.pdf" class="see-policy" target="_blank">코웨이 트러스트 가이드라인 (영문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_eng.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>
+                        <hr>
+                            <h7 class="f-110 fw-500">윤리경영</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" class="see-policy" target="_blank">윤리헌장 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" class="see-policy" target="_blank">윤리규정 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" class="see-policy" target="_blank">윤리실천지침 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>                               
+                        <hr>
+                            <h7 class="f-110 fw-500">협력사 지속가능성</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" class="see-policy" target="_blank">협력사 행동규범 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_eng.pdf" class="see-policy" target="_blank">협력사 행동규범 (영문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_eng.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>
+                        <hr>
+                            <h7 class="f-110 fw-500">환경</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/carbon_report_2018.pdf" class="see-policy font-noto" target="_blank">Carbon Report 2018 (국문)</b-button>
+                                <b-button variant="light" href="/documents/carbon_report_2018.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                        <hr>
+                            <h7 class="f-110 fw-500">지배구조</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/governance_report_2019.pdf" class="see-policy font-noto" target="_blank">거버넌스 리포트 2019 (국문)</b-button>
+                                <b-button variant="light" href="/documents/governance_report_2019.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                        
                 </div>
                 <div v-if="show_page=='Initiatives'" class="font-noto">
                     <div class="d-flex mb-5 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4" style="z-index:10">글로벌 이니셔티브 참여 및 인지도</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
@@ -170,5 +163,9 @@ export default {
 }
 .nav-link.active{
     border-color: white;
+}
+.see-policy{
+    width:64%;
+    text-align: left;
 }
 </style>
