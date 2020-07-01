@@ -486,7 +486,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR ENVIRONMENT</h1>
-            <h7 class="mb-5 text-center w-100 fw-400"> 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
+            <h7 class="mb-5 text-center w-100 fw-400"> Green global leader designing tomorrow for a healthier environment, and happier people </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -504,7 +504,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">친환경 제품 개발과 제품 전 과정 관리</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Eco-Friendly Product Development and Product Life Cycle Management</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -513,9 +513,9 @@
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
-                                <p> 코웨이는 생활환경가전 기업으로 정수기, 공기청정기 등 고객의 생활을 편리하게 하고 깨끗한 물과 공기를 전달하는 가전제품을 직접 생산합니다. 공기청정기 시장은 2010년 100만대에서 2020년 약 250만대 시장으로 성장하였습니다. 소비자의 환경 친화적 제품에 대한 관심은 녹색 소비로 이어지고 있습니다. 환경부 조사 결과에 따르면, 제품을 생산, 소비, 폐기하는 전 과정에서 에너지와 자원의 소비를 줄이고 오염물질을 최소화 하는 제품과 서비스의 제품 매출은 지난 4년간 평균 20.1% 증가하였습니다.
+                                <p> Coway is a living environment home appliance company that directly produces home appliances, such as water purifiers and air purifiers, that make customers' lives easier and deliver clean water and air. The air purifier market grew from 1 million units in 2010 to about 2.5 million units in 2020. Consumers' interest in environmentally friendly products leads to green consumption. According to a survey by the Ministry of Environment, product sales of products and services that reduce energy and resource consumption and minimize pollutants in the entire process of producing, consuming, and disposing of products have increased by an average of 20.1% over the past four years.
                                 </p>
-                                <p> 코웨이는 친환경 제품 설계, 전과정 평가를 통한 제품 책임 강화, 자원효율성의 향상 등 제품설계 및 라이프사이클 관리 부문에서 보다 우수한 제품을 생산하여 날로 악화되는 물과 공기로부터 인간을 보호하고, 보다 친환경적인 가치를 고객에 전달할 수 있도록 친환경 제품과 서비스에 최선을 다하겠습니다.
+                                <p> Coway produces better products in the product design and lifecycle management sector, such as designing eco-friendly products, strengthening product responsibilities through life cycle evaluation, and improving resource efficiency, protecting humans from ever-deteriorating water and air, and creating more eco-friendly values. We will undertake our utmost for eco-friendly products and services to deliver to customers.
                                 </p>
                             </b-col>
                         </b-row>
@@ -524,11 +524,11 @@
                             <b-col class="col-0 col-md-1"></b-col>
                             <b-col class="col-6 col-md-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/126_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">친환경 · 착한 브랜드 정립</p>
+                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2"> Establish Eco-Friendly, Good Brand Concept</p>
                             </b-col>
                             <b-col class="col-6 col-md-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/127_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">전 과정 환경경영을 통한 자원효율성 향상과 순환경제 구현</p>
+                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">Improve resource efficiency and realize a circular economy through eco-friendly management throughout the process</p>
                             </b-col>
                             <b-col class="col-0 col-md-1"></b-col>
                         </b-row>
@@ -536,7 +536,7 @@
                             <b-col class="col-12 col-md-4 pr-md-4 mb-4 mb-md-0 text-center">
                                 <h7 class="green7 f-120 mb-4 w-100 text-left">Business Cases</h7>
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/128_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4">냉매 회수 및 재활용, 리퍼브 판매 확대</p>                                   
+                                <p class="fw-500 word-break px-md-2 px-xl-4">Refrigerant Recovery and Recycling, expanding sales of refurbished products </p>                                   
                             </b-col>
                             <b-col class="col-12 col-md-8 position-relative pl-md-4">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
@@ -551,10 +551,10 @@
                                 </b-row>
                                 <b-row no-gutters class="align-items-start">                                    
                                     <b-col class="col-6 text-center">                   
-                                        <p class="fw-500 word-break font-noto">2019년 리퍼브 제품 판매량 <br>(2020년 10,000대 달성 목표) </p>
+                                        <p class="fw-500 word-break font-noto">2019 Refurbished Product Sales <br>(Aim to reach 10,000 units in 2020) </p>
                                     </b-col>
                                     <b-col class="col-6 text-center">
-                                        <p class="fw-500 word-break font-noto">2019년 회수 냉매 재활용률</p>
+                                        <p class="fw-500 word-break font-noto">Recycling rate of recovered refrigerants in 2019</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
@@ -563,31 +563,31 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">친환경 제품과 서비스, 비즈니스 설계</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-5"> 코웨이는 친환경적 제품과 서비스, 비즈니스를 설계합니다. 제품개발 프로세스, 청정생산, 렌탈 서비스, 회수 및 재활용 절차에 이르는 전 과정에서 화학물질 안전성 확보, 에너지 고효율 달성 및 탄소배출 저감, 생활환경 개선, 자원사용 저감 및 재활용성 증가에 이르기까지 전 과정에서 부정적 영향을 감소시키고 긍정적 영향은 확대하기 위한 위한 다양한 활동을 전개하고 있습니다.
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Eco-Friendly Product, Service, and Business Design</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <p class="mb-5"> Coway designs eco-friendly products, services, and businesses through the product development process, eco-friendly manufacturing, rental service, recovery, and recycling. We undertake various activities to reduce negative impacts and expand positive impact throughout the entire process by securing chemical safety, achieving high energy efficiency, reducing carbon emissions, improving the living environment, reducing resource use, and increasing recyclability.
                     </p>
                     <hj-img src="/images/72_1.svg" fluid class="w-100"></hj-img>
                     <hr class="mb-3">
 
-                    <h6-ancor hash="m1-1" :activated="activated" class="fw-500 green5 mb-3">전과정 평가와 제품 책임</h6-ancor>
-                    <p class="mb-5"> 코웨이는 제품이 환경에 미치는 영향을 정량적으로 평가하고 제품 개발에 반영하기 위하여 전 과정평가를 시행합니다. ISO14040 표준에 따른 전과정평가 중 간략 LCA(Simplified LCA) 기법을 이용하고 있습니다. 코웨이는 전 과정평가를 통해서 원자재 사용량을 정량화하고 생산과정을 최적화하는 한편, 사용 및 폐기단계에서 환경 부하를 저감하여 후손에게 지속가능한 지구를 물려주는 제품 스튜어드십(product Stewardship)을 적극 이행하겠습니다.
+                    <h6-ancor hash="m1-1" :activated="activated" class="fw-500 green5 mb-3">Life Cycle Assessment and Product Responsibility</h6-ancor>
+                    <p class="mb-5"> Coway conducts a full-scale evaluation to quantitatively evaluate the environmental impact of products and reflect them in product development. Simplified LCA technique is used during life cycle evaluation according to ISO14040 standard. Coway will actively implement product stewardship, which quantifies raw material consumption and optimizes the production process through all process evaluations while reducing environmental loads during use and disposal, leaving a sustainable planet for future generations.
                     </p>
-                    <h6-ancor hash="m1-2" :activated="activated" class="fw-500 green5 mb-3">친환경 제품 인증 획득</h6-ancor>
-                    <p class="mb-45">코웨이는 탄소성적표지, 환경마크 인증 제도 등을 통해 소비자에게 제품의 환경성 개선 정보를 지속적으로 제공하고 있습니다.
+                    <h6-ancor hash="m1-2" :activated="activated" class="fw-500 green5 mb-3">Eco-friendly Product Certification</h6-ancor>
+                    <p class="mb-45"> Coway continues to provide consumers with information on improving the environment of products through carbon labeling and environmental mark certification systems.
                     </p>
                     <b-table-simple responsive class="txt-table env-table f-95">
                         <b-thead><b-tr>
-                            <b-td class="text-left">인증</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                            <b-td class="text-left">Certification</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                         </b-tr></b-thead>
                         <b-tbody>
                             <b-tr>
-                                <b-td class="text-left">환경마크 인증</b-td> <b-td>17</b-td> <b-td>31</b-td> <b-td>25</b-td> <b-td>22</b-td>
+                                <b-td class="text-left">Eco Label Certification</b-td> <b-td>17</b-td> <b-td>31</b-td> <b-td>25</b-td> <b-td>22</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="text-left">물발자국</b-td> <b-td>-</b-td> <b-td>1</b-td> <b-td>1</b-td> <b-td>1</b-td>
+                                <b-td class="text-left">Water Footprint</b-td> <b-td>-</b-td> <b-td>1</b-td> <b-td>1</b-td> <b-td>1</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="text-left">탄소중립제품 인증</b-td><b-td>-</b-td> <b-td>1</b-td> <b-td>1</b-td> <b-td>0</b-td>
+                                <b-td class="text-left">Carbon Neutral Product Certification</b-td><b-td>-</b-td> <b-td>1</b-td> <b-td>1</b-td> <b-td>0</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td class="text-left">Carbon Balloon</b-td><b-td>2</b-td> <b-td>2</b-td> <b-td>2</b-td> <b-td>0</b-td>
@@ -595,65 +595,65 @@
                         </b-tbody> 
                     </b-table-simple>
                     <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45">
-                        <li>해당 연도에 인증이 유효한 친환경 제품의 누적 개수 (매트리스 포함)</li>
-                        <li>물 발자국: 제품 및 서비스의 원재료 취득·생산·유통·폐기 등 모든 과정에서 직·간접적으로 사용되는 물의 총량을 합산해 환경영향을 수치화한 것으로 국제표준기구의 검증 기준인 ISO14046의 요구조건에 의해 검증됨</li>
-                        <li>탄소중립제품 인증: 제품의 생산·유통·사용·폐기까지 이르는 전 과정에서 발생하는 온실가스 배출량에 상응하는 탄소배출권을 구매하거나 온실가스 감축활동을 통해 탄소배출량을 제로(0)로 만든 제품에게 주어지는 인증</li>
-                        <li>Carbon Balloon: 탄소성적표지는 대한민국 인증기준에 의해 제품 전 과정의 환경영향을 탄소로 계산하지만 Carbon Balloon은 보다 엄격한 ISO14044 & PAS2050의 기준에 의해 전 과정 배출량을 계산하여 인증받는 국제 탄소성적표지 인증</li>
+                        <li>Cumulative Eco-friendly products with valid certification in the year (Including mattress)</li>
+                        <li>Water footprint: Quantified environmental impacts by adding up the total amount of water used directly and indirectly for the entire process of product and service such as the acquirement of raw material, production, distribution, usage, and disposal and verified through ISO 14046 requirements, the verification requirement of International Standard Organization.</li>
+                        <li>Carbon Neutral Product Certification: Certification given to products that purchase carbon credits corresponding to greenhouse gas emissions generated in the entire process from product production, distribution, and disposal, or products with zero carbon emissions through greenhouse gas reduction activities.</li>
+                        <li>Carbon Balloon: Carbon labeling calculates the environmental impact of the entire production process as carbon according to Korean certification standards, but Carbon Balloon is an international carbon labeling certification that is certified by calculating the carbon emissions of the entire process according to the more stringent ISO 14044 & PAS 2050 standard.</li>
                     </ol>
                     
-                    <h7 class="mb-3 gray63">친환경제품 매출 현황 <span class="f-80 fw-300"> (단위: 억 원)</span></h7>
+                    <h7 class="mb-3 gray63">Eco-friendly Products Sales <span class="f-80 fw-300"> (Unit: 100 million KRW)</span></h7>
                     <b-table-simple responsive class="txt-table env-table mb-5 f-95">
                         <b-thead><b-tr>
-                            <b-td class="text-left">구분</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                            <b-td class="text-left">Category</b-td> <b-td>2016</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                         </b-tr></b-thead>
                         <b-tbody>
                             <b-tr>
-                                <b-td class="text-left">친환경 제품 매출</b-td> <b-td>7,025</b-td> <b-td>6,858</b-td> <b-td>5,869</b-td> <b-td>5,529</b-td>
+                                <b-td class="text-left">Eco-friendly product sales</b-td> <b-td>7,025</b-td> <b-td>6,858</b-td> <b-td>5,869</b-td> <b-td>5,529</b-td>
                             </b-tr>
                         </b-tbody>
                     </b-table-simple>
-                    <h6-ancor hash="m1-3" :activated="activated" class="fw-500 green5 mb-3">화학물질 관리 체계 강화</h6-ancor>
-                    <p class="mb-3"> 코웨이는 글로벌 품질, 환경경영시스템의 기본 구조와 개념을 도입하여 계획, 실행, 검토, 지속적 개선의 사이클을 통해 화학물질 관리를 강화하고 있습니다. 또한 화학물질 사전 규제 모니터링 체계 구축을 통해 사전 모니터링 및 분석된 규제 정보를 화학물질관리시스템(CSMS)과 연계하여 제품 기획 단계부터 반영 및 규제 대응이 완료된 제·부품이 개발될 수 있도록 대응력을 강화하였습니다.
+                    <h6-ancor hash="m1-3" :activated="activated" class="fw-500 green5 mb-3">Chemical Management System</h6-ancor>
+                    <p class="mb-3"> Coway introduced the basic structure and concepts of global quality and environmental management systems and acquired certification to strengthen chemical management through a cycle of planning, execution, review, and continuous improvement. Through the establishment of a chemical substance pre-regulatory monitoring system, we have strengthened our ability to respond to regulatory information from pre-monitored and analyzed with CSMS(Chemical Substances Management System), so that we can develop products and parts that have been reflected and regulated from the product planning stage.
                     </p>
-                    <p class="mb-5">사전 규제 대응 체계 강화로 RoHS II 규제 시행 전 사전 대응 완료를 진행하였으며 지속 관리하고 있는 식품 접촉 물질에 대한 ‘식품용 기구 및 용기포장 기준’ 및 항균/살균 부품/물질에 대한 국내·외 살생물제법 기준에 맞춰 관리 및 검증을 강화하였습니다.
+                    <p class="mb-5"> Reinforcement of the pre-regulatory response system led to the completion of the pre-response for the regulation of RoHSⅡ phthalate before the regulation was enforced. Management and verification have been strengthened under biocide production standards.
                     </p>
                     <div class="row d-flex flex-column flex-md-row pb-3 border-bottom-dark mx-1">
                         <b-col class="custom-ul-li pl-md-0">
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">모든 부품에 대해 EU RoHS & 자원순환법 기준을 적용하여 적합성을 검증</li>
-                                <li>전 제품의 적합성을 내부적으로 검증하기 위해 자원순환법 대응을 확대하여 서비스 부품 코드 100% 등록</li>
+                                <li class="no-word-break">EU/K-RoHS Standard is applied to all parts to verify the compatibility</li>
+                                <li>To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/24_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">사업장 내 화학물질 사용 현황을 파악 및 점검하기 위한 관련 데이터 베이스(DB) 구축</li>
-                                <li class="no-word-break">국내·외 규제 및 법규와 관련된 DB 구축</li>
+                                <li class="no-word-break">Establish a related database (DB) to identify and check the use status of chemicals in the workplace</li>
+                                <li class="no-word-break">Established DB related to domestic/overseas regulations and laws</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/25_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">화학물질관리를 제품 단위로 확대</li>
-                                <li class="no-word-break">글로벌 환경 규제 및 고객사의 화학물질 사용 관련 요구 적극 대응</li>
+                                <li class="no-word-break">Expand chemical management to product units</li>
+                                <li class="no-word-break">Proactively respond to global environmental regulations and customer demands related to chemical use</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">국가별 법규·규제 강화 및 관리범위 확대에 따라 법규관리 영역을 전기·전자 제품에서 식품·위생 안전까지 확대</li>
+                                <li class="no-word-break">In accordance with the strengthening of laws and regulations by country and the expansion of the scope of management, the scope of laws and regulations has been expanded from electrical and electronic products to food and hygiene safety.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative pr-md-0">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_2.svg" fluid class="h-100"></b-img></div>
                             <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">화학물질 사전 규제 모니터링 체계 구축에 따라 사전 규제 대응력 강화</li>
-                                <li class="no-word-break">전 제·부품에 대한 RoHS II 규제 사전 대응 및 적합성 검증</li>
+                                <li class="no-word-break">Strengthen the ability to respond to pre-regulation by establishing a system for monitoring pre-regulation of chemical substances</li>
+                                <li class="no-word-break">Proactive response and verification of RoHS II phthalate regulation for all products and parts</li>
                             </ul>
                         </b-col>
                     </div>
@@ -663,96 +663,96 @@
                     <hr class="mb-5 py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 구축</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     
-                    <h6-ancor hash="m2-1" :activated="activated" class="fw-500 green5 mb-3">자원효율성 KPI</h6-ancor>
+                    <h6-ancor hash="m2-1" :activated="activated" class="fw-500 green5 mb-3">Resource Efficiency KPI</h6-ancor>
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
                         <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']">
-                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">2030년까지 폐기물 재활용율</p></div>
+                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">Waste Recycling rate by 2030</p></div>
                         </b-col>
                         <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">2030년까지 사업장 폐기물 재자원화율</p></div>
+                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">Workplace waste resource recovery rate by 2030</p></div>
                         </b-col>
                         <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">2<span class="f-160">만대</span></p><p class="word-break">2030년까지 리퍼브 제품 판매</p></div>
+                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">2<span class="f-160">20,000</span></p><p class="word-break">Refurbished product sales by 2030</p></div>
                         </b-col>
                     </b-row>
-                    <p class="mb-5">코웨이는 위기에 처한 환경을 보호하고 자원의 낭비를 막고자, 새로운 개념인 순환경제에 초점을 맞추어 활동을 펼치고 있습니다. 코웨이는 자원을 한 번만 쓰고 버리는 기존의 방식을 넘어, 제품이 사용된 후에도 회수와 물질 재활용을 통해 지속적으로 자원이 다시 사용될 수 있도록 많은 노력을 쏟고 있습니다. 리퍼브 제도 운영, 제·부품 물질 재활용, 매립 zero화, 전 과정에서 발생한 폐기물을 폐기물에너지화 하는 등 이러한 순환경제시스템을 통해 폐기물 소각으로 인해 발생하는 온실가스와 오염물질을 감소시키며, 매립으로 인한 토양 및 지하수 오염도 방지하고 있습니다.
+                    <p class="mb-5">Coway focuses on a new concept, the circular economy, to protect the world's crisis and prevent wasting resources. Coway goes beyond the traditional method of consuming and disposing of resources and makes great efforts to ensure that resources are reused through recovery and recycling even after they are used. Through the circular economic system such as operating refurbished product systems, recycling products and parts, zero landfill, and generating energy with waste from the entire production process, we reduce greenhouse gases and pollutants caused by waste incineration, and soil and groundwater pollution caused by landfill.
                     </p>
                     <hr class="py-2">                   
                 
-                    <h7 class="mb-3 gray63">코웨이 자원순환 사이클</h7>
+                    <h7 class="mb-3 gray63">Coway Resource Circle</h7>
                     <hj-img src="/images/32_1.svg" fluid class="w-100"></hj-img>
                     <hr class="space-25">                   
-                    <p class="mb-3"> 코웨이는 한 번쓰고 폐기하는 기존의 자원소비구조에서 자원순환사회 구축 전환을 위한 다양한 활동을 추진하고 있습니다. 신제품 개발시 대당 재활용율이 75% 이상을 만족하는지 여부를 점검하고 있으며, 만약 75%이하로 산정되면 재활용 가능한 소재로 대체하거나 실제 재활용공정에서 재활용가능한지 여부를 사전에 면밀히 검토하는 등 제품군별 재활용율 향상을 위해 노력하고 있습니다. 
+                    <p class="mb-3"> Coway pursues various activities for transitioning to establishing a resource recycling society from the existing resource consumption structure in which resource is used once and discarded. When developing new products, we undertake efforts to improve the recycling rate of each product line. We check whether the recycling rate per unit satisfies 75% or more. If it is calculated as 75% or less, it is replaced by a recyclable material or carefully reviewed whether it is recyclable in the actual recycling process. 
                     </p>
-                    <p class="mb-3"> 또한, 코웨이는 비즈니스 전 영역에서 발생하는 폐기물에 대한 정량화 관리를 통해 재활용 확대, 폐기물 제로화, 발생 비용을 최소화하기 위해 노력과 활동을 지속적으로 하고 있습니다. 특히 사업장, 서비스 폐기물은 99%이상 생활 폐기물에너지화(RDF, Refuse Derived Fuel)처리를 통해 폐기물 제로화를 추진하고 있습니다. 코웨이가 제조하는 생활환경가전은 음융, 흡입 등 고객의 안전과 건강에 밀접한 관련이 있어 현재는 재활용 원료를 적용하고 있지는 않지만, 향후에는 재생원료 사용이 가능한 부품을 검토하여 적용 예정입니다.
+                    <p class="mb-3"> Also, Coway continues to make efforts and activities to extend recycling, zero wastes, and minimize costs through continuous quantification and management of waste generated in all areas of business. In particular, we promote zero waste by processing 99% of business and service wastes with living waste disposal (RDF, Refuse Derived Fuel). Our living environment appliances are closely related to the safety and health of customers i.e. drinking and inhaling. Therefore, currently, recycled raw materials are not applied. However, we will review and apply parts for recycled raw materials in the future.
                     </p>
-                    <p class="mb-45"> 코웨이는 한 번 사용된 제품을 다시 재생하여 사용하여 순환경제에 이바지하고 있습니다. 2007년 렌탈 가전 업계 최초로 리퍼브 제도를 도입하여, 내부적으로는 렌탈 폐기 절감과 외부적으로는 가격 경쟁력 모델 운영 및 자원재활용을 통한 가치를 창출하고 있습니다. 리퍼브 제품은 정상가 대비 평균 렌탈료 기준 20% 할인된 가격으로 판매되며, 2019년에는 전체 판매량의 0.4% 차지합니다. 향후에는 리퍼브 제품군 판매 활성화 및 고객 인식 제고를 위해 자원재활용, 친환경, 착한소비 컨셉에 부합되는 메시지를 전달하여 고객과 커뮤니케이션을 추진할 계획입니다.
+                    <p class="mb-45"> Coway contributes to the circular economy by reusing the products. In 2007, we introduced the refurbishment system for the first time in the rental consumer electronics industry, creating value through internally reducing rental disposal and operating a price competitiveness model externally and recycling resources. Refurbished products are sold at a 20% discount from the average rental price compared to the regular price. In 2019, it accounted for 0.4% of the total sales. In the future, we plan to promote communication with customers by delivering messages that conform to the concept of resource recycling, eco-friendly, and good consumption to promote sales of refurbished products and raise customer awareness.
                     </p> 
-                    <div class="position-relative"> <hj-img src="/images/129_1.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">재활용 프로세스</h7></div>
+                    <div class="position-relative"> <hj-img src="/images/129_1.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">Recycling Process</h7></div>
                     <hr class="space-25"> 
-                    <h7 class="mb-3 gray63">유형별 폐기물 발생량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                    <h7 class="mb-3 gray63">Amount of Waste generated by Type  <span class="f-80 fw-300"> (Unit: Ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left" colspan="3">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
+                                <b-td class="text-left" colspan="3">Category</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="4">제품</b-td><b-td class="text-left">소각</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left" colspan="2" rowspan="4">Product</b-td><b-td class="text-left">Incineration</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">매립</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Landfill</b-td> <b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">재활용</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
+                                    <b-td class="text-left">Recycle</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">소계</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
+                                    <b-td class="text-left">Subtotal</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="4">서비스</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left" colspan="2" rowspan="4">Service</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Landfill</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">재활용</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
+                                    <b-td class="text-left">Recyle</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">소계</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
+                                    <b-td class="text-left">Subtotal</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="8" style="width:13%;">사업장(제조공장)</b-td><b-td class="text-left" rowspan="4">일반</b-td><b-td class="text-left">소각</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
+                                    <b-td class="text-left" rowspan="8" style="width:13%;">Business Site(Manufacturing factory)</b-td><b-td class="text-left" rowspan="4">General</b-td><b-td class="text-left">Incineration</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Landfill</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">재활용</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>753</b-td>
+                                    <b-td class="text-left">Recycle</b-td><b-td>1,271</b-td><b-td>694</b-td><b-td>753</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">소계</b-td><b-td>1,431</b-td><b-td>851</b-td><b-td>970</b-td>
+                                    <b-td class="text-left">Subtotal</b-td><b-td>1,431</b-td><b-td>851</b-td><b-td>970</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="4">지정</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left" rowspan="4">Designated</b-td><b-td class="text-left">Incineration</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">매립</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Landfill</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">재활용</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Recycle</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">소계</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Subtotal</b-td><b-td>28</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="3">폐기물 발생량 총계</b-td><b-td>24,536</b-td><b-td>23,540</b-td><b-td>23,703</b-td>
+                                    <b-td class="text-left" colspan="3">Total amount of waste generated</b-td><b-td>24,536</b-td><b-td>23,540</b-td><b-td>23,703</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="3">폐기물 재활용량</b-td><b-td>24,376</b-td><b-td>23,383</b-td><b-td>23,486</b-td>
+                                    <b-td class="text-left" colspan="3">Waste recycling amount</b-td><b-td>24,376</b-td><b-td>23,383</b-td><b-td>23,486</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="3">폐기물 재활용률(%)<sup>1)</sup></b-td><b-td>99.3</b-td><b-td>99.3</b-td><b-td>99.1</b-td>
+                                    <b-td class="text-left" colspan="3">Waste recycling rate (%)<sup>1)</sup></b-td><b-td>99.3</b-td><b-td>99.3</b-td><b-td>99.1</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>

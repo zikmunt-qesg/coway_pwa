@@ -87,11 +87,11 @@
                                     <b-td class="text-left">디자인</b-td><b-td class="text-left">건</b-td><b-td>785</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="4">Social Capital</b-td><b-td class="text-left" rowspan="2">가치 투입</b-td><b-td colspan="2" class="text-left">봉사 임직원 수</b-td><b-td class="text-left">명</b-td><b-td>1,586</b-td>
+                                    <b-td class="text-left" rowspan="3">Social Capital</b-td><b-td class="text-left" rowspan="1">가치 투입</b-td><b-td colspan="2" class="text-left">봉사 임직원 수</b-td><b-td class="text-left">명</b-td><b-td>1,586</b-td>
                                 </b-tr>
-                                <b-tr>
+                                <!-- <b-tr>
                                     <b-td class="text-left" colspan="2">사회공헌 기부금</b-td><b-td class="text-left">백만 원</b-td><b-td>884</b-td>
-                                </b-tr>
+                                </b-tr> -->
                                 <b-tr>
                                     <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">인당 사회봉사활동 참여 시간</b-td><b-td class="text-left">시간</b-td><b-td>22.1</b-td>
                                 </b-tr>
