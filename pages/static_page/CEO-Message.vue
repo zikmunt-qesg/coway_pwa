@@ -127,8 +127,8 @@
                         <div>
                             <hr class="mb-5 space-p75">
                             <h3 class="fw-300 parang8 pt-3 mb-5">We will head for the better world  <br>with the “Beginner’s heart”  </h3>
-                            <h6>I extend my best wishes </h6>
-                            <h6>for the health and happiness <br> of all stakeholders.</h6>
+                            <h6>Dear valued shareholders and customers, </h6>
+                            <h6>I extend my best wishes for the health and happiness <br> of all stakeholders.</h6>
                         </div>
                         <div><b-img src="/images/CEO.png" fluid class="w-100"></b-img></div>
                     </div>
