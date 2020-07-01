@@ -1,23 +1,25 @@
 <template>
 <div class="position-relative w-100">
-    <hr class="mb-3">
-    <b-container>
-        <h3 class="mb-4 pb-2 border-bottom"> 페이지 뷰 관리 </h3>
-        <b-row>
-            <b-card class="d-flex">
-                <b-form-input class="d-inline-block" v-model="start_date" type="date"></b-form-input>부터 <b-form-input class="d-inline-block" v-model="end_date" type="date"></b-form-input> 까지 
-                    <b-dropdown class="d-inline-block" split :text="selected_unit" variant="blue">
-                            <b-dropdown-item href="#" @click="selectUnit('daily')">일(day) 단위</b-dropdown-item>
-                            <b-dropdown-item href="#" @click="selectUnit('monthly')">월(month) 단위</b-dropdown-item>
-                    </b-dropdown>
-                    <b-button @click="changePeriods()">적용(새로고침)</b-button>
-            </b-card>
+    <b-container class="py-4 px-2">
+        <h3 class="mb-4 pb-2 pt-1 border-bottom"> 페이지 뷰 관리 </h3>
+        <b-row class="mx-0 mb-5 py-3 p-sm-3 bg-white shadow-sm">
+            <b-col class="col-12 col-lg-10 d-lg-flex align-items-center justify-content-between justify-content-lg-around mb-4 mb-md-0">
+                <b-form-input class="d-inline date-selector mb-2 mb-lg-0" v-model="start_date" type="date" ></b-form-input> <span class="ml-1 mr-2">부터</span> 
+                <b-form-input class="d-inline date-selector mb-2 mb-lg-0" v-model="end_date" type="date" ></b-form-input> <span class="ml-1 mr-2">까지</span>
+                <b-dropdown split :text="selected_unit" variant="blue-border" class="">
+                        <b-dropdown-item href="#" @click="selectUnit('daily')">일(day) 단위</b-dropdown-item>
+                        <b-dropdown-item href="#" @click="selectUnit('monthly')">월(month) 단위</b-dropdown-item>
+                </b-dropdown>
+            </b-col>
+            <b-col class="col-12 col-lg-2 d-flex justify-content-end">                
+                <b-button @click="changePeriods()" variant="blue">적용 <i class="fas fa-check ml-2"></i></b-button>
+            </b-col>
         </b-row>
         <b-row>
-            <b-col class="col-6">
+            <b-col class="col-12 col-md-6">
                 <line-chart :chartData="page_view_chart_data" :options="page_view_chart_option" class="page-view-chart"></line-chart>
             </b-col>
-            <b-col class="col-6">
+            <b-col class="col-12 col-md-6">
                 <line-chart :chartData="visitors_chart_data" :options="visitors_chart_option" class="page-view-chart"></line-chart>
             </b-col>
         </b-row>
@@ -192,11 +194,11 @@ export default {
         selectUnit(daily){
             if(daily == 'daily'){
                 this.selected_unit='일(day) 단위'
-                this.updateChartData(this.selected_unit)
+                // this.updateChartData(this.selected_unit)
             }
             else{
                 this.selected_unit='월(month) 단위'
-                this.updateChartData(this.selected_unit)
+                // this.updateChartData(this.selected_unit)
             }
         },
         async changePeriods(){
@@ -245,5 +247,28 @@ export default {
 
 .page-view-chart, .page-view-chart>canvas {
     height: 280px;
+}
+.date-selector {
+    width: 80%;
+}
+@media (max-width: 768px) {
+    .date-selector {
+        width: 80%;
+    }
+}
+@media (min-width: 768px)  {
+    .date-selector {
+        width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .date-selector {
+        width: 30%;
+    }
+}
+@media (min-width: 1200px){
+    .date-selector {
+        width: 32%;
+    }
 }
 </style>
