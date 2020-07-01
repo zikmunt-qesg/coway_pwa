@@ -11,9 +11,8 @@
             <div class="d-lg-flex flex-lg-row-reverse justify-content-end justify-content-lg-start jump-width" >
                 <div class="d-flex justify-content-end align-items-center jump-up">                
                     <b-nav-item class="pl-lg-3 pt-1 pb-1 px-0 handle-px1" style="list-style: none"><b-button-group class="d-flex align-items-center">
-                        <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button>
-                        <!-- <span class="f-85">|</span>
-                        <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button> -->
+                        <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button><span class="f-85">|</span>
+                        <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
                     </b-button-group></b-nav-item>
                     <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
                     <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap">

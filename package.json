@@ -22,6 +22,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@babel/compat-data": "^7.10.4",
     "@nuxtjs/axios": "^5.9.5",
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/markdownit": "^1.2.6",
