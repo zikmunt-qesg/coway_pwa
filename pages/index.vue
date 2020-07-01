@@ -350,8 +350,8 @@ export default {
         if(query.l && query.l=='ENG'){
             store.commit('setLang', 'ENG')
         }
-        if (store.state.articles.is_articles_loaded != true) {
-        let articles = await store.dispatch('articles/readArticles')
+        if (store.state.articles.is_articles_loaded!=true) {
+            let articles = await store.dispatch('articles/readArticles')
             return { main_articles: ih.deepCopy(articles.slice(0,3)) }
         }
         else {
@@ -363,9 +363,6 @@ export default {
             articles: state => state.articles,
             is_articles_loaded: state => state.is_articles_loaded
         }),
-        blog_posts() {
-        return this.$store.state.blog_posts;
-        },
         animatedNumber: function() {
             return this.tweenedNumber.toFixed(0);
         }
