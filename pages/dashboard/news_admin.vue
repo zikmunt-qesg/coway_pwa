@@ -1,8 +1,7 @@
 <template>
 <div class="position-relative w-100">
-    <hr class="mb-3">
-    <b-container>
-        <h3 class="mb-4 pb-2 border-bottom"> 지속가능경영 뉴스 게시물 </h3>
+    <b-container class="py-4 px-2">
+        <h3 class="mb-4 pb-2 pt-1 border-bottom"> 지속가능경영 뉴스 게시물 </h3>
         <b-table-simple responsive class="txt-table">
             <b-thead>
                 <b-tr>
@@ -18,10 +17,10 @@
                     </b-td>
                     <b-td class="border-0">{{ item.date }}</b-td>                    
                     <b-td class="border-0"> 
-                        <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" block> 수정 </b-button>
+                        <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" variant="blue"> 수정 </b-button>
                     </b-td>
                     <b-td class="border-0">
-                        <b-button block @click.stop.prevent="deleteArticle({ id: item.id})">삭제</b-button>
+                        <b-button @click.stop.prevent="deleteArticle({ id: item.id})"  variant="blue-border">삭제</b-button>
                     </b-td>           
                 </b-tr>
                 <b-tr>
@@ -41,16 +40,21 @@
                 </b-tr>
             </b-tbody>
         </b-table-simple>
-        <b-pagination
-        v-model="current_page"
-        :total-rows="articles.length"
-        :per-page="per_page"
-        aria-controls="article-table"
-        ></b-pagination>
-                
-        <div class="text-right">
-            <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기</b-button>
+        
+        <div class="d-flex justify-content-center news-indi">
+            <b-pagination
+            v-model="current_page"
+            :total-rows="articles.length"
+            :per-page="per_page"
+            aria-controls="article-table"
+            ></b-pagination>
         </div>
+                
+        <div class="text-right pr-3">
+            <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기 <i class="fas fa-arrow-alt-circle-right ml-1"></i></b-button>
+        </div>
+        <hr class="mb-5">
+
     </b-container>
     <!-- <iframe class="fullbody" ref="iframe" src="https://cowaypwa.dataflare.net/admin"></iframe> -->
 </div>  
@@ -94,9 +98,34 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-.fullbody {
-  width: 100%;
-  height: 92vh;
+<style lang="scss">
+
+.news-indi > ul > li.active button.page-link {
+    background-color: $gray4!important;
+    border-color: $gray4!important;
+    color: #fff!important;
+    font-weight: 500;
+}
+.news-indi > ul > li > span, 
+.news-indi > ul > li > button{
+    border:0;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(0,0,0,0);
+}
+.news-indi > ul > li.page-item.disabled .page-link{
+    background-color: rgba(0,0,0,0)!important;
+}
+.news-indi > ul > li > span{
+    color: $gray4!important;
+}
+.news-indi > ul > li > button{
+    color: $gray6!important;
+}
+button.page-link:focus,
+button.see-article:focus {
+    outline: none;
+    box-shadow: none;
 }
 </style>
