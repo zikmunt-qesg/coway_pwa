@@ -123,8 +123,8 @@
                                     <b-tr><b-td>산업안전보건(Occupational Health and Safety)</b-td><b-td>403-1, 403-2, 403-3, 403-4</b-td></b-tr>
                                     <b-tr><b-td>훈련 및 교육(Training and Education)</b-td><b-td>404-1, 404-2, 404-3</b-td></b-tr>
                                     <b-tr><b-td>다양성과 기회균등(Diversity and Equal Opportunity)</b-td><b-td>405-1, 405-2</b-td></b-tr>
-                                    <b-tr><b-td>차별금지(Non-Discrimination)</b-td><b-td>406-1</b-td></b-tr>
-                                    <b-tr><b-td>결사 및 단체교섭의 자유(Freedom of Association and Collective Bargaining)</b-td><b-td>407-1</b-td></b-tr>
+                                    <b-tr><b-td>차별금지(Non-Discrimination)</b-td><b-td>406-1</b-td></b-tr>                                
+                                    <b-tr><b-td >결사 및 단체교섭의 자유(Freedom of Association and Collective Bargaining)</b-td><b-td>407-1</b-td></b-tr>
                                     <b-tr><b-td>아동노동(Child Labor)</b-td><b-td>408-1</b-td></b-tr>
                                     <b-tr><b-td>강제노동(Forced or Compulsory Labor)</b-td><b-td>409-1</b-td></b-tr>
                                     <b-tr><b-td>인권평가(Human Rights Assessment)</b-td><b-td>412-1, 412-2, 412-3</b-td></b-tr>

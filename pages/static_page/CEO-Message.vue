@@ -17,7 +17,7 @@
                 :active_color="'#132e54'"
                 ></side-navigation>
             </b-col>
-            <b-col class="col-auto col-lg-9 pl-lg-4">
+            <b-col class="col-auto col-lg-9 pl-lg-4" >
             <b-container class="px-0">
                 <section class="px-4 py-4" style="background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0.6) 100%);">
                     <div class="border-top-dark pb-2 mb-5"></div>
