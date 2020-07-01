@@ -87,7 +87,7 @@
                         <b-img src="/images/10_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
-                        <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
+                        <!-- <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -103,7 +103,7 @@
                                     <b-td class="text-left">사회공헌성 비용</b-td><b-td>558,693</b-td><b-td>137,791</b-td><b-td>211,579</b-td>
                                 </b-tr>
                             </b-tbody>
-                        </b-table-simple>
+                        </b-table-simple> -->
 
                     <section class="border-gold px-4 py-3 mb-5">
                         <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 긴급재해 기부</p>
@@ -375,7 +375,7 @@
                         <b-img src="/images/10_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
-                        <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
+                        <!-- <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -391,7 +391,7 @@
                                     <b-td class="text-left">사회공헌성 비용</b-td><b-td>558,693</b-td><b-td>137,791</b-td><b-td>211,579</b-td>
                                 </b-tr>
                             </b-tbody>
-                        </b-table-simple>
+                        </b-table-simple> -->
 
                     <section class="border-gold px-4 py-3 mb-5">
                         <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 긴급재해 기부</p>
