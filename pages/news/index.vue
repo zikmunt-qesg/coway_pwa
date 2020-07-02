@@ -77,10 +77,10 @@ export default {
         ...mapActions('articles', ['readArticles', 'saveArticle'])
     },
     created(){
-        this.readArticles()
-    },
-    mounted(){
 
+    },
+    async mounted(){
+        this.readArticles()
     }
 }
 </script>
