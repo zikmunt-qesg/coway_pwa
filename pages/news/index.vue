@@ -51,8 +51,7 @@
 import { mapState, mapActions } from 'vuex'
 
 export default {
-    async asyncData({ query, store }) {
-        await store.dispatch('articles/readArticles')
+    async asyncData({ query }) {
         return { id: query.id }
     },
     data(){
@@ -78,6 +77,10 @@ export default {
         ...mapActions('articles', ['readArticles', 'saveArticle'])
     },
     created(){
+        this.readArticles()
+    },
+    mounted(){
+
     }
 }
 </script>

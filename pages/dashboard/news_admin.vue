@@ -64,9 +64,6 @@ import { mapState, mapActions } from 'vuex'
 
 export default {
     layout: 'AdminPage',
-    async asyncData({ store }) {
-        await store.dispatch('articles/readArticles')
-    },
     data(){
         return{
             current_page: 1,
@@ -93,10 +90,8 @@ export default {
         ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle'])
     },
     created(){
-        if (this.is_articles_loaded != true) {
-            this.readArticles()
-            }
-    },
+        this.readArticles()
+    }
 
 }
 </script>
