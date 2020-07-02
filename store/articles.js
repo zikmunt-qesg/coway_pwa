@@ -40,7 +40,7 @@ export const actions = {
                 return response.data
             })
     },
-    async saveArticle({ rootState, dispatch }, { id, title, date, description, picture_file, contents }) {
+    saveArticle({ rootState, state }, { id, title, date, description, picture_file, contents }) {
         const path = rootState.backend_host + '/save_article'
 
         let formData = new FormData()
@@ -53,15 +53,23 @@ export const actions = {
         }
         formData.append('contents', contents)
 
-        await this.$axios.post(path, formData)
+        return this.$axios.post(path, formData)
             .then(result => {
+                let articles = [ ...state.articles ]
+                let idx = articles.findIndex(item => item.id == result.id)
+                if (idx > -1 ){
+                    articles.splice(idx, 1)
+                }
+                else{
+                    articles.push(result)
+                }
+                commit('update_articles', articles)
                 console.log(result)
             })
             .catch(error => {
                 console.log(error)
             })
         
-        return await dispatch('readArticles')
     },
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
