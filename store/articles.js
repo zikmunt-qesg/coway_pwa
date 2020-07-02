@@ -32,9 +32,10 @@ export const actions = {
 
         return this.$axios.get(path)
             .then(response => {
+                console.log(response)
                 for(let i=0; i < response.data.length ; i++){
                     response.data[i].index = response.data.length - i
-                }
+                }                
                 commit('update_articles', response.data)
 
                 return response.data
@@ -64,7 +65,9 @@ export const actions = {
                         articles.push(result)
                     }
                     commit('update_articles', articles)
-                    console.log(result)
+                    console.log('STORE COMMIT: updated_articles')
+                    console.log(state.articles)
+                    //console.log(result)
                 })
                 .catch(error => {
                     console.log(error)
