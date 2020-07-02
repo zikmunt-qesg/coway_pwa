@@ -59,12 +59,8 @@ export const actions = {
             })
             .catch(error => {
                 console.log(error)
-<<<<<<< Updated upstream
-            })       
-=======
             })
-        
->>>>>>> Stashed changes
+
         return await dispatch('readArticles')
     },
     deleteArticle({ state, commit, rootState }, { id }){
