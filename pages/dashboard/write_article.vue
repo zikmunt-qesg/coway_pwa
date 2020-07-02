@@ -85,10 +85,10 @@ export default {
 
       if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) || navigator.appVersion.indexOf('Edge') > -1 ) 
       {
-        setTimeout( this.$route.push('/news_admin'), 1000)
+        setTimeout( this.$router.push('/news_admin'), 1000)
       }
       else {
-        this.$route.push('/news_admin')
+        this.$router.push('/news_admin')
       }
     }
   },
