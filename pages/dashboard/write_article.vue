@@ -71,6 +71,7 @@ export default {
   },
   methods: {
     ...mapActions('articles', ['readArticles', 'saveArticle', 'loadPicture']),
+    
     save() {
       let new_article = {
         id: this.id,
