@@ -68,6 +68,13 @@ export default {
    ** Nuxt.js modules
    */
   modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/google-gtag'],
+  axios: {
+    headers: {
+      get: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0'
+      }
+    }
+  },
   bootstrapVue: {
     bootstrapCSS: false, // Or `css: false`
     bootstrapVueCSS: false // Or `bvCSS: false`
