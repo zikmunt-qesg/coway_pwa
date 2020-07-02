@@ -337,7 +337,7 @@ export default {
             slide: 0,
             sliding: null,
             visible: false,
-            raising: false
+            raising: false,
         }
     },
     transition(to, from) {
@@ -382,9 +382,6 @@ export default {
                     this.visible = true
                 }
             }
-            // if(event.type == 'exit'){
-            //     this.visible = false
-            // }
         },
         viewHandlerGraph(event){
             if(event.type == 'progress' ){
@@ -415,6 +412,8 @@ export default {
         }
     },
     mounted() {
+        console.log('main에서 읽은 article입니다.')
+        console.log(this.articles)
         this.main_articles.forEach(item => {
             if(!item.picture_file){
                 this.loadPicture({ id: item.id, thumb: true })

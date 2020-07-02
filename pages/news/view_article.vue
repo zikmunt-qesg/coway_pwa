@@ -41,7 +41,7 @@ import axios from 'axios'
 export default {
     async asyncData({ query, store }) {
         if (store.state.articles.is_articles_loaded != true) {
-        await store.dispatch('articles/readArticles')
+            await store.dispatch('articles/readArticles')
         }
         return { id: query.id }
     },
