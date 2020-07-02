@@ -140,7 +140,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400"> 더 나은 세상을 향한 착한 믿음의 실천, 코웨이 지속가능경영 비전 </h7>
+            <h7 class="mb-5 text-center w-100 fw-400"> Practicing Goodness Toward A Better World, Coway Sustainability Management Vision </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -155,16 +155,18 @@
             <b-container class="px-0">
                 <section class="bg-white px-4 py-4 mb-5">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">가치창출 스토리</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">Value Creation Story</h4-ancor>
 
-                    <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">비즈니스 모델</h6-ancor></div>
-                    <p>1989년 설립된 코웨이는 생활환경 전반을 케어하는 라이프케어 기업으로, 제품 렌탈에 전문적 서비스를 결합한 차별화된 비즈니스 모델을 가지고 있습니다. 환경가전제품을 초기 구입 비용에 대한 부담 없이 렌탈하고, 정기적인 케어(Care) 서비스를 통해 제품의 가치를 지속적으로 유지할 수 있는 구조를 마련하였으며, 이를 기반으로 국내외 780만 계정의 고객을 확보하여 지속성장을 위한 동력으로 삼고, 안정적인 현금흐름을 창출하고 있습니다. 
+                    <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Business Model</h6-ancor></div>
+                    <p>Established in 1989, Coway is a lifecare company that cares for the entire living environment. We have a differentiated business model which combines professional services with product rental. We built a structure to rent environmental home appliances without burden on the initial purchase cost maintaining the value of the product through regular care services at the same time. Based on this structure, we have secured 7.2 million customer accounts at home and abroad and created stable cash flow which is a driving force for sustainable growth.
                     </p>
-                    <p class="mb-5">코웨이만의 핵심 역량인 '케어(Care)'의 가치를 확장하여 워터케어, 에어케어, 바디케어, 슬립케어, 홈케어 제품을 제공하여, 고객이 물과 공기, 수면을 포함한 모든 생활환경을 안심하며 누릴 수 있도록 노력하고 있습니다. 또한 제품에 IoT 기술을 결합하여 새로운 맞춤형 솔루션인 'IoCare(Internet of Care)'를 개발하여 본연의 경쟁력을 강화하는 한편, 신규 제품 라인업 강화, 자가관리형 제품 출시 등으로 신규 고객층을 새롭게 창출하여 지속성장의 동력으로 발전시킵니다. 코웨이는 이러한 차별화된 혁신의 DNA를 바탕으로 이해관계자에 대한 지속적인 가치 창출과 배분을 위해 끊임없이 노력하고 있습니다.
+                    <p>By expanding the value of care, the key competence of Coway, we strive to provide water care, air care, body care, sleep care and home care products to help customers to enjoy every daily environment, including air, water and sleep, with security. In addition, we combined IoT technology with the products and developed new customized solution IoCare (Internet of Care) to reinforce our original competitive advantage and created new customer base through strengthening our new product lines and launching self-managing products to develop as an engine for sustainability. 
+                    </p>
+                    <p class="mb-5">With the unique DNA for differentiated innovation, we constantly endeavor to create sustainable value for stakeholders and distribute values.
                     </p>
 
-                    <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">비즈니스 밸류체인</h6-ancor></div>
-                    <p class="mb-45">코웨이의 제품 및 브랜드는 궁극적으로 ‘환경을 건강하게, 사람을 행복하게’ 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다. 특히, 자재 및 부품 공급부터 제품 판매에 이르기까지 전 공급망에서 지속가능경영 관점으로 경제/사회/환경적 가치를 투입(INPUT)해 행복한 고객, 건강한 환경을 구현하며 사회적 가치를 창출(OUTPUT)하고 있습니다. 
+                    <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Business Value Chain</h6-ancor></div>
+                    <p class="mb-45">Coway’s products and services ultimately aim to create the value for making environment healthy and people happy. In particular, we input economic, social and environmental values from the perspective of sustainability management in the entire supply chain from material and part supply to product sales to achieve happy customers and healthy environment and output social values.
                     </p>
                     <hj-img src="/images/1_1.svg" fluid class="w-100"></hj-img>
 

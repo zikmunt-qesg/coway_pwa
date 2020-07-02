@@ -107,7 +107,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400"> Practicing "Good faith" toward a better world, Coway Sustainability Management Vision </h7>
+            <h7 class="mb-5 text-center w-100 fw-400"> Practicing Goodness Toward A Better World, Coway Sustainability Management Vision </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
