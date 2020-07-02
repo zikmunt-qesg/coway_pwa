@@ -83,12 +83,12 @@ export default {
       }
       await this.saveArticle(new_article)
 
-      if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) || navigator.appVersion.indexOf('Edge') > -1 ) 
+      if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) ) 
       {
-        setTimeout( this.$router.push('/news_admin'), 1000)
+        setTimeout( this.$router.push('/dashboard/news_admin'), 1000)
       }
       else {
-        this.$router.push('/news_admin')
+        this.$router.push('/dashboard/news_admin')
       }
     }
   },
