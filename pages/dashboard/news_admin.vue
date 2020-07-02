@@ -2,7 +2,7 @@
 <div class="position-relative w-100">
     <b-container class="py-4 px-2">
         <h3 class="mb-4 pb-2 pt-1 border-bottom"> 지속가능경영 뉴스 게시물 </h3>
-        <b-table-simple responsive class="txt-table">
+        <b-table-simple responsive class="txt-table" :key="table_key">
             <b-thead>
                 <b-tr>
                     <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
@@ -67,7 +67,8 @@ export default {
     data(){
         return{
             current_page: 1,
-            per_page: 10
+            per_page: 10,
+            table_key: 11,
         }
     },
     computed: {
@@ -105,8 +106,7 @@ export default {
             immediate: true,
             handler(newValue){
                 if (this.is_IE==true){
-                    this.readArticles()
-                    console.log('ie라서 다시 읽었습니다.')
+                    this.table_key += 11
                 }
             }
         }
