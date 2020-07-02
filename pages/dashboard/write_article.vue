@@ -82,10 +82,7 @@ export default {
       }
       this.saveArticle(new_article)
       .then( () => {
-        this.readArticles()
-        .then( () => {
           this.$router.push('/dashboard/news_admin')
-        })
       })
     }
   },
