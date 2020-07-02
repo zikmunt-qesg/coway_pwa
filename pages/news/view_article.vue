@@ -40,9 +40,6 @@ import axios from 'axios'
 
 export default {
     async asyncData({ query, store }) {
-        if (store.state.articles.is_articles_loaded != true) {
-            await store.dispatch('articles/readArticles')
-        }
         return { id: query.id }
     },
     data() {
@@ -84,26 +81,29 @@ export default {
     created() {
 
     },
-    mounted() {
-        if (this.id != null) {
-        let target_article = this.articles.find(item => item.id == this.id)
-        if (target_article) {
-            this.title = target_article.title
-            this.description = target_article.description
-            this.date = target_article.date
-            this.contents = target_article.contents
-            this.picture_file = target_article.picture_file
-            if(!this.picture_file_url){
-                this.loadPicture({ id: this.id, thumb: true })
-                .then( picture => {
-                    this.picture_file = picture 
-                    this.picture_file_url = URL.createObjectURL(picture)
-                })
-                .catch( error=>{
-                    console.log(error)
-                })
-            }
+    async mounted() {
+        if (this.is_articles_loaded != true) {
+            await this.readArticles()
         }
+        if (this.id != null) {
+            let target_article = this.articles.find(item => item.id == this.id)
+            if (target_article) {
+                this.title = target_article.title
+                this.description = target_article.description
+                this.date = target_article.date
+                this.contents = target_article.contents
+                this.picture_file = target_article.picture_file
+                if(!this.picture_file_url){
+                    this.loadPicture({ id: this.id, thumb: true })
+                    .then( picture => {
+                        this.picture_file = picture 
+                        this.picture_file_url = URL.createObjectURL(picture)
+                    })
+                    .catch( error=>{
+                        console.log(error)
+                    })
+                }
+            }
         }
     },
     watch:{
