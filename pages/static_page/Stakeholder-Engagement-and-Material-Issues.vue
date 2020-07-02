@@ -367,7 +367,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400">더 나은 세상을 향한 착한 믿음의 실천, 코웨이 지속가능경영 비전</h7>
+            <h7 class="mb-5 text-center w-100 fw-400">Practicing Goodness Toward A Better World, Coway Sustainability Management Vision </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -628,7 +628,7 @@
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Progress</div>
                             <div class="pt-2">
                                 <div class="gray63 mb-3 font-noto">Coway Customer Satisfaction<sup>1)</sup> <span class="f-80 fw-300 gray6 mb-2">(Unit: %)</span></div>                                    
-                                <b-table-simple responsive class="txt-table f-85 mb-2">
+                                <b-table-simple responsive class="txt-table mb-2">
                                     <b-thead><b-tr>
                                         <b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td class="text-right"><span class="fw-500">2020 Target</span></b-td>
                                     </b-tr></b-thead>
@@ -675,10 +675,11 @@
                         </b-col>
                     </b-row>      
 
-                    <p class="mb-5">
-                        As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, “Manufacturing Sector Grand Prize” and “Service Quality Excellence Award” by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification.
-                        코웨이는 제품 신뢰성 향상을 위해, 환경, 포장/운송, 고장분석, 소재/화학, 소프트웨어검증 등 다양한 분야에 대한 신뢰성 시험장비를 구축하고 있으며, 40여대의 최첨단 분석 장비를 지속적으로 도입하여 운영하고 있습니다. 코웨이는 고객 신뢰와 안전성 확보를 위해 최초 개발 당시의 규격 안전성 및 성능 유효성이 지속되고 있는지를 평가하고 있습니다. 완제품 단위의 안전 / 성능인증 적합성 평가를 매년 증가시켜, 2018년에는 57건의 안전 성능에 대한 검증을 진행하였고, 2019년에는 인프라를 확대하여 제 / 부품의 인증 및 성능에 대해 약 350건을 평가, 양산품에 대한 관리 수준을 대폭 증가시켰습니다. 2020년에는 400여건 이상의 평가 계획을 수립하여 사회적 이슈 발생 예방은 물론 제품 안전성 강화를 위해 더욱 노력할 것이며, 이를 바탕으로 고객이 안심하고 사용할 수 있는 제품의 제공을 위해 더욱 힘쓰겠습니다.
+                    <p> As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, “Manufacturing Sector Grand Prize” and “Service Quality Excellence Award” by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification.
                     </p>
+                    <p class="mb-5"> To improve product reliability, Coway has established reliability test equipment in various fields such as environment, packaging and transportation, failure analysis, material and chemistry, and software verification, and has continuously introduced and operated about 40 state-of-the-art analysis equipment. To ensure customer trust and safety, Coway evaluates whether standard safety and performance effectiveness at the time of its initial development continues. The safety/performance certification conformity assessment of the finished product unit increases annually, and 57 safety cases were verified in 2018. In 2019, the infrastructure was expanded to evaluate about 350 cases for safety and performance certification of products and parts, which significantly increased the level of management of mass production products. In 2020, we will establish more than 400 evaluation plans to prevent social issues and strengthen product safety. Based on this, we will put our best efforts to provide products that customers can use with confidence.
+                    </p>
+
 
                     <h6-ancor hash="e3-3" :activated="activated" class="parang6 mb-3">Information Protection</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">

@@ -53,13 +53,10 @@
         <div id="sitemap-modal" :class="[show_site_map==true?'open-sitemap':'','position-absolute w-100']" style="max-height:100vh; z-index:9;">
             <site-map @show_site_map="toggleSiteMap"></site-map>            
         </div>
-        <!-- <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            
-                <site-map @show_site_map="toggleSiteMap"></site-map>            
-        </b-modal> -->
+        
         <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="">       
             <div class="py-3 px-4 px-xl-5">
                 <search-form @hide-finder="toggleSearchForm"></search-form>
-                <!-- <a href="#" @click.stop="toggleSearchForm" class="close-btn py-0 f-280 fw-300"></a> -->
             </div>
         </b-modal>
 

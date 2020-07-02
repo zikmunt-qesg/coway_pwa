@@ -125,7 +125,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400">Practicing "Good faith" toward a better world, Coway Sustainability Management Vision </h7>
+            <h7 class="mb-5 text-center w-100 fw-400">Practicing Goodness Toward A Better World, Coway Sustainability Management Vision</h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -137,7 +137,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4 mb-5">
 
                     <div class="border-top-dark pb-2 mb-5"></div>
@@ -168,16 +168,16 @@
                         <h7 class="mb-3 gray63 font-noto">2019 Ethics Reports and Measures</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td>Other violation of The Code of Ethics<sup>1)</sup></b-td><b-td>Anomalous operations</b-td><b-td>Others (such as money transactions)</b-td><b-td>Total</b-td>
+                                <b-td class="text-left">Category</b-td><b-td>Other Complaints<sup> 1)</sup><br>(Ethics-unrelated reports)</b-td><b-td>Anomalous operations</b-td><b-td>Others <br>(such as money transactions)</b-td><b-td>Total</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Ethics Reports in 2019</b-td><b-td>77 Cases</b-td><b-td>50 Cases</b-td><b-td>3 Cases</b-td><b-td>130 Cases</b-td>
+                                    <b-td class="text-left">Ethics Reports in 2019</b-td><b-td>77 cases</b-td><b-td>50 cases</b-td><b-td>3 cases</b-td><b-td>130 cases</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45">
-                            <li>Other violation of The Code of Ethics: Informants report complaints on products and services in the appropriate ways</li>
+                            <li>Other Complaints(Ethics-unrelated reports): Informants report complaints on products and services in the appropriate ways</li>
                         </ol>
                     <hr class="mb-3">
                     
@@ -195,7 +195,7 @@
                                     <b-td class="text-left">Percentage of workplaces that finished corruption diagnosis</b-td><b-td class="text-left">%</b-td><b-td>100%</b-td><b-td>100%</b-td><b-td>100%</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Actions for Violation of the Code of Ethics<sup> 1)</sup></b-td><b-td class="text-left">건</b-td><b-td>46<sup> 2)</sup></b-td><b-td>4</b-td><b-td>5</b-td>
+                                    <b-td class="text-left">Actions for Violation of the Code of Ethics<sup> 1)</sup></b-td><b-td class="text-left">cases</b-td><b-td>46<sup> 2)</sup></b-td><b-td>4</b-td><b-td>5</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -216,7 +216,7 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Ethical management training participants</b-td><b-td class="text-left">명</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
+                                    <b-td class="text-left">Ethical management training participants</b-td><b-td class="text-left">persons</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Ethical management training participation rate<sup> 1)</sup></b-td><b-td class="text-left">%</b-td><b-td>94</b-td><b-td>89</b-td><b-td>4<sup> 2)</sup></b-td>
