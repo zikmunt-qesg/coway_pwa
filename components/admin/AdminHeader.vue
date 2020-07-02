@@ -18,14 +18,13 @@
 export default {
     computed:{
         is_IE(){
-            if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) )
-            {
-                return true
+            if(process.browser){
+                if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) )
+                { return true }
+                else
+                { return false }
             }
-            else
-            {
-                return false
-            }
+            else return false
         }
     }
 }
