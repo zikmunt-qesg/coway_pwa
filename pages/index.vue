@@ -350,13 +350,8 @@ export default {
         if(query.l && query.l=='ENG'){
             store.commit('setLang', 'ENG')
         }
-        if (store.state.articles.is_articles_loaded!=true) {
-            let articles = await store.dispatch('articles/readArticles')
-            return { main_articles: ih.deepCopy(articles.slice(0,3)) }
-        }
-        else {
-            return { main_articles: ih.deepCopy(store.state.articles.articles.slice(0,3))}
-        }
+        let articles = await store.dispatch('articles/readArticles')
+        return { main_articles: ih.deepCopy(articles.slice(0,3)) }
     },
     computed: {
         ...mapState('articles', {
