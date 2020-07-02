@@ -56,7 +56,7 @@ export default {
         return { id: query.id }
     },
     data(){
-        return{
+        return {
             current_page: 1,
             per_page: 10
         }
