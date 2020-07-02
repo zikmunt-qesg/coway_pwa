@@ -58,7 +58,7 @@ export const actions = {
                 let articles = [ ...state.articles ]
                 let idx = articles.findIndex(item => item.id == result.id)
                 if (idx > -1 ){
-                    articles.splice(idx, 1)
+                    articles.splice(idx, 1, result)
                 }
                 else{
                     articles.push(result)
@@ -69,7 +69,6 @@ export const actions = {
             .catch(error => {
                 console.log(error)
             })
-
     },
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
