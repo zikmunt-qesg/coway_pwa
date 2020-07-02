@@ -51,6 +51,10 @@
 import { mapState, mapActions } from 'vuex'
 
 export default {
+    async asyncData({ query, store }) {
+        await store.dispatch('articles/readArticles')
+        return { id: query.id }
+    },
     data(){
         return{
             current_page: 1,

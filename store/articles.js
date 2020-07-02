@@ -16,6 +16,9 @@ export const mutations = {
         Vue.set(target_article, 'picture_file', picture_file)
         Vue.set(target_article, 'picture_file_url', URL.createObjectURL(picture_file))
         //Vue.set(state, 'articles', state.articles)
+    },
+    set_articles_not_loaded(state){
+        state.is_articles_loaded = false
     }
 }
 
@@ -37,7 +40,7 @@ export const actions = {
                 return state.articles
             })
     },
-    saveArticle({ rootState }, { id, title, date, description, picture_file, contents }) {
+    saveArticle({ rootState, commit }, { id, title, date, description, picture_file, contents }) {
         const path = rootState.backend_host + '/save_article'
 
         let formData = new FormData()
@@ -57,6 +60,7 @@ export const actions = {
             .catch(error => {
                 console.log(error)
             })
+            .finally( commit('set_articles_not_loaded') )
     },
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
