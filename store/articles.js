@@ -37,7 +37,7 @@ export const actions = {
                 }
                 commit('update_articles', response.data)
 
-                return state.articles
+                return response.data
             })
     },
     async saveArticle({ rootState, dispatch }, { id, title, date, description, picture_file, contents }) {

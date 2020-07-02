@@ -338,6 +338,7 @@ export default {
             sliding: null,
             visible: false,
             raising: false,
+            main_articles: []
         }
     },
     transition(to, from) {
@@ -350,8 +351,8 @@ export default {
         if(query.l && query.l=='ENG'){
             store.commit('setLang', 'ENG')
         }
-        let articles = await store.dispatch('articles/readArticles')
-        return { main_articles: ih.deepCopy(articles.slice(0,3)) }
+        //let articles = await store.dispatch('articles/readArticles')
+        //return { main_articles: ih.deepCopy(articles.slice(0,3)) }
     },
     computed: {
         ...mapState('articles', {
@@ -363,7 +364,7 @@ export default {
         }
     },
     methods: {
-        ...mapActions('articles', ['loadPicture']),
+        ...mapActions('articles', ['loadPicture', 'readArticles']),
         showImgOverlay(){
             this.news_img_overlay =true
         },
@@ -410,10 +411,12 @@ export default {
             // When scrolling, update the position
             window.addEventListener('scroll', this._scrollListener)
         }
+
     },
-    mounted() {
-        console.log('main에서 읽은 article입니다.')
-        console.log(this.articles)
+    async mounted() {
+        await this.readArticles()
+        this.main_articles = ih.deepCopy(this.articles).slice(0, 3)
+        
         this.main_articles.forEach(item => {
             if(!item.picture_file){
                 this.loadPicture({ id: item.id, thumb: true })
