@@ -27,7 +27,7 @@
         </div>
         <div class="mb-3 text-right">
             <b-button @click="save" variant="blue" class="mr-2">저장</b-button>
-            <b-button @click.stop.prevent="$router.push('/dashboard/news)admin')">취소</b-button>
+            <b-button @click.stop.prevent="$router.push('/dashboard/news_admin')">취소</b-button>
         </div>
         <hr class="mb-5">
 
@@ -71,6 +71,7 @@ export default {
   },
   methods: {
     ...mapActions('articles', ['readArticles', 'saveArticle', 'loadPicture']),
+    
     save() {
       let new_article = {
         id: this.id,
