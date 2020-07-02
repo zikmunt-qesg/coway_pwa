@@ -84,6 +84,14 @@ export default {
             let end_index = Math.min( (this.current_page - 1) * this.per_page + this.per_page, total_num)
 
             return this.articles.slice(start_index, end_index)
+        },
+        is_IE(){
+            if(process.browser){
+                if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) )
+                { return true }
+                else { return false }
+            }
+            else { return false }
         }
     },
     methods: {
@@ -91,6 +99,16 @@ export default {
     },
     async mounted(){
         await this.readArticles()
+    },
+    watch:{
+        '$route': {
+            immediate: true,
+            handler(newValue){
+                if (this.is_IE==true){
+                    this.readArticles()
+                }
+            }
+        }
     }
 }
 </script>
