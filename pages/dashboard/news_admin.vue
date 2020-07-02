@@ -106,7 +106,11 @@ export default {
             immediate: true,
             handler(newValue){
                 if (this.is_IE==true){
-                    this.table_key += 11
+                    this.readArticles()
+                    .then( ()=> {
+                        console.log(this.articles)
+                        this.table_key += 11
+                    })
                 }
             }
         }

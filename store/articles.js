@@ -40,7 +40,7 @@ export const actions = {
                 return response.data
             })
     },
-    saveArticle({ rootState, state }, { id, title, date, description, picture_file, contents }) {
+    saveArticle({ rootState, state, commit }, { id, title, date, description, picture_file, contents }) {
         const path = rootState.backend_host + '/save_article'
 
         let formData = new FormData()
