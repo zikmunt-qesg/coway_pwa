@@ -72,7 +72,7 @@ export default {
   methods: {
     ...mapActions('articles', ['readArticles', 'saveArticle', 'loadPicture']),
     
-    save() {
+    async save() {
       let new_article = {
         id: this.id,
         title: this.title,
@@ -81,10 +81,15 @@ export default {
         contents: this.contents,
         picture_file: this.picture_file
       }
-      this.saveArticle(new_article)
-      .then( () => {
-          this.$router.push('/dashboard/news_admin')
-      })
+      await this.saveArticle(new_article)
+
+      if ( (navigator.appName == 'Netscape' && navigator.userAgent.toLowerCase().indexOf('trident') != -1) || (navigator.userAgent.toLowerCase().indexOf("msie") != -1) || navigator.appVersion.indexOf('Edge') > -1 ) 
+      {
+        setTimeout( this.$route.push('/news_admin'), 1000)
+      }
+      else {
+        this.$route.push('/news_admin')
+      }
     }
   },
   created() {
