@@ -89,10 +89,9 @@ export default {
     methods: {
         ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle'])
     },
-    created(){
-        this.readArticles()
+    async mounted(){
+        await this.readArticles()
     }
-
 }
 </script>
 
