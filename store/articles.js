@@ -40,7 +40,7 @@ export const actions = {
                 return state.articles
             })
     },
-    async saveArticle({ rootState, commit, dispatch }, { id, title, date, description, picture_file, contents }) {
+    saveArticle({ rootState, commit }, { id, title, date, description, picture_file, contents }) {
         const path = rootState.backend_host + '/save_article'
 
         let formData = new FormData()
@@ -56,11 +56,11 @@ export const actions = {
         return this.$axios.post(path, formData)
             .then(result => {
                 console.log(result)
-                await dispatch('readArticles')
             })
             .catch(error => {
                 console.log(error)
             })
+            .finally( commit('set_articles_not_loaded') )
     },
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
