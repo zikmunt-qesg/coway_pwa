@@ -106,6 +106,7 @@ export default {
             handler(newValue){
                 if (this.is_IE==true){
                     this.readArticles()
+                    console.log('ie라서 다시 읽었습니다.')
                 }
             }
         }
