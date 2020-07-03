@@ -79,7 +79,7 @@ export default {
         }
     },
     created() {
-
+        console.log(this.id)
     },
     async mounted() {
         if (this.is_articles_loaded != true) {
