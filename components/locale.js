@@ -46,5 +46,10 @@ export default {
             }
             return path + query + hash
         }
+    },
+    created(){
+        if(this.$route.query.l && this.$route.query.l == 'ENG'){
+            store.commit('setLang', 'ENG')
+        }
     }
 }
