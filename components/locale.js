@@ -49,7 +49,7 @@ export default {
     },
     created(){
         if(this.$route.query.l && this.$route.query.l == 'ENG'){
-            store.commit('setLang', 'ENG')
+            this.$store.commit('setLang', 'ENG')
         }
     }
 }
