@@ -816,60 +816,60 @@
                     <hr class="py-3">
 
                     <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">Recovery & Recycling Refrigerant</h6-ancor>
-                    <p class="mb-5"> 코웨이는 냉매로 인한 환경오염을 최소화하고자 제품에 사용되는 냉매를 친환경 냉매로 전환하고 있습니다. 아울러 기존 제품에 사용된 냉매(R-134a)를 제품 폐기시 회수하여 환경부가 지정한 업체를 통해 안전하게 처리하고 있습니다. 코웨이는 2018년이후 냉매·오일 회수 및 재활용을 1곳에서 2곳으로 확대하여 운영하였으며, 재활용사업자가 정수기 및 제습기 냉매·오일 회수 및 재활용 진행시 적법한 관리 및 운영에 대해 지속적으로 모니터링을 진행하고 있습니다. 2019년에는 약 6.1톤의 냉매를 회수하여 재활용하였습니다.
+                    <p class="mb-5"> In order to minimize environmental pollution caused by refrigerants, we use eco-friendly refrigerants while recovering refrigerants (R-134a) used in our products at the time of their disposal and dispose of them through a company designated by the Ministry of Environment. Since 2018, Coway has expanded and operated refrigerant and oil recovery from 1 to 2 locations. Recycling operators are continuously monitoring for proper management and operation of water purifier and dehumidifier refrigerant and oil recovery and recycling. In 2019, about 6.1 tons of refrigerant was recovered and recycled.
                     </p>
 
-                    <h7 class="mb-3 gray63">냉매 회수 및 재활용량 <span class="f-80 fw-300"> (단위: kg)</span></h7>
+                    <h7 class="mb-3 gray63">Refrigerant Recovery and Recycling Amount <span class="f-80 fw-300"> (Unit: kg)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td>2019 회수량</b-td> <b-td>2019 재활용량</b-td> 
+                                <b-td class="text-left">Category</b-td> <b-td>2019 Recovery Amount</b-td> <b-td>2019 Recycling Amount</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">냉매 회수 및 재활용</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
+                                    <b-td class="text-left">Recovery and Recycling Refrigerant</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> 냉매 회수량은 전량 재활용되고 있음
+                            <li> All recovered refrigerants are recycled.
                             </li>
                         </ul>
 
                     <hr class="py-3">
-                    <h6-ancor hash="m2-3" :activated="activated" class="fw-500 green5 mb-3">리퍼브 제도</h6-ancor>
-                    <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
+                    <h6-ancor hash="m2-3" :activated="activated" class="fw-500 green5 mb-3">Refurbished Product Policy</h6-ancor>
+                    <p class="mb-5"> Refurbished products refer to repackaged products that are returned by the consumers or displayed at stores. They are re-processed and resold to the consumer at a reasonable price. After replacing parts and performing thorough performance tests, the quality is the same as new products, contributing to environmental protection. In the future, we plan to induce customers with "conscious consumption" through Coway's unique, differentiated refurbished product line communication. We strive to promote sales by expanding the product line and securing product price competitive advantage.
                     </p>
-                    <h7 class="mb-3 gray63 font-noto">리퍼브 프로세스</h7>
+                    <h7 class="mb-3 gray63 font-noto">Refurbishing Process</h7>
                     <b-img src="/images/130_1.svg" fluid class="w-100"></b-img>
                     <hr class="mb-4">
                     <b-row no-gutters class="mb-5">
-                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 코웨이 리퍼프 제품 판매 목표</h7>
+                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 Coway Refurbished Product Sales Goal</h7>
                             <b-img src="/images/36_1.svg" fluid style="width: 88%;"></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-5 position-relative d-flex align-items-end">
-                            <div class="position-absolute" style='top:0;'><h7 class="mb-3 gray63 font-noto">2020년 목표 판매량</h7>
-                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px;" class="mr-1 bg-green7"></div> 비데 </div>
-                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#92bc49;" class="mr-1"></div> 청정기 </div>
-                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#c6da98;" class="mr-1"></div> 정수기 </div>
+                            <div class="position-absolute" style='top:0;'><h7 class="mb-3 gray63 font-noto">2020 Goal Sales</h7>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px;" class="mr-1 bg-green7"></div> Bidet </div>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#92bc49;" class="mr-1"></div> Air purifier </div>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#c6da98;" class="mr-1"></div> Water purifier </div>
                             </div>
                             <b-img src="/images/35_1.svg" fluid class="w-100"></b-img>
                         </b-col>
                     </b-row>
                     <hr class="py-2">
-                    <h7 class="mb-3 gray63">리퍼브 제품 판매량 <span class="f-80 fw-300">(단위: 대)</span> </h7>
+                    <h7 class="mb-3 gray63">Refurbished Product Sales <span class="f-80 fw-300">(Unit: Pieces)</span> </h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
+                                <b-td class="text-left">Category</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">정수기</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
+                                    <b-td class="text-left">Water purifier</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">공기청정기</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
+                                    <b-td class="text-left">Air purifier</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">비데</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
+                                    <b-td class="text-left">Bidet</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Total</b-td><b-td>17,348</b-td><b-td>10,609</b-td><b-td>6,125</b-td>
@@ -879,74 +879,74 @@
                     
                     <hr class="py-3">
                     
-                    <h6-ancor hash="m2-4" :activated="activated" class="fw-500 green5 mb-3">전과정 수자원 사용량 절감 </h6-ancor>
-                    <p class="mb-45"> 코웨이는 최종 조립 및 검사 공정의 비중이 높아 제품 생산 과정에서 수자원 사용량이 많지 않으며, 폐수 또한 배출하지 않습니다. 그러나 수자원 사용으로 인한 환경적 영향을 최소화 하기 위해 물 사용 공정을 지속적으로 개선하고, 물 대신 질소, 진공을 이용한 ‘워터리스’ 시스템을 도입하는 등 물 사용량을 관리하기 위해 지속적인 노력을 기울이고 있습니다.
+                    <h6-ancor hash="m2-4" :activated="activated" class="fw-500 green5 mb-3">Reduced Water Resource Consumption</h6-ancor>
+                    <p class="mb-45"> Coway has a high proportion of final assembly and inspection processes, so it does not consume much water in the production process and does not discharge wastewater. However, we continuously undertake efforts to manage water consumption by improving the water use process to minimize the environmental impact of using water resources and introducing a "waterless" system with nitrogen and vacuum instead of water.
                     </p>
 
-                    <h7 class="mb-2 gray63">워터리스 시스템을 통한 수자원 사용 절감량 <span class="f-80 fw-300"> (단위: 톤)</span> </h7>
+                    <h7 class="mb-2 gray63">Water Resource Reduction Through Waterless Systems<span class="f-80 fw-300"> (Unit: Ton)</span> </h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
                                 <b-td class="text-left"></b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">워터리스 시스템을 통한 수자원 사용 절감량</b-td> <b-td>5,028</b-td> <b-td>6,306</b-td><b-td>5,957</b-td>
+                                    <b-td class="text-left">Water Resource Reduction Through Waterless Systems</b-td> <b-td>5,028</b-td> <b-td>6,306</b-td><b-td>5,957</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
 
-                    <h7 class="mb-3 gray63">수자원 사용량</h7>
+                    <h7 class="mb-3 gray63">Water Resource Usage</h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                                <b-td class="text-left">Category</b-td> <b-td class="text-left">Unit</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">공업용수</b-td><b-td rowspan="5" class="text-left">톤</b-td> <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Industrial Water</b-td><b-td rowspan="5" class="text-left">톤</b-td> <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">지하수</b-td>    <b-td>26,084</b-td> <b-td>21,962</b-td><b-td>29,904</b-td>
+                                    <b-td class="text-left">Underground Water</b-td>    <b-td>26,084</b-td> <b-td>21,962</b-td><b-td>29,904</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">표층수</b-td>    <b-td>45,901</b-td> <b-td>49,385</b-td><b-td>60,519</b-td>
+                                    <b-td class="text-left">Surface Water</b-td>    <b-td>45,901</b-td> <b-td>49,385</b-td><b-td>60,519</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">수자원 사용 총량</b-td>    <b-td>71,985</b-td> <b-td>71,347</b-td><b-td>90,423</b-td>
+                                    <b-td class="text-left">Total Water Resource Consumption</b-td>    <b-td>71,985</b-td> <b-td>71,347</b-td><b-td>90,423</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">폐수 배출량</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Discharged Wastewater</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">수자원 사용 원단위</b-td><b-td class="text-left">톤/억 원</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
+                                    <b-td class="text-left">Water Consumption Intensity</b-td><b-td class="text-left">Ton/100 million KRW</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
 
-                        <h7 class="mb-3 gray63">사업장별 수자원 사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                        <h7 class="mb-3 gray63">Water Resource Usage by Business Site <span class="f-80 fw-300"> (Unit: Ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                                <b-td class="text-left">Category</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">유구공장</b-td> <b-td>37,879</b-td> <b-td>34,501</b-td><b-td>44,357</b-td>
+                                    <b-td class="text-left">Yugu Factory</b-td> <b-td>37,879</b-td> <b-td>34,501</b-td><b-td>44,357</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">인천공장</b-td><b-td>6,482</b-td> <b-td>4,401</b-td><b-td>5,725</b-td>
+                                    <b-td class="text-left">Incheon Factory</b-td><b-td>6,482</b-td> <b-td>4,401</b-td><b-td>5,725</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">포천공장</b-td> <b-td>134</b-td> <b-td>594</b-td><b-td>1,771</b-td>
+                                    <b-td class="text-left">Pocheon Factory</b-td> <b-td>134</b-td> <b-td>594</b-td><b-td>1,771</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">환경기술연구소(R&D센터)</b-td> <b-td>22,597</b-td> <b-td>26,045</b-td><b-td>33,183</b-td>
+                                    <b-td class="text-left">Environmental Technology Research Center (R&D Center)</b-td> <b-td>22,597</b-td> <b-td>26,045</b-td><b-td>33,183</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">물류센터(유구)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
+                                    <b-td class="text-left">Logistics Center (Yugu)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
                         <ul class="f-80 fw-300 footnote-ul line-height-low">
-                            <li> 2020년 수자원 데이터 검증범위 확대에 따라 2018년 포천공장 데이터가 전년도 보고 데이터와 상이함 <span><nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">검증의견서 확인</nuxt-link> </span>
+                            <li> As the scope of verification of water resource data in 2020 is expanded, the data from Pocheon factory in 2018 is different from the previous year's report data. <span><nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">검증의견서 확인</nuxt-link> </span>
                             </li>
                         </ul>
                                               
