@@ -79,7 +79,9 @@ export default {
         }
     },
     created() {
-
+        if (this.id == undefined){
+            this.id = this.$route.query.id
+        }
     },
     async mounted() {
         if (this.is_articles_loaded != true) {

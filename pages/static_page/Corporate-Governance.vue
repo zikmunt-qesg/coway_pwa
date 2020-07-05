@@ -46,7 +46,7 @@
                                 <b-td>이해선</b-td>
                                 <b-td>대표이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 코웨이 대표이사</li><li>2019 ~ 2020 코웨이 사업기술총괄사장</li><li>2016 ~ 2019 웅진코웨이 대표이사</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 코웨이 대표이사</li><li>2019 ~ 2020 웅진코웨이 사업기술총괄사장</li><li>2016 ~ 2019 코웨이 대표이사</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
