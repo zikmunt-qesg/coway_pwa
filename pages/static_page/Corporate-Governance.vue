@@ -336,7 +336,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SUSTAINABILITY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400">Practicing "Good faith" toward a better world, Coway Sustainability Management Vision </h7>
+            <h7 class="mb-5 text-center w-100 fw-400">Practicing Goodness Toward A Better World, Coway Sustainability Management Vision</h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -348,7 +348,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">Corporate Governance</h4-ancor>
@@ -416,9 +416,9 @@
                             </b-tr>
                         </b-tbody>
                     </b-table-simple>
-                    <p class="f-80 ml-1 mb-5">
-                        *As of June 2020
-                    </p>
+                    <div class="f-80 ml-1 mb-5 fw-300 font-noto gray55">
+                        * As of June 2020
+                    </div>
                     <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">Independence and Expertise of BoD</h6-ancor>
                     <p>The proportion of independent directors at Coway is 57.1%, which is higher than that of major companies in South Korea (51.3%, announced by the Fair-Trade Commission in December 2019). Coway's criteria for determining the independence of independent directors are specified in the articles of association of the board of directors under domestic, commercial law, fair trade law, and other laws.
                     </p>
@@ -471,7 +471,7 @@
                         <b-table-simple responsive class="txt-table parang-table font-noto fw-300 f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>Meeting</b-td><b-td>Agenda</b-td><b-td>Category</b-td><b-td class="text-right">Holding Date</b-td><b-td class="text-right">Attendance/Total</b-td>
+                                    <b-td>Meeting</b-td><b-td>Agenda</b-td><b-td>Category</b-td><b-td class="text-right"> Date</b-td><b-td class="text-right">Attendance/Total</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
@@ -531,7 +531,7 @@
                         <b-table-simple responsive class="txt-table sustainability-table f-95">
                             <b-thead>
                                 <b-tr>
-                                    <b-td >Category</b-td><b-td class="text-right">Remuneration<span class="f-90"> (Unit: 1,000 KRW)</span></b-td><b-td class="text-right">Ratio<span class="f-90"> (Unit: %)</span></b-td>
+                                    <b-td >Category</b-td><b-td class="text-right">Remuneration <span class="f-80">(Unit: 1,000 KRW)</span></b-td><b-td class="text-right">Ratio<span class="f-80"> (Unit: %)</span></b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
@@ -551,10 +551,10 @@
 
 
                         <h7 class="mb-3 gray63">Directors Remuneration</h7>
-                        <b-table-simple responsive class="txt-table sustainability-table fw-300 font-noto f-95 mb-5">
+                        <b-table-simple responsive class="txt-table sustainability-table fw-300 font-noto mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>Name</b-td><b-td>Category</b-td><b-td>Total (1,000 KRW)</b-td><b-td>Calculation Standard and Method</b-td>
+                                    <b-td style="width:12%;">Name</b-td><b-td style="width:10%;">Category</b-td><b-td style="width:15%;">Total<br><span class="f-80">(Unit: 1,000 KRW)</span></b-td><b-td>Calculation Standard and Method</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
@@ -607,9 +607,9 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5">
-                            *Notation Period: January 1st, 2017 ~ December 31st, 2019
-                        </p>
+                        <div class="f-80 ml-1 mb-5 fw-300 gray55 font-noto">
+                            * Notation Period: January 1st, 2017 ~ December 31st, 2019
+                        </div>
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Ownership Structure and Voting Rights</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p>As of the end of 2019, Coway's shareholders consisted of 25.08% of Woongjin Thinkbig, 8.08% of National Pension, 2.14% of treasury stock, 58.87% of foreigners, and 5.83% of others. On the 7th, the transaction to sell 18,511,446 shares (25.08% stake) owned by Woongjin Thinkbig to Netmarble was closed. Accordingly, after February 11, 2020, the majority shareholder was changed to Netmarble Co., Ltd.
@@ -644,9 +644,9 @@
                                 </b-tr>                                                                
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1">
-                            *As of  the end of December 2019
-                        </p>   
+                        <div class="f-80 ml-1 fw-300 gray55 font-noto">
+                            * As of  the end of December 2019
+                        </div>   
                 </section> 
                 <!-- End of DMA-->
 
