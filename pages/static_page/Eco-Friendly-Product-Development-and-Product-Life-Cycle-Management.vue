@@ -757,65 +757,65 @@
                             </b-tbody> 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
-                            <li> 재활용률: 제품, 서비스, 사업장 폐기물 중 재활용한 폐기물의 비율 ( 재활용한 폐기물 총량 / 입고된 폐기물 총량 x 100 )     
+                            <li> Recycling rate: The ratio of recycled waste among products, services, and business waste (total amount of recycled waste / total amount of waste x 100)     
                             </li>  
                         </ol>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> 환경가전기준의 폐기물 발생량 (화장품, 매트리스 제외)
+                            <li> Environmental household waste generation (excluding cosmetics and mattresses)
                             </li>
-                            <li> 2016년부터 서비스폐기물은 전량 고형화 연료. 사업장폐기물은 일부만 제외하고 고형화 연료화 진행 → 폐기물발생량 중 99%이상 재활용 진행
+                            <li> Since 2016, all service waste has been solidified fuel. Solidified fuel, except part of the business waste → Recycling of more than 99% of the amount of waste generated
                             </li>
-                            <li> 2018년 포천공장 재활용업 반납으로 인해 제품폐기물 재활용량은 코웨이 재활용사 실적으로 집계
+                            <li> Due to the Pocheon factory recycling business's return in 2018, the amount of product waste recycled is counted as Coway's recycling company.
                             </li>
-                            <li> 2018년 포천공장 재활용업 반납으로 인해 사업장 폐기물 감소
+                            <li> Reduction of waste in the business site due to return of recycling business in Pocheon factory in 2018
                             </li>
-                            <li> 2019년 생산량 증가에 따른 사업장, 서비스폐기물 증가
+                            <li> Increasing production sites and service waste due to increased production
                             </li>
                         </ul>
                         
 
                     <hr class="py-2">
 
-                    <h7 class="mb-3 gray63">자재사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                    <h7 class="mb-3 gray63">Material usage <span class="f-80 fw-300"> (Unit: Ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left" colspan="2">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
+                                <b-td class="text-left" colspan="2">Category</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="3">비재생 원료</b-td><b-td class="text-left">플라스틱(필터, 5대 제품군)<sup>1)</sup></b-td> <b-td>9,123</b-td><b-td>10,100</b-td><b-td>10,947</b-td>
+                                    <b-td class="text-left" rowspan="3">Non-renewable raw materials</b-td><b-td class="text-left">Plastic (Filter, 5 Product lines)<sup>1)</sup></b-td> <b-td>9,123</b-td><b-td>10,100</b-td><b-td>10,947</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">메탈<sup>2)</sup></b-td> <b-td>4,398</b-td><b-td>4,537</b-td><b-td>4,419</b-td>
+                                    <b-td class="text-left">Metal<sup>2)</sup></b-td> <b-td>4,398</b-td><b-td>4,537</b-td><b-td>4,419</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">포장재<sup>3)</sup></b-td><b-td>2,160</b-td><b-td>2,131</b-td><b-td>2,304</b-td>
+                                    <b-td class="text-left">Packaging<sup>3)</sup></b-td><b-td>2,160</b-td><b-td>2,131</b-td><b-td>2,304</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">재생가능 원료<sup>4)</sup></b-td><b-td>-</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left" colspan="2">Renewable raw materials<sup>4)</sup></b-td><b-td>-</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">합계</b-td><b-td>15,681</b-td><b-td>16,768</b-td><b-td>17,670</b-td>
+                                    <b-td class="text-left" colspan="2">Total</b-td><b-td>15,681</b-td><b-td>16,768</b-td><b-td>17,670</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
-                            <li> 필터(정수기 및 비데 필터), 5대 제품군(정수기, 공기청정기, 비데, 연수기, 음식물 처리기) 
+                            <li> Filter (water purifier and bidet filter), 5 Product lines (water purifier, air purifier, bidet, water softener, food processor)
                             </li>
-                            <li> 이론치 중량 적용
+                            <li> Theoretical weight applied
                             </li>
-                            <li> 종이박스, 포장비닐/포장필름, EPS(완충재) 
+                            <li> Packaging material standard: paper box, packaging vinyl/packaging film, EPS (buffer) 
                             </li>
-                            <li> 2019년부터 수입 제·부품 발생량 추가 관리  
+                            <li> Generated imported products and parts added and managed since 2019   
                             </li>
                         </ol>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> 코웨이가 제조하는 생활환경가전은 음용, 흡입 등 고객의 안전과 건강에 밀접한 관련이 있어 현재는 재활용 원료를 적용하고 있지는 않지만 향후 재생원료 사용이 가능한 부품을 검토하여 적용할 예정임
+                            <li> Renewable raw materials: Our living environment appliances are closely related to the safety and health of customers i.e. drinking and inhaling. Therefore, currently, recycled raw materials are not applied. However, we will review and apply parts for recycled raw materials in the future.
                             </li>
                         </ul>
                     <hr class="py-3">
 
-                    <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">냉매 회수 및 재활용</h6-ancor>
+                    <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">Recovery & Recycling Refrigerant</h6-ancor>
                     <p class="mb-5"> 코웨이는 냉매로 인한 환경오염을 최소화하고자 제품에 사용되는 냉매를 친환경 냉매로 전환하고 있습니다. 아울러 기존 제품에 사용된 냉매(R-134a)를 제품 폐기시 회수하여 환경부가 지정한 업체를 통해 안전하게 처리하고 있습니다. 코웨이는 2018년이후 냉매·오일 회수 및 재활용을 1곳에서 2곳으로 확대하여 운영하였으며, 재활용사업자가 정수기 및 제습기 냉매·오일 회수 및 재활용 진행시 적법한 관리 및 운영에 대해 지속적으로 모니터링을 진행하고 있습니다. 2019년에는 약 6.1톤의 냉매를 회수하여 재활용하였습니다.
                     </p>
 
