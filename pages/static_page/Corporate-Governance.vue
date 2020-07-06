@@ -560,8 +560,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <hr class="py-2">
-                        <hj-img src="/images/301_2.svg" fluid></hj-img>
-                        <div class="red"> 위 그림은 국문과 함께 수정 예정</div>                        
+                        <hj-img src="/images/79_1.svg" fluid></hj-img>
 
                     <hr class="py-3 mb-5">
 

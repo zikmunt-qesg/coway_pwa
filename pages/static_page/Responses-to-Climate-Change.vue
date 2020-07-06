@@ -32,7 +32,7 @@
                                 <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/131_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
-                                <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
+                                <h7 class="green7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                                 <p>2030년까지 전세계 온실가스 배출량을 5억 3,600만 톤으로 감축하는 제2차 기후변화대응 기본계획이 확정되었습니다. 한국은 배출권거래제를 통한 온실가스 배출기업의 책임을 더욱 더 강화하고 있습니다. '2030 국가 온실가스 감축 로드맵'에 따르면 현재 3%의 배출권 유상할당 비율이 2025년까지 10% 이상으로 확대되며, 감축 효율이 좋은 기업이 상대적으로 더 많은 배출권을 할당 받는 인센티브 또한 늘어날 것으로 보입니다. 이러한 제도적 변화는 기업의 온실가스 배출이 불확실성이나 단순한 규제 위험이 아니라, 재무적 성과에도 직접적 영향을 미치는 제도적 요인이자 관리 가능한 위험으로 전환하고 있다는 것을 의미합니다.
                                 </p>
                                 <p>코웨이는 고객 생활환경을 개선하는 제품과 서비스를 제공하는 기업으로서, 국가와 사회의 온실가스 감축 및 기후변화 적응을 적극 지원하고자 합니다. 이를 위해 기후 시나리오 분석과 이에 따른 명확한 온실가스 감축 목표의 설정, 사업장 에너지 고효율화 및 냉매에 의한 배출 저감 등을 적극 실행하겠습니다.
@@ -452,7 +452,7 @@
                                 <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/131_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
-                                <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
+                                <h7 class="green7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                                 <p> The 2nd Basic Plan for Climate Change Response was established to reduce global greenhouse gas emissions to 536 million  tons by 2030. South Korea is further strengthening its responsibilities as a greenhouse gas emission company through the emission trading system. According to the 2030 National Greenhouse Gas Reduction Roadmap, the current 3% emission allowance rate will increase to more than 10% by 2025, and incentives for companies with high reduction efficiency will be allocated relatively more emissions. These institutional changes mean that the company's greenhouse gas emissions turn into institutional and manageable risks that directly impact financial performance, not just uncertainties or pure regulatory risks.
                                 </p>
                                 <p> Coway is a company that provides products and services that improve the customer's living environment and aims to actively support GHG reduction and climate change adaptation by countries and societies. To this end, we will actively analyze climate scenarios, set clear greenhouse gas reduction targets, increase energy efficiency in the workplace, and reduce emissions from refrigerants.
@@ -508,7 +508,7 @@
                         <p class="mb-5 font-noto">Coway declared environmental management in 2006, recognizing that climate change and changes in the global environment have a significant impact on corporate management activities. Coway has established a mid- to long-term goal of reducing greenhouse gas emissions of up to 50% by 2020 compared to the 2010s. Greenhouse gas emissions in 2010 increased by 10.81% to 5,356 tCO2e  in 2010 and 5,935 tonCO2e in 2019, and 0.234 tonCO2e/in KRW in 2019 compared to KRW 5,356 tonCO2e/KRW in 2010. It was effective in reducing about 70% of the contrast. (In the same way as in 2010, when the internal emission calculation standards were applied, the GHG emissions increased by 4.13% and the intensity  was reduced by approximately 77%.)
                         </p>
                         <div class="position-relative pt-5 mb-4">
-                            <hj-img src="/images/44_1.svg" fluid></hj-img>
+                            <hj-img src="/images/315_1.svg" fluid></hj-img>
                             <div class="position-absolute" style="top: 0;">
                                 <h7 class="mb-3 gray63 font-noto">GHG Emissions and 2030 Goals</h7>
                                 <!-- <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div> -->
@@ -788,7 +788,7 @@
                         <h7 class="mb-3 gray63">Environmental Investment</h7>
                         <b-table-simple responsive class="num-table env-table mb-2">
                             <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td class="text-left">Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td class="text-left">비고</b-td>
+                                <b-td class="text-left">Category</b-td><b-td class="text-left">Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td class="text-left">Note</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>

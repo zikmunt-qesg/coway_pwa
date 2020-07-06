@@ -237,7 +237,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Environmental Management for Clean Water and Air</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Environmental Management</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -281,15 +281,15 @@
                                     </b-col>
                                 </b-row>
                             </b-col>
-                            <b-col class="col-12 col-md-7 position-relative pl-md-5">
+                            <b-col class="col-12 col-md-7 position-relative pl-md-4">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
-                                <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
+                                <h7 class="green7 f-120 mb-md-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center">                                    
                                     <b-col class="col-12 col-sm-7 pr-xl-2">
-                                        <p class="fw-500 word-break">RE100 (Renewable Energy 100%) & Carbon Emissions Net Zero by 2050</p>
-                                        <p class="f-90 fw-300 word-break">(50% Renewable in 2030, 75% in 2040. 100% in 2050)</p>
+                                        <p class="fw-500 font-noto">RE100 (Renewable Energy 100%) & Carbon Emissions Net Zero by 2050</p>
+                                        <div class="f-90 fw-300 font-noto">(50% Renewable in 2030,<br> 75% in 2040, 100% in 2050)</div>
                                     </b-col>
-                                    <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/123_7.svg" fluid class="w-100"></b-img></div></b-col>
+                                    <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/308_1.svg" fluid class="w-100"></b-img></div></b-col>
                                 </b-row>
                             </b-col>
                         </b-row>
@@ -404,7 +404,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Environmental Management for Clean Water and Air' : '깨끗한 물과 공기를 위한 환경경영'
+            return this.is_ENG? 'Environmental Management' : '깨끗한 물과 공기를 위한 환경경영'
         },
         sub_titles(){
             let temp = [

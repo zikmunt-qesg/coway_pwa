@@ -11,13 +11,13 @@
                     <div class="col-md-6 col-lg-3 mb-3 pb-1 pb-md-0 d-flex justify-content-end justify-content-md-start line-height-low"><nuxt-link to="/framework/gri" class="footer-a">GRI Disclosure</nuxt-link></div>
                     <div class="col-md-6 col-lg-3 mb-3 pb-1 pb-md-0 line-height-low text-right text-md-left"> Further Website<br>
                         <p class="ml-3 ml-md-0 mt-2 mb-0 f-80">
-                            <a href="http://www.coway.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>코웨이 홈페이지 </a>
+                            <a href="http://www.coway.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway Homepage_KOR': '코웨이 홈페이지'}} </a>
                         </p>
                          <p class="ml-3 ml-md-0 mt-2 mb-0 f-80">
-                            <a href="http://www.coway.com/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>코웨이 영문 홈페이지 </a>
+                            <a href="http://www.coway.com/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway Homepage_ENG': '코웨이 홈페이지'}}  </a>
                         </p>
                         <p class="ml-3 ml-md-0 mt-2 mb-0 f-80">
-                            <a href="http://www.cowayir.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>코웨이 IR 사이트 </a>
+                            <a href="http://www.cowayir.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway IR Website': '코웨이 IR 사이트'}}  </a>
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-right text-md-left"> Contacts<br>
@@ -52,6 +52,7 @@
 </template>
 
 <script>
+import { mapState, mapActions, mapMutations } from 'vuex'
 import * as ih from '@/components/util'
 import SideNavigation from '@/components/navigation/SideNavigation'
 import h6Ancor from '@/components/navigation/h6Ancor'
@@ -72,6 +73,11 @@ export default {
                 }
             ],
         }
+    },
+    computed:{
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        })
     },
     methods:{
         viewHandler(event){

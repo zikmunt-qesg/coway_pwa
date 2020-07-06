@@ -32,7 +32,7 @@
                     </p>
 
                     <p class="mb-4">코웨이의 협력사 행동 규범은 EICC 행동 규범 및 기타 글로벌 가이드라인을 참고하여 작성되었습니다.</p>
-                    <b-button variant="gold" size="sm" block class="mb-5">협력사 행동규범 다운로드</b-button>
+                    <b-button variant="gold" size="sm" block class="mb-5" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" >협력사 행동규범 <i class="fas fa-external-link-alt ml-2"></i></b-button>
 
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="v2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 지속가능성 평가</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -110,30 +110,6 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-
-                        
-                        <!--<h7 class="mb-3 gray63">물품구매액</h7>
-                        <b-table-simple responsive class="num-table social-table f-95 mb-5">
-                            <b-thead>
-                                <b-tr>
-                                    <b-td class="text-left">구분</b-td><b-td>구매액</b-td><b-td>구매비중</b-td>
-                                </b-tr>
-                            </b-thead>
-                            <b-tbody>
-                                <b-tr>
-                                    <b-td class="text-left">기자재</b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">공사용역</b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">&nbsp;</b-td><b-td></b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left">&nbsp;</b-td><b-td></b-td><b-td></b-td><b-td></b-td>
-                                </b-tr>
-                            </b-tbody>
-                        </b-table-simple>-->
 
                         <h7 class="mb-3 gray63">공급망 CSR 평가 현황(위험요인별)</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-0">
@@ -238,7 +214,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5">Supplier CSR Report</h4-ancor>
@@ -248,7 +224,7 @@
                     </p>
 
                     <p class="mb-4">Coway Supplier Code of Conduct was developed with reference to the ELCC Code of Conduct and other global guidelines.</p>
-                    <b-button variant="gold" size="sm" block class="mb-5">Download Supplier Code of Conduct</b-button>
+                    <b-button variant="gold" size="sm" block class="mb-5" href="/documents/Coway_supplier_code_of_conduct_eng.pdf">Supplier Code of Conduct<i class="fas fa-external-link-alt ml-2"></i></b-button>
 
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="v2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Supplier Sustainability Assessment</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -270,9 +246,9 @@
                     </p>
 
                         <h7 class="mb-1 gray63">Supplier CSR Risk Assessment Result</h7>
-                        <p class="f-80 gray6 mb-2"> (Unit: %)</p>
+                        <div class="f-80 gray6 font-noto fw-300 mb-2"> (Unit: %)</div>
                         <div class="d-flex align-items-center"> <div style="width:16px; height:16px; background-color:#f0c560;" class="mr-2"></div><span class="f-90 fw-300">Satisfaction Rate</span></div>
-                        <hj-img src="/images/94_1.svg" fluid></hj-img>
+                        <hj-img src="/images/313_1.svg" fluid></hj-img>
                     <hr class="mb-4">
                     <h6-ancor hash="v2-3" :activated="activated" class="gold6 fw-500 mb-2">Corrective Action</h6-ancor>
                     <p class="mb-5">Coway establishes a corrective action plan and requests to improve risk factors (Including ESG risks) for suppliers that need improvement based on the supplier evaluation results. 

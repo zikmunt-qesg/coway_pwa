@@ -134,13 +134,13 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
+                            <b-col class="col-12 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Train Lifecare Professional Partners</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Lifecare Professional Partners</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 pb-4 mb-2 mb-sm-0">  
@@ -157,39 +157,39 @@
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-4 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/139_1.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">Partner Technical Training and Service Training</p>
+                                <p class="fw-500 line-height-low">Partner Technical Training and Service Training</p>
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/139_2.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">Expertise Improvement Through Monitoring Field Issue</p>
+                                <p class="fw-500 line-height-low">Expertise Improvement Through Monitoring Field Issue</p>
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
                                 <div class="mx-auto mb-2"><b-img src="/images/139_3.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-1 px-sm-3 px-lg-5 mx-xl-3">Win-Win Communication</p>
+                                <p class="fw-500 line-height-low">Win-Win Communication</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
-                            <b-col class="col-12 col-md-7 pr-md-4 mb-4 mb-md-0">
+                            <b-col class="col-12 col-md-8 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-3 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-4 text-center fw-500 px-lg-2"><div class="mx-auto mb-2"><b-img src="/images/139_4.svg"></b-img></div>
-                                        <p class="fw-500 word-break px-1 px-lg-2">Operate Academy in Cooperation with Universities</p>
+                                        <p class="fw-500 px-sm-2 line-height-low">Operate Academy with Universities</p>
                                     </b-col>
                                     <b-col class="col-4 text-center fw-500"><div class="mx-auto mb-3"><b-img src="/images/139_5.svg"></b-img></div>
-                                        <p class="fw-500 word-break px-1 px-lg-2">Provide Partner Service Tool Bag</p>
+                                        <p class="fw-500 px-sm-2 line-height-low">Provide Partner Service Tool Bag</p>
                                     </b-col>
                                     <b-col class="col-4 text-center fw-500"><div class="mx-auto mb-3"><b-img src="/images/139_6.svg"></b-img></div>
-                                        <p class="fw-500 word-break pt-1 px-1 px-lg-2 font-noto">Initiate Partner Communication 3C * Meeting</p>
+                                        <p class="fw-500 px-sm-2 pt-1 line-height-low font-noto">Initiate Partner Communication 3C* Meeting</p>
                                     </b-col>
                                     <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, CS Dr., Call center</div>
                                 </b-row>
                             </b-col>
-                            <b-col class="col-12 col-md-5 position-relative pl-md-4">
+                            <b-col class="col-12 col-md-4 position-relative pl-md-4">
                                 <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="gold7 mb-3 mb-md-5 w-100">Performance</h7> 
-                                <div class="d-flex justify-content-around mb-3 mb-md-0">                                   
-                                    <div class="fw-400 f-120 line-height-low letter-narrow word-break font-noto text-center">Emergency Relief for Partners in COVID 19 Special Disaster Areas</div>
-                                    <div class="fw-400 f-120 line-height-low letter-narrow word-break font-noto px-2 text-center">9 types of VOC Improvement Based on 3C Meeting</div>
+                                <div class="mb-3 mb-md-0">                                   
+                                    <div class="f-100 line-height-low letter-narrow mb-3 font-noto text-center">Emergency Relief for Partners in COVID-19 Special Disaster Areas</div>
+                                    <div class="f-100 line-height-low letter-narrow font-noto px-2 text-center">9 types of VOC Improvement Based on 3C Meeting</div>
                                 </div>
                             </b-col>                            
                         </b-row>
@@ -200,26 +200,26 @@
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Partner Expertise Enhancement</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">Coway is pursuing win-win growth with partners who provide Coway products and services the closest to customers. Partners play an essential role in communicating at the customer interface and improving brand value and satisfaction. Accordingly, Coway supports sales and service partners in the field to facilitate smooth service and sales activities for customers.
                         </p>
-                        <b-img src="/images/51_1.svg" fluid></b-img>
+                        <b-img src="/images/312_1.svg" fluid></b-img>
                         <hr class="mb-3">
-                    <h6-ancor hash="s1-1" :activated="activated" class="gold6 fw-500 mb-3">Expertise Improvement Training</h6-ancor>
+                    <h6-ancor hash="s1-1" :activated="activated" class="gold6 fw-500 mb-3">Expertise Improvement by Training</h6-ancor>
                         <p class="mb-45"> Coway offers systematic training programs to help partners build job skills and work in the long run. Training consists of technical training and service training to acquire product and service knowledge and technical training is the process of having a basic knowledge of Coway's products and services and mastering how to perform "heart service" through practical training. Service training is a process that allows you to develop a service mindset that treats customers with an overall understanding of the job. Also, a separate mentoring program is provided for steady start of new Codys.
                         </p>
-                        <b-img src="/images/52_1.svg" fluid></b-img>
+                        <b-img src="/images/312_2.svg" fluid></b-img>
                         <hr class="space-p25">
                         <p class="mb-5"> Coway operates a university cooperative academy to help strengthen partner competencies. The academy consists of two programs: "Coway-Ewha Academy', a consumer service capacity building program with Ewha Womans University, and "Coway-Yonsei Leadership Academy," a leadership program with Yonsei University. Coway-Ewha Academy offers 9 weeks of customer management and service competitiveness improvement programs, including understanding consumer psychology, creative thinking and self-development, and customized healing stress management. The Coway-Yonsei Leadership Academy provides training on leaders' competencies, such as humanities, philosophy, human relations, and business management, over 8 weeks for leaders who demonstrate excellent leadership skills in sales.
                         </p>
                     
-                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">Field Issue Training</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">Supporting Partner based on Field Issues</h6-ancor>
                         <p class="mb-5"> Coway provides effective support for sales and service partners such as Cody, CS Doctor, and HP/GHP through an immediate reflection of field issues. Providing a service tool bag is a prime example of improving partner expertise through listening to field issues. The service tool bag is produced through research on the use of service items and partner opinions as a kit dedicated to professional service tools that can manage, transport, and move various service tools. We have diversified tools by application and tool bags to provide specialized tools for each product line of water purifiers, bidets, mattresses, and clothing cleaners. This not only improved the efficiency of service delivery from partners but also minimized fatigue from work.
                         </p>
                     
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Win-Win and Communication</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Cooperation and Communication</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> To clearly understand the site, Coway holds a 3C (Cody, CS Dr., Call center) meeting and listens to VOC and shared across the company. The 3C meeting is a regular meeting consisting of Codys, CS Doctors, and representatives of call centers working at Coway's primary customer interfaces. In 2019, Coway drew up tasks based on 9 types of VOCs through 3C meetings, including products, Customer Service, and education, and promoted improvement activities with related departments.
                         </p>
                     
-                    <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-3 font-noto">Emergency Relief for Partners in COVID 19 Special Disaster Areas</h6-ancor>
+                    <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-3 font-noto">Emergency Relief for Partners in COVID-19 Special Disaster Areas</h6-ancor>
                         <p> In the case of partners working in the COVID-19 special disaster areas, economic impacts were issued due to limitations in service provision and product sales. Accordingly, Coway paid 70% of the commission in advance to partners in some parts of Daegu, North Gyeung-Sang Province (Gyeongbuk), which was declared the special disaster zone in March 2020. We provided a total of approximately 600 million KRW in disaster emergency living expenses.
                         </p>
                 </section>
@@ -257,21 +257,21 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Train Lifecare Professional Partners' : '라이프케어 전문 파트너 양성'
+            return this.is_ENG? 'Lifecare Professional Partners' : '라이프케어 전문 파트너 양성'
         },
         sub_titles(){
             let temp = [
                 { 
                     title: this.is_ENG? 'Partner Expertise Enhancement': '파트너 전문성 강화', hash: 's1',
                     child: [
-                        { title: this.is_ENG? 'Provide Training for Partners Expertise Improvement': '파트너 전문성 향상을 위한 교육 지원', hash: 's1-1' }, 
-                        { title: this.is_ENG? 'Provide Real Life Workplace Issues Training for Partners':'현장 이슈에 기반한 파트너 지원', hash: 's1-2' }, 
+                        { title: this.is_ENG? 'Expertise Improvement by Training': '파트너 전문성 향상을 위한 교육 지원', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Supporting Partner based on Field Issues':'현장 이슈에 기반한 파트너 지원', hash: 's1-2' }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Partner Win Win and Communication': '파트너 상생 및 커뮤니케이션', hash: 's2',
+                    title: this.is_ENG? 'Cooperation and Communication': '파트너 상생 및 커뮤니케이션', hash: 's2',
                     child: [
-                        { title: this.is_ENG? 'Provide Emergency Relief for Partners in COVID 19 Special Disaster Areas':'코로나19 특별재난지역에 파트너 긴급생활비 지원', hash: 's2-1' }
+                        { title: this.is_ENG? 'Emergency Relief for Partners in COVID-19 Special Disaster Areas':'코로나19 특별재난지역에 파트너 긴급생활비 지원', hash: 's2-1' }
                     ] 
                 }
             ]

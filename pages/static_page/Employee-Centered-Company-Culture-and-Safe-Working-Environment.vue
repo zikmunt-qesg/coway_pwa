@@ -626,13 +626,13 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
+                            <b-col class="col-12 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-4 mt-m-2">Employee-centered Company Culture and Safe Working Environment</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-4 mt-m-2">Employee-oriented Culture,<br> Safe and Healthy Workplace</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -650,26 +650,26 @@
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="mx-auto mb-2" style="height:77px;"><b-img src="/images/134_1.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">STEP Policy-based Enhancement</p>
+                                <p class="fw-500 word-break px-sm-1 px-lg-2">STEP Policy-based Enhancement</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center">
                                 <div class="mx-auto mb-2 d-flex align-items-center justify-content-center" style="height:77px;"><b-img src="/images/134_2.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">Regular communication through a Joint Labor-Management Council</p>
+                                <p class="fw-500 word-break px-sm-1 px-lg-2">Regular communication through a Joint Labor-Management Council</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center">
                                 <div class="mx-auto mb-2 d-flex align-items-center justify-content-center" style="height:77px;"><b-img src="/images/134_3.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">Occupational Safety and Health Committee</p>
+                                <p class="fw-500 word-break px-sm-1 px-lg-2">Occupational Safety and Health Committee</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <b-col class="col-12 col-md-6 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
-                                    <b-col class="col-5 text-center fw-500 px-lg-2"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_4.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break px-3 px-md-0">Digital-based Work Innovation Support</p>
+                                    <b-col class="col-6 text-center fw-500 px-lg-2"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_4.svg" fluid></b-img></div>
+                                        <p class="fw-500 px-2 px-md-1">Digital-based Work Innovation Support</p>
                                     </b-col>
-                                    <b-col class="col-7 text-center fw-500"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_5.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break px-2 px-md-3"><span style="word-break: normal;">COVID-19</span> Efforts to prevent the spread of COVID-19</p>
+                                    <b-col class="col-6 text-center fw-500"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_5.svg" fluid></b-img></div>
+                                        <p class="fw-500 px-2 px-md-1"><span style="word-break: normal;">COVID-19</span> Efforts to prevent the spread of COVID-19</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
@@ -686,11 +686,11 @@
                                         <!--<b-col class="col-3 text-center px-2">
                                             <p class="fw-500 line-height-low word-break"><span class="fw-600">2019</span>년 임직원 만족도</p>
                                         </b-col>-->
-                                        <b-col class="col-6 text-center px-2">
+                                        <b-col class="col-6 text-center px-1">
                                             <p class="fw-500 line-height-low word-break font-noto">2019 Employee Grievance Annual Processing Rate</p>
                                         </b-col>
                                         <b-col class="col-6 text-center">
-                                            <p class="fw-500 line-height-low word-break font-noto">2019 Safety Environment Improvement Rate Through Joint Safety Inspection with Suppliers</p>
+                                            <p class="fw-500 line-height-low word-break font-noto letter-narrow">2019 Safety Improvement Rate <span class="f-75 fw-300">(Through Joint Safety Inspection with Suppliers)</span></p>
                                         </b-col>
                                     </b-row>
                                 </b-row>
@@ -703,12 +703,12 @@
                 <section class="mb-5">
                     <p class="mb-5"> Based on the principle that the future value of a company comes from talent, Coway practices fairness, work-life balance, and talent management that reinforces expertise. Coway is building a diverse support system to develop their capabilities based on fair opportunities and rewarded for their performance. With a transparent and fair recruitment process, we recruit talented people who fit Coway and provide various learning opportunities based on the STEP (Self Teaching & Education Plan) system so that employees can actively develop their competencies. Also, by building a corporate culture based on communication and participation, we provide an environment where employees can balance work and life. 
                     </p>
-                    <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="/images/68_1.svg" fluid class="h-100"></b-img></div>
+                    <div class="mx-auto text-center" style="height:288px; width:100%"><b-img src="/images/311_1.svg" fluid class="h-100"></b-img></div>
                     <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Systematic Empowerment </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Systematic Empowerment</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> Coway supports the growth of employees based on the STEP (Self Teaching & Education Plan) system. STEP is a mandatory education system for employees, and it is strictly managed to reflect whether it has been completed in the promotion evaluation. The STEP system consists of leadership training, job training, onboarding training, and mandatory training. In 2020, we plan to strengthen our employees' leadership competencies and training to improve job competencies in line with business changes.
                         </p>
-                        <hj-img src="/images/135_1.svg" fluid ></hj-img>
+                        <hj-img src="/images/311_2.svg" fluid ></hj-img>
                     <hr class="space-p25 mb-2">
                     <h6-ancor hash="r1-1" :activated="activated" class="gold6 fw-500 mb-2">Leadership Training</h6-ancor>
                         <p class="mb-45"> Leadership training is conducted to foster leaders who will lead the future and to develop competencies for positions. Customized training and online content training are provided regularly to executives and team leaders, and new leader training is provided to new positions. Moreover, pre-leadership training is provided to support the promotion of employees and training for employees who has been in the position for 3 years to check individual growth and develop necessary competencies.
@@ -723,20 +723,23 @@
                                 </b-tr></b-thead>
                                 <b-tbody>
                                     <b-tr>
-                                        <b-td class="text-left">Total Training Cost<sup>*</sup></b-td> <b-td class="text-left">1 million KRW</b-td> <b-td>11,227</b-td> <b-td>11,740</b-td> <b-td>11,693</b-td><b-td>11,425</b-td>
+                                        <b-td class="text-left">Total Training Cost<sup> 1)</sup></b-td> <b-td class="text-left">1 million KRW</b-td> <b-td>11,227</b-td> <b-td>11,740</b-td> <b-td>11,693</b-td><b-td>11,425</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td class="text-left">Training Cost Per Person<sup>*</sup></b-td> <b-td class="text-left">1 million KRW/person</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td><b-td>2.3</b-td>
+                                        <b-td class="text-left">Training Cost Per Person<sup> 1)</sup></b-td> <b-td class="text-left">1 million KRW/person</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td> <b-td>2.4</b-td><b-td>2.3</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td class="text-left">Total Training Time<sup>**</sup></b-td><b-td class="text-left">hour</b-td><b-td>106,436</b-td> <b-td>106,796</b-td> <b-td>107,564</b-td><b-td>109,735</b-td>
+                                        <b-td class="text-left">Total Training Time<sup> 2)</sup></b-td><b-td class="text-left">hour</b-td><b-td>106,436</b-td> <b-td>106,796</b-td> <b-td>107,564</b-td><b-td>109,735</b-td>
                                     </b-tr>
                                     <b-tr>
-                                        <b-td class="text-left">Training Hour Per Person<sup>*</sup></b-td><b-td class="text-left">hour/person</b-td><b-td>88.7</b-td> <b-td>89.0</b-td> <b-td>89.6</b-td><b-td>61.4</b-td>
+                                        <b-td class="text-left">Training Hour Per Person</b-td><b-td class="text-left">hour/person</b-td><b-td>88.7</b-td> <b-td>89.0</b-td> <b-td>89.6</b-td><b-td>61.4</b-td>
                                     </b-tr>                                
                                 </b-tbody>                                
                             </b-table-simple>
-                            <p class="f-80 ml-1">*Total training cost and training cost per person are counted as the total number of employees.   <br> **Total training hours and training hours per person excluded sales positions.</p>
+                            <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
+                                <li>Total training cost and training cost per person are counted as the total number of employees.</li>
+                                <li>Total training hours and training hours per person excluded sales positions.</li>
+                            </ol>
                     <hr class="space-p25">
                     <h6-ancor hash="r1-3" :activated="activated" class="gold6 fw-500 mb-3">Digital-based Work Innovation</h6-ancor>
                         <p class="mb-45"> Coway is running a Work Smart campaign to minimize unnecessary work processes and practices and improve work productivity. The Work Smart Campaign is an activity to improve the space, time, performance, knowledge, and method which creates a reasonable working culture, and flexible utilization of workspace and time to increase employee satisfaction. In particular, by maximizing work efficiency within working hours, we are doing our best to prevent overtime work over 40 hours a week and to balance work and life.
@@ -746,27 +749,27 @@
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                                 <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/136_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 fw-500 f-100 mb-2">SPACE</p><p class="px-2 f-90 word-break line-height-low">Efficient use of space for engage preparation and consideration</p>
+                                <p class="gold6 fw-500 f-100 mb-2">SPACE</p><p class="px-2 line-height-low"><span class="f-90">Efficient use of space for engage preparation and consideration</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                                 <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/136_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 fw-500 f-100 mb-2">TIME</p><p class="px-2 f-90 word-break line-height-low">Efficient time operation for responsible manners</p>
+                                <p class="gold6 fw-500 f-100 mb-2">TIME</p><p class="px-2 line-height-low"><span class="f-90">Efficient time operation for responsible manners</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                                 <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/136_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 fw-500 f-100 mb-2">RESULT</p><p class="px-2 f-90 word-break line-height-low">Establishment of corporate culture evaluation model for continuous cultural settlement</p>
+                                <p class="gold6 fw-500 f-100 mb-2">RESULT</p><p class="px-2 line-height-low"><span class="f-90">Establishment of corporate culture evaluation model for continuous cultural settlement</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                                 <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/136_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 fw-500 f-100 mb-2">ACQUAINTANCE</p><p class="px-2 f-90 word-break line-height-low">Continued activities to acquire and share knowledge</p>
+                                <p class="gold6 fw-500 f-100 mb-2">ACQUAINTANCE</p><p class="px-2 line-height-low"><span class="f-90">Continued activities to acquire and share knowledge</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                                 <div class="temp-icon6 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-66px; z-index:10"><b-img src="/images/136_5.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 fw-500 f-100 mb-2">METHODS</p><p class="px-2 f-90 word-break line-height-low">Process review for work-style efficiency</p>
+                                <p class="gold6 fw-500 f-100 mb-2">METHODS</p><p class="px-2 line-height-low"><span class="f-90">Process review for work-style efficiency</span></p>
                             </b-col> 
                         </b-row>
                         <p> To increase work efficiency through digital business innovation, we introduced Robotic Process Automation (RPA) systems for major tasks such as accounting and analysis since 2018. Robot Process Automation is a system that robot software automatically handles simple tasks that have been repeatedly executed. Through this system, employees can move away from simple tasks and concentrate on high-value added work to improve work efficiency. We applied RPA to about 40 tasks, such as current account status monitoring, sales results counting, rental asset status, and billing history. It improved the overall processing speed by more than 50%, with a total of 70 robots operating. We plan to review and sequentially apply the possibility of introducing RPA throughout the entire work area and strive to increase the quality of work and work-life balance.
@@ -779,17 +782,17 @@
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO Communication Activities</p><p class="px-3 f-90 line-height-low">Consolidating the horizontal communication between the CEO and employees by conducting various activities such as the New Year's ceremony, the end of the year ceremony, encouraging gifts for employees with children who are preparing for the SAT, and “Hope Day” at the sales site.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO Communication Activities</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">Consolidating the horizontal communication between the CEO and employees by conducting various activities such as the New Year's ceremony, the end of the year ceremony, encouraging gifts for employees with children who are preparing for the SAT, and Hof Day at the sales site.</span> </p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">SangSang Ocean</p><p class="px-3 f-90 line-height-low">A representative idea proposal system of Coway, and if employees freely provide ideas, compensation is provided accordingly.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">SangSang Ocean</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">A representative idea proposal system of Coway, and if employees freely provide ideas, compensation is provided accordingly.</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Grievance Channel</p><p class="px-3 f-90 line-height-low">Regular Joint Labor-Management Council meetings and Joint Labor-Management Council workshops are held with laborers' representatives. Moreover, we operate an in-house online consultation channel and "Chorus."</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Grievance Channel</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">Regular Joint Labor-Management Council meetings and Joint Labor-Management Council workshops are held with laborers' representatives. Moreover, we operate an in-house online consultation channel and "Chorus".</span></p>
                             </b-col>
                         </b-row>
                     <h7 class="mb-3 gray63">Received Employee Grievance Status</h7>
@@ -839,22 +842,22 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Fixed Time Work Policy</p><p class="px-2 f-90 mb-md-0 line-height-low"> The PC-Off system encourages employees to leave the office at a fixed time and support employees to spend more time with their families </p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Fixed Time Work Policy</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85">The PC-Off system encourages employees to leave the office at a fixed time and support employees to spend more time with their families. </span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Efficient Working Culture</p><p class="px-2 f-90 mb-md-0 line-height-low"> To build an efficient and productive way of working for Coway, we established the slogan “Gyeol Seung Jeong Gyeol” to create an environment where employees can concentrate on the work through guidelines and codes of conduct related to meetings/reports/collaboration.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Efficient Working Culture</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> To build an efficient and productive way of working for Coway, we established the slogan “Gyeol Seung Jeong Gyeol” to create an environment where employees can concentrate on the work through guidelines and codes of conduct related to meetings / reports / collaboration.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Elementary School Entry Leave</p><p class="px-2 f-90 mb-md-0 line-height-low"> Five-day paid leave is provided to employees to help their children starting elementary school</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Elementary School Entry Leave</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> Five-day paid leave is provided to employees to help their children starting elementary school.</span></p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Shortened Work Hour During Pregnancy </p><p class="px-2 f-90 mb-md-0 line-height-low"> During the early and late stages of pregnancy when there is a high risk, 2 hours shorter work hours</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Shortened Work Hour During Pregnancy </p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> During the early and late stages of pregnancy when there is a high risk, 2 hours shorter work hours.</span></p>
                             </b-col>
                         </b-row>
                         
@@ -863,27 +866,27 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Family Invited Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-low"> We invite employees' families to enjoy a happy time by conducting various programs such as field trips, rail bikes, and glamping.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Family Invited Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> We invite employees' families to enjoy a happy time by conducting various programs such as field trips, rail bikes, and glamping.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">New Employees Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-low"> In commemoration of the 100th day of the new employees, we are inviting families to join business events such as field trips.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">New Employees Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> In commemoration of the 100th day of the new employees, we are inviting families to join business events such as field trips.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Science Camp</p><p class="px-2 f-90 mb-md-0 line-height-low"> We invite the children of our employees twice a year to provide an opportunity to feel and experience the value of water and air.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Science Camp</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> We invite the children of our employees twice a year to provide an opportunity to feel and experience the value of water and air.</span></p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Coway Family Farm</p><p class="px-2 f-90 mb-md-0 line-height-low"> Every year from April to October, we operate a family farm, contributing to the employees to feel small happiness through organic vegetable farm.</p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Coway Family Farm</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> Every year from April to October, we operate a family farm, contributing to the employees to feel small happiness through organic vegetable farm.</span></p>
                             </b-col>
                         </b-row>
                         <b-row class="mb-5">
-                            <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_1@2x.png" fluid style="max-height: 215.6px;"></hj-img> <p class="f-80 gray63 mt-2">Coway Day</p> </b-col>
-                            <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_2@2x.png" fluid></hj-img> <p class="f-80 gray63 mt-2">Science Camp</p></b-col>
+                            <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_1@2x.png" fluid style="max-height: 180.7px;"></hj-img> <div class="f-80 gray63 mt-2">Coway Day</div> </b-col>
+                            <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_2@2x.png" fluid></hj-img> <div class="f-80 gray63 mt-2">Science Camp</div></b-col>
                         </b-row>
 
                         <!--<p class="mb-45"> 코웨이는 연 1회 전 임직원을 대상으로 임직원 참여도를 조사하고 있습니다. 2019년 전체 임직원 중 참여도 조사에 참여한 임직원은 남성직원 xx%, 여성직원 xx%가 참여하여 총 xx%가 참여하였습니다. 조사 결과, 2019년 임직원 참여도는 지난해 대비 xx% 상승/하락한 xx점을 기록하였습니다. 남성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였으며, 여성 직원의 경우 ‘ㅇㅇㅇ’부문에서 높은 참여도를 보였습니다. 
@@ -1041,7 +1044,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <ul type="1" class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> * As of 2019, reporting is based on the total pay amount includes basic salary and performance salary.
+                            <li> As of 2019, reporting is based on the total pay amount includes basic salary and performance salary.
                             </li>
                         </ul>
                     
@@ -1169,7 +1172,7 @@
 
 
                         <h7 class="mb-3 gray63">Industrial Accidents</h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
+                        <b-table-simple responsive class="num-table social-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
@@ -1190,7 +1193,7 @@
                         </ol>
 
                         <h7 class="mb-3 gray63">LTIFR (Lost Time Injury Frequency Rate)<sup>1)</sup></h7>
-                        <b-table-simple responsive class="num-table social-table f-95">
+                        <b-table-simple responsive class="num-table social-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td class="text-left">Unit</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
@@ -1204,7 +1207,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
-                            <li> 1)	Lost Time Injury Frequency Rate = Number of Cases/Annual Working Hour*1,000,000</li>
+                            <li> Lost Time Injury Frequency Rate = Number of Cases / Annual Working Hour x 1,000,000</li>
                         </ol>
                        
                 </section>
@@ -1240,31 +1243,31 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Employee Centered Company Culture and Safe Working Environment' : '임직원 중심의 기업문화와 안전한 근무환경'
+            return this.is_ENG? 'Employee-oriented Culture, Safe and Healthy Workplace' : '임직원 중심의 기업문화와 안전한 근무환경'
         },
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? `'Capacity Enhancement' for Growth`:`체계적인 역량 강화`, hash: 'r1',  
+                    title: this.is_ENG? 'Systematic Enhancement':'체계적인 역량 강화', hash: 'r1',  
                     child: [
                         { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 'r1-1' }, 
                         { title: this.is_ENG? 'Job Training': '직무 교육', hash: 'r1-2' }, 
-                        { title: this.is_ENG? 'Digital based Work Innovation': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
+                        { title: this.is_ENG? 'Digital-based Productivity': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? `Communication based Company Culture`:`커뮤니케이션 기반의 기업문화`, hash: 'r2',
+                    title: this.is_ENG? `Communication-based Company Culture`:`커뮤니케이션 기반의 기업문화`, hash: 'r2',
                     child: [
-                        { title: this.is_ENG? 'Communication based on a Joint Labor Management  Conference': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
-                        { title: this.is_ENG? 'Enhancement of Employee Satisfaction through Work Life Balance': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
+                        { title: this.is_ENG? 'Communication based on the Labor Management Council': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
+                        { title: this.is_ENG? 'Employee Satisfaction through Work Life Balance': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
                         { title: this.is_ENG? 'Current Employee Data': '임직원 현황 데이터', hash: 'r2-3' }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Safe and Healthy Work Environment':'안전하고 건강한 근무환경' , hash: 'r3',
+                    title: this.is_ENG? 'Safe and Healthy Workplace':'안전하고 건강한 근무환경' , hash: 'r3',
                     child: [
-                        { title: this.is_ENG? 'Operate Occupational Safety and Health Committee ': '산업안전보건위원회 운영', hash: 'r3-1' }, 
-                        { title: this.is_ENG? 'Establish Safety and Health Management and Safety Culture': '안전보건 경영 및 안전문화 구축', hash: 'r3-2' }, 
+                        { title: this.is_ENG? 'Occupational Safety and Health Committee': '산업안전보건위원회 운영', hash: 'r3-1' }, 
+                        { title: this.is_ENG? 'Safety and Health Mgt. & Safety Culture': '안전보건 경영 및 안전문화 구축', hash: 'r3-2' }, 
                     ]
                 }
             ]

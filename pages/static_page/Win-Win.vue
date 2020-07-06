@@ -237,7 +237,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">03</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Win-Win Growth</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Mutual Growth</h4-ancor>
                             </b-col>
                         </b-row>
                          <b-row no-gutters class="px-3 py-4">
@@ -245,8 +245,8 @@
                                 <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/140_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
-                                <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
-                                <p> Promoting win-win growth within the industry and creating a sound and fair-trading culture are the cornerstone of secure competitive advantage and sustainable market growth. Coway promotes a healthy trading culture within the industry by promoting close cooperation with suppliers and economic life throughout the entire value chain. To this end, we are pursuing open communication with our suppliers to promote diverse win-win growth activities such as strengthening the foundation for management stability, supporting growth infrastructure, and secondary partners for primary suppliers.
+                                <h7 class="gold7 mb-3 font-noto">Business relevance &amp; Approach</h7>
+                                <p> Promoting mutual growth within the industry and creating a sound and fair-trading culture are the cornerstone of secure competitive advantage and sustainable market growth. Coway promotes a healthy trading culture within the industry by promoting close cooperation with suppliers and economic life throughout the entire value chain. To this end, we are pursuing open communication with our suppliers to promote diverse mutual growth activities such as strengthening the foundation for management stability, supporting growth infrastructure, and secondary partners for primary suppliers.
                                 </p>
                             </b-col>
                         </b-row>
@@ -254,26 +254,26 @@
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="mx-auto mb-2"><b-img src="/images/141_1.svg" fluid ></b-img> </div>
-                                <p class="fw-500 word-break">Communication with Suppliers Through The Goodness Council and the Win-Win Portal</p>
+                                <p class="fw-500 line-height-low letter-narrow"><span class="f-90">Communication with Suppliers Through The Goodness Council and the Win-Win Portal</span> </p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/141_2.svg" fluid ></b-img> </div>
-                                <p class="fw-500 word-break px-sm-2">Support Strengthening Management and Stability</p>
+                                <p class="fw-500 line-height-low letter-narrow px-sm-2"><span class="f-90">Support for Strengthening Mgt. and Stability</span> </p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/141_3.svg" fluid ></b-img> </div>
-                                <p class="fw-500 word-break px-sm-2">Support Growth Infrastructure</p>
+                                <p class="fw-500 line-height-low letter-narrow px-sm-2"><span class="f-90">Support Growth Infrastructure</span> </p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
-                                <div class="mx-auto mb-2"><b-img src="/images/141_4.svg" fluid ></b-img> </div>
-                                <p class="fw-500 word-break px-sm-2 font-noto">Support Secondary Suppliers of Primary Suppliers</p>
+                                <div class="mx-auto mb-2 pb-1"><b-img src="/images/141_4.svg" fluid ></b-img> </div>
+                                <p class="fw-500 line-height-low letter-narrow px-sm-2 font-noto"><span class="f-90">Support Secondary Suppliers of Primary Suppliers</span> </p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
                             <b-col class="col-12 col-md-5 pr-md-4 mb-4 mb-md-0">
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <div class="text-center"><div class="mx-auto mb-3"><b-img src="/images/141_5.svg" fluid ></b-img></div>
-                                    <p class="fw-500 word-break px-lg-3">Create Transparent Trading Culture Based on 4 Guidelines for Fair Trade</p>
+                                    <p class="fw-500 line-height-low letter-narrow px-lg-3">Create Transparent Trading Culture Based on 4 Guidelines for Fair Trade</p>
                                 </div>
                             </b-col>
                             <b-col class="col-12 col-md-7 position-relative pl-md-4">
@@ -281,15 +281,16 @@
 
                                 <h7 class="gold7 mb-4 w-100">Performance</h7>
                                 <b-row>
-                                    <b-col class="col-7">
-                                        <p class="fw-500 line-height-low word-break text-center mb-3">Win-win Growth Committee Win-Win Growth Index </p>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p class="fw-400 gray63 word-break w-50 text-center px-2"> Received The Most Excellent Grade for 5 Consecutive Years Until 2018</p><p class="fw-400 gray63 word-break w-50 px-3 text-center">Received The Excellent Grade in 2019</p>
+                                    <b-col class="col-12 col-md-7">
+                                        <p class="fw-500 line-height-low word-break text-center mb-3">Mutual Growth Committee Win-Win Growth Index </p>
+                                        <div class="">
+                                            <div class="f-85 font-noto line-height-low gray63 mb-3 text-center">Received The Excellent Grade in 2019</div>
+                                            <div class="f-85 font-noto line-height-low gray63 text-center">Received The Most Excellent Grade for 5 Consecutive Years Until 2018</div>
                                         </div>
                                     </b-col>
-                                    <b-col class="col-5">
+                                    <b-col class="col-12 col-md-5">
                                         <div class="text-center mt-m-3"><span class="f-330 fw-400 font-italic">64</span> cases</div>
-                                        <p class="fw-400 gray63 text-center word-break">Achieved Win-Win Cooperation Between The 1st and 2nd Suppliers</p>
+                                        <div class="f-85 font-noto line-height-low gray63 text-center word-break">Achieved Mutual Cooperation Between The 1st and 2nd Suppliers</div>
                                     </b-col>
                                 </b-row>
                             </b-col>                            
@@ -300,22 +301,22 @@
                 <!-- End of DMA-->
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Support for Growth through Communication with Suppliers</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45"> Coway is pursuing win-win growth to create a healthy industrial ecosystem based on open communication with suppliers. Coway's strategy for promoting shared growth is to secure global competitive advantage is as follows: 1) secure competitive advantage in quality/cost/technology/productivity, 2) strengthen the foundation for sustainable management, 3) secure management stability. Accordingly, Coway is pursuing open communication with its partners as a key strategy in implementing the shared growth strategy.
+                        <p class="mb-45"> Coway is pursuing mutual growth to create a healthy industrial ecosystem based on open communication with suppliers. Coway's strategy for promoting shared growth is to secure global competitive advantage is as follows: 1) secure competitive advantage in quality/cost/technology/productivity, 2) strengthen the foundation for sustainable management, 3) secure management stability. Accordingly, Coway is pursuing open communication with its partners as a key strategy in implementing the shared growth strategy.
                         </p>
-                        <hj-img src="/images/67_1.svg" fluid class="w-100"></hj-img>
+                        <hj-img src="/images/314_1.svg" fluid class="w-100"></hj-img>
                         <hr class="space-p25">
 
-                        <p class="mb-3"> Coway runs the Goodness Council, a general consultation channel, to lead changes in the industrial environment through horizontal communication with suppliers. We also operate a win-win portal as an online communication channel for smart communication. Since 2011, we have been running the "Goodness Council" to help horizontal and autonomous suppliers communicate aside from formal communication. Major 1st and 2nd suppliers of Coway participate in the Goodness Council. In 2019, 67 companies participated in the Goodness Council, which carried out activities to strengthen corporate competitiveness, such as productivity Improvement activities and benchmarking of excellent overseas companies. The key topics of the Goodness Council activities in 2019 were the Smart Factory and productivity improvement.  We held the training program "SMART DAY" 4 times and conducted benchmarking training for companies that introduced excellent Japanese smart factories.
+                        <p class="mb-3"> Coway runs the Goodness Council, a general consultation channel, to lead changes in the industrial environment through horizontal communication with suppliers. We also operate a mutual growth portal as an online communication channel for smart communication. Since 2011, we have been running the "Goodness Council" to help horizontal and autonomous suppliers communicate aside from formal communication. Major 1st and 2nd suppliers of Coway participate in the Goodness Council. In 2019, 67 companies participated in the Goodness Council, which carried out activities to strengthen corporate competitiveness, such as productivity Improvement activities and benchmarking of excellent overseas companies. The key topics of the Goodness Council activities in 2019 were the Smart Factory and productivity improvement.  We held the training program "SMART DAY" 4 times and conducted benchmarking training for companies that introduced excellent Japanese smart factories.
                         </p>
-                        <p class="mb-45"> The online win-win growth community "Win-Win Portal" functions as a platform for sharing various information in the industry and promoting win-win growth strategies and innovation activities. In 2019, 6,541 employees of partner companies were connected to conduct 12,636 comments and communicate, leading to active information sharing.
+                        <p class="mb-45"> The online win-win growth community "Mutual Growth Portal" functions as a platform for sharing various information in the industry and promoting mutual growth strategies and innovation activities. In 2019, 6,541 employees of partner companies were connected to conduct 12,636 comments and communicate, leading to active information sharing.
                         </p>
-                        <hj-img src="/images/16_1.svg" fluid></hj-img>
+                        <hj-img src="/images/314_2.svg" fluid></hj-img>
                         <hr class="space-p25">
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" block>Link to Coway Win-Win Portal</b-button></a>
+                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" block>Coway Mutual Growth Portal<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                         <hr class="mb-4">
 
-                        <p class="mb-45">Coway provides support for strengthening the management stability base, growth infrastructure support, and 2nd supplier support to support shared growth with suppliers.
+                        <p class="mb-45">Coway provides support for strengthening the management stability base, infrastructure support, and 2nd supplier support to support shared growth with suppliers.
                         </p>
                     
                     <h7 class="mb-3 gray63">Strengthening The Management Stability</h7>
@@ -326,7 +327,7 @@
                                 <b-tbody>
                                     <b-tr>
                                         <b-td>Financial (Funding) Support</b-td>
-                                        <b-td>Manage 20 billion KRW win-win fund and 3 billion KRW upper limit interest and fund support system</b-td> 
+                                        <b-td>Manage 20 billion KRW mutual fund and 3 billion KRW upper limit interest and fund support system</b-td> 
                                         <b-td>Funding: 8.401 billion KRW</b-td>
                                     </b-tr>
                                     <b-tr>
@@ -357,7 +358,7 @@
                                 </b-tbody>                                
                             </b-table-simple>
 
-                        <h7 class="mb-3 gray63">Growth Infrastructure Support</h7>
+                        <h7 class="mb-3 gray63">Infrastructure Support</h7>
                             <b-table-simple responsive class="txt-table social-table f-95 mb-5">
                                 <b-thead><b-tr>
                                     <b-td>Category</b-td> <b-td>Promotion Contents</b-td><b-td>2019 Promotion Results</b-td>
@@ -381,7 +382,7 @@
                                 </b-tbody>                                
                             </b-table-simple>
 
-                        <h7 class="mb-3 gray63"><span class="fw-600">Lead 1st</span> Suppliers to Support <span class="fw-600">2nd</span> Suppliers</h7>
+                        <h7 class="mb-3 gray63 font-noto">Lead 1st Suppliers to Support 2nd Suppliers</h7>
                             <b-table-simple responsive class="txt-table social-table f-95 mb-5">
                                 <b-thead><b-tr>
                                     <b-td>Category</b-td> <b-td>Promotion Contents</b-td><b-td>2019 Promotion Results</b-td>
@@ -389,7 +390,7 @@
                                 <b-tbody>
                                     <b-tr>
                                         <b-td>Agreement Signed</b-td>
-                                        <b-td>Signed the agreement for win-win cooperation between 1st and 2nd suppliers</b-td> 
+                                        <b-td>Signed the agreement for mutual cooperation between 1st and 2nd suppliers</b-td> 
                                         <b-td>64 companies signed</b-td>
                                     </b-tr>
                                     <b-tr>
@@ -409,13 +410,13 @@
                                 </b-tbody>                                
                             </b-table-simple>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Fair Trade Culture</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-3"> Coway operates 4 guidelines for fair trade for win-win cooperation to rightfully reflect the rights and interests of suppliers and to prevent the abuse of superior bargaining power by the principal-agent.
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Promoting Fair Trade Practice</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-3"> Coway operates 4 guidelines about fair trade for mutual cooperation to rightfully reflect the rights and interests of suppliers and to prevent the abuse of superior bargaining power by the principal-agent.
                         </p>
-                        <p class="mb-3"> The 4 guidelines for fair trade are as follows: 1)	Signing a desirable contract, 2)	Ensuring fairness and transparency in the selection and operation of suppliers, 3)	Observing guidelines for a proper contract between large and medium-sized enterprises, 4)	Establishing and operating a transaction review committee. To comply with this, we are continuously monitoring and documenting compliance with the guidelines centered on fair trade managers. In 2019, a new bidding system was introduced to select transparent suppliers, and training on system use was provided to suppliers.
+                        <p class="mb-3"> The 4 guidelines for fair trade are as follows: 1)	Signing a desirable contract, 2) Ensuring fairness and transparency in the selection and operation of suppliers, 3)	Observing guidelines for a proper contract between large and medium-sized enterprises, 4) Establishing and operating a transaction review committee. To comply with this, we are continuously monitoring and documenting compliance with the guidelines centered on fair trade managers. In 2019, a new bidding system was introduced to select transparent suppliers, and training on system use was provided to suppliers.
 
                         </p>
-                        <p class="mb-3"> For fair trade, Coway has established and operated an internal unfair trade monitoring mechanism to internalize and operate the guidelines provided by the Fair Trade Commission. The unfair trade monitoring organization is composed of the win-win cooperation team managers, material management team (Yu-gu, Incheon), machinery purchasing team, and electronic equipment purchasing team. Monitor the overall details. Coway will create a transparent trading culture in the supply chain to create an industrial ecosystem that can grow together.
+                        <p class="mb-3"> For fair trade, Coway has established and operated an internal unfair trade monitoring mechanism to internalize and operate the guidelines provided by the Fair Trade Commission. The unfair trade monitoring organization is composed of the mutual cooperation team managers, material management team (Yu-gu, Incheon), machinery purchasing team, and electronic equipment purchasing team. Monitor the overall details. Coway will create a transparent trading culture in the supply chain to create an industrial ecosystem that can grow together.
                         </p>
                 </section>
             </b-container> 
@@ -452,7 +453,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Win Win' : '동반성장'
+            return this.is_ENG? 'Mutual Growth' : '동반성장'
         },
         sub_titles(){
             let temp = [
@@ -460,7 +461,7 @@ export default {
                     title: this.is_ENG? 'Support for Growth through Communication with Suppliers': '협력사와의 소통을 통한 성장지원', hash: 't1' 
                 },
                 { 
-                    title: this.is_ENG? 'Support for Growth through Communication with Suppliers': '공정거래 문화 조성', hash: 't2'
+                    title: this.is_ENG? 'Promoting Fair Trade Practice': '공정거래 문화 조성', hash: 't2'
                 }
             ]
             return temp            

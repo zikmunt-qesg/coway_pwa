@@ -228,7 +228,7 @@ export const state = () => ({
             child: [
                 {
                     title: '깨끗한 물과 공기를 위한 환경경영',
-                    title_en: 'Environmental Management for Clean Water and Air',
+                    title_en: 'Environmental Management',
                     link: '/static_page/Environmental-Management-for-Clean-Water-and-Air',
                     child:
                         [
@@ -246,46 +246,46 @@ export const state = () => ({
                 },
                 {
                     title: '친환경 제품 개발과 제품 전 과정 관리',
-                    title_en: 'Eco Friendly Product Development and Life Cycle Mgt.',
+                    title_en: 'Eco-friendly Product Development and Life Cycle Mgt.',
                     link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management',
                     child:
                         [
                             {
                                 title: '친환경 제품과 서비스, 비즈니스 설계',
-                                title_en: '',
+                                title_en: 'Eco-friendly Product, Service, and Business Design',
                                 link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1'
                             },
                             {
                                 title: '자원효율성 향상과 순환경제 구축',
-                                title_en: '',
+                                title_en: 'Resource Efficiency and Circular Economy',
                                 link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2'
                             }
                         ]
                 },
                 {
                     title: '기후변화 대응',
-                    title_en: '',
+                    title_en: 'Climate Change',
                     link: '/static_page/Responses-to-Climate-Change',
                     child:
                         [
                             {
                                 title: '기후변화 목표 및 시나리오 관리',
-                                title_en: '',
+                                title_en: 'Climate Change Goals and Scenario Management',
                                 link: '/static_page/Responses-to-Climate-Change#n1'
                             },
                             {
                                 title: '기후변화의 위험과 기회 분석',
-                                title_en: '',
+                                title_en: 'Risks and Opportunities of Climate Change',
                                 link: '/static_page/Responses-to-Climate-Change#n2'
                             },
                             {
                                 title: '협력사 탄소 파트너십',
-                                title_en: '',
+                                title_en: 'Carbon Partnership with Supplier',
                                 link: '/static_page/Responses-to-Climate-Change#n3'
                             },
                             {
                                 title: '온실가스 · 에너지 및 기타 환경 데이터',
-                                title_en: '',
+                                title_en: 'GHG, Energy and Other Environment Data',
                                 link: '/static_page/Responses-to-Climate-Change#n4'
                             }
                         ]
@@ -301,123 +301,123 @@ export const state = () => ({
                 [
                     {
                         title: '임직원 중심의 기업문화와 안전한 근무환경',
-                        title_en: '',
+                        title_en: 'Employee-oriented Culture, Safe and Healthy Workplace',
                         link: '/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment',
                         child:
                             [
                                 {
                                     title: '착한성장을 위한 역량 강화',
-                                    title_en: '',
+                                    title_en: 'Systematic Enhancement',
                                     link: '/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1'
                                 },
                                 {
                                     title: '커뮤니케이션 기반의 기업문화',
-                                    title_en: '',
+                                    title_en: 'Communication-based Company Culture',
                                     link: '/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r2'
                                 },
                                 {
                                     title: '안전하고 건강한 근무환경',
-                                    title_en: '',
+                                    title_en: 'Safe and Healthy Workplace',
                                     link: '/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r3'
                                 }
                             ]
                     },
                     {
                         title: '라이프케어 전문 파트너 양성',
-                        title_en: '',
+                        title_en: 'Lifecare Professional Partners',
                         link: '/static_page/Train-Lifecare-Professional-Partners',
                         child:
                             [
                                 {
                                     title: '파트너 전문성 강화',
-                                    title_en: '',
+                                    title_en: 'Partner Expertise Enhancement',
                                     link: '/static_page/Train-Lifecare-Professional-Partners#s1'
                                 },
                                 {
                                     title: '파트너 상생 및 커뮤니케이션',
-                                    title_en: '',
+                                    title_en: 'Cooperation and Communication',
                                     link: '/static_page/Train-Lifecare-Professional-Partners#s2'
                                 }
                             ]
                     },
                     {
                         title: '동반성장',
-                        title_en: '',
+                        title_en: 'Mutual Growth',
                         link: '/static_page/Win-Win',
                         child:
                             [
                                 {
                                     title: '협력사와의 소통을 통한 성장 지원',
-                                    title_en: '',
+                                    title_en: 'Support for Growth through Communication with Suppliers',
                                     link: '/static_page/Win-Win#t1'
                                 },
                                 {
                                     title: '공정거래 문화 조성',
-                                    title_en: '',
+                                    title_en: 'Promoting Fair Trade Practice',
                                     link: '/static_page/Win-Win#t2'
                                 }
                             ]
                     },
                     {
                         title: '지역사회',
-                        title_en: '',
+                        title_en: 'Local Community',
                         link: '/static_page/Local-Community',
                         child:
                             [
                                 {
                                     title: '코웨이 다운 사회공헌',
-                                    title_en: '',
+                                    title_en: 'Social Contribution based on Goodness',
                                     link: '/static_page/Local-Community#u1'
                                 },
                                 {
                                     title: '깨끗한 물과 공기를 위한 코웨이의 약속',
-                                    title_en: '',
+                                    title_en: 'Commitment for Clean Water and Air',
                                     link: '/static_page/Local-Community#u2'
                                 },
                                 {
                                     title: '공공정책 참여',
-                                    title_en: '',
+                                    title_en: 'Policy Influence',
                                     link: '/static_page/Local-Community#u3'
                                 }
                             ]
                     },
                     {
                         title: '협력사 CSR 리포트',
-                        title_en: '',
+                        title_en: 'Supplier CSR Report',
                         link: '/static_page/Supplier-CSR-Report',
                         child:
                             [
                                 {
                                     title: '협력사 행동 규범',
-                                    title_en: '',
+                                    title_en: 'Supplier Code of Conduct',
                                     link: '/static_page/Supplier-CSR-Report#v1'
                                 },
                                 {
                                     title: '협력사 지속가능성 평가',
-                                    title_en: '',
+                                    title_en: 'Supplier Sustainability Assessment',
                                     link: '/static_page/Supplier-CSR-Report#v2'
                                 },
                                 {
                                     title: '분쟁광물',
-                                    title_en: '',
+                                    title_en: 'Conflict Minerals',
                                     link: '/static_page/Supplier-CSR-Report#v3'
                                 }
                             ]
                     },
                     {
                         title: '인권 리포트',
-                        title_en: '',
+                        title_en: 'Human Rights Report',
                         link: '/static_page/Human-Rights-Report',
                         child:
                             [
                                 {
                                     title: '인권경영 원칙 및 가이드',
-                                    title_en: '',
+                                    title_en: 'Human Rights Management Principles and Guide',
                                     link: '/static_page/Human-Rights-Report#w1'
                                 },
                                 {
                                     title: '인권 리스크 식별 및 완화 프로세스',
-                                    title_en: '',
+                                    title_en: 'Human Rights Risk Identification and Mitigation Process',
                                     link: '/static_page/Human-Rights-Report#w2'
                                 }
                             ]
@@ -431,73 +431,73 @@ export const state = () => ({
                 [
                     {
                         title: '정책 및 이니셔티브',
-                        title_en: '',
+                        title_en: 'Policies and Initiatives',
                         link: '/static_page/Policies-and-Initiatives',
                         child:[
                             {
                                 title: '지속가능성 정책',
-                                title_en: '',
+                                title_en: 'Sustainability Policy',
                                 link: '/static_page/Policies-and-Initiatives'
                             },
                             {
                                 title: '참여 이니셔티브',
-                                title_en: '',
+                                title_en: 'Initiatives',
                                 link: '/static_page/Policies-and-Initiatives?p=Initiatives'
                             },
                         ]
                     },
                     {
                         title: '보고 프레임워크 인덱스',
-                        title_en: '',
+                        title_en: 'Reporting Frameworks',
                         link: '/framework/gri',
                         child:[
                             {
                                 title: 'GRI',
-                                title_en: '',
+                                title_en: 'GRI',
                                 link: '/framework/gri'
                             },
                             {
                                 title: 'SASB',
-                                title_en: '',
+                                title_en: 'SASB',
                                 link: '/framework/sasb'
                             },
                             {
                                 title: 'DJSI Public',
-                                title_en: '',
+                                title_en: 'DJSI Public',
                                 link: '/framework/djsi'
                             }
                         ]
                     },
                     {
                         title: '보고 범위 및 검증',
-                        title_en: '',
+                        title_en: 'About This Report and Assurance',
                         link: '/static_page/About-This-Report-and-Assurance',
                         child:[
                             {
                                 title: 'About This Report',
-                                title_en: '',
+                                title_en: 'About This Report',
                                 link: '/static_page/About-This-Report-and-Assurance'
                             },
                             {
                                 title: '제3자 검증의견서',
-                                title_en: '',
+                                title_en: 'Independent Assurance Statement',
                                 link: '/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Statement'
                             },
                             {
                                 title: '온실가스 검증의견서',
-                                title_en: '',
+                                title_en: 'GHG Assurance Statement',
                                 link: '/static_page/About-This-Report-and-Assurance?p=GHG-Assurance-Statement'
                             }
                         ]
                     },
                     {
                         title: '코웨이 지속가능경영 뉴스',
-                        title_en: '',
+                        title_en: 'Sustainability News',
                         link: '/news'
                     },
                     {
                         title: '보고서 다운로드',
-                        title_en: '',
+                        title_en: 'Downloads',
                         link: '/downloads'
                     }
                 ]
