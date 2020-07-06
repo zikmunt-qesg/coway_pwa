@@ -203,7 +203,7 @@
                     </p>
 
                     <h7 class="mb-3 gray63">Risk Response Process</h7>
-                    <hj-img src="/images/69_2.svg" fluid></hj-img>
+                    <hj-img src="/images/304_1.svg" fluid></hj-img>
                     <hr class="mb-5">
 
 

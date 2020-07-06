@@ -225,7 +225,7 @@
                     <p class="mb-45">In 2019, overseas business sales amounted to 749.1 billion KRW, up 37.7% from the previous year. Sales in Malaysia and the U.S. increased significantly, and overseas subsidiaries continue to proliferate. For each major subsidiary, Malaysian subsidiaries' sales increased by 48.9%, reaching 532.6 billion KRW, from the previous year's sales 353.4 billion KRW, and the accounts increased by 38.8% from 976,000 accounts in 2018 to 1,354,000 accounts. The U.S. maintains substantial growth, reaching 97.3 billion KRW in sales, 29.7% over the previous year's sales of 80.5 billion KRW, and the accounts increased by 4.7% from 114,000 to 120,000 accounts
                     </p>
 
-                    <hj-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></hj-img>
+                    <hj-img src="/images/305_1.svg" fluid alt="제품별 수출 비중"></hj-img>
                    
 
                     <hr class="mb-3">

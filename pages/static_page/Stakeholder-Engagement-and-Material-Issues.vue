@@ -665,12 +665,10 @@
                         <div class="vertical-line-dotted position-absolute d-none d-md-block"></div>
                             <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
                             <div class="position-relative">
-                                <!-- <div class="fw-500 mr-2 position-absolute">
-                                    <div class="line-height-low">연도별 검증 <br>진행 현황 </div> <div class="fw-300 f-80 mb-2">(단위: 건)</div>
-                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#5171b1" class="mr-1"></div>자체 검증</div>
-                                    <div class="fw-300 f-80 d-flex align-items-center"><div style="width:9px; height:9px; background-color:#d5ddec" class="mr-1"></div>외부 의뢰</div>
+                                <div class="col-6 col-sm-4 col-md-6 fw-500 mr-2 position-absolute">
+                                    <div class="line-height-low">제/부품 안전/성능인증 적합성 평가</div> <div class="fw-300 f-80 mb-2">(Unit: Cases)</div>
                                 </div>
-                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img> -->
+                                <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img>
                             </div>
                         </b-col>
                     </b-row>      
@@ -698,9 +696,9 @@
                                 <div class="fw-500 mb-3">Employee Information Protection Training Participation Rate</div>
                                 <div><b-img src="/images/45_1.svg" fluid class="w-100"></b-img></div>
                             </div>
-                            <p class="f-80 fw-300 mt-2">
+                            <div class="f-80 fw-300 mt-2 font-noto text-right">
                                     *2020 Target: 100%
-                            </p>
+                            </div>
                         </b-col>
                     </b-row> 
 

@@ -458,7 +458,7 @@
                     <p class="mb-5">When selecting an independent director, the independent director's qualifications, such as independence and other mandates , are confirmed and submitted to the Korea Exchange. In the publicly announced process at the general meeting of shareholders' meeting, the independent director's eligibility requirements are verified through the confirmation of eligibility and according to laws and regulations. Qualification requirements are transparently disclosed to shareholders and stakeholders.
                     </p>
 
-                    <hj-img src="/images/47_1.svg" fluid></hj-img>
+                    <hj-img src="/images/301_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
                     <h6-ancor hash="f1-3" :activated="activated" class="parang6 fw-500 mb-3">Committees under the Board</h6-ancor>
@@ -517,7 +517,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <hr class="py-2">
-                        <hj-img src="/images/79_1.svg" fluid></hj-img>
+                        <hj-img src="/images/301_2.svg" fluid></hj-img>
 
                     <hr class="py-3 mb-5">
 

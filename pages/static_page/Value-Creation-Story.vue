@@ -168,7 +168,7 @@
                     <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Business Value Chain</h6-ancor></div>
                     <p class="mb-45">Coway’s products and services ultimately aim to create the value for making environment healthy and people happy. In particular, we input economic, social and environmental values from the perspective of sustainability management in the entire supply chain from material and part supply to product sales to achieve happy customers and healthy environment and output social values.
                     </p>
-                    <hj-img src="/images/1_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/300_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-3">
                         <!-- <h7 class="mb-3 gray63">통합 자본표</h7> -->
