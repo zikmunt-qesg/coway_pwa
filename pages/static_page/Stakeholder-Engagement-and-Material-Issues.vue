@@ -386,7 +386,7 @@
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">Stakeholder Engagement and Material Topics</h4-ancor>
 
                     <h6-ancor hash="e1" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">Stakeholder Engagement</h6-ancor>
-                    <p class="mb-5">Coway defines stakeholders as the internal and external entities that influence corporate activities and classifies them into 7 groups. By operating various communication channels for each stakeholder group, we are enhancing management transparency and establishing reliable relationships. Coway's communication channels for each stakeholder are operated by each department, and major issues are reviewed through the management committee.
+                    <p class="mb-5">Coway defines stakeholders as the internal and external entities that influence corporate activities and classifies them into 7 groups. By operating various communication channels for each stakeholder group, we enhance management transparency and establish reliable relationships. Coway's communication channels for each stakeholder are operated by each department, and major issues are reviewed through the management committee.
                     </p>
 
                     <!-- <hr class=""> -->
@@ -406,7 +406,7 @@
                                 </b-tr>
                             
                                 <b-tr>
-                                    <b-td rowspan="4">Shareholders and Investors<br><b-img src="/images/2_2.svg" class="mt-2"></b-img></b-td><b-td>Regular General shareholders’ meeting</b-td><b-td>Once a year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Building corporate value</li><li>Increase shareholder value</li><li>Sound governance</li><li>Business opportunity and risk management</li></ul></b-td>
+                                    <b-td rowspan="4">Shareholders and Investors<br><b-img src="/images/2_2.svg" class="mt-2"></b-img></b-td><b-td>Regular General shareholders’ meeting</b-td><b-td>Once a Year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Building corporate value</li><li>Increase shareholder value</li><li>Sound governance</li><li>Business opportunity and risk management</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>IR Meeting</b-td><b-td>Frequently</b-td>
@@ -415,21 +415,21 @@
                                     <b-td>Investors/Analysist Conference Call</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>IR webzine</b-td><b-td>Once a month</b-td>
+                                    <b-td>IR webzine</b-td><b-td>Once a Month</b-td>
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">Employees<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>Labor Management Council </b-td><b-td>Once a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Fair performance evaluation and compensation</li><li>Competency development</li><li>Work-life balance</li><li>Diversity-based corporate culture</li></ul></b-td>
+                                    <b-td rowspan="3">Employees<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>Labor Management Council </b-td><b-td>Once a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Fair performance evaluation and compensation</li><li>Competency development</li><li>Work-life balance</li><li>Diversity-based corporate culture</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>In-house online consultation channel</b-td><b-td>Frequently</b-td>
+                                    <b-td>In-house Online Consultation Channel</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Idea Proposal System (Imagination Ocean)</b-td><b-td>Frequently</b-td>
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier committee</b-td><b-td>4 times a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
+                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier committee</b-td><b-td>4 times a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Supplier Online Win-Win portal</b-td><b-td>Frequently</b-td>
@@ -439,36 +439,36 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">Local community<br><b-img src="/images/2_5.svg" class="mt-2"></b-img></b-td><b-td>Local committee</b-td><b-td>4 times a year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Participate in social contribution and community activities</li><li>Job creation in the region</li><li>Sustainable regional development</li></ul></b-td>
+                                    <b-td rowspan="3">Local Community<br><b-img src="/images/2_5.svg" class="mt-2"></b-img></b-td><b-td>Local committee</b-td><b-td>4 times a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Participate in social contribution and community activities</li><li>Job creation in the region</li><li>Sustainable regional development</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>NGO meeting</b-td><b-td>Frequently</b-td>
+                                    <b-td>NGO Meeting</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Social Contribution Business and Projects</b-td><b-td>Frequently</b-td>
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="4">Academia and Media<br><b-img src="/images/2_6.svg" class="mt-2"></b-img></b-td><b-td>Corporate Governance Report</b-td><b-td>Once a year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Transparent information disclosure</li><li>ESG data and performance communication</li></ul></b-td>
+                                    <b-td rowspan="4">Academia and Media<br><b-img src="/images/2_6.svg" class="mt-2"></b-img></b-td><b-td>Corporate Governance Report</b-td><b-td>Once a Year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Transparent information disclosure</li><li>ESG data and performance communication</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Regular disclosures such as business reports</b-td><b-td>5 times or more a year</b-td>
+                                    <b-td>Regular Disclosures such as Business Reports</b-td><b-td>5 times or more a Year</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Participation in global ESG evaluation</b-td><b-td>6 times or more a year</b-td>
+                                    <b-td>Participation in Global ESG Evaluation</b-td><b-td>6 times or more a Year</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Participation in Sustainability Initiatives</b-td><b-td>4 times or more a year</b-td>
+                                    <b-td>Participation in Sustainability Initiatives</b-td><b-td>4 times or more a Year</b-td>
                                 </b-tr>
 
                                 <b-tr>
                                     <b-td rowspan="3">Government<br><b-img src="/images/2_7.svg" class="mt-2"></b-img></b-td><b-td>Financial Supervisory Service Disclosure</b-td><b-td>Frequently</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Distribution of economic value such as tax payment</li><li>Compliance and ethical management</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Legal/regulatory compliance</b-td><b-td>Frequently</b-td>
+                                    <b-td>Legal/Regulatory Compliance</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Public-private partnership business projects</b-td><b-td>Frequently</b-td>
+                                    <b-td>Public-Private Partnership Business Projects</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -613,7 +613,7 @@
                     
                     <div class="d-flex mb-4 position-relative overflow-hidden"> <h6-ancor hash="e3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Materiality Context and Long-Term Target</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
 
-                    <h6-ancor hash="e3-1" :activated="activated" class="parang6 mb-3 pb-2">Development of customized products and services</h6-ancor>
+                    <h6-ancor hash="e3-1" :activated="activated" class="parang6 mb-3 pb-2">Development of Customized Products and ervices</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
                         <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
@@ -651,7 +651,7 @@
                     <p class="mb-5">Coway continues to improve customer satisfaction by providing customized care for the daily life of customers through continuous research on customers. Based on the effort, we plan to increase customer value by establishing the goal to achieve 77 points of customer satisfaction in 2020 in the short term and 87 points of customer satisfaction in 2030 in the long term.
                     </p>
 
-                    <h6-ancor hash="e3-2" :activated="activated" class="parang6 mb-3">Enhance product safety and reliability</h6-ancor>
+                    <h6-ancor hash="e3-2" :activated="activated" class="parang6 mb-3">Enhancement of Product Safety and Reliability</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3 pt-1">
                         <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
