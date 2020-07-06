@@ -145,7 +145,7 @@
 
                     <p class="mb-5">Coway  pursues and achieves the Clean Coway  as a transparent corporate culture based on our ethical management way, 3C(Code of Conduct, Compliance Check Organization, and Consensus by Ethic Education). 
                     </p>
-                    <hj-img src="/images/33_1.svg" fluid></hj-img>
+                    <hj-img src="/images/303_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="g1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Code of Conduct</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
@@ -162,7 +162,7 @@
                     <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" size="sm" block>Ethics Reporting Center</b-button></a>
                     <hr class="mb-2">
 
-                    <hj-img src="/images/34_1.svg" fluid></hj-img>
+                    <hj-img src="/images/303_2.svg" fluid></hj-img>
 
                     <hr class="">
                         <h7 class="mb-3 gray63 font-noto">2019 Ethics Reports and Measures</h7>
