@@ -350,22 +350,22 @@
                 <hr class="py-1 mb-5">
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="k2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Value Chain Environmental Competence</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45"> 코웨이는 지속 강화되어 가는 제품환경규제 및 안전성 대응을 위해 코웨이 전직원 및 협력사 대상으로 매년 오프라인 교육 프로그램을 제공 및 수시 온라인 지도, 지원을 실시하고 있습니다. “Global 환경규제 동향”, “기업의 환경규제 대응”, “환경규제 대응 방법론” 등 실질적이고 지속적인 도움을 제공함으로서 규제 대응력 강화 및 risk 제로 실행에 목표를 두고 있습니다. 2019년 사내 담당자 390명 및 협력사 77개사 담당자 대상으로 교육 실시를 완료하였습니다. 추가로 교육 내용 및 업무 활용에서 90%이상의 협력사로부터 우수하고 업무 적용 가능한 것으로 평가받았습니다.
+                        <p class="mb-45"> To cope with the ever-increasing product environmental regulations and safety, Coway provides offline training programs to all employees and suppliers of Coway every year and provides online guidance and support at any time. We aim to strengthen regulatory response and implement risk-free by providing practical and continuous help, such as "Global Environmental Regulatory Trends," "Corporate Environmental Regulatory Response," and "Environmental Regulatory Response Methodology." In 2019, we completed training for 390 employees in charge and 77 employees in charge. Also, it has been evaluated as excellent and applicable to more than 90% of suppliers in training contents and work use.
                         </p>
-                    <h7 class="mb-3 gray63">내/외부 교육 지원 현황</h7>
+                    <h7 class="mb-3 gray63">Status of Internal and External Education Support</h7>
                         <b-table-simple responsive class="txt-table env-table">
                             <b-thead><b-tr>
-                                <b-td class="text-left">교육 프로그램</b-td> <b-td class="text-left">교육대상</b-td> <b-td class="text-left w-25">교육내용</b-td><b-td>참가인원</b-td> <b-td>교육시간</b-td> <b-td>교육기간</b-td> 
+                                <b-td class="text-left">Education Program</b-td> <b-td class="text-left">Education Target</b-td> <b-td class="text-left w-25">Education Context</b-td><b-td>Number of Participants</b-td> <b-td>Education Time</b-td> <b-td>Education Period</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">친환경 내부 실무자 역량 향상 과정</b-td> <b-td class="text-left">임직원</b-td> <b-td class="text-left">환경규제대응 인식제고</b-td> <b-td>390명</b-td> <b-td>총 1,560시간<br>(인당 4시간)</b-td> <b-td>11일</b-td>
+                                    <b-td class="text-left">Eco-friendly internal worker capability improvement process</b-td> <b-td class="text-left">Employees</b-td> <b-td class="text-left">Raise awareness of environmental regulations</b-td> <b-td>390</b-td> <b-td>Total 1,560 hours<br>(4 hours/person)</b-td> <b-td>11 days</b-td>
                                 </b-tr>
                                 <b-tr>
-                                       <b-td rowspan="2" class="text-left">친환경 외부 실무자 역량 강화 과정</b-td> <b-td rowspan="2" class="text-left">협력사 환경 담당자</b-td> <b-td class="text-left pr-2">코웨이 유해화학물질 요구사항 및 대응방법</b-td> <b-td>77명</b-td> <b-td>총 616시간<br>(인당 8시간)</b-td> <b-td>2일</b-td>
+                                       <b-td rowspan="2" class="text-left">Eco-friendly external worker capacity building process</b-td> <b-td rowspan="2" class="text-left">People in charge of environment in supplying companies</b-td> <b-td class="text-left pr-2">Coway hazardous chemicals requirements and countermeasures</b-td> <b-td>77</b-td> <b-td>Total 616 hours<br>(8 hours/person)</b-td> <b-td>2 days</b-td>
                                 </b-tr>
                                 <b-tr>
-                                        <b-td class="text-left">에너지 고효율화 개선 방안</b-td><b-td>10명</b-td> <b-td>총 40시간<br>(인당 4시간)</b-td> <b-td>5일</b-td> 
+                                        <b-td class="text-left">Plans to improve energy efficiency</b-td><b-td>10</b-td> <b-td>Total 40 hours<br>(4 hours/person)</b-td> <b-td>5 days</b-td> 
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>    
