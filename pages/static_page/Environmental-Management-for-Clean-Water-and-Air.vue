@@ -60,10 +60,10 @@
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_5.svg" fluid ></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-3">전 Biz 발생 폐기물 정량화</p>
+                                        <p class="fw-500 word-break px-md-2 px-xl-2">전 Biz 발생 폐기물 정량화</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_6.svg" fluid ></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-4">전과정 수자원 절감</p>
+                                        <p class="fw-500 word-break px-md-2 px-xl-2">전과정 수자원 절감</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
@@ -231,11 +231,11 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
+                            <b-col class="col-12 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">01</h1>
                                 <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Environmental Management for Clean Water and Air</h4-ancor>
                             </b-col>
@@ -245,7 +245,7 @@
                                 <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/122_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
-                                <h7 class="green7 f-120 mb-3">Business Relevance & Approach</h7>
+                                <h7 class="green7 f-120 mb-3 font-noto">Business Relevance & Approach</h7>
                                 <p>Not only the product delivered to the customer but also the operating environment must be efficient. Coway produces approximately 3.7 million units of water purifiers and air purifiers in factories in home and abroad, such as the Yugu Plant, Incheon Plant, and Pocheon Plant. We also have a production capacity of approximately 30.5 million units per year for the filters used in the products. We also operate large logistics centers and logistics networks for nationwide delivery. As a result, there are impacts related to the efficiency of the direct operating environment, such as resource conservation, pollution emission, and climate change and we are undertaking our best effort to minimize such impacts.
                                    </p>
                             </b-col>
@@ -254,19 +254,19 @@
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_1.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">Establishing Eco-friendly and "Kind" Brand</p>
+                                <p class="fw-500 word-break px-1 px-xl-3">Establishing Eco-friendly and Kind Brand</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_2.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">Establish Eco-Business</p>
+                                <p class="fw-500 word-break px-1 px-xl-3">Establish Eco-Business</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_3.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">Establish and Operate Eco-Friendly Value Chain</p>
+                                <p class="fw-500 word-break px-1 px-xl-3">Establish and Operate Eco-Friendly Value Chain</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_4.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-2 px-xl-4 mx-xl-2">Expand Eco-Friendly Communication and Participation</p>
+                                <p class="fw-500 word-break px-1 px-xl-3">Expand Eco-Friendly Communication and Participation</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark line-height-low">
@@ -274,10 +274,10 @@
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_5.svg" fluid ></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-3">Quantification of All Biz Generated Waste</p>
+                                        <p class="fw-500 word-break px-md-2 px-xl-2">Quantification of All Biz Generated Waste</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_6.svg" fluid ></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-4">Reduction of Water Resources in All Processes</p>
+                                        <p class="fw-500 word-break px-md-2 px-xl-2">Reduction of Water Resources in All Processes</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
@@ -286,7 +286,7 @@
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center">                                    
                                     <b-col class="col-12 col-sm-7 pr-xl-2">
-                                        <p class="fw-500 word-break">- RE100 (Renewable Energy 100%) & Carbon Emissions Net Zero by 2050</p>
+                                        <p class="fw-500 word-break">RE100 (Renewable Energy 100%) & Carbon Emissions Net Zero by 2050</p>
                                         <p class="f-90 fw-300 word-break">(50% Renewable in 2030, 75% in 2040. 100% in 2050)</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-5"><div class="temp-icon3 mx-auto"><b-img src="/images/123_7.svg" fluid class="w-100"></b-img></div></b-col>
@@ -298,8 +298,8 @@
                 <!-- End of DMA -->
                 <hr class="py-2">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="k1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Cleanness Value with Environmental Management </h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class=""> Coway's environmental management starts with a management spirit of “Goodness .” Also, Coway participates in supporting and practicing the 10 principles of UNGC. Through the products and services made by Coway, we recognize that making the environment healthy and making people happy is a core value of the company and actively implementing it.
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="k1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Environmental Management for Cleanliness</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                        <p class=""> Coway's environmental management starts with a management spirit of "Goodness". Also, Coway participates in supporting and practicing the 10 principles of UNGC. Through the products and services made by Coway, we recognize that making the environment healthy and making people happy is a core value of the company and actively implementing it.
                         </p>
                         <p class="mb-45"> To minimize the environmental impact in the course of business operation, Coway declared environmental management since 2006, set missions, visions, environmental policies, and environmental goals, established the Environmental Management Committee and dedicated departments to practice company-wide eco-friendly management. In 2019, we were focusing on strengthening product safety by reflecting consumer needs and social requirements, following climate change, resource circulation, and eco-friendly product design based on existing environmental management strategies.
                         </p>
@@ -307,28 +307,28 @@
                         <div class="row force-deflex mb-2">
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/74_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="f-90 fw-300"> Secure the Development of Coway’s sustainability and global eco-friendly corporate leadership through continuous investment and innovation in eco-friendly business.
-                                </p>
+                                <p class="line-height-min"><span class="f-85"> Secure the Development of Coway’s sustainability and global eco-friendly corporate leadership through continuous investment and innovation in eco-friendly business.
+                                </span></p>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/75_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="f-90 fw-300"> Secure continuous value creation in environmental management and driving force of future growth through complying with environmental laws and building advanced environmental management systems.
-                                </p>
+                                <p class="line-height-min"><span class="f-85"> Secure continuous value creation in environmental management and driving force of future growth through complying with environmental laws and building advanced environmental management systems.
+                                </span></p>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/76_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="f-90 fw-300"> Provide a clean environment for our children by minimizing environmental impacts through preventive activities such as building a clean manufacturing system to decrease pollutants and GHG emissions. 
-                                </p>
+                                <p class="line-height-min"><span class="f-85"> Provide a clean environment for our children by minimizing environmental impacts through preventive activities such as building a clean manufacturing system to decrease pollutants and GHG emissions. 
+                                </span></p>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/77_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="f-90 fw-300"> Lead the research and development of green products, services and technology, considering environmental feasibility through every step of product and service.
-                                </p>
+                                <p class="line-height-min"><span class="f-85"> Lead the research and development of green products, services and technology, considering environmental feasibility through every step of product and service.
+                                </span></p>
                             </div>
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/78_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="f-90 fw-300"> Reveal all environmental management related information to stakeholders transparently and actively participate in environmental conservation plans for local communities with constant communication.  
-                                </p>
+                                <p class="line-height-min"><span class="f-85"> Reveal all environmental management related information to stakeholders transparently and actively participate in environmental conservation plans for local communities with constant communication.  
+                                </span></p>
                             </div>
                         </div>
                         <div class="border-bottom-dark mb-5"></div>
@@ -339,7 +339,7 @@
                         <p> In terms of operational eco-efficiency , the core of Coway's long-term environmental goals is to achieve 100% renewable energy and carbon neutrality by 2050, 100% waste recycling rate by 2030, and 100% water resource recycling rate by 2050. The aim of Coway's long-term environmental goals is to contribute to the realization of SDGs.  It contributes to maintaining the balance of the global environment, maintaining a balance of prosperous human life, and providing a sustainable global environment by providing eco-friendly technologies, products, and services.
                         </p>
                 </section>
-                    <hj-img src="/images/124_1.svg" fluid></hj-img>
+                    <hj-img src="/images/308_2.svg" fluid></hj-img>
                     
                 <hr class="mb-3">
                 <h6-ancor hash="k1-3" :activated="activated" class="mb-3 green5">Environmental Management Promotion System</h6-ancor>
@@ -409,7 +409,7 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Realization of Cleanness Value with Environmental Management': '환경경영을 통한 깨끗함의 가치 실현', hash: 'k1', 
+                    title: this.is_ENG? 'Environmental Management for Cleanliness': '환경경영을 통한 깨끗함의 가치 실현', hash: 'k1', 
                     child: [
                         { title: this.is_ENG? 'Coway Environmental Management Policy': '코웨이 환경경영 방침', hash: 'k1-1' }, 
                         { title: this.is_ENG? 'Environmental Management Strategy': '환경경영 전략', hash: 'k1-2' }, 
@@ -417,7 +417,7 @@ export default {
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Enhancement of the Environmental Competence of the Entire  Value Chain': '가치사슬 전체의 환경역량 강화', hash: 'k2'
+                    title: this.is_ENG? 'Value Chain Environmental Competence': '가치사슬 전체의 환경역량 강화', hash: 'k2'
                 }
             ]
             return temp            

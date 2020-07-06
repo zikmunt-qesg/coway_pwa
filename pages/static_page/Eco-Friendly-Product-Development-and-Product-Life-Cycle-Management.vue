@@ -498,11 +498,11 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
+                            <b-col class="col-12 col-md-9 col-lg-8 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">02</h1>
                                 <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Eco-Friendly Product Development and Product Life Cycle Management</h4-ancor>
                             </b-col>
@@ -512,7 +512,7 @@
                                 <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/125_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
-                                <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
+                                <h7 class="green7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                                 <p> Coway is a living environment home appliance company that directly produces home appliances, such as water purifiers and air purifiers, that make customers' lives easier and deliver clean water and air. The air purifier market grew from 1 million units in 2010 to about 2.5 million units in 2020. Consumers' interest in environmentally friendly products leads to green consumption. According to a survey by the Ministry of Environment, product sales of products and services that reduce energy and resource consumption and minimize pollutants in the entire process of producing, consuming, and disposing of products have increased by an average of 20.1% over the past four years.
                                 </p>
                                 <p> Coway produces better products in the product design and lifecycle management sector, such as designing eco-friendly products, strengthening product responsibilities through life cycle evaluation, and improving resource efficiency, protecting humans from ever-deteriorating water and air, and creating more eco-friendly values. We will undertake our utmost for eco-friendly products and services to deliver to customers.
@@ -528,7 +528,7 @@
                             </b-col>
                             <b-col class="col-6 col-md-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/127_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">Improve resource efficiency and realize a circular economy through eco-friendly management throughout the process</p>
+                                <p class="fw-500 word-break px-md-2">Improve resource efficiency and realize a circular economy through eco-friendly management throughout the process</p>
                             </b-col>
                             <b-col class="col-0 col-md-1"></b-col>
                         </b-row>
@@ -536,17 +536,17 @@
                             <b-col class="col-12 col-md-4 pr-md-4 mb-4 mb-md-0 text-center">
                                 <h7 class="green7 f-120 mb-4 w-100 text-left">Business Cases</h7>
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/128_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4">Refrigerant Recovery and Recycling, expanding sales of refurbished products </p>                                   
+                                <p class="fw-500 word-break px-md-2">Refrigerant Recovery and Recycling, expanding sales of refurbished products </p>                                   
                             </b-col>
                             <b-col class="col-12 col-md-8 position-relative pl-md-4">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center mb-3 pb-1">                                    
                                     <b-col class="col-6 text-center">                   
-                                        <span class="f-330 fw-400 font-italic">6,125</span><span class="f-130 fw-500"> 대</span>                
+                                        <span class="f-330 fw-400 font-italic">6,125</span><span class="f-950 fw-400"> products</span>                
                                     </b-col>
                                     <b-col class="col-6 text-center">
-                                        <span class="f-330 fw-400 font-italic">100</span><span class="f-130 fw-500"> %</span>   
+                                        <span class="f-330 fw-400 font-italic">100</span><span class="f-130 fw-s400"> %</span>   
                                     </b-col>
                                 </b-row>
                                 <b-row no-gutters class="align-items-start">                                    
@@ -563,10 +563,10 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Eco-Friendly Product, Service, and Business Design</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Eco-friendly Product, Service, and Business Design</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> Coway designs eco-friendly products, services, and businesses through the product development process, eco-friendly manufacturing, rental service, recovery, and recycling. We undertake various activities to reduce negative impacts and expand positive impact throughout the entire process by securing chemical safety, achieving high energy efficiency, reducing carbon emissions, improving the living environment, reducing resource use, and increasing recyclability.
                     </p>
-                    <hj-img src="/images/72_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/309_1.svg" fluid class="w-100"></hj-img>
                     <hr class="mb-3">
 
                     <h6-ancor hash="m1-1" :activated="activated" class="fw-500 green5 mb-3">Life Cycle Assessment and Product Responsibility</h6-ancor>
@@ -620,40 +620,40 @@
                     <div class="row d-flex flex-column flex-md-row pb-3 border-bottom-dark mx-1">
                         <b-col class="custom-ul-li pl-md-0">
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">EU/K-RoHS Standard is applied to all parts to verify the compatibility</li>
-                                <li>To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">EU/K-RoHS Standard is applied to all parts to verify the compatibility</li>
+                                <li class="no-word-break line-height-low f-85">To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/24_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">Establish a related database (DB) to identify and check the use status of chemicals in the workplace</li>
-                                <li class="no-word-break">Established DB related to domestic/overseas regulations and laws</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">Establish a related database to identify and check the use status of chemicals in the workplace</li>
+                                <li class="no-word-break line-height-low f-85">Established DB related to domestic/overseas regulations and laws</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/25_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">Expand chemical management to product units</li>
-                                <li class="no-word-break">Proactively respond to global environmental regulations and customer demands related to chemical use</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">Expand chemical management to product units</li>
+                                <li class="no-word-break line-height-low f-85">Proactively respond to global environmental regulations and customer demands related to chemical use</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">In accordance with the strengthening of laws and regulations by country and the expansion of the scope of management, the scope of laws and regulations has been expanded from electrical and electronic products to food and hygiene safety.</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">In accordance with the strengthening of laws and regulations by country and the expansion of the scope of management, the scope of laws and regulations has been expanded from electrical and electronic products to food and hygiene safety.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative pr-md-0">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_2.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">Strengthen the ability to respond to pre-regulation by establishing a system for monitoring pre-regulation of chemical substances</li>
-                                <li class="no-word-break">Proactive response and verification of RoHS II phthalate regulation for all products and parts</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">Strengthen the ability to respond to pre-regulation by establishing a system for monitoring pre-regulation of chemical substances</li>
+                                <li class="no-word-break line-height-low f-85">Proactive response and verification of RoHS II phthalate regulation for all products and parts</li>
                             </ul>
                         </b-col>
                     </div>
@@ -667,13 +667,13 @@
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
                         <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']">
-                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">Waste Recycling rate by 2030</p></div>
+                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Waste Recycling rate by 2030</p></div>
                         </b-col>
                         <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">Workplace waste resource recovery rate by 2030</p></div>
+                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Workplace waste resource recovery rate by 2030</p></div>
                         </b-col>
                         <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">2<span class="f-160">20,000</span></p><p class="word-break">Refurbished product sales by 2030</p></div>
+                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-280 fw-500 green7 mb-0">20,000<p class="mt-m-3"><span class="f-120">products</span></p></div><p class="word-break">Refurbished product sales by 2030</p></div>
                         </b-col>
                     </b-row>
                     <p class="mb-5">Coway focuses on a new concept, the circular economy, to protect the world's crisis and prevent wasting resources. Coway goes beyond the traditional method of consuming and disposing of resources and makes great efforts to ensure that resources are reused through recovery and recycling even after they are used. Through the circular economic system such as operating refurbished product systems, recycling products and parts, zero landfill, and generating energy with waste from the entire production process, we reduce greenhouse gases and pollutants caused by waste incineration, and soil and groundwater pollution caused by landfill.
@@ -681,7 +681,7 @@
                     <hr class="py-2">                   
                 
                     <h7 class="mb-3 gray63">Coway Resource Circle</h7>
-                    <hj-img src="/images/32_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/309_3.svg" fluid class="w-100"></hj-img>
                     <hr class="space-25">                   
                     <p class="mb-3"> Coway pursues various activities for transitioning to establishing a resource recycling society from the existing resource consumption structure in which resource is used once and discarded. When developing new products, we undertake efforts to improve the recycling rate of each product line. We check whether the recycling rate per unit satisfies 75% or more. If it is calculated as 75% or less, it is replaced by a recyclable material or carefully reviewed whether it is recyclable in the actual recycling process. 
                     </p>
@@ -689,7 +689,7 @@
                     </p>
                     <p class="mb-45"> Coway contributes to the circular economy by reusing the products. In 2007, we introduced the refurbishment system for the first time in the rental consumer electronics industry, creating value through internally reducing rental disposal and operating a price competitiveness model externally and recycling resources. Refurbished products are sold at a 20% discount from the average rental price compared to the regular price. In 2019, it accounted for 0.4% of the total sales. In the future, we plan to promote communication with customers by delivering messages that conform to the concept of resource recycling, eco-friendly, and good consumption to promote sales of refurbished products and raise customer awareness.
                     </p> 
-                    <div class="position-relative"> <hj-img src="/images/129_1.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">Recycling Process</h7></div>
+                    <div class="position-relative"> <hj-img src="/images/309_4.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">Recycling Process</h7></div>
                     <hr class="space-25"> 
                     <h7 class="mb-3 gray63">Amount of Waste Generated by Type  <span class="f-80 fw-300"> (Unit: Ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
@@ -844,7 +844,7 @@
                     <hr class="mb-4">
                     <b-row no-gutters class="mb-5">
                         <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 Coway Refurbished Product Sales Goal</h7>
-                            <b-img src="/images/36_1.svg" fluid style="width: 88%;"></b-img>
+                            <b-img src="/images/309_6.svg" fluid style="width: 88%;"></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-5 position-relative d-flex align-items-end">
                             <div class="position-absolute" style='top:0;'><h7 class="mb-3 gray63 font-noto">2020 Goal Sales</h7>
@@ -879,7 +879,7 @@
                     
                     <hr class="py-3">
                     
-                    <h6-ancor hash="m2-4" :activated="activated" class="fw-500 green5 mb-3">Reduced Water Resource Consumption</h6-ancor>
+                    <h6-ancor hash="m2-4" :activated="activated" class="fw-500 green5 mb-3">Reduction of Water Consumption</h6-ancor>
                     <p class="mb-45"> Coway has a high proportion of final assembly and inspection processes, so it does not consume much water in the production process and does not discharge wastewater. However, we continuously undertake efforts to manage water consumption by improving the water use process to minimize the environmental impact of using water resources and introducing a "waterless" system with nitrogen and vacuum instead of water.
                     </p>
 
@@ -983,12 +983,12 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Eco Friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
+            return this.is_ENG? 'Eco-friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
         },
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Eco Friendly Product Service and Business Design' :'친환경 제품과 서비스, 비즈니스 설계', 
+                    title: this.is_ENG? 'Eco-friendly Product, Service, and Business Design' :'친환경 제품과 서비스, 비즈니스 설계', 
                     hash: 'm1', 
                     child: [
                         { 
@@ -996,17 +996,17 @@ export default {
                             hash: 'm1-1' 
                         }, 
                         { 
-                            title: this.is_ENG? 'Eco Friendly Product Certification':'친환경 제품 인증 획득', 
+                            title: this.is_ENG? 'Eco-friendly Product Certification':'친환경 제품 인증 획득', 
                             hash: 'm1-2' 
                         }, 
                         { 
-                            title: this.is_ENG? 'Enhancement of the Chemical Management System':'화학물질 관리 체계 강화', 
+                            title: this.is_ENG? 'Chemical Management System':'화학물질 관리 체계 강화', 
                             hash: 'm1-3' 
                         }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Improvement of Resource Efficiency and Support Circular  Economy':'자원효율성 향상과 순환경제 구축', 
+                    title: this.is_ENG? 'Resource Efficiency and Circular Economy':'자원효율성 향상과 순환경제 구축', 
                     hash: 'm2',
                     child: [
                         { 
@@ -1022,7 +1022,7 @@ export default {
                             hash: 'm2-3' 
                         }, 
                         { 
-                            title: this.is_ENG? 'Reduction of Water Resource Consumption throughout the Entire Process': '전과정 수자원 사용량 절감', 
+                            title: this.is_ENG? 'Reduction of Water Consumption': '전과정 수자원 사용량 절감', 
                             hash: 'm2-4' 
                         }, 
                     ]

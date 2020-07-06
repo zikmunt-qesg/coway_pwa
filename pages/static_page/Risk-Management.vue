@@ -212,15 +212,15 @@
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3 "><b-img src="/images/120_1.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Risk Awareness and Reporting</p>
-                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Each department collects real-time information and prepares for a crisis evaluation meeting</li></ul></p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li class="f-85 line-height-low">Each department collects real-time information and prepares for a crisis evaluation meeting</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_2.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Impact Analysis and Establish Response System</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
-                                <ul class="custom-ul"><li>Risk Information Analysis, Impact Level Evaluation, and Crisis Warning</li>
-                                <li>Determine response direction and main guidelines, and establish countermeasures</li></ul>
+                                <ul class="custom-ul"><li class="f-85 line-height-low">Risk Information Analysis, Impact Level Evaluation, and Crisis Warning</li>
+                                <li class="f-85 line-height-low">Determine response direction and main guidelines, and establish countermeasures</li></ul>
                             </p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
@@ -228,20 +228,20 @@
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_3.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Report to Executive</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
-                                <ul class="custom-ul"><li>Report risk issues and make key decisions</li>
-                                <li>Report on Progress and Response</li></ul></p>
+                                <ul class="custom-ul"><li class="f-85 line-height-low">Report risk issues and make key decisions</li>
+                                <li class="f-85 line-height-low">Report on Progress and Response</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_4.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Promote Response Actions</p>
-                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Conduct Risk Response Activities Based on Mutual Cooperation</li></ul></p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li class="f-85 line-height-low">Conduct Risk Response Activities Based on Mutual Cooperation</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_5.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Risk Response Status Monitoring</p>
-                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Risk Monitoring and Auditing</li></ul></p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li class="f-85 line-height-low">Risk Monitoring and Auditing</li></ul></p>
                         </b-col> 
                     </b-row>
 

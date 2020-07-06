@@ -221,6 +221,8 @@ td.word-break, .no-word-break{
 }
 .eng-font-scale  p{
     font-size: 0.93rem;
+    word-break: normal;
+    word-wrap: break-word;
 }
 
 // .eng-font-scale h1{

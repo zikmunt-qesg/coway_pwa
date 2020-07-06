@@ -178,11 +178,11 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5 font-noto gray55">
-                            * 2014년 6월 코웨이 협력사[㈜제성]에 29.7KWh 규모의 태양광발전 설치 지원<br>
-                            * 2015년 7월 코웨이 협력사[아이디시스템㈜에 29.4KWh 규모의 태양광발전 설치 지원<br>
-                            * 기업협력군 에너지동행사업은 2012년부터 2019년까지 지속적으로 참여하고 있으며, 8년간 참여 협력사는 39개사 입니다.
-                        </p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li> 2014년 6월 코웨이 협력사[㈜제성]에 29.7KWh 규모의 태양광발전 설치 지원</li> 
+                            <li> 2015년 7월 코웨이 협력사[아이디시스템㈜에 29.4KWh 규모의 태양광발전 설치 지원</li> 
+                            <li> 기업협력군 에너지동행사업은 2012년부터 2019년까지 지속적으로 참여하고 있으며, 8년간 참여 협력사는 39개사 입니다.</li> 
+                        </ul>
 
                     <hr class="py-4">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="n4" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">온실가스 &middot; 에너지 및 기타 환경 데이터</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
@@ -285,9 +285,9 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto gray55">
-                            * 국내물류/운송은 자발적으로 위탁 협력기업에서 제공한 자료이며, 외부 검증은 진행하지 않음
-                        </p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li>국내물류/운송은 자발적으로 위탁 협력기업에서 제공한 자료이며, 외부 검증은 진행하지 않음</li>
+                        </ul>
 
 
                         <h7 class="mb-3 gray63">에너지 사용량</h7>
@@ -371,28 +371,28 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">시설운영<sup>1)</sup></b-td><b-td class="text-left" rowspan="5">백만 원</b-td><b-td>86.5</b-td><b-td>377.4</b-td><b-td>850.2</b-td><b-td class="text-left">사업장 환경안전설비 증설 및 공사</b-td>
+                                    <b-td class="text-left">시설운영<sup> 1)</sup></b-td><b-td class="text-left" rowspan="5">백만 원</b-td><b-td>86.5</b-td><b-td>377.4</b-td><b-td>850.2</b-td><b-td class="text-left">사업장 환경안전설비 증설 및 공사</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">시스템운영<sup>2)</sup></b-td><b-td>253.3</b-td><b-td>407.8</b-td><b-td>302.5</b-td><b-td class="text-left">제·부품 적합성 검증 안정화로 인한 시스템 투자 축소</b-td>
+                                    <b-td class="text-left">시스템운영<sup> 2)</sup></b-td><b-td>253.3</b-td><b-td>407.8</b-td><b-td>302.5</b-td><b-td class="text-left">제·부품 적합성 검증 안정화로 인한 시스템 투자 축소</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">커뮤니케이션<sup>3)</sup></b-td><b-td>229.2</b-td><b-td>327.6</b-td><b-td>227.4</b-td><b-td class="text-left">법규 대응 안정화로 인한 비용 축소</b-td>
+                                    <b-td class="text-left">커뮤니케이션<sup> 3)</sup></b-td><b-td>229.2</b-td><b-td>327.6</b-td><b-td>227.4</b-td><b-td class="text-left">법규 대응 안정화로 인한 비용 축소</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">환경 신사업<sup>4)</sup></b-td><b-td>50.8</b-td><b-td>80.0</b-td><b-td>121.6</b-td><b-td class="text-left">규제 네트워크 구축 확대</b-td>
+                                    <b-td class="text-left">환경 신사업<sup> 4)</sup></b-td><b-td>50.8</b-td><b-td>80.0</b-td><b-td>121.6</b-td><b-td class="text-left">규제 네트워크 구축 확대</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">총계</b-td><b-td>619.8</b-td><b-td>1192.8</b-td><b-td>1501.7</b-td><b-td class="text-left"></b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto gray55">
-                            1) 시설운영: 고효율 설비 교체, 신규 설비 투자 등을 지칭<br>
-                            2) 시스템운영: IT구축 및 운영, 내부심사, 벤치마킹, 교육, 검증 등을 지칭<br>
-                            3)	커뮤니케이션: 법규 대응, 국책과제, 홍보/이벤트/교육, 기부, 사회공헌 등<br>
-                            4)	환경신사업: 외부 컨설팅, 신재생에너지 투자 등<br>
-                        </p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
+                            <li>시설운영: 고효율 설비 교체, 신규 설비 투자 등을 지칭</li>
+                            <li>시스템운영: IT구축 및 운영, 내부심사, 벤치마킹, 교육, 검증 등을 지칭</li>
+                            <li>커뮤니케이션: 법규 대응, 국책과제, 홍보/이벤트/교육, 기부, 사회공헌 등</li>
+                            <li>환경신사업: 외부 컨설팅, 신재생에너지 투자 등</li>
+                        </ol>
 
                         <h7 class="mb-3 gray63">환경 법규 위반 및 벌금액</h7>
                         <b-table-simple responsive class="num-table env-table f-95">
@@ -438,11 +438,11 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
+                            <b-col class="col-12 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">03</h1>
                                 <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2"> Responses to Climate Change</h4-ancor>
                             </b-col>
@@ -464,11 +464,11 @@
                             <b-col class="col-0 col-lg-1"></b-col>
                             <b-col class="col-6 col-lg-5 text-center mb-3 mb-sm-0">
                                 <div class="mx-auto mb-3" style="height: 70px;"><b-img src="/images/132_1.svg" fluid></b-img></div>
-                                <p class="fw-500 word-break pr-1 px-md-3 px-lg-4 mx-xl-3">Recalculation of medium to long-term targets for climate change</p>
+                                <p class="fw-500 word-break pr-1 px-md-3 px-lg-4">Recalculation of medium to long-term targets for climate change</p>
                             </b-col>
                             <b-col class="col-6 col-lg-5 text-center">
                                 <div class="mx-auto mb-3" style="height: 70px;"><b-img src="/images/132_2.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break pl-1 px-md-3 px-lg-4 mx-xl-3">Promote science-based target (SBT) for reduction methodology</p>
+                                <p class="fw-500 word-break pl-1 px-md-3 px-lg-4">Promote science-based target (SBT) for reduction methodology</p>
                             </b-col>
                             <b-col class="col-0 col-lg-1"></b-col>
                         </b-row>
@@ -477,7 +477,7 @@
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-6 text-center mb-3 mb-sm-0"><div class="mx-auto mb-3" style="height: 65px;"><b-img src="/images/132_3.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break pr-1 pr-md-2 px-xl-3">Voluntary carbon reduction of a supplier in the supply chain</p>
+                                        <p class="fw-500 word-break pr-1 pr-md-2">Voluntary carbon reduction of a supplier in the supply chain</p>
                                     </b-col>
                                     <b-col class="col-6 text-center"><div class="mx-auto mb-3" style="height: 65px;"><b-img src="/images/132_4.svg" fluid></b-img></div>
                                         <p class="fw-500 word-break pl-1">Active participation in global initiatives such as CDP (Carbon Disclosure Project)</p>
@@ -512,11 +512,11 @@
                             <div class="position-absolute" style="top: 0;">
                                 <h7 class="mb-3 gray63 font-noto">GHG Emissions and 2030 Goals</h7>
                                 <!-- <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div> -->
-                                <div class="fw-300 f-80 mb-2 d-flex align-items-center"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> Intensity (Unit: tCO<sub>2</sub>e/100 million KRW)</div>
-                                <div class="fw-300 f-80 pt-1 mb-1 d-flex align-items-center" >Emission (Unit: tCO<sub>2</sub>e)</div>
-                                <div class="fw-300 f-80 d-flex align-items-center"><b-img src="/images/scope1.svg"></b-img> <span class="ml-2">Scope1</span></div>
-                                <div class="fw-300 f-80 d-flex align-items-center"><b-img src="/images/scope2.svg"></b-img> <span class="ml-2">Scope2</span></div>
-                                <div class="fw-300 f-80 d-flex align-items-center"><b-img src="/images/scope3.svg"></b-img> <span class="ml-2">Scope3</span></div>
+                                <div class="fw-300 f-80 mb-2 d-flex align-items-center font-noto"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> Intensity (Unit: tCO<sub>2</sub>e/100 million KRW)</div>
+                                <div class="fw-300 f-80 pt-1 mb-1 d-flex align-items-center font-noto">Emission (Unit: tCO<sub>2</sub>e)</div>
+                                <div class="fw-300 f-80 d-flex align-items-center font-noto"><b-img src="/images/scope1.svg"></b-img> <span class="ml-2">Scope1</span></div>
+                                <div class="fw-300 f-80 d-flex align-items-center font-noto"><b-img src="/images/scope2.svg"></b-img> <span class="ml-2">Scope2</span></div>
+                                <div class="fw-300 f-80 d-flex align-items-center font-noto"><b-img src="/images/scope3.svg"></b-img> <span class="ml-2">Scope3</span></div>
                             </div>
                         </div>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
@@ -524,16 +524,16 @@
                             </li>
                             <li>2030 target is estimated by calculating increase in sales and energy use by 5% per year.
                             </li>
-                            <li>As the scope and standards of greenhouse gas management were changed from the internal standards to national standards according to the "GHG and Energy Target Management System," there was a difference in reports and data from the previous year. The data in this report is a revalidation of emissions from 2017 to 2019 on a national basis.
+                            <li>As the scope and standards of greenhouse gas management were changed from the internal standards to national standards according to the 'GHG and Energy Target Management System', there was a difference in reports and data from the previous year. The data in this report is a revalidation of emissions from 2017 to 2019 on a national basis.
                             </li>
                         </ol>    
                         <hr class="py-2">
                         
-                        <p class="mb-5">Coway uses energy efficiently through its GHG reduction activities and business operation efficiency. We maximize energy efficiency by continuously introducing new and renewable energy, solar power generation. Coway installs and operates solar power at Yugu Plant (49.5KWh scale), Incheon Plant (39KWh), Pocheon Factory (45KWh scale), and Logistics Center (48.8KWh scale). Through this, 3 factories and distribution centers produced about 237 MW of electricity in 2019, reducing the GHG emission by about 110 tons. The energy storage system (ESS) introduced at the Yugu plant reduces peak loads and contributes to the distribution of energy consumption. Also, it has an energy cost-saving effect, saving approximately 1.2 billion KRW in 2019. The LED lighting introduced in the Yugu Plant and Logistics Center improved the working environment in the workplace, reduced energy costs by more than 0.65 billion KRW in 2019 based on the logistics center, and about 264 tons of GHG.
+                        <p class="mb-5">Coway uses energy efficiently through its GHG reduction activities and business operation efficiency. We maximize energy efficiency by continuously introducing new and renewable energy, solar power generation. Coway installs and operates solar power at Yugu Plant (49.5KWh scale), Incheon Plant (39KWh), Pocheon Factory (45KWh scale), and Logistics Center (48.8KWh scale). Through this, 3 factories and distribution centers produced about 237MWh of electricity in 2019, reducing the GHG emission by about 110 tons. The energy storage system (ESS) introduced at the Yugu plant reduces peak loads and contributes to the distribution of energy consumption. Also, it has an energy cost-saving effect, saving approximately 1.2 billion KRW in 2019. The LED lighting introduced in the Yugu Plant and Logistics Center improved the working environment in the workplace, reduced energy costs by more than 0.65 billion KRW in 2019 based on the logistics center, and about 264 tons of GHG.
                         </p>
 
-                    <h6-ancor hash="n1-1" :activated="activated" class="green6 fw-500 mb-2">Science Based Target Plan</h6-ancor>
-                        <p class="mb-5"> Since 2020, Coway has set targets for 2030 and 2050 based on the Science-Based Target Plan to respond to the new climate change system. Since most of the energy relies on electric power, we are setting goals that substantial reductions can be made, such as the continuous installation, purchase, and reduction purchase of new and renewable energy. To this end, we changed the standard for calculating GHG emissions from our internal standard to the target system for energy and GHG in South Korea and recalculated GHG emissions in the last 3 years. As soon as the external GHG emissions verification of the last 3 years is completed, the targets for GHG reduction for 2030 and 2050 will be finalized and disclosed.
+                    <h6-ancor hash="n1-1" :activated="activated" class="green6 fw-500 mb-2">Science-based Target</h6-ancor>
+                        <p class="mb-5"> Since 2020, Coway has set targets for 2030 and 2050 based on the Science-Based Target initiative to respond to the new climate change system. Since most of the energy relies on electric power, we are setting goals that substantial reductions can be made, such as the continuous installation, purchase, and reduction purchase of new and renewable energy. To this end, we changed the standard for calculating GHG emissions from our internal standard to the target system for energy and GHG in South Korea and recalculated GHG emissions in the last 3 years. As soon as the external GHG emissions verification of the last 3 years is completed, the targets for GHG reduction for 2030 and 2050 will be finalized and disclosed.
                         </p>
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="n2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Risks and Opportunities of Climate Change</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
@@ -572,7 +572,7 @@
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Access to new markets</b-td>
-                                    <b-td class="word-break">Precipitation patterns are changing due to climate change. The frequency of yellow dust and fine dust is increasing due to severe drought caused by changes in precipitation patterns. Due to this climate change, the air purifier market has expanded to China, providing Woongjin Coway with a new opportunity to enter the market.</b-td>
+                                    <b-td class="word-break">Precipitation patterns are changing due to climate change. The frequency of yellow dust and fine dust is increasing due to severe drought caused by changes in precipitation patterns. Due to this climate change, the air purifier market has expanded to China, providing Coway with a new opportunity to enter the market.</b-td>
                                     <b-td>Short Term</b-td>
                                 </b-tr>
                                 <b-tr>
@@ -598,10 +598,11 @@
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>       
-                        <p class="f-80 ml-1 mb-5 font-noto gray55">
-                            * In June 2014 installed 29.7KWh solar power to Coway supplier [Jesung Co., Ltd.]<br>
-                            * In July 2015,installed 29.4KWh solar power to Coway supplier [ID System Co., Ltd.]<br>
-                            * We continue to participate in the Energy Cooperation Project of the Corporate Cooperation Group from 2012 to 2019, and 39 partners are participating for 8 years.                     </p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li> In June 2014 installed 29.7KWh solar power to Coway supplier [Jesung Co., Ltd.]</li>
+                            <li> In July 2015,installed 29.4KWh solar power to Coway supplier [ID System Co., Ltd.]</li>
+                            <li> We continue to participate in the Energy Cooperation Project of the Corporate Cooperation Group from 2012 to 2019, and 39 partners are participating for 8 years.</li>
+                        </ul>
 
                     <hr class="py-4">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="n4" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">GHG &middot; Energy and Other Environment Data</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
@@ -633,7 +634,7 @@
                             </li>
                             <li>2030 target is estimated by calculating increase in sales and energy use by 5% per year.
                             </li>
-                            <li>As the scope and standards of greenhouse gas management were changed from the internal standards to national standards according to the "GHG and Energy Target Management System," there was a difference in reports and data from the previous year. The data in this report is a revalidation of emissions from 2017 to 2019 on a national basis.
+                            <li>As the scope and standards of greenhouse gas management were changed from the internal standards to national standards according to the 'GHG and Energy Target Management System', there was a difference in reports and data from the previous year. The data in this report is a revalidation of emissions from 2017 to 2019 on a national basis.
                             </li>
                         </ol>      
 
@@ -690,8 +691,9 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto gray55"> * R-134a in 2018 is modified as follow: 49,320 → 51,230 / R-600a, 3,220 → 5,320kg for R-436B
-                        </p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li> R-134a in 2018 is modified as follow: 49,320 → 51,230 / R-600a, 3,220 → 5,320kg for R-436B</li>
+                        </ul>
 
                         <h7 class="mb-3 gray63 font-noto">Other Indirect GHG (Scope 3) Emissions</h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-2">
@@ -704,9 +706,9 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto gray55">
-                            * Domestic logistics/transport is voluntarily provided by consigned partner companies, and external verification is not conducted.
-                        </p>
+                        <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
+                            <li> Domestic logistics/transport is voluntarily provided by consigned partner companies, and external verification is not conducted.</li>
+                        </ul>
 
 
                         <h7 class="mb-3 gray63">Energy Usage</h7>
@@ -754,7 +756,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
-                               <li>2019 target is estimated by calculating increase in energy use by 5% compared to the previous year as sales (production) increase.
+                            <li>2019 target is estimated by calculating increase in energy use by 5% compared to the previous year as sales (production) increase.
                             </li>
                             <li>2030 target is estimated by calculating increase in sales and energy use by 5% per year.
                             </li>
@@ -762,12 +764,9 @@
                             </li>
                             <li> The total heat generated is applied to the coefficient applied to the energy consumption calculation.
                             </li>
-                            <li>All of Coway's business sites do not have air emission facilities. Therefore, they do not emit air pollutants such as nitrogen oxide (NOx) and sulfur oxides (Sox).
+                            <li>All of Coway's business sites do not have air emission facilities. Therefore, they do not emit air pollutants such as nitrogen oxide(NOx) and sulfur oxides(SOx).
                             </li>
                             <li>Greenhouse gas emissions are zero due to the absence of LPG vehicles among the rental vehicles in 2019.
-
-<Table. Environment/Quality Certification Rate>
-
                             </li>
                         </ol>
 
@@ -793,28 +792,28 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Facility Operation<sup>1)</sup></b-td><b-td class="text-left" rowspan="5">1 million KRW</b-td><b-td>86.5</b-td><b-td>377.4</b-td><b-td>850.2</b-td><b-td class="text-left">Expansion and construction of environmental safety facilities at business sites</b-td>
+                                    <b-td class="text-left">Facility Operation<sup> 1)</sup></b-td><b-td class="text-left" rowspan="5">1 million KRW</b-td><b-td>86.5</b-td><b-td>377.4</b-td><b-td>850.2</b-td><b-td class="text-left">Expansion and construction of environmental safety facilities at business sites</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">System operation <sup>2)</sup></b-td><b-td>253.3</b-td><b-td>407.8</b-td><b-td>302.5</b-td><b-td class="text-left">Reduced system investment due to stabilization of verification of conformity to parts</b-td>
+                                    <b-td class="text-left">System operation<sup> 2)</sup></b-td><b-td>253.3</b-td><b-td>407.8</b-td><b-td>302.5</b-td><b-td class="text-left">Reduced system investment due to stabilization of verification of conformity to parts</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Communication<sup>3)</sup></b-td><b-td>229.2</b-td><b-td>327.6</b-td><b-td>227.4</b-td><b-td class="text-left">Cost reduction due to stabilization of legal response</b-td>
+                                    <b-td class="text-left">Communication<sup> 3)</sup></b-td><b-td>229.2</b-td><b-td>327.6</b-td><b-td>227.4</b-td><b-td class="text-left">Cost reduction due to stabilization of legal response</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">New Environmental Business<sup>4)</sup></b-td><b-td>50.8</b-td><b-td>80.0</b-td><b-td>121.6</b-td><b-td class="text-left">Expand regulatory network</b-td>
+                                    <b-td class="text-left">New Environmental Business<sup> 4)</sup></b-td><b-td>50.8</b-td><b-td>80.0</b-td><b-td>121.6</b-td><b-td class="text-left">Expand regulatory network</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Total</b-td><b-td>619.8</b-td><b-td>1192.8</b-td><b-td>1501.7</b-td><b-td class="text-left"></b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 mb-5 font-noto gray55">
-                            1) Facility operation: refers to high-efficiency facility replacement, new facility investment<br>
-                            2) System operation: Refers to IT construction and operation, internal audit, benchmarking, training, verification.<br>
-                            3) Communication: Responding to laws and regulations, national projects, promotion/event/education, donation, social contribution.<br>
-                            4) New Environmental business: external consulting, new and renewable energy investment.<br>
-                        </p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5 gray55">
+                            <li>Facility operation: refers to high-efficiency facility replacement, new facility investment.</li>
+                            <li>System operation: Refers to IT construction and operation, internal audit, benchmarking, training, verification.</li>
+                            <li>Communication: Responding to laws and regulations, national projects, promotion/event/education, donation, social contribution.</li>
+                            <li>New Environmental business: external consulting, new and renewable energy investment.</li>
+                        </ol>
 
                         <h7 class="mb-3 gray63">Environmental Law Violations and Fine</h7>
                         <b-table-simple responsive class="num-table env-table f-95">
@@ -874,21 +873,21 @@ export default {
                 { 
                     title: this.is_ENG? 'Climate Change Goals and Scenario Management':'기후변화 목표 및 시나리오 관리', hash: 'n1',
                     child: [
-                        { title: this.is_ENG? 'Implementation of Science Based Target Plan':'과학적 감축 목표(Science based Target)계획 도입', hash: 'n1-1' }, 
+                        { title: this.is_ENG? 'Science-based Target':'과학적 감축 목표(Science based Target)계획 도입', hash: 'n1-1' }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Analyzing the Risks and Opportunities of Climate Change':'기후변화의 위험과 기회 분석', hash: 'n2',
+                    title: this.is_ENG? 'Risks and Opportunities of Climate Change':'기후변화의 위험과 기회 분석', hash: 'n2',
                     child: [
-                        { title: this.is_ENG? 'Analysis of Potential Risks from Climate Change': '기후변화에 따른 잠재 위험 분석', hash: 'n2-1' }, 
-                        { title: this.is_ENG? 'Analysis of Potential Opportunity from Climate Change': '기후변화에 따른 잠재 기회 분석', hash: 'n2-2' }, 
+                        { title: this.is_ENG? 'Potential Risks from Climate Change': '기후변화에 따른 잠재 위험 분석', hash: 'n2-1' }, 
+                        { title: this.is_ENG? 'Potential Opportunity from Climate Change': '기후변화에 따른 잠재 기회 분석', hash: 'n2-2' }, 
                     ]
                 }, 
                 { 
                     title: this.is_ENG? 'Carbon Partnership with Supplier':'협력사 탄소 파트너십', hash: 'n3'
                 },
                 { 
-                    title: this.is_ENG? 'Greenhouse GasEnergy and Other Environment Data':'온실가스 · 에너지 및 기타 환경 데이터', hash: 'n4'
+                    title: this.is_ENG? 'GHG, Energy and Other Environment Data':'온실가스 · 에너지 및 기타 환경 데이터', hash: 'n4'
                 },
             ]
             return temp            

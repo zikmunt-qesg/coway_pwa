@@ -561,6 +561,7 @@
                         </b-table-simple>
                         <hr class="py-2">
                         <hj-img src="/images/301_2.svg" fluid></hj-img>
+                        <div class="red"> 위 그림은 국문과 함께 수정 예정</div>                        
 
                     <hr class="py-3 mb-5">
 
@@ -662,7 +663,7 @@
                     </p>
 
                         <h7 class="mb-2 gray63">Shareholder Status</h7>
-                        <hj-img src="/images/80_1.svg" fluid></hj-img>
+                        <hj-img src="/images/301_3.svg" fluid></hj-img>
                         <hr class="mb-4">
                     
                         <h7 class="mb-3 gray63">Voting Rights*</h7>
