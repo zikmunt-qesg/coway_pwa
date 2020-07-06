@@ -219,7 +219,7 @@
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_2.svg" fluid></b-img></div></div>
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Impact Analysis and Establish Response System</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
-                                <ul class="custom-ul"><li>Risk information analysis, impact level evaluation, and crisis warning</li>
+                                <ul class="custom-ul"><li>Risk Information Analysis, Impact Level Evaluation, and Crisis Warning</li>
                                 <li>Determine response direction and main guidelines, and establish countermeasures</li></ul>
                             </p>
                         </b-col> 
@@ -229,19 +229,19 @@
                             <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Report to Executive</p>
                             <p class="px-1 text-left f-85 letter-narrow word-break line-height-low">
                                 <ul class="custom-ul"><li>Report risk issues and make key decisions</li>
-                                <li>Report on progress and response</li></ul></p>
+                                <li>Report on Progress and Response</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_4.svg" fluid></b-img></div></div>
-                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Promote response actions</p>
-                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Conduct risk response activities based on mutual cooperation</li></ul></p>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Promote Response Actions</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Conduct Risk Response Activities Based on Mutual Cooperation</li></ul></p>
                         </b-col> 
                         <b-col class="position-relative pt-2">
                             <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -33px;"></div>
                             <div class="text-center w-100 position-absolute d-none d-md-block" style=" top:-55px; z-index:10"> <div class="mx-auto px-md-auto mb-3"><b-img src="/images/120_5.svg" fluid></b-img></div></div>
-                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Risk response status monitoring</p>
-                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Risk monitoring and auditing</li></ul></p>
+                            <p class="px-2 parang7 word-break text-underline fw-500 f-100 mb-2">Risk Response Status Monitoring</p>
+                            <p class="px-1 text-left f-85 letter-narrow word-break line-height-low"><ul class="custom-ul"><li>Risk Monitoring and Auditing</li></ul></p>
                         </b-col> 
                     </b-row>
 
@@ -256,7 +256,7 @@
                                 <b-td style="width:20%;" class="py-0">Risk Factors</b-td><b-td style="width:38%;" class="py-0">Risk Context and Business Impact </b-td><b-td class="py-0">Risk Mitigation Action Plan</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500">Information security and personal information leakage</div>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500">Information Security and Personal Information Leakage</div>
                                  <b-img src="/images/121_1.svg"></b-img>
                                 </b-td>
                                 <b-td>
@@ -292,7 +292,7 @@
                                 </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500">Increased regulations on resource circulation</div>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500">Increased Regulations on Resource Circulation</div>
                                 <b-img src="/images/121_3.svg"></b-img></b-td>
                                 <b-td> 
                                     <p>Waste disposal and neglect are spreading as a severe global social problem, and regulations on resource circulation at home and abroad are being strengthened.
@@ -313,7 +313,7 @@
                                 </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500"> Changes in consumption patterns of environmental appliances</div>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500"> Changes in Consumption Patterns of Environmental Appliances</div>
                                 <b-img src="/images/121_4.svg"></b-img></b-td>
                                 <b-td>
                                     <p>With the growth of the e-commerce market, the forms of purchase of environmental home appliances are also diversifying. According to the National Statistical Office's survey, in September 2019, the number of online shopping transactions of home appliances, electronics, and telecommunications devices increased by 40.8% (KRW 321.1 billion) compared to the same month last year. Also, the online-based consumption culture is rapidly spreading, with the purchase rate through online overseas direct purchases also growing by about 76% compared to 2017.

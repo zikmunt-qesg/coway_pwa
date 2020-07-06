@@ -149,14 +149,14 @@
                     <hr class="mb-4">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="g1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Code of Conduct</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-3">Coway is creating an ethical management culture with a vision of 'Clean Coway' to practice responsible ethics. Coway has established the Charter of Ethics, Regulations on Ethics, and Code of Ethics to clearly define and apply ethical behavior guidelines for employees and stakeholders. The Charter of Ethics establishes the basic principles of Clean Coway and sets standards for ethical behavior and value judgment of employees and stakeholders through Regulations on Ethics. Also, according to the Code of Ethics, specific practice matters are prescribed to prepare guidelines to address various ethical issues. 
+                    <p class="mb-3">Coway is creating an ethical management culture with a vision of "Clean Coway" to practice responsible ethics. Coway has established the Charter of Ethics, Regulations on Ethics, and Code of Ethics to clearly define and apply ethical behavior guidelines for employees and stakeholders. The Charter of Ethics establishes the basic principles of Clean Coway and sets standards for ethical behavior and value judgment of employees and stakeholders through Regulations on Ethics. Also, according to the Code of Ethics, specific practice matters are prescribed to prepare guidelines to address various ethical issues. 
                     </p>
 
                     <a href="/documents/code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">The Charter of Ethics</b-button></a>
                     <a href="/documents/code_of_conduct_guideline.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">The Regulations on Ethics</b-button></a>
                     <a href="/documents/code_of_conduct_instruction.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3">The Code of Ethics</b-button></a>
 
-                    <p class="mb-3">Coway operates an ethics reporting center that receives improvement suggestions to the wrong practices or policies reported by stakeholders on its website. Coway receives reports via mail, fax, and online. When a report is received, the Ethical Management Office determines the matter and conducts an investigation. If necessary, we share the case and conduct training to prevent the recurrence of the same or similar matter. 
+                    <p class="mb-3">Coway operates an Ethics Reporting Center that receives improvement suggestions to the wrong practices or policies reported by stakeholders on its website. Coway receives reports via mail, fax, and online. When a report is received, the Ethical Management Office determines the matter and conducts an investigation. If necessary, we share the case and conduct training to prevent the recurrence of the same or similar matter. 
                     </p>
 
                     <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" size="sm" block>Ethics Reporting Center</b-button></a>
@@ -168,7 +168,7 @@
                         <h7 class="mb-3 gray63 font-noto">2019 Ethics Reports and Measures</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td>Other Complaints<sup> 1)</sup><br>(Ethics-unrelated reports)</b-td><b-td>Anomalous operations</b-td><b-td>Others <br>(such as money transactions)</b-td><b-td>Total</b-td>
+                                <b-td class="text-left">Category</b-td><b-td>Other Complaints<sup> 1)</sup><br>(Ethics-unrelated reports)</b-td><b-td>Unlawful Sales</b-td><b-td>Others <br>(such as money transactions)</b-td><b-td>Total</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
@@ -177,7 +177,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45">
-                            <li>Other Complaints(Ethics-unrelated reports): Informants report complaints on products and services in the appropriate ways</li>
+                            <li>Other Complaints (Ethics-unrelated reports): Informants report complaints on products and services in the appropriate ways</li>
                         </ol>
                     <hr class="mb-3">
                     
@@ -195,7 +195,7 @@
                                     <b-td class="text-left">Percentage of workplaces that finished corruption diagnosis</b-td><b-td class="text-left">%</b-td><b-td>100%</b-td><b-td>100%</b-td><b-td>100%</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Actions for Violation of the Code of Ethics<sup> 1)</sup></b-td><b-td class="text-left">cases</b-td><b-td>46<sup> 2)</sup></b-td><b-td>4</b-td><b-td>5</b-td>
+                                    <b-td class="text-left">Actions for Violation of the Code of Ethics<sup> 1)</sup></b-td><b-td class="text-left">case</b-td><b-td>46<sup> 2)</sup></b-td><b-td>4</b-td><b-td>5</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -209,23 +209,23 @@
                     <p class="mb-45">As an internalized ethical culture, Coway regularly conducts ethics education to create a "Clean Coway," raising awareness and commitment to ethical management. As biennial basis compulsory training was conducted for all company employees, in 2019, the internal accounting management system offline training was provided for internal control directors, managers, executives, and audit committees.
                     </p>
 
-                        <h7 class="mb-3 gray63">Ethical management training for employees</h7>
+                        <h7 class="mb-3 gray63">Ethical Management Training For Employees</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td class="text-left">Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Ethical management training participants</b-td><b-td class="text-left">persons</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
+                                    <b-td class="text-left">Ethical Management Training Participants</b-td><b-td class="text-left">person</b-td><b-td>4,290</b-td><b-td>4,245</b-td><b-td>196</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Ethical management training participation rate<sup> 1)</sup></b-td><b-td class="text-left">%</b-td><b-td>94</b-td><b-td>89</b-td><b-td>4<sup> 2)</sup></b-td>
+                                    <b-td class="text-left">Ethical Management Training Participation Rate<sup> 1)</sup></b-td><b-td class="text-left">%</b-td><b-td>94</b-td><b-td>89</b-td><b-td>4<sup> 2)</sup></b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45">
-                            <li>participation rate compared to the total number of employees(4,988)</li>
-                            <li>The participation rate of Consensus by Ethic Education decreased due to the transition to biennial in 2019.</li>
+                            <li>Participation rate compared to the total number of employees (4,988)</li>
+                            <li>Since 2019, Consensus by Ethic Educatione was conducted biennially, reducing the training participation rate.</li>
                         </ol>
                 </section> 
                 <!-- End of DMA-->

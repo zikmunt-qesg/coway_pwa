@@ -193,7 +193,7 @@
                                     <b-td class="text-left" rowspan="3">Manufactured Capital</b-td><b-td class="text-left">Input</b-td><b-td class="text-left" colspan="2">Amount of purchasing raw materials for environmental home appliance business</b-td><b-td class="text-left">100 million KRW</b-td><b-td>4,096</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Amount of product production<sup>1)</sup></b-td><b-td class="text-left">1000 units</b-td><b-td>24,661</b-td>
+                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Amount of product production<sup>1)</sup></b-td><b-td class="text-left">1,000 units</b-td><b-td>24,661</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2">Average operation rate<sup>2)</sup></b-td><b-td class="text-left">%</b-td><b-td>72.0</b-td>
@@ -202,16 +202,16 @@
                                     <b-td class="text-left" rowspan="3">Human Capital</b-td><b-td class="text-left" rowspan="2">Input</b-td><b-td class="text-left" colspan="2">Investment in education for employees</b-td><b-td class="text-left">100 million KRW</b-td><b-td>114</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">Total hours of employee training</b-td><b-td class="text-left">hours</b-td><b-td>109,735</b-td>
+                                    <b-td class="text-left" colspan="2">Total hours of employee training</b-td><b-td class="text-left">hour</b-td><b-td>109,735</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Output</b-td><b-td class="text-left" colspan="2">Productivity per person<sup>4)</sup></b-td><b-td class="text-left">1 million KRW/ person</b-td><b-td>605</b-td>
+                                    <b-td class="text-left">Output</b-td><b-td class="text-left" colspan="2">Productivity per person<sup>4)</sup></b-td><b-td class="text-left">1 million KRW/person</b-td><b-td>605</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" rowspan="5">Intellectual Capital</b-td><b-td class="text-left" rowspan="2">Input</b-td><b-td class="text-left" colspan="2">R&amp;D cost</b-td><b-td class="text-left">1 million KRW</b-td><b-td>37,671</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">Number of R&amp;D personnel</b-td><b-td class="text-left">persons</b-td><b-td>366</b-td>
+                                    <b-td class="text-left" colspan="2">Number of R&amp;D personnel</b-td><b-td class="text-left">person</b-td><b-td>366</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" rowspan="3">Output</b-td><b-td rowspan="3" class="text-left">Intellectual property right</b-td><b-td class="text-left">Patents &amp; Utility</b-td><b-td class="text-left">case</b-td><b-td>1,117</b-td>
@@ -229,7 +229,7 @@
                                     <b-td class="text-left" colspan="2">사회공헌 기부금</b-td><b-td class="text-left">1 million KRW</b-td><b-td>884</b-td>
                                 </b-tr> -->
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Volunteer work time per employee</b-td><b-td class="text-left">hours</b-td><b-td>22.1</b-td>
+                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Volunteer work time per employee</b-td><b-td class="text-left">hour</b-td><b-td>22.1</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2">Technology protection and lease for Suppliers</b-td><b-td class="text-left">case</b-td><b-td>6</b-td>
@@ -238,7 +238,7 @@
                                     <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">Input</b-td><b-td colspan="2" class="text-left">Environmental investmentS<sup>5)</sup></b-td><b-td class="text-left">1 million KRW</b-td><b-td>1,502</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">Consumption of raw materials</b-td><b-td class="text-left">tons</b-td><b-td>17,670</b-td>
+                                    <b-td class="text-left" colspan="2">Consumption of raw materials</b-td><b-td class="text-left">ton</b-td><b-td>17,670</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2">Consumption of energy</b-td><b-td class="text-left">GJ</b-td><b-td>118,627</b-td>
