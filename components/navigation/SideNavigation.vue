@@ -12,7 +12,7 @@
         </div>
     </div>
 </div>
-<div v-else class="sticky-top side-nav bg-white font-noto" style="z-index:5; top:5.5rem;">
+<div v-else class="sticky-top side-nav bg-white font-noto" style="z-index:5; top:3.5rem;">
     <h7 :class="[this.$store.state.is_ENG==false? 'line-height-low':'line-height-min', 'mb-3']">
         <nuxt-link :to="toLink('T')" :class="[active_color!='' ? new_hover:'', 'side-nav-link-2 letter-narrow']" :style="isActive('T') ? new_class : '' "> {{ main_title }}</nuxt-link>
     </h7>

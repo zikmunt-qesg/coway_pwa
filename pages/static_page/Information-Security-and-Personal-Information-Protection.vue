@@ -384,8 +384,8 @@
             <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
-                        <b-col class="col-12 col-sm-7 mb-2 mb-sm-0 blue7">
-                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">Information Security and Personal Information Protection</h4-ancor>
+                        <b-col class="col-12 col-sm-9 mb-2 mb-sm-0 blue7">
+                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 pr-lg-4 line-height-low">Information Security and Personal Information Protection</h4-ancor>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
@@ -394,9 +394,9 @@
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
                                     <ul class="material-ul fw-500">
-                                        <li>Thorough management based on information security and personal information protection principles</li>
-                                        <li>Response to global information protection regulations </li>
-                                        <li>System-based monitoring and due diligence</li>
+                                        <li class="mb-2 line-height-low">Thorough management based on information security and personal information protection principles</li>
+                                        <li class="mb-2 line-height-low">Response to global information protection regulations </li>
+                                        <li class="mb-2 line-height-low">System-based monitoring and due diligence</li>
                                     </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
@@ -404,13 +404,13 @@
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
                                             <div class="mx-auto mb-3" style="height:63px"><b-img src="/images/114_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="mb-0 fw-500 font-noto word-break px-lg-4 px-xl-5 mt-m-2">Violations related to information protection and cybersecurity </p>
-                                            <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">0</span>violations for 3 consecutive years</p>
+                                            <p class="fw-400 blue7 mt-m-2 line-height-min"><span class="f-230">0</span>violations for <br>3 consecutive years</p>
+                                            <p class="mb-0 fw-400 font-noto word-break line-height-low">related to information protection and cybersecurity </p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
                                             <div class="mx-auto mb-3" style="height:52px"><b-img src="/images/101_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="mb-0 fw-500 word-break font-noto px-lg-4 px-xl-5"> Participation rate in employee information security training in 2019</p>
                                             <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">100</span>%</p>
+                                            <p class="mb-0 fw-400 word-break font-noto mt-m-2"> Participated in employee information security training in 2019</p>
                                         </b-col>
                                     </b-row>
                                 </b-col>
@@ -418,7 +418,7 @@
                         </b-col>                        
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                             <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
-                            <h7 class="blue7 f-120 mb-3 ">Business relevance & Approach</h7>
+                            <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                             <p> As much as the applicability of data and information-based Infrastructures is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack that both at home and abroad, information security and personal information protection laws are reinforced.
                             </p>
                             <p>Coway collects personal information from many customers due to the characteristics of the rental business. Therefore, safely managing customer information is the linchpin for building trust with customers and for sustainable business. Furthermore, customer information inflows through various methods due to the expansion of service and online distribution channels through IT technology, stimulating the necessity for appropriate reinforcement for the information protection system.
@@ -437,11 +437,11 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c1" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Information Security and Personal Information Protection Principle and Organization</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c1" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Principles and Organizations</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-45">Considering that the rental business collects many customer’s personal information, Coway establish and share information security principle and personal information protection principle for information security in overall business sectors. Coway has established information security principles and guidelines to make it easy to apply information security policies to practice. In 2019, related information was added in line with changes in laws and regulations such as the Information and Communication Network Act and the Personal Information Protection Act. The duplication regulations were simplified and the information protection regulations were revised by specifying the implementation guide.
                     </p>
                 
-                    <h6-ancor hash="c1-1" :activated="activated" class="blue5 mb-3">Information Security and Personal Information Protection Principle</h6-ancor>
+                    <h6-ancor hash="c1-1" :activated="activated" class="blue5 mb-3">Information Security and Personal Information Protection Principles</h6-ancor>
                     <p>The information protection principle applies to all employees and includes internal data management and cybersecurity compliance principles, countermeasures and reporting systems in the event of an information breach, and violations of the principles.
                     </p>
 
@@ -453,19 +453,19 @@
                     <p class="mb-45"> Coway operates an information protection organization centered on the Information Protection Committee. The Information Protection Committee is an executive-level committee operated with the head of the IT Center in the center and the head of each business sector as members of Information Protection Committee. The Information Protection Committee has established an integrated management system in the areas of information security and personal information protection to increase management efficiency. Information security practices are centered on the security team, and we have personal information protection managers within the organization to ensure that all employees participate autonomously and actively in the information protection system under a clear division of duties.
                     </p>
 
-                    <b-img src="/images/85_1.svg" fluid></b-img>
+                    <b-img src="/images/307_1.svg" fluid></b-img>
                     <hr class="mb-45">
 
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Information Security management system</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Information Security Mgt. System</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-5">To maintain thorough data security and protect customer personal information, Coway is pursuing various information protection activities. To protect personal information, we introduced a lifecycle management system from information collection, storage, and utilization to disposal, and continue to systematically manage the system based on international information protection certifications such as ISMS and ISO27001. Additionally, to respond to global information protection regulations, we prepared a guideline to comply with the profiling protection measures of the EU GDPR(General Data Protection Regulation).
                     </p>
                     
-                    <h6-ancor hash="c2-1" :activated="activated" class="blue5 mb-3">Personal Information Protection Life Cycle Management</h6-ancor>
+                    <h6-ancor hash="c2-1" :activated="activated" class="blue5 mb-3">Personal Information Life Cycle Management</h6-ancor>
                     <p class="mb-5">Coway promotes personal information protection lifecycle management to safely manage information in the entire process of collection, storage, utilization, and disposal of personal information. In addition, information security measures are implemented in the management area, physical area, and technology area for further information protection throughout the lifecycle. the management area promotes human security through information protection education along with information handling according to information asset classification, and diagnoses, controls, and recovers IT systems-based technology in the technology area to secure overall system control and resilience beyond physical management limits.
                     </p>
                     <div class="d-md-flex mb-5 w-100">
-                        <div class="mb-4 mb-md-0"><h7 class="gray63 mb-3">Personal Information Protection Lifecycle Management System</h7><hj-img src="/images/86_1.svg" fluid class="pr-md-3"></hj-img></div>
-                        <div class="pl-md-3"><h7 class="gray63 mb-3">Details of Information Protection Measures</h7><hj-img src="/images/87_1.svg" fluid ></hj-img></div>
+                        <div class="mb-4 mb-md-0"><h7 class="gray63 mb-3">Personal Information Protection Lifecycle Management System</h7><hj-img src="/images/307_2.svg" fluid class="pr-md-3"></hj-img></div>
+                        <div class="pl-md-3"><h7 class="gray63 mb-3">Details of Information Protection Measures</h7><hj-img src="/images/307_3.svg" fluid ></hj-img></div>
                     </div>
                     <hr class="py-2">
                      
@@ -488,7 +488,7 @@
                                    <b-td>Organize Accident Response Team</b-td><b-td><p class="indent mb-0">&#9312; Information Protection Manager: Primary report to CISO</p><p class="indent mb-0">&#9313; Related Department: Emergency placement of Accident Response Team members</p><p class="indent mb-0">&#9314; Accident Response Team: Prepare to response to security issue </p></b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Accident Response Team Response Process<br><span class="f-90">(Performed by members of Information Protection Department)</span></b-td><b-td colspan="2" class="text-right align-middle"> <b-img src="/images/116_1.svg" fluid ></b-img></b-td>
+                                <b-td>Accident Response Team Response Process<br><span class="f-90">(Performed by members of Information Protection Department)</span></b-td><b-td colspan="2" class="text-right align-middle"> <b-img src="/images/307_4.svg" fluid ></b-img></b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>Report the accident</b-td><b-td> Report to the Infringement Response Agency</b-td><b-td><p class="indent mb-0"> &#9312; Information Protection Department: Identify the severity of the security incident and report it to the Korea Information Security Agency's Internet Infringement Response Support Center at 118 or the National Cyber Safety Center at 111. </p></b-td>
@@ -504,7 +504,7 @@
 
                     <hr class="py-2">
                     
-                    <h6-ancor hash="c2-2" :activated="activated" class="blue5 mb-3">Response to global information protection regulations</h6-ancor>
+                    <h6-ancor hash="c2-2" :activated="activated" class="blue5 mb-3">Response to Global Data Protection Regulations</h6-ancor>
                     <p class="font-noto"> While the adaptations of new products and services utilizing big data and IoT technologies are expanding, the regulation on personal information protection in the global market, led by the European Union, is strengthening. Accordingly, Coway has established a countermeasure to respond to global privacy regulations such as GDPR. Before launching the IoCare service in Europe in 2019, Coway has reviewed regulations, terms, and processes related to privacy protection to fulfill GDPR requirements. The result of analyzing the status of personal information processing was notified through the IoCare app, and the standard process contract item for the processing of personal information in Europe was reflected in the supplier contract. In addition, we prepared a guideline to comply with GDPR profiling protection measures in case of providing analysis services based on the collected data in the future.
                     </p>
                     <p class="mb-3">In preparation for the strengthened global data protection regulations, we established a response system for regulations on overseas privacy protection and prepared an integrated checklist by reviewing the personal information protection requirements by country of entry for the global expansion possibility.
@@ -525,7 +525,7 @@
                         </p>
                     </section>
                     <hr class="py-2">
-                    <h6-ancor hash="c2-3" :activated="activated" class="blue5 mb-3">Internalization of information protection through training</h6-ancor>
+                    <h6-ancor hash="c2-3" :activated="activated" class="blue5 mb-3">Internalization through Training</h6-ancor>
                     <p class="mb-5 font-noto">Coway conducts information security training for its employees and trustees to raise information security awareness and strengthen its capabilities. Since 2013, we have been conducting an information security e-learning course, an essential course for all employees every year, and in 2018, we provided training on the importance of personal information protection to approximately 15,000 partners who process customer information in the workplace. In 2019, online information protection training was provided to all employees as well as offline training for new employees. Coway is striving to develop training methods and contents to raise the information security awareness of trustees as well as employees.
                     </p>
 
@@ -552,12 +552,12 @@
                             </li>
                         </ol>
                     <hr class="py-3">              
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Monitoring and due diligence process </h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Monitoring and Due Diligence Process</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">To implement the information protection system, we regularly monitor data security and personal information protection. In addition to operating information encryption and security systems to respond to external cyber-attacks and data breaches, we also conduct regular annual mock hacking training. Also, to ensure the safety of internal data management, an anomaly detection system for personal information detects risks and due diligence is conducted in high-risk areas to mitigate risks.
                     </p>
 
-                    <h6-ancor hash="c3-1" :activated="activated" class="blue5 mb-3">System-based risk inspection and due diligence</h6-ancor>
-                    <hj-img src="/images/88_1.svg" fluid></hj-img>
+                    <h6-ancor hash="c3-1" :activated="activated" class="blue5 mb-3">System-based Risk Inspection and Due Diligence</h6-ancor>
+                    <hj-img src="/images/307_5.svg" fluid></hj-img>
                     <hr class="py-4">              
                     
                     <p class="mb-5">Coway selected 15 high-risk offices and conducted on-site inspections based on excessive possession of personal information, personal information inquiry outside office hours, and personal information export through the personal information anomaly detection system in 2019. We have been able to identify and improve cases of abuse that violate information security. During the inspection, 24 items were examined based on the checklist. To increase the security awareness of employees, we strengthened online and offline training, and internal announcement of the personal information cycle to share standard policies for handling personal information. Periodically, we raise awareness of personal information handling and management through "Personal Information Detection Solution" and visit selected branch offices once a year to share standards for handling personal information through regular due diligence and to provide information on processing policy, reducing the risk of handling personal information.
@@ -567,8 +567,8 @@
                         <p class="mb-5">Coway operated PII (Personal Identifiable Information) in PCs at main sales branches and sales offices. When a file containing personal information is stored above the standard value in PC, we detect personal information storage history with periodic inspection of PII and notify the user through the PC notification pop-ups and request to take appropriate measures such as seclusion, deletion, and encryption.
                         </p>
 
-                    <h6-ancor hash="c3-2" :activated="activated" class="blue5 mb-3 font-noto">Major Activities and Performances of Information Security Monitoring in 2019 </h6-ancor>
-                        <b-table-simple responsive class="sep-table f-85 fw-300 font-noto">
+                    <h6-ancor hash="c3-2" :activated="activated" class="blue5 mb-3 font-noto">Major Activities and Performances in 2019</h6-ancor>
+                        <b-table-simple responsive class="sep-table f-85 fw-300 font-noto line-height-low">
                             <b-tbody>
                                 <b-tr class="bg-blue5 fw-300 text-white">
                                     <b-td class="py-0">Category</b-td><b-td class="py-0">Content</b-td><b-td class="py-0">Major Activities and Performances in 2019</b-td>
@@ -583,7 +583,7 @@
                                     </b-td>
                                 </b-tr>
                                     <b-tr>
-                                    <b-td>Internet Data Center(IDC)<sup>1)</sup></b-td>
+                                    <b-td>Internet Data Center (IDC)<sup>1)</sup></b-td>
                                     <b-td class="custom-ul-li table-li"><ul>
                                         <li>Mock hacking (twice a year)</li>
                                         <li>Vulnerability diagnosis (once a year)</li></ul>
@@ -758,25 +758,25 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Information Security and Personal Information Protection Principle and Organization':'정보보안 및 개인정보보호 원칙과 조직', hash: 'c1',
+                    title: this.is_ENG? 'Principles and Organizations':'정보보안 및 개인정보보호 원칙과 조직', hash: 'c1',
                     child: [
-                        { title: this.is_ENG? 'Information Security and Personal Information Protection Principle': '정보보안 및 개인정보보호 원칙', hash: 'c1-1' }, 
+                        { title: this.is_ENG? 'Information Security and Personal Information Protection Principles': '정보보안 및 개인정보보호 원칙', hash: 'c1-1' }, 
                         { title: this.is_ENG? 'Information Protection Organization': '정보보호 조직', hash: 'c1-2' }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Information Security Management System': '정보보호 관리체계', hash: 'c2',
+                    title: this.is_ENG? 'Information Security Mgt. System': '정보보호 관리체계', hash: 'c2',
                     child: [
-                        { title: this.is_ENG? 'Personal Information Protection Life Cycle Management':'개인정보보호 라이프사이클 관리', hash: 'c2-1'  }, 
-                        { title: this.is_ENG? 'Response to Global Information Protection Regulations':'글로벌 정보보호 규제 대응', hash: 'c2-2' }, 
-                        { title: this.is_ENG? 'Internalization of Information Protection through Training': '교육을 통한 정보보호 내재화', hash: 'c2-3'}
+                        { title: this.is_ENG? 'Personal Information Life Cycle Mgt.':'개인정보보호 라이프사이클 관리', hash: 'c2-1'  }, 
+                        { title: this.is_ENG? 'Response to Global Data Protection Regulations':'글로벌 정보보호 규제 대응', hash: 'c2-2' }, 
+                        { title: this.is_ENG? 'Internalization through Training': '교육을 통한 정보보호 내재화', hash: 'c2-3'}
                     ]
                 },
                 {
                     title: this.is_ENG? 'Monitoring and Due Diligence Process': '모니터링 및 실사 프로세스', hash: 'c3',
                     child: [
-                        { title: this.is_ENG? 'System based Risk Inspection and Due Diligence': '시스템 기반 위험 점검 및 실사', hash: 'c3-1'},
-                        { title: this.is_ENG? 'Major Activities and Performances of Information Security Monitoring in 2019': '2019년 정보보호 모니터링 주요활동 및 성과', hash: 'c3-2'}
+                        { title: this.is_ENG? 'System-based Risk Inspection and Due Diligence': '시스템 기반 위험 점검 및 실사', hash: 'c3-1'},
+                        { title: this.is_ENG? 'Major Activities and Performances in 2019': '2019년 정보보호 모니터링 주요활동 및 성과', hash: 'c3-2'}
                     ]
                 }
             ]
