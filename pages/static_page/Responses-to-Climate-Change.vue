@@ -6,7 +6,7 @@
     <b-container v-if="this.$store.state.is_ENG==false" class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR ENVIRONMENT</h1>
-            <h7 class="mb-5 text-center w-100 fw-400"> 환경을 건강하게 사람을 행복하게, 내일을 디자인하는 그린 글로벌 리더 </h7>
+            <h7 class="mb-5 text-center w-100 fw-400"> Green Global Leader Designing Tomorrow for Healthier Environment, and Happier People </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">

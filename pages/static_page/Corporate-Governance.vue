@@ -147,43 +147,43 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td>1차</b-td><b-td>2019년 연간 사업계획 및 예산의 수립 외 1건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>1차</b-td><b-td>2019년 연간 사업계획 및 예산의 수립 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>2차</b-td><b-td>Temporary주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>2차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>3차</b-td><b-td>제30기 정기주주총회 소집의 건 외 6건</b-td><b-td>정기</b-td><b-td class="text-right">2019.02.13</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>4차</b-td><b-td>2019년 1차 Temporary주주총회 소집의 건 외 4건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
+                                    <b-td>4차</b-td><b-td>2019년 1차 임시주주총회 소집의 건 외 4건</b-td><b-td>임시</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>5차</b-td><b-td>사외이사후보추천위원회 구성위원 선임의 건 외 2건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>5차</b-td><b-td>사외이사후보추천위원회 구성위원 선임의 건 외 2건</b-td><b-td>임시</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
                                     <b-td>6차</b-td><b-td>2019년 1분기 배당 결정의 건 외 6건</b-td><b-td>정기</b-td><b-td class="text-right">2019.04.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>7차</b-td><b-td>㈜웅진과의 렌탈사업 영업양수도 계약 체결의 건 외 1건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>7차</b-td><b-td>㈜웅진과의 렌탈사업 영업양수도 계약 체결의 건 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>8차</b-td><b-td>분기배당을 위한 주주명부 기준일 결정의 건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>8차</b-td><b-td>분기배당을 위한 주주명부 기준일 결정의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
                                     <b-td>9차</b-td><b-td>2019년 2분기 배당 결정의 건 외 5건</b-td><b-td>정기</b-td><b-td class="text-right">2019.07.29</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>10차</b-td><b-td>신임 대표이사 선임의 건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>10차</b-td><b-td>신임 대표이사 선임의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>11차</b-td><b-td>내부회계관리규정 개정 승인의 건 외 1건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>11차</b-td><b-td>내부회계관리규정 개정 승인의 건 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
                                     <b-td>12차</b-td><b-td>2019년 3분기 배당 결정의 건 외 3건</b-td><b-td>정기</b-td><b-td class="text-right">2019.10.28</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>  
                                 <b-tr>
-                                    <b-td>13차</b-td><b-td>Temporary주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건 외 2건</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>13차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건 외 2건</b-td><b-td>임시</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>                                                                                                                                                                                                                                                       
                             </b-tbody>
                         </b-table-simple>
