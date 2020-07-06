@@ -145,7 +145,7 @@
                     <b-row no-gutters class="mb-2">
                         <b-col class="col-7 col-md-5 col-xl-4">
                             <div class="parang-bold-short-line mb-1"></div>
-                            <h4 class="parang7 fw-400 mb-0">Innovation That Reflects The Customers<br> Is Changing The World. </h4>
+                            <h4 class="parang7 fw-400 mb-0">Trend-Driven Innovation,<br> the Change of the World Today. </h4>
                         </b-col>
                         <b-col class="col-5 col-md-6 col-xl-7 d-flex align-items-end">
                             <div class="parang-bold-short-line mb-3"></div><div class="parang-thin-line" style="margin-bottom:1.1rem;"></div>
@@ -170,7 +170,7 @@
                             <div class="parang-thin-line position-relative"><div class="parang-bold-short-line position-absolute" style="right:0; top:-1px;"></div></div>
                         </b-col>
                         <b-col class="col-11 col-md-10 pl-3">
-                            <h4 class="parang7 fw-400">Innovation For A Better World, <br>The Future of Coway.</h4>
+                            <h4 class="parang7 fw-400">Future-Oriented Innovation,<br> the Future of Coway.</h4>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="mb-5">

@@ -355,63 +355,63 @@
                     <p class="mb-5">Coway maintains and develops an independent governance structure based on the board of directors to conduct efficient management activities based on checks and balances. The Board of Directors aims to improve transparency, independence, diversity, professionalism, and efficiency to improve long-term corporate value, such as realizing shareholders' returns through stable management activities and profit creation and realizing growth strategies through strategic decision-making.
                     </p>
 
-                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="f1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Responsible Management Centered on the Board of Directors (BoD)</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="f1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Responsible Management Centered on the Board of Directors</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">Coway's board of directors has the highest decision-making power regarding corporate management from shareholders under laws and Articles of Incorporation. It has responsibility and role as a top organization to coordinate various interests with stakeholders and approve management decisions. Coway's board of directors reviews and approves investment plans, conflicts of interest such as internal transactions, and transparent compensation. It  also takes responsibility for the overall long-term risk management of the company.
                     </p>
 
-                    <h6-ancor hash="f1-1" :activated="activated" class="parang6 fw-500 mb-4">Current Status of the BoD</h6-ancor>
-                    <b-table-simple responsive class="sep-table f-90">
+                    <h6-ancor hash="f1-1" :activated="activated" class="parang6 fw-500 mb-4">Current Status of the BOD</h6-ancor>
+                    <b-table-simple responsive class="sep-table f-90 line-height-low">
                         <b-tbody>
                             <b-tr class="bg-parang7 fw-300 text-white">
                                 <b-td class="border-0 py-0">Name</b-td><b-td class="border-0 py-0">Major Role</b-td><b-td class="border-0 py-0">Sex</b-td><b-td class="border-0 py-0">Background<sup>*</sup></b-td><b-td class="border-0 py-0">The Appointed Date</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Bang Joon-hyuk</b-td>
-                                <b-td>Chairman of BoD</b-td>
+                                <b-td>Jun-Hyuk Bang</b-td>
+                                <b-td>Chairman</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ Present Chairman of Coway's Board of Directors</li><li>2014 ~ Present Chairman of the Netmarble Board of Directors</li><li>2011 ~ 2014 Executive Advisor, CJ E&M Game Business Division</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li class="bod-indent">2020 ~ Current | BOD Chairman, Coway</li><li class="bod-indent">2014 ~ Current | BOD Chairman, Netmarble</li><li class="bod-indent">2011 ~ 2014 &ensp;&ensp; | Executive advisor, Game Business Division, CJ E&M</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Lee Hae-Sun</b-td>
+                                <b-td>Hae-sun Lee</b-td>
                                 <b-td>CEO</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ Present CEO, Coway</li><li>2019 ~ 2020 President of Business Technology, Coway</li><li>2016 ~ 2019 CEO, Woongjin Coway</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ Current | CEO, Coway</li><li class="bod-indent">2019 ~ 2020 &ensp;&ensp; | President, Business Technology Group, Coway</li><li class="bod-indent">2016 ~ 2019 &ensp;&ensp; | CEO, Coway</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Seo Jang-Won</b-td>
+                                <b-td>Jang-Won Seo</b-td>
                                 <b-td>Executive Director</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ Present Head of Business Management Division, Coway</li><li>2020 ~ 2020 Head of TF, Netmarble Coway </li><li>2019 ~ 2019 Investment Strategy Manager and Communication Manager, Netmarble</li><li>2015 ~ 2018 Management Strategy, Netmarble  </li><li>2001 ~ 2015 Senior Foreign Attorney, Sejong Law Firm</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li class="bod-indent">2020 ~ Current | Head of Corporate Management Division, Coway</li><li class="bod-indent">2020 ~ 2020 &ensp;&ensp; | Head of Coway TF, Netmarble</li><li class="bod-indent">2019 ~ 2019 &ensp;&ensp; | Officer in Investment Strategy and Communication, Netmarble</li><li class="bod-indent">2015 ~ 2018 &ensp;&ensp; | Officer in Management Strategy, Netmarble </li><li class="bod-indent">2001 ~ 2015 &ensp;&ensp; | Senior U.S. Attorney, Sejong Law Firm</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Kim Jin-Bae</b-td>
-                                <b-td>Independent Director</b-td>
+                                <b-td>Jin-Bae Kim</b-td>
+                                <b-td>Non-executive Director</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2001 ~ Present Professor, Korea University Business School</li><li>1997 ~ 2001 Assistant Professor, Boston University</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li class="bod-indent">2001 ~ Current | Professor in Business Administration, Korea University</li><li class="bod-indent">1997 ~ 2001 &ensp;&ensp; | Assistant Professor, Boston University</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Kim Kyu-Ho</b-td>
-                                <b-td>Independent Director</b-td>
+                                <b-td>Kyu-Ho Kim</b-td>
+                                <b-td>Non-executive Director</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2015 ~ Present Professor, Sogang University (focus on industry-academia cooperation)</li><li>2013 ~ 2014 Executive Director, Samsung Electronics Media Solution Center</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li class="bod-indent">2015 ~ Current | Professor (focused on academic-industrial cooperation), Sogang University</li><li class="bod-indent">2013 ~ 2014 &ensp;&ensp; | Executive Director, Media Solution Center of Samsung Electronics</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Yoon Bu-Hyun</b-td>
-                                <b-td>Independent Director</b-td>
+                                <b-td>Bu-Hyun Yoon</b-td>
+                                <b-td>Non-executive Director</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ Present Advisor, LG Display</li><li>2018 ~ 2020 Advisor, LG U+</li><li>2012 ~ 2018 Executive Director, LG Electronics MC Business Division Management Planning Sector </li><li>2009 ~ 2011 Executive Director, LG Electronics Financial Department</li><li>2007 ~ 2008 Executive Director, LG Electronics Business Planning Sector</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li class="bod-indent">2020 ~ Current | Advisor, LG Display</li><li>2018 ~ 2020 &ensp;&ensp; | Advisor, LG Uplus</li><li class="bod-indent">2012 ~ 2018 &ensp;&ensp; | Executive Director, Management Planning of MC Business Group, LG Electronics </li><li class="bod-indent">2009 ~ 2011 &ensp;&ensp; | Managing Director in Charge of Finance, LG Electronics</li><li class="bod-indent">2007 ~ 2008 &ensp;&ensp; | Managing Director in Charge of Management Planning, LG Electronics</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td>Lee Da-Woo</b-td>
-                                <b-td>Independent Director</b-td>
+                                <b-td>Da-Woo Lee</b-td>
+                                <b-td>Non-executive Director</b-td>
                                 <b-td>Male</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2018 ~ Present Lawyer, Yulchon Law firm</li><li>2016 ~ 2018 Chief Judge, Chuncheon District Court</li><li>2015 ~ 2016 Judge, Seoul Central District Court</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li class="bod-indent">2018 ~ Current | Attorney, Yulchon Law Firm</li><li class="bod-indent">2016 ~ 2018 &ensp;&ensp; | Senior Judge, Chuncheon District Court</li><li class="bod-indent">2015 ~ 2016 &ensp;&ensp; | Judge, Seoul Central District Court</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                         </b-tbody>
@@ -419,7 +419,7 @@
                     <div class="f-80 ml-1 mb-5 fw-300 font-noto gray55">
                         * As of June 2020
                     </div>
-                    <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">Independence and Expertise of BoD</h6-ancor>
+                    <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">Independence and Expertise of BOD</h6-ancor>
                     <p>The proportion of independent directors at Coway is 57.1%, which is higher than that of major companies in South Korea (51.3%, announced by the Fair-Trade Commission in December 2019). Coway's criteria for determining the independence of independent directors are specified in the articles of association of the board of directors under domestic, commercial law, fair trade law, and other laws.
                     </p>
                     <p class="mb-45">Directors are appointed at the general shareholders' meeting under Article 382 of the Commercial Act. The board of directors is composed of at least 3 to maximum 9 members according to the Board’s Articles of Incorporation. As of the end of 2019, the Coway board of directors consists of 1 executive director, 5 independent directors, and 1 non-executive director, but after the change of significant shareholders following the acquisition on February 7, 2020, 3 executive directors and 4 independent directors have been newly appointed. 
@@ -461,58 +461,101 @@
                     <hj-img src="/images/301_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
-                    <h6-ancor hash="f1-3" :activated="activated" class="parang6 fw-500 mb-3">Committees under the Board</h6-ancor>
+                    <h6-ancor hash="f1-3" :activated="activated" class="parang6 fw-500 mb-3">Committees under the BOD</h6-ancor>
                     <p class=""> Coway operates the Management Committee, Independent Director Candidate Recommendation Committee, and Audit Committee as committees under the BOD to fulfill the responsibilities and roles of the BOD efficiently and professionally. As of March 2020, the committee under the BOD consisted of 3 executive directors for the management committee, 3 Independent directors for the audit committee, and 3 independent directors for the independent director candidate recommendation committee. For the board of directors to effectively exercise restraint ability, the ratio of independent directors to the board of directors is more than half. In particular, the Chairman of the Audit Committee is an accounting/financial expert, and it consists of one consumer and consumer electronics industry expert and one legal expert to enhance the expertise of the Audit Committee.
                     </p>
 
                     <p class="mb-5">In 2019, total of 13 board meetings were held, with an average attendance rate of 98.9%.</p>
 
                         <h7 class="mb-2 gray63 font-noto">Board of Directors Main Activities in 2019</h7>
-                        <b-table-simple responsive class="txt-table parang-table font-noto fw-300 f-95 mb-5">
+                        <b-table-simple responsive class="txt-table parang-table font-noto fw-300 f-95 mb-5 line-height-low">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>Meeting</b-td><b-td>Agenda</b-td><b-td>Category</b-td><b-td class="text-right"> Date</b-td><b-td class="text-right">Attendance/Total</b-td>
+                                    <b-td>Meeting</b-td><b-td>Agenda</b-td><b-td>Category</b-td><b-td class="text-right"> Date</b-td><b-td class="text-right">Attendance</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td>1st</b-td><b-td>The establishment of the annual business plan and budget for 2019 and 1 other item</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>1st</b-td><b-td class="custom-ul-li table-li"><ul><li>Establishment of annual business plans and budget for 2019</li><li>Report on operating performances in 2018</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>2nd</b-td><b-td>The closure of the list of shareholders and setting a standard date for the temporary shareholders' meeting</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>2nd</b-td><b-td class="custom-ul-li table-li"><ul><li>Determination of basic date of closing the shareholder list for an extraordinary shareholders’ meeting</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>3rd</b-td><b-td>The convocation of the 30th Regular Shareholders' Meeting and 6 other items</b-td><b-td>Regular</b-td><b-td class="text-right">2019.02.13</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>3rd</b-td><b-td class="custom-ul-li table-li"><ul><li>Convocation of the 30th general shareholders’ meeting</li>
+                                                                                            <li>Conclusion of dividends for the 30th fiscal year </li>
+                                                                                            <li>Approval of transactions with affiliated persons including the largest shareholder</li>
+                                                                                            <li>Establishment of new branches</li>
+                                                                                            <li>Report on operating status of the internal accounting management by the responsible manager except the CEO</li>
+                                                                                            <li>Report on compliance with internal accounting regulation by the Audit Committee</li>
+                                                                                            <li>Report on operating performances in 4Q 2018</li></ul> </b-td>
+                                    <b-td>Regular</b-td><b-td class="text-right">2019.02.13</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>4th</b-td><b-td>1st Temporary Shareholders' Meeting in 2019 and 4 other items</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
+                                    <b-td>4th</b-td><b-td class="custom-ul-li table-li"><ul><li>Convocation of the 1st extraordinary shareholders’ meeting in 2019</li>	
+                                                                                            <li>Conclusion of the CEO’s incentives and the number of exercisable stock options for 2018 and compensation for 2019</li>
+                                                                                            <li>Determination of stock option grant methods</li>
+                                                                                            <li>Determination of basic date of shareholder list for quarterly dividend</li>
+                                                                                            <li>Amendment of the internal accounting management regulation</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>5th</b-td><b-td>The appointment of members of the Independent Director Candidate Recommendation Committee and 2 other items</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>5th</b-td><b-td class="custom-ul-li table-li"><ul><li>Appointment of the members of the Outside Director Candidate Recommendation Committee</li>
+                                                                                            <li>Amendment of the Management Committee regulation</li>
+                                                                                            <li>Appointment of the members of the Management Committee</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
-                                    <b-td>6th</b-td><b-td>Dividend decision in the first quarter of 2019 and 6 other items</b-td><b-td>Regular</b-td><b-td class="text-right">2019.04.29</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>6th</b-td><b-td class="custom-ul-li table-li"><ul><li>Conclusion of dividends in 1Q 2019</li>	
+                                                                                            <li>Determination of stock option grant methods</li>	
+                                                                                            <li>Disbandment of the International Advisory Committee and abolishment of the Committee regulation</li>	
+                                                                                            <li>Amendment of the Management Committee regulation</li>	
+                                                                                            <li>Amendment of the BOD regulation</li>	
+                                                                                            <li>Change of the internal accounting officer</li>	
+                                                                                            <li>Report on operating performance in 1Q 2019</li></ul> </b-td>
+                                    <b-td>Regular</b-td><b-td class="text-right">2019.04.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>7th</b-td><b-td>Rental transfer business contract with Woongjin Co., Ltd. And 1 other item</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>7th</b-td><b-td class="custom-ul-li table-li"><ul><li>Contract for rental business transfer with Woongjin Corporation</li>
+                                                                                            <li>Contract for the payment of brand loyalty</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>8th</b-td><b-td>Decision on the base date of the list of shareholders for quarterly dividends</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>8th</b-td><b-td class="custom-ul-li table-li"><ul><li>Determination of basic date of stockholders' list for quarterly dividend payment</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
-                                    <b-td>9th</b-td><b-td>Dividend decision in 2Q 2019 and 5 other items</b-td><b-td>Regular</b-td><b-td class="text-right">2019.07.29</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>9th</b-td><b-td class="custom-ul-li table-li"><ul><li>Conclusion of dividends in 2Q 2019</li>
+                                                                                            <li>Reappointment of the Compliance Officer</li>
+                                                                                            <li>Installation of branches</li>
+                                                                                            <li>Approval and delegation of the limit of debenture issuance</li>
+                                                                                            <li>Conclusion of a contract for executive director appointment</li>
+                                                                                            <li>Report on operating performances in 2Q 2019</li></ul> </b-td>
+                                    <b-td>Regular</b-td><b-td class="text-right">2019.07.29</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>10th</b-td><b-td>The appointment of new CEO</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>10th</b-td><b-td class="custom-ul-li table-li"><ul><li>Appointment of the new CEO</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>11th</b-td><b-td>The approval of revision of internal accounting management regulations and 1 other item</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>11th</b-td><b-td class="custom-ul-li table-li"><ul><li>Approval of the revision of internal accounting management regulation</li>
+                                                                                             <li>Determination of basic date of stockholders' list for quarterly dividend payment</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>12th</b-td><b-td>Dividend decision in 3Q 2019 and 3 other items</b-td><b-td>Regular</b-td><b-td class="text-right">2019.10.28</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>12th</b-td><b-td class="custom-ul-li table-li"><ul><li>Conclusion of dividends in 3Q 2019	</li>
+                                                                                            <li>Amendment of the Management Committee regulation</li>
+                                                                                            <li>Report on major performances in sustainability management (ESG-based) in 201 and 2019	</li>
+                                                                                            <li>Report on operating performances in 3Q 2019</li></ul> </b-td>
+                                    <b-td>Regular</b-td><b-td class="text-right">2019.10.28</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>  
                                 <b-tr>
-                                    <b-td>13th</b-td><b-td>The closure of the list of shareholders and setting a standard date for the temporary shareholders' meeting and 2 other items</b-td><b-td>Temporary</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>13th</b-td><b-td class="custom-ul-li table-li"><ul><li>Decision of the base date of shareholder list for extraordinary shareholders’ meeting</li>	
+                                                                                            <li>Conclusion of the method to grant stock options</li>
+                                                                                            <li>Cancellation of granting stock options</li></ul> </b-td>
+                                    <b-td>Temporary</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>                                                                                                                                                                                                                                                       
                             </b-tbody>
                         </b-table-simple>
@@ -521,7 +564,7 @@
 
                     <hr class="py-3 mb-5">
 
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Performance Evaluation and Remuneration</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Performance Evaluation and Renumeration</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p> We appoint excellent experts as independent directors with a reasonable pay, considering the level of remuneration in the industry, and we guarantee that excellent experts can actively engage in task-actions. We set basic remuneration for executive directors considering the job and position, longevity, leadership, professionalism, company contribution according to the resolution of the board of directors.  We evaluate the achievement rate by calculating the overall score according to the quantitative indicator task and qualitative indicator task evaluation for incentives. 
                     </p>
                     <p class="mb-5">Coway approved the total annual remuneration to the directors at 4 billion in the 30th regular general shareholders' meeting in 2019 and increased the annual remuneration total to 5 billion at the 31st regular general shareholders' meeting in 2020.
@@ -692,12 +735,12 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Responsible Management Centered on the Board of  Directors(BoD)' : '이사회 중심의 책임경영 수행', 
+                    title: this.is_ENG? 'Responsible Management Centered on the Board of Directors' : '이사회 중심의 책임경영 수행', 
                     hash: 'f1',
                     child: [
-                        { title: this.is_ENG? 'Current Status of the BoD' : '이사회 구성현황', hash: 'f1-1' }, 
-                        { title: this.is_ENG? 'Independence and Expertise of the BoD': '이사회의 독립성 및 전문성', hash: 'f1-2' }, 
-                        { title: this.is_ENG? 'Committees under the BoD': '이사회 산하 위원회 운영', hash: 'f1-3' }
+                        { title: this.is_ENG? 'Current Status of the BOD' : '이사회 구성현황', hash: 'f1-1' }, 
+                        { title: this.is_ENG? 'Independence and Expertise of the BOD': '이사회의 독립성 및 전문성', hash: 'f1-2' }, 
+                        { title: this.is_ENG? 'Committees under the BOD': '이사회 산하 위원회 운영', hash: 'f1-3' }
                     ]
                 },
                 { 
@@ -724,3 +767,10 @@ export default {
     },
 }
 </script>
+<style lang="scss">
+.bod-indent{
+    text-indent: -6.3rem; 
+    margin-left: 6.3rem
+}
+
+</style>
