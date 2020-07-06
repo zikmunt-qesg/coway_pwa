@@ -572,7 +572,7 @@
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Access to new markets</b-td>
-                                    <b-td class="word-break">Precipitation patterns are changing due to climate change. The frequency of yellow dust and fine dust is increasing due to severe drought caused by changes in precipitation patterns. Due to this climate change, the air purifier market has expanded to China, providing Woongjin Coway with a new opportunity to enter the market.</b-td>
+                                    <b-td class="word-break">Precipitation patterns are changing due to climate change. The frequency of yellow dust and fine dust is increasing due to severe drought caused by changes in precipitation patterns. Due to this climate change, the air purifier market has expanded to China, providing Coway with a new opportunity to enter the market.</b-td>
                                     <b-td>Short Term</b-td>
                                 </b-tr>
                                 <b-tr>
@@ -766,7 +766,7 @@
                             </li>
                             <li>Greenhouse gas emissions are zero due to the absence of LPG vehicles among the rental vehicles in 2019.
 
-<Table. Environment/Quality Certification Rate>
+                        <Table. Environment/Quality Certification Rate>
 
                             </li>
                         </ol>
