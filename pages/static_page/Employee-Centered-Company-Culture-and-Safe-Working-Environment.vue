@@ -1186,25 +1186,25 @@
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
-                            <li> Accident rate = Number of victim/number of workers*100 </li>
+                            <li> Accident rate = Number of Victim/Number of Workers*100 </li>
                         </ol>
 
                         <h7 class="mb-3 gray63">LTIFR (Lost Time Injury Frequency Rate)<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td class="text-left">단위</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">Category</b-td><b-td class="text-left">Unit</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
+                                    <b-td class="text-left">Employees</b-td><b-td class="text-left">case/1 million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">사내도급 및 협력사</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">In-House Subcontractors and Suppliers</b-td><b-td class="text-left">case/1 million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
-                            <li> 근로손실재해율 = 재해건 수 / 연 근로시간 X 1,000,000 </li>
+                            <li> 1)	Lost Time Injury Frequency Rate = Number of Cases/Annual Working Hour*1,000,000</li>
                         </ol>
                        
                 </section>

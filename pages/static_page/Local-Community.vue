@@ -6,7 +6,7 @@
     <b-container v-if="this.$store.state.is_ENG==false" class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SOCIETY</h1>
-            <h7 class="mb-5 text-center w-100 fw-400">환경을 건강하게 사람을 행복하게, 건강하고 편리한 삶을 케어합니다.</h7>
+            <h7 class="mb-5 text-center w-100 fw-400">We Make Healthier Environment, Happier People, and Healthy and Convenient Life.</h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -24,7 +24,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-sm-4 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">04</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">지역사회</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Local Community</h4-ancor>
                             </b-col>
                         </b-row>
                          <b-row no-gutters class="px-3 py-4">
@@ -33,7 +33,7 @@
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
-                                <p>코웨이는 우리가 하는 일로 더 나은 세상을 만든다는 ‘착한 믿음’ 가지고 사람과 환경을 위한 나눔을 실천하고 있습니다. 코웨이는 깨끗한 물과 공기에 대한 전문성을 기반으로 가장 잘 할 수 있는 일을 통해, 가장 필요로 하는 곳에 기여하는 코웨이다운 사회공헌을 중점적으로 추진하고 있습니다. 코웨이는 깨끗한 물로 건강한 변화를 만들고, 청정한 공기를 마음껏 누릴 수 있도록 지원하고, 청년 창업가들과 꿈과 비전을 나눕니다.
+                                <p> Coway acts upon the "Goodness" that we make a better world by doing what we do, sharing for people and the environment. Based on our expertise in clean water and air, Coway focuses on "Coway-like" social contributions that contribute to where it is needed most through what we can do best. Coway makes healthy changes with clean water, helps people to enjoy clean air freely, and shares dreams and visions with young entrepreneurs.
                                 </p>
                             </b-col>
                         </b-row>
@@ -41,15 +41,15 @@
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/143_1.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">물, 공기, 사람을 통한 사회공헌</p>
+                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">Contribute to Society Through Water, Air, and People</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/143_2.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">CEO가 함께하는 임직원 봉사단 운영</p>
+                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">Operate Employee Volunteer Group with CEO</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="mx-auto mb-2"><b-img src="/images/143_3.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">말레이시아 글로벌 사회공헌 추진</p>
+                                <p class="fw-500 word-break px-sm-3 px-lg-5 mx-xl-3">Promote Malaysia's Global Social Contribution</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
@@ -57,33 +57,33 @@
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="mx-auto mb-2"><b-img src="/images/143_4.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break">'착한 정수기' 캠페인</p>
+                                        <p class="fw-500 word-break">"Good Water Purifier" Campaign</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="mx-auto mb-3"><b-img src="/images/143_5.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break">취약계층 환경 개선 사업</p>
+                                        <p class="fw-500 word-break">Environment Improvement Project for Vulnerable Groups</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-4 text-center fw-500 px-lg-2"><div class="mx-auto mb-3"><b-img src="/images/143_6.svg" fluid></b-img></div>
-                                        <p class="fw-500 word-break">청년 창업사관학교 COWAY Wi School 운영</p>
+                                        <p class="fw-500 word-break">Youth Start-up Academy COWAY Wi School</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
                             <b-col class="col-12 col-md-4 position-relative pl-md-4">
                                 <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="gold7 mb-45 w-100">Performance</h7>
-                                <span class="f-330 fw-400 font-italic">22.1</span><span class="fw-500"> 시간</span> <br>
-                                <p class="fw-500 line-height-low f-100 word-break">임직원 인당 봉사활동 참여</p>
+                                <span class="f-330 fw-400 font-italic">22.1</span><span class="fw-500"> hours</span> <br>
+                                <p class="fw-500 line-height-low f-100 word-break">Volunteer Participation per Employee</p>
                             </b-col>                            
                         </b-row>
                     </div>
                 </section> 
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45">코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">“Coway-like” Social Contribution</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-45"> Coway promotes social contribution based on the management spirit of "Goodness" to protect the precious nature of water and air and make life healthy and enriched in a sustainable way. Based on Coway's core business capabilities, water and air, and employees, we are pursuing strategic social contributions to create new social values in the local community. The core value of Coway's social contribution is to create a better life and society by contributing to where it is most needed based on what Coway can do best.
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>코웨이 사회공헌 웹사이트 바로가기</b-button></a>
+                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>Link-Coway Social Contribution Website:</b-button></a>
                         <hr class="mb03">
-                        <h7 class="gray63 mb-3">코웨이 사회공헌 전략</h7>
+                        <h7 class="gray63 mb-3">Coway Social Contribution Strategy</h7>
                         <b-img src="/images/10_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
@@ -106,20 +106,21 @@
                         </b-table-simple> -->
 
                     <section class="border-gold px-4 py-3 mb-5">
-                        <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 긴급재해 기부</p>
-                        <p class="mb-3">코웨이는 코로나바이러스감염증19로 인해 많은 지원이 필요한 우리 지역사회에 응원과 격려의 마음을 보태기 위해 모회사인 넷마블과 함께 각 10억원씩 성금을 전국재해구호협회 희망브리지에 기부하였습니다. 이 성금은 전국재해구호협회를 통해 방호 물품, 진단키트 등 의료 물품 부족 상황에 직면한 전국 의료진에 대한 지원과 의료·복지 시설의 방역에 사용되었습니다. 또한 코웨이 말레이시아법인은 말레이시아 정부에 코로나19 극복 성금 30만 링깃을 전달하였습니다. 코웨이는 전 세계가 힘을 모아 코로나19로 인한 어려움을 극복하고 안전한 생활환경을 되찾을 수 있도록 지원을 아끼지 않겠습니다.
+                        <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>COVID<span class="fw-600">-19</span> Emergency Disaster Donation</p>
+                        <p class="mb-3"> Coway donated a donation of 1 billion KRW to Hope Bridge of the National Disaster Relief Association and its parent company Netmarble to add support and encouragement to our communities that need much support due to COVID-19. This donation was used by the National Disaster Relief Association to provide medical aid to nationwide medical personnel in the face of a shortage of medical supplies, such as protective items and diagnostic kits, and to prevent medical and welfare facilities. Also, the Malaysian Coway Corporation delivered 300,000 MYR (Malaysian Ringgit) to the Malaysian government to overcome the COVID-19. Coway will spare no effort to help the whole world work together to overcome the difficulties caused by COVID-19 and regain a safe living environment.
                         </p>
                     </section>
                     <hr class="py-3">
-                    <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3">임직원과 함께하는 나눔 실천</h6-ancor>
-                        <p class="mb-45">코웨이는 임직원 참여 사회공헌 활동을 통해 나눔을 실천합니다. CEO를 단장으로 하는 임직원 봉사단을 운영하여 본사뿐만 아니라 R&amp;D센터 및 공장 등 전사 임직원의 적극적인 참여를 기반으로 하고 있습니다.
+                    <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3">Practice Sharing with all Employees</h6-ancor>
+                        <p class="mb-45"> Coway practices sharing through employees' social contribution activities. We operate an employee volunteer group led by the CEO, based on the active participation of all employees, including R&D centers and factories, as well as the head office. Bluebird, a smart sales organization, has signed an agreement with the Children's Cancer Foundation to practice regular volunteer activities. In 2019, we celebrated to end the treatment to encourage and congratulate 150 children who have completed treatment for childhood cancer leukemia.
+
                         </p>
                         <hj-img src="/images/15_1.svg" fluid></hj-img>
                         <hr class="space-p25">
-                        <h7 class="mb-3 gray63">임직원 봉사활동 성과</h7>
+                        <h7 class="mb-3 gray63">Employee Volunteer Activities</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
+                                <b-td class="text-left">Category</b-td> <b-td class="text-left">Unit</b-td><b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
