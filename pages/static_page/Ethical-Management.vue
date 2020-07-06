@@ -271,10 +271,10 @@ export default {
                     title: this.is_ENG? 'Code of Conduct':'윤리강령(Code of Conduct)', hash: 'g1'
                 },
                 { 
-                    title: this.is_ENG? 'Code of Conduct':'윤리진단(Compliance Check Organization)', hash: 'g2'
+                    title: this.is_ENG? 'Compliance Check Organization':'윤리진단(Compliance Check Organization)', hash: 'g2'
                 },
                 { 
-                    title: this.is_ENG? 'Code of Conduct':'윤리교육(Consensus by Ethic Education)', hash: 'g3'
+                    title: this.is_ENG? 'Consensus by Ethic Education':'윤리교육(Consensus by Ethic Education)', hash: 'g3'
                 },                
             ]
             return temp            

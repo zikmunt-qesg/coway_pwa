@@ -61,7 +61,7 @@
                                     <b-td rowspan="3">임직원<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>사내 온라인 상담 채널</b-td><b-td>수시</b-td>
+                                    <b-td>사내 온라인 상담 채널(소나무 베이커리, 코러스)</b-td><b-td>수시</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>아이디어 제안 제도(상상오션)</b-td><b-td>수시</b-td>
@@ -422,7 +422,7 @@
                                     <b-td rowspan="3">Employees<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>Labor Management Council </b-td><b-td>Once a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Fair performance evaluation and compensation</li><li>Competency development</li><li>Work-life balance</li><li>Diversity-based corporate culture</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>In-house Online Consultation Channel</b-td><b-td>Frequently</b-td>
+                                    <b-td>In-house Online Consultation Channel (Pine Tree bakery, Chorus)</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Idea Proposal System (Imagination Ocean)</b-td><b-td>Frequently</b-td>
@@ -515,7 +515,7 @@
                         </b-col>
                     </b-row>
                     <hr class="py-2">
-                    <h6-ancor hash="e2-2" :activated="activated" class="parang6 mb-3 font-noto">Step 2. Analyze &amp; Assessment</h6-ancor>
+                    <h6-ancor hash="e2-2" :activated="activated" class="parang6 mb-3 font-noto">Step 2. Analyze & Assessment</h6-ancor>
                     <p class="mb-45">Identifying business relevance and impact on stakeholders among the 26 issue pools, we drew priority management issues. To derive business relevance, we applied an internal analysis of Coway's sustainable management and closeness of issues within the industry. To identify the level of stakeholder impact on each issue, we analyzed the priority of issues by seven major stakeholders through an online survey. In addition, we evaluated how the priority issues derived through the analysis of relevance and impact will affect Coway's business value creation in three categories: (1) Cost, (2) Revenue, and (3) Risk.
                     </p>
 
@@ -613,7 +613,7 @@
                     
                     <div class="d-flex mb-4 position-relative overflow-hidden"> <h6-ancor hash="e3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Materiality Context and Long-Term Target</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
 
-                    <h6-ancor hash="e3-1" :activated="activated" class="parang6 mb-3 pb-2">Development of Customized Products and ervices</h6-ancor>
+                    <h6-ancor hash="e3-1" :activated="activated" class="parang6 mb-3 pb-2">Customized Products and Services</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3">
                         <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
@@ -646,12 +646,12 @@
                             </div>
                         </b-col>
                     </b-row>                   
-                    <p>Coway’s business model continues to gain trust from customer satisfaction through providing products and services at the customer’s level, evolving with customers continuously. Coway grows together with customers by providing new experiences and enhancing the value of life through the innovation of products and services. As a result, we continued to innovate our products to increase the essential value of cleanliness based on our expertise in water and air that we were awarded the CES Innovation Award for the fifth consecutive year in 2019. Moreover, we undertake efforts to show future technology-based services by recognizing changes in customer lifestyles and proactively reflecting them in services. In 2019, we introduced “Water Map Service”, a big data-based product recommendation service, and “Air care service,” which allows you to experience an air purifier suitable for your personal living environment through virtual simulation.
+                    <p>Coway’s business model continues to gain trust from customer satisfaction through providing products and services at the customer’s level, evolving with customers continuously. Coway grows together with customers by providing new experiences and enhancing the value of life through the innovation of products and services. As a result, we continued to innovate our products to increase the essential value of cleanliness based on our expertise in water and air that we were awarded the CES Innovation Award for the fifth consecutive year in 2019. Moreover, we undertake efforts to show future technology-based services by recognizing changes in customer lifestyles and proactively reflecting them in services. In 2019, we introduced "Water Map Service", a big data-based product recommendation service, and "Air Doctor Service", which allows ydoctorou to experience an air purifier suitable for your personal living environment through virtual simulation.
                     </p>
                     <p class="mb-5">Coway continues to improve customer satisfaction by providing customized care for the daily life of customers through continuous research on customers. Based on the effort, we plan to increase customer value by establishing the goal to achieve 77 points of customer satisfaction in 2020 in the short term and 87 points of customer satisfaction in 2030 in the long term.
                     </p>
 
-                    <h6-ancor hash="e3-2" :activated="activated" class="parang6 mb-3">Enhancement of Product Safety and Reliability</h6-ancor>
+                    <h6-ancor hash="e3-2" :activated="activated" class="parang6 mb-3">Product Safety and Reliability</h6-ancor>
                     <b-row no-gutters class="mb-4 border-bottom-dark pb-3 pt-1">
                         <b-col class="col-12 col-md-5 pr-md-3 mb-3 mb-md-0">
                             <div class="parang8-box py-1 fw-500 text-center mb-3" style="width:156px">Actvities</div>
@@ -673,7 +673,7 @@
                         </b-col>
                     </b-row>      
 
-                    <p> As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, “Manufacturing Sector Grand Prize” and “Service Quality Excellence Award” by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification.
+                    <p> As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, "Manufacturing Sector Grand Prize" and "Service Quality Excellence Award" by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification.
                     </p>
                     <p class="mb-5"> To improve product reliability, Coway has established reliability test equipment in various fields such as environment, packaging and transportation, failure analysis, material and chemistry, and software verification, and has continuously introduced and operated about 40 state-of-the-art analysis equipment. To ensure customer trust and safety, Coway evaluates whether standard safety and performance effectiveness at the time of its initial development continues. The safety/performance certification conformity assessment of the finished product unit increases annually, and 57 safety cases were verified in 2018. In 2019, the infrastructure was expanded to evaluate about 350 cases for safety and performance certification of products and parts, which significantly increased the level of management of mass production products. In 2020, we will establish more than 400 evaluation plans to prevent social issues and strengthen product safety. Based on this, we will put our best efforts to provide products that customers can use with confidence.
                     </p>
@@ -739,7 +739,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Stakeholder Engagement and Material Issues' : '이해관계자 참여 및 중요 주제'
+            return this.is_ENG? 'Stakeholder Engagement and Material Topics' : '이해관계자 참여 및 중요 주제'
         },
         sub_titles(){
             let temp = [
@@ -747,18 +747,18 @@ export default {
                     title: this.is_ENG? 'Stakeholder Engagement':'이해관계자 참여', hash: 'e1'
                 },
                 { 
-                    title: this.is_ENG? 'Materiality Test': '중대성 평가', hash: 'e2',
+                    title: this.is_ENG? 'Materiality Assessment': '중대성 평가', hash: 'e2',
                     child: [
-                        { title: this.is_ENG? 'Step 1. Organize an Issue Pool': 'Step 1. 이슈 풀(Pool) 구성', hash: 'e2-1' }, 
-                        { title: this.is_ENG? 'Step 2. Conduct Materiality Test': 'Step 2. 중대성 평가 실시', hash: 'e2-2' }, 
-                        { title: this.is_ENG? 'Step 3. Report Material Issues': 'Step 3. 중요 주제 보고', hash: 'e2-3' }, 
+                        { title: this.is_ENG? 'Step 1. Configuring the Issue Pool': 'Step 1. 이슈 풀(Pool) 구성', hash: 'e2-1' }, 
+                        { title: this.is_ENG? 'Step 2. Analyze & Assessment': 'Step 2. 중대성 평가 실시', hash: 'e2-2' }, 
+                        { title: this.is_ENG? 'Step 3. Reporting': 'Step 3. 중요 주제 보고', hash: 'e2-3' }, 
                     ] 
                 },
                 { 
-                    title: this.is_ENG? 'Materiality Context and Medium and Long Term Goals': '중대성 맥락과 중장기 목표', hash: 'e3',
+                    title: this.is_ENG? 'Materiality Context and Long-Term Target': '중대성 맥락과 중장기 목표', hash: 'e3',
                     child: [
-                        { title: this.is_ENG? 'Development of Customized Products and Services': '고객 맞춤형 제품 및 서비스 개발', hash: 'e3-1' }, 
-                        { title: this.is_ENG? 'Enhancement of Product Safety and Reliability': '제품 안전 및 신뢰성 강화', hash: 'e3-2' }, 
+                        { title: this.is_ENG? 'Customized Products and Services': '고객 맞춤형 제품 및 서비스 개발', hash: 'e3-1' }, 
+                        { title: this.is_ENG? 'Product Safety and Reliability': '제품 안전 및 신뢰성 강화', hash: 'e3-2' }, 
                         { title: this.is_ENG? 'Information Protection': '정보보호', hash: 'e3-3' }, 
                     ] 
                 },                

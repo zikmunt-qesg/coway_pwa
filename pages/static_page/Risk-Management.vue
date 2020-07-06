@@ -376,10 +376,10 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Company Wide Risk Management System': '전사적 리스크 관리 체계', hash: 'h1'
+                    title: this.is_ENG? 'Company-wide Risk Management System': '전사적 리스크 관리 체계', hash: 'h1'
                 },
                 { 
-                    title: this.is_ENG? 'Company Wide Risk Management System': '잠재 리스크의 관리', hash: 'h2'
+                    title: this.is_ENG? 'Emerging Risks': '잠재 리스크의 관리', hash: 'h2'
                 }
             ]
             return temp            
