@@ -161,7 +161,7 @@
             <b-container class="px-0">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">인권 리포트</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">Human Right Report</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="w1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 경영 원칙 및 가이드</h6-ancor></div>
                     <p>전 세계적으로 차별 방지, 다양성 존중 등 인권에 대한 관심이 증대되고 인권 관련 규제 및 가이드라인도 점차 강화되고 있습니다. 많은 기업이 인권 경영을 지속가능성을 담보할 수 있는 기본 원칙으로 삼고 있으며, 코웨이 또한 우리가 하는 일이 더 나은 세상을 만드는 데 기여한다는 '착한믿음'의 경영정신을 바탕으로 인권경영 활동을 충실히 이행하고 있습니다. 나아가 코웨이는 사업을 영위하는 모든 국가와 지역의 노동, 인권 및 근로조건 기준을 준수합니다. 코웨이의 인권 정책은 임직원뿐만 아니라 고객, 협력사, 영업·서비스 파트너 및 지역사회 등 모든 이해관계자들에게도 적용됩니다. 
