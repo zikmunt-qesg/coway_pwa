@@ -221,7 +221,7 @@
                     </div></div>
                     <hr class="mb-3">-->
 
-                    <h6-ancor hash="j1-1" :activated="activated" class="parang6 fw-500 mb-2">Steady expansion of overseas business</h6-ancor>
+                    <h6-ancor hash="j1-1" :activated="activated" class="parang6 fw-500 mb-2">Steady Expansion of Overseas Business</h6-ancor>
                     <p class="mb-45">In 2019, overseas business sales amounted to 749.1 billion KRW, up 37.7% from the previous year. Sales in Malaysia and the U.S. increased significantly, and overseas subsidiaries continue to proliferate. For each major subsidiary, Malaysian subsidiaries' sales increased by 48.9%, reaching 532.6 billion KRW, from the previous year's sales 353.4 billion KRW, and the accounts increased by 38.8% from 976,000 accounts in 2018 to 1,354,000 accounts. The U.S. maintains substantial growth, reaching 97.3 billion KRW in sales, 29.7% over the previous year's sales of 80.5 billion KRW, and the accounts increased by 4.7% from 114,000 to 120,000 accounts
                     </p>
 
