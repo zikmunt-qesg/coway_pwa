@@ -171,7 +171,7 @@
                     <hj-img src="/images/300_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-3">
-                        <!-- <h7 class="mb-3 gray63">통합 자본표</h7> -->
+                        <h7 class="mb-3 gray63">Integrated Capital Table</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="4">Category</b-td><b-td>Unit</b-td><b-td>2019</b-td>

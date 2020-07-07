@@ -192,6 +192,11 @@
             <hr class="space-p75">
         </b-container>
 
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->    
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+
         <b-container v-else class="pt-5 position-relative">
                 <b-nav tabs class="my-5 position-relative">
                     <b-nav-item active class="f-110 fw-400"> GRI </b-nav-item>
@@ -199,7 +204,7 @@
                     <b-nav-item @click.stop.prevent="$router.push('/framework/djsi')" class="f-110 fw-400"> DJSI Public </b-nav-item>
                 </b-nav>
 
-                <b-card class="border-0 px-4 fw-400">
+                <b-card class="border-0 px-4 fw-400 font-noto">
                 The GRI(Global Reporting Initiatives) provides international standards organizations that help businesses, governments, and other organizations understand and disclose information on the impact of sustainability issues such as climate change, human rights, and corruption. Coway has prepared and released the report following the core compliance method of the GRI Sustainability Disclosure Standard.
                 </b-card>
 
@@ -233,7 +238,7 @@
                                 </template>
                                 <template v-else>
                                     <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -269,12 +274,12 @@
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
                                 <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </a>
                             </template>
                             <template v-else>
                                 <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -311,12 +316,12 @@
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
                                 <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </a>
                             </template>
                             <template v-else>
                                 <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -353,12 +358,12 @@
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
                                 <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </a>
                             </template>
                             <template v-else>
                                 <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
                                 </nuxt-link>
                             </template>
                         </span>

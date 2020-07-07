@@ -390,7 +390,7 @@
                     </b-row>
                 </section>
                 <hr class="py-2">
-                <h6-ancor hash="a1-2" :activated="activated" class="blue5 mb-3">Diversification of Customized Innovation</h6-ancor>
+                <h6-ancor hash="a1-2" :activated="activated" class="blue5 mb-3">Diversification of Innovation</h6-ancor>
                 <b-row class="mb-5">
                     <b-col class="col-12 col-sm-6">
                         <p class="mb-4 mb-sm-3"> In Coway, we develop customized products for various life environments to innovate customer lifestyles. In 2019, Coway developed customized products, starting from the air purifier product line. As a growing number of customers seek the quality of life in the living space, Coway developed wall-mountable products (AP-1519B, AP3519A), Design furniture type air purifier (AP-1019D), that can be used for different living environments, to reflect customer’s needs for building personalized space. Moreover, we have developed a self-manageable air purifier cartridge (AP-1019C) that allows users to easily clean and replace filters by notifying them with filter replacement notifications in light of the recent growing need for non-face-to-face services in the domestic and foreign markets.  
@@ -566,7 +566,7 @@ export default {
                     title: this.is_ENG? 'Product Innovation':'본질적 가치를 높이는 제품 혁신', hash: 'a1',
                     child: [
                         { title: this.is_ENG? 'HANDSPAN CIROO, The Integration of Technology': '혁신 기술의 집약, 한뼘 시루직수 정수기 개발', hash: 'a1-1' }, 
-                        { title: this.is_ENG? 'Diversification of Customized Innovation':'고객 맞춤형 혁신 다각화', hash: 'a1-2' }, 
+                        { title: this.is_ENG? 'Diversification of Innovation':'고객 맞춤형 혁신 다각화', hash: 'a1-2' }, 
                     ]
                 },
                 { 
