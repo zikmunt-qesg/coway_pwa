@@ -457,20 +457,20 @@
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Information Security Management System</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="pb-3 mb-5">To maintain thorough data security and protect customer personal information, Coway is pursuing various information protection activities. To protect personal information, we introduced a lifecycle management system from information collection, storage, and utilization to disposal, and continue to systematically manage the system based on international information protection certifications such as ISMS and ISO27001. Additionally, to respond to global information protection regulations, we prepared a guideline to comply with the profiling protection measures of the EU GDPR(General Data Protection Regulation).
+                    <p class="pb-3 mb-5">To maintain thorough data security and protect customer's privacy, Coway is pursuing various information protection activities. To protect personal information, we introduced a lifecycle management system from information collection, storage, and utilization to disposal, and continue to systematically manage the system based on international information protection certifications such as ISMS and ISO27001. Additionally, to respond to global information protection regulations, we prepared a guideline to comply with the profiling protection measures of the EU GDPR(General Data Protection Regulation).
                     </p>
                     
-                    <h6-ancor hash="c2-1" :activated="activated" class="blue5 mb-3">Personal Information Life Cycle Management</h6-ancor>
-                    <p class="mb-5">Coway promotes personal information protection lifecycle management to safely manage information in the entire process of collection, storage, utilization, and disposal of personal information. In addition, information security measures are implemented in the management area, physical area, and technology area for further information protection throughout the lifecycle. the management area promotes human security through information protection education along with information handling according to information asset classification, and diagnoses, controls, and recovers IT systems-based technology in the technology area to secure overall system control and resilience beyond physical management limits.
+                    <h6-ancor hash="c2-1" :activated="activated" class="blue5 mb-3">Privacy Life Cycle Management</h6-ancor>
+                    <p class="mb-5">Coway promotes privacy protection lifecycle management to safely manage information in the entire process of collection, storage, utilization, and disposal of personal information. In addition, information security measures are implemented in the management area, physical area, and technology area for further information protection throughout the lifecycle. the management area promotes human security through information protection education along with information handling according to information asset classification, and diagnoses, controls, and recovers IT systems-based technology in the technology area to secure overall system control and resilience beyond physical management limits.
                     </p>
                     <div class="d-md-flex mb-5 w-100">
-                        <div class="mb-4 mb-md-0"><h7 class="gray63 mb-3">Personal Information Protection Lifecycle Management System</h7><hj-img src="/images/307_2.svg" fluid class="pr-md-3"></hj-img></div>
+                        <div class="mb-4 mb-md-0"><h7 class="gray63 mb-3">Privacy Protection Lifecycle Management System</h7><hj-img src="/images/307_2.svg" fluid class="pr-md-3"></hj-img></div>
                         <div class="pl-md-3"><h7 class="gray63 mb-3">Details of Information Protection Measures</h7><hj-img src="/images/307_3.svg" fluid ></hj-img></div>
                     </div>
                     <hr class="py-2">
                      
-                    <h7 class="mb-2 gray63">Collection and consent of personal information</h7>
-                    <p class="mb-5">In the process of collecting customer's personal information and seeking consent to collect the information, we are doing our best to prevent misunderstandings by complying with laws and regulations and providing a clear explanation of the contents. In particular, from 2018, a more rigorous collection process was applied, including augmenting the process of confirming if the customers understand the consent in the existing personal information collection and consent process. Also, a procedure has been added to send a separate text before consent to collect personal information so that customers can be informed of the information to be agreed upon. In the future, if development or modification occurs in the personal information processing system with personal information, we plan to process and proceed to check the security of personal information based on a checklist in the testing stage.
+                    <h7 class="mb-2 gray63">Collection and Consent of Privacy</h7>
+                    <p class="mb-5">In the process of collecting customer's personal information and seeking consent to collect the information, we take the best effort to prevent misunderstandings by complying with laws and regulations and by providing a clear explanation of the contents. In particular, from 2018, a more rigorous collection process was applied, including augmenting the process of confirmation if the customers understand the consent in the existing personal information collection and consent process. Also, a procedure has been added to send a separate text before consent to collect personal information so that customers can be informed of the information to be agreed upon. In the future, if development or modification occurs in the privacy processing system with personal information, we plan to process and proceed to check the security of privacy based on a checklist in the testing stage.
                     </p>
 
                     <h7 class="mb-2 gray63">Response system in case of personal information infringement</h7>
@@ -482,7 +482,7 @@
                         </b-tr></b-thead>
                         <b-tbody>
                             <b-tr>
-                                <b-td rowspan="2">Aware of the accident</b-td><b-td>Notify the security issue</b-td><b-td><p class="indent mb-0">&#9312; The department aware of the security issue: Report possible security issues to Information Protection Manager</p><p class="indent mb-0">&#9313; Information Protection Department (Information Management Team): Figure out the cause of security issue</p></b-td>
+                                <b-td rowspan="2">Aware of the accident</b-td><b-td>Notify the security issue</b-td><b-td><p class="indent mb-0">&#9312; The department awares of the security issue: Report possible security issues to Information Protection Manager</p><p class="indent mb-0">&#9313; Information Protection Department (Information Management Team): Figure out the cause of security issue</p></b-td>
                             </b-tr>
                             <b-tr>
                                    <b-td>Organize Accident Response Team</b-td><b-td><p class="indent mb-0">&#9312; Information Protection Manager: Primary report to CISO</p><p class="indent mb-0">&#9313; Related Department: Emergency placement of Accident Response Team members</p><p class="indent mb-0">&#9314; Accident Response Team: Prepare to response to security issue </p></b-td>
@@ -512,24 +512,24 @@
                     <p class="f-80 ml-1 mb-5"> *GDPR(General Data Protection Regulation): Regulation of the protection of personal information of citizens of the European Union member states. Effective from May 2018.</p>
                     <hr class="py-2">
                     <section class="border-blue px-4 py-3 mb-5">
-                        <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>Information protection certification acquirement</p>
+                        <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>Information Protection Certification Acquirement</p>
                         <p class="mb-4 font-noto">Coway renewed its domestic certification system, Information Security Management System (ISMS) certification, and acquired ISO27001, the international information security management system certification standard to safely protect customers' information assets. 
                         </p>
-                        <p class="mb-2 fw-500"> ISMS information protection management system certification  
+                        <p class="mb-2 fw-500"> ISMS Information Protection Management System Certification  
                         </p>
-                        <p class="mb-4 font-noto"> ISMS is an information security management system certification provided by the Korea Information and Communication Promotion Association and Korea Internet & Security Agency. Among the range of online customer service operations, we have certifications for environmental appliances and cosmetics and plan to expand the scope to the "cloud" sector by 2020. After obtaining the renewal in 2017, we conducted a post-examination in 2019. Three years after the current renewal, the renewal screening will be conducted in 2020.
+                        <p class="mb-4 font-noto"> ISMS is an information security management system certification provided by the Korea Information and Communication Promotion Association and Korea Internet & Security Agency. Among the range of online customer service operations, we have certifications for home appliances and cosmetics and plan to expand the scope to the "cloud" sector by 2020. After obtaining the renewal in 2017, we conducted a post-examination in 2019. 3 years after the current renewal, the renewal screening will be conducted in 2020.
                         </p>
                         <p class="mb-2 fw-500 font-noto"> ISO27001 (International Standard for Information Security Management System) certification
                         </p>
-                        <p class="mb-3 font-noto"> ISO27001 is an international standard certification for the information security management system established by the International Organization for Standardization (ISO). Currently, it holds certifications in IT areas including IT planning, operation, development, and maintenance related to life care and sales systems. After the first acquirement in 2017, three years have passed and the first screening will be conducted in 2020.
+                        <p class="mb-3 font-noto"> ISO27001 is an international standard certification for the information security management system established by the International Organization for Standardization (ISO). Currently, it holds certifications in IT areas including IT planning, operation, development, and maintenance related to life care and sales systems. After the first acquirement in 2017, 3 years have passed and the first screening will be conducted in 2020.
                         </p>
                     </section>
                     <hr class="py-2">
-                    <h6-ancor hash="c2-3" :activated="activated" class="blue5 mb-3">Internalization through Training</h6-ancor>
+                    <h6-ancor hash="c2-3" :activated="activated" class="blue5 mb-3">Internalization Through Training</h6-ancor>
                     <p class="mb-5 font-noto">Coway conducts information security training for its employees and trustees to raise information security awareness and strengthen its capabilities. Since 2013, we have been conducting an information security e-learning course, an essential course for all employees every year, and in 2018, we provided training on the importance of personal information protection to approximately 15,000 partners who process customer information in the workplace. In 2019, online information protection training was provided to all employees as well as offline training for new employees. Coway is striving to develop training methods and contents to raise the information security awareness of trustees as well as employees.
                     </p>
 
-                        <h7 class="mb-2 gray63">Information security training participation status<sup>1)</sup></h7>
+                        <h7 class="mb-2 gray63">Information Security Training Participation Status<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table f-85">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -553,10 +553,10 @@
                         </ol>
                     <hr class="py-3">              
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Monitoring and Due Diligence Process</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-5">To implement the information protection system, we regularly monitor data security and personal information protection. In addition to operating information encryption and security systems to respond to external cyber-attacks and data breaches, we also conduct regular annual mock hacking training. Also, to ensure the safety of internal data management, an anomaly detection system for personal information detects risks and due diligence is conducted in high-risk areas to mitigate risks.
+                    <p class="mb-5">To implement the information protection system, we regularly monitor data security and privacy protection. In addition to operating information encryption and security systems to respond to external cyber-attacks and data breaches, we also conduct regular annual mock hacking training. Also, to ensure the safety of internal data management, an anomaly detection system for personal information detects risks and due diligence is conducted in high-risk areas to mitigate risks.
                     </p>
 
-                    <h6-ancor hash="c3-1" :activated="activated" class="blue5 mb-3">System-based Risk Inspection and Due Diligence</h6-ancor>
+                    <h6-ancor hash="c3-1" :activated="activated" class="blue5 mb-3">System-Based Risk Inspection and Due Diligence</h6-ancor>
                     <hj-img src="/images/307_5.svg" fluid></hj-img>
                     <hr class="py-4">              
                     
