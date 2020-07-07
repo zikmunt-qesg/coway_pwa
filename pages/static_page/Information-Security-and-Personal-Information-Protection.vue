@@ -385,7 +385,7 @@
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
                         <b-col class="col-12 col-sm-9 mb-2 mb-sm-0 blue7">
-                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 pr-lg-4 line-height-low">Information Security and Personal Information Protection</h4-ancor>
+                            <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 pr-lg-4 line-height-low">Information Security and Privacy Protection</h4-ancor>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="px-3 pb-4">
@@ -394,9 +394,9 @@
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
                                     <ul class="material-ul fw-500">
-                                        <li class="mb-2 line-height-low">Thorough management based on information security and personal information protection principles</li>
-                                        <li class="mb-2 line-height-low">Response to global information protection regulations </li>
-                                        <li class="mb-2 line-height-low">System-based monitoring and due diligence</li>
+                                        <li class="mb-2 line-height-low">Thorough Management Based on Information Security and Privacy Protection Principles</li>
+                                        <li class="mb-2 line-height-low">Response to Global Information Protection Regulations </li>
+                                        <li class="mb-2 line-height-low">System-Based Monitoring and Due Diligence</li>
                                     </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
@@ -404,13 +404,13 @@
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
                                             <div class="mx-auto mb-3" style="height:63px"><b-img src="/images/114_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="fw-400 blue7 mt-m-2 line-height-min"><span class="f-230">0</span>violations for <br>3 consecutive years</p>
-                                            <p class="mb-0 fw-400 font-noto word-break line-height-low">related to information protection and cybersecurity </p>
+                                            <p class="fw-400 blue7 mt-m-2 line-height-min"><span class="f-230">0</span> Violations for <br>3 Consecutive Years</p>
+                                            <p class="mb-0 fw-400 font-noto word-break line-height-low">Related to Information Protection and Cybersecurity </p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
                                             <div class="mx-auto mb-3" style="height:52px"><b-img src="/images/101_1.svg" fluid class="h-100"></b-img> </div>
                                             <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">100</span>%</p>
-                                            <p class="mb-0 fw-400 word-break font-noto mt-m-2"> Participated in employee information security training in 2019</p>
+                                            <p class="mb-0 fw-400 word-break font-noto mt-m-2"> Participated in Employee Information Security Training in 2019</p>
                                         </b-col>
                                     </b-row>
                                 </b-col>
@@ -419,17 +419,17 @@
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                             <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
                             <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
-                            <p> As much as the applicability of data and information-based Infrastructures is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack that both at home and abroad, information security and personal information protection laws are reinforced.
+                            <p> As much as the applicability of data and information-based Infrastructures is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack that both domestic and international information security and privacy protection laws are being reinforced.
                             </p>
-                            <p>Coway collects personal information from many customers due to the characteristics of the rental business. Therefore, safely managing customer information is the linchpin for building trust with customers and for sustainable business. Furthermore, customer information inflows through various methods due to the expansion of service and online distribution channels through IT technology, stimulating the necessity for appropriate reinforcement for the information protection system.
+                            <p>Coway collects personal information from many customers due to its characteristics as a rental business. Therefore, safely managing customer information is the essential for building trust with customers and for sustainable business. Furthermore, customer information inflows through various methods due to the expansion of service and online distribution channels through IT technology, stimulating the necessity for appropriate reinforcement for the information protection system.
                             </p>
-                            <p class="mb-5">Coway operates an information security department centered on the information protection committee, information protection chairperson, and personal information protection manager. We are undertaking every effort to protect information based on the information protection system in the entire process of information: collection-storage-disposal. We operate a 24-hour external attack detection and monitoring system and reinforce personal information management and trustees training including employees. In addition, we are proactively responding to global information protection regulations, such as the EU GDPR(The General Data Protection Regulation), as we expand into the global market.  
+                            <p class="mb-5">Coway operates an information security department centered on the information protection committee, information protection chairperson, and privacy protection manager. We are undertaking every effort to protect information based on the information protection system in the entire process of information; collection, storage, and disposal. We operate a 24-hour external attack detection and monitoring system and reinforce privacy management and security training for trustees and employees. In addition, we are proactively responding to global information protection regulations, such as the EU GDPR(The General Data Protection Regulation), as we expand into the global market.  
                             </p>
                             <h7 class="blue7 f-120 mb-2">Business Cases</h7>
                             <div class="d-flex align-items-center">
                                 <div class="py-2 d-flex align-items-center">
                                     <div class="mr-4" style="height:54px"><b-img src="/images/102_1.svg" fluid class="h-100"></b-img> </div>
-                                    <p class="fw-500 mb-0 word-break"> Information security certification status</p>
+                                    <p class="fw-500 mb-0 word-break"> Information Security Certification Status</p>
                                 </div>
                             </div>
                         </b-col>
@@ -441,22 +441,22 @@
                     <p class="pb-3 mb-45">Considering that the rental business collects many customer’s personal information, Coway establish and share information security principle and personal information protection principle for information security in overall business sectors. Coway has established information security principles and guidelines to make it easy to apply information security policies to practice. In 2019, related information was added in line with changes in laws and regulations such as the Information and Communication Network Act and the Personal Information Protection Act. The duplication regulations were simplified and the information protection regulations were revised by specifying the implementation guide.
                     </p>
                 
-                    <h6-ancor hash="c1-1" :activated="activated" class="blue5 mb-3">Information Security and Personal Information Protection Principles</h6-ancor>
+                    <h6-ancor hash="c1-1" :activated="activated" class="blue5 mb-3">Information Security and Privacy Protection Principles</h6-ancor>
                     <p>The information protection principle applies to all employees and includes internal data management and cybersecurity compliance principles, countermeasures and reporting systems in the event of an information breach, and violations of the principles.
                     </p>
 
-                    <p class="mb-3">The principle of personal information protection consists of a guide to the collection and use of minimal personal information, safe management, and compliance with laws and regulations. According to the legislation and revision of the Personal Information Protection Act in 2019, the personal information protection guidelines and personal information processing policies were revised to provide announcement and education. Coway leads thorough information management by applying all guidelines and policies related to personal information to trustees and suppliers including sales organizations as well as direct business areas.
+                    <p class="mb-3">The principle of privacy protection consists of a guide to the collection and use of minimal personal information, safe management, and compliance with laws and regulations. According to the legislation and revision of the Privacy Protection Act in 2019, the privacy protection guidelines and privacy processing policies were revised to provide announcement and education. Coway leads thorough information management by applying all guidelines and policies related to privacy to trustees and suppliers including sales organizations as well as direct business areas.
                     </p>
                     <a href="https://help.coway.co.kr/member/coway_new/member/policy.aspx" target="_blank"><b-button variant="blue" size="sm" class="mb-5 px-3">Coway Privacy Policy<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                     <h6-ancor hash="c1-2" :activated="activated" class="blue5 mb-3">Information Protection Organization </h6-ancor>
-                    <p class="mb-45"> Coway operates an information protection organization centered on the Information Protection Committee. The Information Protection Committee is an executive-level committee operated with the head of the IT Center in the center and the head of each business sector as members of Information Protection Committee. The Information Protection Committee has established an integrated management system in the areas of information security and personal information protection to increase management efficiency. Information security practices are centered on the security team, and we have personal information protection managers within the organization to ensure that all employees participate autonomously and actively in the information protection system under a clear division of duties.
+                    <p class="mb-45"> Coway operates an information protection organization centered on the Information Protection Committee. The Information Protection Committee is an executive-level committee operated with the head of the IT Center in the center and the head of each business sector as members of Information Protection Committee. The Information Protection Committee has established an integrated management system in the areas of information security and privacy protection to increase management efficiency. Information security practices are centered on the security team, and we have privacy protection managers within the organization to ensure that all employees participate autonomously and actively in the information protection system under a clear division of duties.
                     </p>
 
                     <b-img src="/images/307_1.svg" fluid></b-img>
                     <hr class="mb-45">
 
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Information Security Mgt. System</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="c2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Information Security Management System</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                     <p class="pb-3 mb-5">To maintain thorough data security and protect customer personal information, Coway is pursuing various information protection activities. To protect personal information, we introduced a lifecycle management system from information collection, storage, and utilization to disposal, and continue to systematically manage the system based on international information protection certifications such as ISMS and ISO27001. Additionally, to respond to global information protection regulations, we prepared a guideline to comply with the profiling protection measures of the EU GDPR(General Data Protection Regulation).
                     </p>
                     
