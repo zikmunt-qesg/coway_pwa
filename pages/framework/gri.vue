@@ -11,7 +11,7 @@
             <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='GRI' :defined_query="defined_query"></search-form></b-container>
         </b-card>
     
-        <b-container class="pt-5 position-relative">    
+        <b-container v-if="this.$store.state.is_ENG==false" class="pt-5 position-relative">    
                 <b-nav tabs class="my-5 position-relative">
                     <b-nav-item active class="f-110 fw-400"> GRI </b-nav-item>
                     <b-nav-item @click.stop.prevent="$router.push('/framework/sasb')" class="f-110 fw-400"> SASB </b-nav-item>
@@ -168,6 +168,186 @@
                 </template>
                 <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                 <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
+                <b-td>{{ row_item.Note }} 
+                    <span v-if="row_item.link.length != 0">
+                        <span v-for="link_to in row_item.link" :key="link_to.id">
+                            <template v-if="link_to['to'].search(/http/g) != -1">
+                                <a :href="link_to['to']" class="mr-3" target="_blank">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                </a>
+                            </template>
+                            <template v-else>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                </nuxt-link>
+                            </template>
+                        </span>
+                    </span> 
+                    <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" <b-button>+</b-button></a></span>  -->
+                </b-td>
+                </b-tr>
+            </b-tbody>
+            </b-table-simple>
+
+            <hr class="space-p75">
+        </b-container>
+
+        <b-container v-else class="pt-5 position-relative">
+                <b-nav tabs class="my-5 position-relative">
+                    <b-nav-item active class="f-110 fw-400"> GRI </b-nav-item>
+                    <b-nav-item @click.stop.prevent="$router.push('/framework/sasb')" class="f-110 fw-400"> SASB </b-nav-item>
+                    <b-nav-item @click.stop.prevent="$router.push('/framework/djsi')" class="f-110 fw-400"> DJSI Public </b-nav-item>
+                </b-nav>
+
+                <b-card class="border-0 px-4 fw-400">
+                The GRI(Global Reporting Initiatives) provides international standards organizations that help businesses, governments, and other organizations understand and disclose information on the impact of sustainability issues such as climate change, human rights, and corruption. Coway has prepared and released the report following the core compliance method of the GRI Sustainability Disclosure Standard.
+                </b-card>
+
+            <hr class="space-p25">
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Universal Standards (GRI 100) </div>
+            <b-table-simple class="txt-table f-95" responsive hover>
+            <b-thead>
+                <b-tr>
+                <b-td style="width:16%;">Topic</b-td>
+                <b-td style="width:7%;">GRI indicator</b-td>
+                <b-td style="width:34%;">Description</b-td>
+                <b-td>Contents</b-td>
+                </b-tr>
+            </b-thead>
+            <b-tbody>
+                <b-tr v-for="(row_item, index) in gri_table_100" :key="row_item.id">
+                    <template
+                        v-if="index-1 < 0 ? true: row_item.classification != gri_table_100[index-1].classification"
+                    >
+                        <b-td :rowspan="getSameLength(gri_table_100, index)">{{ row_item.classification_e }}</b-td>
+                    </template>
+                    <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                    <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                    <b-td>{{ row_item.Note }} 
+                        <span v-if="row_item.link.length != 0">
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
+                        </span> 
+                    </b-td>
+                </b-tr>
+            </b-tbody>
+            </b-table-simple>
+
+            <hr class="space-p25">
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Econimic (GRI 200) </div>
+
+            <b-table-simple class="txt-table f-95" responsive hover>
+            <b-thead>
+                <b-tr>
+                <b-td style="width:16%;">Topic</b-td>
+                <b-td style="width:7%;">GRI indicator</b-td>
+                <b-td style="width:34%;">Description</b-td>
+                <b-td>Contents</b-td>
+                </b-tr>
+            </b-thead>
+            <b-tbody>
+                <b-tr v-for="(row_item, index) in gri_table_200" :key="row_item.id">
+                <template
+                    v-if="index-1 < 0 ? true: row_item.classification != gri_table_200[index-1].classification"
+                >
+                    <b-td :rowspan="getSameLength(gri_table_200, index)">{{ row_item.classification_e }}</b-td>
+                </template>
+                <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                <b-td>{{ row_item.Note }} 
+                    <span v-if="row_item.link.length != 0">
+                        <span v-for="link_to in row_item.link" :key="link_to.id">
+                            <template v-if="link_to['to'].search(/http/g) != -1">
+                                <a :href="link_to['to']" class="mr-3" target="_blank">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                </a>
+                            </template>
+                            <template v-else>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                </nuxt-link>
+                            </template>
+                        </span>
+                    </span> 
+                    <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" <b-button>+</b-button></a></span>  -->
+                </b-td>
+                </b-tr>
+            </b-tbody>
+            </b-table-simple>
+
+            <hr class="space-p25">
+
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Environmental (GRI 300) </div>
+            <b-table-simple class="txt-table f-95" responsive hover>
+            <b-thead>
+                <b-tr>
+                <b-td style="width:16%;">Topic</b-td>
+                <b-td style="width:7%;">GRI indicator</b-td>
+                <b-td style="width:34%;">Description</b-td>
+                <b-td>Contents</b-td>
+                </b-tr>
+            </b-thead>
+            <b-tbody>
+                <b-tr v-for="(row_item, index) in gri_table_300" :key="row_item.id">
+                <template
+                    v-if="index-1 < 0 ? true: row_item.classification != gri_table_300[index-1].classification"
+                >
+                    <b-td :rowspan="getSameLength(gri_table_300, index)">{{ row_item.classification_e }}</b-td>
+                </template>
+                <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                <b-td>{{ row_item.Note }} 
+                    <span v-if="row_item.link.length != 0">
+                        <span v-for="link_to in row_item.link" :key="link_to.id">
+                            <template v-if="link_to['to'].search(/http/g) != -1">
+                                <a :href="link_to['to']" class="mr-3" target="_blank">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                </a>
+                            </template>
+                            <template v-else>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                </nuxt-link>
+                            </template>
+                        </span>
+                    </span> 
+                    <!-- <span v-if="row_item.link.length != 0"><a v-for="link_to in row_item.link" :key="link_to.id" :href="link_to" <b-button>+</b-button></a></span>  -->
+                </b-td>
+                </b-tr>
+            </b-tbody>
+            </b-table-simple>
+
+            <hr class="space-p25">
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Social (GRI 400) </div>
+
+            <b-table-simple class="txt-table f-95" responsive hover>
+            <b-thead>
+                <b-tr>
+                <b-td style="width:16%;">Topic</b-td>
+                <b-td style="width:7%;">GRI indicator</b-td>
+                <b-td style="width:34%;">Description</b-td>
+                <b-td>Contents</b-td>
+                </b-tr>
+            </b-thead>
+            <b-tbody>
+                <b-tr v-for="(row_item, index) in gri_table_400" :key="row_item.id">
+                <template
+                    v-if="index-1 < 0 ? true: row_item.classification != gri_table_400[index-1].classification"
+                >
+                    <b-td :rowspan="getSameLength(gri_table_400, index)">{{ row_item.classification_e }}</b-td>
+                </template>
+                <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
                 <b-td>{{ row_item.Note }} 
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
