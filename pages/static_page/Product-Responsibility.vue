@@ -270,8 +270,8 @@
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
                                     <ul class="material-ul fw-500 font-noto">
                                         <li class="mb-2 line-height-low">Product Responsibility Governance – Infinite Responsibility Committee, PIC 360, TQA Center </li>
-                                        <li class="mb-2 line-height-low">Development of reliability Test standard and strengthened verification capacity</li>
-                                        <li class="mb-2 line-height-low">Expansion of safety certification, and customer service</li>
+                                        <li class="mb-2 line-height-low">Reliability Test Standard and Verification Capacity</li>
+                                        <li class="mb-2 line-height-low">Safety Certification and Customer Service</li>
                                     </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
@@ -279,13 +279,13 @@
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
                                             <div class="mx-auto mb-2" style="height:61px;"><b-img src="/images/98_1.svg" fluid class="h-100"></b-img> </div>
-                                            <div class="mb-0 mt-m-2 fw-400 blue7"><span class="f-230">13</span> testing laboratories</div>
-                                            <p class="mb-0 fw-500 line-height-low word-break">approved by International Safety Certification Center</p>                                             
-                                            <p class="gray65 fw-400">(as of the end of 2019)</p>
+                                            <div class="mb-0 mt-m-2 fw-400 blue7"><span class="f-230">13</span> Testing Laboratories</div>
+                                            <p class="mb-0 fw-500 line-height-low word-break"> Approved by International Safety Certification Center</p>                                             
+                                            <p class="gray65 fw-400">(As of the end of 2019)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 mb-sm-0 text-center">
                                             <div class="mx-auto mb-2" style="height:61px;"><b-img src="/images/99_1.svg" fluid class="h-100"></b-img> </div>
-                                            <div class="mb-0 blue7 font-noto"> <span class="f-140">0</span> case of violations</div> 
+                                            <div class="mb-0 blue7 font-noto"> <span class="f-140">0</span> Case of Violations</div> 
                                             <p class="mb-0 fw-400">of product liability regulations in 2019 </p>
                                         </b-col>
                                     </b-row>
@@ -295,17 +295,17 @@
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                             <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
                             <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
-                            <p> While a growing number of people are interested in sanitation and health of the indoor living environment, consumers put nonmaleficence to the human body, sanitation quality, and environmental impacts as priorities for product selection. This growing purchase tendency reinforces product liability on manufacturing and sales corporations, and the significance of product liability rises as a key management element that directly affects company’s brand and financial value.
+                            <p> While a growing number of people are interested in sanitation of healthy indoor living environment, consumers put nonmaleficence to the human body, sanitation quality, and environmental impacts as priorities for product selection. This growing purchase tendency reinforces product liability on manufacturing and sales corporations, and the significance of product liability rises as a key management element that directly affects company’s brand and financial value.
                             </p>
-                            <p> As Coway’s main products deal with water and air, which are closely related to health and essential to daily life, we manage product safety, sanitation, and incrementality of performance as the top priority of product liability. Coway actively fulfills product responsibility to ensure safe and harmless product use and consistent performance and strives to build customer trust.
+                            <p> As Coway’s main products deal with water and air, which are closely related to health and daily life, we manage product safety, sanitation, and incrementality of performance as the top priority of product liability. Coway actively fulfills product responsibility to ensure safe and harmless product use and consistent performance and strives to build customer trust.
                             </p>
-                            <p class="mb-5 mb-md-45"> Coway actively fulfills product liability with corporate committees such as Infinite Responsibility Committee and TQA(Trust & Quality Assurance) Center, a supervising department. We conduct verification process on quality, reliability, safety, and environmental impact through every step from product planning to design, manufacturing, and service. To strengthen global quality verification capability and expand into new overseas markets, we established data by analyzing the global usage environment and set regional reliability standards. Moreover, to strengthen service hygiene, we are expanding service inspection standards and scope to strengthen services from the customer's perspective and respond proactively.
+                            <p class="mb-5 mb-md-45"> Coway actively fulfills product responsibility with corporate committees such as Infinite Responsibility Committee and TQA(Trust & Quality Assurance) Center, a supervising department. We conduct verification process on quality, reliability, safety, and environmental impact through every step from product planning to design, manufacturing, and service. To strengthen global quality verification capability and expand into new overseas markets, we established data by analyzing the global usage environment and set regional reliability standards. Moreover, to strengthen service hygiene, we are expanding service inspection standards and scope to strengthen services from the customer's perspective and respond proactively.
                             </p>
                             <h7 class="blue7 f-120 mb-3 mb-sm-2">Business Cases</h7>
                             <div class="d-flex align-items-center">
                                 <div class="py-2 d-xl-flex align-items-center mr-3">
-                                    <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">'Manufacturing industry Grand Prize' at the 2019 Korea Reliability Award</p>
-                                    <p class="fw-500 mb-0 mr-2 word-break font-noto line-height-low">Prime Minister’s Citation for excellent service quality at 'Korean National Quality Award' in 2019</p>
+                                    <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">"Manufacturing Industry Grand Prize" at the 2019 Korea Reliability Award</p>
+                                    <p class="fw-500 mb-0 mr-2 word-break font-noto line-height-low">Prime Minister’s Citation for excellent service quality at "Korean National Quality Award" in 2019</p>
                                 </div>
                                 <div style="height:90px;"><b-img src="/images/100_1.svg"></b-img> </div>
                             </div>
@@ -317,7 +317,7 @@
                     <p class="mb-5">For product responsibility and quality management, Coway organized the Infinite Responsibility Committee, direct consultation with the CEO, and PIC 360, a company-wide CEO-attending committee. Moreover, TQA Center, an integrated quality verification organization, is organized for consistent and efficient quality innovation management through integrated quality management.
                     </p>
                 
-                    <h6-ancor hash="b1-1" :activated="activated" class="blue5 mb-3 font-noto">Company wide Product Responsibility and Quality Mgt.</h6-ancor>
+                    <h6-ancor hash="b1-1" :activated="activated" class="blue5 mb-3 font-noto">Company-wide Product Responsibility and Quality Mgt.</h6-ancor>
                     <p> We organized the "Infinite Responsibility Committee" to strengthen customer trust by fulfilling product responsibility. To provide the best quality, we comprehensively review product quality, safety, and customer trust issues, and proactively examine and improve related matters. The Infinite Responsibility Committee, which consists of director-level executives, directly reports to the CEO, and gathers the agenda once a month and implement in the corporate-wide process to promptly resolve issues and ultimately boost customer trust. 
                     </p>
 
@@ -332,7 +332,7 @@
                     <hr class="mb-4">
 
                     <section class="border-blue px-4 py-3 mb-5 ">
-                        <p class="blue5 fw-500 mt-2 mb-3 f-105 font-noto"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>"Manufacturing industry Grand Prize" at the 2019 Korea Reliability Award</p>
+                        <p class="blue5 fw-500 mt-2 mb-3 f-105 font-noto"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>"Manufacturing Industry Grand Prize" at the 2019 Korea Reliability Award</p>
                         <div class="">
                             <div class="mb-4 mb-md-2 ml-md-3 float-md-right" style="max-width: 360px;"><b-img style="top:0;" src="/images/97@2x.png" fluid ></b-img></div>
 
@@ -344,7 +344,7 @@
                             </p>
                             <p class="mb-3"> Coway owns approximately 300 test standards, and each year, we establish and revise reliability test methods in keeping with changes in customer usage environment and technological development. Additionally, we are conducting reliability test standards verifications in partnership with global companies and quality certification in overseas markets.
                             </p>
-                            <p class="f-80 mb-4">* The Korea Reliability Awards, organized by the Korea Reliability Society, selects companies that contribute to the economic development of industries and countries and enhance customer satisfaction by improving the reliability of materials, parts, and products.
+                            <p class="f-80 mb-4">* The Korea Reliability Award, organized by the Korea Reliability Society, selects companies that contribute to the economic development of industries and countries and enhance customer satisfaction by improving the reliability of materials, parts, and products.
                             </p>
                         </div>
                     </section>
@@ -396,7 +396,7 @@
                                 * Reliability test items: 9 items including common, water purifier, purifier, bidet, electric range, and clothing purifier
                             </div>
                     
-                        <p class="mb-45">Since 2009, HALT (Highly Accelerated Limit Test) has been introduced, and the correlation between the product load and the limit due to the severe stress application is analyzed to accurately estimate the limit according to the product usage environment. We are improving the standards so that accurate reliability can be secured in the actual use environment by conducting comparative verification with actual field data.
+                        <p class="mb-45">Since 2009, HALT (Highly Accelerated Limit Test) has been implemented to analyze the correlation between the product load and the product life when severe stress is applied for accurately estimation of the product life in different product usage environments. We are improving the standards to secure accurate reliability in the actual usage environment by conducting comparative verification with actual field data.
                         </p>
 
                             <b-table-simple responsive class="num-table f-95 mb-5">
@@ -415,7 +415,7 @@
 
                     <hr class="py-2">                    
                     <h6-ancor hash="b2-2" :activated="activated" class="blue5 mb-3">Reliability Verification Capacity</h6-ancor>
-                    <p class="mb-45"> Based on the process of predicting and analyzing product failures in advance, we increase the level of design completeness and prevent defects and failures to improve product reliability.
+                    <p class="mb-45"> Based on the prediction and analysis process of product failures in advance, we increase the level of design completeness and prevent defects and failures to improve product reliability.
                     </p>
 
                     <b-row no-gutters class="mb-45">
@@ -438,7 +438,7 @@
                         </b-col>
                     </b-row>
 
-                    <p class="mb-5">Moreover, through the internal professional training program, R-Campus (Reliability Campus), essential training items are selected for each field of expertise and position to cultivate reliability experts. Externally, through cooperation with various external professional organizations such as the Korea Reliability Association, the Korea Standards Association, and the FITI Test Research Institute, we provide opportunities for professional training to testers. We are striving to improve individual capabilities by supporting the acquisition of international certifications such as CRE(Certified Reliability Expert) and ISTA CPLP(International Safe Transit Association Certified Professional in Learning and Performance).
+                    <p class="mb-5">Moreover, through the internal expert training program, R-Campus (Reliability Campus), essential training items are selected for each field of expertise and position to cultivate reliability experts. Externally, through cooperation with various external professional organizations such as the Korea Reliability Association, the Korea Standards Association, and the FITI Test Research Institute, we provide opportunities for professional training to testers. We are striving to improve individual capabilities by supporting the acquisition of international certifications such as CRE(Certified Reliability Expert) and ISTA CPLP(International Safe Transit Association Certified Professional in Learning and Performance).
                     </p>
                     <hr class="py-3">                    
 
@@ -450,19 +450,19 @@
                     <p class="mb-45 pb-2">Coway TQA Center operates 13 accredited laboratories related to product safety and responds to rapidly changing domestic and international safety trends and certification regulations. In 2019, the CTF(Customer's Testing Facility) test center, jointly operated by NEMKO(electric equipment manufacturing safety testing supervisory authority), a European accredited testing institute, was renewed to acquire ENEC and CB certifications, safety certifications for electrical and electronic products exported overseas. Cooperation was strengthened to make management more efficient. In 2019, the number of internal NEMKO ICSE(International Certified Safety Engineer) certified personnel were expanded to 4, and safety certification based on expertise was acquired.
                     </p>
 
-                        <h7 class="mb-45 gray63">International accredited test center operation and certification</h7>
+                        <h7 class="mb-45 gray63">International Accredited Test Center Operation and Certification Status</h7>
                         <hj-img src="/images/306_2.svg" fluid></hj-img>
                         <hr class="mb-5 py-2">                    
                     
-                    <h6-ancor hash="b3-2" :activated="activated" class="blue5 mb-3">Safety and Hygiene Mgt. Service </h6-ancor>
+                    <h6-ancor hash="b3-2" :activated="activated" class="blue5 mb-3">Safety and Hygiene Satisfaction Service </h6-ancor>
                     <p class="mb-45">Coway promotes integrated management from product design to material selection and management services to ensure product hygiene and safety. In the product design process, hygienic maintenance and automated hygiene management systems such as parts replacement and cleaning are applied. In the case of a water purifier where water hygiene management is essential, we installed water path drainage mode, which automatically discharges the remaining amount of water in the faucet when using the water purifier, and introduced an automatic drainage system that automatically releases all water in the water purifier when it is not used for 24 hours. Also, to use safe materials, we examine the chemical content of all parts and develop new materials to replace them with safe materials. Also, for safety and hygiene management at the customer use stage: 1) we provide professional hygiene management tools for each product, 2) special care service for the full replacement of hygiene parts, 3) hygiene monitoring and warning alarms, 4) IoT technology-based product status information and other complex services.
                     </p>     
                         <hj-img src="/images/306_3.svg" fluid></hj-img>
 
                     <hr class="mb-5 py-3">                    
                     <section class="border-blue px-4 py-3 mb-5">
-                        <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>Prime Minister’s Citation for excellent service quality at 'Korean National Quality Award' in 2019 </p>
-                        <p class="mb-3">At the 2019 Korean National Quality Management Convention, Coway received the Prime Minister's Citation for excellent service quality and the "Company with Excellent Quality Competitiveness", recognized for its service competitiveness and product reliability. Coway strengthened the service from the customer's perspective by expanding the standard and scope of service inspection and highly regarded for taking proactive hygiene care. We introduced the "CODY Service Kit", which informs the contents of the service that manages the inside of the water purifier with sterilized water through sounds and screens to improve service expertise and hygiene. Moreover, we strengthened our management level by implementing the "Special Care Service", which replaces the main sanitary parts of the water purifier 1 ~ 2 times free of charge during the rental period.
+                        <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>Prime Minister’s Citation for Excellent Service Quality at "Korean National Quality Award" in 2019 </p>
+                        <p class="mb-3">At the 2019 Korean National Quality Management Convention, Coway received the Prime Minister's Citation for Excellent Service Quality and recognized as the "Company with Excellent Quality Competitiveness", for its service competitiveness and product reliability. Coway strengthened the service from the customer's perspective by expanding the standard and scope of service inspection and highly regarded for taking proactive hygiene care. We introduced the "CODY Service Kit", which informs the contents of the service that manages the inside of the water purifier with sterilized water through sounds and screens to improve service expertise and hygiene. Moreover, we strengthened our management level by implementing the "Special Care Service", which replaces the main sanitary parts of the water purifier 1 ~ 2 times free of charge during the rental period.
                         </p>
                         <p class="mb-3">Coway was recognized for improving product safety by establishing a systematic quality management system that developed the industry's highest level of reliability test standards and introduced a "Quality Verification System" that examines completeness in all processes from new product development to production. Coway will continue to strive for product responsibility and quality management through the "Infinite Responsibility Committee," which will comprehensively discuss ways to improve product safety and service. 
                         </p>
