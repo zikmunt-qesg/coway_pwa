@@ -246,7 +246,7 @@
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="j2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Economic Value Distribution</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">In 2019, Coway created a total economic value of 3068.3 billion KRW by combining sales of 3018.9 billion KRW and other revenues and financial revenues based on consolidation in 2019. Of the created value, 3000.7 billion KRW was reasonably allocated to stakeholders in consideration of the company's future value and investment efficiency. After all allocations, the economic value of the total reserve of 67.5 billion KRW was added to the total amount of capital. 
                     </p>
-                    <hj-img src="/images/93_1.svg" fluid ></hj-img>
+                    <hj-img src="/images/305_2.svg" fluid ></hj-img>
                     <p class="f-80 gray5 mb-0 indent">- Suppliers: products and raw materials usage (material costs), outsourcing services, consumables, payment fees, depreciation costs, advertising costs, etc. </p>
                     <p class="f-80 gray5 mb-0">- Partners: Promotion fee, sales fee</p>
                     <p class="f-80 gray5 mb-0">- Shareholders and investors: Annual and interim dividends</p>
