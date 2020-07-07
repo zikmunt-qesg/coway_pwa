@@ -1,6 +1,6 @@
 <template>
-<div class="position-relative d-none d-lg-block" style="background-color: rgba(245,245,245,0.95)">
-    <b-container v-if="this.$store.state.is_ENG==false">
+<div class="position-relative d-none d-lg-block" style="background-color: rgba(245,245,245,0.95); max-height: 90vh;overflow-y:scroll;">
+    <b-container v-if="this.$store.state.is_ENG==false" style="">
         <b-row class="pt-3 pb-3 font-noto d-flex flex-column flex-md-row">
             <b-col class="" v-for="item in menu" :key="item.id" style="min-width: 192px;">
                 <div class="f-90 mb-3" @click.stop="toggleSiteMap">
