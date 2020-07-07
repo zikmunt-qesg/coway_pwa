@@ -346,11 +346,11 @@
                         </div>
                         <div class="mt-5 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-11 col-sm-9 col-md-12 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-6"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway leads change and maximizes the value of the customer experience</div> </transition></div> 
+                            <div class="col-11 col-sm-9 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-10 col-xl-8"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway leads change and maximizes the value of the customer experience</div> </transition></div> 
                         </div>
                         <div class="mt-2 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-6"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">through digital-based innovations such as big data, A.I, and IoT.</div> </transition></div> 
+                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">through digital-based innovations such as big data, A.I, and IoT.</div> </transition></div> 
                         </div>
                     </div>
                 </div>
@@ -377,12 +377,12 @@
                             <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-3"></b-img> </transition>
                         </div>
                         <div class="mt-5 pt-2 pt-xl-3 row w-100">
-                            <div class="col-0 col-sm-2 col-md-2 col-lg-5 col-xl-6"></div>
-                            <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-7 col-xl-6 pl-5 pl-sm-4 pl-xl-5"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title pl-xl-2">Coway is a company specializing in the essence of water and air, </div> </transition></div>
+                            <div class="col-0 col-sm-2 col-md-2 col-lg-4 col-xl-5"></div>
+                            <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-8 col-xl-7 pl-5 pl-sm-2 pl-xl-3"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title pl-xl-2">Coway is a company specializing in the essence of water and air, </div> </transition></div>
                         </div>
                         <div class="mt-2 row w-100">
-                            <div class="col-0 col-sm-2 col-md-1 col-lg-6 col-xl-7"></div> 
-                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-6 pl-5 pl-sm-4 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">and constantly develops innovative and stable products.</div> </transition></div>
+                            <div class="col-0 col-sm-2 col-md-1 col-lg-4 col-xl-6"></div> 
+                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">and constantly develops innovative and stable products.</div> </transition></div>
                         </div>
                     </div>
                 </div>
@@ -408,12 +408,12 @@
                             <transition name="an-5"> <b-img src="/images/i3_5.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
                         </div>
                         <div class="mt-5 mt-md-4 pt-3 row w-100">
-                            <div class="col-sm-1 col-lg-1 col-xl-2"></div> 
-                            <div class="col-10 col-sm-10 col-lg-8 col-xl-6 pl-5 pl-sm-0 pl-xl-5 ml-xl-2"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow-lg carousel-title">Coway minimizes environmental impact and materializes a sustainable future</div> </transition></div>
+                            <div class="col-sm-1 col-lg-1 col-xl-1"></div> 
+                            <div class="col-10 col-sm-8 col-lg-10 col-xl-8 pl-5 pl-sm-0 pl-xl-5 ml-xl-2"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow-lg carousel-title">Coway minimizes environmental impact and materializes a sustainable future</div> </transition></div>
                         </div>  
                         <div class="mt-2 row w-100">
-                            <div class="col-sm-1 col-lg-2 col-xl-3"></div> 
-                            <div class="col-10 col-sm-10 col-lg-10 col-xl-6 pl-5 pl-sm-0"><transition name="tran-txt3"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow-lg carousel-title">by circulating clean water and air for future generations.</div> </transition></div>
+                            <div class="col-sm-1 col-lg-2 col-xl-2"></div> 
+                            <div class="col-10 col-sm-10 col-lg-10 col-xl-7 pl-5 pl-sm-0"><transition name="tran-txt3"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow-lg carousel-title">by circulating clean water and air for future generations.</div> </transition></div>
                         </div>                                        
                     </div>
                 </div>
