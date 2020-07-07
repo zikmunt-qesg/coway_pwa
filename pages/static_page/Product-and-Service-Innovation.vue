@@ -271,7 +271,9 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
-            <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
+            <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 
+                To Help People Live A Healthy and Peaceful Life With Clean Water And Air Anytime, Anywhere Is The Consistent Path That Coway Has Walked.
+              </h7>
         </b-row>
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -296,9 +298,9 @@
                                 <b-col class="col-12 pb-4 border-bottom-dark blue7">
                                     <h7 class="mb-3 f-120 w-100">Activity</h7>
                                     <ul class="material-ul fw-500">
-                                        <li class="line-height-low mb-2">Product innovation for enhancing its intrinsic value </li>
-                                        <li class="line-height-low mb-2">Service innovation based on future technology </li>
-                                        <li class="line-height-low mb-2">Research capacity improvement</li>
+                                        <li class="line-height-low mb-2">Product Innovation </li>
+                                        <li class="line-height-low mb-2">Service Innovation  </li>
+                                        <li class="line-height-low mb-2">Research Capacity Improvement</li>
                                     </ul>
                                 </b-col>
                                 <b-col class="col-12 pt-3">
@@ -306,14 +308,14 @@
                                     <b-row>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-45 text-center">
                                             <div class="mx-auto mb-3" style="height:58px"><b-img src="/images/63_1.svg" fluid class="h-100"></b-img> </div>
-                                            <p class="mb-0 fw-500 font-noto">2019 R&D expenditure </p>
-                                            <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">37,671</span>billion KRW</p>
+                                            <p class="mb-0 fw-500 font-noto">2019 R&D Expenditure </p>
+                                            <p class="mb-0 fw-400 blue7 mt-m-2"><span class="f-230">37.671</span> billion KRW</p>
                                             <p class="gray65 fw-400 line-height-low px-xl-5">(Up 2.3% YoY, 1.25% of Sales)</p>
                                         </b-col>
                                         <b-col class="col-12 col-sm-6 col-md-12 mb-4 mb-sm-0 text-center">
                                             <div class="mx-auto mb-2" style="height:58px"><b-img src="/images/64_1.svg" fluid class="h-100"></b-img> </div>
-                                            <div class="blue7 mb-0 fw-500 font-noto mt-m-2"><span class="f-230">5</span> consecutive years</div>
-                                            <p class="f-140 fw-400">awarded CES Innovation award</p>
+                                            <div class="blue7 mb-0 fw-500 font-noto mt-m-2"><span class="f-230">5</span> Consecutive Years</div>
+                                            <p class="f-140 fw-400">Received CES Innovation Award</p>
                                         </b-col>
                                     </b-row>
                                 </b-col>
@@ -322,19 +324,19 @@
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                         <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
                             <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
-                            <p>Recent global social and environmental issues such as the spread of the pandemic and increasing fine dust are driving the change in consumer life patterns, affecting Home Appliance Market significantly.  As people stay in their home longer, not only needs for health and hygiene increased but also needs for products and service that reflects each consumer’s lifestyle. Moreover, as digital technology became part of our everyday life, Smart Home implementation with AI and IoT technology in living spaces became an element of competition. 
+                            <p>Recent global social and environmental issues such as the spread of the pandemic and increasing fine dust are driving the change in consumer life patterns, affecting home appliance market significantly.  As people stay in their home longer, not only needs for health and hygiene increased but also needs for products and service that reflects each consumer’s lifestyle. Moreover, as digital technology became part of our everyday life, Smart Home implementation with A.I. and IoT technology in living spaces became an element of competition. 
                             </p>
-                            <p class="mb-5 mb-md-45">Coway takes this shift as a new opportunity for home appliance rental business, promoting activities that strengthen the core principle of Coway: "For cleaner water and air". In 2019, Coway launched "HANDSPAN CIROO Tankless water purifier" with maximized sanitation, provided "Water Map Service," a big data-based customized product recommending service, and promoted innovative activities such as establishing "Water Taste Laboratory" within R&D Center to reinforce research as a global leader for clean and tasteful water. Moreover, Coway is undertaking efforts to improve customer value and secure a competitive advantage in the market by unveiling smart home appliances, combined with ICT technology through open innovation.
+                            <p class="mb-5 mb-md-45">Coway takes this shift as a new opportunity for home appliance rental business, promoting activities that strengthen the core principle of Coway: "For Cleaner Water and Air". In 2019, Coway launched "HANDSPAN CIROO Tankless Water Purifier" with maximized sanitation, provided "Water Map Service," a big data-based customized product recommending service, and promoted innovative activities such as the establishment of "Water Taste Laboratory" within R&D Center to reinforce research as a global leader for clean and tasteful water. Moreover, Coway is undertaking efforts to improve customer value and secure a competitive advantage in the market by unveiling smart home appliances, combined with ICT technology through open innovation.
                             </p>
                             <h7 class="blue7 f-120 mb-3">Business Cases</h7>
                             <b-row>
                                 <b-col class="col-12 col-md-7 py-2 pr-sm-2 pr-xl-3 d-flex align-items-center">
                                     <div class="ml-2 ml-md-0 mr-3"><b-img src="/images/65_1.svg" ></b-img> </div>
-                                    <div class="fw-500 mb-0 font-noto">2020 CES Innovation Award, four-season double-care FWSS(Fresh Wear Styling System)</div>
+                                    <div class="fw-500 mb-0 font-noto">2020 CES Innovation Award, Four-Season Double-Care FWSS(Fresh Wear Styling System)</div>
                                 </b-col>
                                 <b-col class="col-12 col-md-5 py-2 d-flex align-items-center">
                                     <div class="ml-2 ml-md-0 mr-3" style="height:57px"><b-img src="/images/66_1.svg" ></b-img> </div>
-                                    <div class="fw-500 mb-0">Launched 'Water taste laboratory' </div>
+                                    <div class="fw-500 mb-0">Launched "Water Taste laboratory" </div>
                                 </b-col>
                             </b-row>
                         </b-col>
@@ -342,22 +344,22 @@
                 </section>
                 <hr class="mb-4">
                 <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="a1" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Product Innovation</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-45 mb-md-5"> As the most eminent water and air company in South Korea that provides the new value of "cleanness" to customers, Coway, focused on its essential value, developed "HANDSPAN CIROO Tankless Purifier" with strengthened sanitation. HANDSPAN CIROO Tankless Purifier is an integration of innovative technology that aggregates Coway’s effort to innovate hygiene and efficiency and minimize the environmental effects. Moreover, to enhance the intrinsic value of the rental business centered on customer experience, Coway provides customized products and services.
+                    <p class="mb-45 mb-md-5"> As the most eminent water and air company in South Korea that provides the new value of "Cleanness" to customers, Coway, focused on its essential value, developed "HANDSPAN CIROO Tankless Purifier" with strengthened sanitation. HANDSPAN CIROO Tankless Purifier is an integration of innovative technology that aggregates Coway’s effort to innovate hygiene and efficiency and minimize the environmental effects. Moreover, to enhance the intrinsic value of the rental business centered on customer experience, Coway provides customized products and services.
                     </p>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-8 col-md-4 col-xl-5 mb-45 mb-md-0 pr-md-3 pr-xl-5" style=""><b-img src="/images/149@3x.png" fluid class=""></b-img></b-col>
-                        <b-col class="col-12 col-md-8 col-xl-7 px-3 pl-md-4 px-xl-0"><h6-ancor hash="a1-1" :activated="activated" class="blue5 mb-3">HANDSPAN CIROO, The Integration of Technology</h6-ancor>
-                            <p>Through the continuous technological evolution, in 2019, Coway launched "HANDSPAN CIROO Tankless Purifier". HANDSPAN CIROO Tankless Purifier is an upgraded version of "CIROO Tankless Purifier", which implemented RO membrane filter with Tankless technology, featuring effective pollutant removal and abundant flow. It is equipped with the "CIROO 2.0 Filter", the culmination of filter technology, that increases the area by 6 times and increases the amount of water filtered by 30 times than the existing tankless filters. Its improved sanitation with a water path drainage mode that discharge remaining water in the faucet whenever the product is used and automatic drainage system that discharges all water in the water purifier if it is not used for 24 hours. Moreover, the space utilization was improved by reducing the size by about 30% compared to the previous CIROO Tankless Purifiers (CHP-7300R, CP-7300R) and by applying a small cooling system and instantaneous hot water system, the energy consumption efficiency was improved to the 1st grade, enhancing the eco-friendly features as well.
+                        <b-col class="col-12 col-md-8 col-xl-7 px-3 pl-md-4 px-xl-0"><h6-ancor hash="a1-1" :activated="activated" class="blue5 mb-3">HANDSPAN CIROO, The Integration of Innovation</h6-ancor>
+                            <p>Through the continuous evolution of technology, in 2019, Coway launched "HANDSPAN CIROO Tankless Purifier". HANDSPAN CIROO Tankless Purifier is an upgraded version of "CIROO Tankless Purifier", which implemented RO membrane filter with Tankless technology, featuring effective pollutant removal and abundant flow. It is equipped with the "CIROO 2.0 Filter", the culmination of filter technology, that increases the area by 6 times and the amount of water filtered by 30 times the existing tankless filters. Its improved sanitation with a water path drainage mode that discharge remaining water in the faucet whenever the product is used and the automatic drainage system that discharges all water in the water purifier if it is not used for 24 hours. Moreover, the space utilization was improved by reducing the size by about 30% compared to the previous CIROO Tankless Purifiers (CHP-7300R, CP-7300R) and by applying a small cooling system and instantaneous hot water system, the energy consumption efficiency was improved to the 1st grade, enhancing the eco-friendly features as well.
                             </p>
                         </b-col>
                     </b-row>
                 <section class="border-blue px-4 py-4 mb-5">
-                    <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge><span class="fw-600">2020</span> CES CES Innovation Award, Four-season Double-Care FWSS(Fresh Wear Styling System)</p>
+                    <p class="blue5 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge><span class="fw-600">2020</span> CES CES Innovation Award, Four-Season Double-Care FWSS(Fresh Wear Styling System)</p>
                     <p class="mb-3">Coway participated in the CES(Consumer Electronics Show) 2020 to showcase innovative home appliance products and services. Coway has been recognized for innovation by winning the CES Innovation Award for 5 consecutive years.
                     </p>
                     <p class="mb-3"> CES, where innovative companies from around the world showcase new ideas and products every year, is an indicator of the technologies that will drive the year. The CES Innovation Award is an annual award at CES, where experts from the CTA(Consumer Technology Association) in the USA comprehensively evaluate innovations such as technology, design, and customer value to select and award excellent products. Coway has been awarded the CES Innovation Award for 5 consecutive years since its first participation in 2016.
                     </p>
-                    <p class="mb-3"> CES, where innovative companies from around the world showcase new ideas and products every year, is an indicator of the technologies that will drive the year. The CES Innovation Award is an annual award at CES, where experts from the CTA(Consumer Technology Association) in the USA comprehensively evaluate innovations such as technology, design, and customer value to select and award excellent products. Coway has been awarded the CES Innovation Award for 5 consecutive years since its first participation in 2016.
+                    <p class="mb-3"> 2020 Coway’s award-winning “Four-Season FWSS Double Care” is an innovative product with versatile useful functions for all year long such as indoor air purification and dehumidification function accompanied by cloth drying function which differentiates itself from existing products that only offer basic clothing management functions in general. 
                     </p>
                     <div class="f-80 mb-5">* CES(Consumer Electronics Show): Global consumer electronics exhibition hosted by the Consumer Technology Association(CTA)
                     </div>
@@ -368,10 +370,10 @@
                         </b-tr></b-thead>
                         <b-tbody>
                             <b-tr>
-                                <b-td class="border-bottom-0" style="border-top: 1px solid #c6c6c6!important;">Contents</b-td> <b-td>Improved usability of a product with a composite product that adds functions to the existing product.</b-td> <b-td>Emphasizing usability through connection between products. IoCare technology that enables product operation and data verification through mobile.</b-td> <b-td>Technology that provides services with its own judgement utilizing big data and AI. </b-td> <b-td>Emphasizing the essential value of 'cleanliness'. Technological differentiation.</b-td><b-td>The main trend in the residential environment is the future Home. Showcase future home appliances.</b-td>
+                                <b-td class="border-bottom-0" style="border-top: 1px solid #c6c6c6!important;">Contents</b-td> <b-td>Improved usability of a product with a composite product that adds functions to the existing product.</b-td> <b-td>Emphasizing usability through connection between products. IoCare technology that enables product operation and data verification through mobile.</b-td> <b-td>Technology that provides services with its own judgement utilizing big data and AI. </b-td> <b-td>Emphasizing the essential value of "Cleaness", Technological differentiation.</b-td><b-td>Showcase future home appliances, the main trend in the residential environment. </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="border-bottom-0" style="border-top: 1px solid #c6c6c6!important;">Awarded Products</b-td> <b-td>Dual care air purifier, self-sterilizing water purifier, barista ice water purifier, clinic bidet, car air purifier, portable air purifier</b-td> <b-td>Self-sterilizing water purifier, HANDSPAN water purifier</b-td> <b-td>FWSS(Fresh Wear Styling System), Active Action Air Purifier, Smart Bed System, Beauty Platform, Nano Tankless Purifier </b-td> <b-td>CIROO Tankless purifier(CHP-7300R), CIROO Stand purifier (CHP-5700R), Korean Medicine Warm Massage Chair(MC-S01), body refresher, water softener</b-td><b-td>Four-season FWSS Double Care</b-td>
+                                <b-td class="border-bottom-0" style="border-top: 1px solid #c6c6c6!important;">Awarded Products</b-td> <b-td>Dual care air purifier, self-sterilizing water purifier, barista ice water purifier, clinic bidet, car air purifier, portable air purifier</b-td> <b-td>Self-sterilizing water purifier, HANDSPAN water purifier</b-td> <b-td>FWSS(Fresh Wear Styling System), Active Action Air Purifier, Smart Bed System, Beauty Platform, Nano Tankless Purifier </b-td> <b-td>CIROO Tankless purifier(CHP-7300R), CIROO Stand purifier (CHP-5700R), Korean Medicine Warm Massage Chair(MC-S01), body refresher, water softener</b-td><b-td>Four-Season FWSS Double Care</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td class="" style="border-top: 1px solid #c6c6c6!important;">Number of Awards Received</b-td><b-td>6</b-td><b-td>2</b-td> <b-td>5</b-td> <b-td>4</b-td><b-td>1</b-td>
@@ -380,7 +382,7 @@
                     </b-table-simple>
                     <b-row class="">
                         <b-col class="col-12 col-sm-6 mb-5 mb-md-0"><b-img src="/images/150@2x.png" fluid></b-img>
-                            <div class="f-80 fw-300 font-noto mt-2">Four-season FWSS Double Care FAD-01S</div>
+                            <div class="f-80 fw-300 font-noto mt-2">Four-Season FWSS Double Care FAD-01S</div>
                         </b-col>
                         <b-col class="col-12 col-sm-6 "><b-img src="/images/151@2x.png" fluid></b-img>
                             <div class="f-80 fw-300 font-noto mt-2">2020 CES</div>
@@ -395,7 +397,7 @@
                         </p>
                     </b-col>
                     <b-col class="col-12 col-sm-6 line-height-low">
-                        <h7 class="gray63 font-noto"> Coway customer satisfaction<sup>1)</sup></h7>
+                        <h7 class="gray63 font-noto"> Coway Customer Satisfaction<sup>1)</sup></h7>
                         <div class="f-80 gray6 mb-2">(Unit: %)</div>
                         <b-table-simple responsive class="num-table f-95 position-relative mb-2" >
                             <b-thead><b-tr>
@@ -425,28 +427,28 @@
                         </ol>
                     </b-col>
                     <b-col class="col-12">
-                        <p class="mb-3">Meanwhile, we are pursuing market-specific technology development in line with strategies to strengthen competitive advantage in overseas markets centered on Malaysia and North America. To secure water purifier technology and systems suitable for the local environment, we have established "Water Map," and conduct filter life evaluations and user satisfaction surveys. Moreover, for the bidet products, we developed an i-wave water flow system that provides optimized cleaning according to user conditions. We plan to fortify our presence in the overseas market with innovative products with diversity by equipping children-customized mode and Braille notation for the visually impaired.
+                        <p class="mb-3">Meanwhile, we are pursuing market-specific technology development in line with strategies to strengthen competitive advantage in overseas markets centered on Malaysia and North America. To secure water purifier technology and systems suitable for the local environment, we have established "Water Map," and conduct filter life evaluations and user satisfaction surveys. Moreover, for the bidet products, we developed an I-Wave Water Flow System that provides optimized cleaning according to user conditions. We plan to fortify our presence in the overseas market with innovative products with diversity by equipping children-customized mode and Braille notation for the visually impaired.
                         </p>
                     </b-col>
                 </b-row>
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="a2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Service Innovation based on Future Technology</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
-                <p class="mb-5">As of 2019, Coway, which has 5.69 million domestic customer accounts in rental services leading the environmental home appliance industry, provides new service experiences to customers based on future technologies. Two examples are the Water Map service that recommends water purifier products suitable for local water quality using big data, and the Air Doctor service that let customers experience the air purifier ideal for the living environment through virtual simulation. Coway provides a more accurate and convenient experience with long-running research data.
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="a2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Service Innovation Based on Future Technology</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <p class="mb-5">As of 2019, Coway, which has 5.69 million domestic customer accounts in rental services leading the home appliance industry, provides new service experiences to customers based on future technologies: The Water Map service that recommends water purifier products suitable for local water quality using big data, and the Air Doctor service that let customers experience the air purifier ideal for the living environment through virtual simulation. Coway provides a more accurate and convenient experience with long-running research data.
                 </p>
-                    <h6-ancor hash="a2-1" :activated="activated" class="blue5 mb-3">Big Data based Water Map Service</h6-ancor>
-                    <p class="mb-45"> Water Map Service is a service that constructs a water quality database by collecting and analyzing waters from different regions all over the world to identify customized filters for different water qualities in customer environments and considers numerous variables for customers to eventually recommend the most compatible product. We provide differentiated value that customers can use filters and products compatible with the customer’s regional characteristics through a recommendation service based on big data analysis. 
+                    <h6-ancor hash="a2-1" :activated="activated" class="blue5 mb-3">Big Data Based Water Map Service</h6-ancor>
+                    <p class="mb-45"> Water Map Service constructs a water quality database by collecting and analyzing waters from different regions all over the world to identify customized filters for different water qualities in customer environments. It considers numerous variables for customers to eventually recommend the most compatible product. We provide differentiated value that customers can use filters and products compatible with the customer’s regional characteristics through a recommendation service based on big data analysis. 
                     </p>
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">                    
                     <hj-img src="/images/62_1@3x.png" fluid></hj-img> 
                     <p class="f-80 mt-2">Coway Global Water Map / Domestic Water Map</p>
                     <hr class="space-p25">
-                    <p class="f-90 letter-narrow"> Step 1: Access "Mobile Water Map Service Page"&rarr; Step 2: Enter the information such as the area where you live, the age of the building, and the type of raw water &rarr; Step 3: Analyze the water quality environment using the water quality database based on the input information &rarr; Step 4: Identify the right filter and recommend a customized water purifier considering the place of use, required functions, number of users
+                    <p class="f-90 letter-narrow"> Step 1: Access "Mobile Water Map Service Page"&rarr; Step 2: Enter specific information: the region, the age of the building, and the type of raw water &rarr; Step 3: Analyze the water quality environment using the water quality database based on the input information &rarr; Step 4: Identify the right filter and recommend a customized water purifier considering the place of use, required functions, number of users
                     </p>
                     <div class="f-80 fw-300 font-noto">* Big data analysis categories: Turbidity, a standard for drinking water quality, TDS (Total Dissolved Solid), pH, 17 types of cation, 4 types of anion, etc.</div>
                 </section>
                 <hr class="py-2">
-                <h6-ancor hash="a2-2" :activated="activated" class="blue5 mb-3"> Air Doctor Service through Simulation Experience </h6-ancor>
-                    <p class="mb-45"> Coway utilizes the "Air Simulation System" to show how air clean performance varies from space to space for different service environments according to the structure of the space, furniture, and the number of people, and to provide "Air Doctor Service" that suggests proper product type and optimal location. The Air Simulation System is a system that predicts the movement of air or water through computer simulation using approximately 196 billion air quality big data and checks the effect of air purification every hour through the installed air purifiers. Customers can visually experience the product through virtual simulation, and purchase products optimized for their living environment to obtain high satisfaction. 
+                <h6-ancor hash="a2-2" :activated="activated" class="blue5 mb-3"> Air Doctor Service Simulation Experience </h6-ancor>
+                    <p class="mb-45"> Coway utilizes the "Air Simulation System" to show how air clean performance varies from space to space for different service environments according to the structure of the space, furniture, and the number of people, and to provide "Air Doctor Service" that suggests proper product type and optimal location. The Air Simulation System predicts the movement of air or water through computer simulation using approximately 196 billion air quality big data and checks the effect of air purification every hour through the installed air purifiers. Customers can visually experience the product through virtual simulation, and purchase products optimized for their living environment with high satisfaction. 
                     </p>
                     <div class="d-flex justify-contents-between mb-5">
                         <div class="mr-2" style="width:18%"><b-img src="/images/36@2x.png" fluid class="w-100"></b-img></div>
@@ -458,7 +460,7 @@
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-4 mb-4 mb-sm-0"><b-img src="/images/48@3x.png" fluid class="w-100"></b-img></b-col>
                         <b-col class="col-12 col-sm-8"><h6-ancor hash="a2-3" :activated="activated" class="blue5 mb-3">Mobile QR Service</h6-ancor>
-                            <p>Coway implements a 24-hour mobile care service to resolve customer complaints and communicate with customers quickly and accurately. Through this, customers can view information such as product inspection schedule, inspection history, user manual on mobile anytime, anywhere without time and space restrictions, and easily apply for Customer Service as well as product consultation through Kakao Biz Messaging Service. Especially, no application installation, a membership registration and authentication procedures are required, enhancing the accessibility and convenience of the service. In addition, we made it possible to access through the QR attached to the product, and we are continuously improving to expand customer usability.
+                            <p>Coway implements a 24-hour mobile care service to resolve customer complaints and communicate with customers quickly and accurately. Through this, customers can view information such as product inspection schedule, inspection history, user manual on mobile anytime, anywhere and easily apply for customer service as well as product consultation through Kakao Biz Messaging Service. Distinctively, application installation, membership registration nor authentication procedures are required, enhancing the accessibility and convenience of the service. In addition, customers can access through the QR attached to the product, and continuously improving to expand customer usability.
                             </p>
                         </b-col>
                     </b-row>
@@ -469,7 +471,7 @@
                 <h6-ancor hash="a3-1" :activated="activated" class="blue5 mb-3">Water Taste Laboratory</h6-ancor>
                     <p class="mb-3"> To research clean and tasty water and establish the standard for water taste of water purifier, Coway founded "Water Taste Laboratory" within R&D Center. 28 water sommeliers certified by KISA (Korea International Sommelier Association) and K-water (Korea Water Resources Corporation), 23 CWS (Certified Water Specialists) certified by Water Quality Association in the US, and 45 Coway researchers with technical specialties related to water are registered and actively working at Water Taste Laboratory.
                     </p>
-                    <p class="mb-45"> Since 2009, Coway formed a task force team to start researching for water taste study. In 2011, it set the direction of water taste through global research, and since 2017, we established GPT (Good Pure Tasty) water Indices as Coway’s own strict water taste standard, utilizing in product assessment. Moreover, we continued to lift the level of a water taste study with various initiations such as introducing "Water Sensory Evaluation Room" and "Sensory Evaluation Specialized Statistical Program," and training water taste professional panels. Hereafter, Water Taste Laboratory at its core, Coway plans to conduct research activities such as 1) defining attributes of water purifier water taste, 2) scientifically proving correlations between water taste and performance of each water purifier filter, 3) establishing tasty water taste standard of water purifier.   
+                    <p class="mb-45"> Since 2009, Coway formed fa task force team to start researching for water taste study. In 2011, we set the direction of water taste through global research, and since 2017, we established GPT (Good Pure Tasty) water Indices as Coway’s own strict water taste standard, utilizing in product assessment. Moreover, we continued to lift the level of a water taste study with various initiations such as introducing "Water Sensory Evaluation Room" and "Sensory Evaluation Specialized Statistical Program," and training water taste professional panels. Hereafter, Water Taste Laboratory at its core, Coway plans to conduct research activities such as 1) defining attributes of water purifier water taste, 2) scientifically proving correlations between water taste and performance of each water purifier filter, 3) establishing tasty water standard of water purifier.   
                     </p>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-6 mb-3 mb-sm-0"><b-img src="/images/27@3x.png" fluid class="w-100"></b-img> </b-col>
@@ -481,7 +483,7 @@
                     <b-row class="mb-5">
                         <b-col class="col-12 col-md-6 mb-4 mb-md-0">
                         <h6-ancor hash="a3-2" :activated="activated" class="blue5 mb-3">Open Innovation</h6-ancor>
-                            <p class="mb-3"> Coway reinforced customer product usage environment through cooperation with Amazon, an E-Commerce company in the USA. To maximize customer convenience, we adapted Alexa, the AI platform of Amazon, to air purifiers that replacing filters at an appropriate timing for usage environment is necessary. In 2017, Amazon’s Alexa was first adapted to Coway air purifier Air Mega, and in 2018, Dash Replenishment Through Alexa (DRS), Amazon’s automatic consumable-shipping program was applied that in 2019 Coway product sales in North American market was 120,000, a 267% growth compared to sales 2017. 
+                            <p class="mb-3"> Coway reinforced customer product usage environment through cooperation with Amazon. To maximize customer convenience, we adapted Alexa, the AI platform of Amazon, to air purifiers of which filter replacement at an appropriate timing for usage environment is necessary. In 2017, Amazon’s Alexa was first adapted to Coway air purifier Air Mega, and in 2018, Dash Replenishment Through Alexa (DRS), Amazon’s automatic consumable-shipping program was applied that in 2019 Coway product sales in North American market marked 120,000 units, a 267% growth compared to sales 2017. 
                             </p>
                             <p class="mb-3"> As of today, May of 2020, Coway and Amazon provide filter order through voice command and filter lifespan and product status check though air purifier technology applied with DART service, the 3rd generation version of DRS. Also, Coway plans to adapt Alexa in Aqua Mega, Coway water purifier, to enhance its usability.
                             </p>
@@ -492,7 +494,7 @@
                             <div :class="isIE ? 'd-none' :'text-center d-none d-sm-block mb-md-4 px-md-5'" style="max-width:330px;"><b-img src="/images/33@3x.png" fluid></b-img></div>
                             <div class="position-relative pt-md-4">
                                 <div class="position-absolute" style="margin-top: -1.75rem;">
-                                    <h7 class="mb-2 pt-3 pt-sm-0 font-noto">R&amp;D investment and performance</h7>
+                                    <h7 class="mb-2 pt-3 pt-sm-0 font-noto">R&amp;D Investment and Performance</h7>
                                     <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:12px;" class="mr-1 bg-blue5"></div> R&amp;D Expenditure (Unit: million KRW)</div>
                                     <div class="fw-300 f-80 d-flex align-items-center"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> Ratio to sales (%)</div>
                                 </div>
