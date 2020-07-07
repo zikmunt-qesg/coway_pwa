@@ -345,11 +345,11 @@
                         </div>
                         <div class="mt-5 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-11 col-sm-9 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-10 col-xl-8"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway leads change and maximizes the value of the customer experience</div> </transition></div> 
+                            <div class="col-11 col-sm-9 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-10 col-xl-8"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway maximizes the value of the customer experience and leads the change</div> </transition></div> 
                         </div>
                         <div class="mt-2 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">through digital-based innovations such as big data, A.I, and IoT.</div> </transition></div> 
+                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">through digital-based innovations such as big data, A.,I., and IoT.</div> </transition></div> 
                         </div>
                     </div>
                 </div>
