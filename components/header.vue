@@ -42,10 +42,10 @@
                 </b-col>
                 <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
                     <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
-                        <nuxt-link v-if="is_ENG!=true" :to="`${level2_item.link}`" @click="show_sub_menu=false">
+                        <nuxt-link v-if="is_ENG!=true" :to="{ path: level2_item.link  }" @click="show_sub_menu=false">
                             <div class="global-nav-2 lv2-text f-95">{{ level2_item.title }}</div>
                         </nuxt-link>
-                        <nuxt-link v-else :to="`${level2_item.link}`" @click="show_sub_menu=false">
+                        <nuxt-link v-else :to="{ path: level2_item.link, query: { l: 'ENG'} }" @click="show_sub_menu=false">
                             <div class="global-nav-2 lv2-text-eng f-90">{{ level2_item.title_en }}</div>
                         </nuxt-link>
                     </div>
@@ -117,21 +117,21 @@ export default {
             }
         },
         routerGo(target){
-            this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
-            this.$router.push(this.linkLib(target))
+            let eng = this.is_ENG? '?l=ENG' : ''
+            console.log(this.linkLib(target+eng))
+            this.$router.push(this.linkLib(target+eng))
         },
         toggleLang(){
             if(this.is_ENG==true){
                 this.setLang('KOR')
-                let q = { ...this.$route.query }
-                q.l = 'KOR'
-                //this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
+                let q = {}
+                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
             }
             else{
                 this.setLang('ENG')
                 let q = { ...this.$route.query }
                 q.l = 'ENG'
-                //this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
+                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
             }
         },
         linkLib(address){
