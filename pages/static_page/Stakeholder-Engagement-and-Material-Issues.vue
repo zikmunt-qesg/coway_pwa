@@ -478,7 +478,7 @@
                     <p class="mb-5"> Coway conducts Materiality Assessment to identify material topics of sustainability management. Coway defines important topics by organizing an issue pool based on changes in the external environment and Coway's strategy, deriving priority topics by identifying business relevance and influence on stakeholders. Each priority topic is defined as an important topic along with the level of impact on Coway's business value creation aspect. Throughout this report, business importance and social value creation impact, management strategies and goals, and activities are reported in detail.
                     </p>
                     <hr class="py-1">
-                    <h6-ancor hash="e2-1" :activated="activated" class="parang6 mb-3 font-noto">Step 1. Configuring the Issue Pool </h6-ancor>
+                    <h6-ancor hash="e2-1" :activated="activated" class="parang6 mb-3 font-noto">Step 1. Configuring The Issue Pool </h6-ancor>
                     <p class="mb-45">Coway configures an issue pool by analyzing various indicators to derive important topics that reflect changes in the industrial and corporate environment and reflect key issues in terms of sustainability management. Through the analysis of global sustainability standards and initiatives, we identify the latest trends and changes in the macro-industrial environment and analyze media and communication keywords that closely reflect changes in Coway to draw key issues. Through this, the number of issue pools for Coway was 26 in 2019.
                     </p>
                     <b-row class="mb-5">
@@ -498,7 +498,7 @@
                         </b-col>
                         <b-col class="col-12 col-sm-6 position-relative">
                             <div class="vertical-line-dotted position-absolute d-none d-sm-block" style="height: 77%; top: 20%;"></div>
-                            <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Media and Communication Key word Analysis</div>
+                            <div class="py-3 px-3 parang8-box parang8 text-center fw-500">Media and Communication Key Word Analysis</div>
                             <div class="px-md-3 py-3 border-bottom-dark adjust-height-80">
                                 <p class="parang6 fw-400 pt-2 line-height-low"> Analysis of Coway's sustainability management issues and positive/negative issues through media research
                                 </p>
@@ -506,7 +506,7 @@
                                     <li>Exposure period: 2019.01.01~2019.12.31</li>
                                     <li>Media : 132 press including 14 major daily newspapers nationwide</li>
                                 </ul>
-                                <p class="parang6 fw-400 line-height-low"> Main keyword analysis of external communication materials
+                                <p class="parang6 fw-400 line-height-low"> Main keyword Analysis of External Communication Materials
                                 </p>
                                 <ul class="custom-ul line-height-low fw-300 f-90">
                                     <li>IR data and performance announcement data</li>
@@ -666,7 +666,7 @@
                             <div class="parang8-box py-1 fw-500 text-center mb-4" style="width:156px">Progress</div>                                
                             <div class="position-relative">
                                 <div class="col-6 col-sm-4 col-md-6 fw-500 mr-2 position-absolute">
-                                    <div class="line-height-low">제/부품 안전/성능인증 적합성 평가</div> <div class="fw-300 f-80 mb-2">(Unit: Cases)</div>
+                                    <div class="line-height-low">Products/Parts Safety/Performance Certification Suitability Assessment</div> <div class="fw-300 f-80 mb-2">(Unit: Cases)</div>
                                 </div>
                                 <b-img src="/images/22_1.svg" fluid class="pt-2"></b-img>
                             </div>
@@ -675,7 +675,7 @@
 
                     <p> As lifestyle changes, household appliances that are essential for daily life are diversifying, and the number of environmental household appliances used in home and living environments is gradually increasing. Accordingly, the importance of safety and quality control of environmental home appliances has become ever more important. In response, Coway proved its excellence in product responsibility by receiving the Korea Reliability Awards, "Manufacturing Sector Grand Prize" and "Service Quality Excellence Award" by the Prime Minister of South Korea. As a company-wide product responsibility governance, Coway operates the Infinite Responsibility Committee, which directly reports to the CEO, and strengthens its ability to execute by operating the Product Immersion Committee 360(PIC 360), a company-wide quality management committee. Moreover, with the TQA Center, we are developing and verifying product reliability testing standards, and operating an accredited testing laboratory for product safety certification to expand the scope of safety certification.
                     </p>
-                    <p class="mb-5"> To improve product reliability, Coway has established reliability test equipment in various fields such as environment, packaging and transportation, failure analysis, material and chemistry, and software verification, and has continuously introduced and operated about 40 state-of-the-art analysis equipment. To ensure customer trust and safety, Coway evaluates whether standard safety and performance effectiveness at the time of its initial development continues. The safety/performance certification conformity assessment of the finished product unit increases annually, and 57 safety cases were verified in 2018. In 2019, the infrastructure was expanded to evaluate about 350 cases for safety and performance certification of products and parts, which significantly increased the level of management of mass production products. In 2020, we will establish more than 400 evaluation plans to prevent social issues and strengthen product safety. Based on this, we will put our best efforts to provide products that customers can use with confidence.
+                    <p class="mb-5"> To improve product reliability, Coway has established reliability test equipment in various fields such as environment, packaging and transportation, failure analysis, material and chemistry, and software verification, and has continuously introduced and operated about 40 state-of-the-art analysis equipment. To ensure customer trust and safety, Coway evaluates whether standard safety and performance effectiveness at the time of its initial development continues. The safety/performance certification suitability assessment of the finished product unit increases annually, and 57 safety cases were verified in 2018. In 2019, the infrastructure was expanded to evaluate about 350 cases for safety and performance certification of products and parts, which significantly increased the level of management of mass production products. In 2020, we will establish more than 400 evaluation plans to prevent social issues and strengthen product safety. Based on this, we will put our best efforts to provide products that customers can use with confidence.
                     </p>
 
 
