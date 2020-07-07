@@ -126,9 +126,9 @@
                     <div class="row d-flex flex-column-reverse flex-md-row mt-m-3 font-noto">
                         <b-col class="col-12 col-md-7">
                             <hr class="my-md-5 py-3 py-md-5">
-                            <h4 class="fw-300 parang8 pt-3 mb-5">We will head for the better world<br>with the Beginner’s heart  </h4>
+                            <h4 class="fw-300 parang8 pt-3 mb-5">We will head for the better world<br>with Beginner’s heart  </h4>
                             <h7>Dear valued shareholders and customers, </h7>
-                            <h7>I extend my best wishes for the health and happiness of all stakeholders.</h7>
+                            <h7>I extend my best wishes for health and happiness of all stakeholders.</h7>
                         </b-col>
                         <b-col class="col-12 col-md-5 d-flex justify-content-end"><div style="max-width: 251px;"><b-img src="/images/CEO.png" fluid></b-img></div></b-col>
                     </div>
@@ -138,14 +138,14 @@
                         <b-col class="col-12 col-md-7 pr-md-4">
                             <p class="f-105 text-justify"> Recently, the world is suffering from severe dislocation due to the global pandemic called COVID-19. I want to express my respect and gratitude to all of you who are keeping your nose to the grindstone every day, enduring this unprecedented difficult time. As we have done many times in the past, Coway will prudently overcome this crisis and take it as an opportunity for the greater leap forward.
                             </p>
-                            <p class="f-105 mb-5 text-justify">In 2020, the beginning of "New Coway", we will leap as a leader of the global home appliance market with the "Beginner's heart", the driving force which made Coway today.
+                            <p class="f-105 mb-5 text-justify">In 2020, the beginning of "New Coway", we will leap as the leader of the global home appliance market with Beginner's heart, the driving force which made Coway today.
                             </p>
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="mb-2">
                         <b-col class="col-7 col-md-5 col-xl-4">
                             <div class="parang-bold-short-line mb-1"></div>
-                            <h4 class="parang7 fw-400 mb-0">Trend-Driven Innovation,<br> the Change of the World Today. </h4>
+                            <h4 class="parang7 fw-400 mb-0">Trend-Driven Innovation,<br> The World-Changer of Today. </h4>
                         </b-col>
                         <b-col class="col-5 col-md-6 col-xl-7 d-flex align-items-end">
                             <div class="parang-bold-short-line mb-3"></div><div class="parang-thin-line" style="margin-bottom:1.1rem;"></div>
@@ -155,9 +155,9 @@
                         <b-col class="col-12 col-md-11"> 
                             <p class="f-105 text-justify"> As "subscription economy" is attracting the eyes of the global community, Coway is at the center of it today. The rental system that Coway launched for the first time 20 years ago, now became an ordinary and mundane aspect of our lives. The innovation that Coway has shown so far has been well received in overseas markets beyond South Korea and we expect to secure approximately 8 million customer accounts this year.
                             </p>
-                            <p class="f-105 text-justify"> Customer expectations are rising day after day, regardless of the industry or experiences. Above all, rapidly changing customer behavior patterns and trends provide a direction for the company's future strategy. That's why to lead the market a company must focus on customers pattern and adapt flexibly and quickly. Developing a habit of putting customers first, we will be reborn as Coway that provides a higher level of inspiration to customers.
+                            <p class="f-105 text-justify"> Customer expectations are rising day after day, no matter what industry or experience is. Above all, rapidly changing customer behavior patterns and trends provide a direction for the company's future strategy. That's why to lead the market a company must focus on customers pattern and adapt flexibly and quickly. Developing a habit of putting customers first, we will be reborn as Coway that provides a higher level of inspiration to customers.
                             </p>
-                            <p class="f-105 text-justify"> Among "South Korea's Top 100 Brands" announced by Brand Stock in March 2020, "Coway Water Purifier" was ranked 33rd recognized as a representative brand in South Korea. Coway brand power is the result of customer-centric innovative products and service quality. Now, Coway's tomorrow is not only in South Korea but we will continue to meet the strict standards of Coway and advance toward the global market with our inimitable quality and competitive advantage. Coway's constant challenge toward leading technology and the highest quality for abundant life is the power to conquer today and mar to tomorrow, and shortcut to secure leadership in the global home appliance market.
+                            <p class="f-105 text-justify"> Among "South Korea's Top 100 Brands" announced by Brand Stock in March 2020, "Coway Water Purifier" was ranked 33rd recognized as a representative brand in South Korea. Coway brand power is the result of customer-centric innovative products and service quality. Now, Coway's tomorrow is not only in South Korea but we will continue to meet the strict standards of Coway and advance toward the global market with our inimitable quality and competitive advantage. Coway's constant challenge toward leading technology and the highest quality for abundant life is the power to conquer today and march toward tomorrow, and shortcut to secure leadership in the global home appliance market.
                             </p>
                         </b-col>
                     </b-row> 
@@ -176,16 +176,16 @@
                     <b-row no-gutters class="mb-5">
                         <b-col class="col-1 col-md-2 d-flex align-items-end"></b-col>   
                         <b-col class="col-11 col-md-10 pl-3">
-                            <p class="f-105 text-justify"> As the business environment becomes unpredictable, the lifespan of a company is gradually shortening. The current leadership position does not guarantee the company's sustainable growth and permanence. As a result, the constant exploration and efforts for the sustainable growth have become the mission of the company. That is why we must establish a future-oriented strategy, constant learning, bold challenges, and new customer-centric values.
+                            <p class="f-105 text-justify"> As the business environment becomes unpredictable, the average lifespan of a company is gradually shortening. The current lead does not guarantee the company's sustainable growth and permanence. As a result, the constant exploration and efforts for the sustainable growth have become the mission of the company. That is why we must establish a future-oriented strategy, constant learning, bold challenges, and new customer-centric values.
                             <p class="f-105 text-justify"> As a company dealing with water and air, Coway pays close attention to climate change and strives to minimize the environmental impact of corporate activities. When we all pushed the pause button for a while due to the COVID-19 pandemic, the environment became surprisingly clean again. It tells us how to deal with environmental pollution in the future. There is a growing consensus that green consumption must be practiced for the future. It will soon be the time that people would choose companies that consider the environment and society.
                             </p>
-                            <p class="f-105 text-justify"> A study from Kingston University shows that organizations that have a history of over 100 years have a common trait. That is, "It is traditional in that it is firmly defending its core, but it has surprisingly radical and terrifying dynamics."
+                            <p class="f-105 text-justify"> A study from Kingston University shows that organizations that have a history of over 100 years have a common trait; "It is traditional in that it is firmly defending its core, but it is surprisingly radical and terrifyingly dynamics."
                             </p>
-                            <p class="f-105 text-justify"> For Coway's tomorrow, the core values of "Customer First Value" and "Our family, neighbors, and even life of mankind will be healthier and more convenient" will be firmly maintained while building a forward-looking roadmap and prompt executive ability.
+                            <p class="f-105 text-justify"> For Coway's tomorrow, our core values that "Customer First Value" and "We help the life of our family, neighbors, and even the life of every mankind healthier and more convenient" will be firmly maintained while building a forward-looking roadmap and prompt executive ability.
                             </p>
                             <p class="f-105 text-justify"> Coway's 31-year history of growth has always been on the road not taken by anyone. We will continue to grow following the new era and business environment by utilizing our accumulated innovation capabilities.
                             </p>
-                            <p class="f-105 text-justify"> I hope stakeholders would take part in Coway's move toward the better world together.
+                            <p class="f-105 text-justify"> I hope stakeholders would take part in Coway's move toward the better future with us.
                             </p>
                         </b-col>
                     </b-row> 
