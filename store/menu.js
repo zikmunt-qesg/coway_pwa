@@ -20,12 +20,12 @@ export const state = () => ({
                             },
                             {
                                 title: '미래 기술 기반의 서비스 혁신',
-                                title_en: 'Service Innovation based on Future Technology',
+                                title_en: 'Service Innovation',
                                 link: '/static_page/Product-and-Service-Innovation#a2'
                             },
                             {
                                 title: '혁신을 위한 연구개발 역량 강화',
-                                title_en: 'Research Capacity Improvement for Innovation',
+                                title_en: 'Research Capacity Improvement',
                                 link: '/static_page/Product-and-Service-Innovation#a3'
                             },
 
@@ -56,7 +56,7 @@ export const state = () => ({
                 },
                 {
                     title: '정보보안 및 개인정보보호',
-                    title_en: 'Information Security and Personal Information Protection',
+                    title_en: 'Information Security and Privacy Protection',
                     link: '/static_page/Information-Security-and-Personal-Information-Protection',
                     child:
                         [
@@ -72,7 +72,7 @@ export const state = () => ({
                             },
                             {
                                 title: '모니터링 및 실사 프로세스',
-                                title_en: 'Monitoring and Due Diligence Process',
+                                title_en: 'Monitoring and Due Diligence',
                                 link: '/static_page/Information-Security-and-Personal-Information-Protection#c3'
                             }
                         ]
@@ -126,7 +126,7 @@ export const state = () => ({
                             },
                             {
                                 title: '중대성 맥락과 중장기 목표',
-                                title_en: 'Materiality Context and Long-Term Target',
+                                title_en: 'Context and Long-Term Target',
                                 link: '/static_page/Stakeholder-Engagement-and-Material-Issues#e3'
                             }
                         ]
@@ -139,17 +139,17 @@ export const state = () => ({
                         [
                             {
                                 title: '이사회 중심의 책임경영 수행',
-                                title_en: 'Responsible Management Centered on the Board of Directors',
+                                title_en: 'Board of Directors',
                                 link: '/static_page/Corporate-Governance#f1'
                             },
                             {
                                 title: '성과평가와 보수 지급',
-                                title_en: 'Performance Evaluation and Renumeration',
+                                title_en: 'Performance and Renumeration',
                                 link: '/static_page/Corporate-Governance#f2'
                             },
                             {
                                 title: '소유구조 및 의결권',
-                                title_en: 'Ownership Structure and Voting Rights',
+                                title_en: 'Ownership and Voting Rights',
                                 link: '/static_page/Corporate-Governance#f3'
                             }
                         ]
@@ -185,7 +185,7 @@ export const state = () => ({
                         [
                             {
                                 title: '전사적 리스크 관리 체계',
-                                title_en: 'Company-wide Risk Management System',
+                                title_en: 'Company-wide Risk Mgt. System',
                                 link: '/static_page/Risk-Management#h1'
                             },
                             {
@@ -234,7 +234,7 @@ export const state = () => ({
                         [
                             {
                                 title: '환경경영을 통한 깨끗함의 가치 실현',
-                                title_en: 'Cleanness Value with Environmental Management',
+                                title_en: 'Environmental Mgt. for Cleanliness',
                                 link: '/static_page/Environmental-Management-for-Clean-Water-and-Air#k1'
                             },
                             {
@@ -252,7 +252,7 @@ export const state = () => ({
                         [
                             {
                                 title: '친환경 제품과 서비스, 비즈니스 설계',
-                                title_en: 'Eco-friendly Product, Service, and Business Design',
+                                title_en: 'Eco-friendly Design',
                                 link: '/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1'
                             },
                             {
@@ -270,7 +270,7 @@ export const state = () => ({
                         [
                             {
                                 title: '기후변화 목표 및 시나리오 관리',
-                                title_en: 'Climate Change Goals and Scenario Management',
+                                title_en: 'Climate Change Goals',
                                 link: '/static_page/Responses-to-Climate-Change#n1'
                             },
                             {
@@ -312,7 +312,7 @@ export const state = () => ({
                                 },
                                 {
                                     title: '커뮤니케이션 기반의 기업문화',
-                                    title_en: 'Communication-based Company Culture',
+                                    title_en: 'Communication-based Culture',
                                     link: '/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r2'
                                 },
                                 {
@@ -348,7 +348,7 @@ export const state = () => ({
                             [
                                 {
                                     title: '협력사와의 소통을 통한 성장 지원',
-                                    title_en: 'Support for Growth through Communication with Suppliers',
+                                    title_en: 'Communication with Suppliers',
                                     link: '/static_page/Win-Win#t1'
                                 },
                                 {
@@ -366,7 +366,7 @@ export const state = () => ({
                             [
                                 {
                                     title: '코웨이 다운 사회공헌',
-                                    title_en: 'Social Contribution based on Goodness',
+                                    title_en: 'Contribution based on Goodness',
                                     link: '/static_page/Local-Community#u1'
                                 },
                                 {
@@ -412,12 +412,12 @@ export const state = () => ({
                             [
                                 {
                                     title: '인권경영 원칙 및 가이드',
-                                    title_en: 'Human Rights Management Principles and Guide',
+                                    title_en: 'Human Rights Principles',
                                     link: '/static_page/Human-Rights-Report#w1'
                                 },
                                 {
                                     title: '인권 리스크 식별 및 완화 프로세스',
-                                    title_en: 'Human Rights Risk Identification and Mitigation Process',
+                                    title_en: 'Risk Identification and Mitigation',
                                     link: '/static_page/Human-Rights-Report#w2'
                                 }
                             ]
