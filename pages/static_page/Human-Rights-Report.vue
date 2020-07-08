@@ -158,7 +158,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">Human Right Report</h4-ancor>
@@ -180,14 +180,14 @@
                     </p>
                     <p class="mb-5"> In the risk identification stage, we identify human rights risk by analyzing data for human rights risk and impacts and by conducting stakeholders survey, including suppliers, customers, and local organizations. Particularly, in 2019, an online-based human rights survey was conducted with core suppliers, identifying critical risks. If a significant risk is found in human rights impact evaluation results, we advise the workplace and the supplier to establish a mitigation action plan. The mitigation action process and outcome of measure are disclosed in this report.
                     </p>
-                    <div class="position-relative"><hj-img src="/images/96_1.svg" fluid></hj-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem">Coway Human Rights Risk Identification and Mitigation Process</h7>
+                    <div class="position-relative"><hj-img src="/images/318_1.svg" fluid></hj-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem">Coway Human Rights Risk Identification and Mitigation Process</h7>
                     </div>
                     <hr class="mb-4">
 
                     <h6-ancor hash="w2-2" :activated="activated" class="gold6 fw-500 mb-2">Results of Measures on Key Human Rights Factors</h6-ancor>
                     <p class="font-noto mb-45">Key human rights issue and due diligence of value chain implemented in 2019 are as followed:
                     </p>
-                    <b-img src="/images/60_1.svg" fluid></b-img>
+                    <b-img src="/images/318_2.svg" fluid></b-img>
                     <hr class="mb-4">
 
                         <h7 class="mb-3 gray63">Key Human Rights Issues and Corrective Actions</h7>

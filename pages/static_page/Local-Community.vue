@@ -306,7 +306,7 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
@@ -369,10 +369,10 @@
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">“Coway-like” Social Contribution</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> Coway promotes social contribution based on the management spirit of "Goodness" to protect the precious nature of water and air and make life healthy and enriched in a sustainable way. Based on Coway's core business capabilities, water and air, and employees, we are pursuing strategic social contributions to create new social values in the local community. The core value of Coway's social contribution is to create a better life and society by contributing to where it is most needed based on what Coway can do best.
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>Link-Coway Social Contribution Website:</b-button></a>
+                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>Coway Social Contribution Website:</b-button></a>
                         <hr class="mb03">
                         <h7 class="gray63 mb-3">Coway Social Contribution Strategy</h7>
-                        <b-img src="/images/10_1.svg" fluid></b-img>
+                        <b-img src="/images/317_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
                         <!-- <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
@@ -403,7 +403,7 @@
                         <p class="mb-45"> Coway practices sharing through employees' social contribution activities. We operate an employee volunteer group led by the CEO, based on the active participation of all employees, including R&D centers and factories, as well as the head office. Bluebird, a smart sales organization, has signed an agreement with the Children's Cancer Foundation to practice regular volunteer activities. In 2019, we celebrated to end the treatment to encourage and congratulate 150 children who have completed treatment for childhood cancer leukemia.
 
                         </p>
-                        <hj-img src="/images/15_1.svg" fluid></hj-img>
+                        <hj-img src="/images/317_2.svg" fluid></hj-img>
                         <hr class="space-p25">
                         <h7 class="mb-3 gray63">Employee Volunteer Activities</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
@@ -427,7 +427,7 @@
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Coway’s Promises for Clean Water and Air</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> Coway promotes three promises of water, air, and people as major social contribution areas to improve the quality of life by improving access to clean water and air to all communities and providing a sanitary environment. As a result, we provide water purifiers and air purifiers to the vulnerable groups at home and abroad as a key initiative to share the value of cleanliness, while supporting youth entrepreneurs in the lifestyle sector to create youth jobs and innovate industries.
                         </p>
-                        <div class="position-relative"><b-img src="/images/57_1.svg" fluid></b-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem;">Water, Air, People Key Performance</h7></div>
+                        <div class="position-relative"><b-img src="/images/317_3.svg" fluid></b-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem;">Water, Air, People Key Performance</h7></div>
                     <hr class="mb-4">          
 
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">
