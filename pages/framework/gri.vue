@@ -43,17 +43,17 @@
                     </template>
                     <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                     <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-                    <b-td>{{ row_item.Note_e }} 
+                    <b-td>{{ row_item.Note }} 
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -88,13 +88,13 @@
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
-                                <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -130,13 +130,13 @@
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
-                                <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -172,13 +172,13 @@
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
-                                <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                    {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -232,13 +232,13 @@
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                    <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -273,13 +273,13 @@
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
-                                <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -315,13 +315,13 @@
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
-                                <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -357,13 +357,13 @@
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
-                                <a :href="link_to['to']" class="mr-3" target="_blank">
-                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </a>
                             </template>
                             <template v-else>
-                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3">
-                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 gray4"></i>
+                                <nuxt-link :to="linkLib(link_to['to'])" class="mr-3 f-90 blue5" id="content-links">
+                                    {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 pl-2 f-80 blue5"></i>
                                 </nuxt-link>
                             </template>
                         </span>
@@ -428,4 +428,11 @@ export default {
   },
 }
 </script>
--
+<style lang="scss">
+#content-links:hover,
+#content-links:hover >i{
+    color: $blue7!important;
+    text-decoration: underline!important;
+    text-underline-position: under!important;
+}
+</style>

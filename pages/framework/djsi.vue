@@ -8,7 +8,7 @@
     </b-row>
     <b-container fluid class="bg-white px-0 mx-0">
         <b-card class="border-0 bg-transparent-gray-50 sticky-top pt-md-1" style="top:53.3px; z-index:888;">
-            <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='SASB' :defined_query="defined_query"></search-form></b-container>
+            <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='DJSI' :defined_query="defined_query"></search-form></b-container>
         </b-card>
     
         <b-container v-if="this.$store.state.is_ENG==false" class="pt-5 position-relative">
@@ -102,17 +102,17 @@
                     </template>
                     <b-td :id="safeHash(`djsi_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#djsi_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                     <b-td><template v-if="$route.hash == safeHash(`#djsi_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
-                    <b-td>{{ row_item.Note }} <br v-if="row_item.Note">
+                    <b-td>{{ row_item.Note_e }} <br v-if="row_item.Note_e">
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3">
-                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>

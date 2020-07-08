@@ -1127,7 +1127,7 @@ export const state = () => ({
           code: 'MA',
           indicators: '고객 안전보건 경영 접근',
           indicators_e: 'Customer Health and Safety Management Approach',
-          link: [{'to':'/static_page/Product-Responsibility', 'name_e':'', 'name': '제품 책임', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility', 'name_e':'Product Responsibility', 'name': '제품 책임', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1137,7 +1137,7 @@ export const state = () => ({
           code: '416-1',
           indicators: '제품 및 서비스군의 안전보건 영향 평가',
           indicators_e: 'Assessment of the health and safety impacts of product and service categories',
-          link: [{'to':'/static_page/Product-Responsibility#b3', 'name_e':'', 'name': '제품 책임 - 안전 인증 확대 및 고객 안심', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility#b3', 'name_e':'Product Responsibility - Safety Certification and Customer Satisfaction', 'name': '제품 책임 - 안전 인증 확대 및 고객 안심', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1148,7 +1148,7 @@ export const state = () => ({
           indicators: '제품 및 서비스의 안전보건 영향에 관한 규정 위반 사건',
           indicators_e: 'Incidents of non-compliance concerning the health and safety impacts of products and services',
           link: '',
-          Note_e: '',
+          Note_e: 'During the reporting period, there were no violations of laws and autonomous regulations regarding labeling of product and service information.',
           Note: '보고기간 중 제품 및 서비스 정보 라벨링에 관한 법률 및 자율규정 위반사실이 없습니다.'
         },
         {
@@ -1157,7 +1157,7 @@ export const state = () => ({
           code: '417-1',
           indicators: '제품 및 서비스 정보와 라벨링',
           indicators_e: 'Requirements for product and service information and labeling',
-          link: [{'to':'/static_page/Product-Responsibility#b2', 'name_e':'', 'name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Product-Responsibility#b2', 'name_e':'Product Responsibility - Product Reliability', 'name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1168,7 +1168,7 @@ export const state = () => ({
           indicators: '제품 및 서비스 정보와 라벨링에 관한 법률규정 및 자율규정을 위반한 사건',
           indicators_e: 'Incidents of non-compliance concerning product and service information and labeling',
           link: '',
-          Note_e: '',
+          Note_e: 'During the reporting period, there were no violations of laws and autonomous regulations regarding labeling of product and service information.',
           Note: '보고기간 중 제품 및 서비스 정보 라벨링에 관한 법률 및 자율규정 위반사실이 없습니다.'
         },
         {
@@ -1178,7 +1178,7 @@ export const state = () => ({
           indicators: '마케팅 커뮤니케이션과 관련된 규정 위반',
           indicators_e: 'Incidents of non-compliance concerning marketing communications',
           link: '',
-          Note_e: '',
+          Note_e: 'There were no violations of regulations related to marketing communication during the reporting period.',
           Note: '보고기간 중 마케팅 커뮤니케이션과 관련한 규정 위반 사실이 없습니다.'
         },
         {
@@ -1198,7 +1198,7 @@ export const state = () => ({
           indicators: '사회적, 경제적 영역의 법률 및 규제 위반',
           indicators_e: 'Non-compliance with laws and regulations in the social and economic area',
           link: '',
-          Note_e: '',
+          Note_e: 'During the reporting period, there were no significant violations of laws and regulations in the social and economic areas that required serious attention.',
           Note: '보고기간 중 중대하거나 주의가 필요한 사회적, 경제적 영역의 법률 및 규제 위반 사실이 없습니다.'
         }
     ],
@@ -1215,7 +1215,7 @@ export const state = () => ({
             indicators: '(1)리콜 횟수 및 (2)리콜 된 제품의 수', 
             indicators_e: 'Number of (1) recalls issued and (2) total units recalled',
             link: '', 
-            Note_e: '',
+            Note_e: 'There were no recalls during the reporting period.',
             Note: '보고기간 중 진행 된 리콜이 없습니다.' 
         },
         { 
@@ -1224,7 +1224,7 @@ export const state = () => ({
             code: 'CG-AM-250a.2', 
             indicators: '제품 안전 리스크의 식별과 관리를 위한 절차', 
             indicators_e: 'Discussion of process to identify and manage safety risks associated with the use of its products',
-            link: [{'to':'/static_page/Product-Responsibility#b2', 'name_e':'', 'name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Product-Responsibility#b2', 'name_e':'Product Responsibility - Product Reliability', 'name': '제품 책임 - 제품 신뢰성 강화', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },
@@ -1235,7 +1235,7 @@ export const state = () => ({
             indicators: '제품 안전 관련 법적 절차로 인한 금전적 손실액', 
             indicators_e: 'Total amount of monetary losses as a result of legal proceedings associated with product safety',
             link: '', 
-            Note_e: '',
+            Note_e: 'In 2016, we recalled due to a structural defect in water purifiers(C(H)PI-380N, CHPCI-430N, CHSI-370N), and legal proceedings are pending. Financial losses due to fines or damages have not been confirmed.',
             Note: '당사는 2016년 얼음 정수기 (C(H)PI-380N, CHPCI-430N, CHSI-370N) 구조상 결함으로 인해 리콜을 실시하였으며, 이에 따른 법적 소송이 진행 중에 있습니다. 벌금이나 손해배상에 따른 금전적 손실은 확정되지 않았습니다.' 
         },
         { 
@@ -1245,7 +1245,7 @@ export const state = () => ({
             indicators: '에너지스타 프로그램 인증을 받은 제품 비율', 
             indicators_e: 'Percentage of eligible products by revenue certified to the ENERGY STAR® program ',
             link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
-            Note_e: '',
+            Note_e: 'We manage eco-friendly product certification such as environmental marks, water footprints, carbon neutral products, and carbon balloons as major KPIs, not ENERGY STAR certification.',
             Note: '당사는 에너지스타 프로그램 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
         { 
@@ -1255,7 +1255,7 @@ export const state = () => ({
             indicators: '가전제품 지속가능성 표준(AHAM) 인증을 받은 제품 비율', 
             indicators_e: 'Percentage of eligible products certified to an Association of Home Appliance Manufacturers(AHAM) sustainability standard',
             link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
-            Note_e: '',
+            Note_e: 'We manage eco-friendly product certifications such as environmental marks, water footprints, carbon neutral products, and carbon balloons as major KPIs, rather than home appliance sustainability standards (AHAM) certification.',
             Note: '당사는 가전제품 지속가능성 표준(AHAM) 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
         { 
@@ -1277,7 +1277,7 @@ export const state = () => ({
             indicators: '연간 생산량', 
             indicators_e: 'Annual production',
             link: '', 
-            Note_e: '',
+            Note_e: 'Production as of December 2019 is 24,661,391 units, including water purifiers, purifiers, filters, bidets, water softeners and other products.',
             Note: '정수기, 청정기, 필터, 비데, 연수기 및 기타 제품을 포함, 2019년 12월 기준 생산량은 24,661,391대 입니다.' 
         }
     ],        
@@ -1308,9 +1308,9 @@ export const state = () => ({
             code: 'SV-PS-230a.3', 
             indicators: '(1)정보 유출 사고, (2)개인 식별정보 또는 고객 비밀정보의 수집 비율, (3)영향을 받은 고객 수', 
             indicators_e: `(1) Number of data breaches, (2) percentage involving customers' confidential business information(CBI) or personally identifiable information(PII), (3) number of customers affected`,
-            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#c3', 'name_e':'Information Security and Privacy Protection', 'name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }], 
-            Note_e: '',
-            Note: '보고기간 중 외부 이해관계자 및 규제기관의 고충제기가 존재하지 않습니다.' 
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#c3-2', 'name_e':'Information Security and Privacy Protection', 'name': '정보보안 및 개인정보보호 - 2019년 정보보호 모니터링 주요활동 및 성과', 'icon':'fas fa-link' }], 
+            Note_e: 'There were no data breaches during the reporting period.',
+            Note: '보고기간 중 정보 유출 사고가 존재하지 않습니다.' 
         },
         { 
             classification: '임직원 다양성 및 참여', 
@@ -1381,7 +1381,7 @@ export const state = () => ({
             indicators: '총 근무시간 및 청구 가능 비율', 
             indicators_e: 'Employee hours worked, percentage billable',
             link: '', 
-            Note_e: '',
+            Note_e: 'N/A',
             Note: 'N/A' 
         }
     ],
@@ -1499,7 +1499,7 @@ export const state = () => ({
             indicators: '임원 주식소유 요건', 
             indicators_e: 'Management Ownership Requirements',
             link: '', 
-            Note_e: '',
+            Note_e: 'N/A',
             Note: 'N/A' 
         },            
         { 
@@ -1889,7 +1889,7 @@ export const state = () => ({
             indicators: '임직원 참여도 추이', 
             indicators_e: 'Trend of Employee Engagement',
             link: '', 
-            Note_e: '',
+            Note_e: 'N/A',
             Note: 'N/A' 
         },            
         { 
@@ -1919,7 +1919,7 @@ export const state = () => ({
             indicators: '사회공헌 투입', 
             indicators_e: 'Input',
             link: '',   
-            Note_e: '',
+            Note_e: 'N/A',
             Note: 'N/A'
         },            
         { 
@@ -1959,7 +1959,7 @@ export const state = () => ({
             indicators: '업무상발병률(OIFR) - 임직원', 
             indicators_e: 'Occupational Illness Frequency Rate (OIFR) - Employees',
             link: '', 
-            Note_e: '',
+            Note_e: 'N/A',
             Note: 'N/A' 
         },                   
     ],    
