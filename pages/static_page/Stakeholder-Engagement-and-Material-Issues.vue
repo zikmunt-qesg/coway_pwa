@@ -406,7 +406,7 @@
                                 </b-tr>
                             
                                 <b-tr>
-                                    <b-td rowspan="4">Shareholders and Investors<br><b-img src="/images/2_2.svg" class="mt-2"></b-img></b-td><b-td>Regular General shareholders’ meeting</b-td><b-td>Once a Year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Building corporate value</li><li>Increase shareholder value</li><li>Sound governance</li><li>Business opportunity and risk management</li></ul></b-td>
+                                    <b-td rowspan="4">Shareholders and Investors<br><b-img src="/images/2_2.svg" class="mt-2"></b-img></b-td><b-td>Regular General Shareholders’ Meeting</b-td><b-td>Once a Year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Build corporate value</li><li>Increase shareholder value</li><li>Sound governance</li><li>Business opportunity and risk management</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>IR Meeting</b-td><b-td>Frequently</b-td>
@@ -415,7 +415,7 @@
                                     <b-td>Investors/Analysist Conference Call</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>IR webzine</b-td><b-td>Once a Month</b-td>
+                                    <b-td>IR Webzine</b-td><b-td>Once a Month</b-td>
                                 </b-tr>
 
                                 <b-tr>
@@ -429,7 +429,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier committee</b-td><b-td>4 times a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
+                                    <b-td rowspan="3">Partners and Suppliers<br><b-img src="/images/2_4.svg" class="mt-2"></b-img></b-td><b-td>Supplier Committee</b-td><b-td>4 Times a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Win-win cooperation with partners</li><li>Support suppliers' sustainability development</li><li>Create a healthy working environment</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Supplier Online Win-Win portal</b-td><b-td>Frequently</b-td>
@@ -439,7 +439,7 @@
                                 </b-tr>
 
                                 <b-tr>
-                                    <b-td rowspan="3">Local Community<br><b-img src="/images/2_5.svg" class="mt-2"></b-img></b-td><b-td>Local committee</b-td><b-td>4 times a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Participate in social contribution and community activities</li><li>Job creation in the region</li><li>Sustainable regional development</li></ul></b-td>
+                                    <b-td rowspan="3">Local Community<br><b-img src="/images/2_5.svg" class="mt-2"></b-img></b-td><b-td>Local Committee</b-td><b-td>4 Times a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Participate in social contribution and community activities</li><li>Job creation in the region</li><li>Sustainable regional development</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>NGO Meeting</b-td><b-td>Frequently</b-td>
@@ -452,13 +452,13 @@
                                     <b-td rowspan="4">Academia and Media<br><b-img src="/images/2_6.svg" class="mt-2"></b-img></b-td><b-td>Corporate Governance Report</b-td><b-td>Once a Year</b-td><b-td rowspan="4" class="custom-ul-li table-li"><ul><li>Transparent information disclosure</li><li>ESG data and performance communication</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Regular Disclosures such as Business Reports</b-td><b-td>5 times or more a Year</b-td>
+                                    <b-td>Regular Disclosures such as Business Reports</b-td><b-td>5 Times or more a Year</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Participation in Global ESG Evaluation</b-td><b-td>6 times or more a Year</b-td>
+                                    <b-td>Participation in Global ESG Evaluation</b-td><b-td>6 Times or more a Year</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Participation in Sustainability Initiatives</b-td><b-td>4 times or more a Year</b-td>
+                                    <b-td>Participation in Sustainability Initiatives</b-td><b-td>4 Times or more a Year</b-td>
                                 </b-tr>
 
                                 <b-tr>
