@@ -782,17 +782,17 @@
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO Communication Activities</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">Consolidating the horizontal communication between the CEO and employees by conducting various activities such as the New Year's ceremony, the end of the year ceremony, encouraging gifts for employees with children who are preparing for the SAT, and Hof Day at the sales site.</span> </p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO Communication Activities</p><p class="px-1 line-height-low"><span class="letter-narrow f-85">Consolidating the horizontal communication between the CEO and employees by conducting various activities such as the New Year's ceremony, the end of the year ceremony, encouraging gifts for employees with children who are preparing for the SAT, and Hof Day at the sales site.</span> </p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">SangSang Ocean</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">A representative idea proposal system of Coway, and if employees freely provide ideas, compensation is provided accordingly.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">SangSang Ocean</p><p class="px-1 line-height-low"><span class="letter-narrow f-85">A representative idea proposal system of Coway, and if employees freely provide ideas, compensation is provided accordingly.</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Grievance Channel</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">Regular Joint Labor-Management Council meetings and Joint Labor-Management Council workshops are held with laborers' representatives. Moreover, we operate an in-house online consultation channel and "Chorus".</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Grievance Channel</p><p class="px-1 line-height-low"><span class="letter-narrow f-85">Regular Joint Labor-Management Council meetings and Joint Labor-Management Council workshops are held with laborers' representatives. Moreover, we operate an in-house online consultation channel and "Chorus".</span></p>
                             </b-col>
                         </b-row>
                     <h7 class="mb-3 gray63">Received Employee Grievance Status</h7>
@@ -842,22 +842,22 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Fixed Time Work Policy</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85">The PC-Off system encourages employees to leave the office at a fixed time and support employees to spend more time with their families. </span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Fixed Time Work Policy</p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85">The PC-Off system encourages employees to leave the office at a fixed time and support employees to spend more time with their families. </span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Efficient Working Culture</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> To build an efficient and productive way of working for Coway, we established the slogan “Gyeol Seung Jeong Gyeol” to create an environment where employees can concentrate on the work through guidelines and codes of conduct related to meetings / reports / collaboration.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Efficient Working Culture</p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85"> To build an efficient and productive way of working for Coway, we established the slogan “Gyeol Seung Jeong Gyeol” to create an environment where employees can concentrate on the work through guidelines and codes of conduct related to meetings / reports / collaboration.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Elementary School Entry Leave</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> Five-day paid leave is provided to employees to help their children starting elementary school.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Elementary School Entry Leave</p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85"> Five-day paid leave is provided to employees to help their children starting elementary school.</span></p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Shortened Work Hour During Pregnancy </p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> During the early and late stages of pregnancy when there is a high risk, 2 hours shorter work hours.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Shortened Work Hour During Pregnancy </p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85"> During the early and late stages of pregnancy when there is a high risk, 2 hours shorter work hours.</span></p>
                             </b-col>
                         </b-row>
                         
@@ -866,22 +866,22 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Family Invited Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> We invite employees' families to enjoy a happy time by conducting various programs such as field trips, rail bikes, and glamping.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Family Invited Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> We invite employees' families to enjoy a happy time by conducting various programs such as field trips, rail bikes, and glamping.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">New Employees Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> In commemoration of the 100th day of the new employees, we are inviting families to join business events such as field trips.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">New Employees Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> In commemoration of the 100th day of the new employees, we are inviting families to join business events such as field trips.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Science Camp</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> We invite the children of our employees twice a year to provide an opportunity to feel and experience the value of water and air.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Science Camp</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> We invite the children of our employees twice a year to provide an opportunity to feel and experience the value of water and air.</span></p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Coway Family Farm</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> Every year from April to October, we operate a family farm, contributing to the employees to feel small happiness through organic vegetable farm.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Coway Family Farm</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> Every year from April to October, we operate a family farm, contributing to the employees to feel small happiness through organic vegetable farm.</span></p>
                             </b-col>
                         </b-row>
                         <b-row class="mb-5">

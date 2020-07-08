@@ -84,7 +84,7 @@
 
                     <p class="mb-3">개인정보보호 원칙은 최소한의 개인정보 수집 및 활용, 안전한 관리 및 법규 준수에 대한 가이드로 구성되어 있습니다. 2019년 개인정보보호법의 제·개정에 따라 개인정보보호지침 및 개인정보처리방침을 개정하여 공지, 교육을 진행하였습니다. 코웨이는 직접 사업 영역뿐만 아니라 영업조직을 비롯한 수탁자 및 협력사에 개인정보 관련 지침 및 방침을 모두 적용하며 철저한 정보 관리를 추진하고 있습니다. 
                     </p>
-                    <a href="https://help.coway.co.kr/member/coway_new/member/policy.aspx" target="_blank"><b-button variant="blue" size="sm" class="mb-5 px-3"> 코웨이 개인정보처리방침<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                    <a href="https://help.coway.co.kr/member/coway_new/member/policy.aspx" target="_blank"><b-button variant="blue-border" size="sm" class="mb-5 px-3"> 코웨이 개인정보처리방침<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                     <h6-ancor hash="c1-2" :activated="activated" class="blue5 mb-3">정보보호 조직</h6-ancor>
                     <p class="mb-45">코웨이는 정보보호위원회를 중심으로 정보보호 조직을 운영하고 있습니다. 정보보호위원회는 IT 센터장을 중심으로 운영되는 임원급 위원회로, 각 사업부문별 부문장이 정보보호 위원으로 참여합니다. 정보보호위원회는 정보보안 및 개인정보 보호 영역의 통합관리체계를 구축하여 관리의 효율성을 높이고 있습니다. 정보보호 실무는 인프라보안팀을 중심으로 추진하고 있으며, 조직 내 개인정보보호 관리자를 두어 명확한 업무 분담 하에 전 임직원이 자율적이고 능동적으로 정보보호체계에 참여할 수 있도록 노력하고 있습니다.  
@@ -447,7 +447,7 @@
 
                     <p class="mb-3">The principle of privacy protection consists of a guide to the collection and use of minimal personal information, safe management, and compliance with laws and regulations. According to the legislation and revision of the Privacy Protection Act in 2019, the privacy protection guidelines and privacy processing policies were revised to provide announcement and education. Coway leads thorough information management by applying all guidelines and policies related to privacy to trustees and suppliers including sales organizations as well as direct business areas.
                     </p>
-                    <a href="https://help.coway.co.kr/member/coway_new/member/policy.aspx" target="_blank"><b-button variant="blue" size="sm" class="mb-5 px-3">Coway Privacy Policy<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                    <a href="https://help.coway.co.kr/member/coway_new/member/policy.aspx" target="_blank"><b-button variant="blue-border" size="sm" class="mb-5 px-3">Coway Privacy Policy<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                     <h6-ancor hash="c1-2" :activated="activated" class="blue5 mb-3">Information Protection Organization </h6-ancor>
                     <p class="mb-45"> Coway operates an information protection organization centered on the Information Protection Committee. The Information Protection Committee is an executive-level committee operated with the head of the IT Center in the center and the head of each business sector as members of Information Protection Committee. The Information Protection Committee has established an integrated management system in the areas of information security and privacy protection to increase management efficiency. Information security practices are centered on the security team, and we have privacy protection managers within the organization to ensure that all employees participate autonomously and actively in the information protection system under a clear division of duties.

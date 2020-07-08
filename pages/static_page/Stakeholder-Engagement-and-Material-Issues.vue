@@ -564,7 +564,7 @@
                     <h6-ancor hash="e2-3" :activated="activated" class="parang6 mb-3 font-noto">Step 3. Reporting</h6-ancor>
                     <p class="mb-45">Based on the results of Materiality Assessment, there are total 10 material topics in Coway. Coway reports on the business-social background and key KPIs of each important topic, and reports on the overall strategy and activity, performance, and business case throughout this Sustainability Web Report. 
                     </p>
-                    <hj-img src="/images/14_1.svg" fluid></hj-img>
+                    <hj-img src="/images/319_1.svg" fluid></hj-img>
                     <hr class="space-p25">
                     <div style="border-bottom: 1.2px solid #6095dd;"> </div>
                         <b-table-simple responsive class="txt-table sustainability-table f-85 mb-5">

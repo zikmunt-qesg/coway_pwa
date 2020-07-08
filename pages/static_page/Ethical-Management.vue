@@ -41,8 +41,9 @@
                     </p>
 
                     <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" class="px-md-3" size="sm">윤리 제보센터 <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
-                    <hr class="mb-2">
+                    <hr class="mb-3">
 
+                    <h7 class="mb-3 gray63 font-noto">윤리 제보 프로세스</h7>
                     <hj-img src="/images/34_1.svg" fluid></hj-img>
 
                     <hr class="">
@@ -160,8 +161,9 @@
                     </p>
 
                     <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" class="px-md-3" size="sm">Ethics Reporting Center <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
-                    <hr class="mb-2">
+                    <hr class="mb-3">
 
+                    <h7 class="mb-3 gray63 font-noto">Ethics Reporting Process</h7>
                     <hj-img src="/images/303_2.svg" fluid></hj-img>
 
                     <hr class="">
