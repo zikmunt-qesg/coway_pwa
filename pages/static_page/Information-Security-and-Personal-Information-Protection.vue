@@ -419,7 +419,7 @@
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                             <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
                             <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
-                            <p> As much as the applicability of data and information-based Infrastructures is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack that both domestic and international information security and privacy protection laws are being reinforced.
+                            <p> As much as the applicability of data and information-based Infrastructure is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack that both domestic and international information security and privacy protection laws are being reinforced.
                             </p>
                             <p>Coway collects personal information from many customers due to its characteristics as a rental business. Therefore, safely managing customer information is the essential for building trust with customers and for sustainable business. Furthermore, customer information inflows through various methods due to the expansion of service and online distribution channels through IT technology, stimulating the necessity for appropriate reinforcement for the information protection system.
                             </p>
