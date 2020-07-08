@@ -1,0 +1,29 @@
+<svg id="구성_요소_46_1" data-name="구성 요소 46 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="69.926" viewBox="0 0 80 69.926">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #808083;
+        stroke-width: 1.259px;
+      }
+
+      .cls-3 {
+        fill: #808083;
+        font-size: 11.5px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+    </style>
+  </defs>
+  <path id="패스_36456" data-name="패스 36456" class="cls-1" d="M0,0H80V69.926H0Z"/>
+  <g id="구성_요소_35_2" data-name="구성 요소 35 – 2" transform="translate(12 9.714)">
+    <g id="그룹_21509" data-name="그룹 21509" transform="translate(-1854 -2400.714)">
+      <line id="선_23" data-name="선 23" class="cls-2" y2="21.076" transform="translate(1881.154 2400.714)"/>
+      <path id="패스_44" data-name="패스 44" class="cls-2" d="M1879.38,2416.662l-4.181,4.5-4.181-4.5" transform="translate(5.956 1.671)"/>
+      <path id="패스_45" data-name="패스 45" class="cls-2" d="M1858.6,2411.37v17.024h32.309V2411.37" transform="translate(6.396 0.896)"/>
+    </g>
+    <text id="Download" class="cls-3" transform="translate(27 47.367)"><tspan x="-27.376" y="0">Download</tspan></text>
+  </g>
+</svg>
