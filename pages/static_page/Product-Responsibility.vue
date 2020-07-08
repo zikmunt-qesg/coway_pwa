@@ -244,7 +244,7 @@
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
             <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> To Help People Live A Healthy and Peaceful Life With Clean Water And Air Anytime, Anywhere Is The Consistent Path That Coway Has Walked.
- </h7>
+            </h7>
         </b-row>
         <b-row class="px-lg-3">
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -324,7 +324,7 @@
                     <p class="mb-5">Since August 2018, the R&amp;D Committee and Quality Committee are merged to form Product Immersion Committee 360 (PIC 360), a corporate-wide committee. Once a month, senior partners, executives, and team managers attend to discuss product responsibility in every angle (360 degrees) through the entire process from product planning to post-launching step for bolstering executive ability. 
                     </p>
 
-                    <h6-ancor hash="b1-2" :activated="activated" class="blue5 mb-3">Trust &amp; Quality Assurance Center</h6-ancor>
+                    <h6-ancor hash="b1-2" :activated="activated" class="blue5 mb-3 font-noto">Trust &amp; Quality Assurance Center</h6-ancor>
                     <p class="mb-5">To restore customer trust and assurance, we organized the Trust & Quality Assurance Center as a quality innovation propellant. TQA center is an independent team that integrates the Environmental Technology Research Center, and the quality verification department divided into the production and operation division. It incorporates quality-related strategies and functions, bolsters capacity and executive ability to discover potential quality issues in advance, and proactively responds.
                     </p>
 
@@ -454,7 +454,7 @@
                         <hj-img src="/images/306_2.svg" fluid></hj-img>
                         <hr class="mb-5 py-2">                    
                     
-                    <h6-ancor hash="b3-2" :activated="activated" class="blue5 mb-3">Safety and Hygiene Satisfaction Service </h6-ancor>
+                    <h6-ancor hash="b3-2" :activated="activated" class="blue5 mb-3">Safety and Hygiene Management Service </h6-ancor>
                     <p class="mb-45">Coway promotes integrated management from product design to material selection and management services to ensure product hygiene and safety. In the product design process, hygienic maintenance and automated hygiene management systems such as parts replacement and cleaning are applied. In the case of a water purifier where water hygiene management is essential, we installed water path drainage mode, which automatically discharges the remaining amount of water in the faucet when using the water purifier, and introduced an automatic drainage system that automatically releases all water in the water purifier when it is not used for 24 hours. Also, to use safe materials, we examine the chemical content of all parts and develop new materials to replace them with safe materials. Also, for safety and hygiene management at the customer use stage: 1) we provide professional hygiene management tools for each product, 2) special care service for the full replacement of hygiene parts, 3) hygiene monitoring and warning alarms, 4) IoT technology-based product status information and other complex services.
                     </p>     
                         <hj-img src="/images/306_3.svg" fluid></hj-img>
@@ -516,8 +516,8 @@ export default {
                 { 
                     title: this.is_ENG? 'Product Responsibility Governance': '제품 책임 거버넌스', hash: 'b1',
                     child: [
-                        { title: this.is_ENG? 'Company wide Product Responsibility and Quality Mgt.':'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC360', hash: 'b1-1' }, 
-                        { title: this.is_ENG? 'Trust and Quality Assurance Center': 'TQA센터(Trust & Quality Assurance Center)', hash: 'b1-2' }, 
+                        { title: this.is_ENG? 'Company-wide Product Responsibility and Quality Mgt.':'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC360', hash: 'b1-1' }, 
+                        { title: this.is_ENG? 'Trust & Quality Assurance Center': 'TQA센터(Trust & Quality Assurance Center)', hash: 'b1-2' }, 
                     ]
                 },
                 { 
@@ -531,7 +531,7 @@ export default {
                     title: this.is_ENG? 'Safety Certification and Customer Satisfaction': '안전 인증 확대 및 고객 안심', hash: 'b3',
                     child: [
                         { title: this.is_ENG? 'Safety Certification': '제품 안전 인증 확대', hash: 'b3-1'},
-                        { title: this.is_ENG? 'Safety and Hygiene Mgt. Service': '안전 및 위생 안심 서비스', hash: 'b3-2'}
+                        { title: this.is_ENG? 'Safety and Hygiene Management Service': '안전 및 위생 안심 서비스', hash: 'b3-2'}
                     ]
                 }
             ]

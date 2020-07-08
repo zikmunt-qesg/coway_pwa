@@ -210,7 +210,7 @@
                         <p class="mb-5"> Coway operates a university cooperative academy to help strengthen partner competencies. The academy consists of two programs: "Coway-Ewha Academy', a consumer service capacity building program with Ewha Womans University, and "Coway-Yonsei Leadership Academy," a leadership program with Yonsei University. Coway-Ewha Academy offers 9 weeks of customer management and service competitiveness improvement programs, including understanding consumer psychology, creative thinking and self-development, and customized healing stress management. The Coway-Yonsei Leadership Academy provides training on leaders' competencies, such as humanities, philosophy, human relations, and business management, over 8 weeks for leaders who demonstrate excellent leadership skills in sales.
                         </p>
                     
-                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">Supporting Partner Based on Field Issues</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">Supporting Partner with Field Issues</h6-ancor>
                         <p class="mb-5"> Coway provides effective support for sales and service partners such as Cody, CS Doctor, and HP/GHP through an immediate reflection of field issues. Providing a service tool bag is a prime example of improving partner expertise through listening to field issues. The service tool bag is produced through research on the use of service items and partner opinions as a kit dedicated to professional service tools that can manage, transport, and move various service tools. We have diversified tools by application and tool bags to provide specialized tools for each product line of water purifiers, bidets, mattresses, and clothing cleaners. This not only improved the efficiency of service delivery from partners but also minimized fatigue from work.
                         </p>
                     
@@ -270,7 +270,7 @@ export default {
                     title: this.is_ENG? 'Partner Expertise Enhancement': '파트너 전문성 강화', hash: 's1',
                     child: [
                         { title: this.is_ENG? 'Expertise Improvement by Training': '파트너 전문성 향상을 위한 교육 지원', hash: 's1-1' }, 
-                        { title: this.is_ENG? 'Supporting Partner based on Field Issues':'현장 이슈에 기반한 파트너 지원', hash: 's1-2' }, 
+                        { title: this.is_ENG? 'Supporting Partner with Field Issues':'현장 이슈에 기반한 파트너 지원', hash: 's1-2' }, 
                     ]
                 },
                 { 

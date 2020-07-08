@@ -436,7 +436,7 @@ export const state = () => ({
                         child:[
                             {
                                 title: '지속가능성 정책',
-                                title_en: 'Sustainability Policy',
+                                title_en: 'Sustainability Policies',
                                 link: '/static_page/Policies-and-Initiatives'
                             },
                             {

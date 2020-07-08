@@ -2,7 +2,7 @@
 <div>
     <no-ssr>
     <transition name="show-fade" mode="out-in">
-        <div v-if="isVisible" class="position-fixed text-center" style="right:0; top: calc(50vh - 200px);">
+        <div v-if="isVisible&&is_ENG!=true" class="position-fixed text-center" style="right:0; top: calc(50vh - 200px);">
             
             <b-button variant="icon-gray" :aria-expanded="is_opened ? 'false' : 'true'" aria-controls="external-btns" @click="changeCollapse" style="width:78px;" class="py-0">           
                 <div v-if="is_opened==true" key="opened"><i class="fas fa-angle-double-right"></i></div>
@@ -19,6 +19,34 @@
                         <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/111_1.svg" class="external-link-btn py-1"></b-img> </a>
                         <div class="short-divide-line"></div>
                         <nuxt-link to="/downloads" class="text-center"><b-img src="/images/112_1.svg" class="external-link-btn" style="padding-top:0.1rem; padding-bottom:0.15rem;"></b-img> </nuxt-link>
+                        <div class="short-divide-line"></div>
+                        <div @click="backToTop" class="text-center cursor go-to-top pt-2"><b-img src="/images/113_1.svg" style="padding-top:0.15rem;"></b-img> </div>
+                    </div>            
+                </div>
+            </transition>
+        </div>
+
+    <!-- End of KOREAN CONTAINER --------------------------------------------------------------------------------------------------->
+    <!-- End of KOREAN CONTAINER --------------------------------------------------------------------------------------------------->
+    <!-- End of KOREAN CONTAINER --------------------------------------------------------------------------------------------------->    
+
+        <div v-else-if="isVisible&&is_ENG==true" class="position-fixed text-center" style="right:0; top: calc(50vh - 200px);">
+            
+            <b-button variant="icon-gray" :aria-expanded="is_opened ? 'false' : 'true'" aria-controls="external-btns" @click="changeCollapse" style="width:78px;" class="py-0">           
+                <div v-if="is_opened==true" key="opened"><i class="fas fa-angle-double-right"></i></div>
+                <div v-else key="closed"> <i class="fas fa-angle-double-left"></i> </div>          
+            </b-button>
+            
+            <transition name="slide-fade" mode="out-in">  
+                <div id="external-btns" v-if="is_opened==true" class="">             
+                    <div class="d-flex flex-column justify-content-center">
+                        <a href="http://www.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_1.svg" class="external-link-btn" style=""></b-img> </a>
+                        <div class="short-divide-line"></div>
+                        <a href="http://www.cowayir.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_2.svg" class="external-link-btn py-1" style=""></b-img> </a>
+                        <div class="short-divide-line"></div>
+                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_3.svg" class="external-link-btn py-1"></b-img> </a>
+                        <div class="short-divide-line"></div>
+                        <nuxt-link to="/downloads" class="text-center"><b-img src="/images/330_4.svg" class="external-link-btn" style="padding-top:0.05rem; padding-bottom:0rem;"></b-img> </nuxt-link>
                         <div class="short-divide-line"></div>
                         <div @click="backToTop" class="text-center cursor go-to-top pt-2"><b-img src="/images/113_1.svg" style="padding-top:0.15rem;"></b-img> </div>
                     </div>            
@@ -52,7 +80,10 @@ export default {
                 return this.temp_scrollHeight
             }
             else return 100000
-        }
+        },
+        is_ENG(){
+            return this.$store.state.is_ENG
+        },
     },
     methods: {
         backToTop() {

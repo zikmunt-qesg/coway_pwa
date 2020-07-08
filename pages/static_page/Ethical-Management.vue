@@ -33,16 +33,17 @@
                     <p class="mb-3">코웨이는 책임있는 윤리 실천을 위해 ‘클린 코웨이(Clean Coway)’를 비전으로 윤리경영 문화를 조성하고 있습니다. 코웨이는 윤리헌장, 윤리규정, 윤리실천지침을 제정하여 임직원 및 이해관계자의 윤리적 행동 지침을 명확하게 규정하고 적용하고 있습니다. 윤리헌장은 클린 코웨이의 기본 원칙을 정립하며, 윤리규정을 통해 임직원 및 이해관계자의 윤리적 행동 및 가치판단의 기준을 명시합니다. 또한 윤리실천지침을 통해 구체적인 실천사항을 규정하여 다양한 윤리 이슈에 대응할 수 있는 지침을 마련하였습니다.
                     </p>
 
-                    <a href="/documents/code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리헌장</b-button></a>
-                    <a href="/documents/code_of_conduct_guideline.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">윤리규정</b-button></a>
-                    <a href="/documents/code_of_conduct_instruction.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3">윤리실천지침</b-button></a>
+                    <a href="/documents/Coway_code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-5 px-md-3 mr-2 mr-md-3">윤리헌장<i class="fas fa-file-download ml-2"></i> </b-button></a>
+                    <a href="/documents/Coway_code_of_conduct_guideline.pdf" download><b-button variant="parang" size="sm" class="mb-5 px-md-3 mr-2 mr-md-3">윤리규정<i class="fas fa-file-download ml-2"></i> </b-button></a>
+                    <a href="/documents/Coway_code_of_conduct_instruction.pdf" download><b-button variant="parang" size="sm" class="mb-5 px-md-3">윤리실천지침<i class="fas fa-file-download ml-2"></i> </b-button></a>
 
                     <p class="mb-3">코웨이는 홈페이지에 이해관계자가 제보하는 잘못된 관행이나 정책에 대한 개선사항을 접수 받는 윤리제보센터를 운영하고 있습니다. 코웨이는 우편, 팩스 및 온라인을 통해 제보를 접수받고 있습니다. 제보가 접수되면 윤리경영실에서 사안을 판단하여 조사를 진행하고 있으며, 제보된 사안과 동일 또는 유사한 사안이 재발하지 않도록 필요한 경우 사례공유 및 교육을 진행합니다. 코웨이는 제보자를 보호하기 위해 제보자 보호 및 포상 지침을 수립하여 적용하고 있습니다. 
                     </p>
 
-                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" size="sm" block>윤리 제보센터</b-button></a>
-                    <hr class="mb-2">
+                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" class="px-md-3" size="sm">윤리 제보센터 <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                    <hr class="mb-3">
 
+                    <h7 class="mb-3 gray63 font-noto">윤리 제보 프로세스</h7>
                     <hj-img src="/images/34_1.svg" fluid></hj-img>
 
                     <hr class="">
@@ -152,16 +153,17 @@
                     <p class="mb-3">Coway creates an ethical management culture with a vision of "Clean Coway" to practice responsible ethics. Coway has established the Charter of Ethics, Regulations on Ethics, and Code of Ethics to clearly define and apply ethical behavior guidelines for employees and stakeholders. The Charter of Ethics establishes the basic principles of Clean Coway and sets standards for ethical behavior and value judgment of employees and stakeholders through Regulations on Ethics. Also, according to the Code of Ethics, specific practice matters are prescribed to prepare guidelines to address various ethical issues. 
                     </p>
 
-                    <a href="/documents/code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">The Charter of Ethics</b-button></a>
-                    <a href="/documents/code_of_conduct_guideline.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">The Regulations on Ethics</b-button></a>
-                    <a href="/documents/code_of_conduct_instruction.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3">The Code of Ethics</b-button></a>
+                    <a href="/documents/Coway_code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-5 px-md-3 mr-2 mr-md-3">The Charter of Ethics<i class="fas fa-file-download ml-2"></i> </b-button></a>
+                    <a href="/documents/Coway_code_of_conduct_guideline.pdf" download><b-button variant="parang" size="sm" class="mb-5 px-md-3 mr-2 mr-md-3">The Regulations on Ethics<i class="fas fa-file-download ml-2"></i> </b-button></a>
+                    <a href="/documents/Coway_code_of_conduct_instruction.pdf" download><b-button variant="parang" size="sm" class="mb-5 px-md-3">The Code of Ethics<i class="fas fa-file-download ml-2"></i> </b-button></a>
 
                     <p class="mb-3">Coway operates an Ethics Reporting Center that receives improvement suggestions to the wrong practices or policies reported by stakeholders on its website. Coway receives reports via mail, fax, and online. When a report is received, the Ethical Management Office determines the matter and conducts an investigation. If necessary, we share the case and conduct training to prevent the recurrence of the same or similar matter. 
                     </p>
 
-                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" size="sm" block>Ethics Reporting Center</b-button></a>
-                    <hr class="mb-2">
+                    <a href="https://ethics.coway.com:447/Company/Manage/Ethics/Maintenance/PopOnlineReport.aspx" target="_blank"><b-button variant="parang" class="px-md-3" size="sm">Ethics Reporting Center <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                    <hr class="mb-3">
 
+                    <h7 class="mb-3 gray63 font-noto">Ethics Reporting Process</h7>
                     <hj-img src="/images/303_2.svg" fluid></hj-img>
 
                     <hr class="">

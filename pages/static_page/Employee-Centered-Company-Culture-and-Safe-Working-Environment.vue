@@ -666,7 +666,7 @@
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-6 text-center fw-500 px-lg-2"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_4.svg" fluid></b-img></div>
-                                        <p class="fw-500 px-2 px-md-1">Digital-Based Work Innovation Support</p>
+                                        <p class="fw-500 px-2 px-md-1">Digital-based Work Innovation Support</p>
                                     </b-col>
                                     <b-col class="col-6 text-center fw-500"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_5.svg" fluid></b-img></div>
                                         <p class="fw-500 px-2 px-md-1"><span style="word-break: normal;">COVID-19</span> Efforts to prevent the spread of COVID-19</p>
@@ -741,7 +741,7 @@
                                 <li>Total training hours and training hours per person excluded sales positions.</li>
                             </ol>
                     <hr class="space-p25">
-                    <h6-ancor hash="r1-3" :activated="activated" class="gold6 fw-500 mb-3">Digital-Based Work Innovation</h6-ancor>
+                    <h6-ancor hash="r1-3" :activated="activated" class="gold6 fw-500 mb-3">Digital-based Work Innovation</h6-ancor>
                         <p class="mb-45"> Coway is running a Work Smart campaign to minimize unnecessary work processes and practices and improve work productivity. The Work Smart Campaign is an activity to improve the space, time, performance, knowledge, and method which creates a reasonable working culture, and flexible utilization of workspace and time to increase employee satisfaction. In particular, by maximizing work efficiency within working hours, we are doing our best to prevent overtime work over 40 hours a week and to balance work and life.
                         </p>
                         <hr class="mb-4">
@@ -775,24 +775,24 @@
                         <p> To increase work efficiency through digital business innovation, we introduced Robotic Process Automation (RPA) systems for major tasks such as accounting and analysis since 2018. Robot Process Automation is a system that robot software automatically handles simple tasks that have been repeatedly executed. Through this system, employees can move away from simple tasks and concentrate on high-value added work to improve work efficiency. We applied RPA to about 40 tasks, such as current account status monitoring, sales results counting, rental asset status, and billing history. It improved the overall processing speed by more than 50%, with a total of 70 robots operating. We plan to review and sequentially apply the possibility of introducing RPA throughout the entire work area and strive to increase the quality of work and work-life balance.
                         </p>
                     <hr class="space-p25 mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Communication-Based Company Culture </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Communication-based Company Culture </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-5"> Various programs are underway to strengthen communication between employees to create a horizontal corporate culture. Based on the CEO's active participation in communication, we are operating various communication programs to promote mutual exchange between the management and employees. Moreover, to actively listen to employees' grievances and to improve work efficiency and job satisfaction through immediate resolution, we are operating an employee grievance counseling channel and an in-house webzine (Chorus). In 2019, a total of 28 employee grievances were filed, and 100% of these were processed and improved throughout the year.
                         </p>
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO Communication Activities</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">Consolidating the horizontal communication between the CEO and employees by conducting various activities such as the New Year's ceremony, the end of the year ceremony, encouraging gifts for employees with children who are preparing for the SAT, and Hof Day at the sales site.</span> </p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">CEO Communication Activities</p><p class="px-1 line-height-low"><span class="letter-narrow f-85">Consolidating the horizontal communication between the CEO and employees by conducting various activities such as the New Year's ceremony, the end of the year ceremony, encouraging gifts for employees with children who are preparing for the SAT, and Hof Day at the sales site.</span> </p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">SangSang Ocean</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">A representative idea proposal system of Coway, and if employees freely provide ideas, compensation is provided accordingly.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">SangSang Ocean</p><p class="px-1 line-height-low"><span class="letter-narrow f-85">A representative idea proposal system of Coway, and if employees freely provide ideas, compensation is provided accordingly.</span></p>
                             </b-col> 
                             <b-col class="position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Grievance Channel</p><p class="px-1 line-height-min"><span class="letter-narrow f-85">Regular Joint Labor-Management Council meetings and Joint Labor-Management Council workshops are held with laborers' representatives. Moreover, we operate an in-house online consultation channel and "Chorus".</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Grievance Channel</p><p class="px-1 line-height-low"><span class="letter-narrow f-85">Regular Joint Labor-Management Council meetings and Joint Labor-Management Council workshops are held with laborers' representatives. Moreover, we operate an in-house online consultation channel and "Chorus".</span></p>
                             </b-col>
                         </b-row>
                     <h7 class="mb-3 gray63">Received Employee Grievance Status</h7>
@@ -813,7 +813,7 @@
                             </b-tbody>                                
                         </b-table-simple>
                     <hr class="space-p25">
-                    <h6-ancor hash="r2-1" :activated="activated" class="gold6 fw-500 mb-3">Communication Based on a Joint Labor-Management Council</h6-ancor>
+                    <h6-ancor hash="r2-1" :activated="activated" class="gold6 fw-500 mb-3">Communication Based on The Labor-Management Council</h6-ancor>
                         <p class="mb-45"> Coway communicates important decisions and changes related to corporate management through regular Joint Labor-Management Council meetings with representatives of all employees. When significant business changes occur in the company, they are transparently shared in advance. In 2019, through a total of 4 Joint Labor-Management Council meetings, 7 issues were discussed, including the operation and promotion of the evaluation committee, annual salary setting, payment of year-end incentives, and improvement of the corporate culture and education system.
                         </p>
                         <h7 class="mb-3 gray63">Number of a Joint Labor-Management Council and Agenda Items</h7>
@@ -834,7 +834,7 @@
                             </b-tbody>                                
                         </b-table-simple>
                     <hr class="space-p25">
-                    <h6-ancor hash="r2-2" :activated="activated" class="gold6 fw-500 mb-3">Employee Satisfaction Through Work Life Balance </h6-ancor>
+                    <h6-ancor hash="r2-2" :activated="activated" class="gold6 fw-500 mb-3">Employee Satisfaction through Work Life Balance </h6-ancor>
                         <p class="mb-45"> Coway promotes work-life balance with a family-friendly corporate culture through various programs. The PC-Off system encourages employees to leave the office at fixed time, and Family Day is to help employees have more time with their families. Also, Coway operates a program that allows employees and their families to have a happy time together through family participation activities and events. Accordingly, Coway was first certified as an excellent family-friendly company in 2012 and re-certified in 2017.
                         </p>
                         <h7 class="pb-2 mb-5 gray63">Support System for Work-family Compatibility</h7>
@@ -842,22 +842,22 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Fixed Time Work Policy</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85">The PC-Off system encourages employees to leave the office at a fixed time and support employees to spend more time with their families. </span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Fixed Time Work Policy</p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85">The PC-Off system encourages employees to leave the office at a fixed time and support employees to spend more time with their families. </span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Efficient Working Culture</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> To build an efficient and productive way of working for Coway, we established the slogan “Gyeol Seung Jeong Gyeol” to create an environment where employees can concentrate on the work through guidelines and codes of conduct related to meetings / reports / collaboration.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Efficient Working Culture</p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85"> To build an efficient and productive way of working for Coway, we established the slogan “Gyeol Seung Jeong Gyeol” to create an environment where employees can concentrate on the work through guidelines and codes of conduct related to meetings / reports / collaboration.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Elementary School Entry Leave</p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> Five-day paid leave is provided to employees to help their children starting elementary school.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Elementary School Entry Leave</p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85"> Five-day paid leave is provided to employees to help their children starting elementary school.</span></p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Shortened Work Hour During Pregnancy </p><p class="px-1 mb-md-0 line-height-min"><span class="letter-narrow f-85"> During the early and late stages of pregnancy when there is a high risk, 2 hours shorter work hours.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Shortened Work Hour During Pregnancy </p><p class="px-1 mb-md-0 line-height-low"><span class="letter-narrow f-85"> During the early and late stages of pregnancy when there is a high risk, 2 hours shorter work hours.</span></p>
                             </b-col>
                         </b-row>
                         
@@ -866,22 +866,22 @@
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Family Invited Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> We invite employees' families to enjoy a happy time by conducting various programs such as field trips, rail bikes, and glamping.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Family Invited Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> We invite employees' families to enjoy a happy time by conducting various programs such as field trips, rail bikes, and glamping.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_2.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">New Employees Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> In commemoration of the 100th day of the new employees, we are inviting families to join business events such as field trips.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">New Employees Coway Day</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> In commemoration of the 100th day of the new employees, we are inviting families to join business events such as field trips.</span></p>
                             </b-col> 
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_3.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Science Camp</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> We invite the children of our employees twice a year to provide an opportunity to feel and experience the value of water and air.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Science Camp</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> We invite the children of our employees twice a year to provide an opportunity to feel and experience the value of water and air.</span></p>
                             </b-col>
                             <b-col class="col-12 col-sm-6 col-md-3 position-relative pt-2">
                                 <div class="horizontal-line-1 position-absolute d-none d-md-block" style="top: -24px;"></div>
                                 <div class="temp-icon4 px-md-auto mb-3 position-absolute d-none d-md-block" style="top:-48px; z-index:10"><b-img src="/images/137_4.svg" fluid class="h-100"></b-img></div>
-                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Coway Family Farm</p><p class="px-2 f-90 mb-md-0 line-height-min"><span class="letter-narrow f-85"> Every year from April to October, we operate a family farm, contributing to the employees to feel small happiness through organic vegetable farm.</span></p>
+                                <p class="gold6 mb-2 px-3 fw-500 word-break text-underline">Coway Family Farm</p><p class="px-2 f-90 mb-md-0 line-height-low"><span class="letter-narrow f-85"> Every year from April to October, we operate a family farm, contributing to the employees to feel small happiness through organic vegetable farm.</span></p>
                             </b-col>
                         </b-row>
                         <b-row class="mb-5">
@@ -921,13 +921,13 @@
                                        <b-td class="text-left">Research</b-td> <b-td>368</b-td> <b-td>358</b-td> <b-td>361</b-td> <b-td>355</b-td> <b-td>366</b-td>
                                 </b-tr>
                                 <b-tr>
-                                       <b-td class="text-left"></b-td> <b-td>805</b-td> <b-td>779</b-td> <b-td>830</b-td> <b-td>835</b-td> <b-td>868</b-td>
+                                       <b-td class="text-left">Office</b-td> <b-td>805</b-td> <b-td>779</b-td> <b-td>830</b-td> <b-td>835</b-td> <b-td>868</b-td>
                                 </b-tr>
                                 <b-tr>
                                        <b-td class="text-left">Other</b-td> <b-td>26</b-td> <b-td>27</b-td> <b-td>27</b-td> <b-td>31</b-td> <b-td>31</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">By Employment Type</b-td> <b-td class="text-left">Permanent Employees</b-td> <b-td>3,936</b-td> <b-td>3,920</b-td> <b-td>4,007</b-td> <b-td>4,627</b-td> <b-td>4,733</b-td>
+                                    <b-td class="text-left" rowspan="2">By Employment Type</b-td> <b-td class="text-left">Full-time Employees</b-td> <b-td>3,936</b-td> <b-td>3,920</b-td> <b-td>4,007</b-td> <b-td>4,627</b-td> <b-td>4,733</b-td>
                                 </b-tr>
                                 <b-tr>
                                         <b-td class="text-left">Temporary Employees</b-td> <b-td>844</b-td> <b-td>851</b-td> <b-td>872</b-td> <b-td>300</b-td> <b-td>255</b-td>
@@ -951,7 +951,7 @@
                             </li>
                         </ol>
                     
-                        <h7 class="mb-3 gray63">Status by Age</h7>
+                        <h7 class="mb-3 gray63">Employee Status by Age</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td> <b-td class="text-left">Sex</b-td> <b-td>2016</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -1011,32 +1011,32 @@
                         <h7 class="mb-3 gray63">Ratio of Female Managers</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-2">
                              <b-thead><b-tr>
-                                <b-td class="text-left" colspan="2">Category</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left" colspan="2">Category</b-td><b-td>Unit</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="2" class="text-left">Female Managers</b-td><b-td class="text-left">Females in junior management positions <sup> 1)</sup></b-td><b-td>54.9%</b-td><b-td>51.2%</b-td>
+                                    <b-td rowspan="2" class="text-left">Female Managers</b-td><b-td class="text-left">Females in junior management positions <sup> 1)</sup></b-td><b-td>%</b-td><b-td>54.9</b-td><b-td>51.2</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Females in top management positions <sup> 2)</sup></b-td><b-td>37.3%</b-td><b-td>38.5%</b-td>
+                                    <b-td class="text-left">Females in top management positions <sup> 2)</sup></b-td><b-td>%</b-td><b-td>37.3</b-td><b-td>38.5</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
-                            <li> Working-level Manager: Office/research general manager or above, sales branch manager or above
+                            <li> Junior management positions: Office/research general manager or above, sales branch manager or above
                             </li>
-                            <li> Manager: Office manager/research team leader or higher, sales manager general director or above
+                            <li> Top management positions: Office manager/research team leader or higher, sales manager general director or above
                             </li>
                         </ol>
 
-                        <h7 class="mb-3 gray63">Fair Pay</h7>
+                        <h7 class="mb-3 gray63">Fair Remuneration</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Ratio of female pay to male pay</b-td><b-td>72.1%</b-td>
+                                    <b-td class="text-left">Ratio of female salary to male salary</b-td><b-td>72.1%</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Ratio of new employee's wage to legal minimum wage</b-td><b-td>173%</b-td>
@@ -1055,7 +1055,7 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Number of Male parental leave employees</b-td><b-td class="text-left">person</b-td><b-td>2</b-td><b-td>7</b-td><b-td>16</b-td><b-td>15</b-td>
+                                    <b-td class="text-left">Number of male parental leave employees</b-td><b-td class="text-left">person</b-td><b-td>2</b-td><b-td>7</b-td><b-td>16</b-td><b-td>15</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Number of female parental leave employees </b-td><b-td class="text-left">person</b-td><b-td>127</b-td><b-td>108</b-td><b-td>136</b-td><b-td>146</b-td>
@@ -1072,7 +1072,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-3 gray63">New Recruitment, Turnover and Longevity Status</h7>
+                        <h7 class="mb-3 gray63">Recruitment, Turnover and Longevity Status</h7>
                         <b-table-simple responsive class="num-table social-table f-95">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">Category</b-td><b-td class="text-left">Unit</b-td><b-td>2016</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -1100,7 +1100,7 @@
                             <li> Death, retirement, dismissal</li>
                         </ol>
                     <hr class="py-1 mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Safe and Healthy Work Environment</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Safe and Healthy Workplace</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-45"> Coway considers worker safety as a top priority that we operate various safety and health programs to prevent safety accidents at workplaces and create a healthy working environment. In particular, the Occupational Safety and Health Committee is operated for workplaces that may cause safety accidents, such as factories and R&D centers, to respond to potential safety risks proactively. 
                         </p>
                     <h6-ancor hash="r3-1" :activated="activated" class="gold6 fw-500 mb-3">Occupational Safety and Health Committee</h6-ancor>
@@ -1109,7 +1109,7 @@
                     <h6-ancor hash="r3-2" :activated="activated" class="gold6 fw-500 mb-3">Safety and Health Management and Safety Culture</h6-ancor>
                         <p class="mb-45"> Coway holds the Occupational Health and Safety Management System (OHSAS18001 and KOSHA 18001) certifications. Based on the certifications, we operate the safety and health systems of all domestic factories (Yugu, Incheon, Pocheon). Moreover, every year, we jointly work with suppliers to check and evaluate safety conditions to ensure safety throughout the supply chain. As a result of the joint safety assessment in 2019, we found a total of 133 risk factors, and through discussions with the Industrial Safety and Health Committee, we improved 100% of issues by the end of 2019. In 2020, we plan to continue the status inspection along with follow-up monitoring on the issues that have been drawn up and improved last year.
                         </p>
-                        <h7 class="mb-3 gray63">Safety and Health Management Certification Ratio</h7>
+                        <h7 class="mb-3 gray63">Safety and Health Management Certification</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td class="text-left">Business Site</b-td><b-td class="text-left">Certification</b-td><b-td>Expiration Date</b-td>
@@ -1127,7 +1127,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-3 gray63">Ratio of Joint Safety Inspection with Suppliers</h7>
+                        <h7 class="mb-3 gray63">Ratio of Safety Inspection with Suppliers</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-45">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -1207,7 +1207,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-45 ">
-                            <li> Lost Time Injury Frequency Rate = Number of Cases / Annual Working Hour x 1,000,000</li>
+                            <li> Lost Time Injury Frequency Rate = Number of cases / Annual working hour x 1,000,000</li>
                         </ol>
                        
                 </section>
@@ -1253,17 +1253,17 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Systematic Enhancement':'체계적인 역량 강화', hash: 'r1',  
+                    title: this.is_ENG? 'Systematic Empowerment':'체계적인 역량 강화', hash: 'r1',  
                     child: [
                         { title: this.is_ENG? 'Leadership Training': '리더십 교육', hash: 'r1-1' }, 
                         { title: this.is_ENG? 'Job Training': '직무 교육', hash: 'r1-2' }, 
-                        { title: this.is_ENG? 'Digital-based Productivity': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
+                        { title: this.is_ENG? 'Digital-based Work Innovation': '디지털 기반의 업무혁신', hash: 'r1-3' }, 
                     ]
                 },
                 { 
                     title: this.is_ENG? `Communication-based Company Culture`:`커뮤니케이션 기반의 기업문화`, hash: 'r2',
                     child: [
-                        { title: this.is_ENG? 'Communication based on the Labor Management Council': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
+                        { title: this.is_ENG? 'Communication Based on The Labor-Management Council': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
                         { title: this.is_ENG? 'Employee Satisfaction through Work Life Balance': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
                         { title: this.is_ENG? 'Employee Data': '임직원 현황 데이터', hash: 'r2-3' }, 
                     ]

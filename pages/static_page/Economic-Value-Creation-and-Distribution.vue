@@ -230,12 +230,15 @@
 
                     <hr class="mb-3">
 
-                    <div class="position-relative"> <hj-img src="/images/92_1.svg" fluid alt="해외법인 관리계정"></hj-img>
-                    <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
-                        <h7 class="mb-2 font-noto">Overseas Corporation Management Account <span class="fw-300 f-80 gray6"> (Unit: 1,000 accounts)</span></h7>
-                        <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> Malaysia</div>
-                        <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> U.S.A</div>
-                    </div></div>
+                    <div class="position-relative"> 
+                        <hj-img src="/images/305_3.svg" fluid alt="해외법인 관리계정"></hj-img>
+                        <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
+                            <h7 class="mb-2 font-noto">Overseas Corporation Management Account <span class="fw-300 f-80 gray6"> (Unit: 1,000 accounts)</span></h7>
+                            <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> Malaysia</div>
+                            <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> U.S.A</div>
+                        </div>
+                        <div class="position-absolute f-75 fw-300 font-noto gray55" style="bottom:0.8rem; left:1.25rem;">* Figures for 2014 and beyond exclude free membership accounts</div>
+                    </div>
                     <hr class="mb-3">
 
                     <h6-ancor hash="j1-2" :activated="activated" class="parang6 fw-500 mb-2">Subscription Economy Synergy with Netmarble Acquisition</h6-ancor>
@@ -272,7 +275,7 @@
                     <p class="mb-5">At Coway, we take a proactive approach in our response to tax risks by monitoring changes in tax regulations and policies. Risk management is conducted by the Funding Department in accordance with policies approved by the Board of Directors. The Funding Department works closely with the business units of associated companies to identify, evaluate, and offset financial risks. The Board provides documented policies on overall risk management as well as specific areas such as foreign exchange risk, interest rate risk, credit risk, use of derivative and non-derivative financial instruments, and investments in excess of liquidity. Meanwhile, we ensure compliance with the National Tax Service's policies on voluntary reporting on international transactions. In particular, we prohibit tax evasion using falsified overseas transactions and tax havens. Coway has branches or local subsidiaries in Malaysia, the the United States, and China. In international transactions with overseas subsidiaries, it complies with applicable local tax laws and OECD transfer pricing guidelines. It fulfills its tax obligations based on local laws.
                     </p>
 
-                    <h6-ancor hash="j3-1" :activated="activated" class="parang6 fw-500 mb-3">Report on Tax Payment Status and Effective Tax Rate</h6-ancor>
+                    <h6-ancor hash="j3-1" :activated="activated" class="parang6 fw-500 mb-3">Tax Payment Status and Effective Tax Rate</h6-ancor>
 
                         <h7 class="mb-3 gray63">Overseas Tax Payment by Region <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
                         <b-table-simple responsive class="num-table f-95 mb-2">
@@ -399,7 +402,7 @@ export default {
                 { 
                     title: this.is_ENG? 'Tax Policy':'조세 정책', hash: 'j3',
                     child: [
-                        { title: this.is_ENG? 'Report on Tax Payment Status and Effective Tax Rate': '조세 납부 현황 및 유효세율 보고', hash: 'j3-1' }
+                        { title: this.is_ENG? 'Tax Payment Status and Effective Tax Rate': '조세 납부 현황 및 유효세율 보고', hash: 'j3-1' }
                     ]
                 }
             ] 

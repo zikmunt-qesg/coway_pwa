@@ -21,7 +21,7 @@
             <b-container class="px-0">
                 <section class="bg-blue1 px-4 py-4 mb-5">                    
                     <b-row no-gutters class="px-3 pt-4">                            
-                        <b-col class="col-12 col-sm-3 mb-2 mb-sm-0 blue7">
+                        <b-col class="col-12 col-sm-5 col-md-4 col-xl-3 mb-2 mb-sm-0 blue7">
                             <h4-ancor hash="T" :activated="activated" class="f-190 fw-300 mb-4 mb-sm-5 mt-m-2 line-height-low">제품과 서비스의 혁신</h4-ancor>
                         </b-col>
                     </b-row>
@@ -56,7 +56,7 @@
                         </b-col>                        
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                         <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
-                            <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
+                            <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                             <p >감염병의 확산과 미세먼지 증가 등 최근의 글로벌 사회·환경 문제는 소비자 생활패턴의 변화를 이끌며 환경가전 시장에 큰 영향을 끼치고 있습니다. 가정에 머무는 시간이 증가함에 따라 건강과 위생은 물론, 고객 개인의 라이프스타일을 반영한 제품과 서비스에 대한 니즈가 증가하였으며, 디지털 기술이 생활 전반에 자리함에 따라 주거공간에 인공지능(AI), 사물인터넷(IoT) 기술을 접목한 스마트 홈(Smart Home) 구현이 경쟁 요소로 자리하였습니다.
                             </p>
                             <p class="mb-5 mb-md-45">코웨이는 이러한 변화를 환경가전 렌탈 비즈니스의 새로운 기회로 삼아 ‘물과 공기를 깨끗하게’라는 코웨이의 본질을 강화하기 위한 활동을 추진하였습니다. 2019년 코웨이는 위생성을 극대화한 ‘한뼘 시루직수 정수기’를 출시하고, 빅데이터 기반 고객 맞춤형 제품을 추천하는 ‘워터맵 서비스’를 제공하는 한편, 깨끗하고 맛있는 물을 선도하는 글로벌 리더로서 연구를 강화하기 위해 R&D 센터 내 ‘물맛 연구소’를 개소하는 등의 혁신 활동을 추진하였습니다. 또한, 오픈 이노베이션을 통해 제품에 ICT 기술을 결합한 스마트 가전을 선보이며 시장 내 경쟁력을 확보하고 고객 가치를 향상하기 위한 노력을 기울이고 있습니다.
@@ -323,7 +323,7 @@
                         </b-col>                        
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                         <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
-                            <h7 class="blue7 f-120 mb-3">Business relevance & Approach</h7>
+                            <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                             <p>Recent global social and environmental issues such as the spread of the pandemic and increasing fine dust are driving the change in consumer life patterns, affecting home appliance market significantly.  As people stay in their home longer, not only needs for health and hygiene increased but also needs for products and service that reflects each consumer’s lifestyle. Moreover, as digital technology became part of our everyday life, Smart Home implementation with A.I. and IoT technology in living spaces became an element of competition. 
                             </p>
                             <p class="mb-5 mb-md-45">Coway takes this shift as a new opportunity for home appliance rental business, promoting activities that strengthen the core principle of Coway: "For Cleaner Water and Air". In 2019, Coway launched "HANDSPAN CIROO Tankless Water Purifier" with maximized sanitation, provided "Water Map Service," a big data-based customized product recommending service, and promoted innovative activities such as the establishment of "Water Taste Laboratory" within R&D Center to reinforce research as a global leader for clean and tasteful water. Moreover, Coway is undertaking efforts to improve customer value and secure a competitive advantage in the market by unveiling smart home appliances, combined with ICT technology through open innovation.
@@ -348,7 +348,7 @@
                     </p>
                     <b-row class="mb-5">
                         <b-col class="col-12 col-sm-8 col-md-4 col-xl-5 mb-45 mb-md-0 pr-md-3 pr-xl-5" style=""><b-img src="/images/149@3x.png" fluid class=""></b-img></b-col>
-                        <b-col class="col-12 col-md-8 col-xl-7 px-3 pl-md-4 px-xl-0"><h6-ancor hash="a1-1" :activated="activated" class="blue5 mb-3">HANDSPAN CIROO, The Integration of Innovation</h6-ancor>
+                        <b-col class="col-12 col-md-8 col-xl-7 px-3 pl-md-4 px-xl-0"><h6-ancor hash="a1-1" :activated="activated" class="blue5 mb-3">Innovative Technology, HANDSPAN CIROO</h6-ancor>
                             <p>Through the continuous evolution of technology, in 2019, Coway launched "HANDSPAN CIROO Tankless Purifier". HANDSPAN CIROO Tankless Purifier is an upgraded version of "CIROO Tankless Purifier", which implemented RO membrane filter with Tankless technology, featuring effective pollutant removal and abundant flow. It is equipped with the "CIROO 2.0 Filter", the culmination of filter technology, that increases the area by 6 times and the amount of water filtered by 30 times the existing tankless filters. Its improved sanitation with a water path drainage mode that discharge remaining water in the faucet whenever the product is used and the automatic drainage system that discharges all water in the water purifier if it is not used for 24 hours. Moreover, the space utilization was improved by reducing the size by about 30% compared to the previous CIROO Tankless Purifiers (CHP-7300R, CP-7300R) and by applying a small cooling system and instantaneous hot water system, the energy consumption efficiency was improved to the 1st grade, enhancing the eco-friendly features as well.
                             </p>
                         </b-col>
@@ -435,7 +435,7 @@
                 <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="a2" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Service Innovation Based on Future Technology</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">As of 2019, Coway, which has 5.69 million domestic customer accounts in rental services leading the home appliance industry, provides new service experiences to customers based on future technologies: The Water Map service that recommends water purifier products suitable for local water quality using big data, and the Air Doctor service that let customers experience the air purifier ideal for the living environment through virtual simulation. Coway provides a more accurate and convenient experience with long-running research data.
                 </p>
-                    <h6-ancor hash="a2-1" :activated="activated" class="blue5 mb-3">Big Data Based Water Map Service</h6-ancor>
+                    <h6-ancor hash="a2-1" :activated="activated" class="blue5 mb-3">Big Data-based Water Map Service</h6-ancor>
                     <p class="mb-45"> Water Map Service constructs a water quality database by collecting and analyzing waters from different regions all over the world to identify customized filters for different water qualities in customer environments. It considers numerous variables for customers to eventually recommend the most compatible product. We provide differentiated value that customers can use filters and products compatible with the customer’s regional characteristics through a recommendation service based on big data analysis. 
                     </p>
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">                    
@@ -447,8 +447,8 @@
                     <div class="f-80 fw-300 font-noto">* Big data analysis categories: Turbidity, a standard for drinking water quality, TDS (Total Dissolved Solid), pH, 17 types of cation, 4 types of anion, etc.</div>
                 </section>
                 <hr class="py-2">
-                <h6-ancor hash="a2-2" :activated="activated" class="blue5 mb-3"> Air Doctor Service Simulation Experience </h6-ancor>
-                    <p class="mb-45"> Coway utilizes the "Air Simulation System" to show how air clean performance varies from space to space for different service environments according to the structure of the space, furniture, and the number of people, and to provide "Air Doctor Service" that suggests proper product type and optimal location. The Air Simulation System predicts the movement of air or water through computer simulation using approximately 196 billion air quality big data and checks the effect of air purification every hour through the installed air purifiers. Customers can visually experience the product through virtual simulation, and purchase products optimized for their living environment with high satisfaction. 
+                <h6-ancor hash="a2-2" :activated="activated" class="blue5 mb-3">The Simulation Experience, Air Doctor Service </h6-ancor>
+                    <p class="mb-45"> Coway utilizes the air simulation system to show how air clean performance varies from space to space for different service environments according to the structure of the space, furniture, and the number of people, and to provide "Air Doctor Service" that suggests proper product type and optimal location. The Air Doctor Service predicts the movement of air or water through computer simulation using approximately 196 billion air quality big data and checks the effect of air purification every hour through the installed air purifiers. Customers can visually experience the product through virtual simulation, and purchase products optimized for their living environment with high satisfaction. 
                     </p>
                     <div class="d-flex justify-contents-between mb-5">
                         <div class="mr-2" style="width:18%"><b-img src="/images/36@2x.png" fluid class="w-100"></b-img></div>
@@ -465,7 +465,7 @@
                         </b-col>
                     </b-row>
                 <hr class="py-3">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="a3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Research Capacity Improvement for Innovation</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="a3" :activated="activated" class="blue7 f-130 fw-500 bg-white pr-5" style="z-index:10">Research Capacity Improvement</h6-ancor><div class="horizontal-line-2 blue-line position-absolute" style="z-index:8"></div></div>
                 <p class="mb-5">Coway strives to develop innovative products and secure new technology for healthy living environments through responsibility and expertise on water and air.  From technology research to product development and reliability verification, Coway continuously expands R&D investment and manage new technology and product Innovation Committee 365 (NIC 365), a corporate board to discuss prior technologies and design to find future value, promoting corporate innovation. In addition to strengthening existing technologies for water and air, we are focusing on grafting new technologies into new products such as FWSS and mattresses. We are also exploring new growth engines through open innovation and technical alliances.
                 </p>
                 <h6-ancor hash="a3-1" :activated="activated" class="blue5 mb-3">Water Taste Laboratory</h6-ancor>
@@ -570,20 +570,20 @@ export default {
                 { 
                     title: this.is_ENG? 'Product Innovation':'본질적 가치를 높이는 제품 혁신', hash: 'a1',
                     child: [
-                        { title: this.is_ENG? 'HANDSPAN CIROO, The Integration of Technology': '혁신 기술의 집약, 한뼘 시루직수 정수기 개발', hash: 'a1-1' }, 
+                        { title: this.is_ENG? 'Innovative Technology, HANDSPAN CIROO': '혁신 기술의 집약, 한뼘 시루직수 정수기 개발', hash: 'a1-1' }, 
                         { title: this.is_ENG? 'Diversification of Innovation':'고객 맞춤형 혁신 다각화', hash: 'a1-2' }, 
                     ]
                 },
                 { 
                     title: this.is_ENG? 'Service Innovation based on Future Technology': '미래 기술 기반의 서비스 혁신', hash: 'a2',
                     child: [
-                        { title: this.is_ENG? 'Big Data based Water Map Service':'빅데이터 기반 제품 추천, 워터맵 서비스', hash: 'a2-1' }, 
-                        { title: this.is_ENG? 'Air Doctor Service through Simulation Experience': '시뮬레이션 체험, 공기 주치의 서비스', hash: 'a2-2' }, 
+                        { title: this.is_ENG? 'Big Data-based Water Map Service':'빅데이터 기반 제품 추천, 워터맵 서비스', hash: 'a2-1' }, 
+                        { title: this.is_ENG? 'The Simulation Experience, Air Doctor Service': '시뮬레이션 체험, 공기 주치의 서비스', hash: 'a2-2' }, 
                         { title: this.is_ENG? 'Mobile QR Service':'모바일 서비스 강화, 안심 QR 서비스 시행', hash: 'a2-3' }
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Research Capacity Improvement for Innovation':'혁신을 위한 연구개발 역량 강화', hash: 'a3',
+                    title: this.is_ENG? 'Research Capacity Improvement':'혁신을 위한 연구개발 역량 강화', hash: 'a3',
                     child: [
                         { title: this.is_ENG? 'Water Taste Laboratory':'깨끗하고 맛있는 물에 대한 연구, 물맛 연구소', hash: 'a3-1' }, 
                         { title: this.is_ENG? 'Open Innovation':'오픈 이노베이션, 아마존과 협력을 통한 IoT 기술 도입', hash: 'a3-2' }
