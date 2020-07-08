@@ -254,7 +254,7 @@
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="mx-auto mb-2"><b-img src="/images/141_1.svg" fluid ></b-img> </div>
-                                <p class="fw-500 line-height-low letter-narrow"><span class="f-90">Communication with Suppliers Through The Goodness Council and the Win-Win Portal</span> </p>
+                                <p class="fw-500 line-height-low letter-narrow"><span class="f-90">Communication with Suppliers Through The Goodness Council and Mutual Growth Portal</span> </p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center fw-500">
                                 <div class="mx-auto mb-3"><b-img src="/images/141_2.svg" fluid ></b-img> </div>
@@ -282,7 +282,7 @@
                                 <h7 class="gold7 mb-4 w-100">Performance</h7>
                                 <b-row>
                                     <b-col class="col-12 col-md-7">
-                                        <p class="fw-500 line-height-low word-break text-center mb-3">Mutual Growth Committee Win-Win Growth Index </p>
+                                        <p class="fw-500 line-height-low word-break text-center mb-3">Mutual Growth Committee Mutual Growth Index </p>
                                         <div class="">
                                             <div class="f-85 font-noto line-height-low gray63 mb-3 text-center">Received The Excellent Grade in 2019</div>
                                             <div class="f-85 font-noto line-height-low gray63 text-center">Received The Most Excellent Grade for 5 Consecutive Years Until 2018</div>
@@ -300,15 +300,15 @@
                 <hr class="py-2">
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Support for Growth through Communication with Suppliers</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45"> Coway is pursuing mutual growth to create a healthy industrial ecosystem based on open communication with suppliers. Coway's strategy for promoting shared growth is to secure global competitive advantage is as follows: 1) secure competitive advantage in quality/cost/technology/productivity, 2) strengthen the foundation for sustainable management, 3) secure management stability. Accordingly, Coway is pursuing open communication with its partners as a key strategy in implementing the shared growth strategy.
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Support for Growth Through Communication with Suppliers</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-45"> Coway is pursuing mutual growth to create a healthy industrial ecosystem based on open communication with suppliers. Coway's strategy for promoting mutual growth is to secure global competitive advantage is as follows: 1) secure competitive advantage in quality/cost/technology/productivity, 2) strengthen the foundation for sustainable management, 3) secure management stability. Accordingly, Coway is pursuing open communication with its suppliers as a key strategy in implementing the shared growth strategy.
                         </p>
                         <hj-img src="/images/314_1.svg" fluid class="w-100"></hj-img>
                         <hr class="space-p25">
 
                         <p class="mb-3"> Coway runs the Goodness Council, a general consultation channel, to lead changes in the industrial environment through horizontal communication with suppliers. We also operate a mutual growth portal as an online communication channel for smart communication. Since 2011, we have been running the "Goodness Council" to help horizontal and autonomous suppliers communicate aside from formal communication. Major 1st and 2nd suppliers of Coway participate in the Goodness Council. In 2019, 67 companies participated in the Goodness Council, which carried out activities to strengthen corporate competitiveness, such as productivity Improvement activities and benchmarking of excellent overseas companies. The key topics of the Goodness Council activities in 2019 were the Smart Factory and productivity improvement.  We held the training program "SMART DAY" 4 times and conducted benchmarking training for companies that introduced excellent Japanese smart factories.
                         </p>
-                        <p class="mb-45"> The online win-win growth community "Mutual Growth Portal" functions as a platform for sharing various information in the industry and promoting mutual growth strategies and innovation activities. In 2019, 6,541 employees of partner companies were connected to conduct 12,636 comments and communicate, leading to active information sharing.
+                        <p class="mb-45"> The online mutual growth community "Mutual Growth Portal" functions as a platform for sharing various information in the industry and promoting mutual growth strategies and innovation activities. In 2019, 6,541 employees of partner companies were connected to conduct 12,636 comments and communicate, leading to active information sharing.
                         </p>
                         <hj-img src="/images/314_2.svg" fluid></hj-img>
                         <hr class="space-p25">
@@ -316,7 +316,7 @@
 
                         <hr class="mb-4">
 
-                        <p class="mb-45">Coway provides support for strengthening the management stability base, infrastructure support, and 2nd supplier support to support shared growth with suppliers.
+                        <p class="mb-45">Coway provides support for strengthening the management stability base, infrastructure support, and 2nd supplier support for mutual growth with suppliers.
                         </p>
                     
                     <h7 class="mb-3 gray63">Strengthening The Management Stability</h7>

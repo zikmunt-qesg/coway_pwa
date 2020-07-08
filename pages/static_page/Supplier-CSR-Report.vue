@@ -220,7 +220,7 @@
                     <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5">Supplier CSR Report</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="v1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Supplier Code of Conduct</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                    <p> Coway is aiming for win-win growth with suppliers on the cornerstone of "Putting the 'Goodness' philosophy" that our works contribute to creating a better world. As a part of responsible management for building a sustainable society, we established Coway Supplier Code of Conduct. This Code of Conduct proposes what Coway requires to the suppliers, such as improving the working environment and respect for human rights, environmental responsibility, and ethical management.
+                    <p> Coway is aiming for mutual growth with suppliers on the cornerstone of "Goodness" philosophy that our works contribute to creating a better world. As a part of responsible management for building a sustainable society, we established Coway Supplier Code of Conduct. This Code of Conduct proposes what Coway requires to the suppliers, such as improving the working environment and respect for human rights, environmental responsibility, and ethical management.
                     </p>
 
                     <p class="mb-4">Coway Supplier Code of Conduct was developed with reference to the ELCC Code of Conduct and other global guidelines.</p>

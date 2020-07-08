@@ -205,7 +205,7 @@
                 </b-nav>
 
                 <b-card class="border-0 px-4 fw-400 font-noto">
-                The GRI(Global Reporting Initiatives) provides international standards organizations that help businesses, governments, and other organizations understand and disclose information on the impact of sustainability issues such as climate change, human rights, and corruption. Coway has prepared and released the report following the core compliance method of the GRI Sustainability Disclosure Standard.
+                The GRI(Global Reporting Initiatives) is an international standards organization that provides businesses, governments, and other organizations understand and disclose information on the impact of sustainability issues such as climate change, human rights, and corruption. Coway has prepared and released the report following the core compliance method of the GRI Sustainability Disclosure Standard.
                 </b-card>
 
             <hr class="space-p25">

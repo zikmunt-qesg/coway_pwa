@@ -741,7 +741,7 @@
                                 <li>Total training hours and training hours per person excluded sales positions.</li>
                             </ol>
                     <hr class="space-p25">
-                    <h6-ancor hash="r1-3" :activated="activated" class="gold6 fw-500 mb-3">Digital-based Work Innovation</h6-ancor>
+                    <h6-ancor hash="r1-3" :activated="activated" class="gold6 fw-500 mb-3">Digital-Based Work Innovation</h6-ancor>
                         <p class="mb-45"> Coway is running a Work Smart campaign to minimize unnecessary work processes and practices and improve work productivity. The Work Smart Campaign is an activity to improve the space, time, performance, knowledge, and method which creates a reasonable working culture, and flexible utilization of workspace and time to increase employee satisfaction. In particular, by maximizing work efficiency within working hours, we are doing our best to prevent overtime work over 40 hours a week and to balance work and life.
                         </p>
                         <hr class="mb-4">
@@ -775,7 +775,7 @@
                         <p> To increase work efficiency through digital business innovation, we introduced Robotic Process Automation (RPA) systems for major tasks such as accounting and analysis since 2018. Robot Process Automation is a system that robot software automatically handles simple tasks that have been repeatedly executed. Through this system, employees can move away from simple tasks and concentrate on high-value added work to improve work efficiency. We applied RPA to about 40 tasks, such as current account status monitoring, sales results counting, rental asset status, and billing history. It improved the overall processing speed by more than 50%, with a total of 70 robots operating. We plan to review and sequentially apply the possibility of introducing RPA throughout the entire work area and strive to increase the quality of work and work-life balance.
                         </p>
                     <hr class="space-p25 mb-4">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Communication-based Company Culture </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="r2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Communication-Based Company Culture </h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="pb-3 mb-5"> Various programs are underway to strengthen communication between employees to create a horizontal corporate culture. Based on the CEO's active participation in communication, we are operating various communication programs to promote mutual exchange between the management and employees. Moreover, to actively listen to employees' grievances and to improve work efficiency and job satisfaction through immediate resolution, we are operating an employee grievance counseling channel and an in-house webzine (Chorus). In 2019, a total of 28 employee grievances were filed, and 100% of these were processed and improved throughout the year.
                         </p>
                         <b-row no-gutters class="bg-blue-gray1 mb-5 py-3 text-center d-flex flex-column flex-md-row border-bottom-gray-bold">
@@ -802,7 +802,7 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Received Grievances</b-td> <b-td class="text-left">Case</b-td> <b-td>28</b-td> <b-td>52</b-td> <b-td>59</b-td><b-td>28</b-td>
+                                    <b-td class="text-left">Received Grievances</b-td> <b-td class="text-left">case</b-td> <b-td>28</b-td> <b-td>52</b-td> <b-td>59</b-td><b-td>28</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Resolved Cases</b-td> <b-td class="text-left">case</b-td> <b-td>28</b-td> <b-td>52</b-td> <b-td>59</b-td><b-td>28</b-td>
@@ -834,7 +834,7 @@
                             </b-tbody>                                
                         </b-table-simple>
                     <hr class="space-p25">
-                    <h6-ancor hash="r2-2" :activated="activated" class="gold6 fw-500 mb-3">Employee Satisfaction through Work Life Balance </h6-ancor>
+                    <h6-ancor hash="r2-2" :activated="activated" class="gold6 fw-500 mb-3">Employee Satisfaction Through Work Life Balance </h6-ancor>
                         <p class="mb-45"> Coway promotes work-life balance with a family-friendly corporate culture through various programs. The PC-Off system encourages employees to leave the office at fixed time, and Family Day is to help employees have more time with their families. Also, Coway operates a program that allows employees and their families to have a happy time together through family participation activities and events. Accordingly, Coway was first certified as an excellent family-friendly company in 2012 and re-certified in 2017.
                         </p>
                         <h7 class="pb-2 mb-5 gray63">Support System for Work-family Compatibility</h7>
@@ -924,7 +924,7 @@
                                        <b-td class="text-left"></b-td> <b-td>805</b-td> <b-td>779</b-td> <b-td>830</b-td> <b-td>835</b-td> <b-td>868</b-td>
                                 </b-tr>
                                 <b-tr>
-                                       <b-td class="text-left">Others</b-td> <b-td>26</b-td> <b-td>27</b-td> <b-td>27</b-td> <b-td>31</b-td> <b-td>31</b-td>
+                                       <b-td class="text-left">Other</b-td> <b-td>26</b-td> <b-td>27</b-td> <b-td>27</b-td> <b-td>31</b-td> <b-td>31</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" rowspan="2">By Employment Type</b-td> <b-td class="text-left">Permanent Employees</b-td> <b-td>3,936</b-td> <b-td>3,920</b-td> <b-td>4,007</b-td> <b-td>4,627</b-td> <b-td>4,733</b-td>
@@ -1147,7 +1147,7 @@
                         
                     <section class="border-gold px-4 py-3 mb-5">
                     <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>Coway's Efforts to Prevent COVID<span class="fw-600">-19</span>  </p>
-                    <p class="mb-3">As much as there is not much specific information on COVID-19, to prevent the distribution of incorrect information and deliver accurate information, we continuously notify the number of new confirmers and daily occurrence status, officially aggregated from the Central Disaster and Safety Countermeasures Headquarters, and guideline for preventive measures. Based on the recognition of the correct information and behavior rules, we communicated through various channels such as providing display bulletin boards and safety regulations promotional materials to all business sites so that all employees and stakeholders can create a safe environment for themselves.
+                    <p class="mb-3">As much as there is not much specific information on COVID-19, to prevent the distribution of incorrect information and deliver accurate information, we continuously notify the number of new confirmed cases and daily occurrence status, officially aggregated from the Central Disaster and Safety Countermeasures Headquarters, and guideline for preventive measures. Based on the recognition of the correct information and behavior rules, we communicated through various channels such as providing display bulletin boards and safety regulations promotional materials to all business sites so that all employees and stakeholders can create a safe environment for themselves.
                     </p>
                     <p class="mb-3">It is compulsory to check fever, hand sterilization, masks of visitors at all workplaces, and conduct self-disinfection twice a week. In the cafeteria, a multi-use facility with high infection risk, we implemented regulations to minimize close contacts, such as standing in a line one by one and banning conversations. For pregnant women and children with elementary school age or younger, employees are encouraged to work at home to minimize the risk of virus transmission.
                     </p>
@@ -1199,10 +1199,10 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Employees</b-td><b-td class="text-left">case/1 million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
+                                    <b-td class="text-left">Employees</b-td><b-td class="text-left">case/million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">In-House Subcontractors and Suppliers</b-td><b-td class="text-left">case/1 million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">In-House Subcontractors and Suppliers</b-td><b-td class="text-left">case/million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>

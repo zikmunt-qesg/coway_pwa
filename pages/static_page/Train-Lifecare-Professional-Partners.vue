@@ -165,7 +165,7 @@
                             </b-col>
                             <b-col class="col-4 text-center fw-500">
                                 <div class="mx-auto mb-2"><b-img src="/images/139_3.svg" fluid></b-img> </div>
-                                <p class="fw-500 line-height-low">Win-Win Communication</p>
+                                <p class="fw-500 line-height-low">Mutual Growth Communication</p>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-3 border-top-dark">
@@ -189,7 +189,7 @@
                                 <h7 class="gold7 mb-3 mb-md-5 w-100">Performance</h7> 
                                 <div class="mb-3 mb-md-0">                                   
                                     <div class="f-100 line-height-low letter-narrow mb-3 font-noto text-center">Emergency Relief for Partners in COVID-19 Special Disaster Areas</div>
-                                    <div class="f-100 line-height-low letter-narrow font-noto px-2 text-center">9 types of VOC Improvement Based on 3C Meeting</div>
+                                    <div class="f-100 line-height-low letter-narrow font-noto px-2 text-center">9 Types of VOC Improvements Based on 3C Meeting</div>
                                 </div>
                             </b-col>                            
                         </b-row>
@@ -198,7 +198,7 @@
                 <!-- End of DMA-->
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Partner Expertise Enhancement</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45">Coway is pursuing win-win growth with partners who provide Coway products and services the closest to customers. Partners play an essential role in communicating at the customer interface and improving brand value and satisfaction. Accordingly, Coway supports sales and service partners in the field to facilitate smooth service and sales activities for customers.
+                        <p class="mb-45">Coway is pursuing mutual growth with partners who provide Coway products and services the closest to customers. Partners play an essential role in communicating at the customer interface and improving brand value and satisfaction. Accordingly, Coway supports sales and service partners in the field to facilitate smooth service and sales activities for customers.
                         </p>
                         <b-img src="/images/312_1.svg" fluid></b-img>
                         <hr class="mb-3">
@@ -210,13 +210,13 @@
                         <p class="mb-5"> Coway operates a university cooperative academy to help strengthen partner competencies. The academy consists of two programs: "Coway-Ewha Academy', a consumer service capacity building program with Ewha Womans University, and "Coway-Yonsei Leadership Academy," a leadership program with Yonsei University. Coway-Ewha Academy offers 9 weeks of customer management and service competitiveness improvement programs, including understanding consumer psychology, creative thinking and self-development, and customized healing stress management. The Coway-Yonsei Leadership Academy provides training on leaders' competencies, such as humanities, philosophy, human relations, and business management, over 8 weeks for leaders who demonstrate excellent leadership skills in sales.
                         </p>
                     
-                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">Supporting Partner based on Field Issues</h6-ancor>
+                    <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">Supporting Partner Based on Field Issues</h6-ancor>
                         <p class="mb-5"> Coway provides effective support for sales and service partners such as Cody, CS Doctor, and HP/GHP through an immediate reflection of field issues. Providing a service tool bag is a prime example of improving partner expertise through listening to field issues. The service tool bag is produced through research on the use of service items and partner opinions as a kit dedicated to professional service tools that can manage, transport, and move various service tools. We have diversified tools by application and tool bags to provide specialized tools for each product line of water purifiers, bidets, mattresses, and clothing cleaners. This not only improved the efficiency of service delivery from partners but also minimized fatigue from work.
                         </p>
                     
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Cooperation and Communication</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-5"> To clearly understand the site, Coway holds a 3C (Cody, CS Dr., Call center) meeting and listens to VOC and shared across the company. The 3C meeting is a regular meeting consisting of Codys, CS Doctors, and representatives of call centers working at Coway's primary customer interfaces. In 2019, Coway drew up tasks based on 9 types of VOCs through 3C meetings, including products, Customer Service, and education, and promoted improvement activities with related departments.
+                        <p class="mb-5"> To clearly understand the site, Coway holds a 3C (Cody, CS Dr., Call center) meeting and listens to VOC and shared across the company. The 3C meeting is a regular meeting consisting of Codys, CS Doctors, and representatives of call centers working at Coway's primary customer interfaces. In 2019, Coway drew up tasks based on nine types of VOCs through 3C meetings, including products, Customer Service, and education, and promoted improvement activities with related departments.
                         </p>
                     
                     <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-3 font-noto">Emergency Relief for Partners in COVID-19 Special Disaster Areas</h6-ancor>

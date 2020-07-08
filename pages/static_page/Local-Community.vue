@@ -400,7 +400,7 @@
                     </section>
                     <hr class="py-3">
                     <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3">Practice Sharing with all Employees</h6-ancor>
-                        <p class="mb-45"> Coway practices sharing through employees' social contribution activities. We operate an employee volunteer group led by the CEO, based on the active participation of all employees, including R&D centers and factories, as well as the head office. Bluebird, a smart sales organization, has signed an agreement with the Children's Cancer Foundation to practice regular volunteer activities. In 2019, we celebrated to end the treatment to encourage and congratulate 150 children who have completed treatment for childhood cancer leukemia.
+                        <p class="mb-45"> Coway practices sharing through employees' social contribution activities. We operate an employee volunteer group led by the CEO, based on the active participation of all employees, including R&D centers and factories, as well as the head office. 
 
                         </p>
                         <hj-img src="/images/317_2.svg" fluid></hj-img>
