@@ -26,7 +26,7 @@
                     </p>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="f1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">이사회 중심의 책임경영 수행</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-5">코웨이 이사회는 법령과 정관에 따라 주주로부터 기업 경영에 관한 최고 의사결정권을 위임받아, 이해관계자와 다양한 이해관계를 조율하고 경영 의사결정을 승인하는 최고 기구로서의 책임과 역할을 지니고 있습니다. 코웨이의 이사회는 투자계획, 내부거래 등 이해관계 상충, 투명한 보상 등에 대한 심의, 승인과 함께 회사의 장기 리스크 관리 전반에 대한 검토 및 책임을 수행합니다. 
+                    <p class="mb-5">코웨이 이사회는 법령과 정관에 따라 주주로부터 기업 경영에 관한 최고 의사결정권을 위임받아 이해관계자와 다양한 이해관계를 조율하고 경영 의사결정을 승인하는 최고 기구로서의 책임과 역할을 지니고 있습니다. 코웨이의 이사회는 투자계획, 내부거래 등 이해관계 상충, 투명한 보상 등에 대한 심의, 승인과 함께 회사의 장기 리스크 관리 전반에 대한 검토 및 책임을 수행합니다. 
                     </p>
 
                     <h6-ancor hash="f1-1" :activated="activated" class="parang6 fw-500 mb-4">이사회 구성 현황</h6-ancor>
@@ -91,7 +91,7 @@
                     <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">이사회의 독립성 및 전문성</h6-ancor>
                     <p>코웨이의 사외이사 비중은 57.1%로 국내 대기업 평균(51.3%, 2019년 12월 공정거래위원회 발표) 대비 높은 수준을 유지하고 있습니다. 코웨이는 사외이사의 독립성 판단 기준에 대해 국내 상법, 공정거래법 및 기타 법령에 준하여 이사회 정관에 명시하고 있습니다.
                     </p>
-                    <p class="mb-45">이사는 상법 제382조에 따라 주주총회에서 선임하며, 이사회는 정관에 따라 최소 3인에서 최대 9인으로 구성합니다. 2019년말 기준 코웨이 이사회는 사내이사 1인, 사외이사 5인, 기타비상무이사 1인으로 구성되어 있었으나, 2020년 2월 7일 인수에 따른 대주주 변경 이후 Temporary 주주총회를 통해 사내이사 3인, 사외이사 4인이 새롭게 선임되었습니다. 
+                    <p class="mb-45">이사는 상법 제382조에 따라 주주총회에서 선임하며, 이사회는 정관에 따라 최소 3인에서 최대 9인으로 구성합니다. 2019년 말 기준 코웨이 이사회는 사내이사 1인, 사외이사 5인, 기타비상무이사 1인으로 구성되어 있었으나, 2020년 2월 7일 인수에 따른 대주주 변경 이후 임시 주주총회를 통해 사내이사 3인, 사외이사 4인이 새롭게 선임되었습니다. 
                     </p>
 
                     <div class="border-parang py-3 px-4 mb-45">
@@ -117,7 +117,7 @@
                             <b-col class="col-12 col-sm-9 py-2">
                                 <p class="indent mb-0"> &#9312;	회사와 경쟁관계에 있는 회사를 지배하는 공정거래법상 동일인 및 관련자</p>
                                 <p class="indent mb-0"> &#9313;	회사와 경쟁관계에 있는 회사 및 공정거래법상 동일한 기업집단에 속하는 회사의 임직원 또는 최근 2년이내 임직원이었던 자</p>
-                                <p class="indent mb-0"> &#9314;	회사의 경쟁관계에 있는 회사의 최대주주 또는 2대주주인 회사 및 공정거래법상 동일 기업집단에 속하는 회사의 임직원 또는 최근 2년 이내 임직원이었던 자</p>
+                                <p class="indent mb-0"> &#9314;	회사의 경쟁관계에 있는 회사의 최대주주 또는 2대 주주인 회사 및 공정거래법상 동일 기업집단에 속하는 회사의 임직원 또는 최근 2년 이내 임직원이었던 자</p>
                             </b-col>
                         </b-row>
                     </div>
@@ -234,7 +234,7 @@
                     <hr class="py-3 mb-5">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">성과평가와 보수 지급</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p> 동종업계 보수 수준을 고려한 합리적인 보수를 지급하여 우수한 전문가를 사외이사로 선임하고, 적극적인 직무 활동을 할 수 있도록 보장하고 있습니다. 사내이사는 직무 및 직급, 근속기간, 리더십, 전문성, 회사 기여도 등을 고려하여 기본 보수를 책정하고, 정량지표과제 및 정성지표 과제 평가에 따라 종합점수를 산출하여 달성률을 평가하여 인센티브(상여)를 지급하고 있습니다.
+                    <p> 동종업계 보수 수준을 고려한 합리적인 보수를 지급하여 우수한 전문가를 사외이사로 선임하고 적극적인 직무 활동을 할 수 있도록 보장하고 있습니다. 사내이사는 직무 및 직급, 근속기간, 리더십, 전문성, 회사 기여도 등을 고려하여 기본 보수를 책정하고, 정량지표과제 및 정성지표 과제 평가에 따라 종합점수를 산출하여 달성률을 평가하여 인센티브(상여)를 지급하고 있습니다.
                     </p>
                     <p class="mb-5">코웨이는 2019년 제30기 정기주주총회를 통해 이사에게 지급할 연간 보수 총액을 40억으로 승인하였으며, 2020년 제31기 정기주주총회에서 연간 보수 총액을 50억으로 상향하여 승인하였습니다.
                     </p>
@@ -306,10 +306,10 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">보통주</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
+                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">보통주</b-td><b-td>87,000</b-td><b-td>-</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">보통주</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
+                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">보통주</b-td><b-td>216,792</b-td><b-td>-</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">박재영 외 5명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">보통주</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
@@ -396,7 +396,7 @@
                     <p class="mb-5">Coway maintains and develops an independent governance structure centered on the Board of Directors to conduct efficient management activities based on checks and balances. The Board of Directors aims to improve transparency, independence, diversity, professionalism, and efficiency to improve long-term corporate value, such as shareholders' returns through stable management activities and profit creation and growth strategies through strategic decision-making.
                     </p>
 
-                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="f1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Responsible Management Centered on the Board of Directors</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="f1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-3" style="z-index:10">Responsible Management Centered on the Board of Directors</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5">Coway's Board of Directors has the highest decision-making power regarding corporate management from shareholders under laws and Articles of Incorporation. It has responsibility and role as a top organization to coordinate various interests with stakeholders and approve management decisions. Coway's Board of Directors reviews and approves investment plans, conflicts of interest such as internal transactions, and transparent compensation. It  also takes responsibility for the overall long-term risk management of the company.
                     </p>
 
@@ -512,7 +512,7 @@
                         <b-table-simple responsive class="txt-table parang-table font-noto fw-300 f-95 mb-5 line-height-low">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>Meeting</b-td><b-td>Agenda</b-td><b-td>Category</b-td><b-td class="text-right"> Date</b-td><b-td class="text-right">Attendance</b-td>
+                                    <b-td>Round</b-td><b-td>Agenda</b-td><b-td>Category</b-td><b-td class="text-right">Date</b-td><b-td class="text-right">Attendance</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
