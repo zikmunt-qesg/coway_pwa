@@ -427,6 +427,11 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
+    head(){
+        return{
+            title: this.title + ' | Coway'
+        }
+    },
     async asyncData({ query, store }) {
         let return_data = {}
         if (query.p != null) {

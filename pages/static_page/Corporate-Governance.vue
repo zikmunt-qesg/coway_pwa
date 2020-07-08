@@ -606,9 +606,9 @@
                     <hr class="py-3 mb-5">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Performance Evaluation and Renumeration</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p> We appoint excellent experts as non-executive directors with a reasonable pay, considering the level of remuneration in the industry, and guarantee that excellent experts can actively engage in task-actions. We set basic remuneration for executive directors considering the job and position, longevity, leadership, professionalism, company contribution according to the resolution of the board of directors.  We evaluate the achievement rate by calculating the overall score according to the quantitative indicator task and qualitative indicator task evaluation for incentives. 
+                    <p> We appoint excellent experts as non-executive directors with a reasonable pay, considering the level of remuneration in the industry, and guarantee that excellent experts can actively engage in task-actions. We set basic remuneration for executive directors considering the job and position, longevity, leadership, professionalism, company contribution according to the resolution of the Board of Directors.  We evaluate the achievement rate by calculating the overall score according to the quantitative indicator task and qualitative indicator task evaluation for incentives. 
                     </p>
-                    <p class="mb-5">Coway approved the total annual remuneration to the directors at 4 billion in the 30th regular general shareholders' meeting in 2019 and increased the annual remuneration total to 5 billion at the 31st regular general shareholders' meeting in 2020.
+                    <p class="mb-5">Coway approved the total annual remuneration to the directors at 4 billion KRW in the 30th regular general shareholder meeting in 2019 and increased the annual remuneration total to 5 billion KRW at the 31st regular general shareholder meeting in 2020.
                     </p>
 
                         <h7 class="mb-3 gray63">CEO–Employee Remuneration Ratio</h7>
@@ -643,23 +643,23 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="4">Hae-Sun Lee</b-td><b-td>Salary</b-td><b-td style="width: 12%">411,364</b-td><b-td>Reflects the job/position as a representative director, longevity, leadership, expertise, and company contribution comprehensively.</b-td>
+                                    <b-td rowspan="4">Hae-Sun Lee</b-td><b-td>Salary</b-td><b-td style="width: 12%">411,364</b-td><b-td>Reflects the job/position(CEO), longevity, leadership, expertise, and company contribution comprehensively.</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Incentives</b-td><b-td>260,000</b-td><b-td>Calculate overall scores by evaluating quantitative KPIs composed of growth potential, profitability and stability, and qualitative KPIs composed of strategic tasks for the year based on the comprehensive evaluation table. In 2018, we consider the company's sales increased by 7.6% from 2.52 trillion KRW in 2017 to 2.71 trillion KRW in 2018. The increase of net profit by 7.4% from 325.6 billion KRW in 2017 to 349.9 billion KRW in 2017. Also, considering the qualitative and strategic indicators, such as securing growth engines through the launch of new product groups, and laying the foundation for entering overseas businesses, we calculated and paid 0.26 billion KRW, which is 65% of the total salary.</b-td>
+                                    <b-td>Incentive</b-td><b-td>260,000</b-td><b-td>Calculate overall scores by evaluating quantitative KPIs composed of growth potential, profitability and stability, and qualitative KPIs composed of strategic tasks for the year based on the comprehensive evaluation table. In 2018, we consider the company's sales increased by 7.6% from 2.52 trillion KRW in 2017 to 2.71 trillion KRW in 2018. The increase of net profit by 7.4% from 325.6 billion KRW in 2017 to 349.9 billion KRW in 2017. Also, considering the qualitative and strategic indicators, such as securing growth engines through the launch of new product groups, and laying the foundation for entering overseas businesses, we calculated and paid 260 million KRW, which is 65% of the total salary.</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Profit by Exercising Stock Option</b-td><b-td>2,460,285</b-td><b-td>Exercised at the difference between the exercise price of the stock purchase option (92,640 KRW) granted by the resolution of the general meeting of shareholders and the sale price of the change in management rights (per share) under the special provisions in the contract for granting the share purchase option according to the largest shareholder change Multiplied by quantity (240,000 shares) to calculate 2,460,285,000 KRW.</b-td>
+                                    <b-td>Profit by Exercising Stock Option</b-td><b-td>2,460,285</b-td><b-td>Exercised at the difference between the exercise price of the stock purchase option (92,640 KRW) granted by the resolution of the general meeting of shareholders and the sale price (102,891 KRW) of the change in management rights (per share) under the special provisions in the contract for granting the share purchase option according to the largest shareholder change Multiplied by quantity (240,000 shares) to calculate 2,460,285,000 KRW.</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Note</b-td><b-td colspan="2" class="text-right">- Other earned income, retirement income and other income are not applicable</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td rowspan="3">Ji-Yong Ahn</b-td><b-td>Salary</b-td><b-td>260,203</b-td><b-td>According to the resolution of the board of directors, the total salary is set at 245,440,000 KRW, reflecting the job, position(head of division), longevity, leadership, professionalism, company contribution, etc. According to the promotion and the board decision, the annual salary amount is increased to 400,000,000 KRW. During his work as the head of division, 6,518,156 KRW per year were paid for welfare benefits and other tax credits including 500,000 KRW per month.
+                                    <b-td rowspan="3">Ji-Yong Ahn</b-td><b-td>Salary</b-td><b-td>260,203</b-td><b-td>According to the resolution of the Board of Directors, the total salary is set at 245,440,000 KRW, reflecting the job, position(head of division), longevity, leadership, professionalism, company contribution, etc. According to the promotion and the board decision, the annual salary amount is increased to 400,000,000 KRW. During his work as the head of division, 6,518,156 KRW per year were paid for welfare benefits and other tax credits including 500,000 KRW per month.
                                     </b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Incentives</b-td><b-td>1,500,000</b-td><b-td>As the heade of the Marketing Division, he was paid 1,500,000,000 KRW by the board of directors' resolution as he undertakes major review, decision-making, and responsibility to achieve the company's management/financial/marketing goals as written in a senior executive contract.
+                                    <b-td>Incentive</b-td><b-td>1,500,000</b-td><b-td>As the heade of the Marketing Division, he was paid 1,500,000,000 KRW by the board of directors' resolution as he undertakes major review, decision-making, and responsibility to achieve the company's management/financial/marketing goals as written in a senior executive contract.
                                     </b-td>
                                 </b-tr>
                                 <b-tr>
@@ -756,6 +756,11 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
+    head(){
+        return{
+            title: this.title + ' | Coway'
+        }
+    },
     asyncData({query, store}){
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')
