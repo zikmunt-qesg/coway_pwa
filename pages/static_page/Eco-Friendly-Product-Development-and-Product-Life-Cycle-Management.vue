@@ -513,7 +513,7 @@
                             </b-col>
                             <b-col class="col-12 col-sm-8">
                                 <h7 class="green7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
-                                <p> Coway is a living environment home appliance company that directly produces home appliances, such as water purifiers and air purifiers, that make customers' lives easier and deliver clean water and air. The air purifier market grew from 1 million units in 2010 to about 2.5 million units in 2020. Consumers' interest in environmentally friendly products leads to green consumption. According to a survey by the Ministry of Environment, product sales of products and services that reduce energy and resource consumption and minimize pollutants in the entire process of producing, consuming, and disposing of products have increased by an average of 20.1% over the past four years.
+                                <p> Coway is a environmental home appliance company that directly produces home appliances, such as water purifiers and air purifiers, that make customers' lives easier by delivering clean water and air. The air purifier market grew from 1 million units in 2010 to about 2.5 million units in 2020. Consumers' interest in environmentally friendly products leads to green consumption. According to the survey by the Ministry of Environment, product sales of products and services that reduce energy and resource consumption and minimize pollutants in the entire process of producing, consuming, and disposing of products have increased by an average of 20.1% over the past four years.
                                 </p>
                                 <p> Coway produces better products in the product design and lifecycle management sector, such as designing eco-friendly products, strengthening product responsibilities through life cycle evaluation, and improving resource efficiency, protecting humans from ever-deteriorating water and air, and creating more eco-friendly values. We will undertake our utmost for eco-friendly products and services to deliver to customers.
                                 </p>
@@ -528,7 +528,7 @@
                             </b-col>
                             <b-col class="col-6 col-md-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/127_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2">Improve resource efficiency and realize a circular economy through eco-friendly management throughout the process</p>
+                                <p class="fw-500 word-break px-md-2">Improve Resource efficiency and Realize Circular Economy Through Eco-Friendly Management Throughout The Entire Process</p>
                             </b-col>
                             <b-col class="col-0 col-md-1"></b-col>
                         </b-row>
@@ -536,7 +536,7 @@
                             <b-col class="col-12 col-md-4 pr-md-4 mb-4 mb-md-0 text-center">
                                 <h7 class="green7 f-120 mb-4 w-100 text-left">Business Cases</h7>
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/128_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="fw-500 word-break px-md-2">Refrigerant Recovery and Recycling, expanding sales of refurbished products </p>                                   
+                                <p class="fw-500 word-break px-md-2">Refrigerant Recovery and Recycling, Expanded Sales of Refurbished Products </p>                                   
                             </b-col>
                             <b-col class="col-12 col-md-8 position-relative pl-md-4">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
@@ -667,13 +667,13 @@
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
                         <b-col :class="[isIE? '':'d-flex','col-12 col-lg-4 px-sm-3 position-relative']">
-                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Waste Recycling rate by 2030</p></div>
+                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Waste Recycling Rate by 2030</p></div>
                         </b-col>
                         <b-col :class="[isIE? '':'d-flex','col-12 col-lg-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-lg-block"></div>
-                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Workplace waste resource recovery rate by 2030</p></div>
+                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Industrial waste Resource Recovery Rate by 2030</p></div>
                         </b-col>
                         <b-col :class="[isIE? '':'d-flex','col-12 col-lg-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-lg-block"></div>
-                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-230 fw-500 green7 mb-0 d-flex align-items-end d-lg-inline">20,000 <p class="f-110 mt-m-3"> products</p></div><p class="word-break">Refurbished product sales by 2030</p></div>
+                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-230 fw-500 green7 mb-0 d-flex align-items-end d-lg-inline">20,000 <p class="f-110 mt-m-3"> products</p></div><p class="word-break">Refurbished Product Sales by 2030</p></div>
                         </b-col>
                     </b-row>
                     <p class="mb-5">Coway focuses on a new concept, the circular economy, to protect the world's crisis and prevent wasting resources. Coway goes beyond the traditional method of consuming and disposing of resources and makes great efforts to ensure that resources are reused through recovery and recycling even after they are used. Through the circular economic system such as operating refurbished product systems, recycling products and parts, zero landfill, and generating energy with waste from the entire production process, we reduce greenhouse gases and pollutants caused by waste incineration, and soil and groundwater pollution caused by landfill.

@@ -202,7 +202,7 @@
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="j1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Economic Value Creation</h6-ancor></div>
                     <p class="font-noto">Coway, which has continued to grow steadily for the past 10 years, continued to record sales growth in 2019 and achieved a record-high sale of 3018.9 billion KRW, an increase of 11.5% over the previous year. Domestic environmental home appliance business sales are 2111.2 billion KRW, and detailed sales are 1. rental sales, 2. lump sum sales, and 3. membership program. As of 2019, the total management account was 7.79 million(6.28 million domestic, 1.51 million overseas).
                     </p>
-                    <p class="font-noto">Rental sales increased by 8.4% year-on-year, from 1.45 million units last year to 1.57 million units in 2019. The largest sales were achieved with growth in sales of existing and new products. Increase sales of air purifiers and new product lines such as mattresses expanded.
+                    <p class="font-noto">Rental sales increased by 8.4% year-on-year, from 1.45 million units last year to 1.57 million units in 2019. The largest sales were achieved with growth in sales of existing and new products. sales of air purifiers increased and new product lines such as mattresses expanded.
                     </p>
                     <p class="font-noto mb-5">The customer cancellation rate is also on a long-term decline trend to 1.01%, and rental asset disposal is also minimizing losses by 2.5% of sales.
                     </p>
@@ -256,7 +256,7 @@
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="j3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Tax Policy</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-45">Coway faithfully fulfills its tax reporting and payment obligations based on its reasonable tax strategy. Coway's tax information is transparently disclosed through regular disclosure in the Financial Supervisory Service's disclosure system (http://dart.fss.or.kr/). In the financial statements and notes in the audit report, you can check the income tax expense calculation criteria, deferred income tax assets and liabilities, and the composition and tax rate of income tax expenses, and secure transparency and objectivity through external audits. Not only in Korea but also overseas, we faithfully fulfill the tax obligations of corporations and contribute to the creation of a virtuous cycle structure, such as the government's tax revenue and public service increase.
+                    <p class="mb-45">Coway faithfully fulfills its tax reporting and payment obligations based on its reasonable tax strategy. Coway's tax information is transparently disclosed through regular disclosure in the Financial Supervisory Service's disclosure system (http://dart.fss.or.kr/). In the financial statements and notes in the audit report, one can check the income tax expense calculation criteria, deferred income tax assets and liabilities, and the composition and tax rate of income tax expenses, and secure transparency and objectivity through external audits. Not only in South Korea but also overseas, we faithfully fulfill the tax obligations of corporations and contribute to the creation of a virtuous cycle structure, such as the government's tax revenue and public service increase.
                     </p>
 
                     <div class="border-parang py-2 px-4 mb-45">
@@ -269,12 +269,12 @@
                         <div class="py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> When it comes to corporate tax information, we disclose it through the Sustainability Management Report, and the Audit Report which is available at the DART (Data Analysis, Retrieval and Transfer System) of the Financial Supervisory Service</p></div>
                     </div>
                 
-                    <p class="mb-5">At Coway, we take a proactive approach in our response to tax risks by monitoring changes in tax regulations and policies. Risk management is conducted by the Funds Department in accordance with policies approved by the board. The Funds Department works closely with the business units of associated companies to identify, evaluate, and offset financial risks. The board provides documented policies on overall risk management as well as specific areas such as foreign exchange risk, interest rate risk, credit risk, use of derivative and non-derivative financial instruments, and investments in excess of liquidity. Meanwhile, we ensure compliance with the National Tax Service's policies on voluntary reporting on international transactions. In particular, we prohibit tax evasion using falsified overseas transactions and tax havens. Coway has branches or local subsidiaries in Malaysia, the United States, and China. In international transactions with overseas subsidiaries, it complies with applicable local tax laws and OECD transfer pricing guidelines. It fulfills its tax obligations based on local laws.
+                    <p class="mb-5">At Coway, we take a proactive approach in our response to tax risks by monitoring changes in tax regulations and policies. Risk management is conducted by the Funding Department in accordance with policies approved by the Board of Directors. The Funding Department works closely with the business units of associated companies to identify, evaluate, and offset financial risks. The Board provides documented policies on overall risk management as well as specific areas such as foreign exchange risk, interest rate risk, credit risk, use of derivative and non-derivative financial instruments, and investments in excess of liquidity. Meanwhile, we ensure compliance with the National Tax Service's policies on voluntary reporting on international transactions. In particular, we prohibit tax evasion using falsified overseas transactions and tax havens. Coway has branches or local subsidiaries in Malaysia, the the United States, and China. In international transactions with overseas subsidiaries, it complies with applicable local tax laws and OECD transfer pricing guidelines. It fulfills its tax obligations based on local laws.
                     </p>
 
                     <h6-ancor hash="j3-1" :activated="activated" class="parang6 fw-500 mb-3">Report on Tax Payment Status and Effective Tax Rate</h6-ancor>
 
-                        <h7 class="mb-3 gray63">Overseas tax payment by region <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
+                        <h7 class="mb-3 gray63">Overseas Tax Payment by Region <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
                         <b-table-simple responsive class="num-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -291,7 +291,7 @@
                         <p class="mb-1 f-80 gray6 indent-sm">* The cost of corporate tax for overseas corporations by region, calculated by applying the annual average exchange rate in 2019 for local payments</p>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
                             <li> Malaysia Corporation, Thailand Corporation, Indonesia Corporation, China Corporation </li>
-                            <li> United States Corporation </li>
+                            <li> The United States Corporation </li>
                         </ol>
 
                         <h7 class="mb-3 gray63">Main Composition of Corporate Tax Expenses  <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
