@@ -632,7 +632,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-4 mt-m-2">Employee-Centered Culture,<br> Safe and Healthy Workplace</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-4 mt-m-2">Employee-Oriented Culture,<br> Safe and Healthy Workplace</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">

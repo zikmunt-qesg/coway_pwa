@@ -460,7 +460,7 @@
                     <p class="pb-3 mb-5">To maintain thorough data security and protect customer's privacy, Coway is pursuing various information protection activities. To protect personal information, we introduced a lifecycle management system from information collection, storage, and utilization to disposal, and continue to systematically manage the system based on international information protection certifications such as ISMS and ISO27001. Additionally, to respond to global information protection regulations, we prepared a guideline to comply with the profiling protection measures of the EU GDPR(General Data Protection Regulation).
                     </p>
                     
-                    <h6-ancor hash="c2-1" :activated="activated" class="blue5 mb-3">Privacy Life Cycle Management</h6-ancor>
+                    <h6-ancor hash="c2-1" :activated="activated" class="blue5 mb-3">Personal Information Life Cycle Management</h6-ancor>
                     <p class="mb-5">Coway promotes privacy protection lifecycle management to safely manage information in the entire process of collection, storage, utilization, and disposal of personal information. In addition, information security measures are implemented in the management area, physical area, and technology area for further information protection throughout the lifecycle. the management area promotes human security through information protection education along with information handling according to information asset classification, and diagnoses, controls, and recovers IT systems-based technology in the technology area to secure overall system control and resilience beyond physical management limits.
                     </p>
                     <div class="d-md-flex mb-5 w-100">
