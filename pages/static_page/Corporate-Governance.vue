@@ -39,56 +39,54 @@
                                 <b-td>방준혁</b-td>
                                 <b-td>이사회 의장</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 코웨이 이사회 의장</li><li>2014 ~ 현재 넷마블 이사회 의장</li><li>2011 ~ 2014 CJ E&amp;M 게임사업부문 총괄 상임고문</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 &nbsp;| 코웨이 이사회 의장</li><li>2014 ~ 현재 &nbsp;| 넷마블 이사회 의장</li><li>2011 ~ 2014 | CJ E&amp;M 게임사업부문 총괄 상임고문</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>이해선</b-td>
                                 <b-td>대표이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 코웨이 대표이사</li><li>2019 ~ 2020 웅진코웨이 사업기술총괄사장</li><li>2016 ~ 2019 코웨이 대표이사</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 &nbsp;| 코웨이 대표이사</li><li>2019 ~ 2020 | 코웨이 사업기술총괄사장</li><li>2016 ~ 2019 | 코웨이 대표이사</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>서장원</b-td>
                                 <b-td>사내이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 코웨이 경영관리본부장</li><li>2020 ~ 2020 넷마블 코웨이 TF장</li><li>2019 ~ 2019 넷마블 투자전략담당 및 커뮤니케이션 담당</li><li>2015 ~ 2018 넷마블 경영전략담당</li><li>2001 ~ 2015 법무법인 세종 선임미국변호사</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 &nbsp;| 코웨이 경영관리본부장</li><li>2020 ~ 2020 | 넷마블 코웨이 TF장</li><li>2019 ~ 2019 | 넷마블 투자전략담당 및 커뮤니케이션 담당</li><li>2015 ~ 2018 | 넷마블 경영전략담당</li><li>2001 ~ 2015 | 법무법인 세종 선임미국변호사</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>김진배</b-td>
-                                <b-td>사외이사(독립)</b-td>
+                                <b-td>사외이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2001 ~ 현재 고려대학교 경영대학 교수</li><li>1997 ~ 2001 보스톤대학교 조교수</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2001 ~ 현재 &nbsp;| 고려대학교 경영대학 교수</li><li>1997 ~ 2001 | 보스톤대학교 조교수</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>김규호</b-td>
-                                <b-td>사외이사(독립)</b-td>
+                                <b-td>사외이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2015 ~ 현재 서강대학교 교수 (산학협력중점)</li><li>2013 ~ 2014 삼성전자 미디어솔루션센터(전무)</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2015 ~ 현재 &nbsp;| 서강대학교 교수(산학협력중점)</li><li>2013 ~ 2014 | 삼성전자 미디어솔루션센터(전무)</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>윤부현</b-td>
-                                <b-td>사외이사(독립)</b-td>
+                                <b-td>사외이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 LG디스플레이 고문</li><li>2018 ~ 2020 LG유플러스 고문</li><li>2012 ~ 2018 LG전자 MC사업본부 경영기획담당(전무)</li><li>2009 ~ 2011 LG전자 금융담당(상무)</li><li>2007 ~ 2008 LG전자 경영기획담당(상무)</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2020 ~ 현재 &nbsp;| LG디스플레이 고문</li><li>2018 ~ 2020 | LG유플러스 고문</li><li>2012 ~ 2018 | LG전자 MC사업본부 경영기획담당(전무)</li><li>2009 ~ 2011 | LG전자 금융담당(상무)</li><li>2007 ~ 2008 | LG전자 경영기획담당(상무)</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>이다우</b-td>
-                                <b-td>사외이사(독립)</b-td>
+                                <b-td>사외이사</b-td>
                                 <b-td>남</b-td>
-                                <b-td class="custom-ul-li table-li"><ul><li>2018 ~ 현재 법무법인 율촌 변호사</li><li>2016 ~ 2018 춘천지방법원 부장판사</li><li>2015 ~ 2016 서울중앙지방법원 판사</li></ul></b-td>
+                                <b-td class="custom-ul-li table-li"><ul><li>2018 ~ 현재 &nbsp;| 법무법인 율촌 변호사</li><li>2016 ~ 2018 | 춘천지방법원 부장판사</li><li>2015 ~ 2016 | 서울중앙지방법원 판사</li></ul></b-td>
                                 <b-td>2020.02.07</b-td>
                             </b-tr>
                         </b-tbody>
                     </b-table-simple>
-                    <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                        <li> 2020년 6월 기준 </li>
-                    </ul>
+                    <p class="f-80 fw-300 gray55 line-height-low mb-5">* 2020년 6월 기준 </p>
                     
                     <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">이사회의 독립성 및 전문성</h6-ancor>
                     <p>코웨이의 사외이사 비중은 57.1%로 국내 대기업 평균(51.3%, 2019년 12월 공정거래위원회 발표) 대비 높은 수준을 유지하고 있습니다. 코웨이는 사외이사의 독립성 판단 기준에 대해 국내 상법, 공정거래법 및 기타 법령에 준하여 이사회 정관에 명시하고 있습니다.
@@ -142,48 +140,91 @@
                         <b-table-simple responsive class="txt-table parang-table font-noto fw-300 f-95 mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td>회차</b-td><b-td>안건</b-td><b-td>구분</b-td><b-td class="text-right">개최 일자</b-td><b-td class="text-right">출석/총원</b-td>
+                                    <b-td>회차</b-td><b-td>안건</b-td><b-td>구분</b-td><b-td class="text-right">개최 일자</b-td><b-td class="text-right" style="width:10%;">출석/총원</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td>1차</b-td><b-td>2019년 연간 사업계획 및 예산의 수립 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>1차</b-td><b-td class="custom-ul-li table-li"><ul><li>2019년 연간 사업계획 및 예산의 수립</li><li>2018년 경영실적 보고의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.01.23</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>2차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>2차</b-td><b-td class="custom-ul-li table-li"><ul><li>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.01.31</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>3차</b-td><b-td>제30기 정기주주총회 소집의 건 외 6건</b-td><b-td>정기</b-td><b-td class="text-right">2019.02.13</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>3차</b-td><b-td class="custom-ul-li table-li"><ul><li>제 30기 정기주주총회 소집의 건</li>
+                                                                                            <li>제 30기 이익배당 결정의 건</li>
+                                                                                            <li>최대주주 등 특수관계인과의 거래 승인의 건</li>
+                                                                                            <li>지점 설치의 건</li>
+                                                                                            <li>대표이사외 내부회계관리자의 내부회계관리 운영 실태 보고의 건</li>
+                                                                                            <li>감사위원회의 내부회계관리규정 준수 여부 보고의 건</li>
+                                                                                            <li>2018년 4분기 실적보고의 건 </li></ul> </b-td>
+                                    <b-td>정기</b-td><b-td class="text-right">2019.02.13</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>4차</b-td><b-td>2019년 1차 임시주주총회 소집의 건 외 4건</b-td><b-td>임시</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
+                                    <b-td>4차</b-td><b-td class="custom-ul-li table-li"><ul><li>2019년 1차 임시주주총회 소집의 건</li>
+                                                                                            <li>대표이사 1.2018년 인센티브 지급 및 주식매수선택권 행사가능 주식 수, 2019년 보상 결정의 건</li>
+                                                                                            <li>주식매수선택권 부여방법 결정의 건</li>
+                                                                                            <li>분기배당을 위한 주주명부 기준일 결정의 건</li>
+                                                                                            <li>내부회계관리규정 개정의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.03.06</b-td><b-td class="text-right">6/7</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>5차</b-td><b-td>사외이사후보추천위원회 구성위원 선임의 건 외 2건</b-td><b-td>임시</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>5차</b-td><b-td class="custom-ul-li table-li"><ul><li>사외이사후보추천위원회 구성위원 선임의 건</li>	
+                                                                                            <li>경영위원회 규정 개정의 건</li>	
+                                                                                            <li>경영위원회 구성위원 선임의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.03.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
-                                    <b-td>6차</b-td><b-td>2019년 1분기 배당 결정의 건 외 6건</b-td><b-td>정기</b-td><b-td class="text-right">2019.04.29</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>6차</b-td><b-td class="custom-ul-li table-li"><ul><li>2019년 1분기 배당 결정의 건</li>
+                                                                                            <li>주식매수선택권 부여방법 결정의 건</li>
+                                                                                            <li>국제자문위원회 및 국제자문위원회 규정 폐지의 건</li>
+                                                                                            <li>경영위원회 규정 개정의 건</li>
+                                                                                            <li>이사회 규정 개정의 건</li>
+                                                                                            <li>내부회계관리자 변경의 건</li>
+                                                                                            <li>2019년 1분기 실적보고의 건</li></ul> </b-td>
+                                    <b-td>정기</b-td><b-td class="text-right">2019.04.29</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>7차</b-td><b-td>㈜웅진과의 렌탈사업 영업양수도 계약 체결의 건 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>7차</b-td><b-td class="custom-ul-li table-li"><ul><li>(주)웅진과의 렌탈사업 영업양수도 계약 체결의 건</li>
+                                                                                            <li>상표 사용료 지급 계약 체결의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.05.17</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>8차</b-td><b-td>분기배당을 위한 주주명부 기준일 결정의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>8차</b-td><b-td class="custom-ul-li table-li"><ul><li>분기배당을 위한 주주명부 기준일 결정의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.06.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>   
                                 <b-tr>
-                                    <b-td>9차</b-td><b-td>2019년 2분기 배당 결정의 건 외 5건</b-td><b-td>정기</b-td><b-td class="text-right">2019.07.29</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>9차</b-td><b-td class="custom-ul-li table-li"><ul><li>2019년 2분기 배당 결정의 건</li>
+                                                                                            <li>준법지원인 재선임의 건</li>
+                                                                                            <li>지점 설치의 건</li>
+                                                                                            <li>회사채 발행 한도 승인 및 위임의 건</li>
+                                                                                            <li>임원선임계약 체결의 건</li>
+                                                                                            <li>2019년 2분기 실적보고의 건</li></ul> </b-td>
+                                    <b-td>정기</b-td><b-td class="text-right">2019.07.29</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>10차</b-td><b-td>신임 대표이사 선임의 건</b-td><b-td>임시</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>10차</b-td><b-td class="custom-ul-li table-li"><ul><li>신임 대표이사 선임의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.08.12</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>11차</b-td><b-td>내부회계관리규정 개정 승인의 건 외 1건</b-td><b-td>임시</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
+                                    <b-td>11차</b-td><b-td class="custom-ul-li table-li"><ul><li>내부회계관리규정 개정 승인의 건</li>
+                                                                                            <li>분기배당을 위한 주주명부 기준일 결정의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.09.19</b-td><b-td class="text-right">7/8</b-td>
                                 </b-tr> 
                                 <b-tr>
-                                    <b-td>12차</b-td><b-td>2019년 3분기 배당 결정의 건 외 3건</b-td><b-td>정기</b-td><b-td class="text-right">2019.10.28</b-td><b-td class="text-right">8/8</b-td>
+                                    <b-td>12차</b-td><b-td class="custom-ul-li table-li"><ul><li>2019년 3분기 배당 결정의 건</li>
+                                                                                            <li>경영위원회 규정 개정의 건</li>
+                                                                                            <li>2018~2019년 지속가능경영(ESG측면) 주요 성과 보고</li>
+                                                                                            <li>2019년 3분기 실적보고의 건</li></ul> </b-td>
+                                    <b-td>정기</b-td><b-td class="text-right">2019.10.28</b-td><b-td class="text-right">8/8</b-td>
                                 </b-tr>  
                                 <b-tr>
-                                    <b-td>13차</b-td><b-td>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건 외 2건</b-td><b-td>임시</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
+                                    <b-td>13차</b-td><b-td class="custom-ul-li table-li"><ul><li>임시주주총회를 위한 주주명부 폐쇄 및 기준일 설정의 건</li>	
+                                                                                            <li>주식매수선택권 부여방법 결정의 건</li>
+                                                                                            <li>주식매수선택권 부여 취소의 건</li></ul> </b-td>
+                                    <b-td>임시</b-td><b-td class="text-right">2019.12.30</b-td><b-td class="text-right">7/7</b-td>
                                 </b-tr>                                                                                                                                                                                                                                                       
                             </b-tbody>
                         </b-table-simple>
@@ -265,16 +306,16 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
+                                    <b-td class="text-left">안진혁 외 1명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">보통주</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">Common Stock</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
+                                    <b-td class="text-left">이재호 외 21명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">보통주</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">박재영 외 5명</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
+                                    <b-td class="text-left">박재영 외 5명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">보통주</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">송현주 외 1명</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2019.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td>2021.03 ~ 2028.03</b-td>
+                                    <b-td class="text-left">송현주 외 1명</b-td><b-td class="text-left">미등기임원</b-td><b-td class="text-center">2019.03</b-td><b-td class="text-center">보통주</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td>2021.03 ~ 2028.03</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -286,7 +327,7 @@
                     <p> 2019년 말 기준 코웨이의 주주는 웅진씽크빅 25.08%, 국민연금 8.08%, 자사주 2.14%, 외국인 58.87%, 기타 5.83%로 구성되어 있었으나, 2019년 12월 말 체결한 주식매매계약 등에 따라 2020년 2월 7일 웅진씽크빅이 소유하고 있던 18,511,446주(지분율 25.08%)를 ㈜넷마블에 매도하는 거래를 종결하였습니다. 이에 따라 2020년 2월 11일 이후 대주주가 넷마블㈜로 변경되었습니다. 
                     </p>
 
-                    <p class="mb-5">코웨이의 총 발행주식 수는 73,799,619주이며, 우선주 없이 100% Common Stock로 구성되어 있습니다. 코웨이는 1주당 1의결권 원칙을 따르고 있으며, 특정 주식에 복수 의결권을 부여하는 차등의결권제도를 두고 있지 않습니다. 단, 자사주로 보유하고 있는 자사주의 경우 상법에 따라 의결권이 제한되어 있습니다. 2019년 12월 말 기준 의결권이 부여된 주식은 72,218,395주(전체 발행 주식의 97.85%)입니다. 코웨이는 서면투표제나 전자투표제를 도입하고 있지 않습니다. 
+                    <p class="mb-5">코웨이의 총 발행주식 수는 73,799,619주이며, 우선주 없이 100% 보통주로 구성되어 있습니다. 코웨이는 1주당 1의결권 원칙을 따르고 있으며, 특정 주식에 복수 의결권을 부여하는 차등의결권제도를 두고 있지 않습니다. 단, 자사주로 보유하고 있는 자사주의 경우 상법에 따라 의결권이 제한되어 있습니다. 2019년 12월 말 기준 의결권이 부여된 주식은 72,218,395주(전체 발행 주식의 97.85%)입니다. 코웨이는 서면투표제나 전자투표제를 도입하고 있지 않습니다. 
                     </p>
 
                         <h7 class="mb-2 gray63">주주현황</h7>
@@ -305,10 +346,10 @@
                                     <b-td class="text-left">우선주</b-td><b-td>0</b-td><b-td>0%</b-td><b-td class="text-left">의결권 없음</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Common Stock - 의결권 있는 주식</b-td><b-td>72,218,395</b-td><b-td>97.85%</b-td><b-td class="text-left">의결권 있음</b-td>
+                                    <b-td class="text-left">보통주 - 의결권 있는 주식</b-td><b-td>72,218,395</b-td><b-td>97.86%</b-td><b-td class="text-left">의결권 있음</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Common Stock - 자기주식</b-td><b-td>1,581,224</b-td><b-td>2.14%</b-td><b-td class="text-left">의결권 있음</b-td>
+                                    <b-td class="text-left">보통주 - 자기주식</b-td><b-td>1,581,224</b-td><b-td>2.14%</b-td><b-td class="text-left">의결권 있음</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">합계</b-td><b-td>73,799,619</b-td><b-td>100%</b-td><b-td class="text-left">-</b-td>
@@ -316,7 +357,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <p class="f-80 ml-1">
-                            *2019년 12월 말 기준임
+                            * 2019년 12월 말 기준임
                         </p>   
                 </section> 
                 <!-- End of DMA-->
