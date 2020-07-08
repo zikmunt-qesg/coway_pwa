@@ -196,8 +196,8 @@
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5">Risk Management</h4-ancor>
 
-                    <h6-ancor hash="h1" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">Company-wide Risk Management System</h6-ancor>
-                    <p>Coway operates the Crisis Management Committee to manage risks that may occur during management activities proactively. The Crisis Management Committee diagnoses risk levels in the decision-making process for each major management issue. It makes decisions on the company's exposure to relevant risks and response strategies. Company-wide risk management and operation are centered around the Crisis Management Committee. The Crisis Management Committee is responsible for collecting risk issues, analyzing the impact, establishing countermeasures, recognizing and disseminating risks, and conducting risk response through cooperation with the department in charge. The Crisis Management Committee has the power to report to the management committee and CEO, which are committees within the board of directors, in the event of emergencies and substantial risks, and to convene a crisis assessment meeting as a company-wide risk response organization.
+                    <h6-ancor hash="h1" :activated="activated" class="parang7 f-130 fw-500 bg-white" style="z-index:10">Company-Wide Risk Management System</h6-ancor>
+                    <p>Coway operates the Crisis Management Committee to manage risks that may occur during management activities proactively. The Crisis Management Committee diagnoses risk levels in the decision-making process for each major management issue. It makes decisions on the company's exposure to relevant risks and response strategies. Company-wide risk management and operation are centered around the Crisis Management Committee. The Crisis Management Committee is responsible for collecting risk issues, analyzing the impact, establishing countermeasures, recognizing and disseminating risks, and conducting risk response through cooperation with the department in charge. The Crisis Management Committee has the power to report to the management committee and CEO, which are committees within the Board of Directors, in the event of emergencies and substantial risks, and to convene a crisis assessment meeting as a company-wide risk response organization.
                     </p>
                     <p class="mb-5">Coway's risk management scope covers financial risks such as market, credit and liquidity, and non-financial risks such as compliance, regulation, and policy. For proactive management of the major risks related to management activities, each business headquarters conducts clear responses and reports in the event of a crisis based on risk management policies. It promotes close cooperation between departments to mitigate risks.
                     </p>
@@ -248,7 +248,7 @@
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="h2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Emerging Risks</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-4">Coway analyzes risks that have a significant impact in the mid- to long-term in the business environment and recognizes emerging risks to promote strategic responses. We are proactively identifying emerging risks   and creating a sustainable management environment to create new opportunities based on regular risk monitoring. Coway's key emerging risks  for 2019 are driven by 1) increased threats to data protection, and 2) the growth of the online consumer services market.
+                    <p class="mb-4">Coway analyzes risks that have a significant impact in the mid- to long-term in the business environment and recognizes emerging risks to promote strategic responses. We proactively identify emerging risks and create a sustainable management environment for new opportunities based on regular risk monitoring. Coway's key emerging risks  for 2019 are 1) increased threats to data protection, and 2) the growth of the online consumer services market.
                     </p>
                     <b-table-simple responsive class="sep-table f-90 mb-1">
                         <b-tbody>
@@ -262,30 +262,30 @@
                                 <b-td>
                                     <p>The 4th Industrial Revolution, which connects an object-to-object or object-to-people, emerges beyond the age of people-to-people. Therefore, data and information have become a vital infrastructure of the entire process of the industry in the production, distribution, and use of products and services.
                                     </p>
-                                    <p>The main product of Coway's rental business is environmental appliances , which is providing new experiences to customers based on the Internet of Things (IoT). Data and information security are also being secured in the production process by introducing a smart factory based on advanced automation technology. It has become an essential element of competitiveness.
+                                    <p>The main products of Coway's rental business are home appliances, providing new experiences to customers based on the Internet of Things (IoT). Data and information security are secured in the production process by introducing a smart factory based on advanced automation technology - the essential element of competitiveness.
                                     </p>
-                                    <p>Also, due to the nature of the rental business, the process of collecting and utilizing customer personal information directly from the customer's contact point increases the risk sensitivity. Information security and privacy are not only the foundation of customer trust but as a service provider's primary obligation, Coway is responsible for mitigating and managing risk.
+                                    <p>Also, due to the nature of the rental business, the direct collecting and utilizing process of customer personal information increases the risk sensitivity. Information security and privacy are not only the foundation of customer trust but also a service provider's primary obligation. Therefore, Coway is responsible for mitigating and managing risk.
                                     </p>
                                 </b-td>
                                 <b-td>
-                                    <p>Coway has established a preemptive response system for external cyberattacks and information security infringements and is strengthening its risk response capabilities by conducting substantial preventive activities and monitoring. Internally, sales and service are provided Regular training on personal information protection is provided to employees and partners. The Information Protection Committee is operated to make the best efforts to protect customer information in all processes, from collection to storage and disposal of personal information.
+                                    <p>Coway established a preemptive response system for external cyberattacks and information security infringements. we are strengthening its risk response capabilities by conducting substantial preventive activities and monitoring. Internally, sales and service employees and partners are provided with regular training on privacy protection. The Information Protection Committee puts the best efforts to protect customer information in all processes: from collection to storage and disposal of personal information.
                                     </p>
-                                    <p>As we expand into the global market, we are establishing and promoting an effective response system to personal information protection regulations such as the European Union's Personal Information Protection Regulations (GDPR).
+                                    <p>As we expand into the global market, we establish and promote an effective response system for privacy protection regulations such as the European Union's Privacy Protection Regulations (GDPR).
                                     </p>
-                                    <nuxt-link to="/static_page/Information-Security-and-Personal-Information-Protection" class="parang-text">See details of "Information Security and Personal Information Protection"<i class="fas fa-link ml-1 f-80"></i></nuxt-link>
+                                    <nuxt-link to="/static_page/Information-Security-and-Personal-Information-Protection" class="parang-text">See Details of "Information Security and Privacy Protection"<i class="fas fa-link ml-1 f-80"></i></nuxt-link>
                                 </b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td class="parang7 f-95"> <div class="mb-3 fw-500">COVID-19 Pandemic</div>
                                 <b-img src="/images/121_2.svg"></b-img></b-td>
                                 <b-td>
-                                    <p>COVID-19 is spreading rapidly around the world. Although Coway's main office is located, South Korea has successfully prevented the spread through active initial quarantine and secure social isolation. Still, it needs attention to prevent further spread due to interpersonal contact.
+                                    <p>COVID-19 is spreading rapidly around the world. Although South Korea where Coway's main office is located has successfully prevented the spread through active initial quarantine and secure social isolation. Still, it needs attention to prevent further spread due to interpersonal contact.
                                     </p>
                                     <p>With COVID-19, the health and safety issues of Coway employees have emerged as a vital issue for securing business continuity. Coway's main business models, such as rental and visiting care, can have long-term effects on the spread of social culture that avoids interpersonal contact.
                                     </p>
                                 </b-td>
                                 <b-td>
-                                    <p>To protect employees from COVID-19, Coway promoted various activities such as flexible work and susceptible homework and physical measures such as prohibiting outsiders from entering the office building, using masks and hand sanitizers, and installing thermal detectors. By May 2020, there were no COVID-19 contributors among Coway employees.
+                                    <p>To protect employees from COVID-19, Coway took various responses such as flexible work and telecommuting and physical measures such as prohibiting outsiders from entering the office building, using masks and hand sanitizers, and installing thermal detectors. By May 2020, there were no COVID-19 contributors among Coway employees.
                                     </p>
                                     <p>Avoiding interpersonal contact to fundamentally respond to concerns about a decrease in sales and profits due to long-term social changes caused by the spread of social culture, we are strengthening non-face-to-face and digitalization strategies. In January 2020, Coway launched a self-manageable purifier that allows users to replace parts by themselves without visiting service.  In particular, as Netmarble's major shareholder changed, Coway was equipped with a technology base and know-how to expand non-face-to-face services. Coway plans to expand not only to provide a simple home appliance but also to apply IT solutions to online customized marketing and non-face-to-face management services using the Internet of Things (IoT) technology.
                                     </p>
@@ -297,9 +297,9 @@
                                 <b-td> 
                                     <p>Waste disposal and neglect are spreading as a severe global social problem, and regulations on resource circulation at home and abroad are being strengthened.
                                     </p>
-                                    <p>Coway has been affected by environmental regulations such as the European E-Waste Prevention Directive (WEEE) and Hazardous Substances Restriction Directive (EU RoHS) since 2006, as about 70% of sales are based on environmental appliances. The importance of the recovery and recycling of waste resources has increased as it is included as a target for compliance with the Regulation on the Recycling of Electricity, Electronics, and Automotive Resources.
+                                    <p>Coway has been affected by environmental regulations such as the European E-Waste Prevention Directive (WEEE) and Hazardous Substances Restriction Directive (EU RoHS) since 2006, as about 70% of sales are based on environmental home appliances. The importance of the recovery and recycling of waste resources has increased as it is included as a target for compliance with the Regulation on the Recycling of Electricity, Electronics, and Automotive Resources.
                                     </p>
-                                    <p>As there is a growing number of ethical consumers who consider the socio-environmental impacts of products and services in purchasing decision-making along with strengthening regulations, the responsibility for resource recycling also rises.
+                                    <p>As there is a growing number of ethical consumers who consider the socio-environmental impacts of products and services in decision-making along with strengthened regulations, the responsibility for resource recycling also rises.
                                     </p>
                                 </b-td>
                                 <b-td class="">
@@ -309,14 +309,14 @@
                                     </p>
                                     <p>In 2019, we continued to reduce absolute resource consumption, such as the development of the “HANDSPAN CIROO Tankless Water Purifier,” which reduced material usage by 00% compared to the previous one.
                                     </p>
-                                    <nuxt-link to="/static_page/Environmental-Management-for-Clean-Water-and-Air#s2" class="parang-text">See details on "Value Chain Environmental Competencies"  <i class="fas fa-link ml-1 f-80"></i></nuxt-link>
+                                    <nuxt-link to="/static_page/Environmental-Management-for-Clean-Water-and-Air#s2" class="parang-text">See Details on "Value Chain Environmental Competencies"  <i class="fas fa-link ml-1 f-80"></i></nuxt-link>
                                 </b-td>
                             </b-tr>
                             <b-tr>
-                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500"> Changes in Consumption Patterns of Environmental Appliances</div>
+                                <b-td class="parang7 f-95"> <div class="mb-3 fw-500"> Changes in Consumption Patterns of Environmental Home Appliances</div>
                                 <b-img src="/images/121_4.svg"></b-img></b-td>
                                 <b-td>
-                                    <p>With the growth of the e-commerce market, the forms of purchase of environmental home appliances are also diversifying. According to the National Statistical Office's survey, in September 2019, the number of online shopping transactions of home appliances, electronics, and telecommunications devices increased by 40.8% (KRW 321.1 billion) compared to the same month last year. Also, the online-based consumption culture is rapidly spreading, with the purchase rate through online overseas direct purchases also growing by about 76% compared to 2017.
+                                    <p>With the growth of the e-commerce market, the forms of purchase of environmental home appliances are also diversifying. According to the National Statistical Office's survey, in September 2019, the number of online shopping transactions of home appliances, electronics, and telecommunications devices increased by 40.8% (321.1 billion KRW) compared to the same month last year. Also, the online-based consumption culture is rapidly spreading, with the purchase rate through online overseas direct purchases also growing by about 76% compared to 2017.
                                     </p>
                                     <p> This can pose a significant risk to Coway's market share based on rental-based face-to-face services.
                                     </p>
@@ -324,7 +324,7 @@
                                 <b-td>
                                     <p>Coway is recording steady growth based on a professional and reliable service network.
                                     </p>
-                                    <p>We provide an unsatisfying customer experience through online purchases, solve problems at customer touch points, and increase value to maximize the retention rate of existing customers and expand new customers.
+                                    <p>We provide a customer experience that online purchase cannot suffice, solve problems at customer touch points, and increase value to maximize the retention rate of existing customers and expand new customers.
                                     </p>
                                     <p> In particular, customized customer relief care service provides a differentiated customer experience from online purchases.
                                     </p>

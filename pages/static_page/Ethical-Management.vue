@@ -49,7 +49,7 @@
                         <h7 class="mb-3 gray63 font-noto">2019 윤리 제보 및 조치 건수</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td>기타 윤리실천지침 위배<sup>1)</sup></b-td><b-td>변칙영업</b-td><b-td>기타(금전거래 등)</b-td><b-td>Total</b-td>
+                                <b-td class="text-left">구분</b-td><b-td>기타 윤리실천지침 위배<sup>1)</sup></b-td><b-td>변칙영업</b-td><b-td>기타(금전거래 등)</b-td><b-td>총계</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
@@ -69,7 +69,7 @@
                     <h7 class="mb-3 gray63">반부패 진단 및 조치 현황</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td class="text-left">단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
@@ -149,7 +149,7 @@
                     <hr class="mb-4">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="g1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Code of Conduct</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-3">Coway is creating an ethical management culture with a vision of "Clean Coway" to practice responsible ethics. Coway has established the Charter of Ethics, Regulations on Ethics, and Code of Ethics to clearly define and apply ethical behavior guidelines for employees and stakeholders. The Charter of Ethics establishes the basic principles of Clean Coway and sets standards for ethical behavior and value judgment of employees and stakeholders through Regulations on Ethics. Also, according to the Code of Ethics, specific practice matters are prescribed to prepare guidelines to address various ethical issues. 
+                    <p class="mb-3">Coway creates an ethical management culture with a vision of "Clean Coway" to practice responsible ethics. Coway has established the Charter of Ethics, Regulations on Ethics, and Code of Ethics to clearly define and apply ethical behavior guidelines for employees and stakeholders. The Charter of Ethics establishes the basic principles of Clean Coway and sets standards for ethical behavior and value judgment of employees and stakeholders through Regulations on Ethics. Also, according to the Code of Ethics, specific practice matters are prescribed to prepare guidelines to address various ethical issues. 
                     </p>
 
                     <a href="/documents/code_of_conduct.pdf" download><b-button variant="parang" size="sm" class="mb-45 px-md-3 mr-2 mr-md-3">The Charter of Ethics</b-button></a>

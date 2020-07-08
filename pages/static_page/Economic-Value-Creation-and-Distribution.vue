@@ -200,9 +200,9 @@
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">Economic Value Creation and Distribution</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="j1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Economic Value Creation</h6-ancor></div>
-                    <p class="font-noto">Coway, which has continued to grow steadily for the past 10 years, continued to record sales growth in 2019 and achieved a record-high sale of 3018.9 billion KRW, an increase of 11.5% over the previous year. Domestic environmental home appliance business sales are 2111.2 billion KRW, and detailed sales are 1. rental sales, 2. lump sum sales, and 3. membership program. As of 2019, the total management account was 7.79 billion(6.28 billion domestic, 1.51 billion overseas), a 6.5% increase from the previous year's 5.90 million accounts.
+                    <p class="font-noto">Coway, which has continued to grow steadily for the past 10 years, continued to record sales growth in 2019 and achieved a record-high sale of 3018.9 billion KRW, an increase of 11.5% over the previous year. Domestic environmental home appliance business sales are 2111.2 billion KRW, and detailed sales are 1. rental sales, 2. lump sum sales, and 3. membership program. As of 2019, the total management account was 7.79 million(6.28 million domestic, 1.51 million overseas).
                     </p>
-                    <p class="font-noto">Rental sales increased by 8.4% year-on-year, from 1.45 million units last year to 1.57 million units in 2019. The largest sales were achieved due to growth in sales of existing and new products. Sales of air purifiers and new products such as mattresses expanded.
+                    <p class="font-noto">Rental sales increased by 8.4% year-on-year, from 1.45 million units last year to 1.57 million units in 2019. The largest sales were achieved with growth in sales of existing and new products. Increase sales of air purifiers and new product lines such as mattresses expanded.
                     </p>
                     <p class="font-noto mb-5">The customer cancellation rate is also on a long-term decline trend to 1.01%, and rental asset disposal is also minimizing losses by 2.5% of sales.
                     </p>
