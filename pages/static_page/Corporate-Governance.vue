@@ -397,14 +397,14 @@
                     </p>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="f1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-3" style="z-index:10">Responsible Management Centered on the Board of Directors</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-5">Coway's Board of Directors has the highest decision-making power regarding corporate management from shareholders under laws and Articles of Incorporation. It has responsibility and role as a top organization to coordinate various interests with stakeholders and approve management decisions. Coway's Board of Directors reviews and approves investment plans, conflicts of interest such as internal transactions, and transparent compensation. It  also takes responsibility for the overall long-term risk management of the company.
+                    <p class="mb-5">Coway's Board of Directors has the highest decision-making power regarding corporate management from shareholders under laws and Articles of Incorporation. It has responsibility and role as a top organization to coordinate various interests with stakeholders and approve management decisions. Board of Directors reviews and approves investment plans, conflicts of interest such as internal transactions, and transparent compensation. It  also takes responsibility for the overall long-term risk management of the company.
                     </p>
 
                     <h6-ancor hash="f1-1" :activated="activated" class="parang6 fw-500 mb-4">Current Status of the BOD</h6-ancor>
                     <b-table-simple responsive class="sep-table f-90 line-height-low">
                         <b-tbody>
                             <b-tr class="bg-parang7 fw-300 text-white">
-                                <b-td class="border-0 py-0">Name</b-td><b-td class="border-0 py-0">Position</b-td><b-td class="border-0 py-0">Sex</b-td><b-td class="border-0 py-0">Professional Experience<sup>*</sup></b-td><b-td class="border-0 py-0">Appointed Date</b-td>
+                                <b-td class="border-0 py-0" >Name</b-td><b-td class="border-0 py-0">Position</b-td><b-td class="border-0 py-0">Sex</b-td><b-td class="border-0 py-0">Professional Experience<sup>*</sup></b-td><b-td class="border-0 py-0">Appointed Date</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>Jun-Hyuk Bang</b-td>
@@ -494,16 +494,16 @@
                         </b-row>
                     </div>
 
-                    <p>Executive directors are nominated through a careful review process and by candidates for final selection at the general shareholders' meeting. non-executive directors are appointed by the Non-Executive Director Candidate Recommendation Committee, established under Article 542-8 of the Commercial Act, by transparent procedures, and then selected at the general shareholders' meeting. For corporate governance diversity and expertise, Coway appoints those with expertise in management, economics, accounting, and other fields as non-executive directors.
+                    <p>Executive directors are nominated through a careful review process and by candidates for final selection at the general shareholders' meeting. Non-executive directors are appointed by the Independent Director Candidate Recommendation Committee, established under Article 542-8 of the Commercial Act, by transparent procedures, and then selected at the general shareholders' meeting. For corporate governance diversity and expertise, Coway appoints those with expertise in management, economics, accounting, and other fields as non-executive directors.
                     </p>
-                    <p class="mb-5">When selecting an non-executive, the non-executive director's qualifications, such as independence and other mandates, are confirmed and submitted to the Korea Exchange. In the publicly announced process at the general meeting of shareholders' meeting, the non-executive director's eligibility requirements are verified through the confirmation of eligibility, laws and regulations. Qualification requirements are transparently disclosed to shareholders and stakeholders.
+                    <p class="mb-5">The non-executive director's qualifications, such as independence and other mandates, are confirmed and submitted to the Korea Exchange. In the publicly announced process at the general meeting of shareholders' meeting, the non-executive director's eligibility requirements are verified through the confirmation of eligibility, laws and regulations. Qualification requirements are transparently disclosed to shareholders and stakeholders.
                     </p>
 
                     <hj-img src="/images/301_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
                     <h6-ancor hash="f1-3" :activated="activated" class="parang6 fw-500 mb-3">Committees under the BOD</h6-ancor>
-                    <p class=""> Coway operates the Management Committee, non-executive Director Candidate Recommendation Committee, and Audit Committee as committees under the BOD to fulfill the responsibilities and roles of the BOD efficiently and professionally. As of March 2020, the committee under the BOD consisted of 3 executive directors for the management committee, 3 non-executive directors for the audit committee, and 3 non-executive directors for the executive director candidate recommendation committee. For the Board of Directors to effectively exercise restraint ability, the ratio of non-executive directors in the Board of Directors is more than half. In particular, the Chairman of the Audit Committee is an accounting/financial expert, and it consists of one consumer and consumer electronics industry expert and one legal expert to enhance the expertise of the Audit Committee.
+                    <p class=""> Coway operates the Management Committee, Independent Director Candidate Recommendation Committee, and Audit Committee as committees under the BOD to fulfill the responsibilities and roles of the BOD efficiently and professionally. As of March 2020, the committee under the BOD consisted of 3 executive directors for the Management Committee, 3 non-executive directors for the Audit Committee, and 3 non-executive directors for the Independent Director Candidate Recommendation Committee. For the Board of Directors to effectively exercise restraint ability, the ratio of non-executive directors in the Board of Directors is more than half. In particular, the Chairman of the Audit Committee is an accounting/financial expert, and it consists of one consumer and consumer electronics industry expert and one legal expert to enhance the expertise of the Audit Committee.
                     </p>
 
                     <p class="mb-5">In 2019, total of 13 board meetings were held, with an average attendance rate of 98.9%.</p>
@@ -601,12 +601,12 @@
                             </b-tbody>
                         </b-table-simple>
                         <hr class="py-2">
-                        <hj-img src="/images/301_2.svg" fluid></hj-img>
+                        <hj-img src="/images/79_1.svg" fluid></hj-img>
 
                     <hr class="py-3 mb-5">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Performance Evaluation and Renumeration</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p> We appoint excellent experts as non-executive directors with a reasonable pay, considering the level of remuneration in the industry, and we guarantee that excellent experts can actively engage in task-actions. We set basic remuneration for executive directors considering the job and position, longevity, leadership, professionalism, company contribution according to the resolution of the board of directors.  We evaluate the achievement rate by calculating the overall score according to the quantitative indicator task and qualitative indicator task evaluation for incentives. 
+                    <p> We appoint excellent experts as non-executive directors with a reasonable pay, considering the level of remuneration in the industry, and guarantee that excellent experts can actively engage in task-actions. We set basic remuneration for executive directors considering the job and position, longevity, leadership, professionalism, company contribution according to the resolution of the board of directors.  We evaluate the achievement rate by calculating the overall score according to the quantitative indicator task and qualitative indicator task evaluation for incentives. 
                     </p>
                     <p class="mb-5">Coway approved the total annual remuneration to the directors at 4 billion in the 30th regular general shareholders' meeting in 2019 and increased the annual remuneration total to 5 billion at the 31st regular general shareholders' meeting in 2020.
                     </p>
@@ -629,7 +629,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
-                            <li>Based on the remuneration of President Lee Hae-sun, who served as CEO as of October 2019. After his tenure, the executive director served as general manager of the business technology (unregistered executive). The disclosure amount is calculated based on the total amount of remuneration, including the working period, as an unregistered executive, excluding the gains from exercising the stock option granted in 2016. For details, including profits on the exercise of stock option, please refer to the status of individual directors' compensation payments.
+                            <li>Based on the remuneration of President Hae-sun Lee, who served as CEO until October 2019. After his tenure, the executive director served as general manager of the business technology (as a non-registered executive). The disclosure amount is calculated based on the total amount of remuneration, including the working period as a non-registered executive, excluding the gains from exercising the stock option granted in 2016. For details, including profits on the exercise of stock option, please refer to the status of individual directors remuneration below.
                             </li>
                         </ol>
 
@@ -638,28 +638,28 @@
                         <b-table-simple responsive class="txt-table sustainability-table fw-300 font-noto mb-5">
                             <b-thead>
                                 <b-tr>
-                                    <b-td style="width:12%;">Name</b-td><b-td style="width:10%;">Category</b-td><b-td style="width:15%;">Total<br><span class="f-80">(Unit: 1,000 KRW)</span></b-td><b-td>Calculation Standard and Method</b-td>
+                                    <b-td style="width:12%;">Name</b-td><b-td style="width:10%;">Category</b-td><b-td style="width:15%;">Total<br><span class="f-80">(Unit: 1,000 KRW)</span></b-td><b-td>Standards and Methods</b-td>
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="4">Hae-Sun Lee</b-td><b-td>Salary</b-td><b-td style="width: 12%">411,364</b-td><b-td>Reflects the job/position (representative director), longevity, leadership, expertise, and company contribution comprehensively.</b-td>
+                                    <b-td rowspan="4">Hae-Sun Lee</b-td><b-td>Salary</b-td><b-td style="width: 12%">411,364</b-td><b-td>Reflects the job/position as a representative director, longevity, leadership, expertise, and company contribution comprehensively.</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Incentives</b-td><b-td>260,000</b-td><b-td>Calculate overall scores by evaluating quantitative KPIs composed of growth potential, profitability and stability, and qualitative KPIs composed of strategic tasks for the year based on the comprehensive evaluation table. In 2018, we consider the company's sales increased by 7.6% from 2.25 trillion KRW in 2017 to 2.70 trillion KRW in 2018. The increase of net profit by 7.4% from 3 256 billion KRW in 2017 to 349 billion KRW in 2017. Also, considering the qualitative and strategic indicators, such as securing growth engines through the launch of new product groups, and laying the foundation for entering overseas businesses, we calculated and paid 2.6 billion KRW, which is 65% of the total salary.</b-td>
+                                    <b-td>Incentives</b-td><b-td>260,000</b-td><b-td>Calculate overall scores by evaluating quantitative KPIs composed of growth potential, profitability and stability, and qualitative KPIs composed of strategic tasks for the year based on the comprehensive evaluation table. In 2018, we consider the company's sales increased by 7.6% from 2.52 trillion KRW in 2017 to 2.71 trillion KRW in 2018. The increase of net profit by 7.4% from 325.6 billion KRW in 2017 to 349.9 billion KRW in 2017. Also, considering the qualitative and strategic indicators, such as securing growth engines through the launch of new product groups, and laying the foundation for entering overseas businesses, we calculated and paid 0.26 billion KRW, which is 65% of the total salary.</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Profit by Exercising Stock Option</b-td><b-td>2,460,285</b-td><b-td>Exercised at the difference between the exercise price of the stock purchase option (92,640 KRW) granted by the resolution of the general meeting of shareholders and the sale price of the change in management rights (per share) (per share) under the special provisions in the contract for granting the share purchase option according to the largest shareholder change Multiplied by quantity (240,000 shares) to calculate 2,460,285 (1,000 KRW)</b-td>
+                                    <b-td>Profit by Exercising Stock Option</b-td><b-td>2,460,285</b-td><b-td>Exercised at the difference between the exercise price of the stock purchase option (92,640 KRW) granted by the resolution of the general meeting of shareholders and the sale price of the change in management rights (per share) under the special provisions in the contract for granting the share purchase option according to the largest shareholder change Multiplied by quantity (240,000 shares) to calculate 2,460,285,000 KRW.</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Note</b-td><b-td colspan="2" class="text-right">- Other earned income, retirement income and other income are not applicable</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td rowspan="3">Ji-Yong Ahn</b-td><b-td>Salary</b-td><b-td>260,203</b-td><b-td>According to the resolution of the board of directors, the total salary is set at 245,440,000 KRW, reflecting the job, job title (head of division), longevity, leadership, professionalism, company contribution, etc. Considering directors), the annual salary amount is increased to 400,000,000 KRW. During his work as the head of division, a 500,000 KRW per month and 6,518,156 KRW per year for welfare benefits and other tax credits were paid.
+                                    <b-td rowspan="3">Ji-Yong Ahn</b-td><b-td>Salary</b-td><b-td>260,203</b-td><b-td>According to the resolution of the board of directors, the total salary is set at 245,440,000 KRW, reflecting the job, position(head of division), longevity, leadership, professionalism, company contribution, etc. According to the promotion and the board decision, the annual salary amount is increased to 400,000,000 KRW. During his work as the head of division, 6,518,156 KRW per year were paid for welfare benefits and other tax credits including 500,000 KRW per month.
                                     </b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Incentives</b-td><b-td>1,500,000</b-td><b-td>As Chief Executive Officer of the Management and Marketing Division, he was paid 1,500,000,000 KRW by the board of directors' resolution as he undertakes major review, decision-making, and responsibility to achieve the company's management/financial/marketing goals as written in a senior executive contract.
+                                    <b-td>Incentives</b-td><b-td>1,500,000</b-td><b-td>As the heade of the Marketing Division, he was paid 1,500,000,000 KRW by the board of directors' resolution as he undertakes major review, decision-making, and responsibility to achieve the company's management/financial/marketing goals as written in a senior executive contract.
                                     </b-td>
                                 </b-tr>
                                 <b-tr>
@@ -678,10 +678,10 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Jin-Hyuk Ahn and 1 other</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
+                                    <b-td class="text-left">Jin-Hyuk Ahn and 1 other</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>87,000</b-td><b-td>-</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Jae-Ho Lee and 21 others</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">Common Stock</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
+                                    <b-td class="text-left">Jae-Ho Lee and 21 others</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">Common Stock</b-td><b-td>216,792</b-td><b-td>-</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Jae-Young Park and 5 others</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
@@ -696,7 +696,7 @@
                         </div>
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="f3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Ownership Structure and Voting Rights</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p>As of the end of 2019, Coway's shareholders consisted of 25.08% of Woongjin Thinkbig, 8.08% of National Pension, 2.14% of treasury stock, 58.87% of foreigners, and 5.83% of others. On the 7th, the transaction to sell 18,511,446 shares (25.08% stake) owned by Woongjin Thinkbig to Netmarble was closed. Accordingly, after February 11, 2020, the majority shareholder was changed to Netmarble Co., Ltd.
+                    <p>As of the end of 2019, Coway's shareholders consisted of 25.08% of Woongjin Thinkbig, 8.08% of National Pension, 2.14% of treasury stock, 58.87% of foreigners, and 5.83% of others. On the Feburary 7, 2020, the transaction to sell 18,511,446 shares (25.08% stake) owned by Woongjin Thinkbig to Netmarble was closed. Accordingly, after February 11, 2020, the largest shareholder was changed to Netmarble Co., Ltd.
                     </p>
 
                     <p class="mb-5">The total number of shares issued by Coway is 73,799,619 shares, which consist of 100% common shares without preferred shares. Coway follows the principle of 1 voting per share and does not have a differential voting system that grants multiple voting rights to specific stocks. However, voting rights of treasury stocks held as treasury stocks are limited by commercial law. As of the end of December 2019, 72,218,395 shares (97.85% of the total issued shares) were voting rights. Coway does not introduce a written or electronic voting system.
