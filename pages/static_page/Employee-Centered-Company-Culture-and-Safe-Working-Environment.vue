@@ -885,7 +885,7 @@
                             </b-col>
                         </b-row>
                         <b-row class="mb-5">
-                            <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_1@2x.png" fluid style="max-height: 180.7px;"></hj-img> <div class="f-80 gray63 mt-2">Coway Day</div> </b-col>
+                            <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_1@2x.png" fluid style="max-height:215.5px;"></hj-img> <div class="f-80 gray63 mt-2">Coway Day</div> </b-col>
                             <b-col class="col-12 col-sm-6"> <hj-img src="/images/138_2@2x.png" fluid></hj-img> <div class="f-80 gray63 mt-2">Science Camp</div></b-col>
                         </b-row>
 
@@ -901,7 +901,7 @@
                             </b-tr></b-tbody>                                
                         </b-table-simple>
                         <p class="f-80 ml-1">* 참여도 산출 기준 작성 필요.</p>-->
-                    <h6-ancor hash="r2-3" :activated="activated" class="gold6 fw-500 mb-3">Current Employee Data</h6-ancor>
+                    <h6-ancor hash="r2-3" :activated="activated" class="gold6 fw-500 mb-3">Employee Data</h6-ancor>
                         <h7 class="mb-3 gray63">Domestic Employee Status</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-2">
                             <b-thead><b-tr>
@@ -1260,7 +1260,7 @@ export default {
                     child: [
                         { title: this.is_ENG? 'Communication based on the Labor Management Council': '노사협의회 기반의 커뮤니케이션', hash: 'r2-1' }, 
                         { title: this.is_ENG? 'Employee Satisfaction through Work Life Balance': '일과 삶의 균형을 통한 임직원 만족도 제고', hash: 'r2-2' }, 
-                        { title: this.is_ENG? 'Current Employee Data': '임직원 현황 데이터', hash: 'r2-3' }, 
+                        { title: this.is_ENG? 'Employee Data': '임직원 현황 데이터', hash: 'r2-3' }, 
                     ]
                 },
                 { 
