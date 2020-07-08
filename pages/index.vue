@@ -327,7 +327,7 @@
     
     
     <template  v-else >
-        <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="6000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+        <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
             <b-carousel-slide><template v-slot:img>
                 <div class="bg-i-img i1_bg">
                     <div class="position-relative carousel-height overflow-hidden">
@@ -345,11 +345,11 @@
                         </div>
                         <div class="mt-5 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-11 col-sm-9 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-10 col-xl-8"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway maximizes the value of the customer experience and leads the change</div> </transition></div> 
+                            <div class="col-11 col-sm-9 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-10 col-xl-8"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway maximizes the value of the customer experience, </div> </transition></div> 
                         </div>
                         <div class="mt-2 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">through digital-based innovations such as big data, A.,I., and IoT.</div> </transition></div> 
+                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">driving digital-based innovation such as big data, A.I., and IoT.</div> </transition></div> 
                         </div>
                     </div>
                 </div>
@@ -377,11 +377,11 @@
                         </div>
                         <div class="mt-5 pt-2 pt-xl-3 row w-100">
                             <div class="col-0 col-sm-2 col-md-2 col-lg-4 col-xl-5"></div>
-                            <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-8 col-xl-7 pl-5 pl-sm-2 pl-xl-3"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title pl-xl-2">Coway is a company specializing in the essence of water and air, </div> </transition></div>
+                            <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-8 col-xl-7 pl-5 pl-sm-2 pl-xl-3"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title pl-xl-2">Coway specializes in the core of water and air,</div> </transition></div>
                         </div>
                         <div class="mt-2 row w-100">
                             <div class="col-0 col-sm-2 col-md-1 col-lg-4 col-xl-6"></div> 
-                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">and constantly develops innovative and stable products.</div> </transition></div>
+                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">constantly developing innovative and stable products.</div> </transition></div>
                         </div>
                     </div>
                 </div>
@@ -408,7 +408,7 @@
                         </div>
                         <div class="mt-5 mt-md-4 pt-3 row w-100">
                             <div class="col-sm-1 col-lg-1 col-xl-1"></div> 
-                            <div class="col-10 col-sm-8 col-lg-10 col-xl-8 pl-5 pl-sm-0 pl-xl-5 ml-xl-2"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow-lg carousel-title">Coway minimizes environmental impact and materializes a sustainable future</div> </transition></div>
+                            <div class="col-10 col-sm-8 col-lg-10 col-xl-8 pl-5 pl-sm-0 pl-xl-5 ml-xl-2"><transition name="tran-txt2"> <div v-if="slide==2 && visible" class="gray65 fw-300 letter-narrow-lg carousel-title">Coway minimizes environmental impact and realizes a sustainable future</div> </transition></div>
                         </div>  
                         <div class="mt-2 row w-100">
                             <div class="col-sm-1 col-lg-2 col-xl-2"></div> 
@@ -431,7 +431,7 @@
                     <b-col class="col-0 col-md-1"></b-col>
                     <b-col class="col-12 col-md-10 text-center mb-4 font-noto letter-narrow gray6 fw-300"> 
                         Coway conducts a materiality assessment every year with a methodology that meets global reporting standards. <br>
-                        As a result of the materiality assessment in 2020, 3 topics of product and service innovation, product responsibility, information security, and personal information protection, were identified as the main contents to be managed to become a sustainable company. Coway's goals, achievements, and efforts related to these 3 topics are reported in this section.
+                        As a result of the materiality assessment in 2020, three topics were identified as the main contents to be managed to become a sustainable company: Product and Service Innovation, Product Responsibility, and Information Security and Privacy Protection. Coway's goals, achievements, and efforts related to these three topics are reported in this section.
                     </b-col>
                     <b-col class="col-0 col-md-1"></b-col>
                 </b-row>
@@ -439,7 +439,7 @@
                     <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                         <b-card class="bg-blue5 p-lg-2 h-100 position-relative border-0" >
                             <div class="f-85 fw-300 pr-4"> 
-                            The recent global social and environmental issues have led to changes in consumer lifestyles. They have a significant impact on the environment and the consumer electronics market.
+                                Recent global social and environmental issues such as the spread of the pandemic and increasing fine dust are driving the change in consumer life patterns, affecting home appliance market significantly.
                             </div>
                             <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
                             <div class="position-absolute w-100 pr-5" style="top:10%">
@@ -454,8 +454,8 @@
                     </b-col>
                     <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                         <b-card class="bg-blue6 p-lg-2 h-100 position-relative border-0">
-                            <div class="f-85 fw-300 pr-4"> 
-                            As the interest in hygiene and health in the indoor living environment increases, consumers are putting harmlessness, hygiene, and environmental impact as the priority of product selection.
+                            <div class="f-85 fw-300 pr-4">
+                                While a growing number of people are interested in sanitation of healthy indoor living environment, consumers put nonmaleficence to the human body, sanitation quality, and environmental impacts as priorities for product selection.
                             </div>
                             <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
                             <div class="position-absolute w-100 pr-5" style="top:10%">
@@ -471,7 +471,7 @@
                     <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                         <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0" >
                             <div class="f-85 fw-300 pr-4"> 
-                                While the utilization of data and information-based infrastructure is maximized based on the rapid development of ICT technology, concerns about social issues such as information leakage and cyber-attacks are growing.
+                                As much as the applicability of data and information-based Infrastructure is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack.
                             </div>
                             <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
                             <div class="position-absolute w-100 pr-5" style="top:10%">
@@ -497,8 +497,7 @@
                 <b-row class="mb-4">
                     <b-col class="col-0 col-md-1"></b-col>
                     <b-col class="col-12 col-md-10 text-center letter-narrow mb-4 gray6 px-xl-5 fw-300 font-noto">
-                        As the business dealing with water and air is directly related to life, Coway's sustainability management starts with taking responsibility for what we do. 
-                        Coway strives to pursue sustainability in the entire business process, from product and service development, production, marketing, and sales. Coway's key economic, environmental, and social performance indicators for 2019 can be seen at a glance.
+                        Since water and air are directly related to life, Coway's sustainability management starts with taking responsibility for what we do. Coway strives to pursue sustainability in the entire business process; from product and service development, production, marketing, and sales. Coway's key economic, environmental, and social performance indicators for 2019 can be seen at a glance.
                     </b-col>
                     <b-col class="col-0 col-md-1"></b-col>
                 </b-row>
@@ -528,7 +527,7 @@
                         <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
                         <div class="px-lg-2 mb-md-5 mb-xl-4 text-center pb-3 pt-1 py-md-0"><b-img src="/images/144_1.svg" fluid></b-img> </div>
                         <div class="blue7 fw-600 pt-md-4 pt-lg-3 mb-2"> Product and Service Innovation </div>
-                        <div class="blue7 fw-400 f-95 pr-xl-4 font-noto"> With product and service innovation that enhances the essential value, received "CES Innovation Award" for 5 consecutive years.
+                        <div class="blue7 fw-400 f-95 pr-xl-4 font-noto"> With product and service innovation that enhances the essential value, we received "CES Innovation Award" for 5 consecutive years.
                         </div>
                     </b-col>
                     <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
@@ -538,7 +537,7 @@
                             <div class="blue7 f-105 fw-300 letter-narrow mt-m-3"><span class="main2-card-num"><animated-number :value="7.79" :fixed="2"></animated-number></span><br class="d-none d-md-inline d-xl-none">million Accounts</div>
                             <div class="text-right pl-2 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                         </div>
-                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with a rental account of 7.79 million customers, we combine long-researched data with future technologies to provide customers with a more accurate and convenient new service experience.
+                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with a rental account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
                         </div>
                     </b-col>
                 </b-row>
@@ -547,7 +546,7 @@
                     <b-col class="col-12 col-md-4 position-relative mb-4 mb-md-0">
                         <div class="blue7 main1-card-num mb-3 fw-300"><span style="letter-spacing:-0.1rem;"><animated-number :value="1000" :comma="true" :fixed="0"></animated-number></span><span class="f-105">million KRW</span></div>
                         <div class="d-flex justify-content-between align-items-end">
-                            <div class="gray6 f-95 pr-4 fw-400 letter-narrow"> We donated 1,000 billion KRW to the communities in need due to COVID-19. The donation was used to provide medical aid to national medical staffs with scarce medical supplies, such as protective items and diagnostic kits and medical welfare facilities with preventive measures against COVID-19.
+                            <div class="gray6 f-95 pr-4 fw-400 letter-narrow"> We donated 1 billion KRW to the communities in need due to COVID-19. The donation was used to provide medical aid to national medical staffs with scarce medical supplies, such as protective items and diagnostic kits and medical welfare facilities with preventive measures against COVID-19.
                             </div>
                             <div class="temp-icon5 d-block d-md-none d-lg-block"> <b-img src="/images/103_1.svg" fluid ></b-img></div>
                         </div>
@@ -559,11 +558,11 @@
                         <b-row>
                             <b-col class="col-6 text-center px-md-1 px-lg-3 d-flex flex-row flex-md-column">
                                 <div class="temp-icon5 mb-2 mb-lg-3 pr-3 pr-sm-0 d-none d-sm-block"><b-img src="/images/104_1.svg" fluid class="h-100"></b-img></div>
-                                <div><h7 class="fw-600 line-height-low px-xl-3">Sharing the Water of Life</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"><span class="main2-card-num fw-300 f-105"><animated-number :value="825" :comma="true" :fixed="0"></animated-number></span>ea</div></div>
+                                <div><h7 class="fw-600 line-height-low px-xl-3">Sharing the Water of Life</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"><span class="main2-card-num fw-300 f-105"><animated-number :value="825" :comma="true" :fixed="0"></animated-number></span>units</div></div>
                             </b-col>
                             <b-col class="col-6 text-center px-md-1 px-lg-3 d-flex flex-row flex-md-column">
                                 <div class="temp-icon5 mb-2 mb-lg-3 pr-3 pr-sm-0 d-none d-sm-block"><b-img src="/images/105_1.svg" fluid class="h-100"></b-img></div>
-                                <div><h7 class="fw-600 line-height-low px-xl-3">Sharing the Clean Air</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"> <span class="main2-card-num fw-300 f-105"><animated-number :value="450" :comma="true" :fixed="0"></animated-number></span>ea</div></div>
+                                <div><h7 class="fw-600 line-height-low px-xl-3">Sharing the Clean Air</h7> <div class="mt-m-3" style="margin-bottom: -1rem;"> <span class="main2-card-num fw-300 f-105"><animated-number :value="450" :comma="true" :fixed="0"></animated-number></span>units</div></div>
                             </b-col>
                         </b-row>
                     </b-col>
@@ -591,7 +590,7 @@
                     <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                         <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                         <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
-                        <div class="gray6 f-95 letter-narrow font-noto mb-45"> GHG emissions in 2019 is 0.234 tCO2e/100 million KRW compared to 0.234 tCO2e/100 million KRW in 2010. We have undertaken our best efforts to reduce GHG emissions that it is reduced by about 70% compared to the base year. In 2020, we set medium and long-term goals of 2030 based on the scientific reduction target plan.
+                        <div class="gray6 f-95 letter-narrow font-noto mb-45"> GHG emissions in 2019 is 0.234 tCO2e/100 million KRW compared to 0.357 tCO2e/100 million KRW in 2010. We have undertaken our best efforts to reduce GHG emissions that it is reduced by about 70% compared to the base year. In 2020, we set medium and long-term goals of 2030 based on the scientific reduction target plan.
                         </div>
                         <div class="d-flex justify-content-around align-items-end"> 
                             <div class="px-1"><b-img src="/images/316_1.svg" fluid></b-img></div>      
@@ -618,7 +617,7 @@
             <h1 class="text-center mb-3 fw-300"> SUSTAINABILITY NEWS</h1>
             <b-row class="mb-3">
                 <b-col class="col-0 col-md-1"></b-col>
-                <b-col class="col-12 col-md-10 text-center gray6 letter-narrow f-105 mb-4 fw-300">Coway's efforts to add new value with major stakeholders and sustainability news can be found here.
+                <b-col class="col-12 col-md-10 text-center gray6 letter-narrow f-105 mb-4 fw-300">News related to Coway's efforts to add new value with major stakeholders and sustainability can be found here.
                 </b-col>
                 <b-col class="col-0 col-md-1"></b-col>
             </b-row>
