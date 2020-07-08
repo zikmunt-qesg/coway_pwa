@@ -632,7 +632,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 mb-2 mb-sm-0 fw-500 gold8">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-4 mt-m-2">Employee-oriented Culture,<br> Safe and Healthy Workplace</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-4 mt-m-2">Employee-Centered Culture,<br> Safe and Healthy Workplace</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -650,7 +650,7 @@
                             <h7 class="gold7 mb-4 w-100">Activity</h7>
                             <b-col class="col-12 col-sm-4 text-center fw-500">
                                 <div class="mx-auto mb-2" style="height:77px;"><b-img src="/images/134_1.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-sm-1 px-lg-2">STEP Policy-based Enhancement</p>
+                                <p class="fw-500 word-break px-sm-1 px-lg-2">STEP Policy-Based Enhancement</p>
                             </b-col>
                             <b-col class="col-12 col-sm-4 text-center">
                                 <div class="mx-auto mb-2 d-flex align-items-center justify-content-center" style="height:77px;"><b-img src="/images/134_2.svg" fluid></b-img> </div>
@@ -666,7 +666,7 @@
                                 <h7 class="gold7 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-6 text-center fw-500 px-lg-2"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_4.svg" fluid></b-img></div>
-                                        <p class="fw-500 px-2 px-md-1">Digital-based Work Innovation Support</p>
+                                        <p class="fw-500 px-2 px-md-1">Digital-Based Work Innovation Support</p>
                                     </b-col>
                                     <b-col class="col-6 text-center fw-500"><div class="mx-auto mb-3" style="height:59px;"><b-img src="/images/134_5.svg" fluid></b-img></div>
                                         <p class="fw-500 px-2 px-md-1"><span style="word-break: normal;">COVID-19</span> Efforts to prevent the spread of COVID-19</p>

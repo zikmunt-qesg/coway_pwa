@@ -464,7 +464,7 @@
                             <b-col class="col-0 col-lg-1"></b-col>
                             <b-col class="col-6 col-lg-5 text-center mb-3 mb-sm-0">
                                 <div class="mx-auto mb-3" style="height: 70px;"><b-img src="/images/132_1.svg" fluid></b-img></div>
-                                <p class="fw-500 word-break pr-1 px-md-3 px-lg-4">Recalculation of medium to long-term targets for climate change</p>
+                                <p class="fw-500 word-break pr-1 px-md-3 px-lg-4">Recalculate medium to long-term targets for climate change</p>
                             </b-col>
                             <b-col class="col-6 col-lg-5 text-center">
                                 <div class="mx-auto mb-3" style="height: 70px;"><b-img src="/images/132_2.svg" fluid></b-img> </div>
@@ -505,14 +505,14 @@
                 <hr class="py-3">
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="n1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Climate Change Goals and Scenario Management</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-5 font-noto">Coway declared environmental management in 2006, recognizing that climate change and changes in the global environment have a significant impact on corporate management activities. Coway has established a mid- to long-term goal of reducing greenhouse gas emissions of up to 50% by 2020 compared to the 2010s. Greenhouse gas emissions in 2010 increased by 10.81% to 5,356 tCO2e  in 2010 and 5,935 tonCO2e in 2019, and 0.234 tonCO2e/in KRW in 2019 compared to KRW 5,356 tonCO2e/KRW in 2010. It was effective in reducing about 70% of the contrast. (In the same way as in 2010, when the internal emission calculation standards were applied, the GHG emissions increased by 4.13% and the intensity  was reduced by approximately 77%.)
+                        <p class="mb-5 font-noto">Coway declared environmental management in 2006, recognizing that climate change and changes in the global environment have a significant impact on corporate management activities. Coway has established a mid- to long-term goal of reducing GHG emissions up to 50% by 2020 compared to the 2010s. Even though GHG emissions increased by 10.81% but GHG emissions compared to sales increase in KRW decreased by about 70% from 2010 to 2019-from 5,356 tCO2e and 0.357 tC02e/100 million KRW in 2010 to 5,935 tCO2e and 0.234 tonCO2e/100 million KRW in 2019. (when the internal emission calculation standards were applied as same as those of 2010, the GHG emissions increased by 4.13% and the GHG emissions compared to sales increase was reduced by approximately 77%.)
                         </p>
                         <div class="position-relative pt-5 mb-4">
                             <hj-img src="/images/315_1.svg" fluid></hj-img>
                             <div class="position-absolute" style="top: 0;">
                                 <h7 class="mb-3 gray63 font-noto">GHG Emissions and 2030 Goals</h7>
                                 <!-- <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-green5"></div> 배출량 (단위: tCO<sub>2</sub>e)</div> -->
-                                <div class="fw-300 f-80 mb-2 d-flex align-items-center font-noto"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> Intensity (Unit: tCO<sub>2</sub>e/100 million KRW)</div>
+                                <div class="fw-300 f-80 mb-2 d-flex align-items-center font-noto"><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> GHG Emissions Compared to Sales Increase (Unit: tCO<sub>2</sub>e/100 million KRW)</div>
                                 <div class="fw-300 f-80 pt-1 mb-1 d-flex align-items-center font-noto">Emission (Unit: tCO<sub>2</sub>e)</div>
                                 <div class="fw-300 f-80 d-flex align-items-center font-noto"><b-img src="/images/scope1.svg"></b-img> <span class="ml-2">Scope1</span></div>
                                 <div class="fw-300 f-80 d-flex align-items-center font-noto"><b-img src="/images/scope2.svg"></b-img> <span class="ml-2">Scope2</span></div>
@@ -529,7 +529,7 @@
                         </ol>    
                         <hr class="py-2">
                         
-                        <p class="mb-5">Coway uses energy efficiently through its GHG reduction activities and business operation efficiency. We maximize energy efficiency by continuously introducing new and renewable energy, solar power generation. Coway installs and operates solar power at Yugu Plant (49.5KWh scale), Incheon Plant (39KWh), Pocheon Factory (45KWh scale), and Logistics Center (48.8KWh scale). Through this, 3 factories and distribution centers produced about 237MWh of electricity in 2019, reducing the GHG emission by about 110 tons. The energy storage system (ESS) introduced at the Yugu plant reduces peak loads and contributes to the distribution of energy consumption. Also, it has an energy cost-saving effect, saving approximately 1.2 billion KRW in 2019. The LED lighting introduced in the Yugu Plant and Logistics Center improved the working environment in the workplace, reduced energy costs by more than 0.65 billion KRW in 2019 based on the logistics center, and about 264 tons of GHG.
+                        <p class="mb-5">Coway uses energy efficiently through its GHG reduction activities and business operation efficiency. We maximize energy efficiency by continuously introducing new and renewable energy, solar power generation. Coway installs and operates solar power at Yugu Plant (49.5KWh scale), Incheon Plant (39KWh), Pocheon Factory (45KWh scale), and Logistics Center (48.8KWh scale). Through this, 3 factories and distribution centers produced about 237MWh of electricity in 2019, reducing the GHG emission by about 110 tons. The energy storage system (ESS) introduced at the Yugu plant reduces peak loads and contributes to the distribution of energy consumption. Also, it has an energy cost-saving effect, saving approximately 120 million KRW in 2019. The LED lighting introduced in the Yugu Plant and Logistics Center improved the working environment in the workplace, reduced energy costs by more than 65 million KRW in 2019 based on the logistics center, and about 264 tons of GHG.
                         </p>
 
                     <h6-ancor hash="n1-1" :activated="activated" class="green6 fw-500 mb-2">Science-based Target</h6-ancor>
@@ -547,7 +547,7 @@
                                     <b-td class="py-0">Risk Factors</b-td><b-td class="py-0" style="width:60%">Context</b-td><b-td class="py-0">Term</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>Strengthen product policy and legal regulations</b-td>
+                                    <b-td>Strengthened product policy and legal regulations</b-td>
                                     <b-td>Regulations on energy-using products are strengthened by the efficient management equipment operation regulations under the Energy Use Rationalization Act. Therefore, the standard of energy consumption efficiency of Coway's flagship water purifier is being strengthened. If Coway does not respond by developing technology to improve the energy consumption efficiency of products, it will inevitably weaken its competitiveness in the market. As a result, it is expected that the company's operating costs, such as R&D investment costs will increase.</b-td>
                                     <b-td>Short Term</b-td>
                                 </b-tr>
@@ -584,7 +584,7 @@
                         </b-table-simple>
                     <hr class="py-4">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="n3" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Carbon Partnership with Supplier</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-5"> Coway's carbon partnership suppliers  have also implemented reduction activities to decrease 50% of GHG emissions by 2020 compared to 2010. Coway continues to support its carbon partnership suppliers  to minimize energy use compared to their sales growth, thereby strengthening the energy competitiveness of carbon partner suppliers, striving to prevent supply chain risks related to climate change. For the 2020 greenhouse gas reduction target, starting from 2018, the intensity exceeded the mid- to long-term target by reducing 110% of the reduction target and 7.55% of emissions. Since 2019, it has been converted to voluntary management and is in operation. In 2019, GHG emissions information will be disclosed through CDP Q&A and carbon report, if necessary.
+                        <p class="mb-5"> Coway's carbon partnership suppliers  have also implemented reduction activities to decrease 50% of GHG emissions compared to sales increase by 2020 compared to 2010. Coway continues to support its carbon partnership suppliers  to minimize energy use compared to their sales growth, thereby strengthening the energy competitiveness of carbon partner suppliers, striving to prevent supply chain risks related to climate change. For the 2020 GHG reduction target, starting from 2018, the GHG emissions compared to sales increase exceeded the mid- to long-term target by reducing 110% of the reduction target and 7.55% of emissions. Since 2019, it has been converted to voluntary management of each supplier. In 2019, GHG emissions information will be disclosed through CDP Q&A and carbon report, if necessary.
                         </p> 
 
                         <h7 class="mb-3 gray63">Carbon Partner Support Status</h7>
@@ -625,7 +625,7 @@
                                     <b-td class="text-left">Total</b-td><b-td>5,863</b-td><b-td>6,096</b-td><b-td>5,935</b-td><b-td>6,397</b-td><b-td>2,982</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Intensity</b-td><b-td class="text-left">tCO<sub>2</sub>e/100 million KRW</b-td><b-td>0.253</b-td><b-td>0.254</b-td><b-td>0.234</b-td><b-td>0.253</b-td><b-td>0.069</b-td>
+                                    <b-td class="text-left">GHG Emissions Compared to Sales Increase</b-td><b-td class="text-left">tCO<sub>2</sub>e/100 million KRW</b-td><b-td>0.253</b-td><b-td>0.254</b-td><b-td>0.234</b-td><b-td>0.253</b-td><b-td>0.069</b-td>
                                 </b-tr>                                   
                             </b-tbody> 
                         </b-table-simple> 
@@ -827,7 +827,7 @@
                                     <b-td class="text-left">Number of violations of environmental regulations</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Penalty amount for violation (KRW)</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Fine for violation (KRW)</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>                    

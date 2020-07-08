@@ -254,7 +254,7 @@
                             <h7 class="green7 f-120 mb-4 w-100">Activity</h7>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_1.svg" fluid></b-img> </div>
-                                <p class="fw-500 word-break px-1 px-xl-3">Establishing Eco-friendly and Kind Brand</p>
+                                <p class="fw-500 word-break px-1 px-xl-3">Establish Eco-friendly and Kind Brand</p>
                             </b-col>
                             <b-col class="col-6 col-md-3 text-center">
                                 <div class="mx-auto mb-3" style="height:74px;"><b-img src="/images/123_2.svg" fluid></b-img> </div>
@@ -274,10 +274,10 @@
                                 <h7 class="green7 f-120 mb-4 w-100">Business Cases</h7>
                                 <b-row no-gutters> 
                                     <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_5.svg" fluid ></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-2">Quantification of All Biz Generated Waste</p>
+                                        <p class="fw-500 word-break px-md-2 px-xl-2">Quantify All Biz Generated Waste</p>
                                     </b-col>
                                     <b-col class="col-12 col-sm-6 text-center"><div class="mx-auto mb-3" style="height:64px;"><b-img src="/images/123_6.svg" fluid ></b-img></div>
-                                        <p class="fw-500 word-break px-md-2 px-xl-2">Reduction of Water Resources in All Processes</p>
+                                        <p class="fw-500 word-break px-md-2 px-xl-2">Reduce Water Resources Usage in All Processes</p>
                                     </b-col>
                                 </b-row>
                             </b-col>
