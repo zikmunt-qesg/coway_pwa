@@ -122,7 +122,7 @@
             <b-container class="px-0 eng-font-scale">
                 <section class="px-4 py-4" style="background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0.6) 100%);">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor hash="T" :activated="activated" class="parang8">CEO Message</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="parang8">Message from the CEO</h4-ancor>
                     <div class="row d-flex flex-column-reverse flex-md-row mt-m-3 font-noto">
                         <b-col class="col-12 col-md-7">
                             <hr class="my-md-5 py-3 py-md-5">
@@ -143,11 +143,11 @@
                         </b-col>
                     </b-row>
                     <b-row no-gutters class="mb-2">
-                        <b-col class="col-7 col-md-5 col-xl-4">
+                        <b-col class="col-7 col-md-6 col-xl-6">
                             <div class="parang-bold-short-line mb-1"></div>
                             <h4 class="parang7 fw-400 mb-0">Trend-Driven Innovation,<br> The World-Changer of Today. </h4>
                         </b-col>
-                        <b-col class="col-5 col-md-6 col-xl-7 d-flex align-items-end">
+                        <b-col class="col-5 col-md-5 col-xl-5 d-flex align-items-end">
                             <div class="parang-bold-short-line mb-3"></div><div class="parang-thin-line" style="margin-bottom:1.1rem;"></div>
                         </b-col>
                     </b-row>  
@@ -189,8 +189,8 @@
                             </p>
                         </b-col>
                     </b-row> 
-                    <p class="text-right f-90 fw-500 mb-2"> Coway &nbsp;&nbsp; CEO </p>
-                    <div class="text-right fw-500 f-130 mb-3"> Lee Hae-Sun </div>
+                    <p class="text-right f-90 fw-500 mb-2"> CEO </p>
+                    <div class="text-right fw-500 f-130 mb-3"> Hae-Sun Lee </div>
                     <div class="text-right"><b-img src="/images/49_1.png"></b-img></div>
                 </section>                
             </b-container>
@@ -231,7 +231,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'CEO Message' : 'CEO 메시지'
+            return this.is_ENG? 'Message from the CEO' : 'CEO 메시지'
         },
     },
     methods:{

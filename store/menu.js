@@ -87,7 +87,7 @@ export const state = () => ({
             child: [
                 {
                     title: 'CEO Message',
-                    title_en: 'CEO Message',
+                    title_en: 'Message from the CEO',
                     link: '/static_page/CEO-Message'
                 },
                 {

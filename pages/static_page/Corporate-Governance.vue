@@ -363,7 +363,7 @@
                     <b-table-simple responsive class="sep-table f-90 line-height-low">
                         <b-tbody>
                             <b-tr class="bg-parang7 fw-300 text-white">
-                                <b-td class="border-0 py-0">Name</b-td><b-td class="border-0 py-0">Major Role</b-td><b-td class="border-0 py-0">Sex</b-td><b-td class="border-0 py-0">Background<sup>*</sup></b-td><b-td class="border-0 py-0">The Appointed Date</b-td>
+                                <b-td class="border-0 py-0">Name</b-td><b-td class="border-0 py-0">Position</b-td><b-td class="border-0 py-0">Sex</b-td><b-td class="border-0 py-0">Professional Experience<sup>*</sup></b-td><b-td class="border-0 py-0">Appointed Date</b-td>
                             </b-tr>
                             <b-tr>
                                 <b-td>Jun-Hyuk Bang</b-td>
@@ -602,7 +602,7 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td rowspan="4">Lee Hae-Sun</b-td><b-td>Salary</b-td><b-td style="width: 12%">411,364</b-td><b-td>Reflects the job/position (representative director), longevity, leadership, expertise, and company contribution comprehensively.</b-td>
+                                    <b-td rowspan="4">Hae-Sun Lee</b-td><b-td>Salary</b-td><b-td style="width: 12%">411,364</b-td><b-td>Reflects the job/position (representative director), longevity, leadership, expertise, and company contribution comprehensively.</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Incentives</b-td><b-td>260,000</b-td><b-td>Calculate overall scores by evaluating quantitative KPIs composed of growth potential, profitability and stability, and qualitative KPIs composed of strategic tasks for the year based on the comprehensive evaluation table. In 2018, we consider the company's sales increased by 7.6% from 2.25 trillion KRW in 2017 to 2.70 trillion KRW in 2018. The increase of net profit by 7.4% from 3 256 billion KRW in 2017 to 349 billion KRW in 2017. Also, considering the qualitative and strategic indicators, such as securing growth engines through the launch of new product groups, and laying the foundation for entering overseas businesses, we calculated and paid 2.6 billion KRW, which is 65% of the total salary.</b-td>
@@ -614,7 +614,7 @@
                                     <b-td>Note</b-td><b-td colspan="2" class="text-right">- Other earned income, retirement income and other income are not applicable</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td rowspan="3">Ahn Ji-Yong</b-td><b-td>Salary</b-td><b-td>260,203</b-td><b-td>According to the resolution of the board of directors, the total salary is set at 245,440,000 KRW, reflecting the job, job title (head of division), longevity, leadership, professionalism, company contribution, etc. Considering directors), the annual salary amount is increased to 400,000,000 KRW. During his work as the head of division, a 500,000 KRW per month and 6,518,156 KRW per year for welfare benefits and other tax credits were paid.
+                                    <b-td rowspan="3">Ji-Yong Ahn</b-td><b-td>Salary</b-td><b-td>260,203</b-td><b-td>According to the resolution of the board of directors, the total salary is set at 245,440,000 KRW, reflecting the job, job title (head of division), longevity, leadership, professionalism, company contribution, etc. Considering directors), the annual salary amount is increased to 400,000,000 KRW. During his work as the head of division, a 500,000 KRW per month and 6,518,156 KRW per year for welfare benefits and other tax credits were paid.
                                     </b-td>
                                 </b-tr>
                                 <b-tr>
@@ -628,7 +628,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-3 gray63">Stock Option Granted for Registered and Unregistered Directors</h7>
+                        <h7 class="mb-3 gray63">Stock Option Granted for Registered and Non-registered Directors</h7>
                         <b-table-simple responsive class="num-table sustainability-table fw-300 font-noto f-95">
                             <b-thead>
                                 <b-tr>
@@ -637,16 +637,16 @@
                             </b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Ahn Jin-Hyuk and 1 other</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
+                                    <b-td class="text-left">Jin-Hyuk Ahn and 1 other</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2017.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>87,000</b-td><b-td>0</b-td><b-td>46,980</b-td><b-td>40,020</b-td><b-td>2019.03 ~ 2026.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Lee Jae-Ho and 21 others</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">Common Stock</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
+                                    <b-td class="text-left">Jae-Ho Lee and 21 others</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2017.04</b-td><b-td class="text-center">Common Stock</b-td><b-td>216,792</b-td><b-td>0</b-td><b-td>206,122</b-td><b-td>10,850</b-td><b-td>2019.04 ~ 2026.04</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Park Jae-Young and 5 others</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
+                                    <b-td class="text-left">Jae-Young Park and 5 others</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2018.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>104,400</b-td><b-td>-</b-td><b-td>33,060</b-td><b-td>71,340</b-td><b-td>2020.03 ~ 2027.03</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Song Hyun-Ju and 1 other</b-td><b-td class="text-left">Unregistered Director</b-td><b-td class="text-center">2019.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td>2021.03 ~ 2028.03</b-td>
+                                    <b-td class="text-left">Hyun-Joo Song and 1 other</b-td><b-td class="text-left">Non-registered Director</b-td><b-td class="text-center">2019.03</b-td><b-td class="text-center">Common Stock</b-td><b-td>69,600</b-td><b-td>-</b-td><b-td>-</b-td><b-td>69,600</b-td><b-td>2021.03 ~ 2028.03</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -677,7 +677,7 @@
                                     <b-td class="text-left">Preferred Shares</b-td><b-td>0</b-td><b-td>0%</b-td><b-td class="text-left">Without voting rights</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Common Shares - voting stock</b-td><b-td>72,218,395</b-td><b-td>97.85%</b-td><b-td class="text-left">With voting rights</b-td>
+                                    <b-td class="text-left">Common Shares - voting stock</b-td><b-td>72,218,395</b-td><b-td>97.86%</b-td><b-td class="text-left">With voting rights</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Common Shares – treasury stock</b-td><b-td>1,581,224</b-td><b-td>2.14%</b-td><b-td class="text-left">With voting rights</b-td>

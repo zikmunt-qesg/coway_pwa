@@ -139,7 +139,7 @@ export const state = () => ({
           code: '102-14',
           indicators: '최고 의사 결정권자 성명서',
           indicators_e: 'Statement from senior decision-maker',
-          link: [{'to':'/static_page/CEO-Message', 'name_e':'CEO Message', 'name': 'CEO 메시지', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/CEO-Message', 'name_e':'Message from the CEO', 'name': 'CEO 메시지', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
