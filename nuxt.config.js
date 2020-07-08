@@ -67,7 +67,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/google-gtag'],
+  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/google-gtag', '@nuxtjs/sitemap'],
   axios: {
     headers: {
       get: {
@@ -94,6 +94,10 @@ export default {
     },
     debug: true, // enable to track in dev mode
     disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+  },
+  sitemap:{
+    hostname: 'http://sustainability.coway.co.kr',
+    exclude: ['/dashboard']
   },
   /*
    ** Build configuration

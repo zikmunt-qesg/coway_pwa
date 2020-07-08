@@ -27,7 +27,7 @@
                             <span @click.stop="showSubMenu(item)" :class="show_site_map!=true ? 'd-none d-lg-inline-block f-85' : 'text-white'">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
                         </div>
                             <ul v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 custom-ul" >
-                               <li @click.stop="routerGo(level2_item.link)"> {{ level2_item.title }}</li>
+                            <li @click.stop="routerGo(level2_item.link)"> {{ is_ENG!=true ? `${level2_item.title}`:`${level2_item.title_en}` }}</li>
                             </ul> 
                             <!-- <div class="d-block d-lg-none f-60">&nbsp;</div>     -->
                     </b-navbar-nav>
@@ -38,13 +38,16 @@
         <div id="global-nav" :class="[show_sub_menu==true &&show_site_map!=true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
             <b-container>
             <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
-                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300 letter-narrow" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">{{ menu_text }}</b-col>
+                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300 letter-narrow" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">
+                    <span :class="is_ENG!=true? '':'line-height-low'">{{ is_ENG!=true? menu_text:menu_text_en }}</span> 
+                </b-col>
                 <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
                     <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
-                        <nuxt-link :to="`${level2_item.link}`" @click="show_sub_menu=false">
-                            <div class="global-nav-2 lv2-text f-95">
-                                {{ level2_item.title }}
-                            </div>
+                        <nuxt-link v-if="is_ENG!=true" :to="{ path: level2_item.link  }" @click="show_sub_menu=false">
+                            <div class="global-nav-2 lv2-text f-95">{{ level2_item.title }}</div>
+                        </nuxt-link>
+                        <nuxt-link v-else :to="{ path: level2_item.link, query: { l: 'ENG'} }" @click="show_sub_menu=false">
+                            <div class="global-nav-2 lv2-text-eng f-90">{{ level2_item.title_en }}</div>
                         </nuxt-link>
                     </div>
                 </b-col>
@@ -54,13 +57,10 @@
         <div id="sitemap-modal" :class="[show_site_map==true?'open-sitemap':'','position-absolute w-100']" style="max-height:100vh; z-index:9;">
             <site-map @show_site_map="toggleSiteMap"></site-map>            
         </div>
-        <!-- <b-modal hide-header modal-fade v-model="show_site_map" id="sitemap-modal" class="">            
-                <site-map @show_site_map="toggleSiteMap"></site-map>            
-        </b-modal> -->
+        
         <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="">       
             <div class="py-3 px-4 px-xl-5">
                 <search-form @hide-finder="toggleSearchForm"></search-form>
-                <!-- <a href="#" @click.stop="toggleSearchForm" class="close-btn py-0 f-280 fw-300"></a> -->
             </div>
         </b-modal>
 
@@ -102,6 +102,7 @@ export default {
                 this.show_sub_menu = true
                 this.sub_menu_item = menu_item.child
                 this.menu_text = menu_item.text
+                this.menu_text_en = menu_item.text_en
             }
         },
         toggleSiteMap(){
@@ -118,20 +119,24 @@ export default {
         },
         routerGo(target){
             this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
-            this.$router.push(this.linkLib(target))
+            let q = { ...this.$route.query }
+            if (this.is_ENG==true){
+                q.l = 'ENG'
+            }
+            else q = {}
+            this.$router.push({ path: target, query: q, hash:this.$route.hash })                 
         },
         toggleLang(){
             if(this.is_ENG==true){
                 this.setLang('KOR')
-                let q = { ...this.$route.query }
-                q.l = 'KOR'
-                //this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
+                let q = {}
+                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })
             }
             else{
                 this.setLang('ENG')
                 let q = { ...this.$route.query }
                 q.l = 'ENG'
-                //this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
+                this.$router.push({ path: this.$route.path, query: q, hash:this.$route.hash })                
             }
         },
         linkLib(address){
@@ -295,6 +300,12 @@ export default {
     height: 100%;
     font-weight: 300;
     line-height: 1.5;
+}
+.lv2-text-eng{
+    color: $gray3;
+    height: 100%;
+    font-weight: 300;
+    line-height: 1.3;
 }
 
 .global-nav-2::before{

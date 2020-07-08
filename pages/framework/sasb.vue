@@ -11,7 +11,7 @@
             <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='SASB' :defined_query="defined_query"></search-form></b-container>
         </b-card>
     
-        <b-container class="pt-5 position-relative">    
+        <b-container v-if="this.$store.state.is_ENG==false" class="pt-5 position-relative">    
                 <b-nav tabs class="my-5">
                     <b-nav-item @click.stop.prevent="$router.push('/framework/gri')" class="f-110 fw-400"> GRI </b-nav-item>
                     <b-nav-item active class="f-110 fw-400"> SASB </b-nav-item>
@@ -50,13 +50,13 @@
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -88,13 +88,13 @@
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -129,13 +129,13 @@
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -167,13 +167,189 @@
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
-                                    <a :href="link_to['to']" class="mr-3" target="_blank">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3">
-                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
+                        </span> 
+                    </b-td>
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+            <hr class="space-p75">
+        </b-container>
+
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->    
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+
+        <b-container v-else class="pt-5 position-relative">    
+                <b-nav tabs class="my-5">
+                    <b-nav-item @click.stop.prevent="$router.push('/framework/gri')" class="f-110 fw-400"> GRI </b-nav-item>
+                    <b-nav-item active class="f-110 fw-400"> SASB </b-nav-item>
+                    <b-nav-item @click.stop.prevent="$router.push('/framework/djsi')" class="f-110 fw-400"> DJSI Public </b-nav-item>
+                </b-nav>
+
+                <b-card class="border-0 px-4 fw-400 font-noto">
+                The SASB (Sustainability Accounting Standard Board) is a non-profit organization that sets standards for non-financial reporting. Founded in 2011, it develops and spreads sustainability accounting standards. SASB suggests a topic of sustainability risk that is relevant to each industry and encourages companies to continuously report on the topic to communicate with investors and stakeholders. Coway, the core of the environmental home appliances rental business, reported under the standards of two industries due to its high connection to the consumer electronics manufacturing (Appliance Manufacturing) and consumer services professional and commercial services (Professional and Commercial Service) industries.
+                </b-card>
+            
+            <hr class="space-p25">
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Appliance Manufacturing <span class="f-100 fw-400">&nbsp;-&nbsp; Sustainability Disclosure Topics &amp; Accounting Metrics</span></div>
+
+            <b-table-simple class="txt-table f-95 mb-5" responsive>
+                <b-thead>
+                    <b-tr>
+                    <b-td style="width:15%;">Topic</b-td>
+                    <b-td style="width:13%;">SASB Code</b-td>
+                    <b-td style="width:32%;">Accounting Metric</b-td>
+                    <b-td>Contents</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody>
+                    <b-tr v-for="(row_item, index) in sasb_table_appliance_s" :key="row_item.id">
+                    <template
+                        v-if="index-1 < 0 ? true: row_item.classification != sasb_table_appliance_s[index-1].classification"
+                    >
+                        <b-td :rowspan="getSameLength(sasb_table_appliance_s, index)">{{ row_item.classification_e }}</b-td>
+                    </template>
+                    <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                    <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                    <b-td>{{ row_item.Note_e }} <br v-if="row_item.Note_e">
+                        <span v-if="row_item.link.length != 0">
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
+                        </span> 
+                    </b-td>
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+
+            <b-table-simple class="txt-table f-95" responsive>
+                <b-thead>
+                    <b-tr>
+                    <b-td style="width:15%;">Topic</b-td>
+                    <b-td style="width:13%;">SASB Code</b-td>
+                    <b-td style="width:32%;">Activity Metric</b-td>
+                    <b-td>Contents</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody>
+                    <b-tr v-for="(row_item, index) in sasb_table_appliance_a" :key="row_item.id">
+                    <template
+                        v-if="index-1 < 0 ? true: row_item.classification != sasb_table_appliance_a[index-1].classification"
+                    >
+                        <b-td :rowspan="getSameLength(sasb_table_appliance_a, index)">{{ row_item.classification_e }}</b-td>
+                    </template>
+                    <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                    <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                    <b-td>{{ row_item.Note_e }} <br v-if="row_item.Note_e">
+                        <span v-if="row_item.link.length != 0">
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
+                        </span> 
+                    </b-td>
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+
+            <hr class="mb-4">
+
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> Professional and Commercial Service <span class="f-100 fw-400">&nbsp;-&nbsp; Sustainability Disclosure Topics &amp; Accounting Metrics</span></div>
+            <b-table-simple class="txt-table f-95 mb-5" responsive>
+                <b-thead>
+                    <b-tr>
+                    <b-td style="width:15%;">Topic</b-td>
+                    <b-td style="width:13%;">SASB Code</b-td>
+                    <b-td style="width:32%;">Accounting Metric</b-td>
+                    <b-td>Contents</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody>
+                    <b-tr v-for="(row_item, index) in sasb_table_professional_s" :key="row_item.id">
+                    <template
+                        v-if="index-1 < 0 ? true: row_item.classification != sasb_table_professional_s[index-1].classification"
+                    >
+                        <b-td :rowspan="getSameLength(sasb_table_professional_s, index)">{{ row_item.classification_e }}</b-td>
+                    </template>
+                    <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                    <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                    <b-td>{{ row_item.Note_e }} <br v-if="row_item.Note_e">
+                        <span v-if="row_item.link.length != 0">
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
+                        </span> 
+                    </b-td>
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+
+            <b-table-simple class="txt-table f-95" responsive>
+                <b-thead>
+                    <b-tr>
+                    <b-td style="width:15%;">Topic</b-td>
+                    <b-td style="width:13%;">SASB Code</b-td>
+                    <b-td style="width:32%;">Activity Metric</b-td>
+                    <b-td>Contents</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody>
+                    <b-tr v-for="(row_item, index) in sasb_table_professional_a" :key="row_item.id">
+                    <template
+                        v-if="index-1 < 0 ? true: row_item.classification != sasb_table_professional_a[index-1].classification"
+                    >
+                        <b-td :rowspan="getSameLength(sasb_table_professional_a, index)">{{ row_item.classification_e }}</b-td>
+                    </template>
+                    <b-td :id="safeHash(`sasb_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                    <b-td><template v-if="$route.hash == safeHash(`#sasb_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                    <b-td>{{ row_item.Note_e }} <br v-if="row_item.Note_e">
+                        <span v-if="row_item.link.length != 0">
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>
@@ -243,4 +419,11 @@ export default {
   }
 }
 </script>
--
+<style lang="scss">
+#content-links:hover,
+#content-links:hover >i{
+    color: $blue7!important;
+    text-decoration: underline!important;
+    text-underline-position: under!important;
+}
+</style>

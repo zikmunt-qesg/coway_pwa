@@ -152,15 +152,15 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4 mb-5">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">Value Creation Story</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Business Model</h6-ancor></div>
-                    <p>Established in 1989, Coway is a lifecare company that cares for the entire living environment. We have a differentiated business model which combines professional services with product rental. We built a structure to rent environmental home appliances without burden on the initial purchase cost maintaining the value of the product through regular care services at the same time. Based on this structure, we have secured 7.2 million customer accounts at home and abroad and created stable cash flow which is a driving force for sustainable growth.
+                    <p>Established in 1989, Coway is a lifecare company that cares for the entire living environment. We have a differentiated business model which combines professional services with product rental. We built a structure to rent home appliances without burden on the initial purchase cost maintaining the value of the product through regular care services at the same time. Based on this structure, we have secured 7.2 million customer accounts at domestic and abroad and created stable cash flow which is the driving force for sustainable growth.
                     </p>
-                    <p>By expanding the value of care, the key competence of Coway, we strive to provide water care, air care, body care, sleep care and home care products to help customers to enjoy every daily environment, including air, water and sleep, with security. In addition, we combined IoT technology with the products and developed new customized solution IoCare (Internet of Care) to reinforce our original competitive advantage and created new customer base through strengthening our new product lines and launching self-managing products to develop as an engine for sustainability. 
+                    <p>By expanding the value of care, the key competence of Coway, we strive to provide water care, air care, body care, sleep care and home care products to help customers to relax and enjoy every daily environment, including air, water and sleep. In addition, we combined IoT technology with the products and developed new customized solution IoCare (Internet of Care) to reinforce our original competitive advantage and created new customer base through strengthening our new product lines and launching self-care products to develop as an engine for sustainability. 
                     </p>
                     <p class="mb-5">With the unique DNA for differentiated innovation, we constantly endeavor to create sustainable value for stakeholders and distribute values.
                     </p>
@@ -168,96 +168,101 @@
                     <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Business Value Chain</h6-ancor></div>
                     <p class="mb-45">Coway’s products and services ultimately aim to create the value for making environment healthy and people happy. In particular, we input economic, social and environmental values from the perspective of sustainability management in the entire supply chain from material and part supply to product sales to achieve happy customers and healthy environment and output social values.
                     </p>
-                    <hj-img src="/images/1_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/300_1.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-3">
-                        <h7 class="mb-3 gray63">통합 자본표</h7>
+                        <h7 class="mb-3 gray63">Integrated Capital Table</h7>
                         <b-table-simple responsive class="num-table sustainability-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left" colspan="4">구분</b-td><b-td>단위</b-td><b-td>2019</b-td>
+                                <b-td class="text-left" colspan="4">Category</b-td><b-td>Unit</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="4">Financial Capital</b-td><b-td class="text-left" rowspan="2">가치 투입</b-td><b-td colspan="2" class="text-left">자본 총계</b-td><b-td class="text-left">억 원</b-td><b-td>10,772</b-td>
+                                    <b-td class="text-left" rowspan="4">Financial Capital</b-td><b-td class="text-left" rowspan="2">Input</b-td><b-td colspan="2" class="text-left">Total capital</b-td><b-td class="text-left">100 million KRW</b-td><b-td>10,772</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">자산</b-td><b-td class="text-left">억 원</b-td><b-td>28,550</b-td>
+                                    <b-td class="text-left" colspan="2">Asset</b-td><b-td class="text-left">100 million KRW</b-td><b-td>28,550</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">매출액</b-td><b-td class="text-left">억 원</b-td><b-td>30,189</b-td>
+                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Revenue</b-td><b-td class="text-left">100 million KRW</b-td><b-td>30,189</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">영업 이익</b-td><b-td class="text-left">억 원</b-td><b-td>4,587</b-td>
+                                    <b-td class="text-left" colspan="2">Operating profit</b-td><b-td class="text-left">100 million KRW</b-td><b-td>4,587</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="3">Manufactured Capital</b-td><b-td class="text-left">가치 투입</b-td><b-td class="text-left" colspan="2">환경가전 원재료 구입 비용</b-td><b-td class="text-left">억 원</b-td><b-td>4,096</b-td>
+                                    <b-td class="text-left" rowspan="3">Manufactured Capital</b-td><b-td class="text-left">Input</b-td><b-td class="text-left" colspan="2">Amount of purchasing raw materials for environmental home appliance business</b-td><b-td class="text-left">100 million KRW</b-td><b-td>4,096</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">제품 생산량<sup>1)</sup></b-td><b-td class="text-left">천 대</b-td><b-td>24,661</b-td>
+                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Amount of product production<sup>1)</sup></b-td><b-td class="text-left">1,000 units</b-td><b-td>24,661</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">평균 가동률<sup>2)</sup></b-td><b-td class="text-left">%</b-td><b-td>72.0</b-td>
+                                    <b-td class="text-left" colspan="2">Average operation rate<sup>2)</sup></b-td><b-td class="text-left">%</b-td><b-td>72.0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="3">Human Capital</b-td><b-td class="text-left" rowspan="2">가치 투입</b-td><b-td class="text-left" colspan="2">교육훈련 비용</b-td><b-td class="text-left">억 원</b-td><b-td>114</b-td>
+                                    <b-td class="text-left" rowspan="3">Human Capital</b-td><b-td class="text-left" rowspan="2">Input</b-td><b-td class="text-left" colspan="2">Investment in education for employees</b-td><b-td class="text-left">100 million KRW</b-td><b-td>114</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">임직원 총 교육시간</b-td><b-td class="text-left">시간</b-td><b-td>109,735</b-td>
+                                    <b-td class="text-left" colspan="2">Total hours of employee training</b-td><b-td class="text-left">hour</b-td><b-td>109,735</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">가치 창출</b-td><b-td class="text-left" colspan="2">인당 생산성<sup>4)</sup></b-td><b-td class="text-left">백만 원 /명</b-td><b-td>605</b-td>
+                                    <b-td class="text-left">Output</b-td><b-td class="text-left" colspan="2">Productivity per person<sup>4)</sup></b-td><b-td class="text-left">1 million KRW/person</b-td><b-td>605</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="5">Intellectual Capital</b-td><b-td class="text-left" rowspan="2">가치 투입</b-td><b-td class="text-left" colspan="2">연구개발비</b-td><b-td class="text-left">백만 원</b-td><b-td>37,671</b-td>
+                                    <b-td class="text-left" rowspan="5">Intellectual Capital</b-td><b-td class="text-left" rowspan="2">Input</b-td><b-td class="text-left" colspan="2">R&amp;D cost</b-td><b-td class="text-left">1 million KRW</b-td><b-td>37,671</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">연구개발 인력</b-td><b-td class="text-left">명</b-td><b-td>366</b-td>
+                                    <b-td class="text-left" colspan="2">Number of R&amp;D personnel</b-td><b-td class="text-left">person</b-td><b-td>366</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="3">가치 창출</b-td><b-td rowspan="3" class="text-left">지적재산권</b-td><b-td class="text-left">특허&amp;실용</b-td><b-td class="text-left">건</b-td><b-td>1,117</b-td>
+                                    <b-td class="text-left" rowspan="3">Output</b-td><b-td rowspan="3" class="text-left">Intellectual property right</b-td><b-td class="text-left">Patents &amp; Utility</b-td><b-td class="text-left">case</b-td><b-td>1,117</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">상표</b-td><b-td class="text-left">건</b-td><b-td>3,124</b-td>
+                                    <b-td class="text-left">Trademark</b-td><b-td class="text-left">case</b-td><b-td>3,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">디자인</b-td><b-td class="text-left">건</b-td><b-td>785</b-td>
+                                    <b-td class="text-left">Design</b-td><b-td class="text-left">case</b-td><b-td>785</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="4">Social Capital</b-td><b-td class="text-left" rowspan="2">가치 투입</b-td><b-td colspan="2" class="text-left">봉사 임직원 수</b-td><b-td class="text-left">명</b-td><b-td>1,586</b-td>
+                                    <b-td class="text-left" rowspan="3">Social Capital</b-td><b-td class="text-left">Input</b-td><b-td colspan="2" class="text-left">Number of employees in the volunteer group</b-td><b-td class="text-left">person</b-td><b-td>1,586</b-td>
+                                </b-tr>
+                                <!-- <b-tr>
+                                    <b-td class="text-left" colspan="2">사회공헌 기부금</b-td><b-td class="text-left">1 million KRW</b-td><b-td>884</b-td>
+                                </b-tr> -->
+                                <b-tr>
+                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Volunteer work time per employee</b-td><b-td class="text-left">hour</b-td><b-td>22.1</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">사회공헌 기부금</b-td><b-td class="text-left">백만 원</b-td><b-td>884</b-td>
+                                    <b-td class="text-left" colspan="2">Technology protection and lease for Suppliers</b-td><b-td class="text-left">case</b-td><b-td>6</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">인당 사회봉사활동 참여 시간</b-td><b-td class="text-left">시간</b-td><b-td>22.1</b-td>
+                                    <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">Input</b-td><b-td colspan="2" class="text-left">Environmental investmentS<sup>5)</sup></b-td><b-td class="text-left">1 million KRW</b-td><b-td>1,502</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">협력사 기술보호 및 임치 성과</b-td><b-td class="text-left">건</b-td><b-td>6</b-td>
+                                    <b-td class="text-left" colspan="2">Consumption of raw materials</b-td><b-td class="text-left">ton</b-td><b-td>17,670</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">가치 투입</b-td><b-td colspan="2" class="text-left">친환경 투자비<sup>5)</sup></b-td><b-td class="text-left">백만 원</b-td><b-td>1,502</b-td>
+                                    <b-td class="text-left" colspan="2">Consumption of energy</b-td><b-td class="text-left">GJ</b-td><b-td>118,627</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">원자재 사용량</b-td><b-td class="text-left">Ton</b-td><b-td>17,670</b-td>
+                                    <b-td class="text-left" rowspan="2">Output</b-td><b-td class="text-left" colspan="2">Greenhouse gas emissions Intensity</b-td><b-td class="text-left">tCO<sub>2</sub>e /Sales(100 million KRW)</b-td><b-td>0.234</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">에너지 사용량</b-td><b-td class="text-left">GJ</b-td><b-td>118,627</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left" rowspan="2">가치 창출</b-td><b-td class="text-left" colspan="2">온실가스 배출량 원단위</b-td><b-td class="text-left">tCO2eq/매출액(억원)</b-td><b-td>0.234</b-td>
-                                </b-tr>
-                                <b-tr>
-                                    <b-td class="text-left" colspan="2">폐기물 재활용량</b-td><b-td class="text-left">ton</b-td><b-td>23,486</b-td>
+                                    <b-td class="text-left" colspan="2">Amount of recycling waste</b-td><b-td class="text-left">ton</b-td><b-td>23,486</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="f-80 ml-1 gray55">
-                            1) 제품 생산량: 제품 생산량 + 필터 생산량<br>
-                            2) 평균 가동률: 실제 생산량 / 최대 생산능력 X 100<br>
-                            3) 임직원 총 교육시간: 교육훈련 비용은 전체 임직원 수로 집계되어 있습니다. (사업보고서 기준) 총 교육시간 및 1인당 교육시간은 영업직 제외 기준입니다.<br>
-                            4) 인당 생산성: 매출액 / 19년 말 12개월 기준 임직원 수<br>
-                            5) 친환경 투자비: 친환경 연구개발 비용은 제외<br>
-                        </p>
+                        <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
+                            <li> Productivity per person: product production + filter production
+                            </li>
+                            <li> Average operation rate: Actual production / Maximum production capacity x 100
+                            </li>
+                            <li> Total hours of employee training: The Training cost is accumulated with total number of employees. (Based on the business report) Sales personnel are excluded from total training hours and training hours per person.
+                            </li>
+                            <li> Productivity per person: Sales / Number of employees as of December 2019
+                            </li>
+                            <li> Environmental investment: Excluding environmental R&amp;D cost
+                            </li>
+                        </ol>
                 </section>
                 <hr class="space-p75 mb-5">
 
@@ -302,7 +307,7 @@ export default {
                     title: this.is_ENG? 'Business Model': '비즈니스 모델', hash: 'd1'
                 },
                 { 
-                    title: this.is_ENG? 'Business Model': '비즈니스 밸류체인', hash: 'd2' 
+                    title: this.is_ENG? 'Business Value Chain': '비즈니스 밸류체인', hash: 'd2' 
                 }
             ]
             return temp            

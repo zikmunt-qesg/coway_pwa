@@ -14,7 +14,7 @@
         </template>
         <template v-else>
             <b-card>
-                <b-card-text>검색 결과가 없습니다. 다시 검색해 주세요</b-card-text>
+                <b-card-text>{{is_ENG!=true?'검색 결과가 없습니다. 다시 검색해 주세요':'Cannot find result. Please try again.'}}</b-card-text>
             </b-card>
         </template>
     <hr class="space-p75 mb-5">
@@ -36,10 +36,13 @@ export default {
     return { defined_query: query.defined_query }
   },
   computed:{
-      ...mapState('search', {
-          search_results: state => state.search_results
-      })
-  }
+        ...mapState('search', {
+            search_results: state => state.search_results
+        }),
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        })
+    }
 }
 </script>
 <style scoped lang="scss">

@@ -194,15 +194,15 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">Economic Value Creation and Distribution</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="j1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Economic Value Creation</h6-ancor></div>
-                    <p class="font-noto">Coway, which has continued to grow steadily for the past 10 years, continued to record sales growth in 2019 and achieved a record-high sale of 3.0189 trillion  KRW, an increase of 11.5% over the previous year. Domestic environmental home appliance business sales are 2.1112 trillion   KRW, and detailed sales are 1. rental sales, 2. lump sum sales, and 3. membership program. As of 2019, the total management account was 6.28 million , a 6.5% increase from the previous year's 5.9 0 million accounts.
+                    <p class="font-noto">Coway, which has continued to grow steadily for the past 10 years, continued to record sales growth in 2019 and achieved a record-high sale of 3018.9 billion KRW, an increase of 11.5% over the previous year. Domestic environmental home appliance business sales are 2111.2 billion KRW, and detailed sales are 1. rental sales, 2. lump sum sales, and 3. membership program. As of 2019, the total management account was 7.79 million(6.28 million domestic, 1.51 million overseas).
                     </p>
-                    <p class="font-noto">Rental sales increased by 8.4% year-on-year, from 1.45 million units last year to 1.57 million units in 2019. The largest sales were achieved due to growth in sales of existing and new products. Sales of air purifiers and new products such as mattresses expanded.
+                    <p class="font-noto">Rental sales increased by 8.4% year-on-year, from 1.45 million units last year to 1.57 million units in 2019. The largest sales were achieved with growth in sales of existing and new products. sales of air purifiers increased and new product lines such as mattresses expanded.
                     </p>
                     <p class="font-noto mb-5">The customer cancellation rate is also on a long-term decline trend to 1.01%, and rental asset disposal is also minimizing losses by 2.5% of sales.
                     </p>
@@ -210,8 +210,8 @@
                     <div class="position-relative"> <hj-img src="/images/89_1.svg" fluid alt="코웨이 매출 및 영업이익 추이(2010-2019)"></hj-img>
                     <div class="position-absolute" style="top:1.1rem; left:1.25rem;">
                         <h7 class="mb-2 font-noto">Sales and Operating Profit Trend(2010-2019) </h7>
-                        <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6"></div> Sales (Unit: 100 million KRW)</div>
-                        <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7"></div> Sales Profit (Unit: 100 million KRW)</div>
+                        <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:12px; height:1.5px;" class="mr-1 bg-parang6 font-noto"></div> Sales (Unit: 100 million KRW)</div>
+                        <div class="fw-300 f-80 d-flex align-items-center "><div style="width:12px; height:1.5px;" class="mr-1 bg-gray7 font-noto"></div> Sales Profit (Unit: 100 million KRW)</div>
                     </div></div>
                     <hr class="mb-3">
                     <!--<div class="position-relative"> <hj-img src="/images/90_1.svg" fluid alt="렌탈 계정현황"></hj-img>
@@ -221,11 +221,11 @@
                     </div></div>
                     <hr class="mb-3">-->
 
-                    <h6-ancor hash="j1-1" :activated="activated" class="parang6 fw-500 mb-2">Steady expansion of overseas business</h6-ancor>
+                    <h6-ancor hash="j1-1" :activated="activated" class="parang6 fw-500 mb-2">Steady Expansion of Overseas Business</h6-ancor>
                     <p class="mb-45">In 2019, overseas business sales amounted to 749.1 billion KRW, up 37.7% from the previous year. Sales in Malaysia and the U.S. increased significantly, and overseas subsidiaries continue to proliferate. For each major subsidiary, Malaysian subsidiaries' sales increased by 48.9%, reaching 532.6 billion KRW, from the previous year's sales 353.4 billion KRW, and the accounts increased by 38.8% from 976,000 accounts in 2018 to 1,354,000 accounts. The U.S. maintains substantial growth, reaching 97.3 billion KRW in sales, 29.7% over the previous year's sales of 80.5 billion KRW, and the accounts increased by 4.7% from 114,000 to 120,000 accounts
                     </p>
 
-                    <hj-img src="/images/91_1.svg" fluid alt="제품별 수출 비중"></hj-img>
+                    <hj-img src="/images/305_1.svg" fluid alt="제품별 수출 비중"></hj-img>
                    
 
                     <hr class="mb-3">
@@ -244,19 +244,19 @@
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="j2" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Economic Value Distribution</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-5">In 2019, Coway created a total economic value of 3.0683 trillion   KRW by combining sales of 3.0189 trillion KRW and other revenues and financial revenues based on consolidation in 2019. Of the created value, 3.7 trillion KRW was reasonably allocated to stakeholders in consideration of the company's future value and investment efficiency. After all allocations, the economic value of the total reserve of 67.5 billion KRW was added to the total amount of capital. Meanwhile, in 2019, Coway received a tax deduction of approximately KRW XX from the government for investment in research and development, and productivity improvement.
+                    <p class="mb-5">In 2019, Coway created a total economic value of 3068.3 billion KRW by combining sales of 3018.9 billion KRW and other revenues and financial revenues based on consolidation in 2019. Of the created value, 3000.7 billion KRW was reasonably allocated to stakeholders in consideration of the company's future value and investment efficiency. After all allocations, the economic value of the total reserve of 67.5 billion KRW was added to the total amount of capital. 
                     </p>
-                    <hj-img src="/images/93_1.svg" fluid ></hj-img>
-                    <p class="f-80 gray5 mb-0">Supplier s: products and raw materials usage (material costs), outsourcing services, consumables, payment fees, depreciation costs, advertising costs, etc. </p>
-                    <p class="f-80 gray5 mb-0">Partners:  Promotion fee, sales fee</p>
-                    <p class="f-80 gray5 mb-0">Shareholders and investors: Annual and interim dividends</p>
-                    <p class="f-80 gray5 mb-0">Employees: Salary and Incentives, Retirement Salary, Benefits</p>
-                    <p class="f-80 gray5 mb-0">Government: Income tax expense</p>
-                    <p class="f-80 gray5 mb-0">Other: Other comprehensive income</p>
+                    <hj-img src="/images/305_2.svg" fluid ></hj-img>
+                    <p class="f-80 gray5 mb-0 indent">- Suppliers: products and raw materials usage (material costs), outsourcing services, consumables, payment fees, depreciation costs, advertising costs, etc. </p>
+                    <p class="f-80 gray5 mb-0">- Partners: Promotion fee, sales fee</p>
+                    <p class="f-80 gray5 mb-0">- Shareholders and investors: Annual and interim dividends</p>
+                    <p class="f-80 gray5 mb-0">- Employees: Salary and Incentives, Retirement Salary, Benefits</p>
+                    <p class="f-80 gray5 mb-0">- Government: Income tax expense</p>
+                    <p class="f-80 gray5 mb-0">- Other: Other comprehensive income</p>
                     <hr class="mb-45">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="j3" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Tax Policy</h6-ancor><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
-                    <p class="mb-45">Coway faithfully fulfills its tax reporting and payment obligations based on its reasonable tax strategy. Coway's tax information is transparently disclosed through regular disclosure in the Financial Supervisory Service's disclosure system (http://dart.fss.or.kr/). In the financial statements and notes in the audit report, you can check the income tax expense calculation criteria, deferred income tax assets and liabilities, and the composition and tax rate of income tax expenses, and secure transparency and objectivity through external audits. Not only in Korea but also overseas, we faithfully fulfill the tax obligations of corporations and contribute to the creation of a virtuous cycle structure, such as the government's tax revenue and public service increase.
+                    <p class="mb-45">Coway faithfully fulfills its tax reporting and payment obligations based on its reasonable tax strategy. Coway's tax information is transparently disclosed through regular disclosure in the Financial Supervisory Service's disclosure system (http://dart.fss.or.kr/). In the financial statements and notes in the audit report, one can check the income tax expense calculation criteria, deferred income tax assets and liabilities, and the composition and tax rate of income tax expenses, and secure transparency and objectivity through external audits. Not only in South Korea but also overseas, we faithfully fulfill the tax obligations of corporations and contribute to the creation of a virtuous cycle structure, such as the government's tax revenue and public service increase.
                     </p>
 
                     <div class="border-parang py-2 px-4 mb-45">
@@ -266,15 +266,15 @@
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> Avoid taking advantage of tax structures for the purposes of evasion,</p></div>
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> Avoid the use of confidential jurisdictions, "tax havens" including previous price.</p></div>
                         <div class="border-bottom-dotted py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> The Board of Directors provides documented policies on overall risk management, as well as specific areas such as foreign exchange risk, interest rate risk, credit risk, derivative and non-derivative financial instruments, and investments in excess of liquidity.</p></div>
-                        <div class="py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span>	When it comes to corporate tax information, we disclose it through the Sustainability Management Report, and the Audit Report which is available at the DART (Data Analysis, Retrieval and Transfer System) of the Financial Supervisory Service</p></div>
+                        <div class="py-2"><p class="indent-sm mb-0"><span class="parang6 fw-600">&middot;</span> When it comes to corporate tax information, we disclose it through the Sustainability Management Report, and the Audit Report which is available at the DART (Data Analysis, Retrieval and Transfer System) of the Financial Supervisory Service</p></div>
                     </div>
                 
-                    <p class="mb-5">At Coway, we take a proactive approach in our response to tax risks by monitoring changes in tax regulations and policies. Risk management is conducted by the Funds Department in accordance with policies approved by the board. The Funds Department works closely with the business units of associated companies to identify, evaluate, and offset financial risks. The board provides documented policies on overall risk management as well as specific areas such as foreign exchange risk, interest rate risk, credit risk, use of derivative and non-derivative financial instruments, and investments in excess of liquidity. Meanwhile, we ensure compliance with the National Tax Service's policies on voluntary reporting on international transactions. In particular, we prohibit tax evasion using falsified overseas transactions and tax havens. Coway has branches or local subsidiaries in Malaysia, the United States, and China. In international transactions with overseas subsidiaries, it complies with applicable local tax laws and OECD transfer pricing guidelines. It fulfills its tax obligations based on local laws.
+                    <p class="mb-5">At Coway, we take a proactive approach in our response to tax risks by monitoring changes in tax regulations and policies. Risk management is conducted by the Funding Department in accordance with policies approved by the Board of Directors. The Funding Department works closely with the business units of associated companies to identify, evaluate, and offset financial risks. The Board provides documented policies on overall risk management as well as specific areas such as foreign exchange risk, interest rate risk, credit risk, use of derivative and non-derivative financial instruments, and investments in excess of liquidity. Meanwhile, we ensure compliance with the National Tax Service's policies on voluntary reporting on international transactions. In particular, we prohibit tax evasion using falsified overseas transactions and tax havens. Coway has branches or local subsidiaries in Malaysia, the the United States, and China. In international transactions with overseas subsidiaries, it complies with applicable local tax laws and OECD transfer pricing guidelines. It fulfills its tax obligations based on local laws.
                     </p>
 
                     <h6-ancor hash="j3-1" :activated="activated" class="parang6 fw-500 mb-3">Report on Tax Payment Status and Effective Tax Rate</h6-ancor>
 
-                        <h7 class="mb-3 gray63">Overseas tax payment by region <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
+                        <h7 class="mb-3 gray63">Overseas Tax Payment by Region <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
                         <b-table-simple responsive class="num-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left">Category</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -288,10 +288,10 @@
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
-                        <p class="mb-1 f-80 gray6">* The cost of corporate tax for overseas corporations by region, calculated by applying the annual average exchange rate in 2019 for local payments</p>
+                        <p class="mb-1 f-80 gray6 indent-sm">* The cost of corporate tax for overseas corporations by region, calculated by applying the annual average exchange rate in 2019 for local payments</p>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
                             <li> Malaysia Corporation, Thailand Corporation, Indonesia Corporation, China Corporation </li>
-                            <li> United States Corporation </li>
+                            <li> The United States Corporation </li>
                         </ol>
 
                         <h7 class="mb-3 gray63">Main Composition of Corporate Tax Expenses  <span class="fw-300 f-80"> (Unit: 1,000 KRW)</span></h7>
@@ -384,8 +384,8 @@ export default {
                 { 
                     title: this.is_ENG? 'Economic Value Creation':'경제적 가치 창출', hash: 'j1', 
                     child: [
-                        { title: this.is_ENG? 'Economic Value Creation':'해외 사업의 꾸준한 확대', hash:'j1-1' }, 
-                        { title: this.is_ENG? 'Synergy of Subscription Economy Expanded with Netmarble Acquisition':'넷마블 인수에 따른 구독경제 시너지 확대', hash:'j1-2' }
+                        { title: this.is_ENG? 'Steady Expansion of Overseas Business':'해외 사업의 꾸준한 확대', hash:'j1-1' }, 
+                        { title: this.is_ENG? 'Subscription Economy Synergy with Netmarble Acquisition':'넷마블 인수에 따른 구독경제 시너지 확대', hash:'j1-2' }
                     ]
                 },
                 { 

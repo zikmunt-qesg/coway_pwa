@@ -217,10 +217,12 @@ td.word-break, .no-word-break{
 
 .eng-font-scale {
     font-size: 93%;
-    line-height: 1.45;
+    line-height: 1.6;
 }
 .eng-font-scale  p{
     font-size: 0.93rem;
+    word-break: normal;
+    word-wrap: break-word;
 }
 
 // .eng-font-scale h1{
@@ -249,6 +251,9 @@ td.word-break, .no-word-break{
     font-weight: 500;
     line-height: 1.4;
 } 
+.eng-font-scale table tr td{
+    font-size: 0.86rem;
+}
 
 sub{
     bottom: -0.15em;

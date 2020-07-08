@@ -8,10 +8,10 @@
     </b-row>
     <b-container fluid class="bg-white px-0 mx-0">
         <b-card class="border-0 bg-transparent-gray-50 sticky-top pt-md-1" style="top:53.3px; z-index:888;">
-            <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='SASB' :defined_query="defined_query"></search-form></b-container>
+            <b-container><search-form class="my-1" prop_mode='indicator' prop_framework='DJSI' :defined_query="defined_query"></search-form></b-container>
         </b-card>
     
-        <b-container class="pt-5 position-relative">
+        <b-container v-if="this.$store.state.is_ENG==false" class="pt-5 position-relative">
                 <b-nav tabs class="my-5">
                     <b-nav-item @click.stop.prevent="$router.push('/framework/gri')" class="f-110 fw-400"> GRI </b-nav-item>
                     <b-nav-item @click.stop.prevent="$router.push('/framework/sasb')" class="f-110 fw-400"> SASB </b-nav-item>
@@ -55,6 +55,64 @@
                                 <template v-else>
                                     <nuxt-link :to="link_to['to']" class="mr-3">
                                         {{ link_to['name'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 gray4"></i>
+                                    </nuxt-link>
+                                </template>
+                            </span>
+                        </span>
+                    </b-td>
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+            <hr class="space-p75">
+        </b-container>
+
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->    
+        <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+
+        <b-container v-else class="pt-5 position-relative">
+                <b-nav tabs class="my-5">
+                    <b-nav-item @click.stop.prevent="$router.push('/framework/gri')" class="f-110 fw-400"> GRI </b-nav-item>
+                    <b-nav-item @click.stop.prevent="$router.push('/framework/sasb')" class="f-110 fw-400"> SASB </b-nav-item>
+                    <b-nav-item active class="f-110 fw-400"> DJSI Public </b-nav-item>
+                </b-nav>
+
+                <b-card class="border-0 px-4 fw-400 font-noto">
+                DJSI (Dow Jones Sustainability Indices) is an index that comprehensively evaluates a company's economic performance and environmental and social aspects. Based on the evaluation results of SAM, a global evaluation agency specialized in global sustainability, companies with excellent sustainability are selected in a best-in-class manner, and S&P Dow Jones Indices operates an investment index. Coway has been included in DJSI World for four consecutive years from 2016 to 2019 and is recognized for its excellent sustainability performance. 
+                </b-card>
+            
+            <hr class="space-p25">
+            <div class="col-12 bg-gray3 fw-500 f-110 py-2 px-3 mb-4 font-noto"> DJSI Public Disclosure Requirements - Household Durables Industry </div>
+            <b-table-simple class="txt-table f-95" responsive>
+                <b-thead>
+                    <b-tr>
+                    <b-td style="width:18%;">Criteria</b-td>
+                    <b-td style="width:8%;">Num.</b-td>
+                    <b-td style="">Questions</b-td>
+                    <b-td>Contents</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody>
+                    <b-tr v-for="(row_item, index) in djsi_table" :key="row_item.id">
+                    <template
+                        v-if="index-1 < 0 ? true: row_item.classification != djsi_table[index-1].classification"
+                    >
+                        <b-td :rowspan="getSameLength(djsi_table, index)">{{ row_item.classification_e }}</b-td>
+                    </template>
+                    <b-td :id="safeHash(`djsi_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#djsi_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
+                    <b-td><template v-if="$route.hash == safeHash(`#djsi_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
+                    <b-td>{{ row_item.Note_e }} <br v-if="row_item.Note_e">
+                        <span v-if="row_item.link.length != 0">
+                            <span v-for="link_to in row_item.link" :key="link_to.id">
+                                <template v-if="link_to['to'].search(/http/g) != -1">
+                                    <a :href="link_to['to']" class="mr-3 f-90 blue5" id="content-links" target="_blank">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
+                                    </a>
+                                </template>
+                                <template v-else>
+                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                        {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
                             </span>

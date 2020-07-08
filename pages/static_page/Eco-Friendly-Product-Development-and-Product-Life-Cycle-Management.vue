@@ -486,7 +486,7 @@
     <b-container v-else class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR ENVIRONMENT</h1>
-            <h7 class="mb-5 text-center w-100 fw-400"> Green global leader designing tomorrow for a healthier environment, and happier people </h7>
+            <h7 class="mb-5 text-center w-100 fw-400"> Green Global Leader Designing Tomorrow for Healthier Environment, and Happier People </h7>
         </b-row>
         <b-row>
             <b-col class="d-none d-lg-inline col-lg-3 position-relative">
@@ -498,11 +498,11 @@
                 ></side-navigation>
             </b-col>
             <b-col class="col-auto col-lg-9 pl-lg-4">
-            <b-container class="px-0">
+            <b-container class="px-0 eng-font-scale">
                 <section class="bg-blue-gray1 px-4 py-4 mb-5">
                     <div class="border-top-bottom-dark">
                         <b-row no-gutters class="px-3 pt-4">                            
-                            <b-col class="col-12 col-md-4 mb-2 mb-sm-0 fw-500 green7">
+                            <b-col class="col-12 col-md-9 col-lg-8 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">02</h1>
                                 <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Eco-Friendly Product Development and Product Life Cycle Management</h4-ancor>
                             </b-col>
@@ -512,8 +512,8 @@
                                 <div class="mr-5 pr-lg-2 pr-xl-4" style="max-width: 180px;"> <b-img src="/images/125_1.svg" fluid ></b-img> </div>
                             </b-col>
                             <b-col class="col-12 col-sm-8">
-                                <h7 class="green7 f-120 mb-3">Business relevance & Approach</h7>
-                                <p> Coway is a living environment home appliance company that directly produces home appliances, such as water purifiers and air purifiers, that make customers' lives easier and deliver clean water and air. The air purifier market grew from 1 million units in 2010 to about 2.5 million units in 2020. Consumers' interest in environmentally friendly products leads to green consumption. According to a survey by the Ministry of Environment, product sales of products and services that reduce energy and resource consumption and minimize pollutants in the entire process of producing, consuming, and disposing of products have increased by an average of 20.1% over the past four years.
+                                <h7 class="green7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
+                                <p> Coway is a environmental home appliance company that directly produces home appliances, such as water purifiers and air purifiers, that make customers' lives easier by delivering clean water and air. The air purifier market grew from 1 million units in 2010 to about 2.5 million units in 2020. Consumers' interest in environmentally friendly products leads to green consumption. According to the survey by the Ministry of Environment, product sales of products and services that reduce energy and resource consumption and minimize pollutants in the entire process of producing, consuming, and disposing of products have increased by an average of 20.1% over the past four years.
                                 </p>
                                 <p> Coway produces better products in the product design and lifecycle management sector, such as designing eco-friendly products, strengthening product responsibilities through life cycle evaluation, and improving resource efficiency, protecting humans from ever-deteriorating water and air, and creating more eco-friendly values. We will undertake our utmost for eco-friendly products and services to deliver to customers.
                                 </p>
@@ -528,7 +528,7 @@
                             </b-col>
                             <b-col class="col-6 col-md-5 text-center">
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/127_1.svg" fluid class="h-100"></b-img> </div>
-                                <p class="fw-500 word-break px-md-2 px-lg-5 mx-xl-2">Improve resource efficiency and realize a circular economy through eco-friendly management throughout the process</p>
+                                <p class="fw-500 word-break px-md-2">Improve Resource efficiency and Realize Circular Economy Through Eco-Friendly Management Throughout The Entire Process</p>
                             </b-col>
                             <b-col class="col-0 col-md-1"></b-col>
                         </b-row>
@@ -536,17 +536,17 @@
                             <b-col class="col-12 col-md-4 pr-md-4 mb-4 mb-md-0 text-center">
                                 <h7 class="green7 f-120 mb-4 w-100 text-left">Business Cases</h7>
                                 <div class="temp-icon2 mx-auto mb-3"><b-img src="/images/128_1.svg" fluid class="h-100"></b-img></div>
-                                <p class="fw-500 word-break px-md-2 px-xl-4">Refrigerant Recovery and Recycling, expanding sales of refurbished products </p>                                   
+                                <p class="fw-500 word-break px-md-2">Refrigerant Recovery and Recycling, Expanded Sales of Refurbished Products </p>                                   
                             </b-col>
                             <b-col class="col-12 col-md-8 position-relative pl-md-4">
                             <div class="vertical-line-1 position-absolute d-none d-md-block"></div>
                                 <h7 class="green7 f-120 mb-3 w-100">Performance</h7>
                                 <b-row no-gutters class="align-items-center mb-3 pb-1">                                    
                                     <b-col class="col-6 text-center">                   
-                                        <span class="f-330 fw-400 font-italic">6,125</span><span class="f-130 fw-500"> 대</span>                
+                                        <span class="f-330 fw-400 font-italic">6,125</span><span class="f-950 fw-400"> products</span>                
                                     </b-col>
                                     <b-col class="col-6 text-center">
-                                        <span class="f-330 fw-400 font-italic">100</span><span class="f-130 fw-500"> %</span>   
+                                        <span class="f-330 fw-400 font-italic">100</span><span class="f-130 fw-s400"> %</span>   
                                     </b-col>
                                 </b-row>
                                 <b-row no-gutters class="align-items-start">                                    
@@ -563,10 +563,10 @@
                 </section>
                 <!-- End of DMA -->
                 <hr class="py-2">
-                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Eco-Friendly Product, Service, and Business Design</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Eco-friendly Product, Service, and Business Design</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     <p class="mb-5"> Coway designs eco-friendly products, services, and businesses through the product development process, eco-friendly manufacturing, rental service, recovery, and recycling. We undertake various activities to reduce negative impacts and expand positive impact throughout the entire process by securing chemical safety, achieving high energy efficiency, reducing carbon emissions, improving the living environment, reducing resource use, and increasing recyclability.
                     </p>
-                    <hj-img src="/images/72_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/309_1.svg" fluid class="w-100"></hj-img>
                     <hr class="mb-3">
 
                     <h6-ancor hash="m1-1" :activated="activated" class="fw-500 green5 mb-3">Life Cycle Assessment and Product Responsibility</h6-ancor>
@@ -615,65 +615,65 @@
                     <h6-ancor hash="m1-3" :activated="activated" class="fw-500 green5 mb-3">Chemical Management System</h6-ancor>
                     <p class="mb-3"> Coway introduced the basic structure and concepts of global quality and environmental management systems and acquired certification to strengthen chemical management through a cycle of planning, execution, review, and continuous improvement. Through the establishment of a chemical substance pre-regulatory monitoring system, we have strengthened our ability to respond to regulatory information from pre-monitored and analyzed with CSMS(Chemical Substances Management System), so that we can develop products and parts that have been reflected and regulated from the product planning stage.
                     </p>
-                    <p class="mb-5"> Reinforcement of the pre-regulatory response system led to the completion of the pre-response for the regulation of RoHSⅡ phthalate before the regulation was enforced. Management and verification have been strengthened under biocide production standards.
+                    <p class="mb-5"> Reinforcement of the pre-regulatory response system led to the completion of the pre-response for the regulation of RoHS before the regulation was enforced. Management and verification have been strengthened under biocide production standards.
                     </p>
                     <div class="row d-flex flex-column flex-md-row pb-3 border-bottom-dark mx-1">
                         <b-col class="custom-ul-li pl-md-0">
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">EU/K-RoHS Standard is applied to all parts to verify the compatibility</li>
-                                <li>To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">EU/K-RoHS Standard is applied to all parts to verify the compatibility</li>
+                                <li class="no-word-break line-height-low f-85">To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/24_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">Establish a related database (DB) to identify and check the use status of chemicals in the workplace</li>
-                                <li class="no-word-break">Established DB related to domestic/overseas regulations and laws</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">Establish a related database to identify and check the use status of chemicals in the workplace</li>
+                                <li class="no-word-break line-height-low f-85">Established DB related to domestic/overseas regulations and laws</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/25_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">Expand chemical management to product units</li>
-                                <li class="no-word-break">Proactively respond to global environmental regulations and customer demands related to chemical use</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">Expand chemical management to product units</li>
+                                <li class="no-word-break line-height-low f-85">Proactively respond to global environmental regulations and customer demands related to chemical use</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_1.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">In accordance with the strengthening of laws and regulations by country and the expansion of the scope of management, the scope of laws and regulations has been expanded from electrical and electronic products to food and hygiene safety.</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">In accordance with the strengthening of laws and regulations by country and the expansion of the scope of management, the scope of laws and regulations has been expanded from electrical and electronic products to food and hygiene safety.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative pr-md-0">
                         <div class="vertical-line-dotted-86 position-absolute d-none d-md-block"></div>
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_2.svg" fluid class="h-100"></b-img></div>
-                            <ul class="f-90 fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break">Strengthen the ability to respond to pre-regulation by establishing a system for monitoring pre-regulation of chemical substances</li>
-                                <li class="no-word-break">Proactive response and verification of RoHS II phthalate regulation for all products and parts</li>
+                            <ul class="fw-300 mb-3 mb-md-0">
+                                <li class="no-word-break line-height-low f-85">Strengthen the ability to respond to pre-regulation by establishing a system for monitoring pre-regulation of chemical substances</li>
+                                <li class="no-word-break line-height-low f-85">Proactive response and verification of RoHS II phthalate regulation for all products and parts</li>
                             </ul>
                         </b-col>
                     </div>
                     <hr class="mb-4">
-                    <hj-img src="/images/28_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/309_2.svg" fluid class="w-100"></hj-img>
 
                     <hr class="mb-5 py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">자원효율성 향상과 순환경제 구축</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="m2" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Resource Efficiency and Circular Economy</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                     
                     <h6-ancor hash="m2-1" :activated="activated" class="fw-500 green5 mb-3">Resource Efficiency KPI</h6-ancor>
 
                     <b-row no-gutters class="py-sm-3 py-lg-5 mb-45 border-top-bottom-dark">
-                        <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']">
-                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">Waste Recycling rate by 2030</p></div>
+                        <b-col :class="[isIE? '':'d-flex','col-12 col-lg-4 px-sm-3 position-relative']">
+                            <b-img src="/images/29_1.svg" fluid></b-img><div class="ml-3 ml-xl-4"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Waste Recycling Rate by 2030</p></div>
                         </b-col>
-                        <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></p><p class="word-break">Workplace waste resource recovery rate by 2030</p></div>
+                        <b-col :class="[isIE? '':'d-flex','col-12 col-lg-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-lg-block"></div>
+                            <b-img src="/images/30_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-280 fw-500 green7 mb-0">100<span class="f-160">%</span></div><p class="word-break">Industrial waste Resource Recovery Rate by 2030</p></div>
                         </b-col>
-                        <b-col :class="[isIE? '':'d-flex','col-12 col-sm-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-sm-block"></div>
-                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><p class="f-280 fw-500 green7 mb-0">2<span class="f-160">20,000</span></p><p class="word-break">Refurbished product sales by 2030</p></div>
+                        <b-col :class="[isIE? '':'d-flex','col-12 col-lg-4 px-sm-3 position-relative']"><div class="vertical-line-dotted-100 position-absolute d-none d-lg-block"></div>
+                            <b-img src="/images/31_1.svg" fluid ></b-img><div class="ml-3 ml-xl-3"><div class="f-230 fw-500 green7 mb-0 d-flex align-items-end d-lg-inline">20,000 <p class="f-110 mt-m-3"> products</p></div><p class="word-break">Refurbished Product Sales by 2030</p></div>
                         </b-col>
                     </b-row>
                     <p class="mb-5">Coway focuses on a new concept, the circular economy, to protect the world's crisis and prevent wasting resources. Coway goes beyond the traditional method of consuming and disposing of resources and makes great efforts to ensure that resources are reused through recovery and recycling even after they are used. Through the circular economic system such as operating refurbished product systems, recycling products and parts, zero landfill, and generating energy with waste from the entire production process, we reduce greenhouse gases and pollutants caused by waste incineration, and soil and groundwater pollution caused by landfill.
@@ -681,7 +681,7 @@
                     <hr class="py-2">                   
                 
                     <h7 class="mb-3 gray63">Coway Resource Circle</h7>
-                    <hj-img src="/images/32_1.svg" fluid class="w-100"></hj-img>
+                    <hj-img src="/images/309_3.svg" fluid class="w-100"></hj-img>
                     <hr class="space-25">                   
                     <p class="mb-3"> Coway pursues various activities for transitioning to establishing a resource recycling society from the existing resource consumption structure in which resource is used once and discarded. When developing new products, we undertake efforts to improve the recycling rate of each product line. We check whether the recycling rate per unit satisfies 75% or more. If it is calculated as 75% or less, it is replaced by a recyclable material or carefully reviewed whether it is recyclable in the actual recycling process. 
                     </p>
@@ -689,9 +689,9 @@
                     </p>
                     <p class="mb-45"> Coway contributes to the circular economy by reusing the products. In 2007, we introduced the refurbishment system for the first time in the rental consumer electronics industry, creating value through internally reducing rental disposal and operating a price competitiveness model externally and recycling resources. Refurbished products are sold at a 20% discount from the average rental price compared to the regular price. In 2019, it accounted for 0.4% of the total sales. In the future, we plan to promote communication with customers by delivering messages that conform to the concept of resource recycling, eco-friendly, and good consumption to promote sales of refurbished products and raise customer awareness.
                     </p> 
-                    <div class="position-relative"> <hj-img src="/images/129_1.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">Recycling Process</h7></div>
+                    <div class="position-relative"> <hj-img src="/images/309_4.svg" fluid></hj-img> <h7 class="mb-3 gray63 position-absolute text-center w-100" style="top:1.1rem;">Recycling Process</h7></div>
                     <hr class="space-25"> 
-                    <h7 class="mb-3 gray63">Amount of Waste generated by Type  <span class="f-80 fw-300"> (Unit: Ton)</span></h7>
+                    <h7 class="mb-3 gray63">Amount of Waste Generated by Type  <span class="f-80 fw-300"> (Unit: ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
                                 <b-td class="text-left" colspan="3">Category</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
@@ -710,7 +710,7 @@
                                     <b-td class="text-left">Subtotal</b-td><b-td>13,770</b-td><b-td>13,866</b-td><b-td>13,609</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2" rowspan="4">Service</b-td><b-td class="text-left">소각</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left" colspan="2" rowspan="4">Service</b-td><b-td class="text-left">Incineration</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Landfill</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
@@ -722,7 +722,7 @@
                                     <b-td class="text-left">Subtotal</b-td><b-td>9,307</b-td><b-td>8,823</b-td><b-td>9,124</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="8" style="width:13%;">Business Site(Manufacturing factory)</b-td><b-td class="text-left" rowspan="4">General</b-td><b-td class="text-left">Incineration</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
+                                    <b-td class="text-left" rowspan="8" style="width:13%;">Business Site (Manufacturing factory)</b-td><b-td class="text-left" rowspan="4">General</b-td><b-td class="text-left">Incineration</b-td><b-td>160</b-td><b-td>157</b-td><b-td>217</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Landfill</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
@@ -757,119 +757,119 @@
                             </b-tbody> 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
-                            <li> 재활용률: 제품, 서비스, 사업장 폐기물 중 재활용한 폐기물의 비율 ( 재활용한 폐기물 총량 / 입고된 폐기물 총량 x 100 )     
+                            <li> Recycling rate: The ratio of recycled waste among products, services, and business waste (total amount of recycled waste / total amount of waste x 100)     
                             </li>  
                         </ol>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> 환경가전기준의 폐기물 발생량 (화장품, 매트리스 제외)
+                            <li> Environmental household waste generation (excluding cosmetics and mattresses)
                             </li>
-                            <li> 2016년부터 서비스폐기물은 전량 고형화 연료. 사업장폐기물은 일부만 제외하고 고형화 연료화 진행 → 폐기물발생량 중 99%이상 재활용 진행
+                            <li> Since 2016, all service waste has been solidified fuel. Solidified fuel, except part of the business waste → Recycling of more than 99% of the amount of waste generated
                             </li>
-                            <li> 2018년 포천공장 재활용업 반납으로 인해 제품폐기물 재활용량은 코웨이 재활용사 실적으로 집계
+                            <li> Due to the Pocheon factory recycling business's return in 2018, the amount of product waste recycled is counted as Coway's recycling company.
                             </li>
-                            <li> 2018년 포천공장 재활용업 반납으로 인해 사업장 폐기물 감소
+                            <li> Reduction of waste in the business site due to return of recycling business in Pocheon factory in 2018
                             </li>
-                            <li> 2019년 생산량 증가에 따른 사업장, 서비스폐기물 증가
+                            <li> Increasing production sites and service waste due to increased production
                             </li>
                         </ul>
                         
 
                     <hr class="py-2">
 
-                    <h7 class="mb-3 gray63">자재사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                    <h7 class="mb-3 gray63">Material usage <span class="f-80 fw-300"> (Unit: ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left" colspan="2">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
+                                <b-td class="text-left" colspan="2">Category</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="3">비재생 원료</b-td><b-td class="text-left">플라스틱(필터, 5대 제품군)<sup>1)</sup></b-td> <b-td>9,123</b-td><b-td>10,100</b-td><b-td>10,947</b-td>
+                                    <b-td class="text-left" rowspan="3">Non-renewable raw materials</b-td><b-td class="text-left">Plastic (Filter, 5 Product lines)<sup>1)</sup></b-td> <b-td>9,123</b-td><b-td>10,100</b-td><b-td>10,947</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">메탈<sup>2)</sup></b-td> <b-td>4,398</b-td><b-td>4,537</b-td><b-td>4,419</b-td>
+                                    <b-td class="text-left">Metal<sup>2)</sup></b-td> <b-td>4,398</b-td><b-td>4,537</b-td><b-td>4,419</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">포장재<sup>3)</sup></b-td><b-td>2,160</b-td><b-td>2,131</b-td><b-td>2,304</b-td>
+                                    <b-td class="text-left">Packaging<sup>3)</sup></b-td><b-td>2,160</b-td><b-td>2,131</b-td><b-td>2,304</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">재생가능 원료<sup>4)</sup></b-td><b-td>-</b-td><b-td>-</b-td><b-td>-</b-td>
+                                    <b-td class="text-left" colspan="2">Renewable raw materials<sup>4)</sup></b-td><b-td>-</b-td><b-td>-</b-td><b-td>-</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">합계</b-td><b-td>15,681</b-td><b-td>16,768</b-td><b-td>17,670</b-td>
+                                    <b-td class="text-left" colspan="2">Total</b-td><b-td>15,681</b-td><b-td>16,768</b-td><b-td>17,670</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low">
-                            <li> 필터(정수기 및 비데 필터), 5대 제품군(정수기, 공기청정기, 비데, 연수기, 음식물 처리기) 
+                            <li> Filter (water purifier and bidet filter), 5 Product lines (water purifier, air purifier, bidet, water softener, food processor)
                             </li>
-                            <li> 이론치 중량 적용
+                            <li> Theoretical weight applied
                             </li>
-                            <li> 종이박스, 포장비닐/포장필름, EPS(완충재) 
+                            <li> Packaging material standard: paper box, packaging vinyl/packaging film, EPS (buffer) 
                             </li>
-                            <li> 2019년부터 수입 제·부품 발생량 추가 관리  
+                            <li> Generated imported products and parts added and managed since 2019   
                             </li>
                         </ol>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> 코웨이가 제조하는 생활환경가전은 음용, 흡입 등 고객의 안전과 건강에 밀접한 관련이 있어 현재는 재활용 원료를 적용하고 있지는 않지만 향후 재생원료 사용이 가능한 부품을 검토하여 적용할 예정임
+                            <li> Renewable raw materials: Our living environment appliances are closely related to the safety and health of customers i.e. drinking and inhaling. Therefore, currently, recycled raw materials are not applied. However, we will review and apply parts for recycled raw materials in the future.
                             </li>
                         </ul>
                     <hr class="py-3">
 
-                    <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">냉매 회수 및 재활용</h6-ancor>
-                    <p class="mb-5"> 코웨이는 냉매로 인한 환경오염을 최소화하고자 제품에 사용되는 냉매를 친환경 냉매로 전환하고 있습니다. 아울러 기존 제품에 사용된 냉매(R-134a)를 제품 폐기시 회수하여 환경부가 지정한 업체를 통해 안전하게 처리하고 있습니다. 코웨이는 2018년이후 냉매·오일 회수 및 재활용을 1곳에서 2곳으로 확대하여 운영하였으며, 재활용사업자가 정수기 및 제습기 냉매·오일 회수 및 재활용 진행시 적법한 관리 및 운영에 대해 지속적으로 모니터링을 진행하고 있습니다. 2019년에는 약 6.1톤의 냉매를 회수하여 재활용하였습니다.
+                    <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">Recovery & Recycling Refrigerant</h6-ancor>
+                    <p class="mb-5"> In order to minimize environmental pollution caused by refrigerants, we use eco-friendly refrigerants while recovering refrigerants (R-134a) used in our products at the time of their disposal and dispose of them through a company designated by the Ministry of Environment. Since 2018, Coway has expanded and operated refrigerant and oil recovery from 1 to 2 locations. Recycling operators are continuously monitoring for proper management and operation of water purifier and dehumidifier refrigerant and oil recovery and recycling. In 2019, about 6.1 tons of refrigerant was recovered and recycled.
                     </p>
 
-                    <h7 class="mb-3 gray63">냉매 회수 및 재활용량 <span class="f-80 fw-300"> (단위: kg)</span></h7>
+                    <h7 class="mb-3 gray63">Refrigerant Recovery and Recycling Amount <span class="f-80 fw-300"> (Unit: kg)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td>2019 회수량</b-td> <b-td>2019 재활용량</b-td> 
+                                <b-td class="text-left">Category</b-td> <b-td>2019 Recovery Amount</b-td> <b-td>2019 Recycling Amount</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">냉매 회수 및 재활용</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
+                                    <b-td class="text-left">Refrigerant Recovery and Recycling</b-td><b-td>6,170</b-td> <b-td>6,170</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
                         <ul class="f-80 fw-300 footnote-ul line-height-low mb-5">
-                            <li> 냉매 회수량은 전량 재활용되고 있음
+                            <li> All recovered refrigerants are recycled.
                             </li>
                         </ul>
 
                     <hr class="py-3">
-                    <h6-ancor hash="m2-3" :activated="activated" class="fw-500 green5 mb-3">리퍼브 제도</h6-ancor>
-                    <p class="mb-5"> 리퍼브 제품은 소비자 변심으로 반품되었거나 매장에 진열되었던 제품을 재가공하여 저렴한 가격으로 다시 판매하는 재포장제품을 의미합니다. 부품 교체, 철저한 성능 테스트 등을 거쳐 품질은 새 제품과 동일하면서 환경보호에 기여하고 있습니다. 향후에는 코웨이만의 차별화된 리퍼브 제품군 커뮤니케이션을 통해 고객으로 하여금 ‘의식 있는 소비’를 유도할 예정이며, 제품군 확대 및 제품 가격 경쟁력 확보로 판매 활성화를 위해 노력할 예정입니다.
+                    <h6-ancor hash="m2-3" :activated="activated" class="fw-500 green5 mb-3">Refurbished Product Policy</h6-ancor>
+                    <p class="mb-5"> Refurbished products refer to repackaged products that are returned by the consumers or displayed at stores. They are re-processed and resold to the consumer at a reasonable price. After replacing parts and performing thorough performance tests, the quality is the same as new products, contributing to environmental protection. In the future, we plan to induce customers with "conscious consumption" through Coway's unique, differentiated refurbished product line communication. We strive to promote sales by expanding the product line and securing product price competitive advantage.
                     </p>
-                    <h7 class="mb-3 gray63 font-noto">리퍼브 프로세스</h7>
-                    <b-img src="/images/130_1.svg" fluid class="w-100"></b-img>
+                    <h7 class="mb-3 gray63 font-noto">Refurbishing Process</h7>
+                    <b-img src="/images/309_5.svg" fluid class="w-100"></b-img>
                     <hr class="mb-4">
                     <b-row no-gutters class="mb-5">
-                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 코웨이 리퍼프 제품 판매 목표</h7>
-                            <b-img src="/images/36_1.svg" fluid style="width: 88%;"></b-img>
+                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 Coway Refurbished Product Sales Goal</h7>
+                            <b-img src="/images/309_6.svg" fluid style="width: 88%;"></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-5 position-relative d-flex align-items-end">
-                            <div class="position-absolute" style='top:0;'><h7 class="mb-3 gray63 font-noto">2020년 목표 판매량</h7>
-                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px;" class="mr-1 bg-green7"></div> 비데 </div>
-                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#92bc49;" class="mr-1"></div> 청정기 </div>
-                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#c6da98;" class="mr-1"></div> 정수기 </div>
+                            <div class="position-absolute" style='top:0;'><h7 class="mb-3 gray63 font-noto">2020 Goal Sales</h7>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px;" class="mr-1 bg-green7"></div> Bidet </div>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#92bc49;" class="mr-1"></div> Air purifier </div>
+                                <div class="fw-300 f-80 d-flex align-items-center mb-1"><div style="width:10px; height:10px; background-color:#c6da98;" class="mr-1"></div> Water purifier </div>
                             </div>
                             <b-img src="/images/35_1.svg" fluid class="w-100"></b-img>
                         </b-col>
                     </b-row>
                     <hr class="py-2">
-                    <h7 class="mb-3 gray63">리퍼브 제품 판매량 <span class="f-80 fw-300">(단위: 대)</span> </h7>
+                    <h7 class="mb-3 gray63">Refurbished Product Sales <span class="f-80 fw-300">(Unit: pieces)</span> </h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
+                                <b-td class="text-left">Category</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">정수기</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
+                                    <b-td class="text-left">Water purifier</b-td><b-td>4,267</b-td><b-td>1,757</b-td><b-td>1,239</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">공기청정기</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
+                                    <b-td class="text-left">Air purifier</b-td><b-td>8,533</b-td><b-td>5,708</b-td><b-td>1,838</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">비데</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
+                                    <b-td class="text-left">Bidet</b-td><b-td>4,548</b-td><b-td>3,144</b-td><b-td>3,048</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">Total</b-td><b-td>17,348</b-td><b-td>10,609</b-td><b-td>6,125</b-td>
@@ -879,74 +879,74 @@
                     
                     <hr class="py-3">
                     
-                    <h6-ancor hash="m2-4" :activated="activated" class="fw-500 green5 mb-3">전과정 수자원 사용량 절감 </h6-ancor>
-                    <p class="mb-45"> 코웨이는 최종 조립 및 검사 공정의 비중이 높아 제품 생산 과정에서 수자원 사용량이 많지 않으며, 폐수 또한 배출하지 않습니다. 그러나 수자원 사용으로 인한 환경적 영향을 최소화 하기 위해 물 사용 공정을 지속적으로 개선하고, 물 대신 질소, 진공을 이용한 ‘워터리스’ 시스템을 도입하는 등 물 사용량을 관리하기 위해 지속적인 노력을 기울이고 있습니다.
+                    <h6-ancor hash="m2-4" :activated="activated" class="fw-500 green5 mb-3">Reduction of Water Consumption</h6-ancor>
+                    <p class="mb-45"> Coway has a high proportion of final assembly and inspection processes, so it does not consume much water in the production process and does not discharge wastewater. However, we continuously undertake efforts to manage water consumption by improving the water use process to minimize the environmental impact of using water resources and introducing a "waterless" system with nitrogen and vacuum instead of water.
                     </p>
 
-                    <h7 class="mb-2 gray63">워터리스 시스템을 통한 수자원 사용 절감량 <span class="f-80 fw-300"> (단위: 톤)</span> </h7>
+                    <h7 class="mb-2 gray63">Water Resource Reduction Through Waterless Systems<span class="f-80 fw-300"> (Unit: ton)</span> </h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
                                 <b-td class="text-left"></b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">워터리스 시스템을 통한 수자원 사용 절감량</b-td> <b-td>5,028</b-td> <b-td>6,306</b-td><b-td>5,957</b-td>
+                                    <b-td class="text-left">Water Resource Reduction Through Waterless Systems</b-td> <b-td>5,028</b-td> <b-td>6,306</b-td><b-td>5,957</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
 
-                    <h7 class="mb-3 gray63">수자원 사용량</h7>
+                    <h7 class="mb-3 gray63">Water Resource Usage</h7>
                         <b-table-simple responsive class="num-table env-table f-95 mb-5">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td class="text-left">단위</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                                <b-td class="text-left">Category</b-td> <b-td class="text-left">Unit</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">공업용수</b-td><b-td rowspan="5" class="text-left">톤</b-td> <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Industrial Water</b-td><b-td rowspan="5" class="text-left">ton</b-td> <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">지하수</b-td>    <b-td>26,084</b-td> <b-td>21,962</b-td><b-td>29,904</b-td>
+                                    <b-td class="text-left">Underground Water</b-td>    <b-td>26,084</b-td> <b-td>21,962</b-td><b-td>29,904</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">표층수</b-td>    <b-td>45,901</b-td> <b-td>49,385</b-td><b-td>60,519</b-td>
+                                    <b-td class="text-left">Surface Water</b-td>    <b-td>45,901</b-td> <b-td>49,385</b-td><b-td>60,519</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">수자원 사용 총량</b-td>    <b-td>71,985</b-td> <b-td>71,347</b-td><b-td>90,423</b-td>
+                                    <b-td class="text-left">Total Water Resource Consumption</b-td>    <b-td>71,985</b-td> <b-td>71,347</b-td><b-td>90,423</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">폐수 배출량</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
+                                    <b-td class="text-left">Discharged Wastewater</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">수자원 사용 원단위</b-td><b-td class="text-left">톤/억 원</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
+                                    <b-td class="text-left">Water Consumption Intensity</b-td><b-td class="text-left">Ton/100 million KRW</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
 
-                        <h7 class="mb-3 gray63">사업장별 수자원 사용량 <span class="f-80 fw-300"> (단위: 톤)</span></h7>
+                        <h7 class="mb-3 gray63">Water Resource Usage by Business Site <span class="f-80 fw-300"> (Unit: ton)</span></h7>
                         <b-table-simple responsive class="num-table env-table f-95">
                             <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
+                                <b-td class="text-left">Category</b-td> <b-td>2017</b-td> <b-td>2018</b-td> <b-td>2019</b-td> 
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">유구공장</b-td> <b-td>37,879</b-td> <b-td>34,501</b-td><b-td>44,357</b-td>
+                                    <b-td class="text-left">Yugu Factory</b-td> <b-td>37,879</b-td> <b-td>34,501</b-td><b-td>44,357</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">인천공장</b-td><b-td>6,482</b-td> <b-td>4,401</b-td><b-td>5,725</b-td>
+                                    <b-td class="text-left">Incheon Factory</b-td><b-td>6,482</b-td> <b-td>4,401</b-td><b-td>5,725</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">포천공장</b-td> <b-td>134</b-td> <b-td>594</b-td><b-td>1,771</b-td>
+                                    <b-td class="text-left">Pocheon Factory</b-td> <b-td>134</b-td> <b-td>594</b-td><b-td>1,771</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">환경기술연구소(R&D센터)</b-td> <b-td>22,597</b-td> <b-td>26,045</b-td><b-td>33,183</b-td>
+                                    <b-td class="text-left">Environmental Technology Research Center (R&D Center)</b-td> <b-td>22,597</b-td> <b-td>26,045</b-td><b-td>33,183</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">물류센터(유구)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
+                                    <b-td class="text-left">Logistics Center (Yugu)</b-td><b-td>4,893</b-td> <b-td>5,806</b-td><b-td>5,387</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
                         <ul class="f-80 fw-300 footnote-ul line-height-low">
-                            <li> 2020년 수자원 데이터 검증범위 확대에 따라 2018년 포천공장 데이터가 전년도 보고 데이터와 상이함 <span><nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">검증의견서 확인</nuxt-link> </span>
+                            <li> As the scope of verification of water resource data in 2020 is expanded, the data from Pocheon factory in 2018 is different from the previous year's report data. <span><nuxt-link to="/static_page/About-This-Report-and-Assurance" class="green-a">Check Verification Statement</nuxt-link> </span>
                             </li>
                         </ul>
                                               
@@ -983,12 +983,12 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Eco Friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
+            return this.is_ENG? 'Eco-friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
         },
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Eco Friendly Product Service and Business Design' :'친환경 제품과 서비스, 비즈니스 설계', 
+                    title: this.is_ENG? 'Eco-friendly Product, Service, and Business Design' :'친환경 제품과 서비스, 비즈니스 설계', 
                     hash: 'm1', 
                     child: [
                         { 
@@ -996,17 +996,17 @@ export default {
                             hash: 'm1-1' 
                         }, 
                         { 
-                            title: this.is_ENG? 'Eco Friendly Product Certification':'친환경 제품 인증 획득', 
+                            title: this.is_ENG? 'Eco-friendly Product Certification':'친환경 제품 인증 획득', 
                             hash: 'm1-2' 
                         }, 
                         { 
-                            title: this.is_ENG? 'Enhancement of the Chemical Management System':'화학물질 관리 체계 강화', 
+                            title: this.is_ENG? 'Chemical Management System':'화학물질 관리 체계 강화', 
                             hash: 'm1-3' 
                         }, 
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Improvement of Resource Efficiency and Support Circular  Economy':'자원효율성 향상과 순환경제 구축', 
+                    title: this.is_ENG? 'Resource Efficiency and Circular Economy':'자원효율성 향상과 순환경제 구축', 
                     hash: 'm2',
                     child: [
                         { 
@@ -1022,7 +1022,7 @@ export default {
                             hash: 'm2-3' 
                         }, 
                         { 
-                            title: this.is_ENG? 'Reduction of Water Resource Consumption throughout the Entire Process': '전과정 수자원 사용량 절감', 
+                            title: this.is_ENG? 'Reduction of Water Consumption': '전과정 수자원 사용량 절감', 
                             hash: 'm2-4' 
                         }, 
                     ]
