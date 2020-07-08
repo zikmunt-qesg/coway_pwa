@@ -5,7 +5,7 @@
      <b-row no-gutters class="py-5">
         <b-col class="py-3 mt-md-4 mt-lg-5 text-center"><h2 class="fw-400">POLICIES &amp; INITIATIVES</h2></b-col>
     </b-row>
-    <b-container>
+    <b-container v-if="this.$store.state.is_ENG==false">
         <b-row>
             <b-col class="col-0 col-lg-1"></b-col>
             <b-col class="col-12 col-lg-10 px-0">
@@ -102,8 +102,114 @@
             </b-col>
             <b-col class="col-0 col-lg-1"></b-col>
         </b-row>
-    <hr class="space-p75">        
+        <hr class="space-p75">        
     </b-container>
+    
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->    
+    <!-- End of KOREAN DOCUMENT CONTAINER --------------------------------------------------------------------------------------------------->
+
+    <b-container v-else>
+        <b-row>
+            <b-col class="col-0 col-lg-1"></b-col>
+            <b-col class="col-12 col-lg-10 px-0">
+                <b-nav tabs class="">
+                    <b-nav-item :active="show_page=='Policies'" @click.stop.prevent="showTab('Policies')" class="f-110 fw-400"> Sustainability Policies </b-nav-item>
+                    <b-nav-item :active="show_page=='Initiatives'" @click.stop.prevent="showTab('Initiatives')" class="f-110 fw-400"> Global Initiatives </b-nav-item>
+                </b-nav>
+            </b-col>
+            <b-col class="col-0 col-lg-1"></b-col>
+        </b-row>
+        <b-row>
+            <b-col class="col-0 col-lg-1"></b-col>
+            <b-col class="col-12 col-lg-10 bg-white px-md-4 px-lg-5 py-5">              
+                <div v-if="show_page=='Policies'" class="px-md-2 px-lg-4 atr-content">
+                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4" style="z-index:10">View and Download Policies</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+
+                            <h7 class="f-110 fw-500">Sustainability Policies</h7>    
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_kor.pdf" class="see-policy" target="_blank">Coway Trust Guideline (Korean)</b-button>
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_kor.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_eng.pdf" class="see-policy" target="_blank">Coway Trust Guideline (English) </b-button>
+                                <b-button variant="light" href="/documents/Coway_coway_trust_guideline_eng.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>
+                        <hr>
+                            <h7 class="f-110 fw-500">Ethical Management</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" class="see-policy" target="_blank">The Charter of Ethics (Korean) </b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" class="see-policy" target="_blank">The Regulations on Ethics (Korean)</b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" class="see-policy" target="_blank">The Code of Ethics (Korean)</b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>                               
+                        <hr>
+                            <h7 class="f-110 fw-500">Supplier CSR</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" class="see-policy" target="_blank">Supplier Code of Conduct (Korean) </b-button>
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <hr class="py-1">
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_eng.pdf" class="see-policy" target="_blank">Supplier Code of Conduct (English)</b-button>
+                                <b-button variant="light" href="/documents/Coway_supplier_code_of_conduct_eng.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group>
+                        <hr>
+                            <h7 class="f-110 fw-500">Environment</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/carbon_report_2018.pdf" class="see-policy font-noto" target="_blank">Carbon Report 2018 (Korean)</b-button>
+                                <b-button variant="light" href="/documents/carbon_report_2018.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                        <hr>
+                            <h7 class="f-110 fw-500">Corporate Governance</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/Coway_governance_report_2019.pdf" class="see-policy font-noto" target="_blank">Governance Report 2019 (Korean)</b-button>
+                                <b-button variant="light" href="/documents/Coway_governance_report_2019.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                        
+                </div>
+                <div v-if="show_page=='Initiatives'" class="font-noto">
+                    <div class="d-flex mb-5 position-relative overflow-hidden"> <h4 class="gray5 fw-500 bg-white pr-4" style="z-index:10">Participate in Global Initiatives</h4><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex justify-content-around align-items-center px-md-3 px-lg-5 mb-5">
+                        <div class="px-3"><b-img src="/images/148_1.png" fluid style="max-height: 56px;"></b-img></div>
+                        <div class="px-3"><b-img src="/images/148_2.png" fluid style="max-height: 68px;"></b-img></div>
+                        <div class="px-3"><b-img src="/images/148_3.jpg" fluid style="max-height: 64px;"></b-img></div>                        
+                        <div class="px-3"><b-img src="/images/148_4.png" fluid style="max-height: 75px;"></b-img></div>
+                        <div class="px-3"><b-img src="/images/djsi.jpg" fluid style="max-height: 80px;"></b-img></div>
+                        <!-- <div class="px-3"><b-img src="/images/148_6@3x.jpg" fluid></b-img></div> -->
+                    </div>
+                    <h7 class="mb-2 pt-4"> UNGC </h7>
+                    <p class="mb-45">Coway joined the United Nations Global Compact (UNGC) in June 2006. As a corporate citizen who fulfills social responsibility, we fulfill our duty by pursuing growth by adhering to and practicing the 10 principles of human rights, labor, environment, and anti-corruption. This Sustainability Report is a self-assessment and commitment to Coway's present and future.
+                    </p>
+                    <h7 class="mb-2"> SDGs(Sustainable Development Goals) </h7>
+                    <p class="mb-45"> Coway seeks new growth opportunities and achieves sustainable growth by developing and implementing solutions to achieve SDGs as the United Nations announces Sustainable Development Goals (SDGs) that the international community must achieve, following the Millennium Development Goals (MDGs). 
+                    </p>
+                    <h7 class="mb-2"> CDP(Carbon Disclosure Project) </h7>
+                    <p class="mb-45"> Coway was recognized by the Korean Council of Nonprofit organization “Carbon Disclosure Project (CDP)” for excellence in responding to climate change and was selected as an excellent company in the selected consumer goods category “Carbon Management Sector Honors” for 10 consecutive years.
+                    </p>                    
+                    <h7 class="mb-2"> United Nations Conference on Climate Change (COP21)-Support for the Global Climate Change Convention</h7>
+                    <p class="mb-45"> In December 2015, Coway declared support for the “Global Climate Change Convention” of the United Nations General Conference on Climate Change (COP21), which was reached in 195 countries in Paris, France, and established a voluntary carbon reduction plan.
+                    </p>
+                    <h7 class="mb-2"> DJSI(Dow Jones Sustainability Indicies) </h7>
+                    <p> Coway's sustainability management has been recognized externally and has been included in the Dow Jones Sustainability Indicies (DJSI) World Index for 4 consecutive years since 2016.
+                    </p>
+                </div>
+            </b-col>
+            <b-col class="col-0 col-lg-1"></b-col>
+        </b-row>
+        <hr class="space-p75">        
+    </b-container>
+
 </div>
 </template>
 
