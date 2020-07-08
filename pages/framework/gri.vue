@@ -43,7 +43,7 @@
                     </template>
                     <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                     <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators }}</mark></template><template v-else>{{ row_item.indicators }}</template></b-td>
-                    <b-td>{{ row_item.Note }} 
+                    <b-td>{{ row_item.Note_e }} 
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
@@ -228,7 +228,7 @@
                     </template>
                     <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                     <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
-                    <b-td>{{ row_item.Note }} 
+                    <b-td>{{ row_item.Note_e }} 
                         <span v-if="row_item.link.length != 0">
                             <span v-for="link_to in row_item.link" :key="link_to.id">
                                 <template v-if="link_to['to'].search(/http/g) != -1">
@@ -269,7 +269,7 @@
                 </template>
                 <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                 <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
-                <b-td>{{ row_item.Note }} 
+                <b-td>{{ row_item.Note_e }} 
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
@@ -311,7 +311,7 @@
                 </template>
                 <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                 <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
-                <b-td>{{ row_item.Note }} 
+                <b-td>{{ row_item.Note_e }} 
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">
@@ -353,7 +353,7 @@
                 </template>
                 <b-td :id="safeHash(`gri_${row_item.code}`)"><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.code }}</mark></template><template v-else>{{ row_item.code }}</template></b-td>
                 <b-td><template v-if="$route.hash == safeHash(`#gri_${row_item.code}`)"><mark>{{ row_item.indicators_e }}</mark></template><template v-else>{{ row_item.indicators_e }}</template></b-td>
-                <b-td>{{ row_item.Note }} 
+                <b-td>{{ row_item.Note_e }} 
                     <span v-if="row_item.link.length != 0">
                         <span v-for="link_to in row_item.link" :key="link_to.id">
                             <template v-if="link_to['to'].search(/http/g) != -1">

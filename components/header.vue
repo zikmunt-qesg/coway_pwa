@@ -26,7 +26,7 @@
                             <span @click.stop="showSubMenu(item)" :class="show_site_map!=true ? 'd-none d-lg-inline-block f-85' : 'text-white'">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
                         </div>
                             <ul v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 custom-ul" >
-                            <li @click.stop="routerGo(level2_item.link)"> {{ is_ENG!=true ? `${level2_item.title}`:`${level2_item.title_en}`  }}</li>
+                            <li @click.stop="routerGo(level2_item.link)"> {{ is_ENG!=true ? `${level2_item.title}`:`${level2_item.title_en}` }}</li>
                             </ul> 
                             <!-- <div class="d-block d-lg-none f-60">&nbsp;</div>     -->
                     </b-navbar-nav>
@@ -117,9 +117,13 @@ export default {
             }
         },
         routerGo(target){
-            let eng = this.is_ENG? '?l=ENG' : ''
-            console.log(this.linkLib(target+eng))
-            this.$router.push(this.linkLib(target+eng))
+            this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
+            let q = { ...this.$route.query }
+            if (this.is_ENG==true){
+                q.l = 'ENG'
+            }
+            else q = {}
+            this.$router.push({ path: target, query: q, hash:this.$route.hash })                 
         },
         toggleLang(){
             if(this.is_ENG==true){

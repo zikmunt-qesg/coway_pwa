@@ -7,7 +7,7 @@ export const state = () => ({
           indicators: '조직명칭',
           indicators_e: 'Name of the organization',
           link: '',
-          Note_e: '',
+          Note_e: 'Coway',
           Note: '코웨이'
         },
         {
@@ -16,10 +16,10 @@ export const state = () => ({
           code: '102-2',
           indicators: '활동 및 대표 브랜드, 제품 및 서비스',
           indicators_e: 'Primary brands, products, and services',
-          link: [{'to':'http://www.coway.co.kr/Product/', 'name_e':'', 'name': '제품소개', 'icon':'fas fa-external-link-alt' }, 
-                 {'to':'http://www.coway.co.kr/Service/Index', 'name_e':'', 'name': '서비스 소개', 'icon':'fas fa-external-link-alt' }],
+          link: [{'to':'http://www.coway.co.kr/Product/', 'name_e':'Product Introduction', 'name': '제품소개', 'icon':'fas fa-external-link-alt' }, 
+                 {'to':'http://www.coway.co.kr/Service/Index', 'name_e':'Service Introduction', 'name': '서비스 소개', 'icon':'fas fa-external-link-alt' }],
           Note_e: '',
-                 Note: ''
+          Note: ''
         },
         {
           classification: '조직프로필',
@@ -27,7 +27,7 @@ export const state = () => ({
           code: '102-3',
           indicators: '본사의 위치',
           indicators_e: 'Location of the headquarters',
-          link: [{'to':'http://www.coway.co.kr/Company/Company/Map', 'name_e':'', 'name': '서울특별시 중구 서소문로 88 코웨이 서소문빌딩 11층~18층', 'icon':'fas fa-external-link-alt' }, ],
+          link: [{'to':'http://www.coway.co.kr/Company/Company/Map', 'name_e':'11th-18th floor, Coway, 88, Seosomun-ro, Jung-gu, Seoul, Republic of Korea', 'name': '서울특별시 중구 서소문로 88 코웨이 서소문빌딩 11층~18층', 'icon':'fas fa-external-link-alt' }, ],
           Note_e: '',
           Note: ''
         },
@@ -37,7 +37,7 @@ export const state = () => ({
           code: '102-4',
           indicators: '사업 지역',
           indicators_e: 'Location of operations',
-          link: [{'to':'http://www.coway.co.kr/Company/Company/Map', 'name_e':'', 'name': '국내/외 사업장 위치', 'icon':'fas fa-external-link-alt' }],
+          link: [{'to':'http://www.coway.co.kr/Company/Company/Map', 'name_e':'Domestic/overseas locations of operations', 'name': '국내/외 사업장 위치', 'icon':'fas fa-external-link-alt' }],
           Note_e: '',
           Note: ''
         },
@@ -57,7 +57,7 @@ export const state = () => ({
           code: '102-6',
           indicators: '시장 영역',
           indicators_e: 'Markets served',
-          link: [{'to':'http://www.coway.co.kr/Company/Company/Business2', 'name_e':'', 'name': '사업영역', 'icon':'fas fa-external-link-alt' }],
+          link: [{'to':'http://www.coway.co.kr/Company/Company/Business2', 'name_e':'Business Area', 'name': '사업영역', 'icon':'fas fa-external-link-alt' }],
           Note_e: '',
           Note: ''
         },
@@ -67,7 +67,7 @@ export const state = () => ({
           code: '102-7',
           indicators: '조직의 규모',
           indicators_e: 'Scale of the organization',
-          link: [{'to':'http://www.coway.co.kr/Company/Company/Coway', 'name_e':'', 'name': '코웨이 프로필', 'icon':'fas fa-external-link-alt' }],
+          link: [{'to':'http://www.coway.co.kr/Company/Company/Coway', 'name_e':'Coway Profile', 'name': '코웨이 프로필', 'icon':'fas fa-external-link-alt' }],
           Note_e: '',
           Note: ''
         },
@@ -88,10 +88,10 @@ export const state = () => ({
           indicators: '조직의 공급망',
           indicators_e: 'Organization’s supply chain',
           link: [{'to':'/static_page/Supplier-CSR-Report', 'name_e':'Supplier CSR Report', 'name': '협력사 CSR 리포트', 'icon':'fas fa-link' },
-                 {'to':'/static_page/Train-Lifecare-Professional-Partners', 'name_e':'', 'name': '라이프케어 전문 파트너 양성', 'icon':'fas fa-link' },
-                 {'to':'/static_page/Win-Win', 'name_e':'', 'name': '동반성장', 'icon':'fas fa-link' }],
+                 {'to':'/static_page/Train-Lifecare-Professional-Partners', 'name_e':'Lifecare Professional Partners', 'name': '라이프케어 전문 파트너 양성', 'icon':'fas fa-link' },
+                 {'to':'/static_page/Win-Win', 'name_e':'Mutual Growth', 'name': '동반성장', 'icon':'fas fa-link' }],
           Note_e: '',
-                 Note: ''
+          Note: ''
         },
         {
           classification: '조직프로필',
@@ -100,7 +100,7 @@ export const state = () => ({
           indicators: '조직 및 공급망의 중대한 변화',
           indicators_e: 'Significant changes regarding the organization and its supply chai',
           link: '',
-          Note_e: '',
+          Note_e: 'In February 2020, the largest shareholder was changed to Netmarble Co., Ltd.',
           Note: '2020년 2월 최대주주가 (주)넷마블로 변경되었습니다.'
         },
         {
@@ -110,7 +110,7 @@ export const state = () => ({
           indicators: '사전예방 원칙 및 접근',
           indicators_e: 'Precautionary Principle or approach',
           link: '',
-          Note_e: '',
+          Note_e: 'Coway supports the precautionary principle.',
           Note: '코웨이는 사전예방 원칙을 지지합니다.'
         },
         {
@@ -119,7 +119,7 @@ export const state = () => ({
           code: '102-12',
           indicators: '외부이니셔티브',
           indicators_e: 'External initiatives',
-          link: [{'to':'/static_page/Policies-and-Initiatives', 'name_e':'', 'name': '정책 및 이니셔티브', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Policies-and-Initiatives', 'name_e':'Policies and Initiatives', 'name': '정책 및 이니셔티브', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -139,7 +139,7 @@ export const state = () => ({
           code: '102-14',
           indicators: '최고 의사 결정권자 성명서',
           indicators_e: 'Statement from senior decision-maker',
-          link: [{'to':'/static_page/CEO-Message', 'name_e':'', 'name': 'CEO 메시지', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/CEO-Message', 'name_e':'CEO Message', 'name': 'CEO 메시지', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -159,10 +159,10 @@ export const state = () => ({
           code: '102-16',
           indicators: '가치, 원칙, 표준, 행동강령',
           indicators_e: 'Values, principles, standards, and norms of behavior',
-          link: [{'to':'http://www.coway.co.kr/Company/Company/ValueSystem', 'name_e':'', 'name': '코웨이 가치체계', 'icon':'fas fa-external-link-alt'},
+          link: [{'to':'http://www.coway.co.kr/Company/Company/ValueSystem', 'name_e':'Coway Value System', 'name': '코웨이 가치체계', 'icon':'fas fa-external-link-alt'},
                  {'to':'/static_page/Ethical-Management', 'name_e':'Ethical Management', 'name': '윤리경영', 'icon':'fas fa-link' }],
           Note_e: '',
-                 Note: ''
+          Note: ''
         },
         {
           classification: '윤리성 및 청렴성',
@@ -190,7 +190,7 @@ export const state = () => ({
           code: '102-22',
           indicators: '최고의사결정기구와 산하 위원회의 구성',
           indicators_e: 'Composition of the highest governance body and its committees',
-          link: [{'to':'/static_page/Corporate-Governance#f1-3', 'name_e':'Corporate Governance', 'name': '지배구조 - 이사회 산하 위원회 운영', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#f1-3', 'name_e':'Corporate Governance - Committees under the BOD', 'name': '지배구조 - 이사회 산하 위원회 운영', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -200,7 +200,7 @@ export const state = () => ({
           code: '102-23',
           indicators: '최고의사결정기구의 의장',
           indicators_e: 'Chair of the highest governance body',
-          link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance', 'name': '지배구조 - 이사회 구성 현황', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Current Status of the BOD', 'name': '지배구조 - 이사회 구성 현황', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -270,7 +270,7 @@ export const state = () => ({
           code: '102-42',
           indicators: '이해관계자 파악 및 선정',
           indicators_e: 'Identifying and selecting stakeholders',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e2', 'name_e':'Stakeholder Engagement and Material Topics', 'name': '이해관계자 참여 및 중요 주제 - 중대성 평가', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e2', 'name_e':'Stakeholder Engagement and Material Topics - Materiality Assessment', 'name': '이해관계자 참여 및 중요 주제 - 중대성 평가', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -280,7 +280,7 @@ export const state = () => ({
           code: '102-43',
           indicators: '이해관계자 참여 방식',
           indicators_e: 'Approach to stakeholder engagement',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e1', 'name_e':'Stakeholder Engagement and Material Topics', 'name': '이해관계자 참여 및 중요 주제 - 이해관계자 참여', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e1', 'name_e':'Stakeholder Engagement and Material Topics - Stakeholder Engagement', 'name': '이해관계자 참여 및 중요 주제 - 이해관계자 참여', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -290,7 +290,7 @@ export const state = () => ({
           code: '102-44',
           indicators: '이해관계자 참여를 통해 제기된 핵심 주제와 관심사',
           indicators_e: 'Key topics and concerns raised',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics - Context and Long-Term Target', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -300,10 +300,10 @@ export const state = () => ({
           code: '102-45',
           indicators: '조직의 연결 재무제표에 포함된 entities(자회사 및 합작회사)의 리스트',
           indicators_e: 'Entities included in the consolidated financial statements',
-          link: [{'to':'http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330002548', 'name_e':'연결대상 종속회사 7개사: WOONGJIN COWAY(Thailand) Co., Ltd. | WOONGJIN COWAY(Malaysia) SDN. BHD. | Woongjin Coway USA. Inc. | Coway China Co., Ltd. | PT COWAY INTERNATIONAL INDONESIA | 포천맑은물㈜ | 웅진코웨이엔텍㈜', 
+          link: [{'to':'http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330002548', 'name_e':'Total 7 Entities: WOONGJIN COWAY(Thailand) Co., Ltd. | WOONGJIN COWAY(Malaysia) SDN. BHD. | Woongjin Coway USA. Inc. | Coway China Co., Ltd. | PT COWAY INTERNATIONAL INDONESIA | 포천맑은물㈜ | 웅진코웨이엔텍㈜', 
                   'name': '2020 사업보고서 - I. 회사의 개요_1. 회사의 개요', 'icon':'fas fa-external-link-alt' }],
           Note_e: '',
-                  Note: ''
+          Note: ''
         },
         {
           classification: '보고서 관행',
@@ -321,7 +321,7 @@ export const state = () => ({
           code: '102-47',
           indicators: 'Material Topic 리스트',
           indicators_e: 'List of material topics',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e2-3', 'name_e':'Stakeholder Engagement and Material Topics', 'name': '이해관계자 참여 및 중요 주제 - 중요 주제 보고', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e2-3', 'name_e':'Stakeholder Engagement and Material Topics - Step 3. Reporting', 'name': '이해관계자 참여 및 중요 주제 - 중요 주제 보고', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -332,7 +332,7 @@ export const state = () => ({
           indicators: '정보의 재기술',
           indicators_e: 'Restatements of information',
           link: '',
-          Note_e: '',
+          Note_e: 'If there are significant changes, the information is marked as a footnote.',
           Note: '중요한 변동이 있을 경우 해당 정보의 주석으로 표시하였습니다.'
         },
         {
@@ -342,7 +342,7 @@ export const state = () => ({
           indicators: '보고의 변화',
           indicators_e: 'Changes in reporting',
           link: '',
-          Note_e: '',
+          Note_e: 'There are no particular changes to the reporting policy.',
           Note: '보고 정책의 특별한 변화가 없습니다.'
         },
         {
@@ -352,7 +352,7 @@ export const state = () => ({
           indicators: '보고 기간',
           indicators_e: 'Reporting period',
           link: '',
-          Note_e: '',
+          Note_e: '2019.01.01 ~ 2019.12.31',
           Note: '2019.01.01 ~ 2019.12.31'
         },
         {
@@ -362,8 +362,8 @@ export const state = () => ({
           indicators: '가장 최근 보고일자',
           indicators_e: 'Date of most recent report',
           link: '',
-          Note_e: '',
-          Note: '2019.07 코웨이 2019 지속가능보고서'
+          Note_e: '2019 Coway Sustainability Report (2019.07)',
+          Note: '코웨이 2019 지속가능보고서(2019.07)'
         },
         {
           classification: '보고서 관행',
@@ -372,7 +372,7 @@ export const state = () => ({
           indicators: '보고 주기',
           indicators_e: 'Reporting cycle',
           link: '',
-          Note_e: '',
+          Note_e: '1 Year',
           Note: '1년'
         },
         {
@@ -382,7 +382,7 @@ export const state = () => ({
           indicators: '보고서에 대한 문의처',
           indicators_e: 'Contact point for questions regarding the report',
           link: '',
-          Note_e: '',
+          Note_e: 'sustainability@coway.co.kr',
           Note: 'sustainability@coway.co.kr'
         },
         {
@@ -392,7 +392,7 @@ export const state = () => ({
           indicators: 'GRI Contents에 따른 보고 방식',
           indicators_e: 'Claims of reporting in accordance with the GRI Standards',
           link: '',
-          Note_e: '',
+          Note_e: 'GRI Standard Core Option',
           Note: 'GRI Standard Core Option'
         },
         {
@@ -402,7 +402,7 @@ export const state = () => ({
           indicators: 'GRI Index',
           indicators_e: 'GRI Index',
           link: '',
-          Note_e: '',
+          Note_e: 'Current page',
           Note: '현재 페이지'
         },
         {
@@ -421,7 +421,7 @@ export const state = () => ({
           code: '103-1',
           indicators: 'Material Topic과 그 경계에 대한 설명',
           indicators_e: 'Explanation of the material topic and its Boundary',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics - Context and Long-Term Target', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -432,7 +432,7 @@ export const state = () => ({
           indicators: '경영 접근법과 그 구성 요소',
           indicators_e: 'The management approach and its components',
           link: '',
-          Note_e: '',
+          Note_e: 'Indicated separately in the MA column for each major subject in the GRI Table.',
           Note: 'GRI Table의 각 중요주제별 MA란에 별도 표기하였습니다.'
         },
         {
@@ -442,7 +442,7 @@ export const state = () => ({
           indicators: '경영 방식 평가',
           indicators_e: 'Evaluation of the management approach',
           link: '',
-          Note_e: '',
+          Note_e: 'Indicated separately in the MA column for each major subject in the GRI Table.',
           Note: 'GRI Table의 각 중요주제별 MA란에 별도 표기하였습니다.'
         }
     ],
@@ -473,7 +473,7 @@ export const state = () => ({
           code: '201-2',
           indicators: '기후변화의 재무적 영향과 사업활동에 대한 위험과 기회',
           indicators_e: 'Financial implications and other risks and opportunities due to climate change',
-          link: [{'to':'/static_page/Responses-to-Climate-Change#n2', 'name_e':'Climate Change', 'name': '기후변화 대응 - 기후변화의 위험과 기회 분석', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change#n2', 'name_e':'Climate Change - Risks and Opportunities of Climate Change', 'name': '기후변화 대응 - 기후변화의 위험과 기회 분석', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -484,7 +484,7 @@ export const state = () => ({
           indicators: '조직의 확정급여형 연금제도 채무 충당',
           indicators_e: 'Defined benefit plan obligations and other retirement plans',
           link: '',
-          Note_e: '',
+          Note_e: 'No Report',
           Note: '보고하지 않음'
         },
         {
@@ -494,7 +494,7 @@ export const state = () => ({
           indicators: '정부 지원 보조금 수혜 실적',
           indicators_e: 'Financial assistance received from government',
           link: '',
-          Note_e: '',
+          Note_e: 'No Report',
           Note: '보고하지 않음'
         },
         {
@@ -574,7 +574,7 @@ export const state = () => ({
           indicators: '경쟁저해행위, 독과점 등 불공정한 거래행위에 대한 법적 조치',
           indicators_e: 'Legal actions for anti-competitive behavior, anti-trust, and monopoly practices',
           link: '',
-          Note_e: '',
+          Note_e: 'There have been no cases of unfair trading practices such as anti-competitive behavior, anti-trust, and monopoly.',
           Note: '독과점 등 불공정 거래 행위로 인한 적발사례가 없습니다.'
         }
     ],
@@ -585,7 +585,7 @@ export const state = () => ({
           code: '301-1',
           indicators: '사용된 원료의 중량과 부피',
           indicators_e: 'Materials used by weight or volume',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Resource Efficiency and Circular Economy', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -595,7 +595,7 @@ export const state = () => ({
           code: '301-2',
           indicators: '사용된 원료 중 재생 원료의 투입',
           indicators_e: 'Recycled input materials used',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Resource Efficiency and Circular Economy', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -605,7 +605,7 @@ export const state = () => ({
           code: '301-3',
           indicators: '제품 및 포장재 재생 원료',
           indicators_e: 'Reclaimed products and their packaging materials',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Resource Efficiency and Circular Economy', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -635,7 +635,7 @@ export const state = () => ({
           code: '302-2',
           indicators: '조직 외부 에너지 소비',
           indicators_e: 'Energy consumption outside of the organization',
-          link: [{'to':'/static_page/Responses-to-Climate-Change#n3', 'name_e':'Climate Change', 'name': '기후변화 대응 - 협력사 탄소 파트너십', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Responses-to-Climate-Change#n3', 'name_e':'Climate Change - Carbon Partnership with Supplier', 'name': '기후변화 대응 - 협력사 탄소 파트너십', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -745,9 +745,9 @@ export const state = () => ({
           code: '305-6',
           indicators: '오존층 파괴 물질의 배출',
           indicators_e: 'Emissions of ozone-depleting substances(ODS)',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 냉매 회수 및 재활용', 'icon':'fas fa-link' }],
-          Note_e: '',
-          Note: ''
+          link: '',
+          Note_e: 'N/A',
+          Note: 'N/A'
         },
         {
           classification: '배출',
@@ -756,7 +756,7 @@ export const state = () => ({
           indicators: '질소산화물, 황산화물 그리고 다른 주요 대기 배출물',
           indicators_e: 'Nitrogen oxides(NOx), sulfur oxides(SOx), and other significant air emissions',
           link: '',
-          Note_e: '',
+          Note_e: `All of Coway's business sites do not have air emission facilities, and therefore do not emit air pollutants such as NOx and sulfur oxides.`,
           Note: '코웨이의 모든 사업장은 대기배출시설을 보유하고 있지 않으며 따라서 질소산화물(NOx), 황산화물(Sox) 등의 대기오염물질을 배출하지 않습니다.'
         },
         {
@@ -786,7 +786,7 @@ export const state = () => ({
           indicators: '중대한 유출',
           indicators_e: 'Significant spills',
           link: '',
-          Note_e: '',
+          Note_e: 'There were no significant spills during the reporting period.',
           Note: '보고 기간 중 중대한 유출 사고가 없습니다.'
         },
         {
@@ -796,7 +796,7 @@ export const state = () => ({
           indicators: '유해폐기물 운송',
           indicators_e: 'Transport of hazardous waste',
           link: '',
-          Note_e: '',
+          Note_e: 'During the reporting period, there are no significant hazardous waste transportations or overseas exports.',
           Note: '보고 기간 중 중대한 유해폐기물의 운송 또는 해외 반출이 존재하지 않습니다.'
         },
         {
@@ -806,7 +806,7 @@ export const state = () => ({
           indicators: '수질 및 목적지에 따른 폐수 배출',
           indicators_e: 'Water discharge by quality and destination',
           link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Reduction of Water Consumption', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
-          Note_e: '',
+          Note_e: 'All water resources are discharged to the sewage treatment plant after being used as utility water.',
           Note: '모든 수자원은 유틸리티 용수로 사용 후 하수처리장으로 배출합니다'
         },
         {
@@ -816,7 +816,7 @@ export const state = () => ({
           indicators: '폐수 배출로 인해 영향을 받은 수역',
           indicators_e: 'Water bodies affected by water discharges and/or runoff',
           link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-4', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Reduction of Water Consumption', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 전과정 수자원 사용량 절감', 'icon':'fas fa-link' }],
-          Note_e: '',
+          Note_e: 'All water resources are discharged to the sewage treatment plant after being used as utility water.',
           Note: '모든 수자원은 유틸리티 용수로 사용 후 하수처리장으로 배출하여 주의가 필요한 영향 수역이 존재하지 않습니다.'
         },
         {
@@ -826,7 +826,7 @@ export const state = () => ({
           indicators: '환경법규 위반',
           indicators_e: 'Non-compliance with environmental laws and regulations',
           link: '',
-          Note_e: '',
+          Note_e: 'There were no violations of environmental regulations during the reporting period.',
           Note: '보고 기간 중 환경법규 위반이 존재하지 않습니다.'
         },
         {
@@ -836,18 +836,17 @@ export const state = () => ({
           indicators: '환경 기준 심사를 거친 신규 공급업체 비율',
           indicators_e: 'New suppliers that were screened using environmental criteria',
           link: '',
-          Note_e: '',
+          Note_e: 'When selecting a new supplier, we apply environmental management policies & strategies, internal audit system for environmental/hazardous substances, management of hazardous substances (receipt-process-shipment), information sharing of environmental/hazardous substances, and training and education standards.',
           Note: '신규 공급업체 선정 시 환경경영 방침&전략, 환경/유해물질 내부감사시스템, 유해물질 관리(입고-공정-출하) 관리, 환경/유해물질 정보공유 및 교육훈련 심사 기준에 적용하고 있습니다.'
         },
         {
           classification: '공급업체 환경평가',
           classification_e: 'Supplier Environmental Assessment',
           code: '308-2',
-          indicators:
-            '공급망 내 실질적이거나 잠재적으로 중대한 부정적 환경영향 및 이에 대한 조치',
+          indicators: '공급망 내 실질적이거나 잠재적으로 중대한 부정적 환경영향 및 이에 대한 조치',
           indicators_e: 'Negative environmental impacts in the supply chain and actions taken',
           link: '',
-          Note_e: '',
+          Note_e: 'When selecting a new supplier, we apply environmental management policies & strategies, internal audit system for environmental/hazardous substances, management of hazardous substances (receipt-process-shipment), information sharing of environmental/hazardous substances, and training and education standards.',
           Note: '신규 공급업체 선정 시 환경경영 방침&전략, 환경/유해물질 내부감사시스템, 유해물질 관리(입고-공정-출하) 관리, 환경/유해물질 정보공유 및 교육훈련 심사 기준에 적용하고 있습니다.'
         }
     ],
@@ -868,7 +867,7 @@ export const state = () => ({
           code: '401-2',
           indicators: '비정규 직원 혹은 파트타임 직원에게는 제공되지 않는 정규직 직원 대상의 보상',
           indicators_e: 'Benefits provided to full-time employees that are not provided to temporary or part-time employees',
-          link: [{'to':'http://www.coway.co.kr/Company/CowayRecruit/HR ', 'name_e':'', 'name': '코웨이 채용사이트 - 복지제도', 'icon':'fas fa-external-link-alt'}],
+          link: [{'to':'http://www.coway.co.kr/Company/CowayRecruit/HR ', 'name_e':'Coway Recruitment Site-Welfare System', 'name': '코웨이 채용사이트 - 복지제도', 'icon':'fas fa-external-link-alt'}],
           Note_e: '',
           Note: ''
         },
@@ -959,7 +958,7 @@ export const state = () => ({
           indicators: '정기적 성과 및 경력 개발 리뷰를 받은 임직원 비율',
           indicators_e: 'Percentage of employees receiving regular performance and career development reviews',
           link: [{'to':'http://sustainability19.coway.co.kr/html/sub_03_03_02.asp', 'name_e':'', 'name': '2019 코웨이 지속가능성 보고서 - 공정한 인재채용', 'icon':'fas fa-external-link-alt'}],
-          Note_e: '',
+          Note_e: 'N/A',
           Note: 'N/A'
         },
         {
@@ -988,7 +987,7 @@ export const state = () => ({
           code: '406-1',
           indicators: '차별 사건 및 이에 대한 시정조치',
           indicators_e: 'Incidents of discrimination and corrective actions taken',
-          link: [{'to':'/static_page/Human-Rights-Report#w2-2', 'name_e':'Human Rights Report', 'name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report#w2-2', 'name_e':'Human Rights Report - Risk Mitigations', 'name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -999,7 +998,7 @@ export const state = () => ({
           indicators: '근로자의 결사 및 단체 교섭의 자유가 심각하게 침해될 소지가 있다고 판단된 사업장 및 협력회사',
           indicators_e: 'Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk',
           link: '',
-          Note_e: '',
+          Note_e: 'No Report',
           Note: '보고하지 않음'
         },
         {
@@ -1029,7 +1028,7 @@ export const state = () => ({
           indicators: '사업과 관련된 인권 정책 및 절차에 관한 훈련을 받은 보안요원의 비율',
           indicators_e: 'Security personnel trained in human rights policies or procedures',
           link: '',
-          Note_e: '',
+          Note_e: 'N/A',
           Note: 'N/A'
         },
         {
@@ -1039,7 +1038,7 @@ export const state = () => ({
           indicators: '원주민의 권리 침해사고 건수와 취해진 조치',
           indicators_e: 'Incidents of violations involving rights of indigenous peoples',
           link: '',
-          Note_e: '',
+          Note_e: 'There have been no serious or needful infringements of Aboriginal rights within the reporting period.',
           Note: '보고기간내 심각하거나 주의가 필요한 원주민 권리 침해 사고가 존재하지 않습니다.'
         },
         {
@@ -1048,7 +1047,7 @@ export const state = () => ({
           code: '412-1',
           indicators: '인권 영향평가 혹은 인권 검토 대상 사업장',
           indicators_e: 'Operations that have been subject to human rights reviews or impact assessments',
-          link: [{'to':'/static_page/Human-Rights-Report#w2-1', 'name_e':'Human Rights Report', 'name': '인권 리포트 - 리스크 식별', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report#w2-1', 'name_e':'Human Rights Report - Risk Identification', 'name': '인권 리포트 - 리스크 식별', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1069,7 +1068,7 @@ export const state = () => ({
           indicators: '인권 조항 또는 인권 심사 시행을 포함한 주요 투자 협약과 계약',
           indicators_e: 'Significant investment agreements and contracts that include human rights clauses or that underwent human rights screening',
           link: '',
-          Note_e: '',
+          Note_e: 'N/A',
           Note: 'N/A'
         },
         {
@@ -1089,7 +1088,7 @@ export const state = () => ({
           indicators: '지역사회에 중대한 실질적/잠재적인 부정적 영향이 존재하는 사업장',
           indicators_e: 'Operations with significant actual and potential negative impacts on local communities',
           link: '',
-          Note_e: '',
+          Note_e: 'There are no operations with serious or needing negative effects during the reporting period.',
           Note: '보고기간 중 심각하거나 주의가 필요한 부정적 영향이 존재하는 사업장이 없습니다.'
         },
         {
@@ -1099,7 +1098,7 @@ export const state = () => ({
           indicators: '사회적 영향평가를 통해 스크리닝된 신규 협력회사',
           indicators_e: 'New suppliers that were screened using social criteria',
           link: '',
-          Note_e: '',
+          Note_e: 'When selecting a new supplier, fair trade, written management of win-win growth contracts, labor relations, and turnover rates are applied to the screening criteria.',
           Note: '신규 공급업체 선정 시 공정거래, 동반성장 계약 서면 관리 노사관계, 이직율등을 심사 기준에 적용하고 있습니다.'
         },
         {
@@ -1109,7 +1108,7 @@ export const state = () => ({
           indicators: '공급망 내 주요한 부정적인 사회 영향과 이에 대한 시행 조치',
           indicators_e: 'Negative social impacts in the supply chain and actions taken',
           link: '',
-          Note_e: '',
+          Note_e: 'When selecting a new supplier, fair trade, written management of win-win growth contracts, labor relations, and turnover rates are applied to the screening criteria.',
           Note: '신규 공급업체 선정 시 공정거래, 동반성장 계약 서면 관리 노사관계, 이직율등을 심사 기준에 적용하고 있습니다.'
         },
         {
