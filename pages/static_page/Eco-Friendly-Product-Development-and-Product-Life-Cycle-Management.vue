@@ -363,7 +363,7 @@
                     <b-img src="/images/130_1.svg" fluid class="w-100"></b-img>
                     <hr class="mb-4">
                     <b-row no-gutters class="mb-5">
-                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 코웨이 리퍼프 제품 판매 목표</h7>
+                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 코웨이 리퍼프 제품 판매 전략</h7>
                             <b-img src="/images/36_1.svg" fluid style="width: 88%;"></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-5 position-relative d-flex align-items-end">
@@ -504,7 +504,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 col-md-9 col-lg-8 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">02</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Eco-Friendly Product Development and Product Life Cycle Management</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Eco-Friendly Product Development and Life Cycle Management</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -815,7 +815,7 @@
                         </ul>
                     <hr class="py-3">
 
-                    <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3">Recovery & Recycling Refrigerant</h6-ancor>
+                    <h6-ancor hash="m2-2" :activated="activated" class="fw-500 green5 mb-3 font-noto">Recovery & Recycling Refrigerant</h6-ancor>
                     <p class="mb-5"> In order to minimize environmental pollution caused by refrigerants, we use eco-friendly refrigerants while recovering refrigerants (R-134a) used in our products at the time of their disposal and dispose of them through a company designated by the Ministry of Environment. Since 2018, Coway has expanded and operated refrigerant and oil recovery from 1 to 2 locations. Recycling operators are continuously monitoring for proper management and operation of water purifier and dehumidifier refrigerant and oil recovery and recycling. In 2019, about 6.1 tons of refrigerant was recovered and recycled.
                     </p>
 
@@ -843,7 +843,7 @@
                     <b-img src="/images/309_5.svg" fluid class="w-100"></b-img>
                     <hr class="mb-4">
                     <b-row no-gutters class="mb-5">
-                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 Coway Refurbished Product Sales Goal</h7>
+                        <b-col class="col-12 col-sm-7"> <h7 class="mb-3 gray63 font-noto">2020 Refurbished Product Sales Strategy</h7>
                             <b-img src="/images/309_6.svg" fluid style="width: 88%;"></b-img>
                         </b-col>
                         <b-col class="col-12 col-sm-5 position-relative d-flex align-items-end">
@@ -917,7 +917,7 @@
                                     <b-td class="text-left">Discharged Wastewater</b-td>    <b-td>0</b-td> <b-td>0</b-td><b-td>0</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Water Consumption Intensity</b-td><b-td class="text-left">Ton/100 million KRW</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
+                                    <b-td class="text-left">Water Consumption Intensity</b-td><b-td class="text-left">ton/100 million KRW</b-td> <b-td>3.102</b-td> <b-td>2.987</b-td><b-td>3.573</b-td>
                                 </b-tr>
                             </b-tbody> 
                         </b-table-simple>
@@ -983,7 +983,7 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Eco-friendly Product Development and Product Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
+            return this.is_ENG? 'Eco-friendly Product Development and Life Cycle Management' : '친환경 제품 개발과 제품 전 과정 관리'
         },
         sub_titles(){
             let temp = [

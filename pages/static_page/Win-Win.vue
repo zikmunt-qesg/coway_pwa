@@ -98,7 +98,7 @@
                         </p>
                         <hj-img src="/images/16_1.svg" fluid></hj-img>
                         <hr class="space-p25">
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" block>상생포털 바로가기</b-button></a>
+                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" class="px-2">상생포털 바로가기</b-button></a>
 
                         <hr class="mb-4">
 
@@ -300,7 +300,7 @@
                 <hr class="py-2">
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Support for Growth Through Communication with Suppliers</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Support for Growth through Communication</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45"> Coway is pursuing mutual growth to create a healthy industrial ecosystem based on open communication with suppliers. Coway's strategy for promoting mutual growth is to secure global competitive advantage is as follows: 1) secure competitive advantage in quality/cost/technology/productivity, 2) strengthen the foundation for sustainable management, 3) secure management stability. Accordingly, Coway is pursuing open communication with its suppliers as a key strategy in implementing the shared growth strategy.
                         </p>
                         <hj-img src="/images/314_1.svg" fluid class="w-100"></hj-img>
@@ -312,7 +312,7 @@
                         </p>
                         <hj-img src="/images/314_2.svg" fluid></hj-img>
                         <hr class="space-p25">
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" block>Coway Mutual Growth Portal<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" class="px-3">Coway Mutual Growth Portal<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                         <hr class="mb-4">
 
@@ -410,7 +410,7 @@
                                 </b-tbody>                                
                             </b-table-simple>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Promoting Fair Trade Practice</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="t2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Promoting Fair Trade Practices</h6-ancor><div class="horizontal-line-2 position-absolute" style="z-index:8"></div></div>
                         <p class="mb-3"> Coway operates 4 guidelines about fair trade for mutual cooperation to rightfully reflect the rights and interests of suppliers and to prevent the abuse of superior bargaining power by the principal-agent.
                         </p>
                         <p class="mb-3"> The 4 guidelines for fair trade are as follows: 1)	Signing a desirable contract, 2) Ensuring fairness and transparency in the selection and operation of suppliers, 3)	Observing guidelines for a proper contract between large and medium-sized enterprises, 4) Establishing and operating a transaction review committee. To comply with this, we are continuously monitoring and documenting compliance with the guidelines centered on fair trade managers. In 2019, a new bidding system was introduced to select transparent suppliers, and training on system use was provided to suppliers.
@@ -458,10 +458,10 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Support for Growth through Communication with Suppliers': '협력사와의 소통을 통한 성장지원', hash: 't1' 
+                    title: this.is_ENG? 'Support for Growth through Communication': '협력사와의 소통을 통한 성장지원', hash: 't1' 
                 },
                 { 
-                    title: this.is_ENG? 'Promoting Fair Trade Practice': '공정거래 문화 조성', hash: 't2'
+                    title: this.is_ENG? 'Promoting Fair Trade Practices': '공정거래 문화 조성', hash: 't2'
                 }
             ]
             return temp            

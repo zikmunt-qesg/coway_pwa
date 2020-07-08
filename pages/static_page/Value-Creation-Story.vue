@@ -235,7 +235,7 @@
                                     <b-td class="text-left" colspan="2">Technology protection and lease for Suppliers</b-td><b-td class="text-left">case</b-td><b-td>6</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">Input</b-td><b-td colspan="2" class="text-left">Environmental investmentS<sup>5)</sup></b-td><b-td class="text-left">1 million KRW</b-td><b-td>1,502</b-td>
+                                    <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">Input</b-td><b-td colspan="2" class="text-left">Environmental investment<sup>5)</sup></b-td><b-td class="text-left">1 million KRW</b-td><b-td>1,502</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2">Consumption of raw materials</b-td><b-td class="text-left">ton</b-td><b-td>17,670</b-td>

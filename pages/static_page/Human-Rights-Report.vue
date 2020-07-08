@@ -35,7 +35,7 @@
                     <p class="mb-4 font-noto">코웨이의 인권 경영은 1) 유엔 기업과 인권 이행원칙(UN Guiding Principles on Business and Human Rights)와 비교하는 진단 분석(Gap Analysis), 2) 글로벌 인권 행동플랫폼 및 NGO 등 3rd-Party의 인권 관련 이슈 트래킹(Tracking), 3) 연례 이해관계자 조사를 통한 이슈 식별, 4) CSR 이슈제기 채널을 통한 통합 고충처리(Grievance Resolution) 내용을 종합적으로 검토하여 이뤄집니다. 
                     </p>
 
-                    <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" block class="mb-5">코웨이 인권정책</b-button></a>
+                    <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="px-3 mb-5">코웨이 인권 정책<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="w2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 리스크 식별 및 완화 프로세스</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -161,7 +161,7 @@
             <b-container class="px-0 eng-font-scale">
                 <section class="bg-white px-4 py-4">
                     <div class="border-top-dark pb-2 mb-5"></div>
-                    <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">Human Right Report</h4-ancor>
+                    <h4-ancor hash="T" :activated="activated" class="gold8 mb-4 mb-sm-5 mt-m-2">Human Rights Report</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative overflow-hidden"> <h6-ancor hash="w1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Human Rights Management Principles and Guide</h6-ancor></div>
                     <p> Globally there are growing concerns in human rights such as preventing discrimination and respecting diversity reinforcing human rights regulations and guidelines gradually. Many corporations take human rights management as a fundamental principle that assures sustainability. On the cornerstone of "Goodness" that our works contribute to creating a better world, Coway faithfully fulfills human rights management activities. Furthermore, Coway abides by every labor, human rights, and work condition standards of every country and region in which we conduct business. Coway human rights policy is applied to not only employees but also every stakeholder such as customers, suppliers, sales/service partners, and the local community.
@@ -171,7 +171,7 @@
                     <p class="mb-4 font-noto"> Coway human rights management is comprised of 1) Gap analysis which compares to UN Guiding Principles on Business and Human Rights, 2) Tracking human rights issue on 3rd parties such as Global Human Rights Action Platform and NGOs, 3) Identification of issues through annual stakeholder surveys, 4) Comprehensive review of integrated grievance resolution through CSR issues raising channel. 
                     </p>
 
-                    <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" block class="mb-5">Coway Human Rights Policy</b-button></a>
+                    <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="mb-5">Coway Human Rights Policy<i class="fas fa-external-link-alt ml-2"></i> </b-button></a>
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="w2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Human Rights Risk Identification and Mitigation Process</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -180,11 +180,11 @@
                     </p>
                     <p class="mb-5"> In the risk identification stage, we identify human rights risk by analyzing data for human rights risk and impacts and by conducting stakeholders survey, including suppliers, customers, and local organizations. Particularly, in 2019, an online-based human rights survey was conducted with core suppliers, identifying critical risks. If a significant risk is found in human rights impact evaluation results, we advise the workplace and the supplier to establish a mitigation action plan. The mitigation action process and outcome of measure are disclosed in this report.
                     </p>
-                    <div class="position-relative"><hj-img src="/images/318_1.svg" fluid></hj-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem">Coway Human Rights Risk Identification and Mitigation Process</h7>
+                    <div class="position-relative"><hj-img src="/images/318_1.svg" fluid></hj-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem">Risk Identification and Mitigation Process</h7>
                     </div>
                     <hr class="mb-4">
 
-                    <h6-ancor hash="w2-2" :activated="activated" class="gold6 fw-500 mb-2">Results of Measures on Key Human Rights Factors</h6-ancor>
+                    <h6-ancor hash="w2-2" :activated="activated" class="gold6 fw-500 mb-2">Risk Factors and Corrective Actions</h6-ancor>
                     <p class="font-noto mb-45">Key human rights issue and due diligence of value chain implemented in 2019 are as followed:
                     </p>
                     <b-img src="/images/318_2.svg" fluid></b-img>
@@ -306,10 +306,10 @@ export default {
                     title: this.is_ENG? 'Human Rights Management Principles and Guide': '인권 경영 원칙 및 가이드', hash: 'w1'
                 },
                 {
-                    title: this.is_ENG? 'Human Rights Risk Identification and Mitigation Process':'인권 리스크 식별 및 완화 프로세스', hash: 'w2',
+                    title: this.is_ENG? 'Risk Identification and Mitigation Process':'인권 리스크 식별 및 완화 프로세스', hash: 'w2',
                     child: [
                         { title: this.is_ENG? 'Risk Identification':'리스크 식별', hash: 'w2-1' }, 
-                        { title: this.is_ENG? 'Results of Measures on Key Human Rights Factors':'핵심적 인권 요소에 대한 조치 결과', hash: 'w2-2' }
+                        { title: this.is_ENG? 'Risk Factors and Corrective Actions':'핵심적 인권 요소에 대한 조치 결과', hash: 'w2-2' }
                     ]
                 },
             ]

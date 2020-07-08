@@ -3,7 +3,7 @@
     <logger title="정보보안 및 개인정보보호"></logger>
     <div class="w-100 bg-white bg-white-cover-m3 position-absolute"></div>
 
-    <b-container  v-if="this.$store.state.is_ENG==false" class="">
+    <b-container v-if="this.$store.state.is_ENG==false" class="">
         <b-row class="pt-md-5 px-3">
             <h1 class="mt-5 mb-3 text-center text-white w-100 fw-400">MATERIAL TOPICS</h1>
             <h7 class="mb-5 text-center w-100 f-95 text-white fw-300 font-noto"> 사람들이 언제 어디서나 깨끗한 물과 공기로 안심하고 건강한 삶을 살 수 있도록 하는 일, 코웨이가 걸어 온 한결 같은 길입니다. </h7>
@@ -55,7 +55,7 @@
                         </b-col>                        
                         <b-col class="col-12 col-md-8 px-2 position-relative pl-md-4">
                             <div class="position-absolute vertical-line-1 d-none d-md-block"></div>
-                            <h7 class="blue7 f-120 mb-3 ">Business relevance & Approach</h7>
+                            <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                             <p>ICT 기술의 급격한 발달을 기반으로 데이터 및 정보 기반 인프라의 활용성이 극대화되는 한편, 정보 유출 및 사이버 공격 등 사회적 문제에 대한 우려가 커지면서 국내외 모두 정보보안 및 개인정보보호 관련 법규제가 강화되고 있습니다. 
                             </p>
                             <p>코웨이는 렌탈 비즈니스의 특성상 많은 고객의 개인정보를 수집합니다. 따라서 고객정보를 안전하게 처리하는 것은 고객과의 신뢰 형성에 핵심적인 문제이며, 사업의 지속가능성 측면에서 중요한 이슈입니다. 또한 IT 기술을 활용한 서비스의 확장, 온라인 유통채널 확대에 따라 고객정보의 유입 경로가 분산되어 이에 적합한 정보보호 체계 강화의 필요성이 증가하였습니다.
@@ -176,10 +176,10 @@
                                     <b-td class="text-left">임직원 참여 직원 수</b-td><b-td>명</b-td><b-td>4,684</b-td><b-td>4,038</b-td><b-td>4,888</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">임직원 참여율</b-td><b-td>%</b-td><b-td>100%</b-td><b-td>90%</b-td><b-td>100%</b-td>
+                                    <b-td class="text-left">임직원 참여율</b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">위/수탁사 참여율<sup>2)</sup></b-td><b-td>%</b-td><b-td>100%</b-td><b-td>90%</b-td><b-td>100%</b-td>
+                                    <b-td class="text-left">위/수탁사 참여율<sup>2)</sup></b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -504,7 +504,7 @@
 
                     <hr class="py-2">
                     
-                    <h6-ancor hash="c2-2" :activated="activated" class="blue5 mb-3">Response to Global Data Protection Regulations</h6-ancor>
+                    <h6-ancor hash="c2-2" :activated="activated" class="blue5 mb-3">Response to Global Data Protection Regulations(GDPR)</h6-ancor>
                     <p class="font-noto"> While the adaptations of new products and services utilizing big data and IoT technologies are expanding, the regulation on personal information protection in the global market, led by the European Union, is strengthening. Accordingly, Coway has established a countermeasure to respond to global privacy regulations such as GDPR. Before launching the IoCare service in Europe in 2019, Coway has reviewed regulations, terms, and processes related to privacy protection to fulfill GDPR requirements. The result of analyzing the status of personal information processing was notified through the IoCare app, and the standard process contract item for the processing of personal information in Europe was reflected in the supplier contract. In addition, we prepared a guideline to comply with GDPR profiling protection measures in case of providing analysis services based on the collected data in the future.
                     </p>
                     <p class="mb-3">In preparation for the strengthened global data protection regulations, we established a response system for regulations on overseas privacy protection and prepared an integrated checklist by reviewing the personal information protection requirements by country of entry for the global expansion possibility.
@@ -525,7 +525,7 @@
                         </p>
                     </section>
                     <hr class="py-2">
-                    <h6-ancor hash="c2-3" :activated="activated" class="blue5 mb-3">Internalization Through Training</h6-ancor>
+                    <h6-ancor hash="c2-3" :activated="activated" class="blue5 mb-3">Internalization Through Information Security Training</h6-ancor>
                     <p class="mb-5 font-noto">Coway conducts information security training for its employees and trustees to raise information security awareness and strengthen its capabilities. Since 2013, we have been conducting an information security e-learning course, an essential course for all employees every year, and in 2018, we provided training on the importance of personal information protection to approximately 15,000 partners who process customer information in the workplace. In 2019, online information protection training was provided to all employees as well as offline training for new employees. Coway is striving to develop training methods and contents to raise the information security awareness of trustees as well as employees.
                     </p>
 
@@ -539,10 +539,10 @@
                                     <b-td class="text-left">Number of participating employees</b-td><b-td>person</b-td><b-td>4,684</b-td><b-td>4,038</b-td><b-td>4,888</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Participation Rate</b-td><b-td>%</b-td><b-td>100%</b-td><b-td>90%</b-td><b-td>100%</b-td>
+                                    <b-td class="text-left">Participation Rate</b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Contractor Participation Rate<sup>2)</sup></b-td><b-td>%</b-td><b-td>100%</b-td><b-td>90%</b-td><b-td>100%</b-td>
+                                    <b-td class="text-left">Contractor Participation Rate<sup>2)</sup></b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -556,7 +556,7 @@
                     <p class="mb-5">To implement the information protection system, we regularly monitor data security and privacy protection. In addition to operating information encryption and security systems to respond to external cyber-attacks and data breaches, we also conduct regular annual mock hacking training. Also, to ensure the safety of internal data management, an anomaly detection system for personal information detects risks and due diligence is conducted in high-risk areas to mitigate risks.
                     </p>
 
-                    <h6-ancor hash="c3-1" :activated="activated" class="blue5 mb-3">System-Based Risk Inspection and Due Diligence</h6-ancor>
+                    <h6-ancor hash="c3-1" :activated="activated" class="blue5 mb-3">System-based Risk Inspection and Due Diligence</h6-ancor>
                     <hj-img src="/images/307_5.svg" fluid></hj-img>
                     <hr class="py-4">              
                     
@@ -567,11 +567,11 @@
                         <p class="mb-5">Coway operated PII (Personal Identifiable Information) in PCs at main sales branches and sales offices. When a file containing personal information is stored above the standard value in PC, we detect personal information storage history with periodic inspection of PII and notify the user through the PC notification pop-ups and request to take appropriate measures such as seclusion, deletion, and encryption.
                         </p>
 
-                    <h6-ancor hash="c3-2" :activated="activated" class="blue5 mb-3 font-noto">Major Activities and Performances in 2019</h6-ancor>
+                    <h6-ancor hash="c3-2" :activated="activated" class="blue5 mb-3 font-noto">Monitoring Activities and Performances in 2019</h6-ancor>
                         <b-table-simple responsive class="sep-table f-85 fw-300 font-noto line-height-low">
                             <b-tbody>
                                 <b-tr class="bg-blue5 fw-300 text-white">
-                                    <b-td class="py-0">Category</b-td><b-td class="py-0">Content</b-td><b-td class="py-0">Major Activities and Performances in 2019</b-td>
+                                    <b-td class="py-0">Category</b-td><b-td class="py-0">Content</b-td><b-td class="py-0">Major Activities and Performances</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Operation of information protection management system</b-td>
@@ -753,30 +753,30 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Information Security and Personal Information Protection' : '정보보안 및 개인정보보호'
+            return this.is_ENG? 'Information Security & Privacy Protection' : '정보보안 및 개인정보보호'
         },
         sub_titles(){
             let temp = [
                 { 
                     title: this.is_ENG? 'Principles and Organizations':'정보보안 및 개인정보보호 원칙과 조직', hash: 'c1',
                     child: [
-                        { title: this.is_ENG? 'Information Security and Personal Information Protection Principles': '정보보안 및 개인정보보호 원칙', hash: 'c1-1' }, 
-                        { title: this.is_ENG? 'Information Protection Organization': '정보보호 조직', hash: 'c1-2' }, 
+                        { title: this.is_ENG? 'Principles': '정보보안 및 개인정보보호 원칙', hash: 'c1-1' }, 
+                        { title: this.is_ENG? 'Organizations': '정보보호 조직', hash: 'c1-2' }, 
                     ]
                 },
                 { 
                     title: this.is_ENG? 'Information Security Mgt. System': '정보보호 관리체계', hash: 'c2',
                     child: [
                         { title: this.is_ENG? 'Personal Information Life Cycle Mgt.':'개인정보보호 라이프사이클 관리', hash: 'c2-1'  }, 
-                        { title: this.is_ENG? 'Response to Global Data Protection Regulations':'글로벌 정보보호 규제 대응', hash: 'c2-2' }, 
-                        { title: this.is_ENG? 'Internalization through Training': '교육을 통한 정보보호 내재화', hash: 'c2-3'}
+                        { title: this.is_ENG? 'Response to GDPR':'글로벌 정보보호 규제 대응', hash: 'c2-2' }, 
+                        { title: this.is_ENG? 'Information Security Training': '교육을 통한 정보보호 내재화', hash: 'c2-3'}
                     ]
                 },
                 {
                     title: this.is_ENG? 'Monitoring and Due Diligence Process': '모니터링 및 실사 프로세스', hash: 'c3',
                     child: [
-                        { title: this.is_ENG? 'System-based Risk Inspection and Due Diligence': '시스템 기반 위험 점검 및 실사', hash: 'c3-1'},
-                        { title: this.is_ENG? 'Major Activities and Performances in 2019': '2019년 정보보호 모니터링 주요활동 및 성과', hash: 'c3-2'}
+                        { title: this.is_ENG? 'System-based Due Diligence': '시스템 기반 위험 점검 및 실사', hash: 'c3-1'},
+                        { title: this.is_ENG? 'Monitoring Activities': '2019년 정보보호 모니터링 주요활동 및 성과', hash: 'c3-2'}
                     ]
                 }
             ]
