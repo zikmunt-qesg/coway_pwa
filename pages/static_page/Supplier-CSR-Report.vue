@@ -32,7 +32,7 @@
                     </p>
 
                     <p class="mb-4">코웨이의 협력사 행동 규범은 EICC 행동 규범 및 기타 글로벌 가이드라인을 참고하여 작성되었습니다.</p>
-                    <b-button variant="gold" size="sm" class="px-3 mb-5" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" >협력사 행동규범 <i class="fas fa-external-link-alt ml-2"></i></b-button>
+                    <b-button variant="gold" size="sm" class="px-3 mb-5" target="_blank" href="/documents/Coway_supplier_code_of_conduct_kor.pdf" >협력사 행동규범 <i class="fas fa-external-link-alt ml-2"></i></b-button>
 
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="v2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">협력사 지속가능성 평가</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -224,7 +224,7 @@
                     </p>
 
                     <p class="mb-4">Coway Supplier Code of Conduct was developed with reference to the ELCC Code of Conduct and other global guidelines.</p>
-                    <b-button variant="gold" size="sm" class="px-3 mb-5" href="/documents/Coway_supplier_code_of_conduct_eng.pdf">Supplier Code of Conduct<i class="fas fa-external-link-alt ml-2"></i></b-button>
+                    <b-button variant="gold" size="sm" class="px-3 mb-5" target="_blank" href="/documents/Coway_supplier_code_of_conduct_eng.pdf">Supplier Code of Conduct<i class="fas fa-external-link-alt ml-2"></i></b-button>
 
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="v2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Supplier Sustainability Assessment</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>

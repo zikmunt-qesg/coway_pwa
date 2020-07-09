@@ -35,7 +35,7 @@
                     <p class="mb-4 font-noto">코웨이의 인권 경영은 1) 유엔 기업과 인권 이행원칙(UN Guiding Principles on Business and Human Rights)와 비교하는 진단 분석(Gap Analysis), 2) 글로벌 인권 행동플랫폼 및 NGO 등 3rd-Party의 인권 관련 이슈 트래킹(Tracking), 3) 연례 이해관계자 조사를 통한 이슈 식별, 4) CSR 이슈제기 채널을 통한 통합 고충처리(Grievance Resolution) 내용을 종합적으로 검토하여 이뤄집니다. 
                     </p>
 
-                    <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="px-3 mb-5">코웨이 인권 정책<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                    <a target="_blank" href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="px-3 mb-5">코웨이 인권 정책<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="w2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 리스크 식별 및 완화 프로세스</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -171,7 +171,7 @@
                     <p class="mb-4 font-noto"> Coway human rights management is comprised of 1) Gap analysis which compares to UN Guiding Principles on Business and Human Rights, 2) Tracking human rights issue on 3rd parties such as Global Human Rights Action Platform and NGOs, 3) Identification of issues through annual stakeholder surveys, 4) Comprehensive review of integrated grievance resolution through CSR issues raising channel. 
                     </p>
 
-                    <a href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="mb-5">Coway Human Rights Policy<i class="fas fa-external-link-alt ml-2"></i> </b-button></a>
+                    <a target="_blank" href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="mb-5">Coway Human Rights Policy<i class="fas fa-external-link-alt ml-2"></i> </b-button></a>
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="w2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Human Rights Risk Identification and Mitigation Process</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>

@@ -81,7 +81,7 @@
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-3">코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">코웨이 사회공헌 웹사이트 바로가기<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                        <a target="_blank" href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">코웨이 사회공헌 웹사이트 바로가기<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
                         <hr class="mb03">
                         <h7 class="gray63 mb-3">코웨이 사회공헌 전략</h7>
                         <b-img src="/images/10_1.svg" fluid></b-img>
@@ -369,7 +369,7 @@
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Contribution based on Goodness</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-3"> Coway promotes social contribution based on the management spirit of "Goodness" to protect the precious nature of water and air and make life healthy and enriched in a sustainable way. Based on Coway's core business capabilities, water and air, and employees, we are pursuing strategic social contributions to create new social values in the local community. The core value of Coway's social contribution is to create a better life and society by contributing to where it is most needed based on what Coway can do best.
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">Coway Social Contribution Website <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                        <a target="_blank" href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">Coway Social Contribution Website <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
                         <hr class="mb03">
                         <h7 class="gray63 mb-3">Coway Social Contribution Strategy</h7>
                         <b-img src="/images/317_1.svg" fluid></b-img>
