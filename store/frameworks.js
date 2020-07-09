@@ -298,11 +298,11 @@ export const state = () => ({
           classification: '보고서 관행',
           classification_e: 'Reporting Practice',
           code: '102-45',
-          indicators: '조직의 연결 재무제표에 포함된 entities(자회사 및 합작회사)의 리스트',
+          indicators: '조직의 연결 재무제표에 포함된 자회사 및 합작회사의 리스트',
           indicators_e: 'Entities included in the consolidated financial statements',
           link: [{'to':'http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330002548', 'name_e':'', 
                   'name': '2020 사업보고서 - I. 회사의 개요_1. 회사의 개요', 'icon':'fas fa-external-link-alt' }],
-          Note_e: 'Total 7 Entities: WOONGJIN COWAY(Thailand) Co., Ltd. | WOONGJIN COWAY(Malaysia) SDN. BHD. | Woongjin Coway USA. Inc. | Coway China Co., Ltd. | PT COWAY INTERNATIONAL INDONESIA | 포천맑은물㈜ | 웅진코웨이엔텍㈜',
+          Note_e: 'Total 7 Entities: WOONGJIN COWAY(Thailand) Co., Ltd. | WOONGJIN COWAY(Malaysia) SDN. BHD. | Woongjin Coway USA. Inc. | Coway China Co., Ltd. | PT COWAY INTERNATIONAL INDONESIA | Pocheon Clean Water Co,. Ltd. | Coway EnTech Co,. Ltd.',
           Note: ''
         },
         {
