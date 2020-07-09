@@ -14,7 +14,7 @@
                             <a href="http://www.coway.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway Homepage_KOR': '코웨이 홈페이지'}} </a>
                         </p>
                          <p class="ml-3 ml-md-0 mt-2 mb-0 f-80">
-                            <a href="http://www.coway.com/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway Homepage_ENG': '코웨이 홈페이지'}}  </a>
+                            <a href="http://www.coway.com/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway Homepage_ENG': '코웨이 영문 홈페이지'}}  </a>
                         </p>
                         <p class="ml-3 ml-md-0 mt-2 mb-0 f-80">
                             <a href="http://www.cowayir.co.kr/" target="_blank" class="footer-a"> <i class="fas fa-external-link-square-alt pr-2"></i>{{ is_ENG ? 'Coway IR Website': '코웨이 IR 사이트'}}  </a>
