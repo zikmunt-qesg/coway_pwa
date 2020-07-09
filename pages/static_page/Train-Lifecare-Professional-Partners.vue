@@ -202,7 +202,7 @@
                         </p>
                         <b-img src="/images/312_1.svg" fluid></b-img>
                         <hr class="mb-3">
-                    <h6-ancor hash="s1-1" :activated="activated" class="gold6 fw-500 mb-3">Expertise Improvement by Training</h6-ancor>
+                    <h6-ancor hash="s1-1" :activated="activated" class="gold6 fw-500 mb-3">Expertise Improvement Training</h6-ancor>
                         <p class="mb-45"> Coway offers systematic training programs to help partners build job skills and work in the long run. Training consists of technical training and service training to acquire product and service knowledge and technical training is the process of having a basic knowledge of Coway's products and services and mastering how to perform "heart service" through practical training. Service training is a process that allows you to develop a service mindset that treats customers with an overall understanding of the job. Also, a separate mentoring program is provided for steady start of new Codys.
                         </p>
                         <b-img src="/images/312_2.svg" fluid></b-img>
@@ -269,7 +269,7 @@ export default {
                 { 
                     title: this.is_ENG? 'Partner Expertise Enhancement': '파트너 전문성 강화', hash: 's1',
                     child: [
-                        { title: this.is_ENG? 'Expertise Improvement by Training': '파트너 전문성 향상을 위한 교육 지원', hash: 's1-1' }, 
+                        { title: this.is_ENG? 'Expertise Improvement Training': '파트너 전문성 향상을 위한 교육 지원', hash: 's1-1' }, 
                         { title: this.is_ENG? 'Supporting Partner with Field Issues':'현장 이슈에 기반한 파트너 지원', hash: 's1-2' }, 
                     ]
                 },

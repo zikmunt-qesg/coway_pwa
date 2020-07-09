@@ -237,7 +237,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">01</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Environmental Management</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Environmental Management for Clean Water and Air</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -298,12 +298,12 @@
                 <!-- End of DMA -->
                 <hr class="py-2">
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="k1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Environmental Management for Cleanliness</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="k1" :activated="activated" class="green7 f-130 fw-500 bg-white pr-5" style="z-index:10">Environmental Management</h6-ancor><div class="horizontal-line-2 green-line position-absolute" style="z-index:8"></div></div>
                         <p class=""> Coway's environmental management starts with a management spirit of "Goodness". Also, Coway participates in supporting and practicing the 10 principles of UNGC. Through the products and services made by Coway, we recognize that making the environment healthy and making people happy is a core value of the company and actively implementing it.
                         </p>
                         <p class="mb-45"> To minimize the environmental impact in the course of business operation, Coway declared environmental management since 2006, set missions, visions, environmental policies, and environmental goals, established the Environmental Management Committee and dedicated departments to practice company-wide eco-friendly management. In 2019, we were focusing on strengthening product safety by reflecting consumer needs and social requirements, following climate change, resource circulation, and eco-friendly product design based on existing environmental management strategies.
                         </p>
-                    <h6-ancor hash="k1-1" :activated="activated" class="fw-500 gray65 mb-3 f-105">Coway Environmental Management Policy</h6-ancor>
+                    <h6-ancor hash="k1-1" :activated="activated" class="fw-500 gray65 mb-3 f-105">Environmental Management Policy</h6-ancor>
                         <div class="row force-deflex mb-2">
                             <div class="col">
                                 <div class="temp-icon4 mb-3"><b-img src="/images/74_1.svg" fluid class="h-100"></b-img></div>
@@ -342,7 +342,7 @@
                     <hj-img src="/images/308_2.svg" fluid></hj-img>
                     
                 <hr class="mb-3">
-                <h6-ancor hash="k1-3" :activated="activated" class="mb-3 green5">Environmental Management Promotion System</h6-ancor>
+                <h6-ancor hash="k1-3" :activated="activated" class="mb-3 green5">Environmental Management System</h6-ancor>
                     <p> Coway operates the Environmental Management Committee to practice environmental management across the company. The Environmental Management Committee appointed and operated the head of the TQA Center as the chief environmental officer, promoting an environmental strategy centered on the environmental management team. To internalize the company-wide environmental management, the 'Ecoway  Council' is formed as a consultative body participating in each sector to discuss environmental issues regularly.
                     </p>
                     <p> In 2019, the Ecoway Council reported operational activities and performance reports on four key indicators related to company-wide environmental management (climate change, resource recycling, eco-friendly design, and chemical safety evaluation). First, to respond to climate change, the establishment and disclosure of mid- to long-term targets and the establishment of investment plans for reduction were discussed . In the resource circulation response sector, waste generation performance, cost, and waste improvement activities were discussed in the entire business process. In the eco-friendly design sector, refrigerant conversion and energy consumption efficiency status and analysis were reported as major agendas. Lastly, in the product environment and chemical substance management safety evaluation section, we reported measures to improve the operation of the product chemical substance management system (CSMS), activities to establish a regulatory network, and plans.
@@ -409,16 +409,16 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Environmental Management' : '깨끗한 물과 공기를 위한 환경경영'
+            return this.is_ENG? 'Environmental Management for Clean Water and Air' : '깨끗한 물과 공기를 위한 환경경영'
         },
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Environmental Management for Cleanliness': '환경경영을 통한 깨끗함의 가치 실현', hash: 'k1', 
+                    title: this.is_ENG? 'Environmental Management': '환경경영을 통한 깨끗함의 가치 실현', hash: 'k1', 
                     child: [
-                        { title: this.is_ENG? 'Coway Environmental Management Policy': '코웨이 환경경영 방침', hash: 'k1-1' }, 
+                        { title: this.is_ENG? 'Environmental Management Policy': '코웨이 환경경영 방침', hash: 'k1-1' }, 
                         { title: this.is_ENG? 'Environmental Management Strategy': '환경경영 전략', hash: 'k1-2' }, 
-                        { title: this.is_ENG? 'Environmental Management Promotion System':'환경경영 추진 체계', hash: 'k1-3' }, 
+                        { title: this.is_ENG? 'Environmental Management System':'환경경영 추진 체계', hash: 'k1-3' }, 
                     ]
                 },
                 { 

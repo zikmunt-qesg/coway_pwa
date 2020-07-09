@@ -129,7 +129,7 @@ export const state = () => ({
           code: '102-13',
           indicators: '협회 멤버십',
           indicators_e: 'Membership of associations',
-          link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Policy Influence', 'name': '지역사회 - 공공정책참여', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Public Policy Participation', 'name': '지역사회 - 공공정책참여', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -290,7 +290,7 @@ export const state = () => ({
           code: '102-44',
           indicators: '이해관계자 참여를 통해 제기된 핵심 주제와 관심사',
           indicators_e: 'Key topics and concerns raised',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics - Context and Long-Term Target', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics - Context and Long-term Targets', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -421,7 +421,7 @@ export const state = () => ({
           code: '103-1',
           indicators: 'Material Topic과 그 경계에 대한 설명',
           indicators_e: 'Explanation of the material topic and its Boundary',
-          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics - Context and Long-Term Target', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Stakeholder-Engagement-and-Material-Issues#e3', 'name_e':'Stakeholder Engagement and Material Topics - Context and Long-term Targets', 'name': '이해관계자 참여 및 중요 주제 - 중대성 맥락과 중장기 목표', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -523,7 +523,7 @@ export const state = () => ({
           code: '203-1',
           indicators: '공익을 위한 인프라 투자 및 서비스 지원 활동',
           indicators_e: 'Infrastructure investments and services supported',
-          link: [{'to':'/static_page/Local-Community#u1', 'name_e':'Local Community - Contribution based on Goodness', 'name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community#u1', 'name_e':'Local Community - Coway-like Social Contribution', 'name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -765,7 +765,7 @@ export const state = () => ({
           code: 'MA',
           indicators: '폐수 및 폐기물 경영 접근',
           indicators_e: 'Effluents and Waste Management Approach',
-          link: [{'to':'/static_page/Environmental-Management-for-Clean-Water-and-Air#k1-1', 'name_e':'Environmental Management - Coway Environmental Mgt. Policy', 'name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Environmental-Management-for-Clean-Water-and-Air#k1-1', 'name_e':'Environmental Management for Clean Water and Air - Coway Environmental Mgt. Policy', 'name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -987,7 +987,7 @@ export const state = () => ({
           code: '406-1',
           indicators: '차별 사건 및 이에 대한 시정조치',
           indicators_e: 'Incidents of discrimination and corrective actions taken',
-          link: [{'to':'/static_page/Human-Rights-Report#w2-2', 'name_e':'Human Rights Report - Risk Factors and Corrective Actions', 'name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report#w2-2', 'name_e':'Human Rights Report - Results of Measures on Key Human Rights Factors', 'name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1117,7 +1117,7 @@ export const state = () => ({
           code: '415-1',
           indicators: '정치적 기부',
           indicators_e: 'Political contributions',
-          link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Policy Influence', 'name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Public Policy Participation', 'name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1408,7 +1408,7 @@ export const state = () => ({
             code: '1.1.2', 
             indicators: '비상임 의장/선임 이사', 
             indicators_e: 'Non-executive Chairman/Lead Director',
-            link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Board of Directors', 'name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Responsible Management Centered on the BOD', 'name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },
@@ -1428,7 +1428,7 @@ export const state = () => ({
             code: '1.1.4', 
             indicators: '이사회 성별 다양성', 
             indicators_e: 'Gender Diversity',
-            link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Board of Directors', 'name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Responsible Management Centered on the BOD', 'name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            
@@ -1448,7 +1448,7 @@ export const state = () => ({
             code: '1.1.6', 
             indicators: '이사회 평균 임기', 
             indicators_e: 'Average Tenure',
-            link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Board of Directors', 'name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Corporate-Governance#f1-1', 'name_e':'Corporate Governance - Responsible Management Centered on the BOD', 'name': '지배구조 - 이사회 구성현황', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            
@@ -1604,21 +1604,21 @@ export const state = () => ({
         },            
         { 
             classification: '정책 영향', 
-            classification_e: 'Policy Influence',
+            classification_e: 'Public Policy Participation',
             code: '1.6.1', 
             indicators: '정책 공헌 및 지출', 
             indicators_e: 'Contributions and Other Spending',
-            link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Policy Influence', 'name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Public Policy Participation', 'name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            
         { 
             classification: '정책 영향', 
-            classification_e: 'Policy Influence',
+            classification_e: 'Public Policy Participation',
             code: '1.6.2', 
             indicators: '정책 공헌 및 지출 내역', 
             indicators_e: 'Largest Contributions and Expenditures',
-            link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Policy Influence', 'name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Local-Community#u3', 'name_e':'Local Community - Public Policy Participation', 'name': '지역사회 - 공공정책 참여', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            
@@ -1738,7 +1738,7 @@ export const state = () => ({
             code: '2.2.1', 
             indicators: '환경 정책 및 가이드라인', 
             indicators_e: 'Coverage of Corporate Requirements/Guidelines',
-            link: [{'to':'/static_page/Environmental-Management-for-Clean-Water-and-Air#k1-1', 'name_e':'Environmental Management - Coway Environmental Mgt. Policy', 'name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
+            link: [{'to':'/static_page/Environmental-Management-for-Clean-Water-and-Air#k1-1', 'name_e':'Environmental Management for Clean Water and Air - Coway Environmental Mgt. Policy', 'name': '깨끗한 물과 공기를 위한 환경경영 - 코웨이 환경경영 방침', 'icon':'fas fa-link' }],
             Note_e: '',
             Note: '' 
         },            
@@ -1868,7 +1868,7 @@ export const state = () => ({
             code: '3.3.1', 
             indicators: '인권 정책', 
             indicators_e: 'Human Rights - Commitment',
-            link: [{'to':'/static_page/Human-Rights-Report#w1', 'name_e':'Human Rights Report - Human Rights Principles', 'name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Human-Rights-Report#w1', 'name_e':'Human Rights Report - Management Principles and Guide', 'name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            
@@ -1898,7 +1898,7 @@ export const state = () => ({
             code: '3.6.1', 
             indicators: '사회공헌 전략', 
             indicators_e: 'Group-wide Strategy',
-            link: [{'to':'/static_page/Local-Community#u1', 'name_e':'Local Community - Contribution based on Goodness', 'name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
+            link: [{'to':'/static_page/Local-Community#u1', 'name_e':'Local Community - Coway-like Social Contribution', 'name': '지역사회 - 코웨이다운 사회공헌', 'icon':'fas fa-link' }],   
             Note_e: '',
             Note: '' 
         },            

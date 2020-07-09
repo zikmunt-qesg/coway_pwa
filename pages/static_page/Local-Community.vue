@@ -366,7 +366,7 @@
                 </section> 
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Contribution based on Goodness</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Coway-like Social Contribution</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-3"> Coway promotes social contribution based on the management spirit of "Goodness" to protect the precious nature of water and air and make life healthy and enriched in a sustainable way. Based on Coway's core business capabilities, water and air, and employees, we are pursuing strategic social contributions to create new social values in the local community. The core value of Coway's social contribution is to create a better life and society by contributing to where it is most needed based on what Coway can do best.
                         </p>
                         <a target="_blank" href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">Coway Social Contribution Website <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
@@ -523,7 +523,7 @@
                     </b-table-simple>
                 </section>
                 <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Policy Influence</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u3" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Public Policy Participation</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-45">Coway does not contribute political contributions under Article 31 of the Political Funding Act (limited donations).
                         </p>
 
@@ -613,7 +613,7 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Contribution based on Goodness':'코웨이다운 사회공헌', hash: 'u1',
+                    title: this.is_ENG? 'Coway-like Social Contribution':'코웨이다운 사회공헌', hash: 'u1',
                     child: [
                         { title: this.is_ENG? 'Practice Sharing with All Employees':'임직원과 함께하는 나눔 실천', hash: 'u1-1' }
                     ]
@@ -627,7 +627,7 @@ export default {
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Policy Influence': '공공정책 참여', hash: 'u3'
+                    title: this.is_ENG? 'Public Policy Participation': '공공정책 참여', hash: 'u3'
                 }
             ]
             return temp            

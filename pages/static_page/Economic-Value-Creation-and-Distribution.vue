@@ -241,7 +241,7 @@
                     </div>
                     <hr class="mb-3">
 
-                    <h6-ancor hash="j1-2" :activated="activated" class="parang6 fw-500 mb-2">Subscription Economy Synergy with Netmarble Acquisition</h6-ancor>
+                    <h6-ancor hash="j1-2" :activated="activated" class="parang6 fw-500 mb-2">Subscription Economy Synergy with Netmarble</h6-ancor>
                     <p class="mb-5">In February 2020, Netmarble acquired 25.08% of Coway's shares, becoming the largest shareholder. Netmarble's purchase of Coway's management rights opens up the possibility of incorporating the significant data operation know-how acquired by Netmarble in the game business into Coway products in the medium to long term. The rental industry is intensifying competition in items such as water purifiers. It is expected to create new values such as a smart home subscription economy through diversification of rental items and integration with the data industry.
                     </p>
                     <hr class="py-3">
@@ -393,7 +393,7 @@ export default {
                     title: this.is_ENG? 'Economic Value Creation':'경제적 가치 창출', hash: 'j1', 
                     child: [
                         { title: this.is_ENG? 'Steady Expansion of Overseas Business':'해외 사업의 꾸준한 확대', hash:'j1-1' }, 
-                        { title: this.is_ENG? 'Subscription Economy Synergy with Netmarble Acquisition':'넷마블 인수에 따른 구독경제 시너지 확대', hash:'j1-2' }
+                        { title: this.is_ENG? 'Subscription Economy Synergy with Netmarble':'넷마블 인수에 따른 구독경제 시너지 확대', hash:'j1-2' }
                     ]
                 },
                 { 
