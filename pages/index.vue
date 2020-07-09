@@ -57,7 +57,7 @@
                         </div>
                         <div class="mt-2 row w-100">
                             <div class="col-0 col-sm-2 col-md-1 col-lg-6 col-xl-7"></div> 
-                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-6 pl-5 pl-sm-4 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">혁신적이고 안정한 제품을 끊임없이 개발합니다.</div> </transition></div>
+                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-6 pl-5 pl-sm-4 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">혁신적이고 안전한 제품을 끊임없이 개발합니다.</div> </transition></div>
                         </div>
                     </div>
                 </div>
@@ -381,7 +381,7 @@
                         </div>
                         <div class="mt-2 row w-100">
                             <div class="col-0 col-sm-2 col-md-1 col-lg-4 col-xl-6"></div> 
-                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 pl-xl-5 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">constantly developing innovative and stable products.</div> </transition></div>
+                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 pl-xl-5 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">constantly developing innovative and safety products.</div> </transition></div>
                         </div>
                     </div>
                 </div>
@@ -537,7 +537,7 @@
                             <div class="blue7 f-105 fw-300 letter-narrow mt-m-3"><span class="main2-card-num"><animated-number :value="7.79" :fixed="2"></animated-number></span><br class="d-none d-md-inline d-xl-none">million Accounts</div>
                             <div class="text-right pl-2 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                         </div>
-                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with a rental account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
+                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
                         </div>
                     </b-col>
                 </b-row>
@@ -590,7 +590,7 @@
                     <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                         <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                         <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
-                        <div class="gray6 f-95 letter-narrow font-noto mb-45"> GHG emissions in 2019 is 0.234 tCO2e/100 million KRW compared to 0.357 tCO2e/100 million KRW in 2010. We have undertaken our best efforts to reduce GHG emissions that it is reduced by about 70% compared to the base year. In 2020, we set medium and long-term goals of 2030 based on the scientific reduction target plan.
+                        <div class="gray6 f-95 letter-narrow font-noto mb-45"> GHG emissions in 2019 is 0.234 tCO2e/100 million KRW compared to 0.357 tCO2e/100 million KRW in 2010. We have undertaken our best efforts to reduce GHG emissions that it is reduced by about 70% compared to the base year. In 2020, we set medium and long-term goals of 2030 based on SBTi(Science Based Targets Initiative).
                         </div>
                         <div class="d-flex justify-content-around align-items-end"> 
                             <div class="px-1"><b-img src="/images/316_1.svg" fluid></b-img></div>      
