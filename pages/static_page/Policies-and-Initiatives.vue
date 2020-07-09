@@ -35,18 +35,18 @@
                         <hr>
                             <h7 class="f-110 fw-500">윤리경영</h7>  
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" class="see-policy" target="_blank">윤리헌장 (국문) </b-button>
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_charter_of_ethics.pdf" class="see-policy" target="_blank">윤리헌장 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_charter_of_ethics.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group> 
                             <hr class="py-1">
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" class="see-policy" target="_blank">윤리규정 (국문) </b-button>
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_regulations_on_ethics.pdf" class="see-policy" target="_blank">윤리규정 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_regulations_on_ethics.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group>
                             <hr class="py-1">
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" class="see-policy" target="_blank">윤리실천지침 (국문) </b-button>
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_ethics.pdf" class="see-policy" target="_blank">윤리실천지침 (국문) </b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_ethics.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group>                               
                         <hr>
                             <h7 class="f-110 fw-500">협력사 지속가능성</h7>  
@@ -140,18 +140,18 @@
                         <hr>
                             <h7 class="f-110 fw-500">Ethical Management</h7>  
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" class="see-policy" target="_blank">The Charter of Ethics (Korean) </b-button>
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_charter_of_ethics.pdf" class="see-policy" target="_blank">The Charter of Ethics (Korean) </b-button>
+                                <b-button variant="light" href="/documents/Coway_charter_of_ethics.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group> 
                             <hr class="py-1">
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" class="see-policy" target="_blank">The Regulations on Ethics (Korean)</b-button>
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_guideline.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_regulations_on_ethics.pdf" class="see-policy" target="_blank">The Regulations on Ethics (Korean)</b-button>
+                                <b-button variant="light" href="/documents/Coway_regulations_on_ethics.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group>
                             <hr class="py-1">
                             <b-button-group class="w-100">
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" class="see-policy" target="_blank">The Code of Ethics (Korean)</b-button>
-                                <b-button variant="light" href="/documents/Coway_code_of_conduct_instruction.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_ethics.pdf" class="see-policy" target="_blank">The Code of Ethics (Korean)</b-button>
+                                <b-button variant="light" href="/documents/Coway_code_of_ethics.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group>                               
                         <hr>
                             <h7 class="f-110 fw-500">Supplier CSR</h7>  
