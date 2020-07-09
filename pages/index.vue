@@ -37,14 +37,14 @@
                             <div class="col-sm-1 col-md-3 col-lg-4 col-xl-5">&nbsp;</div>
                             <div class="col-sm-10 mt-2 mt-md-0 col-md-7 col-lg-8 col-xl-7 h-100 pr-5 pr-md-0 "><transition name="ran-1"> <b-img src="/images/i2_1.svg" v-if="slide==1 && visible==true" fluid class="h-100"></b-img> </transition></div>
                         </div>
-                        <div class="position-absolute d-none d-lg-block pl-md-4 ml-xl-5" style="bottom: 25%; left: 0; height: 33%;">
+                        <div class="position-absolute d-none d-lg-block pl-md-4 ml-xl-5" style="bottom: 25%; left: 0; height: 30%;">
                             <transition name="ran-2"> <b-img src="/images/i2_2.svg" v-if="slide==1 && visible" fluid class="h-100 pl-lg-5 ml-xl-5"></b-img> </transition>
                         </div>
-                        <div class="position-absolute row w-100 pl-xl-5 ml-xl-5 mt-4 mt-sm-0" style="top:21%; left: 0; height: 14%;">
+                        <div class="position-absolute row w-100 pl-xl-5 ml-xl-5 mt-4 mt-sm-0" style="top:21%; left: 0; height: 12%;">
                             <div class="col-sm-2 col-lg-2 col-xl-3">&nbsp;</div>
-                            <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-flex justify-content-end justify-content-md-start pl-xl-5"><transition name="ran-3"> <b-img src="/images/i2_3.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                            <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-none d-md-flex justify-content-md-start pl-xl-5"><transition name="ran-3"> <b-img src="/images/i2_3.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                         </div>
-                        <div class="position-absolute row w-100" style="bottom: 3%; left: 0; height: 33%;">
+                        <div class="position-absolute row w-100" style="bottom: 3%; left: 0; height: 30%;">
                             <div class="col-0 col-lg-2 col-xl-2">&nbsp;</div>
                             <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/i2_4.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                         </div>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="mt-2 row w-100">
                             <div class="col-0 col-sm-2 col-md-1 col-lg-6 col-xl-7"></div> 
-                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-6 pl-5 pl-sm-4 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">혁신적이고 안정한 제품을 끊임없이 개발합니다.</div> </transition></div>
+                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-6 pl-5 pl-sm-4 col-xl-5"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">혁신적이고 안전한 제품을 끊임없이 개발합니다.</div> </transition></div>
                         </div>
                     </div>
                 </div>
@@ -327,12 +327,12 @@
     
     
     <template  v-else >
-        <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+        <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="6000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
             <b-carousel-slide><template v-slot:img>
                 <div class="bg-i-img i1_bg">
                     <div class="position-relative carousel-height overflow-hidden">
                         <div class="position-absolute d-md-block pr-lg-5 mr-xl-5 m-r-5" style="top:0; right:0; height: 87%; max-width: 80%;">
-                            <transition name="tran-1"> <b-img src="/images/e1_1.svg" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
+                            <transition name="tran-1"> <b-img src="/images/e1_1.png" v-if="slide==0 && visible" fluid class="pr-xl-5 mr-xl-5" style="max-height: 100%;"></b-img> </transition>
                         </div>
                         <div class="position-absolute d-none d-xl-block pr-lg-2 mr-xl-5" style="top: 31%; right: 0; height: 33%;">
                             <transition name="tran-4"> <b-img src="/images/e1_4.svg" v-if="slide==0 && visible" fluid class="h-100 pr-xl-5 mr-xl-5"></b-img> </transition>
@@ -341,15 +341,15 @@
                             <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/e1_3.svg" v-if="slide==0 && visible" fluid class="pl-xl-5 ml-xl-5 h-100"></b-img> </transition></div>
                         </div>
                         <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 50%;">
-                            <transition name="tran-2"> <b-img src="/images/e1_2.svg" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
+                            <transition name="tran-2"> <b-img src="/images/e1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
                         </div>
                         <div class="mt-5 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-11 col-sm-9 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-10 col-xl-8"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway maximizes the value of the customer experience, </div> </transition></div> 
+                            <div class="col-11 col-sm-9 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt0"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">Coway maximizes the value of the customer experience, </div> </transition></div> 
                         </div>
                         <div class="mt-2 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
-                            <div class="col-9 col-sm-8 col-md-10 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">driving digital-based innovation such as big data, A.I., and IoT.</div> </transition></div> 
+                            <div class="col-9 col-sm-8 col-md-11 pl-5 pl-md-5 pl-lg-0 col-lg-8 col-xl-7"> <transition name="tran-txt1"> <div v-if="slide==0 && visible" class="fw-300 letter-narrow-lg carousel-title">driving digital-based innovation such as big data, A.I., and IoT.</div> </transition></div> 
                         </div>
                     </div>
                 </div>
@@ -364,9 +364,9 @@
                         <div class="position-absolute d-none d-lg-block pl-md-4 ml-xl-5" style="bottom: 25%; left: 0; height: 30%;">
                             <transition name="ran-2"> <b-img src="/images/i2_2.svg" v-if="slide==1 && visible" fluid class="h-100 pl-lg-5 ml-xl-5"></b-img> </transition>
                         </div>
-                        <div class="position-absolute row w-100 pl-xl-5 ml-xl-5 mt-4 mt-sm-0" style="top:21%; left: 0; height: 14%;">
+                        <div class="position-absolute row w-100 pl-xl-5 ml-xl-5 mt-4 mt-sm-0" style="top:21%; left: 0; height: 12%;">
                             <div class="col-sm-2 col-lg-2 col-xl-3">&nbsp;</div>
-                            <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-flex justify-content-end justify-content-md-start pl-xl-5"><transition name="ran-3"> <b-img src="/images/e2_3.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                            <div class="col-sm-10 col-lg-10 col-xl-9 h-100 d-none d-md-flex justify-content-md-start pl-xl-5"><transition name="ran-3"> <b-img src="/images/e2_3.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                         </div>
                         <div class="position-absolute row w-100" style="bottom: 3%; left: 0; height: 30%;">
                             <div class="col-0 col-lg-2 col-xl-2">&nbsp;</div>
@@ -376,12 +376,12 @@
                             <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-3"></b-img> </transition>
                         </div>
                         <div class="mt-5 pt-2 pt-xl-3 row w-100">
-                            <div class="col-0 col-sm-2 col-md-2 col-lg-4 col-xl-5"></div>
-                            <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-8 col-xl-7 pl-5 pl-sm-2 pl-xl-3"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title pl-xl-2">Coway specializes in the core of water and air,</div> </transition></div>
+                            <div class="col-0 col-sm-2 col-md-2 col-lg-4 col-xl-6"></div>
+                            <div class="col-12 text-right text-lg-left col-sm-10 col-md-10 col-lg-8 col-xl-6 pl-5 pl-sm-2 pl-xl-3"><transition name="tran-txt2"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title pl-xl-2">Coway specializes in the core of water and air,</div> </transition></div>
                         </div>
                         <div class="mt-2 row w-100">
                             <div class="col-0 col-sm-2 col-md-1 col-lg-4 col-xl-6"></div> 
-                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">constantly developing innovative and stable products.</div> </transition></div>
+                            <div class="col-12 col-sm-10 col-md-11 text-right text-lg-left col-lg-8 pl-5 pl-sm-4 pl-xl-5 col-xl-6"><transition name="tran-txt3"> <div v-if="slide==1 && visible" class="fw-300 letter-narrow-lg carousel-title">constantly developing innovative and safety products.</div> </transition></div>
                         </div>
                     </div>
                 </div>
@@ -394,14 +394,14 @@
                             <div class="col-lg-6 col-xl-5 h-100 d-none d-lg-block"><transition name="an-1"> <b-img src="/images/i3_2.svg" v-if="slide==2 && visible" fluid class="h-100"></b-img> </transition> </div>
                         </div>
                         <div class="position-absolute d-none d-md-block m-r-6" style="bottom:5%; height: 60%; max-width: 75%;">
-                            <transition name="an-2"> <b-img src="/images/e3_1.svg" v-if="slide==2 && visible" fluid class="" style="max-height: 100%;"></b-img> </transition>
+                            <transition name="an-2"> <b-img src="/images/e3_1.png" v-if="slide==2 && visible" fluid class="" style="max-height: 100%;"></b-img> </transition>
                         </div>
                         <div class="position-absolute row w-100 mt-5 mt-sm-0 pl-lg-5 ml-xl-5 d-flex justify-content-end justify-content-md-start" style="top:31%; left: 0; height: 21%;">
                             <transition name="an-3"> <b-img src="/images/e3_3.svg" v-if="slide==2 && visible" fluid class="h-100 mt-5 mt-sm-0 pl-md-5 ml-xl-5"></b-img> </transition>
                         </div>
                         <div class="position-absolute row w-100 mt-4 mt-md-0 " style="top:53%; left: 0; height: 33%;">
                             <div class="col-md-1 col-lg-2">&nbsp;</div>
-                            <div class="col-md-11 col-lg-10 h-100"><transition name="an-4"> <b-img src="/images/e3_4.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-4"></b-img> </transition></div>
+                            <div class="col-md-11 col-lg-10 h-100"><transition name="an-4"> <b-img src="/images/e3_4.png" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-4"></b-img> </transition></div>
                         </div>
                         <div class="position-absolute row w-100 pl-xl-5 d-none d-lg-block" style="top:47%; left: 0; height: 16%;">
                             <transition name="an-5"> <b-img src="/images/i3_5.svg" v-if="slide==2 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition>
@@ -438,13 +438,13 @@
                 <b-row>
                     <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                         <b-card class="bg-blue5 p-lg-2 h-100 position-relative border-0" >
-                            <div class="f-85 fw-300 pr-4"> 
+                            <div class="f-85 fw-300 pr-3 line-height-low"> 
                                 Recent global social and environmental issues such as the spread of the pandemic and increasing fine dust are driving the change in consumer life patterns, affecting home appliance market significantly.
                             </div>
                             <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
-                            <div class="position-absolute w-100 pr-5" style="top:10%">
+                            <div class="position-absolute w-100 pr-5 bluebox-helper-3">
                                 <div class="my-3 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
-                                <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">Product and Service Innovation</div></div>
+                                <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300 pb-lg-1 line-height-low">Product and Service Innovation</div></div>
                                 <div class="d-flex justify-content-between align-items-center"> 
                                     <b-img src="/images/153.png" rounded="circle" class="main1-card-img mt-2 mb-3 d-md-none d-lg-block"></b-img> 
                                     <div class="card-plus mt-md-4 mt-lg-0" @click="$router.push('/static_page/Product-and-Service-Innovation')"><div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
@@ -454,13 +454,13 @@
                     </b-col>
                     <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                         <b-card class="bg-blue6 p-lg-2 h-100 position-relative border-0">
-                            <div class="f-85 fw-300 pr-4">
+                            <div class="f-85 fw-300 pr-3 line-height-low">
                                 While a growing number of people are interested in sanitation of healthy indoor living environment, consumers put nonmaleficence to the human body, sanitation quality, and environmental impacts as priorities for product selection.
                             </div>
                             <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
-                            <div class="position-absolute w-100 pr-5" style="top:10%">
+                            <div class="position-absolute w-100 pr-5 bluebox-helper-1">
                                 <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
-                                <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">Product Responsibility</div></div>
+                                <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300 pb-lg-1 line-height-low">Product Responsibility</div></div>
                                 <div class="d-flex justify-content-between align-items-center"> 
                                     <b-img src="/images/154.png" rounded="circle" class="main1-card-img mt-2 mb-3 d-md-none d-lg-block"></b-img>
                                     <div class="card-plus mt-md-4 mt-lg-0" @click="$router.push('/static_page/Product-Responsibility')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
@@ -470,13 +470,13 @@
                     </b-col>
                     <b-col class="col-12 col-md-4 text-white mb-3 mb-md-0">
                         <b-card class="bg-blue4 p-lg-2 h-100 position-relative border-0" >
-                            <div class="f-85 fw-300 pr-4"> 
+                            <div class="f-85 fw-300 pr-3 line-height-low"> 
                                 As much as the applicability of data and information-based Infrastructure is maximized through the rapid development of ICT technology, there are rising concerns for social issues such as information leakage and cyber-attack.
                             </div>
                             <div class="my-2 my-md-4 my-xl-5" style="height:210px;"></div>
-                            <div class="position-absolute w-100 pr-5" style="top:10%">
+                            <div class="position-absolute w-100 pr-5 bluebox-helper-2">
                                 <div class="my-4 my-sm-2 my-md-5 my-lg-5 py-md-4 py-lg-1">&nbsp;</div>
-                                <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300">Information Security and Privacy Protection</div></div>
+                                <div class="d-flex align-items-center w-100" style="height:55px;"><div class="w-100 px-2 f-110 letter-narrow border border-white fw-300 pb-lg-1 line-height-low">Information Security and Privacy Protection</div></div>
                                 <div class="d-flex justify-content-between align-items-center"> 
                                     <b-img src="/images/155.png" rounded="circle" class="main1-card-img mt-2 mb-3 d-md-none d-lg-block"></b-img>
                                     <div class="card-plus mt-md-4 mt-lg-0"  @click="$router.push('/static_page/Information-Security-and-Personal-Information-Protection')"> <div class="bar horizontal"></div> <div class="bar vertical"></div> </div>
@@ -537,7 +537,7 @@
                             <div class="blue7 f-105 fw-300 letter-narrow mt-m-3"><span class="main2-card-num"><animated-number :value="7.79" :fixed="2"></animated-number></span><br class="d-none d-md-inline d-xl-none">million Accounts</div>
                             <div class="text-right pl-2 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                         </div>
-                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with a rental account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
+                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
                         </div>
                     </b-col>
                 </b-row>
@@ -590,7 +590,7 @@
                     <b-col class="col-12 col-md-4 position-relative py-4 py-md-0">
                         <div class="position-absolute d-none d-md-block bg-gray3" style="height: 100%; width:2px; left:0; top:0;"></div>
                         <div class="position-absolute d-block d-md-none bg-gray3" style="height: 2px; width:94%; left:3%; top:0;"></div>
-                        <div class="gray6 f-95 letter-narrow font-noto mb-45"> GHG emissions in 2019 is 0.234 tCO2e/100 million KRW compared to 0.357 tCO2e/100 million KRW in 2010. We have undertaken our best efforts to reduce GHG emissions that it is reduced by about 70% compared to the base year. In 2020, we set medium and long-term goals of 2030 based on the scientific reduction target plan.
+                        <div class="gray6 f-95 letter-narrow font-noto mb-45"> GHG emissions in 2019 is 0.234 tCO2e/100 million KRW compared to 0.357 tCO2e/100 million KRW in 2010. We have undertaken our best efforts to reduce GHG emissions that it is reduced by about 70% compared to the base year. In 2020, we set medium and long-term goals of 2030 based on SBTi(Science Based Targets Initiative).
                         </div>
                         <div class="d-flex justify-content-around align-items-end"> 
                             <div class="px-1"><b-img src="/images/316_1.svg" fluid></b-img></div>      
@@ -863,10 +863,42 @@ export default {
     width: 100px; 
     height: 100px;
 }
+.bluebox-helper-1,
+.bluebox-helper-3 {
+    top:10%;
+}
+.bluebox-helper-2 {
+    top:12.7%;
+}
 @media (min-width: 576px) {
     .local-temp-circle{
         width: 64px; 
         height: 64px;
+    }
+}
+@media (max-width: 640px) {
+    .bluebox-helper-1,
+    .bluebox-helper-2,
+    .bluebox-helper-3 {
+        top:15%;
+    }
+}
+@media (min-width: 640px) {
+    .bluebox-helper-1 {
+        top:15%;
+    }
+    .bluebox-helper-2,
+    .bluebox-helper-3 {
+        top:17.6%;
+    }
+}
+@media (min-width: 677px) {
+    .bluebox-helper-1,
+    .bluebox-helper-3 {
+        top:15%;
+    }
+    .bluebox-helper-2 {
+        top:17.6%;
     }
 }
 @media (min-width: 768px) {
@@ -874,17 +906,38 @@ export default {
         width: 70px; 
         height: 70px;
     }
+    .bluebox-helper-1,
+    .bluebox-helper-3 {
+        top:15%;
+    }
+    .bluebox-helper-2 {
+        top:17.6%;
+    }
 }
 @media (min-width: 992px) {
     .local-temp-circle{
         width: 80px; 
         height: 80px;
     }
+    .bluebox-helper-1,
+    .bluebox-helper-3 {
+        top:10%;
+    }
+    .bluebox-helper-2 {
+        top:12.7%;
+    }
 }
 @media (min-width: 1200px) {
     .local-temp-circle{
         width: 100px; 
         height: 100px;
+    }
+    .bluebox-helper-1,
+    .bluebox-helper-3 {
+        top:10%;
+    }
+    .bluebox-helper-2 {
+        top:12.7%;
     }
 }
 

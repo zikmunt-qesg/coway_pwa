@@ -158,7 +158,7 @@
                     <h4-ancor hash="T" :activated="activated" class="parang8 mb-4 mb-sm-5 mt-m-2">Value Creation Story</h4-ancor>
 
                     <div class="d-flex mb-2 position-relative"> <h6-ancor hash="d1" :activated="activated" class="parang7 f-130 fw-500 bg-white pr-5" style="z-index:10">Business Model</h6-ancor></div>
-                    <p>Established in 1989, Coway is a lifecare company that cares for the entire living environment. We have a differentiated business model which combines professional services with product rental. We built a structure to rent home appliances without burden on the initial purchase cost maintaining the value of the product through regular care services at the same time. Based on this structure, we have secured 7.2 million customer accounts at domestic and abroad and created stable cash flow which is the driving force for sustainable growth.
+                    <p>Established in 1989, Coway is a lifecare company that cares for the entire living environment. We have a differentiated business model which combines professional services with product rental. We built a structure to rent home appliances without burden on the initial purchase cost maintaining the value of the product through regular care services at the same time. Based on this structure, we have secured 7.2 million customer accounts at domestic and global and created stable cash flow which is the driving force for sustainable growth.
                     </p>
                     <p>By expanding the value of care, the key competence of Coway, we strive to provide water care, air care, body care, sleep care and home care products to help customers to relax and enjoy every daily environment, including air, water and sleep. In addition, we combined IoT technology with the products and developed new customized solution IoCare (Internet of Care) to reinforce our original competitive advantage and created new customer base through strengthening our new product lines and launching self-care products to develop as an engine for sustainability. 
                     </p>
@@ -235,7 +235,7 @@
                                     <b-td class="text-left" colspan="2">Technology protection and lease for Suppliers</b-td><b-td class="text-left">case</b-td><b-td>6</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">Input</b-td><b-td colspan="2" class="text-left">Environmental investmentS<sup>5)</sup></b-td><b-td class="text-left">1 million KRW</b-td><b-td>1,502</b-td>
+                                    <b-td class="text-left" rowspan="5">Natural Capital</b-td><b-td class="text-left" rowspan="3">Input</b-td><b-td colspan="2" class="text-left">Environmental investment<sup>5)</sup></b-td><b-td class="text-left">1 million KRW</b-td><b-td>1,502</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" colspan="2">Consumption of raw materials</b-td><b-td class="text-left">ton</b-td><b-td>17,670</b-td>
@@ -284,6 +284,11 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
+    head(){
+        return{
+            title: this.title + ' | Coway'
+        }
+    },
     asyncData({query, store}){
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')

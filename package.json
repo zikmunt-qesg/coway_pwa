@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-netlify-cms-starter",
+  "name": "coway_sustainability",
   "version": "1.0.0",
-  "description": "A very Spartan boilerplate for using Netlify CMS/static content files with Nuxt.js.",
-  "author": "Henry Desroches <yo@henry.codes> (https://henry.codes)",
+  "description": "코웨이 지속가능경영 보고서 | 코웨이",
+  "author": "Quantified_ESG (http://qesg.co.kr)",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -26,6 +26,7 @@
     "@nuxtjs/axios": "^5.9.5",
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/markdownit": "^1.2.6",
+    "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "bootstrap-vue": "^2.14.0",
     "chart.js": "^2.9.3",

@@ -20,7 +20,7 @@ export default {
                     hash = '#'+tok2[1]
                 }
                 else{
-                    query = tok[1]
+                    query = '?' + tok[1]
                     hash = ''
                 }
             }

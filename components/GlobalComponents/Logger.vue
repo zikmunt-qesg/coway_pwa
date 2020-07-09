@@ -27,7 +27,7 @@ export default {
 
                 return axios.post(path, formData)
                 .then( response => {
-                    console.log(response)
+                    // console.log(response)
                 })
             }
         }

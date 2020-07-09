@@ -1,0 +1,37 @@
+<svg id="구성_요소_43_1" data-name="구성 요소 43 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="74.552" viewBox="0 0 80 74.552">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #808083;
+      }
+
+      .cls-3 {
+        fill: #3e3a39;
+        font-size: 12px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-4 {
+        fill: #808083;
+        font-size: 11.5px;
+      }
+    </style>
+  </defs>
+  <path id="패스_36680" data-name="패스 36680" class="cls-1" d="M0,10H80V82H0Z" transform="translate(0 -10)"/>
+  <g id="구성_요소_39_2" data-name="구성 요소 39 – 2" transform="translate(13 9.969)">
+    <g id="그룹_21503" data-name="그룹 21503" transform="translate(-1845.848 -2033.859)">
+      <path id="패스_46" data-name="패스 46" class="cls-2" d="M1889.587,2053.053l-15.37-13.13-15.369,13.13" transform="translate(-1 -6.064)"/>
+      <path id="패스_47" data-name="패스 47" class="cls-2" d="M1864.828,2052.719v16H1885.5v-16" transform="translate(-1.949 -8.094)"/>
+    </g>
+    <text id="_" data-name="
+" class="cls-3" transform="translate(28 43.583)"><tspan x="0" y="0"></tspan><tspan x="0" y="16.8"></tspan></text>
+    <text id="Homepage" class="cls-4" transform="translate(0 46.583)"><tspan x="0" y="0">Homepage</tspan></text>
+  </g>
+</svg>

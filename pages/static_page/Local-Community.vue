@@ -33,7 +33,7 @@
                             </b-col>
                             <b-col class="col-12 col-sm-8 pr-2">
                                 <h7 class="gold7 mb-3">Business relevance &amp; Approach</h7>
-                                <p> 코웨이는 우리가 하는 일로 더 나은 세상을 만든다는 ‘착한 믿음’ 가지고 사람과 환경을 위한 나눔을 실천하고 있습니다. 코웨이는 깨끗한 물과 공기에 대한 전문성을 기반으로 가장 잘 할 수 있는 일을 통해, 가장 필요로 하는 곳에 기여하는 코웨이다운 사회공헌을 중점적으로 추진하고 있습니다. 코웨이는 깨끗한 물로 건강한 변화를 만들고, 청정한 공기를 마음껏 누릴 수 있도록 지원하고, 청년 창업가들과 꿈과 비전을 나눕니다.
+                                <p> 코웨이는 우리가 하는 일로 더 나은 세상을 만든다는 ‘착한믿음’ 가지고 사람과 환경을 위한 나눔을 실천하고 있습니다. 코웨이는 깨끗한 물과 공기에 대한 전문성을 기반으로 가장 잘 할 수 있는 일을 통해, 가장 필요로 하는 곳에 기여하는 코웨이다운 사회공헌을 중점적으로 추진하고 있습니다. 코웨이는 깨끗한 물로 건강한 변화를 만들고, 청정한 공기를 마음껏 누릴 수 있도록 지원하고, 청년 창업가들과 꿈과 비전을 나눕니다.
                                 </p>
                             </b-col>
                         </b-row>
@@ -79,9 +79,9 @@
                 <!-- End of DMA-->
                 <section class="mb-5">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">코웨이다운 사회공헌</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45">코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
+                        <p class="mb-3">코웨이는 물과 공기라는 소중한 자연의 가치를 지키고 지속가능한 방법으로 삶을 건강하고 풍요롭게 만들고자 ‘착한 믿음’의 경영정신을 바탕으로 사회공헌을 추진합니다. 코웨이의 핵심 비즈니스 역량인 물과 공기, 그리고 임직원을 기반으로 지역사회 공동체에 새로운 사회적 가치를 창출할 수 있도록 전략적 사회공헌을 추진하고 있습니다. 코웨이가 가장 잘할 수 있는 일을 기반으로 가장 필요로 하는 곳에 기여하여 더 나은 삶과 사회를 조성해 나가는 것이 코웨이 사회공헌의 핵심 가치입니다. 
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>코웨이 사회공헌 웹사이트 바로가기</b-button></a>
+                        <a target="_blank" href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">코웨이 사회공헌 웹사이트 바로가기<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
                         <hr class="mb03">
                         <h7 class="gray63 mb-3">코웨이 사회공헌 전략</h7>
                         <b-img src="/images/10_1.svg" fluid></b-img>
@@ -366,10 +366,10 @@
                 </section> 
                 <!-- End of DMA-->
                 <section class="mb-5">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">“Coway-like” Social Contribution</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-45"> Coway promotes social contribution based on the management spirit of "Goodness" to protect the precious nature of water and air and make life healthy and enriched in a sustainable way. Based on Coway's core business capabilities, water and air, and employees, we are pursuing strategic social contributions to create new social values in the local community. The core value of Coway's social contribution is to create a better life and society by contributing to where it is most needed based on what Coway can do best.
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u1" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Coway-like Social Contribution</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                        <p class="mb-3"> Coway promotes social contribution based on the management spirit of "Goodness" to protect the precious nature of water and air and make life healthy and enriched in a sustainable way. Based on Coway's core business capabilities, water and air, and employees, we are pursuing strategic social contributions to create new social values in the local community. The core value of Coway's social contribution is to create a better life and society by contributing to where it is most needed based on what Coway can do best.
                         </p>
-                        <a href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" block>Coway Social Contribution Website:</b-button></a>
+                        <a target="_blank" href="https://www.coway.co.kr/Company/Management/Contribution"><b-button variant="gold" size="sm" class="px-3">Coway Social Contribution Website <i class="fas fa-external-link-alt ml-2"></i></b-button></a>
                         <hr class="mb03">
                         <h7 class="gray63 mb-3">Coway Social Contribution Strategy</h7>
                         <b-img src="/images/317_1.svg" fluid></b-img>
@@ -399,7 +399,7 @@
                         </p>
                     </section>
                     <hr class="py-3">
-                    <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3">Practice Sharing with all Employees</h6-ancor>
+                    <h6-ancor hash="u1-1" :activated="activated" class="gold6 fw-500 mb-3">Practice Sharing with All Employees</h6-ancor>
                         <p class="mb-45"> Coway practices sharing through employees' social contribution activities. We operate an employee volunteer group led by the CEO, based on the active participation of all employees, including R&D centers and factories, as well as the head office. 
 
                         </p>
@@ -424,7 +424,7 @@
                         </b-table-simple>
                         <p class="f-80 ml-1 mb-5">1. Value conversion: Average hourly salary (estimated value) x Volunteer group employees x Volunteer hours per person</p>
                     <hr class="py-3">
-                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Coway’s Promises for Clean Water and Air</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
+                    <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="u2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Commitments for Clean Water and Air</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
                         <p class="mb-5"> Coway promotes three promises of water, air, and people as major social contribution areas to improve the quality of life by improving access to clean water and air to all communities and providing a sanitary environment. As a result, we provide water purifiers and air purifiers to the vulnerable groups at home and abroad as a key initiative to share the value of cleanliness, while supporting youth entrepreneurs in the lifestyle sector to create youth jobs and innovate industries.
                         </p>
                         <div class="position-relative"><b-img src="/images/317_3.svg" fluid></b-img> <h7 class="gray63 position-absolute" style="top:1.25rem; left:1.25rem;">Water, Air, People Key Performance</h7></div>
@@ -432,7 +432,7 @@
 
                 <section class="bg-blue-gray1 py-4 px-4 mb-5">
                     <div class="d-flex justify-content-between mb-3 mt-2">
-                        <h6-ancor hash="u2-1" :activated="activated" class="gold8 fw-500 mb-3 font-noto">"Promise 1.Water - Sharing the Water of Life"</h6-ancor>
+                        <h6-ancor hash="u2-1" :activated="activated" class="gold8 fw-500 mb-3 font-noto">Commitment 1. Water - Sharing the Water of Life</h6-ancor>
                         <b-img src="/images/13_1.svg" fluid></b-img>
                     </div>
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 6 – Clean Water and Sanitation</div>
@@ -467,7 +467,7 @@
                         </b-table-simple>
                     <hr class="py-2">
                     <div class="d-flex justify-content-between mb-3 mt-2">
-                        <h6-ancor hash="u2-2" :activated="activated" class="gold8 fw-500 mb-3 font-noto">"Promise 2.Air - Sharing Clean Air"</h6-ancor>
+                        <h6-ancor hash="u2-2" :activated="activated" class="gold8 fw-500 mb-3 font-noto">Commitment 2. Air - Sharing Clean Air</h6-ancor>
                         <b-img src="/images/12_1.svg" fluid></b-img>
                     </div> 
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 3 – Good Health and Well-Being</div>
@@ -494,7 +494,7 @@
                         </b-table-simple>
                     <hr class="py-2">
                     <div class="d-flex justify-content-between mb-3 mt-2">
-                        <h6-ancor hash="u2-3" :activated="activated" class="gold8 fw-500 mb-3 font-noto">"Promise 3. People - Sharing Dreams and Visions"</h6-ancor>
+                        <h6-ancor hash="u2-3" :activated="activated" class="gold8 fw-500 mb-3 font-noto">Commitment 3. People - Sharing Dreams and Visions</h6-ancor>
                         <b-img src="/images/11_1.svg" fluid></b-img>
                     </div> 
                     <div class="f-105 fw-500 font-noto mb-1">SDGs 8 – Decent Work and Economic Growth</div>
@@ -588,6 +588,11 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
+    head(){
+        return{
+            title: this.title + ' | Coway'
+        }
+    },
     asyncData({query, store}){
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')
@@ -608,17 +613,17 @@ export default {
         sub_titles(){
             let temp = [
                 { 
-                    title: this.is_ENG? 'Coway Like Social Contribution':'코웨이다운 사회공헌', hash: 'u1',
+                    title: this.is_ENG? 'Coway-like Social Contribution':'코웨이다운 사회공헌', hash: 'u1',
                     child: [
                         { title: this.is_ENG? 'Practice Sharing with All Employees':'임직원과 함께하는 나눔 실천', hash: 'u1-1' }
                     ]
                 },
                 { 
-                    title: this.is_ENG? 'Coways Vows for Clean Water and Air':'깨끗한 물과 공기를 위한 코웨이의 약속', hash: 'u2',
+                    title: this.is_ENG? 'Commitments for Clean Water and Air':'깨끗한 물과 공기를 위한 코웨이의 약속', hash: 'u2',
                     child: [
-                        { title: this.is_ENG? 'Vow 1. Water–Support Clean Water to Local Community': '약속 1. 물 - 지역사회 깨끗한 물 지원', hash: 'u2-1' },
-                        { title: this.is_ENG? 'Vow 2. Air–Support Environment Improvement for Vulnerable Social Group': '약속 2. 공기 - 취약계층 환경개선 지원', hash: 'u2-2'},
-                        { title: this.is_ENG? 'Vow 3. People–Support Youth Start Ups': '약속 3. 사람 - 청년 창업 지원', hash: 'u2-3'}
+                        { title: this.is_ENG? 'Commitments 1. Water – Sharing the Water of Life': '약속 1. 물 - 생명의 물 나눔', hash: 'u2-1' },
+                        { title: this.is_ENG? 'Commitments 2. Air – Sharing Clean Air': '약속 2. 공기 - 청정한 공기 나눔', hash: 'u2-2'},
+                        { title: this.is_ENG? 'Commitments 3. People – Sharing Dreams and Visions': '약속 3. 사람 - 꿈과 비전 나눔', hash: 'u2-3'}
                     ]
                 },
                 { 

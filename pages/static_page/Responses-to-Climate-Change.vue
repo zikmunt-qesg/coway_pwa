@@ -444,7 +444,7 @@
                         <b-row no-gutters class="px-3 pt-4">                            
                             <b-col class="col-12 mb-2 mb-sm-0 fw-500 green7">
                                 <h1 class="mt-m-2 mb-0">03</h1>
-                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2"> Responses to Climate Change</h4-ancor>
+                                <h4-ancor hash="T" :activated="activated" class="mb-4 mb-sm-5 mt-m-2">Climate Change</h4-ancor>
                             </b-col>
                         </b-row>
                         <b-row no-gutters class="px-3 py-4">
@@ -532,7 +532,7 @@
                         <p class="mb-5">Coway uses energy efficiently through its GHG reduction activities and business operation efficiency. We maximize energy efficiency by continuously introducing new and renewable energy, solar power generation. Coway installs and operates solar power at Yugu Plant (49.5KWh scale), Incheon Plant (39KWh), Pocheon Factory (45KWh scale), and Logistics Center (48.8KWh scale). Through this, 3 factories and distribution centers produced about 237MWh of electricity in 2019, reducing the GHG emission by about 110 tons. The energy storage system (ESS) introduced at the Yugu plant reduces peak loads and contributes to the distribution of energy consumption. Also, it has an energy cost-saving effect, saving approximately 120 million KRW in 2019. The LED lighting introduced in the Yugu Plant and Logistics Center improved the working environment in the workplace, reduced energy costs by more than 65 million KRW in 2019 based on the logistics center, and about 264 tons of GHG.
                         </p>
 
-                    <h6-ancor hash="n1-1" :activated="activated" class="green6 fw-500 mb-2">Science-based Target</h6-ancor>
+                    <h6-ancor hash="n1-1" :activated="activated" class="green6 fw-500 mb-2">Science Based Target Plan</h6-ancor>
                         <p class="mb-5"> Since 2020, Coway has set targets for 2030 and 2050 based on the Science-Based Target initiative to respond to the new climate change system. Since most of the energy relies on electric power, we are setting goals that substantial reductions can be made, such as the continuous installation, purchase, and reduction purchase of new and renewable energy. To this end, we changed the standard for calculating GHG emissions from our internal standard to the target system for energy and GHG in South Korea and recalculated GHG emissions in the last 3 years. As soon as the external GHG emissions verification of the last 3 years is completed, the targets for GHG reduction for 2030 and 2050 will be finalized and disclosed.
                         </p>
                     <hr class="py-3">
@@ -851,6 +851,11 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
+    head(){
+        return{
+            title: this.title + ' | Coway'
+        }
+    },
     asyncData({query, store}){
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')
@@ -866,14 +871,14 @@ export default {
             return this.$store.state.is_ENG
         },
         title(){
-            return this.is_ENG? 'Responses to Climate Change' : '기후변화 대응'
+            return this.is_ENG? 'Climate Change' : '기후변화 대응'
         },
         sub_titles(){
             let temp = [
                 { 
                     title: this.is_ENG? 'Climate Change Goals and Scenario Management':'기후변화 목표 및 시나리오 관리', hash: 'n1',
                     child: [
-                        { title: this.is_ENG? 'Science-based Target':'과학적 감축 목표(Science based Target)계획 도입', hash: 'n1-1' }, 
+                        { title: this.is_ENG? 'Science Based Target Plan':'과학적 감축 목표(Science based Target)계획 도입', hash: 'n1-1' }, 
                     ]
                 },
                 { 

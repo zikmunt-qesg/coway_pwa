@@ -663,19 +663,25 @@ table, .table {
 }
 
 .btn-gold {
-    background-color: $gold6;
-    color: $gray1;
+    // background-color: $gold6;
+    // color: $gray1;
+    background-color: rgba(0,0,0,0);
+    color: $gold6;
+    border: 1px solid $gold6;
 }
 .btn-gold:hover {
-    background-color:  $gold7;
+    background-color:  $gold6;
     color: white;
 }
 .btn-parang {
-    background-color: $parang6;
-    color: $gray1;
+    // background-color: $parang6;
+    // color: $gray1;
+    background-color: rgba(0,0,0,0);
+    color: $parang6;
+    border: 1px solid $parang6;
 }
 .btn-parang:hover {
-    background-color:  $parang7;
+    background-color:  $parang6;
     color: white;
 }
 

@@ -460,7 +460,7 @@
                     <div class="f-80 ml-1 mb-5 fw-300 font-noto gray55">
                         * As of June 2020
                     </div>
-                    <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">Independence and Expertise of BOD</h6-ancor>
+                    <h6-ancor hash="f1-2" :activated="activated" class="parang6 fw-500 mb-3">Independence and Expertise of the BOD</h6-ancor>
                     <p>The proportion of non-executive directors at Coway is 57.1%, which is higher than that of major companies in South Korea (51.3%, announced by the Fair-Trade Commission in December 2019). Coway's criteria for determining the independence of non-executive directors are specified in the articles of association of the Board of Directors under domestic, commercial law, fair trade law, and other laws.
                     </p>
                     <p class="mb-45">Directors are appointed at the general shareholders' meeting under Article 382 of the Commercial Act. The Board of Directors is composed of at least 3 to maximum 9 members according to the Board’s Articles of Incorporation. As of the end of 2019, Coway Board of Directors consists of 1 executive director, 5 non-excutive directors, and 1 non-registered director, but after the change of significant shareholders following the acquisition on February 7, 2020, 3 executive directors and 4 non-executive directors have been newly appointed. 
@@ -756,6 +756,11 @@ import LocaleMixin from '@/components/locale'
 export default {
     layout: 'StaticPage',
     mixins: [LocaleMixin],
+    head(){
+        return{
+            title: this.title + ' | Coway'
+        }
+    },
     asyncData({query, store}){
         if(query.l && query.l == 'ENG'){
             store.commit('setLang', 'ENG')
