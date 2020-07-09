@@ -327,7 +327,7 @@
     
     
     <template  v-else >
-        <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="0" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
+        <b-carousel id="intro-carousel" v-view="viewHandlerIntro" v-model="slide" :interval="6000" controls indicators background="#fff" @sliding-start="onSlideStart" @sliding-end="onSlideEnd" class="">
             <b-carousel-slide><template v-slot:img>
                 <div class="bg-i-img i1_bg">
                     <div class="position-relative carousel-height overflow-hidden">
