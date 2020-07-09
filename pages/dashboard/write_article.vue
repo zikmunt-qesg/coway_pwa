@@ -1,7 +1,7 @@
 <template>
 <div class="position-relative min-vh-100">
     <hr class="mb-3">
-    <b-container>
+    <b-container v-if="is_ENG!=true">
         <h3 class="mb-4 pb-2 border-bottom"> 뉴스 게시물 수정 및 작성 </h3>
         <div class="mb-3">
             <h7>Title</h7>
@@ -26,8 +26,45 @@
             <b-form-textarea v-model="contents" rows="8" placeholder="본문 내용을 작성하여 주십시오"></b-form-textarea>
         </div>
         <div class="mb-3 text-right">
-            <b-button @click="save" variant="blue" class="mr-2">저장</b-button>
+            <b-button @click="save" variant="blue" class="mr-2">저장 및 게시</b-button>
             <b-button @click.stop.prevent="$router.push('/dashboard/news_admin')">취소</b-button>
+        </div>
+        <hr class="mb-5">
+
+    </b-container>
+
+    <!-- 국문 뉴스 작성 끝 - 영문 뉴스 작성 시작 -->
+    <!-- 국문 뉴스 작성 끝 - 영문 뉴스 작성 시작 -->
+    <!-- 국문 뉴스 작성 끝 - 영문 뉴스 작성 시작 -->
+    <!-- 국문 뉴스 작성 끝 - 영문 뉴스 작성 시작 -->
+
+    <b-container v-else>
+        <h3 class="mb-4 pb-2 green6" style="border-bottom: 1px solid #0f7a5a"> Edit English Articles </h3>
+        <div class="mb-3">
+            <h7 class="">Title</h7>
+            <b-form-input v-model="title" placeholder="제목을 작성하여 주십시오"></b-form-input>
+        </div>
+        <div class="mb-3">
+            <h7 class="">Date</h7>
+            <b-form-datepicker v-model="date" placeholder="작성 날짜를 입력하여 주십시오"></b-form-datepicker>
+        </div>
+        <div class="mb-3">
+            <h7 class="">Description</h7>
+            <b-form-textarea v-model="description" rows="3" placeholder="핵심 요약 정보를 작성하여 주십시오"></b-form-textarea>
+        </div>
+        <div class="mb-3">
+            <h7 class="">Images</h7>
+            <b-form-file v-model="picture_file" :placeholder="picture_file.name"></b-form-file>
+            <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
+
+        </div>
+        <div class="mb-3">
+            <h7 class="">Article Contents</h7>
+            <b-form-textarea v-model="contents" rows="8" placeholder="본문 내용을 작성하여 주십시오"></b-form-textarea>
+        </div>
+        <div class="mb-3 text-right">
+            <b-button @click="save" variant="green" class="mr-2">Save & Post</b-button>
+            <b-button @click.stop.prevent="$router.push('/dashboard/news_admin')">Cancle</b-button>
         </div>
         <hr class="mb-5">
 
@@ -67,6 +104,9 @@ export default {
     ...mapState('articles', {
       articles: state => state.articles,
       is_articles_loaded: state => state.is_articles_loaded
+    }),
+    ...mapState({
+        is_ENG: state => state.is_ENG
     }),
   },
   methods: {

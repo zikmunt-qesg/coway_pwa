@@ -1,58 +1,128 @@
 <template>
 <div class="position-relative w-100">
-    <b-container class="py-4 px-2">
-        <h3 class="mb-4 pb-2 pt-1 border-bottom"> 지속가능경영 뉴스 게시물 </h3>
-        <b-table-simple responsive class="txt-table" :key="table_key">
-            <b-thead>
-                <b-tr>
-                    <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
-                </b-tr>
-            </b-thead>
-            <b-tbody v-for="item in current_articles" :key="item.id">
-                <b-tr>
-                    <b-td class="border-0">{{ item.index }}</b-td> 
-                    <b-td class="border-0">
-                        <b-button v-b-toggle="'collapse'+`${item.index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>
-                        <!-- <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button> -->
-                    </b-td>
-                    <b-td class="border-0">{{ item.date }}</b-td>                    
-                    <b-td class="border-0"> 
-                        <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" variant="blue"> 수정 </b-button>
-                    </b-td>
-                    <b-td class="border-0">
-                        <b-button @click.stop.prevent="deleteArticle({ id: item.id})"  variant="blue-border">삭제</b-button>
-                    </b-td>           
-                </b-tr>
-                <b-tr>
-                    <b-td colspan="5" class="p-0">
-                         <b-collapse :id="'collapse'+`${item.index}`" class="mb-4">
-                            <b-card class="border-dotted bg-gray1 gray6 py-md-2 px-md-3">
-                                <h7 class="border-bottom">{{ item.title }}</h7>
-                                <b-card-body v-if="item.description!=''" class="border-0 bg-transparent f-95 fw-400">{{ item.description }}</b-card-body>
-                                <b-card-body class="border-0 bg-transparent f-95"> <p v-html="$md.render(item.contents)"></p></b-card-body>
-                                <div v-if="item.picture!=null" class="mt-3">
-                                     <!-- <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img> -->
-                                    <span class="pl-3 f-80 gray6">{{ item.picture }}</span>
-                                </div>
-                            </b-card>
-                        </b-collapse>      
-                    </b-td>                
-                </b-tr>
-            </b-tbody>
-        </b-table-simple>
+    <b-container class="py-5 px-2">
+        <div class="d-flex justify-content-between align-items-center border-bottom pb-1 mb-5">
+            <h3 class=""> 지속가능경영 뉴스 게시물 </h3>
+            <b-button-group>
+                <b-button :variant="is_ENG!=true?'dark':'dark-border'" @click.stop="toggleLang('KOR')"> 국문 </b-button>
+                <b-button :variant="is_ENG==true?'dark':'dark-border'" @click.stop="toggleLang('ENG')"> 영문 </b-button>
+            </b-button-group>
+        </div>
         
-        <div class="d-flex justify-content-center news-indi">
-            <b-pagination
-            v-model="current_page"
-            :total-rows="articles.length"
-            :per-page="per_page"
-            aria-controls="article-table"
-            ></b-pagination>
+        <div v-if="is_ENG!=true">
+            <b-table-simple responsive class="txt-table" :key="table_key">
+                <b-thead>
+                    <b-tr>
+                        <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody v-for="item in current_articles" :key="item.id">
+                    <b-tr>
+                        <b-td class="border-0">{{ item.index }}</b-td> 
+                        <b-td class="border-0">
+                            <b-button v-b-toggle="'collapse'+`${item.index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>
+                            <!-- <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button> -->
+                        </b-td>
+                        <b-td class="border-0">{{ item.date }}</b-td>                    
+                        <b-td class="border-0"> 
+                            <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" variant="blue"> 수정 </b-button>
+                        </b-td>
+                        <b-td class="border-0">
+                            <b-button @click.stop.prevent="deleteArticle({ id: item.id})"  variant="blue-border">삭제</b-button>
+                        </b-td>           
+                    </b-tr>
+                    <b-tr>
+                        <b-td colspan="5" class="p-0">
+                            <b-collapse :id="'collapse'+`${item.index}`" class="mb-4">
+                                <b-card class="border-dotted bg-gray1 gray6 py-md-2 px-md-3">
+                                    <h7 class="border-bottom">{{ item.title }}</h7>
+                                    <b-card-body v-if="item.description!=''" class="border-0 bg-transparent f-95 fw-400">{{ item.description }}</b-card-body>
+                                    <b-card-body class="border-0 bg-transparent f-95"> <p v-html="$md.render(item.contents)"></p></b-card-body>
+                                    <div v-if="item.picture!=null" class="mt-3">
+                                        <!-- <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img> -->
+                                        <span class="pl-3 f-80 gray6">{{ item.picture }}</span>
+                                    </div>
+                                </b-card>
+                            </b-collapse>      
+                        </b-td>                
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+            
+            <div class="d-flex justify-content-center news-indi">
+                <b-pagination
+                v-model="current_page"
+                :total-rows="articles.length"
+                :per-page="per_page"
+                aria-controls="article-table"
+                ></b-pagination>
+            </div>
+                    
+            <div class="text-right pr-3">
+                <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기 <i class="fas fa-arrow-alt-circle-right ml-1"></i></b-button>
+            </div>
         </div>
-                
-        <div class="text-right pr-3">
-            <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기 <i class="fas fa-arrow-alt-circle-right ml-1"></i></b-button>
+
+        <!-- 국문 뉴스 리스트 끝 - 영문 뉴스 리스트 시작 -->
+        <!-- 국문 뉴스 리스트 끝 - 영문 뉴스 리스트 시작 -->
+        <!-- 국문 뉴스 리스트 끝 - 영문 뉴스 리스트 시작 -->
+        <!-- 국문 뉴스 리스트 끝 - 영문 뉴스 리스트 시작 -->
+        <!-- 국문 뉴스 리스트 끝 - 영문 뉴스 리스트 시작 -->
+
+        <div v-else>
+            <b-table-simple responsive class="txt-table" :key="table_key">
+                <b-thead>
+                    <b-tr>
+                        <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
+                    </b-tr>
+                </b-thead>
+                <b-tbody v-for="item in current_articles" :key="item.id">
+                    <b-tr>
+                        <b-td class="border-0">{{ item.index }}</b-td> 
+                        <b-td class="border-0">
+                            <b-button v-b-toggle="'collapse'+`${item.index}`" block variant="icon" class="p-0 text-left fw-400">{{ item.title }}</b-button>
+                            <!-- <b-button @click.stop.prevent="$router.push('/news/view_article?id='+item.id)" block variant="icon" class="p-0 text-left fw-400"> {{ item.title }} </b-button> -->
+                        </b-td>
+                        <b-td class="border-0">{{ item.date }}</b-td>                    
+                        <b-td class="border-0"> 
+                            <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" variant="blue"> Edit </b-button>
+                        </b-td>
+                        <b-td class="border-0">
+                            <b-button @click.stop.prevent="deleteArticle({ id: item.id})"  variant="blue-border">Delete</b-button>
+                        </b-td>           
+                    </b-tr>
+                    <b-tr>
+                        <b-td colspan="5" class="p-0">
+                            <b-collapse :id="'collapse'+`${item.index}`" class="mb-4">
+                                <b-card class="border-dotted bg-gray1 gray6 py-md-2 px-md-3">
+                                    <h7 class="border-bottom">{{ item.title }}</h7>
+                                    <b-card-body v-if="item.description!=''" class="border-0 bg-transparent f-95 fw-400">{{ item.description }}</b-card-body>
+                                    <b-card-body class="border-0 bg-transparent f-95"> <p v-html="$md.render(item.contents)"></p></b-card-body>
+                                    <div v-if="item.picture!=null" class="mt-3">
+                                        <!-- <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img> -->
+                                        <span class="pl-3 f-80 gray6">{{ item.picture }}</span>
+                                    </div>
+                                </b-card>
+                            </b-collapse>      
+                        </b-td>                
+                    </b-tr>
+                </b-tbody>
+            </b-table-simple>
+            
+            <div class="d-flex justify-content-center news-indi">
+                <b-pagination
+                v-model="current_page"
+                :total-rows="articles.length"
+                :per-page="per_page"
+                aria-controls="article-table"
+                ></b-pagination>
+            </div>
+                    
+            <div class="text-right pr-3">
+                <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기 <i class="fas fa-arrow-alt-circle-right ml-1"></i></b-button>
+            </div>
         </div>
+
         <hr class="mb-5">
 
     </b-container>
@@ -60,7 +130,7 @@
 </div>  
 </template>
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions, mapMutations } from 'vuex'
 
 export default {
     layout: 'AdminPage',
@@ -79,6 +149,9 @@ export default {
         ...mapState({
             is_authenticated: state => state.is_authenticated,
         }),
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        }),
         current_articles(){
             let total_num = this.articles.length 
             let start_index = (this.current_page - 1) * this.per_page
@@ -93,10 +166,14 @@ export default {
                 else { return false }
             }
             else { return false }
-        }
+        },        
     },
     methods: {
-        ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle'])
+        ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle']),
+        ...mapMutations(['setLang']),
+        toggleLang(lang){
+            this.setLang(lang)
+        },
     },
     async mounted(){
         await this.readArticles()

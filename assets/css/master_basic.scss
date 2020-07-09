@@ -645,11 +645,12 @@ table, .table {
 
 .btn-dark {
     background-color: $gray7;
-    color: $gray5;
+    color: $gray4;
 }
 .btn-dark:hover, .btn-dark:focus{
-    background-color: $gray5;
-    color: $gray7;
+    background-color: $gray6;
+    border: 1px solid $gray6;
+    color: $gray2;
 }
 
 .btn-dark-border {
@@ -658,10 +659,18 @@ table, .table {
     border: 1px solid $gray7;
 }
 .btn-dark-border:hover {
-    background-color: $gray6;
+    background-color: $gray7;
     color: $gray2;
 }
-
+.btn-green {
+    background-color: $green6;
+    color: white;
+}
+.btn-green:hover, .btn-green:focus{
+    background-color: $green7;
+    border: 1px solid $green7;
+    color: $gray2;
+}
 .btn-gold {
     // background-color: $gold6;
     // color: $gray1;
@@ -703,6 +712,7 @@ table, .table {
     color: white;
     border: 1px solid $blue5;
 }
+
 
 .btn-icon {
     background-color: rgba(0,0,0,0);
