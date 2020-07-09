@@ -231,7 +231,7 @@
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                    <nuxt-link :to="{path: link_to['to'], query: { l: 'ENG'}}" class="mr-3 f-90 blue5" id="content-links">
                                         {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
@@ -269,7 +269,7 @@
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                    <nuxt-link :to="{path: link_to['to'], query: { l: 'ENG'}}" class="mr-3 f-90 blue5" id="content-links">
                                         {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
@@ -310,7 +310,7 @@
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                    <nuxt-link :to="{path: link_to['to'], query: { l: 'ENG'}}" class="mr-3 f-90 blue5" id="content-links">
                                         {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
@@ -348,7 +348,7 @@
                                     </a>
                                 </template>
                                 <template v-else>
-                                    <nuxt-link :to="link_to['to']" class="mr-3 f-90 blue5" id="content-links">
+                                    <nuxt-link :to="{path: link_to['to'], query: { l: 'ENG'}}" class="mr-3 f-90 blue5" id="content-links">
                                         {{ link_to['name_e'] }}<i :class="link_to['icon']" class="fw-300 ml-2 f-80 blue5"></i>
                                     </nuxt-link>
                                 </template>
