@@ -46,7 +46,7 @@ export const state = () => ({
           classification_e: 'Organizational Profile',
           code: '102-5',
           indicators: '소유 구조 및 법적 형태',
-          indicators_e: 'Ownership and legal form',
+          indicators_e: 'Ownership and legal structure',
           link: [{'to':'/static_page/Corporate-Governance#f3', 'name_e':'Corporate Governance - Ownership and Voting Rights', 'name': '지배구조 - 소유구조 및 의결권', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
@@ -56,7 +56,7 @@ export const state = () => ({
           classification_e: 'Organizational Profile',
           code: '102-6',
           indicators: '시장 영역',
-          indicators_e: 'Markets served',
+          indicators_e: 'Business Area',
           link: [{'to':'http://www.coway.co.kr/Company/Company/Business2', 'name_e':'Business Area', 'name': '사업영역', 'icon':'fas fa-external-link-alt' }],
           Note_e: '',
           Note: ''
@@ -138,7 +138,7 @@ export const state = () => ({
           classification_e: 'Strategy',
           code: '102-14',
           indicators: '최고 의사 결정권자 성명서',
-          indicators_e: 'Statement from senior decision-maker',
+          indicators_e: 'CEO Statement',
           link: [{'to':'/static_page/CEO-Message', 'name_e':'Message from the CEO', 'name': 'CEO 메시지', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
@@ -169,7 +169,7 @@ export const state = () => ({
           classification_e: 'Ethics and Integrity',
           code: '102-17',
           indicators: '윤리 관련 안내 및 고충처리 메커니즘',
-          indicators_e: 'Mechanisms for advice and concerns about ethics',
+          indicators_e: 'Mechanism for Grievance Resolution and Announcement about Ethical Issues',
           link: [{'to':'/static_page/Ethical-Management#g1', 'name_e':'Ethical Management - Code of Conduct', 'name': '윤리경영 - 윤리강령', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
@@ -240,7 +240,7 @@ export const state = () => ({
           code: '102-35',
           indicators: '보상정책',
           indicators_e: 'Remuneration policies',
-          link: [{'to':'/static_page/Corporate-Governance#f2', 'name_e':'Corporate Governance - Independence and Expertise of the BOD', 'name': '지배구조 - 이사회의 독립성 및 전문성', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Corporate-Governance#f2', 'name_e':'Corporate Governance - Performance Evaluation and Renumeration', 'name': '지배구조 - 성과평가와 보수 지급', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -300,9 +300,9 @@ export const state = () => ({
           code: '102-45',
           indicators: '조직의 연결 재무제표에 포함된 entities(자회사 및 합작회사)의 리스트',
           indicators_e: 'Entities included in the consolidated financial statements',
-          link: [{'to':'http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330002548', 'name_e':'Total 7 Entities: WOONGJIN COWAY(Thailand) Co., Ltd. | WOONGJIN COWAY(Malaysia) SDN. BHD. | Woongjin Coway USA. Inc. | Coway China Co., Ltd. | PT COWAY INTERNATIONAL INDONESIA | 포천맑은물㈜ | 웅진코웨이엔텍㈜', 
+          link: [{'to':'http://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330002548', 'name_e':'', 
                   'name': '2020 사업보고서 - I. 회사의 개요_1. 회사의 개요', 'icon':'fas fa-external-link-alt' }],
-          Note_e: '',
+          Note_e: 'Total 7 Entities: WOONGJIN COWAY(Thailand) Co., Ltd. | WOONGJIN COWAY(Malaysia) SDN. BHD. | Woongjin Coway USA. Inc. | Coway China Co., Ltd. | PT COWAY INTERNATIONAL INDONESIA | 포천맑은물㈜ | 웅진코웨이엔텍㈜',
           Note: ''
         },
         {
@@ -411,7 +411,7 @@ export const state = () => ({
           code: '102-56',
           indicators: '외부검증',
           indicators_e: 'External assurance',
-          link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Statement', 'name_e':'About This Report and Assurance', 'name': '보고 범위 및 검증', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/About-This-Report-and-Assurance?p=Independent-Assurance-Statement', 'name_e':'About This Report and Assurance - Independent Assurance Statement', 'name': '보고 범위 및 검증 - 제3자 검증의견서', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -553,7 +553,7 @@ export const state = () => ({
           code: '205-2',
           indicators: '반부패 정책 및 절차에 관한 공지와 훈련',
           indicators_e: 'Communication and training about anti-corruption policies and procedures',
-          link: [{'to':'/static_page/Ethical-Management#g3', 'name_e':'Ethical Management', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Ethical-Management#g3', 'name_e':'Ethical Management - Consensus by Ethic Education', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -775,7 +775,7 @@ export const state = () => ({
           code: '306-2',
           indicators: '유형과 처리방법에 따른 폐기물',
           indicators_e: 'Waste by type and disposal method',
-          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Resource Efficiency and Circular Economy', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 자원효율성 향상과 순환경제 구축', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -897,7 +897,7 @@ export const state = () => ({
           code: '403-1',
           indicators: '노사공동 보건안전위원회가 대표하는 전체 근로자의 비율',
           indicators_e: 'Workers representation in formal joint management–worker health and safety committees',
-          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r3-1', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 산업안전보건위원회 운영', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r3-1', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace - Occupational Safety and Health Committee', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 산업안전보건위원회 운영', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -937,7 +937,7 @@ export const state = () => ({
           code: '404-1',
           indicators: '임직원 1인당 평균 교육시간',
           indicators_e: 'Average hours of training per year per employee',
-          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1-2', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 직무 교육', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1-2', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace - Job Training', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 직무 교육', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -947,7 +947,7 @@ export const state = () => ({
           code: '404-2',
           indicators: '임직원 역량 강화 및 전환 지원을 위한 프로그램',
           indicators_e: 'Programs for upgrading employee skills and transition assistance programs',
-          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 체계적인 역량 강화', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r1', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace - Systematic Empowerment', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 체계적인 역량 강화', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -987,7 +987,7 @@ export const state = () => ({
           code: '406-1',
           indicators: '차별 사건 및 이에 대한 시정조치',
           indicators_e: 'Incidents of discrimination and corrective actions taken',
-          link: [{'to':'/static_page/Human-Rights-Report#w2-2', 'name_e':'Human Rights Report - Risk Mitigations', 'name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Human-Rights-Report#w2-2', 'name_e':'Human Rights Report - Risk Factors and Corrective Actions', 'name': '인권 리포트 - 핵심적 인권 요소에 대한 조치 결과', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1187,7 +1187,7 @@ export const state = () => ({
           code: '418-1',
           indicators: '고객 개인정보보호 위반 및 고객정보 분실 사실이 입증된 불만 건수',
           indicators_e: 'Substantiated complaints concerning breaches of customer privacy and losses of customer data',
-          link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#c3', 'name_e':'Information Security and Privacy Protection', 'name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }],
+          link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#c3', 'name_e':'Information Security and Privacy Protection - Monitoring and Due Diligence Process', 'name': '정보보안 및 개인정보보호 - 모니터링 및 실사 프로세스', 'icon':'fas fa-link' }],
           Note_e: '',
           Note: ''
         },
@@ -1244,7 +1244,7 @@ export const state = () => ({
             code: 'CG-AM-410a.1', 
             indicators: '에너지스타 프로그램 인증을 받은 제품 비율', 
             indicators_e: 'Percentage of eligible products by revenue certified to the ENERGY STAR® program ',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Eco-friendly Product Certification', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
             Note_e: 'We manage eco-friendly product certification such as environmental marks, water footprints, carbon neutral products, and carbon balloons as major KPIs, not ENERGY STAR certification.',
             Note: '당사는 에너지스타 프로그램 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
@@ -1254,7 +1254,7 @@ export const state = () => ({
             code: 'CG-AM-410a.2', 
             indicators: '가전제품 지속가능성 표준(AHAM) 인증을 받은 제품 비율', 
             indicators_e: 'Percentage of eligible products certified to an Association of Home Appliance Manufacturers(AHAM) sustainability standard',
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m1-2', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Eco-friendly Product Certification', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 친환경 제품 인증 획득', 'icon':'fas fa-link' }], 
             Note_e: 'We manage eco-friendly product certifications such as environmental marks, water footprints, carbon neutral products, and carbon balloons as major KPIs, rather than home appliance sustainability standards (AHAM) certification.',
             Note: '당사는 가전제품 지속가능성 표준(AHAM) 인증이 아닌 환경마크, 물발자국, 탄소중립제품, Carbon Balloon 등의 친환경 제품 인증을 주요 KPI로 관리하고 있습니다.' 
         },
@@ -1264,7 +1264,7 @@ export const state = () => ({
             code: 'CG-AM-410a.3', 
             indicators: '제품 폐기로 인한 영향을 관리하기 위한 노력', 
             indicators_e: `Description of efforts to manage products' end-of-life impacts`,
-            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-3', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt.', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 리퍼브 제도', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Eco-Friendly-Product-Development-and-Product-Life-Cycle-Management#m2-3', 'name_e':'Eco-friendly Product Development and Life Cycle Mgt. - Refurbished Product Policy', 'name': '친환경 제품 개발과 제품 전 과정 관리 - 리퍼브 제도', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         }
@@ -1308,7 +1308,7 @@ export const state = () => ({
             code: 'SV-PS-230a.3', 
             indicators: '(1)정보 유출 사고, (2)개인 식별정보 또는 고객 비밀정보의 수집 비율, (3)영향을 받은 고객 수', 
             indicators_e: `(1) Number of data breaches, (2) percentage involving customers' confidential business information(CBI) or personally identifiable information(PII), (3) number of customers affected`,
-            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#c3-2', 'name_e':'Information Security and Privacy Protection', 'name': '정보보안 및 개인정보보호 - 2019년 정보보호 모니터링 주요활동 및 성과', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Information-Security-and-Personal-Information-Protection#c3-2', 'name_e':'Information Security and Privacy Protection - Monitoring Activities and Performances in 2019', 'name': '정보보안 및 개인정보보호 - 2019년 정보보호 모니터링 주요활동 및 성과', 'icon':'fas fa-link' }], 
             Note_e: 'There were no data breaches during the reporting period.',
             Note: '보고기간 중 정보 유출 사고가 존재하지 않습니다.' 
         },
@@ -1338,9 +1338,9 @@ export const state = () => ({
             code: 'SV-PS-300a.3', 
             indicators: '임직원 참여도', 
             indicators_e: 'Employee engagement as a percentage',
-            link: [{'to':'/static_page/Employee-Centered-Company-Culture-and-Safe-Working-Environment#r2-2', 'name_e':'Employee-oriented Culture, Safe and Healthy Workplace', 'name': '임직원 중심의 기업문화와 안전한 근무환경 - 일과 삶의 균형을 통한 임직원 만족도 제고', 'icon':'fas fa-link' }], 
-            Note_e: '',
-            Note: '' 
+            link: '', 
+            Note_e: 'N/A',
+            Note: 'N/A' 
         },
         { 
             classification: '직업 윤리', 
@@ -1348,7 +1348,7 @@ export const state = () => ({
             code: 'SV-PS-510a.1', 
             indicators: '직업 윤리 확보를 위한 접근', 
             indicators_e: 'Description of approach to ensuring professional integrity',
-            link: [{'to':'/static_page/Ethical-Management#g3', 'name_e':'Ethical Management', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Ethical-Management#g3', 'name_e':'Ethical Management - Consensus by Ethics Education', 'name': '윤리경영 - 윤리교육', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            
@@ -1868,7 +1868,7 @@ export const state = () => ({
             code: '3.3.1', 
             indicators: '인권 정책', 
             indicators_e: 'Human Rights - Commitment',
-            link: [{'to':'/static_page/Human-Rights-Report#w2', 'name_e':'Human Rights Report - Human Rights Principles', 'name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
+            link: [{'to':'/static_page/Human-Rights-Report#w1', 'name_e':'Human Rights Report - Human Rights Principles', 'name': '인권 리포트 - 인권경영 원칙 및 가이드', 'icon':'fas fa-link' }], 
             Note_e: '',
             Note: '' 
         },            

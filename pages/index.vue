@@ -341,7 +341,7 @@
                             <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/e1_3.svg" v-if="slide==0 && visible" fluid class="pl-xl-5 ml-xl-5 h-100"></b-img> </transition></div>
                         </div>
                         <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 50%;">
-                            <transition name="tran-2"> <b-img src="/images/e1_2.svg" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
+                            <transition name="tran-2"> <b-img src="/images/e1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
                         </div>
                         <div class="mt-5 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
@@ -370,7 +370,7 @@
                         </div>
                         <div class="position-absolute row w-100" style="bottom: 3%; left: 0; height: 30%;">
                             <div class="col-0 col-lg-2 col-xl-2">&nbsp;</div>
-                            <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/e2_4.png" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
+                            <div class="col-lg-10 col-xl-10 h-100"><transition name="ran-3"> <b-img src="/images/e2_4.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-5"></b-img> </transition></div>
                         </div>
                         <div class="position-absolute ml-lg-2 row w-100 d-none d-lg-block" style="bottom: 20%; left: 0; height:13%;">
                             <transition name="ran-2"> <b-img src="/images/i2_5.svg" v-if="slide==1 && visible" fluid class="h-100 pl-xl-5 ml-xl-3"></b-img> </transition>
