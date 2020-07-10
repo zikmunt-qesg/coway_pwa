@@ -307,7 +307,7 @@
                                     </p>
                                     <p>Since 2014, we have been pursuing and recycling products such as filters, water purifiers, blue regulars, bidets, water softeners, and food waste processors. In 2016, we solidified fuel for recovered waste to maintain a recycling rate of over 99%. 
                                     </p>
-                                    <p>In 2019, we continued to reduce absolute resource consumption, such as the development of the “HANDSPAN CIROO Tankless Water Purifier,” which reduced material usage by 00% compared to the previous one.
+                                    <p>In 2019, we continued to reduce absolute resource consumption, such as the development of the “HANDSPAN CIROO Tankless Water Purifier”, which reduced material usage compared to the previous one.
                                     </p>
                                     <nuxt-link to="/static_page/Environmental-Management-for-Clean-Water-and-Air#s2" class="parang-text">See Details on "Value Chain Environmental Competencies"  <i class="fas fa-link ml-1 f-80"></i></nuxt-link>
                                 </b-td>

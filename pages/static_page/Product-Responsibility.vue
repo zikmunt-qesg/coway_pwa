@@ -297,14 +297,14 @@
                             <h7 class="blue7 f-120 mb-3 font-noto">Business relevance & Approach</h7>
                             <p> While a growing number of people are interested in sanitation of healthy indoor living environment, consumers put nonmaleficence to the human body, sanitation quality, and environmental impacts as priorities for product selection. This growing purchase tendency reinforces product liability on manufacturing and sales corporations, and the significance of product liability rises as a key management element that directly affects company’s brand and financial value.
                             </p>
-                            <p> As Coway’s main products deal with water and air, which are closely related to health and daily life, we manage product safety, sanitation, and incrementality of performance as the top priority of product liability. Coway actively fulfills product responsibility to ensure safe and harmless product use and consistent performance and strives to build customer trust.
+                            <p> As Coway’s main products deal with water and air, which are closely related to health and daily life, we manage product safety, sanitation, and consistency of performance as the top priority of product liability. Coway actively fulfills product responsibility to ensure safe and harmless product use and consistent performance and strives to build customer trust.
                             </p>
                             <p class="mb-5 mb-md-45"> Coway actively fulfills product responsibility with corporate committees such as Infinite Responsibility Committee and TQA(Trust & Quality Assurance) Center, a supervising department. We conduct verification process on quality, reliability, safety, and environmental impact through every step from product planning to design, manufacturing, and service. To strengthen global quality verification capability and expand into new overseas markets, we established data by analyzing the global usage environment and set regional reliability standards. Moreover, to strengthen service hygiene, we are expanding service inspection standards and scope to strengthen services from the customer's perspective and respond proactively.
                             </p>
                             <h7 class="blue7 f-120 mb-3 mb-sm-2">Business Cases</h7>
                             <div class="d-flex align-items-center">
                                 <div class="py-2 d-xl-flex align-items-center mr-3">
-                                    <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">"Manufacturing Industry Grand Prize" at the 2019 Korea Reliability Award</p>
+                                    <p class="fw-500 mb-3 mb-xl-0 mr-2 word-break font-noto line-height-low">"Manufacturing Sector Grand Prize" at the 2019 Korea Reliability Award</p>
                                     <p class="fw-500 mb-0 mr-2 word-break font-noto line-height-low">Prime Minister’s Citation for excellent service quality at "Korean National Quality Award" in 2019</p>
                                 </div>
                                 <div style="height:90px;"><b-img src="/images/100_1.svg"></b-img> </div>
@@ -321,22 +321,22 @@
                     <p> We organized the "Infinite Responsibility Committee" to strengthen customer trust by fulfilling product responsibility. To provide the best quality, we comprehensively review product quality, safety, and customer trust issues, and proactively examine and improve related matters. The Infinite Responsibility Committee, which consists of director-level executives, directly reports to the CEO, and gathers the agenda once a month and implement in the corporate-wide process to promptly resolve issues and ultimately boost customer trust. 
                     </p>
 
-                    <p class="mb-5">Since August 2018, the R&amp;D Committee and Quality Committee are merged to form Product Immersion Committee 360 (PIC 360), a corporate-wide committee. Once a month, senior partners, executives, and team managers attend to discuss product responsibility in every angle (360 degrees) through the entire process from product planning to post-launching step for bolstering executive ability. 
+                    <p class="mb-5">Since August 2018, the R&amp;D Committee and Quality Committee are merged to form Product Immersion Committee 360 (PIC 360), a corporate-wide committee. Once a month, senior executives, and team leaders attend to discuss product responsibility in every angle (360 degrees) through the entire process from product planning to post-launching step for bolstering executive ability. 
                     </p>
 
-                    <h6-ancor hash="b1-2" :activated="activated" class="blue5 mb-3 font-noto">Trust &amp; Quality Assurance Center</h6-ancor>
-                    <p class="mb-5">To restore customer trust and assurance, we organized the Trust & Quality Assurance Center as a quality innovation propellant. TQA center is an independent team that integrates the Environmental Technology Research Center, and the quality verification department divided into the production and operation division. It incorporates quality-related strategies and functions, bolsters capacity and executive ability to discover potential quality issues in advance, and proactively responds.
+                    <h6-ancor hash="b1-2" :activated="activated" class="blue5 mb-3">Trust &amp; Quality Assurance Center</h6-ancor>
+                    <p class="mb-5">To restore customer trust and assurance, we organized the Trust & Quality Assurance Center as a quality innovation propellant. TQA center is an independent organization that integrates the Environmental Technology Research Center, and the quality verification department divided into the production and operation division. It incorporates quality-related strategies and functions, bolsters capacity and executive ability to discover potential quality issues in advance, and proactively responds.
                     </p>
 
                     <hj-img src="/images/306_1.svg" fluid></hj-img>
                     <hr class="mb-4">
 
                     <section class="border-blue px-4 py-3 mb-5 ">
-                        <p class="blue5 fw-500 mt-2 mb-3 f-105 font-noto"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>"Manufacturing Industry Grand Prize" at the 2019 Korea Reliability Award</p>
+                        <p class="blue5 fw-500 mt-2 mb-3 f-105 font-noto"><b-badge class="rounded fw-400 bg-blue5 f-90 p-1 mr-2"> Case.</b-badge>"Manufacturing Sector Grand Prize" at the 2019 Korea Reliability Award</p>
                         <div class="">
                             <div class="mb-4 mb-md-2 ml-md-3 float-md-right" style="max-width: 360px;"><b-img style="top:0;" src="/images/97@2x.png" fluid ></b-img></div>
 
-                            <p class="mb-3">Coway received the grand prize in the “Manufacturing Industry sector” in the 20th Korea Reliability Award. In this evaluation, Coway was awarded the Grand Prize in the manufacturing sector in recognition of its contribution to establishing a high-level reliability verification system and developing test standards for various domestic and overseas usage environments.
+                            <p class="mb-3">Coway received the grand prize in the “Manufacturing Sector” in the 20th Korea Reliability Award. In this evaluation, Coway was awarded the Grand Prize in the manufacturing sector in recognition of its contribution to establishing a high-level reliability verification system and developing test standards for various domestic and overseas usage environments.
                             </p>
                             <p class="mb-3">Centered on the TQA (Trust & Quality Assurance) Center, the department in charge of overall quality verification, Coway is reinforcing quality and reliability in every step from product planning to design, production, and service. Coway is conducting field tests at home and abroad to evaluate product suitability from the actual usage environment and customer's perspective and improves product reliability by applying it to product design. HALT (Highly Accelerated Limit Test) is applied to measure product and component limits under stricter conditions than actual usage standards to improve durability. Failure prediction and cause analysis processes are performed for each product function to prevent potential defects and expand product design completion.
                             </p>
@@ -365,7 +365,7 @@
                             <div class="f-80 gray6 mb-2">(Unit: Cases)</div>
                             <b-table-simple responsive class="txt-table f-95">
                                 <b-thead><b-tr>
-                                    <b-td>Measuring Equipment</b-td><b-td>Testing Equipment</b-td><b-td>시험지그</b-td><b-td>Total</b-td>
+                                    <b-td>Measuring Equipment</b-td><b-td>Testing Equipment</b-td><b-td>Test Jig</b-td><b-td>Total</b-td>
                                 </b-tr></b-thead>
                                 <b-tbody><b-tr>
                                     <b-td>263</b-td><b-td>207</b-td><b-td>130</b-td><b-td>600</b-td>
@@ -438,7 +438,7 @@
                         </b-col>
                     </b-row>
 
-                    <p class="mb-5">Moreover, through the internal expert training program, R-Campus (Reliability Campus), essential training items are selected for each field of expertise and position to cultivate reliability experts. Externally, through cooperation with various external professional organizations such as the Korea Reliability Association, the Korea Standards Association, and the FITI Test Research Institute, we provide opportunities for professional training to testers. We are striving to improve individual capabilities by supporting the acquisition of international certifications such as CRE(Certified Reliability Expert) and ISTA CPLP(International Safe Transit Association Certified Professional in Learning and Performance).
+                    <p class="mb-5">Moreover, through the internal expert training program, R-Campus (Reliability Campus), essential training items are selected for each field of expertise and position to cultivate reliability experts. Externally, through cooperation with various external professional organizations such as Reliability Association of Korea , Korean Standards Association, and the FITI Test Research Institute, we provide opportunities for professional training to testers. We are striving to improve individual capabilities by supporting the acquisition of international certifications such as CRE(Certified Reliability Expert) and ISTA CPLP(International Safe Transit Association Certified Professional in Learning and Performance).
                     </p>
                     <hr class="py-3">                    
 
@@ -466,7 +466,7 @@
                         </p>
                         <p class="mb-3">Coway was recognized for improving product safety by establishing a systematic quality management system that developed the industry's highest level of reliability test standards and introduced a "Quality Verification System" that examines completeness in all processes from new product development to production. Coway will continue to strive for product responsibility and quality management through the "Infinite Responsibility Committee," which will comprehensively discuss ways to improve product safety and service. 
                         </p>
-                        <div class="f-80 font-noto fw-300 pb-2 gray55 word-break indent-sm">* National Quality Management Convention: A competition that recognizes companies that have contributed to the competitiveness of the national industry by increasing customer satisfaction and achieving excellent management performance through continuous service and manufacturing quality innovation activities. (Organized by the National Institute of Technology and Standards by the Ministry of Trade, Industry and Energy, hosted by the Korea Standards Association)
+                        <div class="f-80 font-noto fw-300 pb-2 gray55 word-break indent-sm">* National Quality Management Convention: A competition that recognizes companies that have contributed to the competitiveness of the national industry by increasing customer satisfaction and achieving excellent management performance through continuous service and manufacturing quality innovation activities. (Organized by the National Institute of Technology and Standards by the Ministry of Trade, Industry and Energy, hosted by Korean Standards Association)
                         </div>
                     </section>
 

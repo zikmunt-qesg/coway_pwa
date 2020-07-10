@@ -80,6 +80,7 @@ export default {
             show_sub_menu: false,
             sub_menu_item: [],
             menu_text: '코웨이의 제품 및 브랜드는 궁극적으로 환경을 건강하게, 사람을 행복하게 만들기 위한 가치를 창출하는 데 목표를 두고 있습니다.',
+            menu_text_en:'',
             show_site_map: false,
             show_finder: false,
             menu_changed: false,

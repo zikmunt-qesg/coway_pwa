@@ -601,7 +601,7 @@
                             </b-tbody>
                         </b-table-simple>
                         <hr class="py-2">
-                        <hj-img src="/images/79_1.svg" fluid></hj-img>
+                        <hj-img src="/images/301_2.svg" fluid></hj-img>
 
                     <hr class="py-3 mb-5">
 

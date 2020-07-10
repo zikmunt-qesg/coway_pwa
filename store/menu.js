@@ -25,7 +25,7 @@ export const state = () => ({
                             },
                             {
                                 title: '혁신을 위한 연구개발 역량 강화',
-                                title_en: 'Research Capacity Improvement',
+                                title_en: 'Research Competence Improvement',
                                 link: '/static_page/Product-and-Service-Innovation#a3'
                             },
 
@@ -62,7 +62,7 @@ export const state = () => ({
                         [
                             {
                                 title: '정보보안 및 개인정보보호 원칙과 조직',
-                                title_en: 'Principles and Organizations',
+                                title_en: 'Protection Principle and Organization',
                                 link: '/static_page/Information-Security-and-Personal-Information-Protection#c1'
                             },
                             {
@@ -126,7 +126,7 @@ export const state = () => ({
                             },
                             {
                                 title: '중대성 맥락과 중장기 목표',
-                                title_en: 'Context and Long-Term Target',
+                                title_en: 'Context and Long-term Targets',
                                 link: '/static_page/Stakeholder-Engagement-and-Material-Issues#e3'
                             }
                         ]
@@ -139,7 +139,7 @@ export const state = () => ({
                         [
                             {
                                 title: '이사회 중심의 책임경영 수행',
-                                title_en: 'Board of Directors',
+                                title_en: 'Responsible Management Centered on the BOD',
                                 link: '/static_page/Corporate-Governance#f1'
                             },
                             {
@@ -228,13 +228,13 @@ export const state = () => ({
             child: [
                 {
                     title: '깨끗한 물과 공기를 위한 환경경영',
-                    title_en: 'Environmental Management',
+                    title_en: 'Environmental Management for Clean Water and Air',
                     link: '/static_page/Environmental-Management-for-Clean-Water-and-Air',
                     child:
                         [
                             {
                                 title: '환경경영을 통한 깨끗함의 가치 실현',
-                                title_en: 'Environmental Mgt. for Cleanliness',
+                                title_en: 'Environmental Management',
                                 link: '/static_page/Environmental-Management-for-Clean-Water-and-Air#k1'
                             },
                             {
@@ -348,7 +348,7 @@ export const state = () => ({
                             [
                                 {
                                     title: '협력사와의 소통을 통한 성장 지원',
-                                    title_en: 'Communication with Suppliers',
+                                    title_en: 'Support for Growth through Communication',
                                     link: '/static_page/Win-Win#t1'
                                 },
                                 {
@@ -366,7 +366,7 @@ export const state = () => ({
                             [
                                 {
                                     title: '코웨이 다운 사회공헌',
-                                    title_en: 'Contribution based on Goodness',
+                                    title_en: 'Coway-like Social Contribution',
                                     link: '/static_page/Local-Community#u1'
                                 },
                                 {
@@ -376,7 +376,7 @@ export const state = () => ({
                                 },
                                 {
                                     title: '공공정책 참여',
-                                    title_en: 'Policy Influence',
+                                    title_en: 'Public Policy Participation',
                                     link: '/static_page/Local-Community#u3'
                                 }
                             ]
@@ -412,12 +412,12 @@ export const state = () => ({
                             [
                                 {
                                     title: '인권경영 원칙 및 가이드',
-                                    title_en: 'Human Rights Principles',
+                                    title_en: 'Management Principles and Guide',
                                     link: '/static_page/Human-Rights-Report#w1'
                                 },
                                 {
                                     title: '인권 리스크 식별 및 완화 프로세스',
-                                    title_en: 'Risk Identification and Mitigation',
+                                    title_en: 'Risk Identification and Mitigation Process',
                                     link: '/static_page/Human-Rights-Report#w2'
                                 }
                             ]

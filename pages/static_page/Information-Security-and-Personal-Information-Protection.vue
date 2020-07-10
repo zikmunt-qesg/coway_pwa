@@ -671,7 +671,7 @@
                                         14 <br>(Basic Information:5, Sensitive Information:5,  Information Output:4)
                                     </b-td>
                                     <b-td>
-                                        28<br>(10 stations)
+                                        28<br>
                                     </b-td>
                                     <b-td>
                                         14/28 <br>(50% response complete)

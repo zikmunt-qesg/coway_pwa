@@ -44,7 +44,7 @@
                         <div class="short-divide-line"></div>
                         <a href="http://www.cowayir.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_2.svg" class="external-link-btn py-1" style=""></b-img> </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_3.svg" class="external-link-btn py-1"></b-img> </a>
+                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_3.svg" class="external-link-btn" style="padding-bottom:0.6rem;"></b-img> </a>
                         <div class="short-divide-line"></div>
                         <nuxt-link to="/downloads" class="text-center"><b-img src="/images/330_4.svg" class="external-link-btn" style="padding-top:0.05rem; padding-bottom:0rem;"></b-img> </nuxt-link>
                         <div class="short-divide-line"></div>

@@ -98,7 +98,7 @@
                         </p>
                         <hj-img src="/images/16_1.svg" fluid></hj-img>
                         <hr class="space-p25">
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" class="px-2">상생포털 바로가기</b-button></a>
+                        <a target="_blank" href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" class="px-3">상생포털 바로가기<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                         <hr class="mb-4">
 
@@ -312,7 +312,7 @@
                         </p>
                         <hj-img src="/images/314_2.svg" fluid></hj-img>
                         <hr class="space-p25">
-                        <a href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" class="px-3">Coway Mutual Growth Portal<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                        <a target="_blank" href="http://www.coway-partnership.com/main/index.html"><b-button variant="gold" size="sm" class="px-3">Coway Mutual Growth Portal<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
 
                         <hr class="mb-4">
 
