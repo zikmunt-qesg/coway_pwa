@@ -169,17 +169,17 @@
                         <h7 class="mb-2 gray63">정보보호 교육 참여 현황<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table f-95">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">구분</b-td><b-td>단위</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2020 목표</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">임직원 참여 직원 수</b-td><b-td>명</b-td><b-td>4,684</b-td><b-td>4,038</b-td><b-td>4,888</b-td>
+                                    <b-td class="text-left">임직원 참여 직원 수</b-td><b-td>명</b-td><b-td>4,684</b-td><b-td>4,038</b-td><b-td>4,888</b-td><b-td>5,000</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">임직원 참여율</b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
+                                    <b-td class="text-left">임직원 참여율</b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td><b-td>100</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">위/수탁사 참여율<sup>2)</sup></b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
+                                    <b-td class="text-left">위/수탁사 참여율<sup>2)</sup></b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td><b-td>100</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -532,17 +532,17 @@
                         <h7 class="mb-2 gray63">Information Security Training Participation Status<sup>1)</sup></h7>
                         <b-table-simple responsive class="num-table f-85">
                              <b-thead><b-tr>
-                                <b-td class="text-left">Category</b-td><b-td>Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">Category</b-td><b-td>Unit</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td><b-td>2020 Goal</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Number of participating employees</b-td><b-td>person</b-td><b-td>4,684</b-td><b-td>4,038</b-td><b-td>4,888</b-td>
+                                    <b-td class="text-left">Number of participating employees</b-td><b-td>person</b-td><b-td>4,684</b-td><b-td>4,038</b-td><b-td>4,888</b-td><b-td>5,000</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Participation Rate</b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
+                                    <b-td class="text-left">Participation Rate</b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td><b-td>100</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Contractor Participation Rate<sup>2)</sup></b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td>
+                                    <b-td class="text-left">Contractor Participation Rate<sup>2)</sup></b-td><b-td>%</b-td><b-td>100</b-td><b-td>90</b-td><b-td>100</b-td><b-td>100</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>

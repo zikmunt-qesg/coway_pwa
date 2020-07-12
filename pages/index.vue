@@ -537,7 +537,7 @@
                             <div class="blue7 f-105 fw-300 letter-narrow mt-m-3"><span class="main2-card-num"><animated-number :value="7.79" :fixed="2"></animated-number></span><br class="d-none d-md-inline d-xl-none">million Accounts</div>
                             <div class="text-right pl-2 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                         </div>
-                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
+                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with an account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
                         </div>
                     </b-col>
                 </b-row>
