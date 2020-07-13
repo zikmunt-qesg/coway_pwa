@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 export const state = () => ({
     articles: [],
-    is_articles_loaded: false
+    is_articles_loaded: false,
 })
 
 export const mutations = {
@@ -19,7 +19,8 @@ export const mutations = {
     },
     set_articles_not_loaded(state){
         state.is_articles_loaded = false
-    }
+    },
+    
 }
 
 export const getters = {
@@ -28,9 +29,16 @@ export const getters = {
 
 export const actions = {
     readArticles({ state, commit, rootState }) {
-        const path = rootState.backend_host + '/read_articles'
 
-        return this.$axios.get(path)
+        let path = rootState.backend_host + '/read_articles'
+        let lang = 'KOR'
+        if(rootState.is_ENG == true) { 
+            lang = 'ENG'
+        }
+
+        return this.$axios.get(path, { params: {
+            l:lang
+        }})
             .then(response => {
                 console.log(response)
                 for(let i=0; i < response.data.length ; i++){
@@ -42,13 +50,19 @@ export const actions = {
             })
     },
     saveArticle({ rootState, state, commit }, { id, title, date, description, picture_file, contents }) {
+        
         const path = rootState.backend_host + '/save_article'
+        let lang = 'KOR'
+        if(rootState.is_ENG == true) { 
+            lang = 'ENG'
+        }
 
         let formData = new FormData()
         formData.append('id', id)
         formData.append('title', title)
         formData.append('date', date)
         formData.append('description', description)
+        formData.append('l', lang)
         if(picture_file.name != undefined){
             formData.append('picture', picture_file, picture_file.name)
         }
@@ -57,12 +71,12 @@ export const actions = {
         return this.$axios.post(path, formData)
                 .then(result => {
                     let articles = [ ...state.articles ]
-                    let idx = articles.findIndex(item => item.id == result.id)
+                    let idx = articles.findIndex(item => item.id == result.data.id)
                     if (idx > -1 ){
-                        articles.splice(idx, 1, result)
+                        articles.splice(idx, 1, result.data)
                     }
                     else{
-                        articles.push(result)
+                        articles.push(result.data)
                     }
                     commit('update_articles', articles)
                     console.log('STORE COMMIT: updated_articles')
@@ -75,9 +89,14 @@ export const actions = {
     },
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
+        let lang = 'KOR'
+        if(rootState.is_ENG == true) { 
+            lang = 'ENG'
+        }
 
         let formData = new FormData()
         formData.append('id', id)
+        formData.append('l', lang)
 
         return this.$axios.post(path, formData)
         .then(result => {

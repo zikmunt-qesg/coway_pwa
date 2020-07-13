@@ -61,7 +61,7 @@
                                     <b-td rowspan="3">임직원<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>노사협의회</b-td><b-td>연 1회</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>공정한 성과 평가 및 보상</li><li>역량개발</li><li>일과 삶의 균형</li><li>다양성 기반의 기업문화</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>사내 온라인 상담 채널(소나무 베이커리, 코러스)</b-td><b-td>수시</b-td>
+                                    <b-td>사내 온라인 상담 채널</b-td><b-td>수시</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>아이디어 제안 제도(상상오션)</b-td><b-td>수시</b-td>
@@ -422,7 +422,7 @@
                                     <b-td rowspan="3">Employees<br><b-img src="/images/2_3.svg" class="mt-2"></b-img></b-td><b-td>Labor Management Council </b-td><b-td>Once a Year</b-td><b-td rowspan="3" class="custom-ul-li table-li"><ul><li>Fair performance evaluation and compensation</li><li>Competency development</li><li>Work-life balance</li><li>Diversity-based corporate culture</li></ul></b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td>In-house Online Consultation Channel (Pine Tree bakery, Chorus)</b-td><b-td>Frequently</b-td>
+                                    <b-td>In-house Online Consultation Channel</b-td><b-td>Frequently</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td>Idea Proposal System (Imagination Ocean)</b-td><b-td>Frequently</b-td>

@@ -909,7 +909,7 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left" colspan="2">Total Personnel</b-td> <b-td>4,780</b-td> <b-td>4,771</b-td> <b-td>4,879</b-td> <b-td>4,927</b-td> <b-td>4,988</b-td>
+                                    <b-td class="text-left" colspan="2">Total Workforce</b-td> <b-td>4,780</b-td> <b-td>4,771</b-td> <b-td>4,879</b-td> <b-td>4,927</b-td> <b-td>4,988</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left" rowspan="5">By Business Area</b-td> <b-td class="text-left">Production</b-td> <b-td>250</b-td> <b-td>249</b-td> <b-td>264</b-td> <b-td>300</b-td> <b-td>321</b-td>
@@ -933,7 +933,7 @@
                                         <b-td class="text-left">Temporary Employees</b-td> <b-td>844</b-td> <b-td>851</b-td> <b-td>872</b-td> <b-td>300</b-td> <b-td>255</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left" rowspan="2">Sex</b-td> <b-td class="text-left">Male</b-td> <b-td>1,572 <br>(32.9%)</b-td> <b-td>1,588<br>(33.3%)</b-td> <b-td>1,685<br>(34.5%)</b-td> <b-td>1,773<br>(36.0%)</b-td> <b-td>1,809<br>(36.3%)</b-td>
+                                    <b-td class="text-left" rowspan="2">Gender</b-td> <b-td class="text-left">Male</b-td> <b-td>1,572 <br>(32.9%)</b-td> <b-td>1,588<br>(33.3%)</b-td> <b-td>1,685<br>(34.5%)</b-td> <b-td>1,773<br>(36.0%)</b-td> <b-td>1,809<br>(36.3%)</b-td>
                                 </b-tr>
                                 <b-tr>
                                         <b-td class="text-left">Female</b-td> <b-td>3,208<br>(67.1%)</b-td> <b-td>3,183<br>(66.7%)</b-td> <b-td>3,194<br>(65.5%)</b-td> <b-td>3,154<br>(64.0%)</b-td> <b-td>3,179<br>(63.7%)</b-td>
@@ -1008,7 +1008,7 @@
                             </b-tbody>
                         </b-table-simple>
 
-                        <h7 class="mb-3 gray63">Ratio of Female Managers</h7>
+                        <h7 class="mb-3 gray63">Ratio of Female Management Positions</h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-2">
                              <b-thead><b-tr>
                                 <b-td class="text-left" colspan="2">Category</b-td><b-td>Unit</b-td><b-td>2018</b-td><b-td>2019</b-td>
@@ -1018,14 +1018,14 @@
                                     <b-td rowspan="2" class="text-left">Female Managers</b-td><b-td class="text-left">Females in junior management positions <sup> 1)</sup></b-td><b-td>%</b-td><b-td>54.9</b-td><b-td>51.2</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Females in top management positions <sup> 2)</sup></b-td><b-td>%</b-td><b-td>37.3</b-td><b-td>38.5</b-td>
+                                    <b-td class="text-left">Females in senior management positions <sup> 2)</sup></b-td><b-td>%</b-td><b-td>37.3</b-td><b-td>38.5</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
                         <ol type="1" class="f-80 fw-300 footnote-ol line-height-low mb-5">
                             <li> Junior management positions: Office/research general manager or above, sales branch manager or above
                             </li>
-                            <li> Top management positions: Office manager/research team leader or higher, sales manager general director or above
+                            <li> Senior management positions: Office manager/research team leader or higher, sales manager general director or above
                             </li>
                         </ol>
 

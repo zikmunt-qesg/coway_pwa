@@ -12,15 +12,25 @@
             <transition name="slide-fade" mode="out-in">  
                 <div id="external-btns" v-if="is_opened==true" class="">             
                     <div class="d-flex flex-column justify-content-center">
-                        <a href="http://www.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/109_1.svg" class="external-link-btn" style="padding-bottom:0.15rem;"></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="text-center" @mouseover="makeDarker('a', 0)" @mouseleave="makeDarker('a', 0)">
+                            <b-img v-if="this.color_status[0]['a']==false" src="/images/109_1.svg" class="external-link-btn" style="padding-bottom:0.15rem;"></b-img><b-img v-else src="/images/332_1.svg" class="external-link-btn" style="padding-bottom:0.15rem;"></b-img>
+                        </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://www.cowayir.co.kr/" target="_blank" class="text-center"><b-img src="/images/110_1.svg" class="external-link-btn pb-1" style="padding-top:0.1rem;"></b-img> </a>
+                        <a href="http://www.cowayir.co.kr/" target="_blank" class="text-center" @mouseover="makeDarker('b', 1)" @mouseleave="makeDarker('b', 1)">
+                            <b-img v-if="this.color_status[1]['b']==false" src="/images/110_1.svg" class="external-link-btn pb-1" style="padding-top:0.1rem;"></b-img><b-img v-else src="/images/332_2.svg" class="external-link-btn pb-1" style="padding-top:0.1rem;"></b-img>
+                        </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/111_1.svg" class="external-link-btn py-1"></b-img> </a>
+                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center" @mouseover="makeDarker('c', 2)" @mouseleave="makeDarker('c', 2)">
+                            <b-img v-if="this.color_status[2]['c']==false" src="/images/111_1.svg" class="external-link-btn py-1"></b-img><b-img v-else src="/images/332_3.svg" class="external-link-btn py-1"></b-img>
+                        </a>
                         <div class="short-divide-line"></div>
-                        <nuxt-link to="/downloads" class="text-center"><b-img src="/images/112_1.svg" class="external-link-btn" style="padding-top:0.1rem; padding-bottom:0.15rem;"></b-img> </nuxt-link>
+                        <div @mouseover="makeDarker('d', 3)" @mouseleave="makeDarker('d', 3)"><nuxt-link to="/downloads" class="text-center">
+                            <b-img v-if="this.color_status[3]['d']==false" src="/images/112_1.svg" class="external-link-btn" style="padding-top:0.1rem; padding-bottom:0.15rem;"></b-img><b-img v-else src="/images/332_4.svg" class="external-link-btn" style="padding-top:0.1rem; padding-bottom:0.15rem;"></b-img>
+                        </nuxt-link></div>
                         <div class="short-divide-line"></div>
-                        <div @click="backToTop" class="text-center cursor go-to-top pt-2"><b-img src="/images/113_1.svg" style="padding-top:0.15rem;"></b-img> </div>
+                        <div @click="backToTop" class="text-center cursor go-to-top pt-2" @mouseover="makeDarker('e', 4)" @mouseleave="makeDarker('e', 4)" >
+                            <b-img v-if="this.color_status[4]['e']==false" src="/images/113_1.svg" style="padding-top:0.15rem;"></b-img><b-img v-else src="/images/332_5.svg" style="padding-top:0.15rem;"></b-img>
+                        </div>
                     </div>            
                 </div>
             </transition>
@@ -40,15 +50,25 @@
             <transition name="slide-fade" mode="out-in">  
                 <div id="external-btns" v-if="is_opened==true" class="">             
                     <div class="d-flex flex-column justify-content-center">
-                        <a href="http://www.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_1.svg" class="external-link-btn" style=""></b-img> </a>
+                        <a href="http://www.coway.co.kr/" target="_blank" class="text-center" @mouseover="makeDarker('a', 0)" @mouseleave="makeDarker('a', 0)">
+                            <div v-if="this.color_status[0]['a']==false"><b-img src="/images/330_1.svg" class="external-link-btn" style=""></b-img></div> <div v-else><b-img src="/images/331_1.svg" class="external-link-btn" style=""></b-img></div>  
+                        </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://www.cowayir.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_2.svg" class="external-link-btn py-1" style=""></b-img> </a>
+                        <a href="http://www.cowayir.co.kr/" target="_blank" class="text-center" @mouseover="makeDarker('b', 1)" @mouseleave="makeDarker('b', 1)">
+                            <div v-if="this.color_status[1]['b']==false"><b-img src="/images/330_2.svg" class="external-link-btn py-1" style=""></b-img></div> <div v-else><b-img src="/images/331_2.svg" class="external-link-btn py-1" style=""></b-img></div>  
+                        </a>
                         <div class="short-divide-line"></div>
-                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center"><b-img src="/images/330_3.svg" class="external-link-btn" style="padding-bottom:0.6rem;"></b-img> </a>
+                        <a href="http://water.coway.co.kr/" target="_blank" class="text-center" @mouseover="makeDarker('c', 2)" @mouseleave="makeDarker('c', 2)">
+                            <div v-if="this.color_status[2]['c']==false"><b-img src="/images/330_3.svg" class="external-link-btn" style="padding-bottom:0.6rem;"></b-img></div> <div v-else><b-img src="/images/331_3.svg" class="external-link-btn" style="padding-bottom:0.6rem;"></b-img></div> 
+                        </a>
                         <div class="short-divide-line"></div>
-                        <nuxt-link to="/downloads" class="text-center"><b-img src="/images/330_4.svg" class="external-link-btn" style="padding-top:0.05rem; padding-bottom:0rem;"></b-img> </nuxt-link>
+                        <div  @mouseover="makeDarker('d', 3)" @mouseleave="makeDarker('d', 3)"><nuxt-link to="/downloads" class="text-center">
+                            <div v-if="this.color_status[3]['d']==false"><b-img src="/images/330_4.svg" class="external-link-btn" style="padding-top:0.05rem; padding-bottom:0rem;"></b-img></div> <div v-else><b-img src="/images/331_4.svg" class="external-link-btn" style="padding-top:0.05rem; padding-bottom:0rem;"></b-img></div> 
+                        </nuxt-link></div>
                         <div class="short-divide-line"></div>
-                        <div @click="backToTop" class="text-center cursor go-to-top pt-2"><b-img src="/images/113_1.svg" style="padding-top:0.15rem;"></b-img> </div>
+                        <div @click="backToTop" @mouseover="makeDarker('e', 4)" @mouseleave="makeDarker('e', 4)" class="text-center cursor go-to-top pt-2">
+                            <div v-if="this.color_status[4]['e']==false"><b-img src="/images/330_5.svg" style="padding-top:0.15rem;"></b-img></div> <div v-else><b-img src="/images/331_5.svg" style="padding-top:0.15rem;"></b-img></div> 
+                        </div>
                     </div>            
                 </div>
             </transition>
@@ -64,7 +84,8 @@ export default {
             position: {x:0, y:0},
             is_opened: true,
             interval: null,
-            temp_scrollHeight: 0
+            temp_scrollHeight: 0,
+            color_status: [ {'a':false}, {'b':false}, {'c':false}, {'d':false}, {'e':false}]
         }
     },
     computed: {
@@ -94,6 +115,9 @@ export default {
         },
         changeCollapse(){
             this.is_opened = !this.is_opened
+        },
+        makeDarker(x, y){
+            this.color_status[y][x] = !this.color_status[y][x]
         }
     },
     created(){
@@ -171,14 +195,13 @@ export default {
 }
 .external-link-btn, .go-to-top{
     margin-left: -2px;
-    transition: all ease-out .3s;
 }
-.external-link-btn:hover{
-    transform: translateX(5px);
-}
-.go-to-top:hover{
-    transform: translateY(5px);
-}
+// .external-link-btn:hover{
+//     transform: translateX(5px);
+// }
+// .go-to-top:hover{
+//     transform: translateY(5px);
+// }
 
 // .goTop {
 //   border-radius: 5px;

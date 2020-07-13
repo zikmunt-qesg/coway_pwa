@@ -615,13 +615,13 @@
                     <h6-ancor hash="m1-3" :activated="activated" class="fw-500 green5 mb-3">Chemical Management System</h6-ancor>
                     <p class="mb-3"> Coway introduced the basic structure and concepts of global quality and environmental management systems and acquired certification to strengthen chemical management through a cycle of planning, execution, review, and continuous improvement. Through the establishment of a chemical substance pre-regulatory monitoring system, we have strengthened our ability to respond to regulatory information from pre-monitored and analyzed with CSMS(Chemical Substances Management System), so that we can develop products and parts that have been reflected and regulated from the product planning stage.
                     </p>
-                    <p class="mb-5"> Reinforcement of the pre-regulatory response system led to the completion of the pre-response for the regulation of RoHS before the regulation was enforced. Management and verification have been strengthened under biocide production standards.
+                    <p class="mb-5"> Reinforcement of the pre-regulatory response system led to the completion of the pre-response for the regulation of RoHS II before the regulation was enforced. Management and verification have been strengthened under biocide production standards.
                     </p>
                     <div class="row d-flex flex-column flex-md-row pb-3 border-bottom-dark mx-1">
                         <b-col class="custom-ul-li pl-md-0">
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="fw-300 mb-3 mb-md-0">
-                                <li class="no-word-break line-height-low f-85">EU/K-RoHS Standard is applied to all parts to verify the compatibility</li>
+                                <li class="no-word-break line-height-low f-85">Compliance with EU RoHS & Resource Recycling Act standards for all parts to verify the compatibility</li>
                                 <li class="no-word-break line-height-low f-85">To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
                             </ul>
                         </b-col>
@@ -653,7 +653,7 @@
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/26_2.svg" fluid class="h-100"></b-img></div>
                             <ul class="fw-300 mb-3 mb-md-0">
                                 <li class="no-word-break line-height-low f-85">Strengthen the ability to respond to pre-regulation by establishing a system for monitoring pre-regulation of chemical substances</li>
-                                <li class="no-word-break line-height-low f-85">Proactive response and verification of RoHS II phthalate regulation for all products and parts</li>
+                                <li class="no-word-break line-height-low f-85">Proactive response and verification of RoHS II regulation for all products and parts</li>
                             </ul>
                         </b-col>
                     </div>

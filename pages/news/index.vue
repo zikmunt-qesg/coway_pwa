@@ -84,6 +84,11 @@ export default {
     },
     async mounted(){
         this.readArticles()
+    },
+    watch:{
+        is_ENG(){
+            this.readArticles()
+        }
     }
 }
 </script>

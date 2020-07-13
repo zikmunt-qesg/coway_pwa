@@ -70,7 +70,7 @@
         <!-- 국문 뉴스 리스트 끝 - 영문 뉴스 리스트 시작 -->
 
         <div v-else>
-            <b-table-simple responsive class="txt-table" :key="table_key">
+            <b-table-simple responsive class="txt-table env-table" :key="table_key">
                 <b-thead>
                     <b-tr>
                         <b-td>No.</b-td> <b-td > 제목 </b-td> <b-td> 게시날짜 </b-td> <b-td> 수정 </b-td><b-td>삭제</b-td>
@@ -85,10 +85,10 @@
                         </b-td>
                         <b-td class="border-0">{{ item.date }}</b-td>                    
                         <b-td class="border-0"> 
-                            <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" variant="blue"> Edit </b-button>
+                            <b-button @click.stop.prevent="$router.push('/dashboard/write_article?id='+item.id)" variant="green"><i class="far fa-edit"></i> </b-button>
                         </b-td>
                         <b-td class="border-0">
-                            <b-button @click.stop.prevent="deleteArticle({ id: item.id})"  variant="blue-border">Delete</b-button>
+                            <b-button @click.stop.prevent="deleteArticle({ id: item.id})"  variant="green-border"><i class="fas fa-trash-alt"></i></b-button>
                         </b-td>           
                     </b-tr>
                     <b-tr>
@@ -119,7 +119,7 @@
             </div>
                     
             <div class="text-right pr-3">
-                <b-button @click.stop.prevent="$router.push('/dashboard/write_article')" variant="blue">새 글쓰기 <i class="fas fa-arrow-alt-circle-right ml-1"></i></b-button>
+                <b-button @click.stop.prevent="$router.push('/dashboard/write_article_eng')" variant="green">Write new articles <i class="fas fa-arrow-alt-circle-right ml-1"></i></b-button>
             </div>
         </div>
 
@@ -144,14 +144,14 @@ export default {
     computed: {
         ...mapState('articles', {
         articles: state => state.articles,
-        is_articles_loaded: state => state.is_articles_loaded
+        is_articles_loaded: state => state.is_articles_loaded,
         }),
         ...mapState({
             is_authenticated: state => state.is_authenticated,
-        }),
-        ...mapState({
             is_ENG: state => state.is_ENG
         }),
+        
+        
         current_articles(){
             let total_num = this.articles.length 
             let start_index = (this.current_page - 1) * this.per_page
@@ -173,6 +173,7 @@ export default {
         ...mapMutations(['setLang']),
         toggleLang(lang){
             this.setLang(lang)
+            this.readArticles()
         },
     },
     async mounted(){

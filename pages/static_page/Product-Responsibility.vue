@@ -317,7 +317,7 @@
                     <p class="mb-5">For product responsibility and quality management, Coway organized the Infinite Responsibility Committee, direct consultation with the CEO, and PIC 360, a company-wide CEO-attending committee. Moreover, TQA Center, an integrated quality verification organization, is organized for consistent and efficient quality innovation management through integrated quality management.
                     </p>
                 
-                    <h6-ancor hash="b1-1" :activated="activated" class="blue5 mb-3 font-noto">Company-wide Product Responsibility and Quality Mgt.</h6-ancor>
+                    <h6-ancor hash="b1-1" :activated="activated" class="blue5 mb-3 font-noto">Infinite Responsibility Committee, PIC 360</h6-ancor>
                     <p> We organized the "Infinite Responsibility Committee" to strengthen customer trust by fulfilling product responsibility. To provide the best quality, we comprehensively review product quality, safety, and customer trust issues, and proactively examine and improve related matters. The Infinite Responsibility Committee, which consists of director-level executives, directly reports to the CEO, and gathers the agenda once a month and implement in the corporate-wide process to promptly resolve issues and ultimately boost customer trust. 
                     </p>
 
@@ -365,7 +365,7 @@
                             <div class="f-80 gray6 mb-2">(Unit: Cases)</div>
                             <b-table-simple responsive class="txt-table f-95">
                                 <b-thead><b-tr>
-                                    <b-td>Measuring Equipment</b-td><b-td>Testing Equipment</b-td><b-td>Test Jig</b-td><b-td>Total</b-td>
+                                    <b-td>Measuring Equipment</b-td><b-td>Testing Equipment</b-td><b-td>Test Zig</b-td><b-td>Total</b-td>
                                 </b-tr></b-thead>
                                 <b-tbody><b-tr>
                                     <b-td>263</b-td><b-td>207</b-td><b-td>130</b-td><b-td>600</b-td>
@@ -516,7 +516,7 @@ export default {
                 { 
                     title: this.is_ENG? 'Product Responsibility Governance': '제품 책임 거버넌스', hash: 'b1',
                     child: [
-                        { title: this.is_ENG? 'Company-wide Product Responsibility and Quality Mgt.':'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC360', hash: 'b1-1' }, 
+                        { title: this.is_ENG? 'Infinite Responsibility Committee, PIC 360':'전사적 제품 책임 및 품질경영 거버넌스 - 무한책임위원회, PIC360', hash: 'b1-1' }, 
                         { title: this.is_ENG? 'Trust & Quality Assurance Center': 'TQA센터(Trust & Quality Assurance Center)', hash: 'b1-2' }, 
                     ]
                 },

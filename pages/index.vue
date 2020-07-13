@@ -17,7 +17,7 @@
                             <div class="h-100 pl-xl-5 ml-xl-5"><transition name="tran-3"> <b-img src="/images/i1_3.svg" v-if="slide==0 && visible" fluid class="pl-xl-5 ml-xl-5 h-100"></b-img> </transition></div>
                         </div>
                         <div class="position-absolute d-mds-block pl-xl-5 ml-xl-5" style="bottom: 0; left: 0; height: 50%;">
-                            <transition name="tran-2"> <b-img src="/images/i1_2.svg" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
+                            <transition name="tran-2"> <b-img src="/images/i1_2.png" v-if="slide==0 && visible" fluid class="h-100 ml-lg-5"></b-img> </transition>
                         </div>
                         <div class="mt-5 text-left text-lg-center row w-100">
                             <div class="col-0 col-lg-1 col-xl-1"></div>
@@ -537,7 +537,7 @@
                             <div class="blue7 f-105 fw-300 letter-narrow mt-m-3"><span class="main2-card-num"><animated-number :value="7.79" :fixed="2"></animated-number></span><br class="d-none d-md-inline d-xl-none">million Accounts</div>
                             <div class="text-right pl-2 pb-2 pb-md-0"><b-img src="/images/108_1.svg" fluid></b-img></div>
                         </div>
-                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
+                        <div class="gray6 f-95 fw-400 word-break pt-md-4 pt-lg-0 pr-xl-3 font-noto"> As of the end of 2019, with an account of 7.79 million customers, we combine long-researched data with future technology to provide customers with a more accurate and convenient new service experience.
                         </div>
                     </b-col>
                 </b-row>
@@ -680,6 +680,9 @@ export default {
             articles: state => state.articles,
             is_articles_loaded: state => state.is_articles_loaded
         }),
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        }),
         animatedNumber: function() {
             return this.tweenedNumber.toFixed(0);
         }
@@ -752,6 +755,28 @@ export default {
         })
         this.visible = true
     },
+    watch:{
+        is_ENG(){
+            this.readArticles()
+            .then( ()=>{
+                this.main_articles = ih.deepCopy(this.articles).slice(0, 3)
+                
+                this.main_articles.forEach(item => {
+                    if(!item.picture_file){
+                        this.loadPicture({ id: item.id, thumb: true })
+                        .then( picture_file => {
+                            this.$set(item, 'picture_file', picture_file)
+                            this.$set(item, 'picture_file_url', URL.createObjectURL(picture_file))
+                        })
+                        .catch( error=>{
+                            console.log(error)
+                        })
+                    }
+                    console.log(this.main_articles);
+                })
+            })
+        }
+    }
 
 };
 </script>
