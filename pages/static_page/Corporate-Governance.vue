@@ -131,7 +131,7 @@
                     <hr class="mb-4">
 
                     <h6-ancor hash="f1-3" :activated="activated" class="parang6 fw-500 mb-3">이사회 산하 위원회 운영</h6-ancor>
-                    <p class=""> 코웨이는 이사회 책임과 역할을 효율적이고 전문적으로 수행하기 위하여 이사회 산하 위원회로 경영위원회,사외이사후보추천위원회, 감사위원회를 운영하고 있습니다. 2020년 3월 기준 이사회 산하 위원회는 경영위원회의 경우 사내이사 3인, 감사위원회의 경우 사외이사 3인, 사외이사후보추천위원회의 경우 사외이사 3인으로 구성되어 운영되었습니다. 이사회가 경영진 견제기능을 실질적으로 행사할 수 있도록 이사회 내 사외이사비율을 과반 이상으로 구성하고, 이사회 내 위원회인 사외이사후보추천위원회, 감사위원회 모두 사외이사 과반 이상으로 구성하고 있습니다. 특히 감사위원회는 감사 위원장은 회계/재무 전문가이며, 감사위원회에 소비재 및 생활가전 산업전문가 1명과 법률 전문가 1명으로 구성하여 전문성을 높이고 있습니다. 
+                    <p class=""> 코웨이는 이사회 책임과 역할을 효율적이고 전문적으로 수행하기 위하여 이사회 산하 위원회로 경영위원회,사외이사후보추천위원회, 감사위원회를 운영하고 있습니다. 2020년 3월 기준 이사회 산하 위원회는 경영위원회의 경우 사내이사 3인, 감사위원회의 경우 사외이사 3인, 사외이사후보추천위원회의 경우 사내이사 1인, 사외이사 2인으로 구성되어 운영되었습니다. 이사회가 경영진 견제기능을 실질적으로 행사할 수 있도록 이사회 내 사외이사비율을 과반 이상으로 구성하고, 이사회 내 위원회인 사외이사후보추천위원회, 감사위원회 모두 사외이사 과반 이상으로 구성하고 있습니다. 특히 감사위원회는 감사 위원장은 회계/재무 전문가이며, 감사위원회에 소비재 및 생활가전 산업전문가 1명과 법률 전문가 1명으로 구성하여 전문성을 높이고 있습니다. 
                     </p>
 
                     <p class="mb-5">2019년에는 총 13차에 걸쳐 이사회가 개최되었으며, 평균 이사 출석률은 98.9%입니다.</p>
@@ -503,7 +503,7 @@
                     <hr class="mb-4">
 
                     <h6-ancor hash="f1-3" :activated="activated" class="parang6 fw-500 mb-3">Committees under the BOD</h6-ancor>
-                    <p class=""> Coway operates the Management Committee, Independent Director Candidate Recommendation Committee, and Audit Committee as committees under the BOD to fulfill the responsibilities and roles of the BOD efficiently and professionally. As of March 2020, the committee under the BOD consisted of 3 executive directors for the Management Committee, 3 non-executive directors for the Audit Committee, and 3 non-executive directors for the Independent Director Candidate Recommendation Committee. For the Board of Directors to effectively exercise restraint ability, the ratio of non-executive directors in the Board of Directors is more than half. In particular, the Chairman of the Audit Committee is an accounting/financial expert, and it consists of one consumer and consumer electronics industry expert and one legal expert to enhance the expertise of the Audit Committee.
+                    <p class=""> Coway operates the Management Committee, Independent Director Candidate Recommendation Committee, and Audit Committee as committees under the BOD to fulfill the responsibilities and roles of the BOD efficiently and professionally. As of March 2020, the committee under the BOD consisted of 3 executive directors for the Management Committee, 3 non-executive directors for the Audit Committee, and 1 executive director and 2 non-executive directors for the Independent Director Candidate Recommendation Committee. For the Board of Directors to effectively exercise restraint ability, the ratio of non-executive directors in the Board of Directors is more than half. In particular, the Chairman of the Audit Committee is an accounting/financial expert, and it consists of one consumer and consumer electronics industry expert and one legal expert to enhance the expertise of the Audit Committee.
                     </p>
 
                     <p class="mb-5">In 2019, total of 13 board meetings were held, with an average attendance rate of 98.9%.</p>
