@@ -151,6 +151,7 @@ export default {
             is_ENG: state => state.is_ENG
         }),
         
+        
         current_articles(){
             let total_num = this.articles.length 
             let start_index = (this.current_page - 1) * this.per_page
@@ -169,7 +170,7 @@ export default {
     },
     methods: {
         ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle']),
-        ...mapMutations('articles',['set_is_ENG']),
+        ...mapMutations(['setLang']),
         toggleLang(lang){
             this.setLang(lang)
             this.readArticles()
