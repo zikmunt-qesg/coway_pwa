@@ -2,32 +2,32 @@
 <div class="position-relative min-vh-100">
     <hr class="mb-3">
     <b-container>
-        <h3 class="mb-4 pb-2 border-bottom"> 뉴스 게시물 수정 및 작성 </h3>
+        <h3 class="mb-4 pb-2 green6" style="border-bottom: 1px solid #0f7a5a"> 영문 뉴스 게시물 수정 및 작성 </h3>
         <div class="mb-3">
-            <h7>Title</h7>
+            <h7 class="">Title</h7>
             <b-form-input v-model="title" placeholder="제목을 작성하여 주십시오"></b-form-input>
         </div>
         <div class="mb-3">
-            <h7>Date</h7>
+            <h7 class="">Date</h7>
             <b-form-datepicker v-model="date" placeholder="작성 날짜를 입력하여 주십시오"></b-form-datepicker>
         </div>
         <div class="mb-3">
-            <h7>Description</h7>
+            <h7 class="">Description</h7>
             <b-form-textarea v-model="description" rows="3" placeholder="핵심 요약 정보를 작성하여 주십시오"></b-form-textarea>
         </div>
         <div class="mb-3">
-            <h7>사진 및 이미지</h7>
+            <h7 class="">Images</h7>
             <b-form-file v-model="picture_file" :placeholder="picture_file.name"></b-form-file>
             <b-img v-if="picture_file.name != undefined && picture_file.name != null && picture_file.name != 'null' && picture_file.name != ''" :src="picture_file_url" class="img-fluid"></b-img>
 
         </div>
         <div class="mb-3">
-            <h7>내용</h7>
+            <h7 class="">Article Contents</h7>
             <b-form-textarea v-model="contents" rows="8" placeholder="본문 내용을 작성하여 주십시오"></b-form-textarea>
         </div>
         <div class="mb-3 text-right">
-            <b-button @click="save" variant="blue" class="mr-2">저장 및 게시</b-button>
-            <b-button @click.stop.prevent="$router.push('/dashboard/news_admin')">취소</b-button>
+            <b-button @click="save" variant="green" class="mr-2">Save & Post</b-button>
+            <b-button @click.stop.prevent="$router.push('/dashboard/news_admin')">Cancle</b-button>
         </div>
         <hr class="mb-5">
 

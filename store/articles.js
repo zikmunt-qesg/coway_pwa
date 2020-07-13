@@ -3,7 +3,8 @@ import Vue from 'vue'
 
 export const state = () => ({
     articles: [],
-    is_articles_loaded: false
+    is_articles_loaded: false,
+    is_dash_eng: false,
 })
 
 export const mutations = {
@@ -19,6 +20,14 @@ export const mutations = {
     },
     set_articles_not_loaded(state){
         state.is_articles_loaded = false
+    },
+    set_is_dash_eng(state, new_lang){
+        if(new_lang == 'ENG'){
+            state.is_dash_eng = true
+        }
+        else {
+            state.is_dash_eng = false
+        }
     }
 }
 
@@ -28,9 +37,16 @@ export const getters = {
 
 export const actions = {
     readArticles({ state, commit, rootState }) {
-        const path = rootState.backend_host + '/read_articles'
 
-        return this.$axios.get(path)
+        let path = rootState.backend_host + '/read_articles'
+        let lang = 'KOR'
+        if(state.is_dash_eng == true) { 
+            lang = 'ENG'
+        }
+
+        return this.$axios.get(path, { params: {
+            l:lang
+        }})
             .then(response => {
                 console.log(response)
                 for(let i=0; i < response.data.length ; i++){
@@ -42,13 +58,19 @@ export const actions = {
             })
     },
     saveArticle({ rootState, state, commit }, { id, title, date, description, picture_file, contents }) {
+        
         const path = rootState.backend_host + '/save_article'
+        let lang = 'KOR'
+        if(state.is_dash_eng == true) { 
+            lang = 'ENG'
+        }
 
         let formData = new FormData()
         formData.append('id', id)
         formData.append('title', title)
         formData.append('date', date)
         formData.append('description', description)
+        formData.append('l', lang)
         if(picture_file.name != undefined){
             formData.append('picture', picture_file, picture_file.name)
         }
@@ -75,9 +97,14 @@ export const actions = {
     },
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
+        let lang = 'KOR'
+        if(state.is_dash_eng == true) { 
+            lang = 'ENG'
+        }
 
         let formData = new FormData()
         formData.append('id', id)
+        formData.append('l', lang)
 
         return this.$axios.post(path, formData)
         .then(result => {
