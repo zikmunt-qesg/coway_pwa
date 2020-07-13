@@ -171,7 +171,7 @@ export default {
         ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle']),
         ...mapMutations('articles',['set_is_ENG']),
         toggleLang(lang){
-            this.set_is_ENG(lang)
+            this.setLang(lang)
             this.readArticles()
         },
     },
