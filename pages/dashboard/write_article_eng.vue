@@ -66,10 +66,7 @@ export default {
   computed: {
     ...mapState('articles', {
       articles: state => state.articles,
-      is_articles_loaded: state => state.is_articles_loaded
-    }),
-    ...mapState({
-        is_ENG: state => state.is_ENG
+      is_articles_loaded: state => state.is_articles_loaded,
     }),
   },
   methods: {

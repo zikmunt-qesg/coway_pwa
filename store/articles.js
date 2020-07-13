@@ -4,7 +4,6 @@ import Vue from 'vue'
 export const state = () => ({
     articles: [],
     is_articles_loaded: false,
-    is_dash_eng: false,
 })
 
 export const mutations = {
@@ -21,14 +20,7 @@ export const mutations = {
     set_articles_not_loaded(state){
         state.is_articles_loaded = false
     },
-    set_is_dash_eng(state, new_lang){
-        if(new_lang == 'ENG'){
-            state.is_dash_eng = true
-        }
-        else {
-            state.is_dash_eng = false
-        }
-    }
+    
 }
 
 export const getters = {
@@ -40,7 +32,7 @@ export const actions = {
 
         let path = rootState.backend_host + '/read_articles'
         let lang = 'KOR'
-        if(state.is_dash_eng == true) { 
+        if(rootState.is_ENG == true) { 
             lang = 'ENG'
         }
 
@@ -61,7 +53,7 @@ export const actions = {
         
         const path = rootState.backend_host + '/save_article'
         let lang = 'KOR'
-        if(state.is_dash_eng == true) { 
+        if(rootState.is_ENG == true) { 
             lang = 'ENG'
         }
 
@@ -79,12 +71,12 @@ export const actions = {
         return this.$axios.post(path, formData)
                 .then(result => {
                     let articles = [ ...state.articles ]
-                    let idx = articles.findIndex(item => item.id == result.id)
+                    let idx = articles.findIndex(item => item.id == result.data.id)
                     if (idx > -1 ){
-                        articles.splice(idx, 1, result)
+                        articles.splice(idx, 1, result.data)
                     }
                     else{
-                        articles.push(result)
+                        articles.push(result.data)
                     }
                     commit('update_articles', articles)
                     console.log('STORE COMMIT: updated_articles')
@@ -98,7 +90,7 @@ export const actions = {
     deleteArticle({ state, commit, rootState }, { id }){
         const path = rootState.backend_host + '/delete_article'
         let lang = 'KOR'
-        if(state.is_dash_eng == true) { 
+        if(rootState.is_ENG == true) { 
             lang = 'ENG'
         }
 

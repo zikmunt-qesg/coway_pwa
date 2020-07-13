@@ -4,12 +4,12 @@
         <div class="d-flex justify-content-between align-items-center border-bottom pb-1 mb-5">
             <h3 class=""> 지속가능경영 뉴스 게시물 </h3>
             <b-button-group>
-                <b-button :variant="is_dash_eng!=true?'dark':'dark-border'" @click.stop="toggleLang('KOR')"> 국문 </b-button>
-                <b-button :variant="is_dash_eng==true?'dark':'dark-border'" @click.stop="toggleLang('ENG')"> 영문 </b-button>
+                <b-button :variant="is_ENG!=true?'dark':'dark-border'" @click.stop="toggleLang('KOR')"> 국문 </b-button>
+                <b-button :variant="is_ENG==true?'dark':'dark-border'" @click.stop="toggleLang('ENG')"> 영문 </b-button>
             </b-button-group>
         </div>
         
-        <div v-if="is_dash_eng!=true">
+        <div v-if="is_ENG!=true">
             <b-table-simple responsive class="txt-table" :key="table_key">
                 <b-thead>
                     <b-tr>
@@ -145,10 +145,10 @@ export default {
         ...mapState('articles', {
         articles: state => state.articles,
         is_articles_loaded: state => state.is_articles_loaded,
-        is_dash_eng: state => state.is_dash_eng
         }),
         ...mapState({
             is_authenticated: state => state.is_authenticated,
+            is_ENG: state => state.is_ENG
         }),
         
         current_articles(){
@@ -169,10 +169,10 @@ export default {
     },
     methods: {
         ...mapActions('articles', ['readArticles', 'saveArticle', 'deleteArticle']),
-        ...mapMutations('articles',['set_is_dash_eng']),
+        ...mapMutations('articles',['set_is_ENG']),
         toggleLang(lang){
-            this.set_is_dash_eng(lang)
-            
+            this.set_is_ENG(lang)
+            this.readArticles()
         },
     },
     async mounted(){

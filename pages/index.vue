@@ -680,6 +680,9 @@ export default {
             articles: state => state.articles,
             is_articles_loaded: state => state.is_articles_loaded
         }),
+        ...mapState({
+            is_ENG: state => state.is_ENG
+        }),
         animatedNumber: function() {
             return this.tweenedNumber.toFixed(0);
         }
@@ -752,6 +755,28 @@ export default {
         })
         this.visible = true
     },
+    watch:{
+        is_ENG(){
+            this.readArticles()
+            .then( ()=>{
+                this.main_articles = ih.deepCopy(this.articles).slice(0, 3)
+                
+                this.main_articles.forEach(item => {
+                    if(!item.picture_file){
+                        this.loadPicture({ id: item.id, thumb: true })
+                        .then( picture_file => {
+                            this.$set(item, 'picture_file', picture_file)
+                            this.$set(item, 'picture_file_url', URL.createObjectURL(picture_file))
+                        })
+                        .catch( error=>{
+                            console.log(error)
+                        })
+                    }
+                    console.log(this.main_articles);
+                })
+            })
+        }
+    }
 
 };
 </script>
