@@ -16,7 +16,7 @@
                     <b-table-simple responsive class="txt-table  sustainability-table f-95">
                         <b-thead>
                             <b-tr>
-                                <b-td>No.</b-td> <b-td > {{is_ENG!==true?'제목':'Title'}} </b-td> <b-td> {{is_ENG!==true?'게시날짜':'Uploaded'}} </b-td>
+                                <b-td>No.</b-td> <b-td > {{is_ENG!==true?'제목':'Title'}} </b-td> <b-td style="width:12%"> {{is_ENG!==true?'게시날짜':'Uploaded'}} </b-td>
                             </b-tr>
                         </b-thead>
                         <b-tbody v-for="item in current_articles" :key="item.id">

@@ -33,8 +33,8 @@
                                         <b-button variant="reports" href="/documents/2019_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
                                     </b-button-group><br>
                                     <b-button-group block>
-                                        <b-button variant="reports-up" href="/documents/2018_coway_sr_kor.pdf" target="_blank">영문 바로보기</b-button>
-                                        <b-button variant="reports" href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
+                                        <b-button variant="reports-up" href="/documents/2019_coway_sr_eng.pdf" target="_blank">영문 바로보기</b-button>
+                                        <b-button variant="reports" href="/documents/2019_coway_sr_eng.pdf" download><i class="fas fa-file-download"></i> </b-button>
                                     </b-button-group>
                                 </b-card-body>
                             </b-col>
@@ -158,8 +158,8 @@
                                         <b-button variant="reports" href="/documents/2019_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
                                     </b-button-group><br>
                                     <b-button-group block>
-                                        <b-button variant="reports-up" href="/documents/2018_coway_sr_kor.pdf" target="_blank">English</b-button>
-                                        <b-button variant="reports" href="/documents/2018_coway_sr_kor.pdf" download><i class="fas fa-file-download"></i> </b-button>
+                                        <b-button variant="reports-up" href="/documents/2019_coway_sr_eng.pdf" target="_blank">English</b-button>
+                                        <b-button variant="reports" href="/documents/2019_coway_sr_eng.pdf" download><i class="fas fa-file-download"></i> </b-button>
                                     </b-button-group>
                                 </b-card-body>
                             </b-col>

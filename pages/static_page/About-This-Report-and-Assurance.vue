@@ -78,7 +78,7 @@
                     <div class="px-md-2 px-lg-4 atr-content">
                         <div class="d-flex mb-4 position-relative overflow-hidden font-noto"><h4 class="parang7 bg-white pr-4 letter-narrow-lg" style="z-index:10"> 독립된 검증인의 제3자 검증 보고서</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                         <h7 class="parang6 f-110 fw-500">주식회사 코웨이 이해관계자 귀중</h7>
-                        <p>퀀티파이드이에스지(이하 ‘검증인’)는 주식회사 코웨이(이하 ‘보고 기관’)가 발행한 ‘2019 코웨이 지속가능성 웹보고서(이하 ‘보고서’)에 대하여 제한적 검증(limited assurance engagement)을 수행하였으며, 다음과 같이 검증성명서(이하 ‘검증 의견’)를 제출합니다.
+                        <p>퀀티파이드이에스지(이하 ‘검증인’)는 주식회사 코웨이(이하 ‘보고 기관’)가 발행한 ‘2019 코웨이 지속가능성 웹보고서(이하 ‘보고서’)에 대하여 제3자 검증(3rd Party assurance engagement)을 수행하였으며, 다음과 같이 검증성명서(이하 ‘검증 의견’)를 제출합니다.
                         </p>
                         <p class="mb-45 indent"> &rtrif; 검증대상: 2019 코웨이 지속가능성 웹보고서 http://sustainability.coway.co.kr <br>
                             (2020년 6월 30일 기준, 보고기간: 2019년 1월 ~ 2019년 12월)
@@ -89,19 +89,21 @@
                         <h7 class="parang6 f-110 fw-500">코웨이 경영진의 책무</h7>
                         <p> 코웨이 경영진은 정확한 정보가 기술된 보고서를 작성하기 위한 내부 통제제도의 구현과 보고서에 표현된 정보에 대한 최종적 책임이 있습니다. 보고 기관은 다음 기준을 준용하여 보고서를 작성하였습니다. 
                         </p>
-                        <p class="indent"> &rtrif; GRI(Global Reporting Initiatives) 보고 표준 – 핵심 부합방법(Core Option)
+                        <p class="indent"> &rtrif; GRI(Global Reporting Initiatives) 보고 표준 – 핵심 부합방법(Core Option)<sup>1)</sup>
                         </p>
-                        <p class="mb-45 indent"> &rtrif; SASB(지속가능성회계표준, Sustainability Accounting Standard Board)의 가전제품 제조(Appliance Manufacturing) 및 전문 및 상업서비스(Professional and Commercial Service) 기준
+                        <p class="indent mb-3"> &rtrif; SASB(지속가능성회계표준, Sustainability Accounting Standard Board)의 가전제품 제조(Appliance Manufacturing) 및 전문 및 상업서비스(Professional and Commercial Service) 기준
                         </p>
+                        <div class="mb-45 fw-300 gray55 f-80 font-noto">1) GRI 부합 방법(In Accordance Criteria): GRI Standards는 GRI 보고 부합방법(In Accordance)을 ‘핵심(Core)’적 부합과 ‘포괄(Comprehensive)’적 부합으로 구분합니다. 핵심적(Core) 부합방법은 일반표준공개 일부와, 파악된 모든 중요 측면(Material Aspects)의 경영접근(Management Approach, MA)와 하나 이상의 특정표준공개지표를 보고하는 것으로 충족됩니다.
+                        </div>
                         <h7 class="parang6 f-110 fw-500">독립성 및 내부 통제</h7>
                         <p class="mb-45"> 본 검증인은 독립된 검증 기관으로서 보고 내용의 생산, 작성에 관여하지 않았으며, 작성된 보고서에 대한 객관적 검증 업무를 토대로 검증 의견을 작성할 책임을 지니고 있습니다. 본 검증인은 검증 업무를 수행하는데 독립성을 저해할 수 있는 어떠한 이해관계도 보고 기관과 맺고 있지 않습니다.
                         </p>
                         <h7 class="parang6 f-110 fw-500">검증인의 책무와 검증 진행경과</h7>
-                        <p class="mb-1"> 검증인은 국제적 비재무 정보 검증 기준 ISAE3000(International Standard on Assurance Engagement 3000)에 따라 보고서에 나타난 지표 및 정보의 균형성, 비교가능성, 정확성, 적시성, 명확성, 신뢰성을 보고 기관으로부터 제시 받은 문서 기반 정보 및 인터뷰를 통해 확인하였습니다. 
+                        <p class="mb-2"> 검증인은 AA1000AS(2008) Type II 검증 유형<sup>2)</sup>의 중간(Moderate) 수준의 신뢰도<sup>3)</sup>를 달성하기 위한 검증 절차(assurance engagement process)를 따랐습니다. AA1000AP(2018) 4대 원칙인 포괄성, 중요성, 대응성, 영향에 대한 준수 여부를 검토하였습니다. 보고서에 나타난 지표 및 정보의 균형성, 비교가능성, 정확성, 적시성, 명확성, 신뢰성을 보고 기관으로부터 제시 받은 문서 기반 정보 및 인터뷰를 통해 확인하였습니다. 
                         </p>
                         <p>본 검증 업무는 다음과 같은 방법으로 진행되었습니다.
                         </p>
-                        <ul class="footnote-ul line-height-low mb-5 f-95 fw-300">
+                        <ul class="footnote-ul line-height-low f-95 mb-4 fw-300">
                             <li><span class="gray7">지속가능성 전략 및 중요 성과 지표(Materiality Matrix)에 대한 책임자 인터뷰</span></li>
                             <li><span class="gray7">이해관계자 참여 과정, 결과, 외부 미디어 및 동종 기업 지속가능성 보고서를 통해 결정된 중요 주제에 대한 리뷰</span></li>
                             <li><span class="gray7">GRI 보고 표준에 따라 작성된 각 지표별 데이터 수집 및 작성 절차, 내부 통제의 신뢰성 확인을 위한 담당자 인터뷰</span></li>
@@ -110,6 +112,10 @@
                             <li><span class="gray7">SASB 가전제품 제조, 전문 및 상업서비스 주요 지표 보고사항에 대한 리뷰</span></li>
                             <li><span class="gray7">전반적인 지속가능성 보고 품질에 대한 리뷰</span></li>
                         </ul>
+                        <div class="mb-2 fw-300 gray55 f-80 font-noto">2) 검증 유형(Type of Engagement): AA1000AS(2008)의 검증 유형은 AA1000AP(2018)에서 제시하는 4대 원칙(포괄성, 중요성, 대응성, 영향)에 대한 부합성을 검증하는 Type I 검증과, 원칙 검증에 더해 중요 지표의 신뢰성까지 검증하는 Type II 검증으로 구분됩니다.
+                        </div>
+                        <div class="mb-5 fw-300 gray55 f-80 font-noto">3) 신뢰도(Level of Assurance): AA1000AS(2008)의 신뢰도 수준은 높은 수준(High)의 검증과 중간(Moderate) 수준의 검증으로 구분됩니다. 중간(Moderate) 수준 검증은 진술에 대한 증거를 확인하기 위하여 제한적 깊이의 근거 확인, 낮은 수준의 샘플링을 통해 정보의 타당성을 확인하는데 주안점을 두고 있으며, 정보가 생산되는 절차의 신뢰성을 통해 결론을 내립니다.
+                        </div>
                         <div class="d-flex justify-content-between align-items-center"><h7 class="fw-500">GRI 검증 범위<sup>*</sup></h7><div class="f-85 gray6 fw-300">* 각 주제별 MA를 포함함</div></div>
                             <b-table-simple responsive class="txt-table sustainability-table f-95 mb-5">
                                 <b-thead><b-tr>
@@ -150,14 +156,23 @@
                         <h7 class="parang6 f-110 fw-500">검증 결과</h7>
                         <p> 상기 기술된 검증 절차에 따른 검증 수행 결과 검증인은 관련 보고 기준 및 이해관계자의 판단에 영향을 미칠 수 있는 모든 중요한 측면에 대하여, 보고서가 적절치 않게 준비되었다고 결론 내릴 수 있는 어떠한 증거도 발견하지 못하였습니다.
                         </p>
-                        <p class="mb-4"> 본 검증인은 보고 기관에 다음의 내용을 제언하는 바입니다.
+
+                        <p><span class="fw-500">포괄성(Inclusivity): 이해관계자의 참여 &nbsp;|</span> &nbsp;보고 기관은 지속가능경영 이슈와 관련하여 포괄적인 이해관계자 참여를 실시하고 있습니다. 이를 위해 고객, 주주 및 투자자, 임직원, 파트너 및 협력사, 지역사회, 학계 및 언론 등 6개 그룹으로 주요 이해관계자를 정의하고 있으며, 각 그룹의 커뮤니케이션 채널과 기대사항을 명확히 구분, 적극적인 소통을 통해 이해관계자들의 의견을 경영정책에 반영하고 있음을 확인하였습니다.
                         </p>
-                        <div class="border-left-gray pl-4 fw-300 gray6 mb-4">기업 평가 요소로서 지속가능한 성장과 발전을 위해 기업이 야기하는 사회-환경 영향을 측정하고 관리하는 것이 중요해지고 있는 추세입니다. 투입(Input), 활동(Activities), 산출(Outputs), 성과(Outcomes)로 구성되는 영향 평가 단계별로 흐름에 따른 중요 지표(Indicator)를 선정하고 도출되는 정성, 정량 자료들을 활용하여 기업의 중장기적 영향을 평가하는 체계를 갖추어 갈 것을 권고 드립니다.
-                        </div>
+                        <p><span class="fw-500">중요성(Materiality): 주요 이슈의 선정 및 보고 &nbsp;|</span> &nbsp;보고 기관은 GRI Standards, SASB 등 글로벌 지속가능성 표준 및 이니셔티브를 비롯해 미디어 및 대외 커뮤니케이션 키워드 분석을 토대로 지속가능경영 이슈를 26개로 정리하고 있음을 확인하였습니다. 또한 내·외부 이해관계자 의견 분석을 통해 최종 10개의 핵심이슈를 도출하였으며, 보고서 각 URL에 균형적으로 반영되어 있음을 확인하였습니다.
+                        </p>
+                        <p><span class="fw-500">대응성(Responsiveness): 이슈에 대한 조직의 대응 &nbsp;|</span> &nbsp;보고 기관은 이해관계자의 성과에 영향을 미치는 주요 기대사항을 파악하고, 파악된 주요 이슈에 대응하기 위한 활동을 실시했으며, 그 내용들을 보고서에 적절히 기술하였음을 확인하였습니다.
+                        </p>
+                        <p><span class="fw-500">영향(Impact): 조직이 미치는 영향에 대한 고려 &nbsp;|</span> &nbsp;보고 기관은 경영 활동이 더욱 넓은 생태계시스템에 미치는 영향을 모니터링하고 있습니다. 경제, 사회, 환경 부문의 영향 산정을 고도화하기 위한 방안으로 영향에 대한 정량 지표 산출을 위해 노력할 것을 권고 드립니다.
+                        </p>
                         <hr>
-                        <div class="text-right parang7"> 2020년 06월</div>
+                        <div class="text-right parang7 font-noto"> 2020년 07월</div>
                         <hr>
                         <div class="text-right"> (주)퀀티파이드이에스지 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 대 표 &nbsp;&nbsp;&nbsp; 배 익 현</div>
+
+                        <hr class="border-bottom-gray py-0 mt-5 mb-3">
+                        <b-img src="/images/aa1000as.jpg" class="mr-4" style="width:150px;"></b-img>
+                        <b-img src="/images/qesg.jpg" class="" style="width:130px;"></b-img>
                     </div>
                 </b-card>
 
@@ -281,7 +296,7 @@
                     <div class="px-md-2 px-lg-4 atr-content">
                         <div class="d-flex mb-4 position-relative overflow-hidden font-noto"><h4 class="parang7 bg-white pr-4 letter-narrow-lg" style="z-index:10"> Independent Assurance Statement</h4><div class="horizontal-line-2 parang-line position-absolute" style="z-index:8"></div></div>
                         <h7 class="parang6 f-110 fw-500">To the Management of Coway Stakeholders</h7>
-                        <p> Quantified ESG (hereinafter the "verifier") has undertaken limited assurance engagement on the “2019 Coway Sustainability Web Report” (hereinafter "Report") from Coway (hereinafter the "Reporting Authority"), and submit a verification statement (hereinafter "Verification opinion") as follow:
+                        <p> Quantified ESG (hereinafter the "Verifier") has undertaken 3rd party assurance engagement on the "2019 Coway Sustainability Web Report" (hereinafter "Report") from Coway (hereinafter the "Reporting Authority"), and submit a verification statement (hereinafter "Verification opinion") as follow:
                         </p>
                         <p class="mb-45 indent"> &rtrif; Verifying Target: 2019 Coway Sustainability Web Report http://sustainability.coway.co.kr <br>
                             (As of June 30, 2020, reporting period: January 2019 to December 2019)
@@ -296,21 +311,25 @@
                         <h7 class="parang6 f-110 fw-500">Responsibility of Coway’s management</h7>
                         <p class=""> The management of Coway is responsible for the preparation of the report and the information contained therein in accordance with the applicable criteria. This responsibility includes the implementation of an internal control system to produce a report describing the correct information. The reporting agency prepared the report by the following criteria:
                         </p>
-                        <p class="mb-1 indent"> &rtrif; GRI (Global Reporting Initiatives) Reporting Standard – Core Option
+                        <p class="mb-1 indent"> &rtrif; GRI (Global Reporting Initiatives) Reporting Standard – Core Option<sup>1)</sup>
                         </p>
-                        <p class="mb-45 indent"> &rtrif; SASB (Sustainability Accounting Standard Board) Appliance Manufacturing and Professional and Commercial Service Standard
+                        <p class="indent"> &rtrif; SASB (Sustainability Accounting Standard Board) Appliance Manufacturing and Professional and Commercial Service Standard
                         </p>
+                        <div class="mb-45 fw-300 gray55 f-80 font-noto">1) GRI In Accordance Criteria: GRI Standards classify GRI Report in Accordance with “Core Accordance” and “Comprehensive Accordance.” Core Accordance Option is satisfied by reporting part of the general standard disclosure, all material aspects of management approach (MA), and at least one specific standard disclosure.
+                        </div>
                         
                         <h7 class="parang6 f-110 fw-500">Independence and Quality Control </h7>
                         <p class="mb-45"> As an independent assurance agency, the verifier was not involved in the production or preparation of the report and is responsible for writing verification opinions based on objective verification work for the report. The verifier does not have any interests with the reporting agency that may impair its independence in performing the verification work.
                         </p>
 
                         <h7 class="parang6 f-110 fw-500">Our responsibility</h7>
-                        <p class="mb-45"> The verifier confirmed the comparability, accuracy, timeliness, clarity, and reliability of the indicators and information presented in the report based on ISAE3000 (International Standard on Assurance Engagement 3000), an international non-financial information assurance standard, through information and interviews based on the documents from the reporting agency. 
+                        <p> The verifier followed the assurance engagement process to achieve moderate level of assurance<sup>2)</sup> in the AA1000AS (2008) Type II verification type<sup>3)</sup> and reviewed compliance with the four principles of AA1000AP (2018); inclusivity, materiality, responsiveness, and impact. The balance, comparability, accuracy, timeliness, clarity, and reliability of indicators and information presented in the report were verified through document-based information and interviews presented by the reporting organization.
+                        </p>
+                        <p class="mb-45">The verifier confirmed the comparability, accuracy, timeliness, clarity, and reliability of the indicators and information presented in the report through information and interviews based on the documents from the reporting agency. 
                         </p>
                         <p class="mb-1"> Our limited assurance procedures included, amongst others, the following work:
                         </p>    
-                        <ul class="footnote-ul line-height-low mb-5 f-95 fw-300">
+                        <ul class="footnote-ul line-height-low mb-4 f-95 fw-300">
                             <li><span class="gray7">Interviews with representatives of senior management and employees regarding the sustainability strategy and the materiality matrix</span></li>
                             <li><span class="gray7">Review of material topics against key issues raised in stakeholder dialogues, areas of performance covered in external media reports and sustainability reports</span></li>
                             <li><span class="gray7">Interviews with employees responsible for preparing the GRl-based sustainability reporting to assess the process of preparing the report, the reporting system, the data capture and compilation methods as well as internal controls to the extent relevant for a review of the report </span></li>
@@ -319,6 +338,10 @@
                             <li><span class="gray7">Review of the material indicators of SASB (Sustainability Accounting Standard Board) Appliance Manufacturing and Professional and Commercial Service Standard </span></li>
                             <li><span class="gray7">Evaluation of the overall quality of sustainability information provided in the report</span></li>
                         </ul>
+                        <div class="mb-2 fw-300 gray55 f-80 font-noto">2) Level of Assurance: The assurance level of AA1000AS (2008) is divided into high level verification and moderate level verification. Moderate level verification focuses on verifying the validity of information through limited depth of evidence and low-level sampling to confirm evidence of the statement and draws conclusions through the assurance of the process in which the information is produced. 
+                        </div>
+                        <div class="mb-5 fw-300 gray55 f-80 font-noto">3) Type of Engagement: The AA1000AS (2008) verification type includes Type I verification for verifying conformity to the four principles (Inclusivity, materiality, responsiveness, and impact) suggested by AA1000AP (2018), and Type II verification for verifying the reliability of important indicators in addition to the principle verification.
+                        </div>
                         <div class="d-flex justify-content-between align-items-center"><h7 class="fw-500">GRI Verification Scope<sup>*</sup></h7><div class="f-85 gray6 fw-300">* Including MA for each subject</div></div>
                             <b-table-simple responsive class="txt-table sustainability-table f-90 mb-5">
                                 <b-thead><b-tr>
@@ -356,19 +379,27 @@
                                     <b-tr><b-td>Socioeconomic Compliance</b-td><b-td>419-1</b-td></b-tr>
                                 </b-tbody>
                             </b-table-simple>
-                        <h7 class="parang6 f-110 fw-500">Our Conclusion</h7>
+                        <h7 class="parang6 f-110 fw-500">Our Conclusion</h7>                        
                         <p> Based on the procedures we have performed and the evidence we have obtained, nothing has come to our attention that causes us to believe that the report has been prepared inappropriately for all important aspects that may affect the relevant reporting standards and judgment of stakeholders.
                         </p>
-                        <p class="mb-4"> The verifier suggests the following to the reporting agency:
+                        <p><span class="fw-500">Inclusivity: Stakeholder Engagement &nbsp;|</span> &nbsp;The reporting authority conducts comprehensive stakeholder engagement related to sustainability management issues. The reporting authority defines key stakeholders into six groups: shareholders and investors, employees, partners and suppliers, local community, and academia and the media. We confirm that stakeholder’s opinion is reflected in the management policy through active communication, through the clearly separated communication channel and expectations of each group. 
                         </p>
-                        <div class="border-left-gray pl-4 fw-300 gray6 mb-4"> It is becoming increasingly important to measure and manage the company’s social-environmental impacts for sustainable growth and development as a company evaluation factor. We suggest that you establish a system that evaluates the medium and long-term impact of a company by utilizing qualitative, quantitative data derived from selecting material indicators according to the flow of Impact Evaluation Steps: Input, Activities, Output, and Outcome.
-                        </div>
+                        <p><span class="fw-500">Materiality: Identifying and Reporting Material Topics &nbsp;|</span> &nbsp;The verifier confirms that sustainability management topics are organized into 26 topics based on the keyword analysis of media and external communication including global sustainability standards and initiatives such as GRI Standards and SASB. Moreover, we confirm that ultimately material topics are derived through the analysis of internal and external stakeholder’s opinions, and they are reflected in each URL of the report in a balanced manner.
+                        </p>
+                        <p><span class="fw-500">Responsiveness: Organization’s Response to The Topic &nbsp;|</span> &nbsp;The verifier confirms that the major expectations affecting the performance of the stakeholders are identified and the proper measures were taken to respond to the identified issues and the contents of the responses are appropriately described in the report.
+                        </p>
+                        <p><span class="fw-500">Impact: Considering The Impact on The Organization &nbsp;|</span> &nbsp;The reporting authority monitors the effect of management activities on the broader ecosystem. We recommend that the reporting authority undertake efforts to calculate quantitative indicators to advance the calculation of the impacts in the economic, social, and environmental sectors.
+                        </p>
+                        
                         <hr>
-                        <div class="text-right parang7"> June 2020</div>
+                        <div class="text-right parang7 font-noto"> July 2020</div>
                         <hr>
                         
-                        <div class="text-right pb-2"> CEO &nbsp;&nbsp;&nbsp;&nbsp; Ikhyun Bae</div>
+                        <div class="text-right"> CEO &nbsp;&nbsp;Ikhyun Bae</div>
                         <div class="text-right f-95 mt-3">QuantifiedESG, Inc.</div>
+                        <hr class="border-bottom-gray py-0 mt-5 mb-3">
+                        <b-img src="/images/aa1000as.jpg" class="mr-4" style="width:150px;"></b-img>
+                        <b-img src="/images/qesg.jpg" class="" style="width:130px;"></b-img>
                     </div>
                 </b-card>
 
