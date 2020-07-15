@@ -622,7 +622,7 @@
                             <div class="temp-icon9 mb-2 mb-md-3"><b-img src="/images/23_1.svg" fluid class="h-100"></b-img></div>
                             <ul class="fw-300 mb-3 mb-md-0">
                                 <li class="no-word-break line-height-low f-85">Compliance with EU RoHS & Resource Recycling Act standards for all parts to verify the compatibility</li>
-                                <li class="no-word-break line-height-low f-85">To verify the compatibility of all products internally, K-RoHS Response is expanded, and Service part code is 100% registered.</li>
+                                <li class="no-word-break line-height-low f-85">To verify the suitability of all products internally, register the service part code 100% by expanding the response to the Resource Recycling Act.</li>
                             </ul>
                         </b-col>
                         <b-col class="custom-ul-li position-relative">

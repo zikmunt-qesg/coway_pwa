@@ -8,7 +8,7 @@
             <h1 class="mt-5 mb-3 pt-3 text-center w-100 fw-400">CARE FOR SOCIETY</h1>
             <div class="d-flex justify-content-center mb-5 text-center w-100">
                 <div class="border-bottom-dark mr-3" style="width: 50px; margin-bottom: 1.25rem"></div>
-                <h7 class="fw-400"> Human Right Report</h7>
+                <h7 class="fw-400"> Human Rights Report</h7>
                 <div class="border-bottom-dark ml-3" style="width: 50px; margin-bottom: 1.25rem"></div>
             </div>
         </b-row>
@@ -35,7 +35,7 @@
                     <p class="mb-4 font-noto">코웨이의 인권 경영은 1) 유엔 기업과 인권 이행원칙(UN Guiding Principles on Business and Human Rights)와 비교하는 진단 분석(Gap Analysis), 2) 글로벌 인권 행동플랫폼 및 NGO 등 3rd-Party의 인권 관련 이슈 트래킹(Tracking), 3) 연례 이해관계자 조사를 통한 이슈 식별, 4) CSR 이슈제기 채널을 통한 통합 고충처리(Grievance Resolution) 내용을 종합적으로 검토하여 이뤄집니다. 
                     </p>
 
-                    <a target="_blank" href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="px-3 mb-5">코웨이 인권 정책<i class="fas fa-external-link-alt ml-2"></i></b-button></a>
+                    <b-button variant="gold" size="sm" class="px-3 mb-5"  href="/documents/Coway_coway_trust_guideline_kor.pdf" target="_blank">코웨이 인권 정책<i class="fas fa-external-link-alt ml-2"></i></b-button>
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="w2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">인권 리스크 식별 및 완화 프로세스</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
@@ -171,7 +171,7 @@
                     <p class="mb-4 font-noto"> Coway human rights management is comprised of 1) Gap analysis which compares to UN Guiding Principles on Business and Human Rights, 2) Tracking human rights issue on 3rd parties such as Global Human Rights Action Platform and NGOs, 3) Identification of issues through annual stakeholder surveys, 4) Comprehensive review of integrated grievance resolution through CSR issue-raising channel. 
                     </p>
 
-                    <a target="_blank" href="http://sustainability18.coway.co.kr/download/cowaytrustguide.pdf"><b-button variant="gold" size="sm" class="mb-5">Coway Human Rights Policy<i class="fas fa-external-link-alt ml-2"></i> </b-button></a>
+                    <b-button variant="gold" size="sm" class="mb-5"  href="/documents/Coway_coway_trust_guideline_eng.pdf" target="_blank">Coway Human Rights Policy<i class="fas fa-external-link-alt ml-2"></i> </b-button>
                     <hr class="py-3">
 
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="w2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Risk Identification and Mitigation Process</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>

@@ -87,23 +87,26 @@
                         <b-img src="/images/10_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
-                        <!-- <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
+                        <h7 class="mb-3 gray63">사회공헌 투자 비율 <span class="f-80 fw-300"> (단위: %)</span></h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
                                 <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">현금 기부</b-td><b-td>403,758</b-td><b-td>485,219</b-td><b-td>10,572</b-td>
+                                    <b-td class="text-left">현금 기부</b-td><b-td>50</b-td><b-td>55</b-td><b-td>56</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">현물 기부</b-td><b-td>95,278</b-td><b-td>212,727</b-td><b-td>662,126</b-td>
+                                    <b-td class="text-left">현물 기부</b-td><b-td>44</b-td><b-td>32</b-td><b-td>39</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">사회공헌성 비용</b-td><b-td>558,693</b-td><b-td>137,791</b-td><b-td>211,579</b-td>
+                                    <b-td class="text-left">사회공헌성 비용</b-td><b-td>6</b-td><b-td>13</b-td><b-td>5</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">합계</b-td><b-td>100</b-td><b-td>100</b-td><b-td>100</b-td>
                                 </b-tr>
                             </b-tbody>
-                        </b-table-simple> -->
+                        </b-table-simple>
 
                     <section class="border-gold px-4 py-3 mb-5">
                         <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>코로나<span class="fw-600">19</span> 긴급재해 기부</p>
@@ -375,23 +378,26 @@
                         <b-img src="/images/317_1.svg" fluid></b-img>
                         <hr class="space-p25">
                         
-                        <!-- <h7 class="mb-3 gray63">사회공헌 투자액 <span class="f-80 fw-300"> (단위: 천 원)</span></h7>
+                        <h7 class="mb-3 gray63">Social Contribution Investment Ratio<span class="f-80 fw-300"> (Unit: %)</span></h7>
                         <b-table-simple responsive class="num-table social-table f-95 mb-5">
                              <b-thead><b-tr>
-                                <b-td class="text-left">구분</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
+                                <b-td class="text-left">Category</b-td><b-td>2017</b-td><b-td>2018</b-td><b-td>2019</b-td>
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">현금 기부</b-td><b-td>403,758</b-td><b-td>485,219</b-td><b-td>10,572</b-td>
+                                    <b-td class="text-left">Charitable donations</b-td><b-td>50</b-td><b-td>55</b-td><b-td>56</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">현물 기부</b-td><b-td>95,278</b-td><b-td>212,727</b-td><b-td>662,126</b-td>
+                                    <b-td class="text-left">Community investments</b-td><b-td>44</b-td><b-td>32</b-td><b-td>39</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">사회공헌성 비용</b-td><b-td>558,693</b-td><b-td>137,791</b-td><b-td>211,579</b-td>
+                                    <b-td class="text-left">Commercial initiatives</b-td><b-td>6</b-td><b-td>13</b-td><b-td>5</b-td>
+                                </b-tr>
+                                <b-tr>
+                                    <b-td class="text-left">Total</b-td><b-td>100</b-td><b-td>100</b-td><b-td>100</b-td>
                                 </b-tr>
                             </b-tbody>
-                        </b-table-simple> -->
+                        </b-table-simple>
 
                     <section class="border-gold px-4 py-3 mb-5">
                         <p class="gold6 fw-500 mt-2 mb-3 f-105"><b-badge class="rounded fw-400 bg-gold6 f-90 p-1 mr-2"> Case.</b-badge>COVID<span class="fw-600">-19</span> Emergency Disaster Donation</p>
