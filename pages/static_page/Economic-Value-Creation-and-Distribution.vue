@@ -152,10 +152,10 @@
                                     <b-td class="text-left">법인세 비용<sup>3)</sup></b-td><b-td>118,755,573</b-td><b-td>119,210,883</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">명목세율<sup>4)</sup></b-td><b-td>25.28%</b-td><b-td>26.41%</b-td>
+                                    <b-td class="text-left">명목세율<sup>4)</sup></b-td><b-td>25.29%</b-td><b-td>25.20%</b-td>
                                 </b-tr>
                                 <b-tr>                        
-                                    <b-td class="text-left">유효세율<sup>5)</sup></b-td><b-td>25.34%</b-td><b-td>26.40%</b-td>
+                                    <b-td class="text-left">유효세율<sup>5)</sup></b-td><b-td>25.34%</b-td><b-td>26.41%</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
@@ -331,10 +331,10 @@
                                     <b-td class="text-left">Income tax expense<sup>3)</sup></b-td><b-td>118,755,573</b-td><b-td>119,210,883</b-td>
                                 </b-tr>
                                 <b-tr>
-                                    <b-td class="text-left">Nominal tax rate<sup>4)</sup></b-td><b-td>25.28%</b-td><b-td>26.41%</b-td>
+                                    <b-td class="text-left">Nominal tax rate<sup>4)</sup></b-td><b-td>25.29%</b-td><b-td>25.20%</b-td>
                                 </b-tr>
                                 <b-tr>                        
-                                    <b-td class="text-left">Effective tax rate<sup>5)</sup></b-td><b-td>25.34%</b-td><b-td>26.40%</b-td>
+                                    <b-td class="text-left">Effective tax rate<sup>5)</sup></b-td><b-td>25.34%</b-td><b-td>26.41%</b-td>
                                 </b-tr>
                             </b-tbody>
                         </b-table-simple>
