@@ -588,7 +588,7 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
+                                    <b-td class="text-left">임직원</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.09</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">사내도급 및 협력사</b-td><b-td class="text-left">건/백만 근로시간</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
@@ -1199,7 +1199,7 @@
                             </b-tr></b-thead>
                             <b-tbody>
                                 <b-tr>
-                                    <b-td class="text-left">Employees</b-td><b-td class="text-left">case/million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.38</b-td>
+                                    <b-td class="text-left">Employees</b-td><b-td class="text-left">case/million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0.09</b-td>
                                 </b-tr>
                                 <b-tr>
                                     <b-td class="text-left">In-House Subcontractors and Suppliers</b-td><b-td class="text-left">case/million working hours</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td><b-td>0</b-td>
