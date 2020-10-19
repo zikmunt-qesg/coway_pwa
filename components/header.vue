@@ -4,7 +4,7 @@
         <b-navbar class="px-3 px-sm-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" :class="sm_opend==true ? 'shadow-sm-lg-none':''" toggleable="lg" variant="light" style="z-index:10">
             <b-navbar-brand class="my-2 pb-2">
                 <nuxt-link to="/">
-                    <b-img class="header-logo" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability</span>
+                    <b-img class="header-logo mr-2" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability</span>
                 </nuxt-link>
             </b-navbar-brand>   
 
