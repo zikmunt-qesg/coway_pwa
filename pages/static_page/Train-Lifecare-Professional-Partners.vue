@@ -65,7 +65,7 @@
                                     <b-col class="col-4 text-center fw-500"><div class="mx-auto mb-3"><b-img src="/images/139_6.svg"></b-img></div>
                                         <p class="fw-500 word-break pt-1 px-1 px-lg-2 font-noto">파트너 소통 3C* 간담회 실시</p>
                                     </b-col>
-                                    <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, CS Dr., Call center</div>
+                                    <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, Service manager, Call center</div>
                                 </b-row>
                             </b-col>
                             <b-col class="col-12 col-md-5 position-relative pl-md-4">
@@ -95,12 +95,12 @@
                         </p>
                     
                     <h6-ancor hash="s1-2" :activated="activated" class="gold6 fw-500 mb-3">현장 이슈에 기반한 파트너 지원</h6-ancor>
-                        <p class="mb-5">코웨이는 현장 이슈를 즉각적으로 반영하여 통해 코디, CS 닥터, HP/GHP 등 영업·서비스 파트너가 효과적으로 서비스를 제공할 수 있도록 지원하고 있습니다. 서비스 툴백(Tool bag)제공은 현장 이슈 경청을 통한 파트너 전문성 향상의 대표적인 사례입니다. 서비스 툴백은 서비스 물품 이용 실태와 파트너 의견을 조사를 통해 제작한 것으로, 다양한 종류의 서비스 도구를 관리하고 운반 및 이동할 수 있는 전문 서비스 도구 전용 키트입니다. 또한 툴백 뿐만 아니라 용도별 도구를 다양화하여 정수기, 비데, 매트리스, 의류청정기각 제품군별 전문 도구를 제공하였습니다. 이를 통해 파트너의 서비스 제공 효율성을 높였을 뿐만 아니라, 업무로 인한 피로도를 최소화하였습니다.
+                        <p class="mb-5">코웨이는 현장 이슈를 즉각적으로 반영하여 통해 코디, 서비스매니저, HP/GHP 등 영업·서비스 파트너가 효과적으로 서비스를 제공할 수 있도록 지원하고 있습니다. 서비스 툴백(Tool bag)제공은 현장 이슈 경청을 통한 파트너 전문성 향상의 대표적인 사례입니다. 서비스 툴백은 서비스 물품 이용 실태와 파트너 의견을 조사를 통해 제작한 것으로, 다양한 종류의 서비스 도구를 관리하고 운반 및 이동할 수 있는 전문 서비스 도구 전용 키트입니다. 또한 툴백 뿐만 아니라 용도별 도구를 다양화하여 정수기, 비데, 매트리스, 의류청정기각 제품군별 전문 도구를 제공하였습니다. 이를 통해 파트너의 서비스 제공 효율성을 높였을 뿐만 아니라, 업무로 인한 피로도를 최소화하였습니다.
                         </p>
                     
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">파트너 상생 및 커뮤니케이션</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-5">코웨이는 현장을 명확히 이해하기 위해 3C(Cody, CS Dr., Call center) 간담회를 실시하여 현장 VOC를 청취하여 전사적으로 공유하고 있습니다. 3C 간담회는 코웨이의 주요 고객 접점에서 활동하는 코디, CS 닥터, 콜센터의 실무자 대표로 구성된 정기 회의체로서, 상호 간 업무 현황과 상황을 이해하고 소통의 시너지를 확대하여 고객만족을 높이고 있습니다. 2019년 코웨이는 3C 간담회를 통해 제품, A/S, 교육 등 9개 유형별 VOC를 기반으로 과제를 도출하여 유관부서와 함께 개선 활동을 추진하였습니다. 
+                        <p class="mb-5">코웨이는 현장을 명확히 이해하기 위해 3C(Cody, Service manager, Call center) 간담회를 실시하여 현장 VOC를 청취하여 전사적으로 공유하고 있습니다. 3C 간담회는 코웨이의 주요 고객 접점에서 활동하는 코디, 서비스매니저, 콜센터의 실무자 대표로 구성된 정기 회의체로서, 상호 간 업무 현황과 상황을 이해하고 소통의 시너지를 확대하여 고객만족을 높이고 있습니다. 2019년 코웨이는 3C 간담회를 통해 제품, A/S, 교육 등 9개 유형별 VOC를 기반으로 과제를 도출하여 유관부서와 함께 개선 활동을 추진하였습니다. 
                         </p>
                     
                     <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-3 font-noto">코로나19 특별재난지역에 파트너 긴급생활비 지원</h6-ancor>
@@ -181,7 +181,7 @@
                                     <b-col class="col-4 text-center fw-500"><div class="mx-auto mb-3"><b-img src="/images/139_6.svg"></b-img></div>
                                         <p class="fw-500 px-sm-2 pt-1 line-height-low font-noto">Initiate Partner Communication 3C* Meeting</p>
                                     </b-col>
-                                    <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, CS Dr., Call center</div>
+                                    <div class="gray6 f-80 w-100 fw-300 text-right mt-2">* 3C: Cody, Service manager, Call center</div>
                                 </b-row>
                             </b-col>
                             <b-col class="col-12 col-md-4 position-relative pl-md-4">
@@ -216,7 +216,7 @@
                     
                     <hr class="py-3">
                     <div class="d-flex mb-3 position-relative overflow-hidden"> <h6-ancor hash="s2" :activated="activated" class="gold7 f-130 fw-500 bg-white pr-5" style="z-index:10">Cooperation and Communication</h6-ancor><div class="horizontal-line-2 gold-line position-absolute" style="z-index:8"></div></div>
-                        <p class="mb-5"> To clearly understand the site, Coway holds a 3C (Cody, CS Dr., Call center) meeting and listens to VOC and shared across the company. The 3C meeting is a regular meeting consisting of Codys, CS Doctors, and representatives of call centers working at Coway's primary customer interfaces. In 2019, Coway drew up tasks based on nine types of VOCs through 3C meetings, including products, Customer Service, and education, and promoted improvement activities with related departments.
+                        <p class="mb-5"> To clearly understand the site, Coway holds a 3C (Cody, Service manager, Call center) meeting and listens to VOC and shared across the company. The 3C meeting is a regular meeting consisting of Codys, CS Doctors, and representatives of call centers working at Coway's primary customer interfaces. In 2019, Coway drew up tasks based on nine types of VOCs through 3C meetings, including products, Customer Service, and education, and promoted improvement activities with related departments.
                         </p>
                     
                     <h6-ancor hash="s2-1" :activated="activated" class="gold6 fw-500 mb-3 font-noto">Emergency Relief for Partners in COVID-19 Special Disaster Areas</h6-ancor>
