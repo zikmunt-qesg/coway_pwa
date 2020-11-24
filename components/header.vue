@@ -1,69 +1,69 @@
 <template>
   <header class="sticky-top" @mouseleave="show_sub_menu=false">
-    <div class="position-relative">
-        <b-navbar class="px-3 px-sm-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" :class="sm_opend==true ? 'shadow-sm-lg-none':''" toggleable="lg" variant="light" style="z-index:10">
-            <b-navbar-brand class="my-2 pb-2">
-                <nuxt-link to="/">
-                    <b-img class="header-logo mr-2" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability</span>
-                </nuxt-link>
-            </b-navbar-brand>   
+        <div class="position-relative">
+            <b-navbar class="px-3 px-sm-5 py-0 d-lg-flex justify-content-lg-center bg-white position-relative" :class="sm_opend==true ? 'shadow-sm-lg-none':''" toggleable="lg" variant="light" style="z-index:10">
+                <b-navbar-brand class="my-2 pb-2">
+                    <nuxt-link to="/">
+                        <b-img class="header-logo mr-2" src="/images/coway-ci.svg" alt="Logo" /><span class="f-80 font-noto align-self-center d-none d-md-inline color-for-nav">Sustainability</span>
+                    </nuxt-link>
+                </b-navbar-brand>   
 
-            <div class="d-lg-flex flex-lg-row-reverse justify-content-end justify-content-lg-start jump-width" >
-                <div class="d-flex justify-content-end align-items-center jump-up">                
-                    <b-nav-item class="pl-lg-3 pt-1 pb-1 px-0 handle-px1" style="list-style: none"><b-button-group class="d-flex align-items-center">
-                        <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button><span class="f-85">|</span>
-                        <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
-                    </b-button-group></b-nav-item>
-                    <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
-                    <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap">
-                        <transition name="map-icon"><b-img v-if="show_site_map!=true" src="/images/201_1.svg"></b-img> <b-img v-else src="/images/200.svg"></b-img></transition> </b-nav-item>
+                <div class="d-lg-flex flex-lg-row-reverse justify-content-end justify-content-lg-start jump-width" >
+                    <div class="d-flex justify-content-end align-items-center jump-up">                
+                        <b-nav-item class="pl-lg-3 pt-1 pb-1 px-0 handle-px1" style="list-style: none"><b-button-group class="d-flex align-items-center">
+                            <b-button @click.stop="toggleLang()" :disabled="is_ENG!=true" :class="[is_ENG==true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">KOR</b-button><span class="f-85">|</span>
+                            <b-button @click.stop="toggleLang()" :disabled="is_ENG==true" :class="[is_ENG!=true? 'active' : 'not-active','px-1 f-80']" size="sm" variant="white">ENG</b-button>
+                        </b-button-group></b-nav-item>
+                        <b-nav-item class="pl-lg-1 px-0 color-for-nav handle-px2" style="list-style: none" @click="toggleSearchForm"><i class="fas fa-search"></i></b-nav-item>
+                        <b-nav-item class="d-none d-lg-block sitemap" @click.stop="toggleSiteMap">
+                            <transition name="map-icon"><b-img v-if="show_site_map!=true" src="/images/201_1.svg"></b-img> <b-img v-else src="/images/200.svg"></b-img></transition> </b-nav-item>
 
-                    <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2" @click="sm_opend = !sm_opend"></b-navbar-toggle>
-                </div>
-                <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto" :class="sm_opend==true ? 'pb-if-show':''">
-                    <b-navbar-nav class="ml-lg-3 align-self-center" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
-                        <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-0 py-2 f-85 global-nav-lv1']" :style="show_site_map!=true ?'cursor:pointer':''" >
-                            <span @click.stop="showSubMenu(item)" :class="show_site_map!=true ? 'd-none d-lg-inline-block f-85' : 'text-white'">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
-                        </div>
-                            <ul v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 custom-ul" >
-                            <li @click.stop="routerGo(level2_item.link)"> {{ is_ENG!=true ? `${level2_item.title}`:`${level2_item.title_en}` }}</li>
-                            </ul> 
-                            <!-- <div class="d-block d-lg-none f-60">&nbsp;</div>     -->
-                    </b-navbar-nav>
-                </b-collapse>
-            </div>           
-        </b-navbar>
-
-        <div id="global-nav" :class="[show_sub_menu==true &&show_site_map!=true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
-            <b-container>
-            <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
-                <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300 letter-narrow" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">
-                    <span :class="is_ENG!=true? '':'line-height-low'">{{ is_ENG!=true? menu_text:menu_text_en }}</span> 
-                </b-col>
-                <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
-                    <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
-                        <nuxt-link v-if="is_ENG!=true" :to="{ path: level2_item.link  }" @click="show_sub_menu=false">
-                            <div class="global-nav-2 lv2-text f-95">{{ level2_item.title }}</div>
-                        </nuxt-link>
-                        <nuxt-link v-else :to="{ path: level2_item.link, query: { l: 'ENG'} }" @click="show_sub_menu=false">
-                            <div class="global-nav-2 lv2-text-eng f-90">{{ level2_item.title_en }}</div>
-                        </nuxt-link>
+                        <b-navbar-toggle target="nav-collapse" class="ml-1 ml-sm-2" @click="sm_opend = !sm_opend"></b-navbar-toggle>
                     </div>
-                </b-col>
-            </b-row>
-            </b-container>
-        </div>
-        <div id="sitemap-modal" :class="[show_site_map==true?'open-sitemap':'','position-absolute w-100']" style="max-height:100vh; z-index:9;">
-            <site-map @show_site_map="toggleSiteMap"></site-map>            
-        </div>
-        
-        <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="">       
-            <div class="py-3 px-4 px-xl-5">
-                <search-form @hide-finder="toggleSearchForm"></search-form>
-            </div>
-        </b-modal>
+                    <b-collapse id="nav-collapse" is-nav style="max-height:60vh" class="overflow-auto" :class="sm_opend==true ? 'pb-if-show':''">
+                        <b-navbar-nav class="ml-lg-3 align-self-center" v-for="item in menu" :key="item.id" @mouseover="showSubMenu(item)">
+                            <div :class="[item.child[0]==sub_menu_item[0] && show_sub_menu==true ? 'nav-active':'','mx-lg-0 py-2 f-85 global-nav-lv1']" :style="show_site_map!=true ?'cursor:pointer':''" >
+                                <span @click.stop="showSubMenu(item)" :class="show_site_map!=true ? 'd-none d-lg-inline-block f-85' : 'text-white'">{{ item.title }}</span> <span @click.stop="routerGo(item.link)" class="d-block d-lg-none">{{ item.title }}</span>
+                            </div>
+                                <ul v-for="level2_item in item.child" :key="level2_item.id" class="d-block d-lg-none global-nav-lv2 custom-ul" >
+                                <li @click.stop="routerGo(level2_item.link)"> {{ is_ENG!=true ? `${level2_item.title}`:`${level2_item.title_en}` }}</li>
+                                </ul> 
+                                <!-- <div class="d-block d-lg-none f-60">&nbsp;</div>     -->
+                        </b-navbar-nav>
+                    </b-collapse>
+                </div>           
+            </b-navbar>
 
-    </div>
+            <div id="global-nav" :class="[show_sub_menu==true &&show_site_map!=true? 'lv2-show':'lv2-hide','d-none d-lg-block w-100 bg-gray6 position-absolute shadow-sm']">
+                <b-container>
+                <b-row no-gutters class="py-4 w-100 d-flex justify-contents-center" >
+                    <b-col class="col-12 col-md-4 col-lg-4 pl-0 pr-md-3 pr-lg-3 f-90 gray3 fw-300 letter-narrow" :class="menu_changed==true? 'lazy-loader':'menu-fadeout'" :key="menu_change_key">
+                        <span :class="is_ENG!=true? '':'line-height-low'">{{ is_ENG!=true? menu_text:menu_text_en }}</span> 
+                    </b-col>
+                    <b-col class="col-12 col-md-8 col-lg-8 pl-2 pl-md-2 pl-lg-3 d-flex justify-content-end flex-wrap">
+                        <div @click="show_sub_menu=false" v-for="level2_item in sub_menu_item" :key="level2_item.id" class="position-relative global-nav-temp">
+                            <nuxt-link v-if="is_ENG!=true" :to="{ path: level2_item.link  }" @click="show_sub_menu=false">
+                                <div class="global-nav-2 lv2-text f-95">{{ level2_item.title }}</div>
+                            </nuxt-link>
+                            <nuxt-link v-else :to="{ path: level2_item.link, query: { l: 'ENG'} }" @click="show_sub_menu=false">
+                                <div class="global-nav-2 lv2-text-eng f-90">{{ level2_item.title_en }}</div>
+                            </nuxt-link>
+                        </div>
+                    </b-col>
+                </b-row>
+                </b-container>
+            </div>
+            <div id="sitemap-modal" :class="[show_site_map==true?'open-sitemap':'','position-absolute w-100']" style="max-height:100vh; z-index:9;">
+                <site-map @show_site_map="toggleSiteMap"></site-map>            
+            </div>
+            
+            <b-modal hide-header hide-footer v-model="show_finder" id="finder-modal" class="">       
+                <div class="py-3 px-4 px-xl-5">
+                    <search-form @hide-finder="toggleSearchForm"></search-form>
+                </div>
+            </b-modal>
+
+        </div>
   </header>
 </template>
 

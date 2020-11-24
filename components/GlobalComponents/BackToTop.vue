@@ -1,6 +1,6 @@
 <template>
 <div>
-    <no-ssr>
+    <client-only>
     <transition name="show-fade" mode="out-in">
         <div v-if="isVisible&&is_ENG!=true" class="position-fixed text-center" style="right:0; top: calc(50vh - 200px);">
             
@@ -74,7 +74,7 @@
             </transition>
         </div>
     </transition>
-    </no-ssr>
+    </client-only>
 </div>
 </template>
 <script>
