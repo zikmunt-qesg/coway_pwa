@@ -62,6 +62,10 @@
                         <hr>
                             <h7 class="f-110 fw-500">환경</h7>  
                             <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/carbon_report_2019.pdf" class="see-policy font-noto" target="_blank">Carbon Report 2019 (국문)</b-button>
+                                <b-button variant="light" href="/documents/carbon_report_2019.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
+                            <b-button-group class="w-100">
                                 <b-button variant="light" href="/documents/carbon_report_2018.pdf" class="see-policy font-noto" target="_blank">Carbon Report 2018 (국문)</b-button>
                                 <b-button variant="light" href="/documents/carbon_report_2018.pdf" download>다운로드 <i class="fas fa-file-download ml-2"></i></b-button>
                             </b-button-group> 
@@ -166,6 +170,10 @@
                             </b-button-group>
                         <hr>
                             <h7 class="f-110 fw-500">Environment</h7>  
+                            <b-button-group class="w-100">
+                                <b-button variant="light" href="/documents/carbon_report_2019.pdf" class="see-policy font-noto" target="_blank">Carbon Report 2019 (Korean)</b-button>
+                                <b-button variant="light" href="/documents/carbon_report_2019.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
+                            </b-button-group> 
                             <b-button-group class="w-100">
                                 <b-button variant="light" href="/documents/carbon_report_2018.pdf" class="see-policy font-noto" target="_blank">Carbon Report 2018 (Korean)</b-button>
                                 <b-button variant="light" href="/documents/carbon_report_2018.pdf" download>Download <i class="fas fa-file-download ml-2"></i></b-button>
